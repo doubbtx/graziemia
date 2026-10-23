@@ -1,0 +1,5 @@
+node_modules
+.data
+.browser-test
+qa
+.git

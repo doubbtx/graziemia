@@ -1,0 +1,13 @@
+
+> arena-wiedzy-online@3.0.0 build
+> node node_modules/vite/bin/vite.js build
+
+vite v8.0.16 building client environment for production...
+[2Ktransforming...✓ 16 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.44 kB │ gzip:  0.29 kB
+dist/assets/index-TNRuv4Ul.css   14.76 kB │ gzip:  4.31 kB
+dist/assets/index-Cewn4Wda.js   218.81 kB │ gzip: 68.63 kB
+
+✓ built in 1.09s

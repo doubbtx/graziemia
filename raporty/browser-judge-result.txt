@@ -1,0 +1,3 @@
+PASS actual browser click on judge reject button applies 3000 ms penalty.
+result: "{\"hasDecision\":true,\"hasPenalty\":true,\"judgeButtons\":3,\"hasAnswer\":true}"
+

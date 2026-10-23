@@ -1,0 +1,9 @@
+
+> arena-wiedzy-online@3.0.0 test:integration
+> node tests/integration.mjs
+
+PASS production HTML served by backend.
+PASS wrong decision: 3000 ms extra penalty, same question/turn, all three clients synchronized.
+PASS contestant cannot judge; stale duplicate cannot apply second penalty.
+PASS undo restores clock/statistics and pauses; resume, good answer, win, category change and next round.
+PASS 18 categories, 900 questions, exactly 50 per category; judge-only answers.
