@@ -27,6 +27,7 @@ export function setConnected(r,id,value,now=Date.now()){tick(r,now);core.setConn
 export function command(r,id,a,now=Date.now()){
  tick(r,now);ok(a.rev===r.rev,'Stan zmienił się. Spróbuj ponownie.');const p=r.players.find(p=>p.id===id);ok(p?.connected,'Brak aktywnej sesji.');const b=snapshot(r);
  if(a.type==='AUDIENCE_ANSWER'){
+  ok(!team(r),'Liga oczekujących jest wyłączona w trybie drużynowym.');
   const d=r.duel;ok(d?.status==='running'&&a.questionKey===d.key,'To pytanie jest już zamknięte.');ok(!d.ids.includes(id)&&d.adminId!==id,'Zawodnicy i sędzia nie typują.');ok(typeof a.text==='string'&&a.text.trim()&&a.text.length<=160,'Odpowiedź: 1–160 znaków.');r.audiencePrivate=r.audiencePrivate||{};const bets=r.audiencePrivate[d.key]||{};ok(!(id in bets),'Masz już zapisany typ na to pytanie.');bets[id]=a.text.trim();r.audiencePrivate[d.key]=bets;r.rev++;r.updated=now;return r;
  }
  if(team(r)&&a.type==='DRAFT_PICK'){
@@ -62,5 +63,6 @@ export function publicState(r,id,now=Date.now()){
  const copy=structuredClone(r);delete copy.audiencePrivate;copy.players.forEach(p=>{delete p.audienceRound;if(p.id!==id)delete p.audienceFeedback;});const s=core.publicState(copy,id,now);if(team(r)){s.players.forEach(player=>{player.lives=3;});s.log.forEach(entry=>delete entry.livesLeft);}
  const d=r.duel;const mine=d&&r.audiencePrivate?.[d.key]?.[id];s.extensionVersion=7;s.audience={eligible:!!d&&d.status==='running'&&!d.ids.includes(id)&&d.adminId!==id,submitted:mine!==undefined,myText:mine||'',points:(r.players.find(p=>p.id===id)?.audienceTenths||0)/10,feedback:r.players.find(p=>p.id===id)?.audienceFeedback||null,ranking:r.players.map(p=>({id:p.id,name:p.name,points:(p.audienceTenths||0)/10})).sort((a,b)=>b.points-a.points)};
  if(team(r)){const playerStats=Object.fromEntries(r.players.map(player=>{const wins=(r.log||[]).filter(entry=>entry.winner===player.id).length,losses=(r.log||[]).filter(entry=>entry.loser===player.id).length,total=wins+losses;return[player.id,{wins,losses,winRate:total?Math.round(wins/total*100):0}]}));s.roundControl={number:r.round+1,category:r.roundCategory||null,choosingTeam:activeTeam(r),captains:{A:captain(r,'A'),B:captain(r,'B')},nominees:r.nominees||{},candidates:{A:nominees(r,'A').map(p=>p.id),B:nominees(r,'B').map(p=>p.id)},teamPoints:Object.fromEntries(['A','B'].map(t=>[t,r.players.filter(p=>p.team===t).reduce((sum,player)=>sum+player.points,0)])),lastNominees:r.teamLastNominees||{A:null,B:null},playerStats,draftTurn:r.teamDraft?.turnTeam||null,draftCandidates:r.teamDraft?r.players.filter(p=>p.team===null&&p.connected).map(p=>p.id):[],draftTeams:r.teamDraft?Object.fromEntries(['A','B'].map(t=>[t,r.players.filter(p=>p.team===t).map(player=>player.id)])):null,categories:free(r),recap:r.roundRecap||null};}
+ if(team(r))delete s.audience;
  return s;
 }

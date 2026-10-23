@@ -52,7 +52,11 @@ test('Team rounds draw unused categories and all cards are disabled',()=>{
  }
  assert.equal(room.phase,'duel');
  assert.equal(room.duel.category,category);
- assert.deepEqual(new Set(publicState(room,room.hostId).roundControl.candidates.A),new Set(room.players.filter(player=>player.team==='A'&&player.connected).map(player=>player.id)));
+ const duelState=publicState(room,room.hostId);
+ assert.deepEqual(new Set(duelState.roundControl.candidates.A),new Set(room.players.filter(player=>player.team==='A'&&player.connected).map(player=>player.id)));
+ assert.equal(Object.hasOwn(duelState,'audience'),false);
+ const audiencePlayer=room.players.find(candidate=>!room.duel.ids.includes(candidate.id)&&candidate.id!==room.duel.adminId);
+ assert.throws(()=>action(audiencePlayer.id,'AUDIENCE_ANSWER',{text:'odpowiedź',questionKey:room.duel.key}),/wyłączona w trybie drużynowym/);
  const player=room.players.find(p=>room.duel.ids.includes(p.id));
  player.card='homecategory';
  player.cardUsed=false;
