@@ -8,6 +8,9 @@
  const theme=document.createElement('style');
  theme.textContent=`#team-v19{background:var(--color-bg);color:var(--color-text)}#team-v19 p{color:var(--color-muted)}#team-v19 .v19-card{border-color:var(--color-border);background:var(--color-panel);color:var(--color-text)}#team-v19 button,#team-v19 select{color:var(--color-text);background:var(--color-panel-raised,var(--color-panel));border-color:var(--color-border)}#team-v19 button:focus-visible,#team-v19 select:focus-visible{outline-color:var(--color-accent)}#team-v19 .v19-primary{color:#fff;background:var(--color-accent);border-color:var(--color-accent)}#team-v19 .v19-player{border-color:var(--color-border)}#team-v19 .v19-turn{border-color:var(--color-accent);box-shadow:0 0 16px color-mix(in srgb,var(--color-accent) 28%,transparent)}#team-v19 .v19-team-A{--team-color:var(--color-accent)}#team-v19 .v19-team-B{--team-color:var(--color-magenta)}#team-v19 .v19-team-A.v19-card,#team-v19 .v19-team-B.v19-card{border-color:var(--team-color)}#team-v19 .v19-team-A.v19-turn,#team-v19 .v19-team-B.v19-turn{box-shadow:0 0 18px color-mix(in srgb,var(--team-color) 30%,transparent)}#team-v19 .v19-choice{border-color:var(--team-color);color:var(--team-color)}#team-v19 .v19-choice:hover:not(:disabled){background:var(--team-color);color:#fff}body.team-v19-active #v10-card,body.team-v19-active #v10-card-reopen,body.v10-team-mode #v10-card,body.v10-team-mode #v10-card-reopen{display:none!important}`;
  document.head.append(theme);
+ const nominationStyle=document.createElement('style');
+ nominationStyle.textContent=`#team-v19 .v19-team-summary{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:10px 12px;border-radius:10px;background:color-mix(in srgb,var(--team-color) 10%,var(--color-panel));border:1px solid color-mix(in srgb,var(--team-color) 45%,var(--color-border))}#team-v19 .v19-team-summary strong{color:var(--team-color);white-space:nowrap}#team-v19 .v19-last-player{font-size:14px}#team-v19 .v19-last-player strong{color:var(--color-text)}#team-v19 .v19-choice{display:flex;flex-direction:column;align-items:flex-start;gap:3px;min-width:min(100%,190px);text-align:left}#team-v19 .v19-choice-name{font-weight:750}#team-v19 .v19-choice-stats{font-size:12px;opacity:.85}#team-v19 .v19-no-candidates{font-weight:650;color:var(--color-muted)}`;
+ document.head.append(nominationStyle);
  const el=(tag,text,parent,cls)=>{const node=document.createElement(tag);if(text!==null)node.textContent=text;if(cls)node.className=cls;if(parent)parent.append(node);return node;};
  const who=id=>state?.players.find(p=>p.id===id)?.name||'Gracz';
  function button(parent,text,enabled,action,data={}){const b=el('button',text,parent);b.disabled=busy||!online||!enabled;b.onclick=()=>send(action,data);return b;}
@@ -73,8 +76,15 @@
     const box=el('section',null,teams,`v19-card v19-team-${team}${me.id===r.captains[team]?' v19-turn':''}`);
     el('h2',`Drużyna ${team}`,box);
     el('p',`Kapitan: ${who(r.captains[team])}`,box);
+    const summary=el('div',null,box,'v19-team-summary');
+    el('span','Punkty drużyny',summary);
+    el('strong',`${r.teamPoints?.[team]??0} pkt`,summary);
+    const last=r.lastNominees?.[team];
+    el('p',last?`Ostatnio wystawiony: ${who(last)}`:'Ostatnio wystawiony: jeszcze nikt',box,'v19-last-player');
     el('p',r.nominees[team]?`Do pojedynku: ${who(r.nominees[team])}`:'Wybierz zawodnika do pojedynku.',box);
-    (r.candidates[team]||[]).forEach(id=>{const b=button(box,who(id),me.id===r.captains[team],'NOMINATE',{playerId:id});b.classList.add('v19-choice',`v19-team-${team}`);});
+    const candidates=r.candidates[team]||[];
+    candidates.forEach(id=>{const stats=r.playerStats?.[id]||{wins:0,losses:0,winRate:0};const b=button(box,null,me.id===r.captains[team],'NOMINATE',{playerId:id});b.classList.add('v19-choice',`v19-team-${team}`);el('span',who(id),b,'v19-choice-name');el('span',`${stats.wins} wygr. · ${stats.losses} przegr. (${stats.winRate}%)`,b,'v19-choice-stats');});
+    if(!candidates.length&&!r.nominees[team])el('p',last?'Ostatnio wystawiony zawodnik jest wyłączony. Czekaj na dostępnego gracza drużyny.':'Brak dostępnych graczy online.','v19-no-candidates',box);
    }
    if(r.recap)el('p',`Poprzedni pojedynek: ${who(r.recap.winner)} pokonał ${who(r.recap.loser)}.`,wrap,'v19-card');
    return;

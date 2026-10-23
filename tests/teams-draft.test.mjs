@@ -68,6 +68,20 @@ test('Team rounds draw unused categories and all cards are disabled',()=>{
  assert.equal(room.phase,'team_nominate');
  assert.ok(room.players.every(player=>player.lives===livesBefore[player.id]));
  assert.ok(publicState(room,room.hostId).teams.every(team=>!Object.hasOwn(team,'lives')));
+ const afterRound=publicState(room,room.hostId),lastByTeam=Object.fromEntries(Object.entries(room.teamLastNominees));
+ assert.deepEqual(afterRound.roundControl.lastNominees,lastByTeam);
+ for(const team of ['A','B']){
+  const last=lastByTeam[team],teamPlayers=room.players.filter(player=>player.team===team);
+  assert.ok(!afterRound.roundControl.candidates[team].includes(last));
+  assert.equal(afterRound.roundControl.candidates[team].length,teamPlayers.length-1);
+  assert.equal(afterRound.roundControl.teamPoints[team],teamPlayers.reduce((sum,player)=>sum+player.points,0));
+  const captain=room.teamDraft.captains[team];
+  assert.throws(()=>action(captain,'NOMINATE',{playerId:last}),/ostatniego zawodnika/);
+ }
+ const win=afterRound.roundControl.playerStats[room.log.at(-1).winner];
+ const loss=afterRound.roundControl.playerStats[room.log.at(-1).loser];
+ assert.deepEqual(win,{wins:1,losses:0,winRate:100});
+ assert.deepEqual(loss,{wins:0,losses:1,winRate:0});
  assert.ok(!room.retired.includes(room.roundCategory));
  assert.notEqual(room.roundCategory,playedCategory);
  player.walletCents=10000;
