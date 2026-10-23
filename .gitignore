@@ -2,3 +2,6 @@ node_modules/
 .data/
 .browser-test/
 .env
+.env.*
+!.env.example
+.vercel/
