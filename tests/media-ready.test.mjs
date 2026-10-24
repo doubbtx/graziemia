@@ -2,7 +2,7 @@ import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {addPlayer, command, createRoom, tick} from '../server/engine.mjs';
 
-function mediaRoom() {
+function mediaRoom(category = 'Stolice') {
   const room = createRoom('123456', 'Sędzia', 'judge-token', 1000);
   const players = [
     room.players[0],
@@ -13,7 +13,7 @@ function mediaRoom() {
   room.duel = {
     ids: players.slice(0, 2).map(player => player.id),
     adminId: players[2].id,
-    category: 'Stolice',
+    category,
     turn: players[0].id,
     remaining: {[players[0].id]: 45000, [players[1].id]: 45000},
     ready: [],
@@ -59,4 +59,20 @@ test('a duel starts as soon as every client has the loaded image', () => {
   assert.equal(room.duel.status, 'running');
   assert.equal(room.duel.lastAt, 1002);
   assert.equal(room.duel.mediaDeadline, null);
+});
+
+test('a preloaded image question starts without waiting for confirmations', () => {
+  const {room, players} = mediaRoom('Flagi na obrazkach');
+  for (const [index, player] of players.entries()) {
+    command(room, player.id, {type: 'MEDIA_PRELOADED', rev: -1, failed: []}, 1000 + index);
+    assert.equal(room.duel.status, index < players.length - 1 ? 'media' : 'running');
+  }
+  assert.equal(room.duel.lastAt, 1002);
+});
+
+test('a player whose copy of the image failed to preload still gets the loading wait', () => {
+  const {room, players} = mediaRoom('Flagi na obrazkach');
+  const image = 'https://flagcdn.com/w640/cz.png';
+  for (const player of players) command(room, player.id, {type: 'MEDIA_PRELOADED', rev: -1, failed: player === players[1] ? [image] : []}, 1000);
+  assert.equal(room.duel.status, 'media');
 });

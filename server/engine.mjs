@@ -5,7 +5,9 @@ import {randomUUID} from 'node:crypto';
 const ok=(x,m)=>{if(!x)throw Error(m);};
 const mediaReadyTimeout=6000;
 const current=r=>r.duel?bank[r.duel.category]?.[r.duel.index]:null;
-function observe(r,now){r.questionRulesVersion=13;r.questionReports=r.questionReports||[];const d=r.duel;if(!d)return;if(d.status==='media'){if(!Number.isFinite(d.mediaDeadline))d.mediaDeadline=now+mediaReadyTimeout;}else d.mediaDeadline=null;if(d.v12Key!==d.key){d.v12Key=d.key;d.v12Since=d.status==='running'?now:null;d.v12Level=0;d.v12Seen=d.v12Seen||[];if(!d.v12Seen.includes(d.index))d.v12Seen.push(d.index);}else if(d.status==='running'&&!Number.isFinite(d.v12Since))d.v12Since=now;else if(d.status!=='running')d.v12Since=null;}
+// Players report once every image is preloaded; then an image question starts at once instead of waiting for IMAGE_READY round trips.
+function skipPreloadedMedia(r,now){const d=r.duel,q=current(r);if(d?.status!=='media'||!q?.image)return false;const ready=[...d.ids,d.adminId].every(id=>{const failed=r.mediaPreload?.[id];return Array.isArray(failed)&&!failed.includes(q.image)});if(!ready)return false;d.status='running';d.lastAt=now;d.mediaReady=[...d.ids,d.adminId];d.mediaDeadline=null;return true;}
+function observe(r,now){r.questionRulesVersion=13;r.questionReports=r.questionReports||[];const d=r.duel;if(!d)return;skipPreloadedMedia(r,now);if(d.status==='media'){if(!Number.isFinite(d.mediaDeadline))d.mediaDeadline=now+mediaReadyTimeout;}else d.mediaDeadline=null;if(d.v12Key!==d.key){d.v12Key=d.key;d.v12Since=d.status==='running'?now:null;d.v12Level=0;d.v12Seen=d.v12Seen||[];if(!d.v12Seen.includes(d.index))d.v12Seen.push(d.index);}else if(d.status==='running'&&!Number.isFinite(d.v12Since))d.v12Since=now;else if(d.status!=='running')d.v12Since=null;}
 function awardNoSkip(r,duel,logLength){
  if(!duel||r.duel===duel||(r.log?.length||0)<=logLength)return;
  const noSkip=duel.ids.filter(playerId=>(duel.skipCounts?.[playerId]||0)===0);
@@ -13,9 +15,11 @@ function awardNoSkip(r,duel,logLength){
  if(noSkip.length&&r.lastDecision)r.lastDecision.text+=' Bez pominięć: +5 pkt dla '+noSkip.map(playerId=>r.players.find(player=>player.id===playerId)?.name||'gracza').join(' i ')+'.';
 }
 export function createRoom(...args){const r=old.createRoom(...args);observe(r,Date.now());return r;}
-export function tick(r,now=Date.now()){const duel=r.duel,logLength=r.log?.length||0,x=old.tick(r,now),mediaTimedOut=!!r.duel&&r.duel.status==='media'&&Number.isFinite(r.duel.mediaDeadline)&&now>=r.duel.mediaDeadline;if(mediaTimedOut){r.duel.status='running';r.duel.lastAt=now;r.rev++;r.updated=now;}awardNoSkip(r,duel,logLength);observe(r,now);return x||mediaTimedOut;}
+export function tick(r,now=Date.now()){const duel=r.duel,logLength=r.log?.length||0,x=old.tick(r,now),skipped=skipPreloadedMedia(r,now),mediaTimedOut=!!r.duel&&r.duel.status==='media'&&Number.isFinite(r.duel.mediaDeadline)&&now>=r.duel.mediaDeadline;if(mediaTimedOut){r.duel.status='running';r.duel.lastAt=now;r.rev++;r.updated=now;}if(skipped){r.rev++;r.updated=now;}awardNoSkip(r,duel,logLength);observe(r,now);return x||mediaTimedOut||skipped;}
 export function command(r,id,a,now=Date.now()){
- tick(r,now);ok(a.rev===r.rev,'Stan gry zmienił się.');const p=r.players.find(p=>p.id===id);ok(p?.connected,'Brak sesji.');const d=r.duel,q=current(r);
+ tick(r,now);
+ // Idempotent status report, accepted regardless of revision so a busy room cannot starve it.
+ if(a.type==='MEDIA_PRELOADED'){ok(r.players.some(p=>p.id===id),'Brak sesji.');ok(Array.isArray(a.failed)&&a.failed.length<=1000&&a.failed.every(x=>typeof x==='string'&&x.length<=500),'Nieprawidłowa lista obrazków.');r.mediaPreload={...r.mediaPreload,[id]:a.failed};observe(r,now);r.rev++;r.updated=now;return r;}ok(a.rev===r.rev,'Stan gry zmienił się.');const p=r.players.find(p=>p.id===id);ok(p?.connected,'Brak sesji.');const d=r.duel,q=current(r);
  if(['Q12_REPORT','Q12_HINT','Q12_SKIP'].includes(a.type)){
   ok(d&&q&&d.status==='running'&&a.questionKey===d.key,'To pytanie nie jest już aktywne.');
   if(a.type==='Q12_REPORT'){
@@ -59,7 +63,7 @@ export function command(r,id,a,now=Date.now()){
  observe(r,now);return result;
 }
 export function publicState(r,id,now=Date.now()){
- const s=old.publicState(r,id,now),d=r.duel,q=current(r);s.questionRulesVersion=13;
+ const s=old.publicState(r,id,now),d=r.duel,q=current(r);s.questionRulesVersion=13;s.mediaPreloaded=Array.isArray(r.mediaPreload?.[id]);delete s.mediaPreload;
  if(d&&q&&s.duel&&d.status==='running'){delete s.duel.clues;delete s.duel.v12Seen;const level=d.v12Level||0;if(q.format==='clues')s.duel.prompt=q.prompt+'\n'+q.clues.slice(0,level+1).map((x,i)=>(i+1)+'. '+x).join('\n');s.questionPanel={key:d.key,format:q.format||'standard',judge:d.adminId===id,canHint:d.adminId===id&&q.format==='clues'&&level<q.clues.length-1&&d.status==='running',canSkip:d.adminId===id&&d.status==='running'&&Number.isFinite(d.expire),reported:(r.questionReports||[]).some(x=>x.key===d.key&&x.by===id)};}
  // Only host/judge receive full reports; no answer keys included.
  s.questionReports=(r.hostId===id||d?.adminId===id)?structuredClone(r.questionReports||[]):(r.questionReports||[]).filter(x=>x.by===id).map(x=>({...x}));return s;

@@ -5,14 +5,16 @@ import './arena.css';
 
 function saved() { try { return JSON.parse(sessionStorage.getItem('arena-v6') || 'null'); } catch { return null; } }
 const loadedImageUrls = new Set();
+// Decoded images are kept referenced so the browser can paint them instantly when a question shows up.
+const decodedImages = [];
 function preloadImage(url, signal) {
   return new Promise(resolve => {
     const image = new Image();
-    let timeout;
-    const finish = loaded => { clearTimeout(timeout); signal.removeEventListener('abort', abort); image.onload = image.onerror = image.onabort = null; if (loaded) loadedImageUrls.add(url); resolve(loaded); };
+    let timeout, settled = false;
+    const finish = loaded => { if (settled) return; settled = true; clearTimeout(timeout); signal.removeEventListener('abort', abort); image.onload = image.onerror = image.onabort = null; if (loaded) { loadedImageUrls.add(url); decodedImages.push(image); } resolve(loaded); };
     const abort = () => { image.src = ''; finish(false); };
     image.decoding = 'async'; image.fetchPriority = 'low'; image.referrerPolicy = 'no-referrer';
-    image.onload = () => finish(true); image.onerror = image.onabort = () => finish(false);
+    image.onload = () => image.decode().catch(() => {}).then(() => finish(true)); image.onerror = image.onabort = () => finish(false);
     signal.addEventListener('abort', abort, {once: true});
     timeout = setTimeout(() => { image.src = ''; finish(false); }, 15000);
     image.src = url;
@@ -36,7 +38,7 @@ export default function Arena() {
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme; document.documentElement.style.colorScheme = theme;
-    const meta = document.querySelector('meta[name="theme-color"]'); if (meta) meta.content = theme === 'dark' ? '#0b0f19' : '#f4f5fa';
+    const meta = document.querySelector('meta[name="theme-color"]'); if (meta) meta.content = theme === 'dark' ? '#000000' : '#f5f5f7';
     try { localStorage.setItem('arena-theme', theme); } catch {}
   }, [theme]);
   useEffect(() => { if (!notice) return; const t = setTimeout(() => setNotice(''), 4000); return () => clearTimeout(t); }, [notice]);
@@ -105,17 +107,18 @@ export default function Arena() {
         const images = [...new Set((await response.json()).images.filter(url => typeof url === 'string' && url))];
         if (cancelled) return;
         let next = 0, done = 0, failed = 0;
+        const failedUrls = [];
         setImagePreload({status: 'loading', done, total: images.length, failed});
         const worker = async () => {
           while (!cancelled) {
             const url = images[next++]; if (!url) return;
             const ok = await preloadImage(url, controller.signal); if (cancelled) return;
-            done++; if (!ok) failed++;
+            done++; if (!ok) { failed++; failedUrls.push(url); }
             if (done % 8 === 0 || done === images.length) setImagePreload({status: 'loading', done, total: images.length, failed});
           }
         };
-        await Promise.all(Array.from({length: Math.min(4, images.length)}, worker));
-        if (!cancelled) setImagePreload({status: 'complete', done, total: images.length, failed});
+        await Promise.all(Array.from({length: Math.min(6, images.length)}, worker));
+        if (!cancelled) setImagePreload({status: 'complete', done, total: images.length, failed, failedUrls});
       } catch (e) { if (!cancelled && e.name !== 'AbortError') setImagePreload({status: 'error', message: e.message, done: 0, total: 0, failed: 0}); }
     })();
     return () => { cancelled = true; controller.abort(); };
@@ -134,6 +137,11 @@ export default function Arena() {
   useEffect(() => {
     if (d?.status === 'media' && (loaded === d.questionKey || loadedImageUrls.has(d.image)) && (judge || participant) && !d.mediaReady.includes(room.you) && !busy && online) send('IMAGE_READY', {questionKey: d.questionKey});
   }, [room?.rev, d?.status, d?.questionKey, d?.image, loaded, imagePreload?.done, busy, online]);
+
+  // Tell the server once every image is ready, so image questions start without a loading pause.
+  useEffect(() => {
+    if (imagePreload?.status === 'complete' && room && !room.mediaPreloaded && online && !busy) send('MEDIA_PRELOADED', {failed: imagePreload.failedUrls || []});
+  }, [imagePreload?.status, room?.mediaPreloaded, room?.rev, online, busy]);
 
   useEffect(() => {
     const fn = e => {
@@ -272,7 +280,7 @@ export default function Arena() {
         {d.visual && <div className="visual-riddle" role="img" aria-label="Rebus do rozpoznania">{d.visual}</div>}
         {d.privateHint && !publicView && <div className="notice notice--hint">{d.privateHint}</div>}
         {d.audio && judge && !publicView && <div><p className="muted small">Odtwórz przez wspólny kanał głosowy. Na czas odsłuchu włącz pauzę.</p><audio controls preload="none" src={d.audio}/></div>}
-        {d.image && imageError !== d.questionKey && <img className="quiz-image" key={d.questionKey} src={d.image} alt="Obrazek do rozpoznania" referrerPolicy="no-referrer" onLoad={() => setLoaded(d.questionKey)} onError={() => { setImageError(d.questionKey); setLoaded(d.questionKey); }}/>}
+        {d.image && imageError !== d.questionKey && <img className="quiz-image" decoding="sync" key={d.questionKey} src={d.image} alt="Obrazek do rozpoznania" referrerPolicy="no-referrer" onLoad={() => setLoaded(d.questionKey)} onError={() => { setImageError(d.questionKey); setLoaded(d.questionKey); }}/>}
         {imageError === d.questionKey && (d.emoji ? <div className="emoji-fallback" role="img" aria-label="Ilustracja do rozpoznania">{d.emoji}</div> : <p>Grafika niedostępna. Sędzia może unieważnić pytanie bez kary.</p>)}
         <p className="muted">{d.status === 'media' ? `Wczytano u ${d.mediaReady.length}/3 osób.` : `Odpowiada ${pname(d.turn)}.`}</p>
       </>}
