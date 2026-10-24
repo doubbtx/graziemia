@@ -35,15 +35,18 @@ const categoryEmojis = {
   'jezyk polski': '✍️',
   'rebusy emoji': '🧩',
   'co tu nie pasuje?': '🔎',
-  'prawda/fałsz': '⚖️',
+  'prawda/falsz': '⚖️',
   'league of legends': '🎮',
   'marki i logotypy': '🏷️',
   'rozpoznawanie jezykow': '🗣️',
   'znaki drogowe': '🚦',
+  'wiecej czy mniej?': '⚖️',
+  'co bylo wczesniej?': '⏳',
+  'brakujace litery': '🔤',
 };
 
 export function getCategoryEmoji(category) {
-  const key = category.trim().toLocaleLowerCase('pl').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  const key = category.trim().toLocaleLowerCase('pl').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ł/g, 'l');
   return categoryEmojis[key] || '🎯';
 }
 
