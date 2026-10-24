@@ -1,8 +1,8 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {addPlayer, createRoom, tick} from '../server/engine.mjs';
+import {addPlayer, command, createRoom, tick} from '../server/engine.mjs';
 
-test('image loading cannot block a duel for more than six seconds', () => {
+function mediaRoom() {
   const room = createRoom('123456', 'Sędzia', 'judge-token', 1000);
   const players = [
     room.players[0],
@@ -26,6 +26,11 @@ test('image loading cannot block a duel for more than six seconds', () => {
     cycle: 1,
     lastActionAt: null,
   };
+  return {room, players};
+}
+
+test('image loading cannot block a duel for more than six seconds', () => {
+  const {room} = mediaRoom();
 
   assert.equal(tick(room, 1000), false);
   assert.equal(room.duel.mediaDeadline, 7000);
@@ -34,4 +39,24 @@ test('image loading cannot block a duel for more than six seconds', () => {
   assert.equal(tick(room, 7000), true);
   assert.equal(room.duel.status, 'running');
   assert.equal(room.duel.lastAt, 7000);
+});
+
+test('a duel starts as soon as every client has the loaded image', () => {
+  const {room, players} = mediaRoom();
+
+  for (const [index, player] of players.entries()) {
+    command(room, player.id, {
+      type: 'IMAGE_READY',
+      rev: room.rev,
+      questionKey: room.duel.key,
+    }, 1000 + index);
+
+    if (index < players.length - 1) {
+      assert.equal(room.duel.status, 'media');
+    }
+  }
+
+  assert.equal(room.duel.status, 'running');
+  assert.equal(room.duel.lastAt, 1002);
+  assert.equal(room.duel.mediaDeadline, null);
 });
