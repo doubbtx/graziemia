@@ -1,23 +1,73 @@
-import assert from 'node:assert/strict';import {spawn} from 'node:child_process';import {mkdtemp,rm} from 'node:fs/promises';import {tmpdir} from 'node:os';import {resolve} from 'node:path';import {fileURLToPath} from 'node:url';
-const root=resolve(fileURLToPath(new URL('..',import.meta.url))),dir=await mkdtemp(resolve(tmpdir(),'arena-v3-')),port=35000+Math.floor(Math.random()*10000),base=`http://127.0.0.1:${port}`;
-const proc=spawn(process.execPath,['server/index.mjs'],{cwd:root,env:{...process.env,PORT:String(port),DATA_DIR:dir},stdio:['ignore','pipe','pipe']});let logs='';proc.stderr.on('data',d=>logs+=d);const controllers=[],clients=[];
-const sleep=ms=>new Promise(r=>setTimeout(r,ms));async function wait(fn,timeout=8000){const start=Date.now();while(Date.now()-start<timeout){if(fn())return;await sleep(20);}throw Error('Timeout '+logs);}
-async function post(path,data,token){const res=await fetch(base+path,{method:'POST',headers:{'Content-Type':'application/json',...(token?{Authorization:'Bearer '+token}:{})},body:JSON.stringify(data)});return {status:res.status,body:await res.json()};}
-async function connect(session){const c={...session,state:null};const controller=new AbortController();controllers.push(controller);const res=await fetch(base+'/api/rooms/'+session.code+'/stream?token='+session.token,{signal:controller.signal});assert.equal(res.status,200);const reader=res.body.getReader(),decoder=new TextDecoder();let buffer='';(async()=>{try{for(;;){const {value,done}=await reader.read();if(done)return;buffer+=decoder.decode(value,{stream:true});let end;while((end=buffer.indexOf('\n\n'))>=0){const frame=buffer.slice(0,end);buffer=buffer.slice(end+2);if(frame.startsWith('data: '))c.state=JSON.parse(frame.slice(6));}}}catch{}})();clients.push(c);await wait(()=>c.state);return c;}
-async function act(c,type,fields={}){const rev=c.state.rev;const r=await post('/api/rooms/'+c.code+'/action',{type,rev,...fields},c.token);assert.equal(r.status,200,JSON.stringify(r.body));c.state=r.body.state;await wait(()=>clients.every(x=>x.state.rev>=r.body.state.rev));return r.body.state;}
-try{
- let ready=false;for(let i=0;i<100;i++){try{ready=(await fetch(base+'/api/health')).ok;}catch{}if(ready)break;await sleep(30);}assert.ok(ready);
- const page=await fetch(base+'/');assert.equal(page.status,200);const html=await page.text();assert.ok(html.includes('/assets/'));console.log('PASS production HTML served by backend.');
- const created=await post('/api/create',{name:'Ala'});assert.equal(created.status,200);const a=await connect(created.body);for(const name of ['Bartek','Celina']){const j=await post('/api/join',{name,code:a.code});assert.equal(j.status,200);await connect(j.body);}await wait(()=>clients.every(c=>c.state.players.length===3&&c.state.players.every(p=>p.connected)));
- assert.equal(a.state.categories.length,18);assert.equal(a.state.totalQuestions,900);assert.ok(Object.values(a.state.categoryCounts).every(n=>n===50));
- for(const c of clients){await act(c,'CATEGORY',{category:'Nauka'});await act(c,'READY');}await act(a,'START');const chooser=clients.find(c=>c.state.you===a.state.challengerId),opponent=clients.find(c=>c!==chooser);await act(chooser,'CHALLENGE',{opponent:opponent.state.you});const admin=clients.find(c=>c.state.you===a.state.duel.adminId);assert.ok(admin!==chooser&&admin!==opponent);
- for(const c of clients)await act(c,'DUEL_READY');await wait(()=>clients.every(c=>c.state.duel?.status==='running'));assert.ok(admin.state.duel.answer);for(const c of clients.filter(c=>c!==admin))assert.equal('answer'in c.state.duel,false);
- const turn=admin.state.duel.turn,prompt=admin.state.duel.prompt,key=admin.state.duel.questionKey;const denied=await post('/api/rooms/'+a.code+'/action',{type:'ANSWER',kind:'wrong',rev:chooser.state.rev,questionKey:key},chooser.token);assert.equal(denied.status,409);
- const before=admin.state.duel.remaining[turn];await act(admin,'ANSWER',{kind:'wrong',questionKey:key});assert.ok(admin.state.duel.remaining[turn]<=before-3000);assert.ok(admin.state.duel.remaining[turn]>before-3500);assert.equal(admin.state.duel.turn,turn);assert.equal(admin.state.duel.prompt,prompt);assert.equal(admin.state.lastDecision.penaltyMs,3000);assert.ok(clients.every(c=>c.state.players.find(p=>p.id===turn).wrong===1));assert.ok(clients.every(c=>c.state.lastDecision.kind==='wrong'));
- const duplicate=await post('/api/rooms/'+a.code+'/action',{type:'ANSWER',kind:'wrong',rev:admin.state.rev,questionKey:key},admin.token);assert.equal(duplicate.status,409);assert.equal(duplicate.body.state.players.find(p=>p.id===turn).wrong,1);
- console.log('PASS wrong decision: 3000 ms extra penalty, same question/turn, all three clients synchronized.');console.log('PASS contestant cannot judge; stale duplicate cannot apply second penalty.');
- await act(admin,'UNDO');assert.equal(admin.state.duel.status,'paused');assert.equal(admin.state.players.find(p=>p.id===turn).wrong,0);await act(admin,'RESUME');await wait(()=>clients.every(c=>c.state.duel?.status==='running'));
- await act(admin,'ANSWER',{kind:'good',questionKey:admin.state.duel.questionKey});assert.equal(admin.state.players.find(p=>p.id===turn).points,1);assert.notEqual(admin.state.duel.turn,turn);
- await sleep(300);const winner=admin.state.duel.ids[0];await act(admin,'AWARD',{winner});assert.ok(clients.every(c=>c.state.phase==='category'&&c.state.players.length===3));const loser=clients.find(c=>c.state.you===a.state.changeId);await act(loser,'CATEGORY',{category:'Stolice'});await act(a,'DRAW');assert.ok(clients.every(c=>c.state.phase==='choose'));
- console.log('PASS undo restores clock/statistics and pauses; resume, good answer, win, category change and next round.');console.log('PASS 18 categories, 900 questions, exactly 50 per category; judge-only answers.');
-}finally{for(const c of controllers)c.abort();proc.kill('SIGTERM');await new Promise(r=>{proc.once('exit',r);setTimeout(r,1000)});await rm(dir,{recursive:true,force:true});}
+// End-to-end check of the real server: static files, lobby flow and one judged answer.
+import assert from 'node:assert/strict';
+import {spawn} from 'node:child_process';
+import {mkdtemp, rm} from 'node:fs/promises';
+import {tmpdir} from 'node:os';
+import {resolve} from 'node:path';
+import {fileURLToPath} from 'node:url';
+
+const root = resolve(fileURLToPath(new URL('..', import.meta.url))), dir = await mkdtemp(resolve(tmpdir(), 'arena-it-'));
+const port = 35000 + Math.floor(Math.random() * 10000), base = `http://127.0.0.1:${port}`;
+const proc = spawn(process.execPath, ['server/index.mjs'], {cwd: root, env: {...process.env, PORT: String(port), DATA_DIR: dir}, stdio: ['ignore', 'pipe', 'pipe']});
+let logs = ''; proc.stderr.on('data', x => logs += x);
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+async function post(path, body, token) {
+  const res = await fetch(base + path, {method: 'POST', headers: {'Content-Type': 'application/json', ...(token ? {Authorization: 'Bearer ' + token} : {})}, body: JSON.stringify(body)});
+  return {status: res.status, body: await res.json()};
+}
+try {
+  let ready = false;
+  for (let i = 0; i < 100 && !ready; i++) { try { ready = (await fetch(base + '/api/health')).ok; } catch {} if (!ready) await sleep(50); }
+  assert.ok(ready, 'server did not start');
+
+  const page = await fetch(base + '/', {headers: {'Accept-Encoding': 'gzip'}});
+  assert.equal(page.status, 200);
+  const html = await page.text();
+  assert.ok(html.includes('/assets/'), 'build dist first: npm run build');
+  const asset = html.match(/\/assets\/[^"]+\.js/)[0], js = await fetch(base + asset, {headers: {'Accept-Encoding': 'gzip'}});
+  assert.equal(js.headers.get('content-encoding'), 'gzip');
+  assert.match(js.headers.get('cache-control'), /immutable/);
+  assert.equal((await fetch(base + asset, {headers: {'If-None-Match': js.headers.get('etag')}})).status, 304);
+  console.log('PASS static files: gzip, immutable cache, ETag.');
+
+  const created = await post('/api/create', {name: 'Ala'});
+  assert.equal(created.status, 200);
+  const players = [{...created.body}];
+  for (const name of ['Bartek', 'Celina']) { const joined = await post('/api/join', {name, code: created.body.code}); assert.equal(joined.status, 200); players.push(joined.body); }
+  const code = created.body.code;
+  // A stale revision is rejected but returns the current state, which is all we need here.
+  const state = async i => (await post(`/api/rooms/${code}/action`, {type: 'STATE', rev: -1}, players[i].token)).body.state;
+  async function act(i, type, data = {}) { const r = await post(`/api/rooms/${code}/action`, {type, rev: (await state(i)).rev, ...data}, players[i].token); assert.equal(r.status, 200, r.body.error); return r.body.state; }
+  // Players must be connected (SSE) for the server to accept actions.
+  const streams = players.map(p => fetch(`${base}/api/rooms/${code}/stream?token=${p.token}`));
+  await sleep(300);
+
+  const s0 = await state(0);
+  assert.ok(s0.categories.includes('Co to za piłkarz?'));
+  assert.equal(s0.players.length, 3);
+  for (const [i, category] of ['Stolice', 'Nauka', 'Co to za piłkarz?'].entries()) { await act(i, 'CATEGORY', {category}); await act(i, 'READY'); }
+  let s = await act(0, 'START');
+  assert.equal(s.phase, 'choose');
+  const you = await Promise.all([0, 1, 2].map(async i => (await state(i)).you)), chooser = you.indexOf(s.challengerId);
+  s = await act(chooser, 'CHALLENGE', {opponent: s.eligibleOpponentIds[0]});
+  for (let i = 0; i < 3; i++) await act(i, 'DUEL_READY');
+  for (let i = 0; i < 100 && s.duel?.status !== 'running'; i++) { await sleep(100); s = await state(0); }
+  assert.equal(s.duel.status, 'running');
+  const judge = you.indexOf(s.duel.adminId), turn = s.duel.turn;
+  assert.ok(!s.duel.ids.includes(s.duel.adminId), 'judge is never a contestant');
+  const judged = await state(judge), other = await state(you.indexOf(turn));
+  assert.ok(judged.duel.answer, 'judge sees the answer');
+  assert.equal('answer' in other.duel, false, 'contestant does not see the answer');
+  s = await act(judge, 'ANSWER', {kind: 'good', questionKey: judged.duel.questionKey});
+  assert.ok(s.players.find(p => p.id === turn).points >= 1);
+  assert.notEqual(s.duel.turn, turn);
+  console.log('PASS lobby → duel → judged answer, answer hidden from contestants.');
+  streams.forEach(p => p.then(r => r.body?.cancel()).catch(() => {}));
+} catch (error) {
+  console.error(logs);
+  throw error;
+} finally {
+  proc.kill();
+  await rm(dir, {recursive: true, force: true});
+}

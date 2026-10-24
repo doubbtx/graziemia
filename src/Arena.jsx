@@ -1,51 +1,421 @@
-import React,{useState,useEffect,useRef}from'react';
-import {getCategoryEmoji, PixelButton, PixelPanel, PixelTimer, PlayerAvatar, TerritoryTile} from './components.jsx';
+import React, {useEffect, useRef, useState} from 'react';
+import {getCategoryEmoji, PixelTimer, PlayerAvatar, TerritoryTile} from './components.jsx';
+import {AudiencePanel, CardPanel, EconomyDialog, QuestionReports, ShopPanel, TeamScreen, plural} from './panels.jsx';
 import './arena.css';
-const css=`.av5 .judge-actions{position:fixed;bottom:12px;left:50%;transform:translateX(-50%);z-index:1000;width:min(1100px,calc(100vw - 24px));background:#101c30f5;border:1px solid #8aa4cf;border-radius:16px;padding:12px;box-shadow:0 0 25px #0008;justify-content:center!important}.av5.judge-view{padding-bottom:150px}.av5.judge-view .quiz-image{height:min(25vh,180px)}.av5.judge-view .clock{font-size:44px}.av5.judge-view .question{padding:14px;min-height:0}.av5.judge-view .question h2{font-size:24px;margin:10px}.av5.judge-view .special{margin:8px 0;padding:10px}.av5.judge-view .special p{margin:5px}.av5 .visual-riddle{font-size:clamp(42px,7vw,86px);letter-spacing:12px}.av5 .private-hint{border-color:#a78bfa}.av5 audio{max-width:100%}.av5{background:radial-gradient(ellipse at 0 0,#153b55,transparent 55%),#090f1d;color:#edf3ff;min-height:100vh;font:15px system-ui;padding:24px}.av5 *{box-sizing:border-box}.av5 .wrap{max-width:1180px;margin:auto}.av5 header,.av5 .row{display:flex;gap:12px;align-items:center;flex-wrap:wrap;justify-content:space-between}.av5 header{padding:15px 0 24px;border-bottom:1px solid #3d5272;margin-bottom:25px}.av5 h1{font-size:clamp(36px,5vw,64px);letter-spacing:-2px;line-height:1.1}.av5 h2{font-size:25px}.av5 h3{margin:8px 0}.av5 p{line-height:1.75}.av5 .muted{color:#adc0dc;font-size:13px}.av5 .badge{display:inline-block;border:1px solid #496382;border-radius:20px;padding:6px 10px;font-size:11px;margin:4px}.av5 .card{background:linear-gradient(130deg,#192940,#111c30);border:1px solid #3b5274;border-radius:21px;padding:24px;margin:18px 0}.av5 button{font:inherit;border:1px solid #50698d;background:#233a57;color:white;padding:12px 16px;border-radius:12px;cursor:pointer;min-height:44px}.av5 button:disabled{opacity:.38;cursor:not-allowed}.av5 button:hover:not(:disabled){background:#34577f}.av5 button:focus-visible,.av5 input:focus-visible,.av5 select:focus-visible{outline:3px solid #67e8f9;outline-offset:3px}.av5 .primary{background:linear-gradient(110deg,#087c96,#5146bb);border-color:#67e8f9}.av5 .good{background:#086348;border-color:#6ee7b7}.av5 .warn{background:#774c20;border-color:#fcd34d}.av5 input,.av5 select{font:inherit;width:100%;background:#0c182c;color:white;border:1px solid #496384;border-radius:10px;padding:13px;margin:8px 0 15px}.av5 label{display:block;font-size:13px;margin-top:16px}.av5 .two{display:grid;grid-template-columns:1fr 1fr;gap:22px}.av5 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.av5 .grid button{text-align:left}.av5 .grid small{display:block;color:#adc0dc;margin-top:8px}.av5 .categories{max-height:440px;overflow:auto;padding:5px}.av5 .clock{font-size:clamp(48px,7vw,88px);font-weight:850;color:#a5f3fc;font-variant-numeric:tabular-nums;letter-spacing:-3px}.av5 .question{text-align:center;padding:35px 25px;border-color:#7188b2;background:linear-gradient(120deg,#1c3456,#2c2046);min-height:220px}.av5 .question h2{font-size:clamp(24px,3vw,36px)}.av5 .quiz-image{display:block;width:min(100%,400px);height:230px;object-fit:contain;margin:18px auto}.av5 .previous{border-top:1px solid #526f95;margin-top:24px;padding-top:20px;text-align:left}.av5 .previous strong{display:block;color:#a7f3d0;font-size:22px;margin-top:10px}.av5 .notice{padding:16px;border:1px solid #587aa2;background:#19364f;border-radius:13px;margin:16px 0;line-height:1.7}.av5 .error{background:#4a2036;border-color:#fb7185}.av5 .hearts{color:#fb7185;font-size:21px;letter-spacing:3px}.av5 .empty{color:#53637d}.av5 .special{border-color:#a78bfa;background:linear-gradient(120deg,#30204b,#172a48)}.av5 .eyebrow{font-size:10px;letter-spacing:2px;color:#a5f3fc}.av5 .tabs{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0}.av5 .active{border-color:#a5f3fc}.av5 details{margin:20px 0}.av5 summary{cursor:pointer;color:#b7cbe7}.av5 .rank{display:grid;grid-template-columns:30px 1fr auto;gap:12px;padding:18px 0;border-bottom:1px solid #3c5274}.av5 footer{margin-top:40px;padding:22px 0;border-top:1px solid #3b5274;color:#9bb2d2;font-size:11px}.av5 a{color:#a5f3fc}.av5 .out{opacity:.6}@media(max-width:720px){.av5{padding:16px}.av5 .two{grid-template-columns:1fr;gap:8px}.av5 .card{padding:20px}.av5 .clock{font-size:62px}.av5 .quiz-image{height:190px}}`;
-function saved(){try{return JSON.parse(sessionStorage.getItem('arena-v6')||'null')}catch{return null}}
-const loadedImageUrls=new Set();
-function preloadImage(url,signal){return new Promise(resolve=>{const image=new Image();let timeout;const finish=loaded=>{clearTimeout(timeout);signal.removeEventListener('abort',abort);image.onload=null;image.onerror=null;image.onabort=null;if(loaded)loadedImageUrls.add(url);resolve(loaded)};const abort=()=>{image.src='';finish(false)};image.decoding='async';image.fetchPriority='low';image.referrerPolicy='no-referrer';image.onload=()=>finish(true);image.onerror=()=>finish(false);image.onabort=()=>finish(false);signal.addEventListener('abort',abort,{once:true});timeout=setTimeout(()=>{image.src='';finish(false)},15000);image.src=url})}
-export default function Arena(){const[theme,setTheme]=useState(()=>{try{return localStorage.getItem('arena-theme')==='dark'?'dark':'light'}catch{return'light'}}),[session,setSession]=useState(saved),[room,setRoom]=useState(null),[online,setOnline]=useState(false),[busy,setBusy]=useState(false),[error,setError]=useState(''),[notice,setNotice]=useState(''),[name,setName]=useState(''),[code,setCode]=useState(()=>new URLSearchParams(location.search).get('room')||''),[endpoint,setEndpoint]=useState(()=>new URLSearchParams(location.search).get('backend')||import.meta.env.VITE_API_BASE_URL||''),[tab,setTab]=useState('arena'),[search,setSearch]=useState(''),[publicView,setPublicView]=useState(false),[loaded,setLoaded]=useState(null),[imageError,setImageError]=useState(null),[target,setTarget]=useState(''),[cardOpen,setCardOpen]=useState(false),[cardClosing,setCardClosing]=useState(false),[imagePreload,setImagePreload]=useState(null);const ref=useRef(null),sref=useRef(session),conn=useRef(false),lock=useRef(false),cardCloseTimer=useRef(null);sref.current=session;
-useEffect(()=>()=>clearTimeout(cardCloseTimer.current),[]);
-function hideCard(){setCardClosing(true);clearTimeout(cardCloseTimer.current);cardCloseTimer.current=setTimeout(()=>{setCardOpen(false);setCardClosing(false)},180)}
-useEffect(()=>{document.documentElement.dataset.theme=theme;document.documentElement.style.colorScheme=theme;const meta=document.querySelector('meta[name="theme-color"]');if(meta)meta.content=theme==='dark'?'#09090b':'#f9fafb';try{localStorage.setItem('arena-theme',theme)}catch{}},[theme]);
-function accept(r){if(!r||r.code!==sref.current?.code)return;if(r.rulesVersion!==6){setError('Wymagany backend v6. Zainstaluj aktualizację i utwórz nowe lobby.');return}if(ref.current&&(r.rev<ref.current.rev||r.rev===ref.current.rev&&r.serverNow<ref.current.serverNow))return;const previous=ref.current;ref.current=r;if(previous&&previous.duel?.status==='running'&&r.rev===previous.rev&&r.duel?.status==='running'&&r.duel.questionKey===previous.duel.questionKey&&r.duel.turn===previous.duel.turn)return;setRoom(r)}
-function store(s){try{s?sessionStorage.setItem('arena-v6',JSON.stringify(s)):sessionStorage.removeItem('arena-v6')}catch{}sref.current=s;setSession(s);ref.current=null;setRoom(null);conn.current=false;setOnline(false)}
-async function request(path,data,token,base=sref.current?.base||''){const c=new AbortController(),t=setTimeout(()=>c.abort(),12000);try{const res=await fetch(base+path,{method:'POST',headers:{'Content-Type':'application/json',...(token?{Authorization:'Bearer '+token}:{})},body:JSON.stringify(data),signal:c.signal});let x;try{x=await res.json()}catch{throw Error('Backend gry zwrócił nieprawidłową odpowiedź ('+res.status+'). Sprawdź VITE_API_BASE_URL i wdrożenie backendu.')}if(x.state)accept(x.state);if(!res.ok)throw Error(x.error||'Błąd serwera.');return x}catch(e){if(e.name==='AbortError')throw Error('Serwer nie odpowiedział.');throw e}finally{clearTimeout(t)}}
-async function enter(create){if(lock.current)return;lock.current=true;setBusy(true);setError('');try{const base=endpoint.trim().replace(/\/$/,'');if(base&&!/^https?:\/\//.test(base))throw Error('Podaj adres HTTP lub HTTPS.');const s=await request(create?'/api/create':'/api/join',{name:name.trim(),code},null,base);if(new URLSearchParams(location.search).has('room')){const url=new URL(location.href);url.searchParams.delete('room');url.searchParams.delete('backend');history.replaceState(null,'',url)}store({...s,base})}catch(e){setError(e.message)}finally{lock.current=false;setBusy(false)}}
-async function send(type,data={}){if(lock.current||!conn.current||!ref.current)return;lock.current=true;setBusy(true);setError('');try{await request('/api/rooms/'+sref.current.code+'/action',{type,rev:ref.current.rev,...data},sref.current.token)}catch(e){setError(e.message)}finally{lock.current=false;setBusy(false)}}
-useEffect(()=>{if(!session)return;let active=true;const es=new EventSource((session.base||'')+'/api/rooms/'+session.code+'/stream?token='+encodeURIComponent(session.token));es.onopen=()=>{if(active){conn.current=true;setOnline(true)}};es.onmessage=e=>{if(active)try{accept(JSON.parse(e.data));conn.current=true;setOnline(true)}catch{setError('Nieprawidłowy stan serwera.')}};es.onerror=()=>{if(active){conn.current=false;setOnline(false)}};return()=>{active=false;es.close();conn.current=false}},[session]);
-useEffect(()=>{if(!session){setImagePreload(null);return}const controller=new AbortController();let cancelled=false;setImagePreload({status:'loading',done:0,total:null,failed:0});async function preload(){try{const response=await fetch((session.base||'')+'/api/rooms/'+session.code+'/media',{headers:{Authorization:'Bearer '+session.token},signal:controller.signal});if(!response.ok)throw Error('Nie udało się pobrać listy obrazków ('+response.status+').');const payload=await response.json(),images=[...new Set(payload.images.filter(url=>typeof url==='string'&&url))];if(cancelled)return;setImagePreload({status:'loading',done:0,total:images.length,failed:0});let next=0,done=0,failed=0;const worker=async()=>{while(!cancelled){const url=images[next++];if(!url)return;const loaded=await preloadImage(url,controller.signal);if(cancelled)return;done++;if(!loaded)failed++;if(done%4===0||done===images.length)setImagePreload({status:'loading',done,total:images.length,failed})}};await Promise.all(Array.from({length:Math.min(3,images.length)},worker));if(!cancelled)setImagePreload({status:'complete',done,total:images.length,failed})}catch(error){if(!cancelled&&error.name!=='AbortError')setImagePreload({status:'error',message:error.message,done:0,total:0,failed:0})}}preload();return()=>{cancelled=true;controller.abort()}},[session]);
-const d=room?.duel,me=room?.players.find(p=>p.id===room.you),host=!!room&&room.hostId===room.you,judge=!!d&&d.adminId===room.you,participant=!!d&&d.ids.includes(room.you),disabled=busy||!online,person=id=>room?.players.find(p=>p.id===id),pname=id=>person(id)?.name||'Gracz',alive=room?.players.filter(p=>p.lives>0)||[],rank=room?[...room.players].sort((a,b)=>b.lives-a.lives||b.points-a.points||b.trophies.length-a.trophies.length):[],scoreRank=room?[...room.players].sort((a,b)=>b.points-a.points||b.wins-a.wins||b.correct-a.correct):[],myCard=room?.cardTypes?.[me?.card],displayCategory=p=>room.settings.mode==='teams'?room.roundControl?.category||d?.category:p.category||(d?.ids.includes(p.id)?d.category:null);
-useEffect(()=>{if(d?.status==='media'&&(loaded===d.questionKey||loadedImageUrls.has(d.image))&&(judge||participant)&&!d.mediaReady.includes(room.you)&&!busy&&online)send('IMAGE_READY',{questionKey:d.questionKey})},[room?.rev,d?.status,d?.questionKey,d?.image,loaded,imagePreload?.done,busy,online]);
-useEffect(()=>{const fn=e=>{if(e.repeat||e.ctrlKey||e.metaKey||e.altKey||e.target.isContentEditable||['INPUT','SELECT','TEXTAREA','BUTTON'].includes(e.target.tagName))return;if(e.key.toLowerCase()==='h'){setPublicView(v=>!v);return}const r=ref.current,q=r?.duel;if(!q||q.adminId!==r.you)return;if(e.code==='Space'){e.preventDefault();send(q.status==='paused'?'RESUME':'PAUSE')}if(q.status==='running'&&e.code==='ArrowRight'){e.preventDefault();send('ANSWER',{kind:'good',questionKey:q.questionKey})}if(q.status==='running'&&e.key.toLowerCase()==='p')send('ANSWER',{kind:'skip',questionKey:q.questionKey});if(e.key.toLowerCase()==='z'&&r.canUndo)send('UNDO')};window.addEventListener('keydown',fn);return()=>window.removeEventListener('keydown',fn)},[]);
-const hearts=(p,label=p.name?`Życia gracza ${p.name}`:'Życia drużyny')=><span className="life-meter" role="img" aria-label={`${label}: ${p.lives} z 3`}><span className="life-meter__segments" aria-hidden="true">{[0,1,2].map(index=><span className={`life-meter__segment${index<p.lives?' is-filled':''}`} key={index}/>)}</span><span className="life-meter__count">{p.lives}<span className="visually-hidden"> z 3</span></span></span>;
-const previous=()=>room?.previous&&<section className="previous" aria-live="polite"><span className="muted">Odpowiedź na poprzednie pytanie:</span><strong>{room.previous.answer}</strong><details><summary>Pokaż poprzednie pytanie</summary><p>{room.previous.prompt}</p></details></section>;
-const categoryGrid=()=>{const availableCount=room.availableCategories.length,playedCount=room.retired.length,questionCount=Object.values(room.categoryCounts).reduce((sum,count)=>sum+count,0),filteredCategories=room.categories.filter(c=>c.toLocaleLowerCase('pl').includes(search.toLocaleLowerCase('pl')));return <div className="category-picker"><div className="category-picker__stats" aria-label="Dostępność kategorii"><div><strong>{availableCount}</strong><span>wolnych</span></div><div><strong>{playedCount}</strong><span>rozegranych</span></div><div><strong>{questionCount}</strong><span>pytań</span></div><div><strong>{filteredCategories.length}/{room.categories.length}</strong><span>kategorii</span></div></div><label className="category-picker__search" htmlFor="category-search"><span>Szukaj kategorii</span></label><input id="category-search" className="category-picker__search-input" type="search" aria-label="Szukaj kategorii" value={search} onChange={e=>setSearch(e.target.value)} placeholder="np. geografia, muzyka…"/><div className="grid categories">{filteredCategories.map(c=>{const selected=me.category===c,retired=room.retired.includes(c),available=room.availableCategories.includes(c),state=selected?'selected':retired?'played':available?'available':'locked';const status=retired?'Rozegrana':selected?'Twoja':available?'Wolna':'Zajęta';return <TerritoryTile key={c} category={c} count={room.categoryCounts[c]} status={status} state={state} selected={selected} disabled={disabled||!available} onClick={()=>send('CATEGORY',{category:c})}/>})}</div><div className={`category-picker__selection${me.category?' has-selection':''}`} aria-live="polite"><span className="eyebrow">{me.category?'WYBRANA KATEGORIA':'TWÓJ WYBÓR'}</span><span className="category-picker__selected-emoji" aria-hidden="true">{me.category?getCategoryEmoji(me.category):'✦'}</span><strong>{me.category||'Wybierz kategorię'}</strong><span>{me.category?`${room.categoryCounts[me.category]||0} pytań`:'Kliknij dostępny kafelek. Wybór możesz zmienić przed startem.'}</span>{me.category&&<span className="category-picker__availability"><i aria-hidden="true"/> Zarezerwowana dla Ciebie</span>}</div></div>};
-const arenaSidebar=()=>room.phase==='lobby'?null:<aside className="arena-sidebar"><section className="card arena-sidebar__section"><div className="players-heading"><div><span className="eyebrow">ARENA · ZAWODNICY</span><h2>Gracze</h2></div><span className="players-heading__count">{alive.length}/{room.players.length}</span></div><div className="arena-roster">{room.players.map(p=><article className={`arena-roster__player${p.id===me.id?' is-self':''}${p.id===d?.turn?' is-turn':''}`} data-team={p.team||''} key={p.id}><div className="arena-roster__heading"><PlayerAvatar name={p.name} color={p.team==='A'?'cyan':p.team==='B'?'magenta':'violet'}/><div className="arena-roster__identity"><strong>{p.name}{p.id===me.id?' · TY':''}</strong><span>{p.team?`Drużyna ${p.team} · `:''}{p.connected?'Online':'Offline'}{p.id===d?.turn?' · Odpowiada':''}</span></div><strong className="arena-roster__points">{p.points}<small>pkt</small></strong></div>{room.settings.mode!=='teams'&&<div className={`arena-roster__category${displayCategory(p)?' has-category':''}`}><span>KATEGORIA</span><strong>{displayCategory(p)?<><span aria-hidden="true">{getCategoryEmoji(displayCategory(p))}</span>{displayCategory(p)}</>:'Brak wybranej kategorii'}</strong></div>}<div className="arena-roster__stats">{room.settings.mode!=='teams'&&hearts(p)}<span>{p.wins} wygr.</span><span>{p.correct} odp.</span><span>{p.trophies.length} zdob.</span></div><p className="arena-roster__card">{p.armed?`Aktywna karta: ${room.cardTypes[p.armed]?.name||p.armed}`:p.card?`Karta ${p.cardUsed?'użyta':'gotowa'}: ${room.cardTypes[p.card]?.name||p.card}`:'Brak karty'}{room.duel?.skip5?.playerId===p.id?` · Bezpłatne pominięcia: ${room.duel.skip5.remaining}/5`:''}</p>{p.trophies.length>0&&<details><summary>Zdobyte kategorie ({p.trophies.length})</summary><p>{p.trophies.join(' · ')}</p></details>}{room.phase==='choose'&&room.challengerId===me.id&&p.id!==me.id&&<button className="primary arena-roster__challenge" disabled={disabled||!room.eligibleOpponentIds.includes(p.id)} onClick={()=>send('CHALLENGE',{opponent:p.id})}>{room.protectedId===p.id&&alive.length>2?'Runda ochrony':'Wyzywam'}</button>}</article>)}</div></section><section className="card arena-sidebar__section arena-scoreboard"><span className="eyebrow">PUNKTACJA</span><h2>Ranking punktów</h2>{scoreRank.map((p,index)=><div className="arena-scoreboard__row" key={p.id}><strong className="arena-scoreboard__place">{index+1}</strong><div><strong>{p.name}</strong><small>{p.wins} wygranych · {p.correct} poprawnych</small></div><b>{p.points}<small>pkt</small></b></div>)}</section>{(room.lastDecision||room.log.length>0)&&<section className="card arena-sidebar__section"><span className="eyebrow">OSTATNIE WYDARZENIA</span>{room.lastDecision&&<p className="arena-sidebar__event">{room.lastDecision.text}</p>}{room.log.slice(-3).reverse().map(log=><p className="arena-sidebar__event" key={log.round}>Runda {log.round}: {pname(log.winner)} pokonuje {pname(log.loser)} · {log.category}{room.settings.mode!=='teams'&&<> ? {log.livesLeft} ?y?</>}</p>)}</section>}</aside>;
-async function invite(){try{const u=new URL(location.href);u.search='';u.hash='';u.searchParams.set('room',room.code);if(session.base)u.searchParams.set('backend',session.base);await navigator.clipboard.writeText(u.toString());setNotice('Skopiowano zaproszenie.')}catch{setNotice('Udostępnij adres gry i kod '+room.code)}}
-return <main className={`av5${judge?' judge-view':''}${d?' is-duel':''}`}><div className="wrap"><header><div><span className="eyebrow">ARCADE QUIZ · POJEDYNKI ONLINE</span><h2><span aria-hidden="true">▣</span> PIXEL ARENA <span className="badge">SHOW · V6</span></h2></div><div className="row">{session&&<span className="badge">{online?'● Online':'○ Łączenie…'}</span>}<button className="theme-toggle" type="button" aria-label={theme==='dark'?'Włącz jasny motyw':'Włącz ciemny motyw'} aria-pressed={theme==='dark'} onClick={()=>setTheme(current=>current==='dark'?'light':'dark')}>{theme==='dark'?'☀ Jasny':'◐ Ciemny'}</button><button onClick={()=>{const p=document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen();p?.catch(e=>setError(e.message))}}>Pełny ekran</button>{room&&<button onClick={()=>setPublicView(v=>!v)}>{publicView?'Mój panel':'Widok publiczny'} · H</button>}</div></header>
-{error&&<div role="alert" className="notice error">{error} <button onClick={()=>setError('')}>Zamknij</button></div>}{notice&&<div role="status" className="notice">{notice} <button onClick={()=>setNotice('')}>OK</button></div>}
-{new URLSearchParams(location.search).get('room')&&<form className="card invite-entry" onSubmit={e=>{e.preventDefault();enter(false)}}><h2>Dołącz do gry</h2><label>Nazwa gracza<input aria-label="Nazwa gracza" autoComplete="nickname" autoFocus maxLength={24} value={name} onChange={e=>setName(e.target.value)}/></label><PixelButton className="primary" type="submit" disabled={busy||!name.trim()||code.length!==6}>{busy?'Dołączanie…':'Dołącz do gry'}</PixelButton></form>}
-{!session?<><div className="two home-screen"><section className="home-copy"><span className="eyebrow">WITAJ NA SCENIE · WIEDZA SPOTYKA STRATEGIĘ</span><h1>Wybierz kategorię.<br/>Podejmij wyzwanie.</h1><p className="muted">Rozgrywaj pojedynki na żywo, kontroluj swój wybór kategorii i zdobywaj punkty razem ze znajomymi.</p><div className="home-features" aria-label="Zasady punktacji"><div><b>03</b><span>życia na start</span></div><div><b>+1</b><span>za poprawną odpowiedź</span></div><div><b>+3</b><span>za wygrany pojedynek</span></div></div><p className="muted">W każdej rundzie odpowiadaj na głos, a sędzia rozstrzyga odpowiedzi. Dołączcie do wspólnego komunikatora.</p></section><PixelPanel className="card home-login"><span className="eyebrow">START GRY · ONLINE</span><h2>Wejdź do lobby</h2><label>Pseudonim<input autoComplete="nickname" maxLength={24} value={name} onChange={e=>setName(e.target.value)}/></label><PixelButton className="primary" disabled={busy||!name.trim()} onClick={()=>enter(true)}>Utwórz lobby</PixelButton><div className="home-divider"><span>albo dołącz kodem</span></div><label>Kod lobby<input aria-label="Kod lobby" inputMode="numeric" autoComplete="one-time-code" maxLength={6} value={code} onChange={e=>setCode(e.target.value.replace(/\D/g,''))}/></label><PixelButton disabled={busy||!name.trim()||code.length!==6} onClick={()=>enter(false)}>Dołącz do lobby</PixelButton><details><summary>Ustawienia połączenia</summary><label>Adres backendu<input aria-label="Adres backendu" value={endpoint} onChange={e=>setEndpoint(e.target.value)} placeholder="Puste, gdy interfejs i API mają wspólny adres"/></label></details></PixelPanel></div></>:!room?<section className="card"><h2>Łączenie z lobby {session.code}</h2><button onClick={()=>store(null)}>Usuń sesję i wróć</button></section>:<>
-<div className="row lobby-heading"><div><span className="eyebrow">KOD LOBBY</span><h2>{room.code}</h2></div><div className="player-summary"><PlayerAvatar name={me.name} color={me.team==='A'?'cyan':me.team==='B'?'magenta':'violet'}/><div><b>{me.name}</b> {room.settings.mode!=='teams'&&hearts(me)}<p className="muted">{judge?'Sędzia':participant?'W pojedynku':me.lives===0?'Widz / sędzia':'Gracz'}</p></div></div><div className="row"><button onClick={invite}>Zaproś znajomych</button><button onClick={async()=>{if(!confirm('Usunąć sesję? Nie odzyskasz miejsca w trwającej grze.'))return;try{await request('/api/rooms/'+session.code+'/leave',{},session.token)}catch{}store(null)}}>Opuść</button></div></div>
-{!online&&<div className="notice">Brak synchronizacji. Sterowanie zablokowane; zegary mogą być nieaktualne.</div>}{room.phase==='lobby'&&imagePreload?.status==='loading'&&<div className="notice image-preload" role="status" aria-live="off">Wczytywanie obrazków do gry: {imagePreload.done}{imagePreload.total===null?'':` / ${imagePreload.total}`}{imagePreload.failed?` · błędy: ${imagePreload.failed}`:''}</div>}{room.phase==='lobby'&&imagePreload?.status==='complete'&&<div className="notice image-preload" role="status">Obrazki przygotowane: {imagePreload.done}/{imagePreload.total}{imagePreload.failed?` · ${imagePreload.failed} nie udało się wczytać; gra spróbuje ponownie podczas rundy`:''}</div>}{room.phase==='lobby'&&imagePreload?.status==='error'&&<div className="notice error" role="status">{imagePreload.message} Obrazki będą pobierane podczas gry.</div>}<nav className="tabs">{['arena','kategorie','ranking','zasady'].map(t=><button className={tab===t?'active':''} key={t} onClick={()=>setTab(t)}>{t[0].toUpperCase()+t.slice(1)}</button>)}</nav>
-{room.teams?.length>0&&<section className="team-scoreboard" aria-label="Wynik drużyn">{room.teams.map(t=><article className="team-score-card" data-team={t.team} key={t.team}><span className="team-score-card__label">DRUŻYNA {t.team}</span><strong className="team-score-card__points">{t.points}<small>pkt</small></strong></article>)}</section>}{room.lastDecision&&<div className="notice" role="status">{room.lastDecision.text}</div>}
-{tab==='arena'&&<div className={`arena-layout${room.phase==='lobby'?' is-lobby':''}${d?' is-duel':''}`}><div className="arena-layout__main">
-{room.phase==='lobby'&&<div className={`lobby-layout${room.settings.mode==='teams'?' is-teams':''}`}>{room.settings.mode==='teams'?<section className="card team-category-random"><span className="eyebrow">KATEGORIE LOSOWANE</span><h2>Bez wyboru kategorii</h2><p className="muted">Każda runda losuje kategorię ze wszystkich dostępnych. Po rozegraniu kategoria nie wraca do puli.</p></section>:<section className="card lobby-category-panel"><div className="lobby-section-heading"><div><span className="eyebrow">USTAW SWÓJ OBSZAR</span><h2>Wybierz kategorię</h2></div><span className="lobby-category-panel__hint">Dostępne kategorie mają aktywny kafelek</span></div>{categoryGrid()}</section>}<aside className="card lobby-roster"><div className="lobby-roster__heading"><div><span className="eyebrow">POKÓJ {room.code}</span><h2>Gracze</h2></div><span className="lobby-roster__count">{room.players.length}</span></div><p className="lobby-roster__summary">{room.players.filter(p=>p.ready&&p.connected&&(room.settings.mode==='teams'||p.category)).length} z {room.players.length} gotowych do gry</p><div className="lobby-roster__list">{room.players.map(p=><article className="lobby-roster__player" data-team={p.team||''} key={p.id}><PlayerAvatar name={p.name} color={p.team==='A'?'cyan':p.team==='B'?'magenta':'violet'}/><div className="lobby-roster__identity"><strong>{p.name}{p.id===me.id?' · TY':''}</strong><span>{p.team?`Drużyna ${p.team} · `:''}{p.connected?'Online':'Offline'} · {p.ready?'Gotowy':'Niepotwierdzony'}</span>{p.category&&<small>{getCategoryEmoji(p.category)} {p.category}</small>}</div>{room.settings.mode!=='teams'&&hearts(p)}{host&&!p.connected&&<button className="lobby-roster__remove" aria-label={`Usuń nieobecnego gracza ${p.name}`} disabled={disabled} onClick={()=>send('REMOVE_OFFLINE',{playerId:p.id})}>×</button>}</article>)}</div></aside><section className="lobby-footer"><div className="lobby-footer__status"><span className={`lobby-footer__ready${me.ready?' is-ready':''}`}>{me.ready?'✓ Gotowość potwierdzona':'Potwierdź gotowość, aby dołączyć do meczu'}</span><small>Start wymaga {room.settings.mode==='teams'?4:3} graczy online i gotowych.</small></div><div className="lobby-footer__actions">{!publicView&&<button className={me.ready?'good':'primary'} disabled={disabled||(room.settings.mode!=='teams'&&!me.category)} onClick={()=>send('READY')}>{me.ready?'Cofnij gotowość':'Potwierdź gotowość'}</button>}{host&&!publicView&&<><label className="lobby-footer__setting">Tryb gry<select value={room.settings.mode||'solo'} disabled={disabled} onChange={e=>send('MODE',{mode:e.target.value})}><option value="solo">Każdy na każdego</option><option value="teams">Drużyny A i B · minimum 4 osoby</option></select></label><label className="lobby-footer__setting">Czas na osobę<select value={room.settings.seconds} disabled={disabled} onChange={e=>send('SETTINGS',{seconds:+e.target.value})}>{[30,45,60,90].map(n=><option key={n} value={n}>{n} s</option>)}</select></label><button className="primary lobby-footer__start" disabled={disabled||room.players.length<(room.settings.mode==='teams'?4:3)||!room.players.every(p=>p.ready&&p.connected&&(room.settings.mode==='teams'||p.category))} onClick={()=>send('START')}>Rozpocznij mecz</button></>}{!host&&<span className="lobby-footer__waiting">Gospodarz uruchomi mecz, gdy wszyscy będą gotowi.</span>}</div></section></div>}
-{room.phase==='category'&&<section className="card category-pick"><span className="eyebrow">WYBÓR NALEŻY DO GRACZA</span><h2>{pname(room.pending[0])}, wybierz nową kategorię</h2><p className="muted">Wolne nierozgrywane kategorie są ponownie dostępne. Kategorie już rozegrane pozostają zamknięte.</p>{room.pending[0]===me.id?categoryGrid():<p className="category-pick__waiting">Czekamy na wybór gracza <strong>{pname(room.pending[0])}</strong>.</p>}</section>}
-{room.phase==='choose'&&<section className="card"><span className="eyebrow">{room.round===0?'PIERWSZE LOSOWANIE':'ZWYCIĘZCA WYBIERA'}</span><h1>{pname(room.challengerId)}</h1><p>Wybiera kolejnego przeciwnika.</p>{room.protectedId&&alive.length>2&&<p className="muted">{pname(room.protectedId)} ma ochronę na ten pojedynek.</p>}{host&&!person(room.challengerId)?.connected&&<button disabled={disabled} onClick={()=>send('REPLACE_CHOOSER')}>Wybierający offline: zastąp</button>}</section>}
-{d&&<><div className="duel-heading"><div><span className="eyebrow">POJEDYNEK · RUNDA {room.round+1}</span><h2>{d.category}</h2></div><span className="badge">Sędzia: {pname(d.adminId)}</span></div><div className="two duel-players">{d.ids.map((id,index)=>{const player=person(id),active=d.turn===id;return <section className={`card duel-player ${active?'is-active':'is-waiting'}`} key={id} data-team={player.team||''} style={{'--player-color':player.team==='A'?'var(--color-accent)':player.team==='B'?'var(--color-magenta)':index===0?'var(--color-accent)':'var(--color-magenta)'}}><div className="row"><div className="player-summary"><PlayerAvatar name={pname(id)} color={player.team==='B'||index===1?'magenta':'cyan'}/><h3>{pname(id)}</h3></div>{room.settings.mode!=='teams'&&hearts(player)}</div><PixelTimer milliseconds={d.remaining[id]} active={active&&d.status==='running'} label={pname(id)}/><small>{active?'ODPOWIADA':'OCZEKUJE'}{player.armed?' · '+room.cardTypes[player.armed].name:''}</small></section>})}</div><section className="card question">
-{d.status==='ready'?<><h2>Potwierdźcie gotowość</h2><p>{[...d.ids,d.adminId].map(id=><span className="badge" key={id}>{d.ready.includes(id)?'✓':'○'} {pname(id)}</span>)}</p>{(judge||participant)&&<button className="primary" disabled={disabled||d.ready.includes(me.id)} onClick={()=>send('DUEL_READY')}>Jestem gotowy</button>}</>:d.status==='countdown'?<><span className="eyebrow">ZACZYNAMY ZA</span><div className="clock">{d.countdown}</div></>:<><span className="eyebrow">{d.status==='paused'?'PAUZA':d.status==='media'?'WCZYTYWANIE OBRAZKA · LIMIT 6 S':'ODPOWIEDZ NA GŁOS'}</span><h2>{d.prompt}</h2>{d.visual&&<div className="visual-riddle" role="img" aria-label="Rebus do rozpoznania">{d.visual}</div>}{d.privateHint&&!publicView&&<div className="notice private-hint">{d.privateHint}</div>}{d.audio&&judge&&!publicView&&<div><p className="muted">Odtwarzaj przez wspólny kanał głosowy. Włącz pauzę na czas odsłuchu.</p><audio controls preload="none" src={d.audio}/></div>}{d.image&&imageError!==d.questionKey&&<img className="quiz-image" key={d.questionKey} src={d.image} alt="Obrazek do rozpoznania" referrerPolicy="no-referrer" onLoad={()=>setLoaded(d.questionKey)} onError={()=>{setImageError(d.questionKey);setLoaded(d.questionKey)}}/>}<p className="muted">{d.status==='media'?`Wczytano u ${d.mediaReady.length}/3 uczestników.`:`Odpowiada ${pname(d.turn)}.`}</p>{imageError===d.questionKey&&(d.emoji?<div role="img" aria-label="Ilustracja do rozpoznania" style={{fontSize:"clamp(180px, 25vw, 320px)",lineHeight:1.1}}>{d.emoji}</div>:<p>Grafika niedostępna. Sędzia może anulować pytanie bez kary.</p>)}</>}
-{previous()}</section>
-{judge&&!publicView&&<section className="card judge-panel"><div className="judge-panel__header"><div><span className="eyebrow">PRYWATNY PANEL SĘDZIEGO</span><p>Rozstrzygnij odpowiedź albo zarządzaj przebiegiem pojedynku.</p></div><span className={`judge-status judge-status--${d.status}`}>{d.status==='running'?'NA ŻYWO':d.status==='paused'?'PAUZA':d.status==='media'?'OBRAZ':d.status==='countdown'?'START':'GOTOWO'}</span></div>{d.answer&&<div className="judge-answer" role="status" aria-live="polite"><span>BIEŻĄCA ODPOWIEDŹ · TYLKO DLA CIEBIE</span><strong>{d.answer}</strong></div>}<div className="judge-actions"><div className="judge-actions__decisions"><button className="good" disabled={disabled||d.status!=='running'} onClick={()=>send('ANSWER',{kind:'good',questionKey:d.questionKey})}><span aria-hidden="true">✓</span> Zalicza <kbd>→</kbd></button><button className="warn" disabled={disabled||d.status!=='running'} onClick={()=>send('ANSWER',{kind:'skip',questionKey:d.questionKey})}>Pomiń <span className="judge-action__hint">−3 s</span><kbd>P</kbd></button></div><div className="judge-actions__tools"><button disabled={disabled||!['running','paused','media','countdown'].includes(d.status)} onClick={()=>send(d.status==='paused'?'RESUME':'PAUSE')}>{d.status==='paused'?'Wznów':'Pauza'} <kbd>Spacja</kbd></button><button disabled={disabled||!room.canUndo} onClick={()=>send('UNDO')}>Cofnij <kbd>Z</kbd></button>{d.status==='media'&&<button disabled={disabled} onClick={()=>send('VOID_IMAGE',{questionKey:d.questionKey})}>Anuluj niedostępny obrazek</button>}</div></div><details className="judge-manual"><summary>Ręczne rozstrzygnięcie</summary><div>{d.ids.map(id=><button key={id} disabled={disabled} onClick={()=>{if(confirm('Wygrywa '+pname(id)+'?'))send('AWARD',{winner:id})}}>Wygrywa {pname(id)}</button>)}</div></details></section>}{host&&!person(d.adminId)?.connected&&<button disabled={disabled} onClick={()=>send('REPLACE_ADMIN')}>Sędzia offline: zastąp</button>}</>}
-{!d&&room.previous&&<section className="card">{previous()}</section>}
-{room.phase==='finished'&&<section className="card question"><span className="eyebrow">KONIEC GRY</span>{room.settings.mode==='teams'&&<h1>{room.finishReason}</h1>}<h1>{room.settings.mode==='teams'?'':rank.filter(p=>p.lives===rank[0].lives&&p.points===rank[0].points&&p.trophies.length===rank[0].trophies.length).map(p=>p.name).join(' i ')}</h1><p>{room.finishReason}</p>{host&&<button className="primary" disabled={disabled} onClick={()=>send('REMATCH')}>Rewanż</button>}</section>}
-{room.canUndo&&!publicView&&<button disabled={disabled} onClick={()=>send('UNDO')}>Cofnij jako s?dzia</button>}
-</div>{arenaSidebar()}</div>}
-{tab==='kategorie'&&<section className="card"><h2>Wszystkie kategorie</h2><p>{room.categories.length} kategorii · {room.totalQuestions} pytań · {room.retired.length} rozegranych</p><div className="grid category-overview">{room.categories.map(c=><article className="card category-overview__tile" key={c}><span className="category-overview__emoji" aria-hidden="true">{getCategoryEmoji(c)}</span><h3>{c}</h3><p className="muted">{room.categoryCounts[c]} pytań</p><span className="badge">{room.retired.includes(c)?'Rozegrana':room.players.some(p=>p.category===c&&p.lives>0)?'Zajęta':'Wolna'}</span></article>)}</div></section>}
-{tab==='ranking'&&<PixelPanel className="card ranking-panel"><h2>Życia → punkty → zdobycze</h2>{rank.map((p,i)=><div className="rank" key={p.id}><b>{i+1}</b><div><b>{p.name}</b> {room.settings.mode!=='teams'&&hearts(p)}<p className="muted">{p.wins} wygranych · {p.correct} odpowiedzi · {p.trophies.length} zdobyczy</p></div><b>{p.points} pkt</b></div>)}<details><summary>Historia</summary>{room.log.map(l=><p key={l.round}>#{l.round} {pname(l.winner)} pokonuje {pname(l.loser)} · {l.category}{room.settings.mode!=='teams'&&<> ? pozosta?o {l.livesLeft} ?y?</>}</p>)}</details></PixelPanel>}
-{tab==='zasady'&&<section className="card"><h2>{room.settings.mode==='teams'?'Zasady dru?yn':'Zasady v5'}</h2>{room.settings.mode==='teams'?<ol style={{lineHeight:2}}><li>Dwaj kapitanowie losuj? sk?ady, wybieraj?c graczy na zmian?.</li><li>Ka?da runda losuje kategori? spo?r?d jeszcze nierozgrywanych; u?yta kategoria nie wraca.</li><li>Kapitanowie wybieraj? zawodnik?w do pojedynku. Ka?dy gracz swojej dru?yny mo?e zosta? wybrany.</li><li>W trybie dru?ynowym nie ma ?y? ani kart jednorazowych. Przegrana nie eliminuje gracza ani dru?yny.</li><li>Gra ko?czy si? po wyczerpaniu dost?pnych kategorii; wygrywa dru?yna z wi?ksz? liczb? punkt?w.</li></ol>:<ol style={{lineHeight:2}}><li>Każdy ma 3 życia i jedną losową kartę na całą grę. Wyeliminowani mogą sędziować.</li><li>Zwycięzca wybiera kolejnego rywala. Przegrany ma ochronę na jeden pojedynek, poza finałem dwóch graczy.</li><li>Przegrany sam wybiera nową kategorię. Jeśli zwycięzca też stracił aktywną kategorię przez jej rozegranie, wybiera po przegranym.</li><li>Tylko rozegrana kategoria znika z puli. Nierozegrana, zwolniona lub przejęta do kolekcji może być ponownie wybrana, o ile nikt jej nie zajmuje.</li><li>Zalicza: +1 punkt i zmiana tury. Pomiń: −3 s i nowe pytanie. Zwycięstwo: +3 punkty.</li><li>Poprzednia odpowiedź jest jawna po każdej decyzji, również po pominięciu i zakończeniu pojedynku. Bieżącą widzi tylko sędzia.</li><li>Wskrzeszenie daje innemu wyeliminowanemu graczowi 1 życie. Va banque ryzykuje wszystkie własne życia; wygrana daje +2 do limitu 3. Tarcza chroni jedną porażkę. Czas daje +8 s podczas własnej tury.</li><li>Nowe karty: Pierwsza litera i Długość odpowiedzi pokazują prywatną podpowiedź; Apteczka daje 1 życie do limitu 3; Zmiana karty losuje inny typ.</li><li>Drużyny: po starcie losuje się dwóch kapitanów, którzy naprzemiennie dobierają składy. Nie wybieracie kategorii w lobby; każda runda losuje kategorię ze wszystkich niegranych, a rozegrana kategoria nie wraca do puli. Karty są wyłączone. W trybie solo dostępna jest karta „Moja kategoria”.</li><li>Obrazki są ilustracjami i flagami, nie zdjęciami ludzi. Zegary czekają na ich wczytanie u zawodników i sędziego.</li></ol>}</section>}
-</>}
-<footer><span>PIXEL ARENA SHOW · V6</span><span>Głos przez własny komunikator</span><span>Grafiki: <a href="https://github.com/jdecked/twemoji" target="_blank" rel="noreferrer">Twemoji</a>, Twitter i współtwórcy, <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">CC BY 4.0</a>, bez zmian · Flagi: <a href="https://flagcdn.com/" target="_blank" rel="noreferrer">Flagcdn</a></span></footer></div></main>
+
+function saved() { try { return JSON.parse(sessionStorage.getItem('arena-v6') || 'null'); } catch { return null; } }
+const loadedImageUrls = new Set();
+function preloadImage(url, signal) {
+  return new Promise(resolve => {
+    const image = new Image();
+    let timeout;
+    const finish = loaded => { clearTimeout(timeout); signal.removeEventListener('abort', abort); image.onload = image.onerror = image.onabort = null; if (loaded) loadedImageUrls.add(url); resolve(loaded); };
+    const abort = () => { image.src = ''; finish(false); };
+    image.decoding = 'async'; image.fetchPriority = 'low'; image.referrerPolicy = 'no-referrer';
+    image.onload = () => finish(true); image.onerror = image.onabort = () => finish(false);
+    signal.addEventListener('abort', abort, {once: true});
+    timeout = setTimeout(() => { image.src = ''; finish(false); }, 15000);
+    image.src = url;
+  });
+}
+const avatarColor = (player, index) => player?.team === 'A' ? 'cyan' : player?.team === 'B' ? 'magenta' : index === undefined ? undefined : index === 1 ? 'magenta' : 'cyan';
+const TABS = [['arena', 'Arena'], ['kategorie', 'Kategorie'], ['ranking', 'Ranking'], ['zasady', 'Zasady']];
+const STATUS = {running: 'Na żywo', paused: 'Pauza', media: 'Obrazek', countdown: 'Start', ready: 'Gotowość'};
+
+export default function Arena() {
+  const [theme, setTheme] = useState(() => { try { return localStorage.getItem('arena-theme') === 'dark' ? 'dark' : 'light'; } catch { return 'light'; } });
+  const [session, setSession] = useState(saved), [room, setRoom] = useState(null), [online, setOnline] = useState(false);
+  const [busy, setBusy] = useState(false), [error, setError] = useState(''), [notice, setNotice] = useState('');
+  const params = new URLSearchParams(location.search);
+  const [name, setName] = useState(''), [code, setCode] = useState(() => params.get('room') || '');
+  const [endpoint] = useState(() => params.get('backend') || import.meta.env.VITE_API_BASE_URL || '');
+  const [tab, setTab] = useState('arena'), [search, setSearch] = useState(''), [publicView, setPublicView] = useState(false);
+  const [loaded, setLoaded] = useState(null), [imageError, setImageError] = useState(null), [imagePreload, setImagePreload] = useState(null);
+  const ref = useRef(null), sref = useRef(session), conn = useRef(false), lock = useRef(false);
+  sref.current = session;
+
+  useEffect(() => {
+    document.documentElement.dataset.theme = theme; document.documentElement.style.colorScheme = theme;
+    const meta = document.querySelector('meta[name="theme-color"]'); if (meta) meta.content = theme === 'dark' ? '#0b0f19' : '#f4f5fa';
+    try { localStorage.setItem('arena-theme', theme); } catch {}
+  }, [theme]);
+  useEffect(() => { if (!notice) return; const t = setTimeout(() => setNotice(''), 4000); return () => clearTimeout(t); }, [notice]);
+
+  function accept(r) {
+    if (!r || r.code !== sref.current?.code) return;
+    if (r.rulesVersion !== 6) { setError('Wymagany backend v6. Zainstaluj aktualizację i utwórz nowe lobby.'); return; }
+    if (ref.current && (r.rev < ref.current.rev || r.rev === ref.current.rev && r.serverNow < ref.current.serverNow)) return;
+    const previous = ref.current; ref.current = r;
+    // Clock-only updates of a running question do not need a re-render; timers run locally.
+    if (previous && previous.duel?.status === 'running' && r.rev === previous.rev && r.duel?.status === 'running' && r.duel.questionKey === previous.duel.questionKey && r.duel.turn === previous.duel.turn) return;
+    setRoom(r);
+  }
+  function store(s) {
+    try { s ? sessionStorage.setItem('arena-v6', JSON.stringify(s)) : sessionStorage.removeItem('arena-v6'); } catch {}
+    sref.current = s; setSession(s); ref.current = null; setRoom(null); conn.current = false; setOnline(false);
+  }
+  async function request(path, data, token, base = sref.current?.base || '') {
+    const c = new AbortController(), t = setTimeout(() => c.abort(), 12000);
+    try {
+      const res = await fetch(base + path, {method: 'POST', headers: {'Content-Type': 'application/json', ...(token ? {Authorization: 'Bearer ' + token} : {})}, body: JSON.stringify(data), signal: c.signal});
+      let x;
+      try { x = await res.json(); } catch { throw Error('Backend gry zwrócił nieprawidłową odpowiedź (' + res.status + '). Sprawdź VITE_API_BASE_URL i wdrożenie backendu.'); }
+      if (x.state) accept(x.state);
+      if (!res.ok) throw Error(x.error || 'Błąd serwera.');
+      return x;
+    } catch (e) { if (e.name === 'AbortError') throw Error('Serwer nie odpowiedział.'); throw e; } finally { clearTimeout(t); }
+  }
+  async function enter(create) {
+    if (lock.current) return;
+    lock.current = true; setBusy(true); setError('');
+    try {
+      const base = endpoint.trim().replace(/\/$/, '');
+      if (base && !/^https?:\/\//.test(base)) throw Error('Podaj adres HTTP lub HTTPS.');
+      const s = await request(create ? '/api/create' : '/api/join', {name: name.trim(), code}, null, base);
+      if (params.has('room')) { const url = new URL(location.href); url.searchParams.delete('room'); url.searchParams.delete('backend'); history.replaceState(null, '', url); }
+      store({...s, base});
+    } catch (e) { setError(e.message); } finally { lock.current = false; setBusy(false); }
+  }
+  async function send(type, data = {}) {
+    if (lock.current || !conn.current || !ref.current) return;
+    lock.current = true; setBusy(true); setError('');
+    try { await request('/api/rooms/' + sref.current.code + '/action', {type, rev: ref.current.rev, ...data}, sref.current.token); }
+    catch (e) { setError(e.message); } finally { lock.current = false; setBusy(false); }
+  }
+
+  useEffect(() => {
+    if (!session) return;
+    let active = true;
+    const es = new EventSource((session.base || '') + '/api/rooms/' + session.code + '/stream?token=' + encodeURIComponent(session.token));
+    es.onopen = () => { if (active) { conn.current = true; setOnline(true); } };
+    es.onmessage = e => { if (active) try { accept(JSON.parse(e.data)); conn.current = true; setOnline(true); } catch { setError('Nieprawidłowy stan serwera.'); } };
+    es.onerror = () => { if (active) { conn.current = false; setOnline(false); } };
+    return () => { active = false; es.close(); conn.current = false; };
+  }, [session]);
+
+  useEffect(() => {
+    if (!session) { setImagePreload(null); return; }
+    const controller = new AbortController();
+    let cancelled = false;
+    setImagePreload({status: 'loading', done: 0, total: null, failed: 0});
+    (async () => {
+      try {
+        const response = await fetch((session.base || '') + '/api/rooms/' + session.code + '/media', {headers: {Authorization: 'Bearer ' + session.token}, signal: controller.signal});
+        if (!response.ok) throw Error('Nie udało się pobrać listy obrazków (' + response.status + ').');
+        const images = [...new Set((await response.json()).images.filter(url => typeof url === 'string' && url))];
+        if (cancelled) return;
+        let next = 0, done = 0, failed = 0;
+        setImagePreload({status: 'loading', done, total: images.length, failed});
+        const worker = async () => {
+          while (!cancelled) {
+            const url = images[next++]; if (!url) return;
+            const ok = await preloadImage(url, controller.signal); if (cancelled) return;
+            done++; if (!ok) failed++;
+            if (done % 8 === 0 || done === images.length) setImagePreload({status: 'loading', done, total: images.length, failed});
+          }
+        };
+        await Promise.all(Array.from({length: Math.min(4, images.length)}, worker));
+        if (!cancelled) setImagePreload({status: 'complete', done, total: images.length, failed});
+      } catch (e) { if (!cancelled && e.name !== 'AbortError') setImagePreload({status: 'error', message: e.message, done: 0, total: 0, failed: 0}); }
+    })();
+    return () => { cancelled = true; controller.abort(); };
+  }, [session]);
+
+  const d = room?.duel, me = room?.players.find(p => p.id === room.you), host = !!room && room.hostId === room.you;
+  const judge = !!d && d.adminId === room.you, participant = !!d && d.ids.includes(room.you), disabled = busy || !online;
+  const teams = room?.settings.mode === 'teams';
+  const person = id => room?.players.find(p => p.id === id), pname = id => person(id)?.name || 'Gracz';
+  const alive = room?.players.filter(p => p.lives > 0) || [];
+  const rank = room ? [...room.players].sort((a, b) => b.lives - a.lives || b.points - a.points || b.trophies.length - a.trophies.length) : [];
+  const scoreRank = room ? [...room.players].sort((a, b) => b.points - a.points || b.wins - a.wins || b.correct - a.correct) : [];
+  const displayCategory = p => teams ? room.roundControl?.category || d?.category : p.category || (d?.ids.includes(p.id) ? d.category : null);
+  const q = room?.questionPanel;
+
+  useEffect(() => {
+    if (d?.status === 'media' && (loaded === d.questionKey || loadedImageUrls.has(d.image)) && (judge || participant) && !d.mediaReady.includes(room.you) && !busy && online) send('IMAGE_READY', {questionKey: d.questionKey});
+  }, [room?.rev, d?.status, d?.questionKey, d?.image, loaded, imagePreload?.done, busy, online]);
+
+  useEffect(() => {
+    const fn = e => {
+      if (e.repeat || e.ctrlKey || e.metaKey || e.altKey || e.target.isContentEditable || ['INPUT', 'SELECT', 'TEXTAREA', 'BUTTON'].includes(e.target.tagName)) return;
+      if (e.key.toLowerCase() === 'h') { setPublicView(v => !v); return; }
+      const r = ref.current, duel = r?.duel;
+      if (!duel || duel.adminId !== r.you) return;
+      if (e.code === 'Space') { e.preventDefault(); send(duel.status === 'paused' ? 'RESUME' : 'PAUSE'); }
+      if (duel.status === 'running' && e.code === 'ArrowRight') { e.preventDefault(); send('ANSWER', {kind: 'good', questionKey: duel.questionKey}); }
+      if (duel.status === 'running' && e.key.toLowerCase() === 'p') send('ANSWER', {kind: 'skip', questionKey: duel.questionKey});
+      if (e.key.toLowerCase() === 'z' && r.canUndo) send('UNDO');
+    };
+    window.addEventListener('keydown', fn);
+    return () => window.removeEventListener('keydown', fn);
+  }, []);
+
+  const hearts = (p, label = `Życia gracza ${p.name}`) => <span className="life-meter" role="img" aria-label={`${label}: ${p.lives} z 3`}>{[0, 1, 2].map(i => <span className={`life-meter__heart${i < p.lives ? ' is-filled' : ''}`} key={i} aria-hidden="true">♥</span>)}</span>;
+  const previous = () => room?.previous && <div className="previous" aria-live="polite"><span className="eyebrow">Poprzednia odpowiedź</span><strong>{room.previous.answer}</strong><details><summary>Pokaż pytanie</summary><p>{room.previous.prompt}</p></details></div>;
+
+  async function invite() {
+    try {
+      const u = new URL(location.href); u.search = ''; u.hash = ''; u.searchParams.set('room', room.code);
+      if (session.base) u.searchParams.set('backend', session.base);
+      await navigator.clipboard.writeText(u.toString()); setNotice('Skopiowano link z zaproszeniem.');
+    } catch { setNotice('Udostępnij adres gry i kod ' + room.code); }
+  }
+  async function leave() {
+    if (!confirm('Opuścić lobby? Nie odzyskasz miejsca w trwającej grze.')) return;
+    try { await request('/api/rooms/' + session.code + '/leave', {}, session.token); } catch {}
+    store(null);
+  }
+  function toggleFullscreen() { const p = document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen(); p?.catch(e => setError(e.message)); }
+
+  const categoryPicker = () => {
+    const needle = search.trim().toLocaleLowerCase('pl'), list = room.categories.filter(c => c.toLocaleLowerCase('pl').includes(needle));
+    return <div className="category-picker">
+      <div className="category-picker__bar">
+        <input type="search" aria-label="Szukaj kategorii" value={search} onChange={e => setSearch(e.target.value)} placeholder="Szukaj kategorii…"/>
+        <span className="muted small">{room.availableCategories.length} wolnych · {room.retired.length} rozegranych</span>
+      </div>
+      <div className="tile-grid">{list.map(c => {
+        const selected = me.category === c, retired = room.retired.includes(c), available = room.availableCategories.includes(c);
+        return <TerritoryTile key={c} category={c} count={room.categoryCounts[c]} selected={selected} state={selected ? 'selected' : retired ? 'played' : available ? 'available' : 'locked'} status={retired ? 'rozegrana' : selected ? 'twoja' : available ? 'wolna' : 'zajęta'} disabled={disabled || !available} onClick={() => send('CATEGORY', {category: c})}/>;
+      })}</div>
+      {!list.length && <p className="muted">Brak pasujących kategorii.</p>}
+    </div>;
+  };
+
+  const roster = () => <section className="panel">
+    <div className="panel__head"><h3>Gracze</h3><span className="pill">{alive.length}/{room.players.length}</span></div>
+    <div className="player-list">{room.players.map(p => <article className={`player-row${p.id === me.id ? ' is-self' : ''}${p.id === d?.turn ? ' is-turn' : ''}${p.lives === 0 && !teams ? ' is-out' : ''}`} data-team={p.team || ''} key={p.id}>
+      <PlayerAvatar name={p.name} color={avatarColor(p)}/>
+      <div className="player-row__id">
+        <strong>{p.name}{p.id === me.id ? ' · TY' : ''}</strong>
+        <small>{p.team ? `Drużyna ${p.team} · ` : ''}{p.connected ? 'online' : 'offline'}{p.id === d?.turn ? ' · odpowiada' : ''}</small>
+        {!teams && displayCategory(p) && <small className="player-row__cat">{getCategoryEmoji(displayCategory(p))} {displayCategory(p)}</small>}
+        {!teams && <small className="muted">{p.armed ? `Aktywna karta: ${room.cardTypes[p.armed]?.name || p.armed}` : p.card ? `Karta ${p.cardUsed ? 'użyta' : 'w ręku'}` : 'Bez karty'}{d?.skip5?.playerId === p.id ? ` · darmowe pominięcia ${d.skip5.remaining}/5` : ''}</small>}
+      </div>
+      <div className="player-row__side"><b>{p.points}<small> pkt</small></b>{!teams && hearts(p)}</div>
+      {room.phase === 'choose' && room.challengerId === me.id && p.id !== me.id && <button className="btn btn--primary btn--sm player-row__action" disabled={disabled || !room.eligibleOpponentIds.includes(p.id)} onClick={() => send('CHALLENGE', {opponent: p.id})}>{room.protectedId === p.id && alive.length > 2 ? 'Ochrona' : '⚔ Wyzwij'}</button>}
+    </article>)}</div>
+  </section>;
+
+  const sidebar = () => <aside className="arena-side">
+    {!publicView && <CardPanel room={room} send={send} disabled={disabled}/>}
+    {!publicView && <AudiencePanel room={room} send={send} disabled={disabled}/>}
+    {!publicView && <ShopPanel room={room} send={send} disabled={disabled}/>}
+    {roster()}
+    {(room.lastDecision || room.log.length > 0) && <section className="panel">
+      <h3>Ostatnie wydarzenia</h3>
+      <ul className="event-list">{room.log.slice(-4).reverse().map(log => <li key={log.round}><b>Runda {log.round}</b> {pname(log.winner)} pokonuje {pname(log.loser)} · {log.category}{!teams && ` · zostało ${log.livesLeft} ${plural(log.livesLeft, 'życie', 'życia', 'żyć')}`}</li>)}</ul>
+    </section>}
+  </aside>;
+
+  const lobby = () => {
+    const readyCount = room.players.filter(p => p.ready && p.connected && (teams || p.category)).length, needed = teams ? 4 : 3;
+    const canStart = room.players.length >= needed && room.players.every(p => p.ready && p.connected && (teams || p.category));
+    return <div className="stack">
+      <section className="panel action-bar">
+        <div>
+          <span className="eyebrow">Przygotowanie · {readyCount}/{room.players.length} gotowych</span>
+          <h2>{!me.category ? 'Wybierz swoją kategorię' : me.ready ? 'Czekamy na pozostałych' : 'Potwierdź gotowość'}</h2>
+          <p className="muted small">Start wymaga co najmniej {needed} graczy online z wybraną kategorią.{!host && ' Mecz uruchamia gospodarz.'}</p>
+        </div>
+        {!publicView && <div className="action-bar__actions">
+          <button className={`btn ${me.ready ? 'btn--success' : 'btn--primary'}`} disabled={disabled || !me.category} onClick={() => send('READY')}>{me.ready ? '✓ Gotowy · cofnij' : 'Jestem gotowy'}</button>
+          {host && <>
+            <label className="field field--inline">Tryb<select value={room.settings.mode || 'solo'} disabled={disabled} onChange={e => send('MODE', {mode: e.target.value})}><option value="solo">Każdy na każdego</option><option value="teams">Drużyny (min. 4)</option></select></label>
+            <label className="field field--inline">Czas<select value={room.settings.seconds} disabled={disabled} onChange={e => send('SETTINGS', {seconds: +e.target.value})}>{[30, 45, 60, 90].map(n => <option key={n} value={n}>{n} s</option>)}</select></label>
+            <button className="btn btn--primary" disabled={disabled || !canStart} onClick={() => send('START')}>▶ Rozpocznij mecz</button>
+          </>}
+        </div>}
+      </section>
+      <div className="lobby-grid">
+        <section className="panel">
+          <div className="panel__head"><div><span className="eyebrow">Twój obszar</span><h3>{me.category ? <>{getCategoryEmoji(me.category)} {me.category}</> : 'Kategorie'}</h3></div><span className="pill">{room.totalQuestions} pytań</span></div>
+          {categoryPicker()}
+        </section>
+        <aside className="arena-side">
+          <section className="panel">
+            <div className="panel__head"><h3>Gracze</h3><span className="pill">{room.players.length}</span></div>
+            <div className="player-list">{room.players.map(p => <article className={`player-row${p.id === me.id ? ' is-self' : ''}`} key={p.id}>
+              <PlayerAvatar name={p.name} color={avatarColor(p)}/>
+              <div className="player-row__id"><strong>{p.name}{p.id === me.id ? ' · TY' : ''}</strong><small>{p.connected ? 'online' : 'offline'} · {p.ready ? '✓ gotowy' : 'czeka'}</small>{p.category && <small className="player-row__cat">{getCategoryEmoji(p.category)} {p.category}</small>}</div>
+              {host && !p.connected && <button className="btn btn--ghost btn--sm" aria-label={`Usuń nieobecnego gracza ${p.name}`} disabled={disabled} onClick={() => send('REMOVE_OFFLINE', {playerId: p.id})}>Usuń</button>}
+            </article>)}</div>
+          </section>
+          {imagePreload && imagePreload.status !== 'complete' && <p className="muted small">{imagePreload.status === 'error' ? imagePreload.message + ' Obrazki będą pobierane w trakcie gry.' : `Wczytywanie obrazków: ${imagePreload.done}${imagePreload.total === null ? '' : ' / ' + imagePreload.total}`}</p>}
+        </aside>
+      </div>
+    </div>;
+  };
+
+  const duel = () => <div className="stack">
+    <div className="duel-head">
+      <div><span className="eyebrow">Pojedynek · runda {room.round + 1}</span><h2>{getCategoryEmoji(d.category)} {d.category}</h2></div>
+      <span className="pill">⚖ Sędzia: {pname(d.adminId)}</span>
+    </div>
+    <div className="duel-players">{d.ids.map((id, index) => {
+      const player = person(id), active = d.turn === id;
+      return <section className={`panel duel-player${active ? ' is-active' : ''}`} data-side={index} key={id}>
+        <div className="duel-player__who"><PlayerAvatar name={pname(id)} color={avatarColor(player, index)}/><strong>{pname(id)}</strong>{!teams && hearts(player)}</div>
+        <PixelTimer milliseconds={d.remaining[id]} active={active && d.status === 'running'} label={pname(id)}/>
+        <small className="duel-player__state">{active ? '● Odpowiada' : 'Czeka'}{player.armed ? ' · ' + room.cardTypes[player.armed].name : ''}</small>
+      </section>;
+    })}</div>
+    <section className={`panel question${d.status === 'paused' ? ' is-paused' : ''}`}>
+      {d.status === 'ready' ? <>
+        <h2>Potwierdźcie gotowość</h2>
+        <div className="ready-list">{[...d.ids, d.adminId].map(id => <span className={`pill${d.ready.includes(id) ? ' pill--ok' : ''}`} key={id}>{d.ready.includes(id) ? '✓' : '○'} {pname(id)}</span>)}</div>
+        {(judge || participant) && <button className="btn btn--primary btn--lg" disabled={disabled || d.ready.includes(me.id)} onClick={() => send('DUEL_READY')}>{d.ready.includes(me.id) ? '✓ Gotowe' : 'Jestem gotowy'}</button>}
+      </> : d.status === 'countdown' ? <><span className="eyebrow">Zaczynamy za</span><div className="countdown">{d.countdown}</div></> : <>
+        <span className="eyebrow">{d.status === 'paused' ? '⏸ Pauza' : d.status === 'media' ? 'Wczytywanie obrazka · limit 6 s' : 'Odpowiedz na głos'}</span>
+        <h2 className="question__prompt">{d.prompt}</h2>
+        {q?.format === 'clues' && <p className="muted small">Sędzia odsłania kolejne wskazówki. Szybka odpowiedź (do 1,5 s) daje dodatkowy punkt.</p>}
+        {d.visual && <div className="visual-riddle" role="img" aria-label="Rebus do rozpoznania">{d.visual}</div>}
+        {d.privateHint && !publicView && <div className="notice notice--hint">{d.privateHint}</div>}
+        {d.audio && judge && !publicView && <div><p className="muted small">Odtwórz przez wspólny kanał głosowy. Na czas odsłuchu włącz pauzę.</p><audio controls preload="none" src={d.audio}/></div>}
+        {d.image && imageError !== d.questionKey && <img className="quiz-image" key={d.questionKey} src={d.image} alt="Obrazek do rozpoznania" referrerPolicy="no-referrer" onLoad={() => setLoaded(d.questionKey)} onError={() => { setImageError(d.questionKey); setLoaded(d.questionKey); }}/>}
+        {imageError === d.questionKey && (d.emoji ? <div className="emoji-fallback" role="img" aria-label="Ilustracja do rozpoznania">{d.emoji}</div> : <p>Grafika niedostępna. Sędzia może unieważnić pytanie bez kary.</p>)}
+        <p className="muted">{d.status === 'media' ? `Wczytano u ${d.mediaReady.length}/3 osób.` : `Odpowiada ${pname(d.turn)}.`}</p>
+      </>}
+      {previous()}
+      {!publicView && <QuestionReports room={room} send={send} disabled={disabled}/>}
+    </section>
+    {judge && !publicView && <section className="panel judge-panel">
+      <div className="panel__head"><span className="eyebrow">Panel sędziego · tylko dla Ciebie</span><span className={`status status--${d.status}`}>{STATUS[d.status] || d.status}</span></div>
+      {d.answer && <div className="judge-answer" role="status" aria-live="polite"><span>Odpowiedź</span><strong>{d.answer}</strong></div>}
+      <div className="judge-panel__main">
+        <button className="btn btn--success btn--xl" disabled={disabled || d.status !== 'running'} onClick={() => send('ANSWER', {kind: 'good', questionKey: d.questionKey})}>✓ Zalicza <kbd>→</kbd></button>
+        <button className="btn btn--warning btn--xl" disabled={disabled || d.status !== 'running'} onClick={() => send('ANSWER', {kind: 'skip', questionKey: d.questionKey})}>↷ Pomiń · −3 s <kbd>P</kbd></button>
+      </div>
+      <div className="judge-panel__tools">
+        <button className="btn" disabled={disabled || !['running', 'paused', 'media', 'countdown'].includes(d.status)} onClick={() => send(d.status === 'paused' ? 'RESUME' : 'PAUSE')}>{d.status === 'paused' ? '▶ Wznów' : '⏸ Pauza'} <kbd>Spacja</kbd></button>
+        <button className="btn" disabled={disabled || !room.canUndo} onClick={() => send('UNDO')}>↶ Cofnij <kbd>Z</kbd></button>
+        {q?.format === 'clues' && <button className="btn" disabled={disabled || !q.canHint} onClick={() => send('Q12_HINT', {questionKey: q.key})}>💡 Następna wskazówka</button>}
+        {q?.canSkip && <button className="btn" disabled={disabled} onClick={() => { if (confirm('Unieważnić to pytanie? Wynik i czas zostaną zachowane.')) send('Q12_SKIP', {questionKey: q.key}); }}>Unieważnij pytanie</button>}
+        {d.status === 'media' && <button className="btn" disabled={disabled} onClick={() => send('VOID_IMAGE', {questionKey: d.questionKey})}>Anuluj niedostępny obrazek</button>}
+      </div>
+      <details className="judge-panel__manual"><summary>Ręczne rozstrzygnięcie pojedynku</summary><div className="choice-list">{d.ids.map(id => <button className="btn btn--sm" key={id} disabled={disabled} onClick={() => { if (confirm('Wygrywa ' + pname(id) + '?')) send('AWARD', {winner: id}); }}>Wygrywa {pname(id)}</button>)}</div></details>
+    </section>}
+    {host && !person(d.adminId)?.connected && <button className="btn btn--warning" disabled={disabled} onClick={() => send('REPLACE_ADMIN')}>Sędzia offline · wyznacz nowego</button>}
+  </div>;
+
+  const finished = () => {
+    const top = rank[0], winners = teams ? [] : rank.filter(p => p.lives === top.lives && p.points === top.points && p.trophies.length === top.trophies.length);
+    return <section className="panel finale">
+      <span className="eyebrow">Koniec gry</span>
+      <div className="finale__trophy" aria-hidden="true">🏆</div>
+      <h1>{teams ? room.finishReason : winners.map(p => p.name).join(' i ')}</h1>
+      {!teams && <p className="muted">{room.finishReason}</p>}
+      <ol className="finale__podium">{scoreRank.slice(0, 3).map((p, i) => <li key={p.id}><span>{['🥇', '🥈', '🥉'][i]}</span><strong>{p.name}</strong><b>{p.points} pkt</b></li>)}</ol>
+      {host && <button className="btn btn--primary btn--lg" disabled={disabled} onClick={() => send('REMATCH')}>↻ Rewanż</button>}
+    </section>;
+  };
+
+  const arena = () => {
+    const teamPhase = teams && ['lobby', 'team_draft', 'team_category', 'team_nominate'].includes(room.phase);
+    if (teamPhase && room.phase === 'lobby') return <TeamScreen room={room} send={send} disabled={disabled}/>;
+    if (teamPhase) return <div className="arena-layout"><div className="arena-main"><TeamScreen room={room} send={send} disabled={disabled}/></div>{sidebar()}</div>;
+    if (room.phase === 'lobby') return lobby();
+    return <div className="arena-layout">
+      <div className="arena-main stack">
+        <EconomyDialog room={room} send={send} disabled={disabled} error={error}/>
+        {room.phase === 'category' && <section className="panel">
+          <span className="eyebrow">Zmiana kategorii</span>
+          <h2>{pname(room.pending[0])} wybiera nową kategorię</h2>
+          {room.pending[0] === me.id ? <><p className="muted">Wolne, nierozegrane kategorie są znowu dostępne. Rozegrane pozostają zamknięte.</p>{categoryPicker()}</> : <p className="muted">Czekamy na wybór gracza {pname(room.pending[0])}.</p>}
+        </section>}
+        {room.phase === 'choose' && <section className="panel spotlight">
+          <span className="eyebrow">{room.round === 0 ? 'Pierwsze losowanie' : 'Zwycięzca wybiera'}</span>
+          <h1>{pname(room.challengerId)}</h1>
+          <p>{room.challengerId === me.id ? 'Wybierz rywala – przycisk „Wyzwij” przy graczu na liście.' : 'Wybiera kolejnego rywala.'}</p>
+          {room.protectedId && alive.length > 2 && <p className="muted">{pname(room.protectedId)} ma ochronę w tym pojedynku.</p>}
+          {host && !person(room.challengerId)?.connected && <button className="btn btn--warning" disabled={disabled} onClick={() => send('REPLACE_CHOOSER')}>Wybierający offline · zastąp</button>}
+        </section>}
+        {d && duel()}
+        {!d && room.previous && room.phase !== 'finished' && <section className="panel">{previous()}</section>}
+        {room.phase === 'finished' && finished()}
+        {room.canUndo && !publicView && !judge && <button className="btn" disabled={disabled} onClick={() => send('UNDO')}>↶ Cofnij ostatnią decyzję (sędzia)</button>}
+      </div>
+      {sidebar()}
+    </div>;
+  };
+
+  const rules = () => <section className="panel prose">
+    <h2>{teams ? 'Zasady trybu drużynowego' : 'Zasady gry'}</h2>
+    {teams ? <ol>
+      <li>Po starcie losujemy dwóch kapitanów, którzy na zmianę dobierają graczy do drużyn.</li>
+      <li>Każda runda losuje kategorię spośród nierozegranych. Rozegrana kategoria nie wraca.</li>
+      <li>Kapitanowie wystawiają po jednym zawodniku do pojedynku.</li>
+      <li>W trybie drużynowym nie ma żyć ani kart. Przegrana nie eliminuje gracza.</li>
+      <li>Gra kończy się po wyczerpaniu kategorii. Wygrywa drużyna z większą liczbą punktów.</li>
+    </ol> : <ol>
+      <li>Każdy wybiera kategorię i ma 3 życia. Wyeliminowani mogą sędziować i typować odpowiedzi jako widzowie.</li>
+      <li>Pojedynek to dwa zegary szachowe. Odpowiadacie na zmianę na głos, a sędzia ocenia: <b>Zalicza</b> zmienia turę, <b>Pomiń</b> kosztuje 3 s i daje nowe pytanie.</li>
+      <li>Komu pierwszemu skończy się czas, przegrywa i traci życie. Zwycięzca wybiera kolejnego rywala, a przegrany nową kategorię.</li>
+      <li>Rozegrana kategoria znika z puli. Przegrany ma ochronę na jeden pojedynek (poza finałem dwóch graczy).</li>
+    </ol>}
+    <h3>Punkty</h3>
+    <ul><li>Poprawna odpowiedź: <b>+1</b> (do 1,5 s: <b>+2</b>)</li><li>Wygrany pojedynek: <b>+3</b></li><li>Pojedynek bez pominięć: <b>+5</b></li><li>Punkty trafiają też do portfela sklepu. Zakupy nie obniżają wyniku w rankingu.</li></ul>
+    {!teams && room.cardTypes && <><h3>Karty jednorazowe</h3><dl className="card-list">{Object.entries(room.cardTypes).map(([key, c]) => <div key={key}><dt>{c.name}</dt><dd>{c.text}</dd></div>)}</dl></>}
+    <h3>Skróty sędziego</h3>
+    <p><kbd>→</kbd> zalicza · <kbd>P</kbd> pomija · <kbd>Spacja</kbd> pauza · <kbd>Z</kbd> cofnij · <kbd>H</kbd> widok publiczny</p>
+  </section>;
+
+  return <main className={`app${d ? ' is-duel' : ''}${publicView ? ' is-public' : ''}`}>
+    {d?.laststand && <div className="banner banner--danger" role="status">⚠ Ostatnia szansa: przegrany traci wszystkie życia.</div>}
+    <header className="topbar">
+      <div className="brand"><span className="brand__mark" aria-hidden="true">▣</span><span>Pixel Arena</span></div>
+      <div className="topbar__actions">
+        {session && <span className={`pill ${online ? 'pill--ok' : 'pill--warn'}`}>{online ? '● Online' : '○ Łączenie…'}</span>}
+        {room && <button className={`btn btn--ghost btn--sm${publicView ? ' is-on' : ''}`} aria-pressed={publicView} onClick={() => setPublicView(v => !v)} title="Widok publiczny ukrywa prywatne informacje (H)">{publicView ? '👁 Publiczny' : '👁 Mój widok'}</button>}
+        <button className="btn btn--ghost btn--icon" aria-label={theme === 'dark' ? 'Włącz jasny motyw' : 'Włącz ciemny motyw'} title="Motyw" onClick={() => setTheme(t => t === 'dark' ? 'light' : 'dark')}>{theme === 'dark' ? '☀' : '☾'}</button>
+        <button className="btn btn--ghost btn--icon" aria-label="Pełny ekran" title="Pełny ekran" onClick={toggleFullscreen}>⛶</button>
+      </div>
+    </header>
+    <div className="wrap">
+      {error && <div role="alert" className="notice notice--error"><span>{error}</span><button className="btn btn--ghost btn--sm" onClick={() => setError('')}>Zamknij</button></div>}
+      {notice && <div role="status" className="toast">{notice}</div>}
+      {!session ? <div className="home">
+        <section className="home__copy">
+          <span className="eyebrow">Quiz na żywo ze znajomymi</span>
+          <h1>Wybierz kategorię.<br/><span className="accent">Podejmij wyzwanie.</span></h1>
+          <p className="lead">Pojedynki na czas, w których odpowiadacie na głos, a sędzia z waszego grona ocenia odpowiedzi. Zbierajcie punkty, używajcie kart i brońcie swoich kategorii.</p>
+          <div className="stats"><div><b>3</b><span>życia na start</span></div><div><b>+1</b><span>za dobrą odpowiedź</span></div><div><b>+3</b><span>za wygraną</span></div><div><b>45+</b><span>kategorii</span></div></div>
+        </section>
+        <form className="panel home__login" onSubmit={e => { e.preventDefault(); enter(code.length !== 6); }}>
+          <h2>{params.get('room') ? 'Dołącz do gry' : 'Wejdź do gry'}</h2>
+          <label className="field">Pseudonim<input autoComplete="nickname" autoFocus maxLength={24} value={name} onChange={e => setName(e.target.value)} placeholder="Jak mamy Cię nazywać?"/></label>
+          {!params.get('room') && <><button className="btn btn--primary btn--block btn--lg" type="button" disabled={busy || !name.trim()} onClick={() => enter(true)}>Utwórz lobby</button>
+            <div className="divider"><span>albo dołącz kodem</span></div></>}
+          <label className="field">Kod lobby<input aria-label="Kod lobby" inputMode="numeric" autoComplete="off" maxLength={6} value={code} onChange={e => setCode(e.target.value.replace(/\D/g, ''))} placeholder="6 cyfr" className="code-input"/></label>
+          <button className={`btn btn--block btn--lg${params.get('room') ? ' btn--primary' : ''}`} type="button" disabled={busy || !name.trim() || code.length !== 6} onClick={() => enter(false)}>{busy ? 'Łączenie…' : 'Dołącz do lobby'}</button>
+        </form>
+      </div> : !room ? <section className="panel center"><h2>Łączenie z lobby {session.code}…</h2><button className="btn" onClick={() => store(null)}>Wróć do ekranu startowego</button></section> : <>
+        <div className="roombar">
+          <button className="roombar__code" onClick={invite} title="Kliknij, aby skopiować zaproszenie"><span className="eyebrow">Kod lobby</span><strong>{room.code}</strong></button>
+          <div className="roombar__me"><PlayerAvatar name={me.name} color={avatarColor(me)}/><div><strong>{me.name}</strong><small>{judge ? '⚖ Sędzia' : participant ? '⚔ W pojedynku' : me.lives === 0 && !teams ? 'Widz' : 'Gracz'}{teams && me.team ? ` · drużyna ${me.team}` : ''}</small></div>{!teams && room.phase !== 'lobby' && hearts(me)}<b className="roombar__points">{me.points} pkt</b></div>
+          <div className="roombar__actions"><button className="btn btn--sm" onClick={invite}>Zaproś</button><button className="btn btn--ghost btn--sm" onClick={leave}>Opuść</button></div>
+        </div>
+        {!online && <div className="notice notice--warn">Brak synchronizacji. Sterowanie zablokowane, zegary mogą być nieaktualne.</div>}
+        {room.teams?.length > 0 && room.phase !== 'lobby' && <div className="team-score">{room.teams.map(t => <div className="team-score__item" data-team={t.team} key={t.team}><span>Drużyna {t.team}</span><b>{t.points} pkt</b></div>)}</div>}
+        {room.lastDecision && room.phase !== 'lobby' && <div className="notice" role="status">{room.lastDecision.text}</div>}
+        <nav className="tabs" aria-label="Widoki">{TABS.map(([key, label]) => <button key={key} className={tab === key ? 'is-active' : ''} aria-current={tab === key ? 'page' : undefined} onClick={() => setTab(key)}>{label}</button>)}</nav>
+        {tab === 'arena' && arena()}
+        {tab === 'kategorie' && <section className="panel">
+          <div className="panel__head"><h2>Wszystkie kategorie</h2><span className="pill">{room.categories.length} kategorii · {room.totalQuestions} pytań</span></div>
+          <div className="tile-grid">{room.categories.map(c => {
+            const status = room.retired.includes(c) ? 'Rozegrana' : room.players.some(p => p.category === c && p.lives > 0) ? 'Zajęta' : 'Wolna';
+            return <article className="overview-tile" data-status={status} key={c}><span className="overview-tile__emoji" aria-hidden="true">{getCategoryEmoji(c)}</span><div><strong>{c}</strong><small>{room.categoryCounts[c]} pytań · {status}</small></div></article>;
+          })}</div>
+        </section>}
+        {tab === 'ranking' && <section className="panel">
+          <h2>Ranking</h2>
+          <p className="muted small">{teams ? 'Kolejność według punktów.' : 'Kolejność: życia, potem punkty, potem zdobyte kategorie.'}</p>
+          <ol className="ranking">{(teams ? scoreRank : rank).map((p, i) => <li key={p.id}><span className="ranking__place">{i + 1}</span><PlayerAvatar name={p.name} color={avatarColor(p)}/><div><strong>{p.name}</strong><small>{p.wins} wygranych · {p.correct} odpowiedzi · {p.trophies.length} zdobytych kategorii</small></div>{!teams && hearts(p)}<b>{p.points} pkt</b></li>)}</ol>
+          {room.log.length > 0 && <details><summary>Historia pojedynków ({room.log.length})</summary><ul className="event-list">{room.log.map(l => <li key={l.round}><b>#{l.round}</b> {pname(l.winner)} pokonuje {pname(l.loser)} · {l.category}{!teams && ` · zostało ${l.livesLeft} ${plural(l.livesLeft, 'życie', 'życia', 'żyć')}`}</li>)}</ul></details>}
+        </section>}
+        {tab === 'zasady' && rules()}
+      </>}
+      <footer className="footer"><span>Pixel Arena · głos przez własny komunikator</span><span>Grafiki: <a href="https://github.com/jdecked/twemoji" target="_blank" rel="noreferrer">Twemoji</a> (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">CC BY 4.0</a>) · flagi: <a href="https://flagcdn.com/" target="_blank" rel="noreferrer">Flagcdn</a></span></footer>
+    </div>
+  </main>;
 }

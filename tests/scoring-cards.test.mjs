@@ -37,7 +37,7 @@ test('Footballer category has at least 60 unique players with nationality and fi
  assert.equal(new Set(questions.map(question=>question.answer)).size,questions.length);
  assert.equal(new Set(questions.map(question=>question.id)).size,questions.length);
  for(const question of questions){
-  assert.match(question.prompt,/Narodowość: [^.]+./);
+  assert.match(question.prompt,/\nNarodowość: .+\n/);
   assert.equal(question.prompt.split('Ostatnie kluby')[1].split(' → ').length,5);
  }
 });

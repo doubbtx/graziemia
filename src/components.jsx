@@ -4,7 +4,7 @@ const categoryEmojis = {
   stolice: '🏛️',
   pierwiastki: '⚗️',
   zwierzeta: '🦊',
-  polska: '🇵🇱',
+  polska: '🦅',
   jedzenie: '🍓',
   sport: '🏆',
   technologia: '💻',
@@ -16,7 +16,7 @@ const categoryEmojis = {
   matematyka: '➗',
   geometria: '📐',
   jednostki: '📏',
-  angielski: '🔤',
+  angielski: '💂',
   'wiedza ogolna': '💡',
   'flagi na obrazkach': '🚩',
   logika: '🧠',
@@ -33,14 +33,14 @@ const categoryEmojis = {
   'transport i podroze': '✈️',
   'zawody i narzedzia': '🧰',
   'jezyk polski': '✍️',
-  'rebusy emoji': '🧩',
+  'rebusy emoji': '🤔',
   'co tu nie pasuje?': '🔎',
   'prawda/falsz': '⚖️',
-  'league of legends': '🎮',
+  'league of legends': '🗡️',
   'marki i logotypy': '🏷️',
   'rozpoznawanie jezykow': '🗣️',
   'znaki drogowe': '🚦',
-  'wiecej czy mniej?': '⚖️',
+  'wiecej czy mniej?': '📊',
   'co bylo wczesniej?': '⏳',
   'brakujace litery': '🔤',
   'herby pilkarskie': '🛡️',
@@ -53,49 +53,30 @@ export function getCategoryEmoji(category) {
   return categoryEmojis[key] || '🎯';
 }
 
-export function PixelButton({children, className = '', type = 'button', ...props}) {
-  return <button type={type} className={`pixel-button ${className}`.trim()} {...props}>{children}</button>;
-}
-
-export function PixelPanel({as: Element = 'section', className = '', children, ...props}) {
-  return <Element className={`pixel-panel ${className}`.trim()} {...props}>{children}</Element>;
-}
-
-export function PlayerAvatar({name, color = 'cyan'}) {
+const AVATAR_COLORS = ['cyan', 'magenta', 'violet', 'amber', 'green', 'rose'];
+export function PlayerAvatar({name, color}) {
   const initial = name?.trim().charAt(0).toLocaleUpperCase('pl') || '?';
-  return <span className={`player-avatar player-avatar--${color}`} aria-hidden="true">{initial}</span>;
+  // Without a team colour, derive a stable colour from the name so players are easy to tell apart.
+  color ??= AVATAR_COLORS[[...(name || '')].reduce((sum, ch) => sum + ch.codePointAt(0), 0) % AVATAR_COLORS.length];
+  return <span className={`avatar avatar--${color}`} aria-hidden="true">{initial}</span>;
 }
 
-export const PixelTimer = memo(function PixelTimer({milliseconds, value, label, active = false}) {
+export const PixelTimer = memo(function PixelTimer({milliseconds, label, active = false}) {
   const [remaining, setRemaining] = useState(Math.max(0, milliseconds));
   useEffect(() => {
     const startedAt = Date.now();
     setRemaining(Math.max(0, milliseconds));
     if (!active) return;
-    const interval = setInterval(() => {
-      setRemaining(Math.max(0, milliseconds - (Date.now() - startedAt)));
-    }, 100);
+    const interval = setInterval(() => setRemaining(Math.max(0, milliseconds - (Date.now() - startedAt))), 100);
     return () => clearInterval(interval);
   }, [milliseconds, active]);
-  const display = value ?? `${(remaining / 1000).toFixed(1)} s`;
-  const announcement = value ?? `${Math.ceil(remaining / 1000)} sekund`;
-  return <><output className={`clock ${active ? 'clock--active' : ''} ${remaining <= 5000 && active ? 'clock--urgent' : ''}`} role="timer" aria-live="off" aria-label={`${label}: ${(remaining / 1000).toFixed(1)} sekundy`}>{display}</output><span className="visually-hidden" aria-live="polite" aria-atomic="true">{announcement}</span></>;
+  return <output className={`clock${active ? ' clock--active' : ''}${active && remaining <= 5000 ? ' clock--urgent' : ''}`} role="timer" aria-label={`${label}: ${Math.ceil(remaining / 1000)} sekund`}>{(remaining / 1000).toFixed(1)}<small>s</small></output>;
 });
 
 export function TerritoryTile({category, count, status, state, selected, disabled, onClick}) {
-  return (
-    <PixelButton
-      className="territory-tile"
-      data-territory-state={state}
-      aria-pressed={selected}
-      aria-label={`${category}, ${count} pytań, ${status}`}
-      disabled={disabled}
-      onClick={onClick}
-    >
-      <span className="territory-tile__mark" aria-hidden="true">{getCategoryEmoji(category)}</span>
-      <span className="territory-tile__name">{category}</span>
-      <small>{count} pytań · {status}</small>
-      <span className="territory-tile__state" aria-hidden="true">{selected ? '◆' : state === 'available' ? '◇' : '×'}</span>
-    </PixelButton>
-  );
+  return <button type="button" className="tile" data-state={state} aria-pressed={selected} aria-label={`${category}, ${count} pytań, ${status}`} disabled={disabled} onClick={onClick}>
+    <span className="tile__emoji" aria-hidden="true">{getCategoryEmoji(category)}</span>
+    <span className="tile__text"><strong>{category}</strong><small>{count} pytań · {status}</small></span>
+    {selected && <span className="tile__check" aria-hidden="true">✓</span>}
+  </button>;
 }
