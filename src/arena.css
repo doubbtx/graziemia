@@ -5634,3 +5634,51 @@ html body .av5 .visual-riddle {
     grid-row: 3;
   }
 }
+
+html body .av5.is-duel .wrap {
+  width: min(100% - 48px, 1680px);
+  max-width: 1680px !important;
+}
+
+html body .av5.is-duel .arena-layout.is-duel {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+}
+
+html body .av5.is-duel .arena-layout.is-duel .arena-layout__main {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+html body .av5.is-duel .arena-layout.is-duel .arena-sidebar__section:first-child {
+  grid-column: 1;
+  grid-row: 1;
+  max-height: none;
+}
+
+html body .av5.is-duel .arena-layout.is-duel .arena-sidebar__section:nth-child(3) {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+html body .av5.is-duel .arena-roster {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr));
+  align-items: start;
+  overflow: visible;
+}
+
+html body .av5.is-duel.judge-view .quiz-image {
+  height: min(38vh, 320px);
+}
+
+@media (max-width: 760px) {
+  html body .av5.is-duel .wrap {
+    width: min(100% - 32px, 680px);
+  }
+}
+
+@media (max-width: 460px) {
+  html body .av5.is-duel .wrap {
+    width: min(100% - 28px, 420px);
+  }
+}

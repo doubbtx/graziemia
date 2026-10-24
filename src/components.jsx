@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {memo, useEffect, useState} from 'react';
 
 const categoryEmojis = {
   stolice: '🏛️',
@@ -63,12 +63,21 @@ export function PlayerAvatar({name, color = 'cyan'}) {
   return <span className={`player-avatar player-avatar--${color}`} aria-hidden="true">{initial}</span>;
 }
 
-export function PixelTimer({milliseconds, value, label, active = false}) {
-  const remaining = Math.max(0, milliseconds);
+export const PixelTimer = memo(function PixelTimer({milliseconds, value, label, active = false}) {
+  const [remaining, setRemaining] = useState(Math.max(0, milliseconds));
+  useEffect(() => {
+    const startedAt = Date.now();
+    setRemaining(Math.max(0, milliseconds));
+    if (!active) return;
+    const interval = setInterval(() => {
+      setRemaining(Math.max(0, milliseconds - (Date.now() - startedAt)));
+    }, 100);
+    return () => clearInterval(interval);
+  }, [milliseconds, active]);
   const display = value ?? `${(remaining / 1000).toFixed(1)} s`;
   const announcement = value ?? `${Math.ceil(remaining / 1000)} sekund`;
-  return <><output className={`clock ${active ? 'clock--active' : ''} ${remaining <= 5000 && active ? 'clock--urgent' : ''}`} role="timer" aria-live="off" aria-label={label}>{display}</output><span className="visually-hidden" aria-live="polite" aria-atomic="true">{announcement}</span></>;
-}
+  return <><output className={`clock ${active ? 'clock--active' : ''} ${remaining <= 5000 && active ? 'clock--urgent' : ''}`} role="timer" aria-live="off" aria-label={`${label}: ${(remaining / 1000).toFixed(1)} sekundy`}>{display}</output><span className="visually-hidden" aria-live="polite" aria-atomic="true">{announcement}</span></>;
+});
 
 export function TerritoryTile({category, count, status, state, selected, disabled, onClick}) {
   return (

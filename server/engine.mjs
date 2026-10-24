@@ -3,8 +3,9 @@ export * from './engine-before-v12.mjs';
 import {bank} from './bank.mjs';
 import {randomUUID} from 'node:crypto';
 const ok=(x,m)=>{if(!x)throw Error(m);};
+const mediaReadyTimeout=6000;
 const current=r=>r.duel?bank[r.duel.category]?.[r.duel.index]:null;
-function observe(r,now){r.questionRulesVersion=13;r.questionReports=r.questionReports||[];const d=r.duel;if(!d)return;if(d.v12Key!==d.key){d.v12Key=d.key;d.v12Since=d.status==='running'?now:null;d.v12Level=0;d.v12Seen=d.v12Seen||[];if(!d.v12Seen.includes(d.index))d.v12Seen.push(d.index);}else if(d.status==='running'&&!Number.isFinite(d.v12Since))d.v12Since=now;else if(d.status!=='running')d.v12Since=null;}
+function observe(r,now){r.questionRulesVersion=13;r.questionReports=r.questionReports||[];const d=r.duel;if(!d)return;if(d.status==='media'){if(!Number.isFinite(d.mediaDeadline))d.mediaDeadline=now+mediaReadyTimeout;}else d.mediaDeadline=null;if(d.v12Key!==d.key){d.v12Key=d.key;d.v12Since=d.status==='running'?now:null;d.v12Level=0;d.v12Seen=d.v12Seen||[];if(!d.v12Seen.includes(d.index))d.v12Seen.push(d.index);}else if(d.status==='running'&&!Number.isFinite(d.v12Since))d.v12Since=now;else if(d.status!=='running')d.v12Since=null;}
 function awardNoSkip(r,duel,logLength){
  if(!duel||r.duel===duel||(r.log?.length||0)<=logLength)return;
  const noSkip=duel.ids.filter(playerId=>(duel.skipCounts?.[playerId]||0)===0);
@@ -12,7 +13,7 @@ function awardNoSkip(r,duel,logLength){
  if(noSkip.length&&r.lastDecision)r.lastDecision.text+=' Bez pominięć: +5 pkt dla '+noSkip.map(playerId=>r.players.find(player=>player.id===playerId)?.name||'gracza').join(' i ')+'.';
 }
 export function createRoom(...args){const r=old.createRoom(...args);observe(r,Date.now());return r;}
-export function tick(r,now=Date.now()){const duel=r.duel,logLength=r.log?.length||0,x=old.tick(r,now);awardNoSkip(r,duel,logLength);observe(r,now);return x;}
+export function tick(r,now=Date.now()){const duel=r.duel,logLength=r.log?.length||0,x=old.tick(r,now),mediaTimedOut=!!r.duel&&r.duel.status==='media'&&Number.isFinite(r.duel.mediaDeadline)&&now>=r.duel.mediaDeadline;if(mediaTimedOut){r.duel.status='running';r.duel.lastAt=now;r.rev++;r.updated=now;}awardNoSkip(r,duel,logLength);observe(r,now);return x||mediaTimedOut;}
 export function command(r,id,a,now=Date.now()){
  tick(r,now);ok(a.rev===r.rev,'Stan gry zmienił się.');const p=r.players.find(p=>p.id===id);ok(p?.connected,'Brak sesji.');const d=r.duel,q=current(r);
  if(['Q12_REPORT','Q12_HINT','Q12_SKIP'].includes(a.type)){

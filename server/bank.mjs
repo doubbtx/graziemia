@@ -23052,7 +23052,7 @@ export const bank = {
   ],
   "Więcej czy mniej?": [
     {
-      "prompt": "Który czysty metal ma wyższą temperaturę topnienia przy ciśnieniu atmosferycznym? A: Złoto. B: Miedź. Odpowiedz A lub B.",
+      "prompt": "Wyższa temperatura topnienia\nA: Złoto\nB: Miedź",
       "answer": "B",
       "aliases": [
         "Miedź"
@@ -23066,7 +23066,7 @@ export const bank = {
       "id": "wm-20261024-95036e23e1c32f"
     },
     {
-      "prompt": "Która planeta ma większą masę? A: Uran. B: Neptun. Odpowiedz A lub B.",
+      "prompt": "Większa masa\nA: Uran\nB: Neptun",
       "answer": "B",
       "aliases": [
         "Neptun"
@@ -23080,7 +23080,7 @@ export const bank = {
       "id": "wm-20261024-3c94bc6e3759e0"
     },
     {
-      "prompt": "Który obiekt ma większą średnicę? A: Mars. B: Merkury. Odpowiedz A lub B.",
+      "prompt": "Większa średnica\nA: Mars\nB: Merkury",
       "answer": "A",
       "aliases": [
         "Mars"
@@ -23094,7 +23094,7 @@ export const bank = {
       "id": "wm-20261024-44116e29301235"
     },
     {
-      "prompt": "Które pole gry ma większą powierzchnię (bez stref poza liniami)? A: Kort do padla. B: Kort tenisowy do singla. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Kort do padla\nB: Kort tenisowy do singla",
       "answer": "A",
       "aliases": [
         "Kort do padla"
@@ -23108,7 +23108,7 @@ export const bank = {
       "id": "wm-20261024-b7e80c69246422"
     },
     {
-      "prompt": "Który czysty metal ma wyższą temperaturę topnienia przy ciśnieniu atmosferycznym? A: Wolfram. B: Tytan. Odpowiedz A lub B.",
+      "prompt": "Wyższa temperatura topnienia\nA: Wolfram\nB: Tytan",
       "answer": "A",
       "aliases": [
         "Wolfram"
@@ -23122,7 +23122,7 @@ export const bank = {
       "id": "wm-20261024-95777aa88e3867"
     },
     {
-      "prompt": "Które pole gry ma większą powierzchnię (bez stref poza liniami)? A: Boisko siatkówki plażowej. B: Kort do padla. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Boisko siatkówki plażowej\nB: Kort do padla",
       "answer": "B",
       "aliases": [
         "Kort do padla"
@@ -23136,7 +23136,7 @@ export const bank = {
       "id": "wm-20261024-940e8e96dcab6f"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Chiny. B: Kanada. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Chiny\nB: Kanada",
       "answer": "B",
       "aliases": [
         "Kanada"
@@ -23150,7 +23150,7 @@ export const bank = {
       "id": "wm-20261024-510d5cdd5ae3f7"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Austria. B: Czechy. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Austria\nB: Czechy",
       "answer": "A",
       "aliases": [
         "Austria"
@@ -23164,7 +23164,7 @@ export const bank = {
       "id": "wm-20261024-b452751df6974c"
     },
     {
-      "prompt": "Który czysty metal ma wyższą temperaturę topnienia przy ciśnieniu atmosferycznym? A: Żelazo. B: Nikiel. Odpowiedz A lub B.",
+      "prompt": "Wyższa temperatura topnienia\nA: Żelazo\nB: Nikiel",
       "answer": "A",
       "aliases": [
         "Żelazo"
@@ -23178,7 +23178,7 @@ export const bank = {
       "id": "wm-20261024-89c659ae79508e"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Kuba. B: Islandia. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Kuba\nB: Islandia",
       "answer": "A",
       "aliases": [
         "Kuba"
@@ -23192,7 +23192,7 @@ export const bank = {
       "id": "wm-20261024-9091812b229d0f"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Finlandia. B: Polska. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Finlandia\nB: Polska",
       "answer": "A",
       "aliases": [
         "Finlandia"
@@ -23206,7 +23206,7 @@ export const bank = {
       "id": "wm-20261024-d10b563bfcb7e3"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Sri Lanka. B: Gruzja. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Sri Lanka\nB: Gruzja",
       "answer": "B",
       "aliases": [
         "Gruzja"
@@ -23220,7 +23220,7 @@ export const bank = {
       "id": "wm-20261024-94d2748325c02b"
     },
     {
-      "prompt": "Która planeta ma większą prędkość ucieczki? A: Ziemia. B: Wenus. Odpowiedz A lub B.",
+      "prompt": "Większa prędkość ucieczki\nA: Ziemia\nB: Wenus",
       "answer": "A",
       "aliases": [
         "Ziemia"
@@ -23234,7 +23234,7 @@ export const bank = {
       "id": "wm-20261024-980ab98f94f060"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Egipt. B: Nigeria. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Egipt\nB: Nigeria",
       "answer": "A",
       "aliases": [
         "Egipt"
@@ -23248,7 +23248,7 @@ export const bank = {
       "id": "wm-20261024-3e4eaef7f62956"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Chorwacja. B: Łotwa. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Chorwacja\nB: Łotwa",
       "answer": "B",
       "aliases": [
         "Łotwa"
@@ -23262,7 +23262,7 @@ export const bank = {
       "id": "wm-20261024-f5f7f3c4b75437"
     },
     {
-      "prompt": "Która planeta ma większą średnią gęstość? A: Saturn. B: Uran. Odpowiedz A lub B.",
+      "prompt": "Większa gęstość\nA: Saturn\nB: Uran",
       "answer": "B",
       "aliases": [
         "Uran"
@@ -23276,7 +23276,7 @@ export const bank = {
       "id": "wm-20261024-422f4f4c3e1383"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Rumunia. B: Wielka Brytania. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Rumunia\nB: Wielka Brytania",
       "answer": "B",
       "aliases": [
         "Wielka Brytania"
@@ -23290,7 +23290,7 @@ export const bank = {
       "id": "wm-20261024-6a5ae944a5ecbd"
     },
     {
-      "prompt": "Która planeta potrzebuje więcej czasu na pełny obrót wokół osi? A: Saturn. B: Jowisz. Odpowiedz A lub B.",
+      "prompt": "Dłuższy obrót wokół osi\nA: Saturn\nB: Jowisz",
       "answer": "A",
       "aliases": [
         "Saturn"
@@ -23304,7 +23304,7 @@ export const bank = {
       "id": "wm-20261024-1ea858962f8750"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Peru. B: Mongolia. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Peru\nB: Mongolia",
       "answer": "B",
       "aliases": [
         "Mongolia"
@@ -23318,7 +23318,7 @@ export const bank = {
       "id": "wm-20261024-20b6480b04b630"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Bułgaria. B: Grecja. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Bułgaria\nB: Grecja",
       "answer": "B",
       "aliases": [
         "Grecja"
@@ -23332,7 +23332,7 @@ export const bank = {
       "id": "wm-20261024-6a8d0fcde4c16a"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Niemcy. B: Japonia. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Niemcy\nB: Japonia",
       "answer": "B",
       "aliases": [
         "Japonia"
@@ -23346,7 +23346,7 @@ export const bank = {
       "id": "wm-20261024-f9410fb0172397"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Kenia. B: Madagaskar. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Kenia\nB: Madagaskar",
       "answer": "B",
       "aliases": [
         "Madagaskar"
@@ -23360,7 +23360,7 @@ export const bank = {
       "id": "wm-20261024-28c280867b00b5"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Kazachstan. B: Argentyna. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Kazachstan\nB: Argentyna",
       "answer": "B",
       "aliases": [
         "Argentyna"
@@ -23374,7 +23374,7 @@ export const bank = {
       "id": "wm-20261024-685c9dffd50849"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Węgry. B: Portugalia. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Węgry\nB: Portugalia",
       "answer": "A",
       "aliases": [
         "Węgry"
@@ -23388,7 +23388,7 @@ export const bank = {
       "id": "wm-20261024-a1a41513f17d48"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Słowacja. B: Estonia. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Słowacja\nB: Estonia",
       "answer": "A",
       "aliases": [
         "Słowacja"
@@ -23402,7 +23402,7 @@ export const bank = {
       "id": "wm-20261024-ea3aa2bc7e0983"
     },
     {
-      "prompt": "Który czysty metal ma wyższą temperaturę topnienia przy ciśnieniu atmosferycznym? A: Miedź. B: Magnez. Odpowiedz A lub B.",
+      "prompt": "Wyższa temperatura topnienia\nA: Miedź\nB: Magnez",
       "answer": "A",
       "aliases": [
         "Miedź"
@@ -23416,7 +23416,7 @@ export const bank = {
       "id": "wm-20261024-3df2770e215a7d"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Meksyk. B: Indonezja. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Meksyk\nB: Indonezja",
       "answer": "A",
       "aliases": [
         "Meksyk"
@@ -23430,7 +23430,7 @@ export const bank = {
       "id": "wm-20261024-20f7cafeb61551"
     },
     {
-      "prompt": "Który czysty metal ma wyższą temperaturę topnienia przy ciśnieniu atmosferycznym? A: Cynk. B: Aluminium. Odpowiedz A lub B.",
+      "prompt": "Wyższa temperatura topnienia\nA: Cynk\nB: Aluminium",
       "answer": "B",
       "aliases": [
         "Aluminium"
@@ -23444,7 +23444,7 @@ export const bank = {
       "id": "wm-20261024-4599ae8e00b50c"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Polska. B: Malezja. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Polska\nB: Malezja",
       "answer": "B",
       "aliases": [
         "Malezja"
@@ -23458,7 +23458,7 @@ export const bank = {
       "id": "wm-20261024-546242b8f94da8"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Nowa Zelandia. B: Rumunia. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Nowa Zelandia\nB: Rumunia",
       "answer": "A",
       "aliases": [
         "Nowa Zelandia"
@@ -23472,7 +23472,7 @@ export const bank = {
       "id": "wm-20261024-db292a43cdfd56"
     },
     {
-      "prompt": "Który czysty metal ma wyższą temperaturę topnienia przy ciśnieniu atmosferycznym? A: Srebro. B: Złoto. Odpowiedz A lub B.",
+      "prompt": "Wyższa temperatura topnienia\nA: Srebro\nB: Złoto",
       "answer": "B",
       "aliases": [
         "Złoto"
@@ -23486,7 +23486,7 @@ export const bank = {
       "id": "wm-20261024-a07808ad27030a"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Ekwador. B: Nowa Zelandia. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Ekwador\nB: Nowa Zelandia",
       "answer": "A",
       "aliases": [
         "Ekwador"
@@ -23500,7 +23500,7 @@ export const bank = {
       "id": "wm-20261024-dfbd1184bf0156"
     },
     {
-      "prompt": "Która planeta potrzebuje więcej czasu na pełny obrót wokół osi? A: Wenus. B: Merkury. Odpowiedz A lub B.",
+      "prompt": "Dłuższy obrót wokół osi\nA: Wenus\nB: Merkury",
       "answer": "A",
       "aliases": [
         "Wenus"
@@ -23514,7 +23514,7 @@ export const bank = {
       "id": "wm-20261024-61ebec3f9efb56"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Hiszpania. B: Tajlandia. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Hiszpania\nB: Tajlandia",
       "answer": "B",
       "aliases": [
         "Tajlandia"
@@ -23528,7 +23528,7 @@ export const bank = {
       "id": "wm-20261024-c7e1f89742fca9"
     },
     {
-      "prompt": "Które boisko jest dłuższe? A: Tenis. B: Koszykówka FIBA. Odpowiedz A lub B.",
+      "prompt": "Większa długość\nA: Tenis\nB: Koszykówka FIBA",
       "answer": "B",
       "aliases": [
         "Koszykówka FIBA"
@@ -23542,7 +23542,7 @@ export const bank = {
       "id": "wm-20261024-bfa1ad8ddfb5ab"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Belgia. B: Szwajcaria. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Belgia\nB: Szwajcaria",
       "answer": "B",
       "aliases": [
         "Szwajcaria"
@@ -23556,7 +23556,7 @@ export const bank = {
       "id": "wm-20261024-27cbfe3faad25b"
     },
     {
-      "prompt": "Który czysty metal ma wyższą temperaturę topnienia przy ciśnieniu atmosferycznym? A: Aluminium. B: Srebro. Odpowiedz A lub B.",
+      "prompt": "Wyższa temperatura topnienia\nA: Aluminium\nB: Srebro",
       "answer": "B",
       "aliases": [
         "Srebro"
@@ -23570,7 +23570,7 @@ export const bank = {
       "id": "wm-20261024-38f32a61865974"
     },
     {
-      "prompt": "Który czysty metal ma wyższą temperaturę topnienia przy ciśnieniu atmosferycznym? A: Tytan. B: Żelazo. Odpowiedz A lub B.",
+      "prompt": "Wyższa temperatura topnienia\nA: Tytan\nB: Żelazo",
       "answer": "A",
       "aliases": [
         "Tytan"
@@ -23584,7 +23584,7 @@ export const bank = {
       "id": "wm-20261024-9a2624a062530c"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Wietnam. B: Japonia. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Wietnam\nB: Japonia",
       "answer": "B",
       "aliases": [
         "Japonia"
@@ -23598,7 +23598,7 @@ export const bank = {
       "id": "wm-20261024-e93fbfef760cae"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Grecja. B: Islandia. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Grecja\nB: Islandia",
       "answer": "A",
       "aliases": [
         "Grecja"
@@ -23612,7 +23612,7 @@ export const bank = {
       "id": "wm-20261024-a49d99f034556a"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Urugwaj. B: Tunezja. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Urugwaj\nB: Tunezja",
       "answer": "A",
       "aliases": [
         "Urugwaj"
@@ -23626,7 +23626,7 @@ export const bank = {
       "id": "wm-20261024-edb81ccd542b21"
     },
     {
-      "prompt": "Które pole gry jest szersze? A: Kort badmintona do debla. B: Kort squasha do singla. Odpowiedz A lub B.",
+      "prompt": "Większa szerokość\nA: Kort badmintona do debla\nB: Kort squasha do singla",
       "answer": "B",
       "aliases": [
         "Kort squasha do singla"
@@ -23640,7 +23640,7 @@ export const bank = {
       "id": "wm-20261024-ab395a56554ab1"
     },
     {
-      "prompt": "Która planeta ma większą średnią gęstość? A: Ziemia. B: Merkury. Odpowiedz A lub B.",
+      "prompt": "Większa gęstość\nA: Ziemia\nB: Merkury",
       "answer": "A",
       "aliases": [
         "Ziemia"
@@ -23654,7 +23654,7 @@ export const bank = {
       "id": "wm-20261024-dfc4ee17c62834"
     },
     {
-      "prompt": "Który czysty metal ma wyższą temperaturę topnienia przy ciśnieniu atmosferycznym? A: Ołów. B: Cyna. Odpowiedz A lub B.",
+      "prompt": "Wyższa temperatura topnienia\nA: Ołów\nB: Cyna",
       "answer": "A",
       "aliases": [
         "Ołów"
@@ -23668,7 +23668,7 @@ export const bank = {
       "id": "wm-20261024-a6fd5c6d498c89"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Polska. B: Włochy. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Polska\nB: Włochy",
       "answer": "A",
       "aliases": [
         "Polska"
@@ -23682,7 +23682,7 @@ export const bank = {
       "id": "wm-20261024-6c3b76bc52244e"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Włochy. B: Filipiny. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Włochy\nB: Filipiny",
       "answer": "A",
       "aliases": [
         "Włochy"
@@ -23696,7 +23696,7 @@ export const bank = {
       "id": "wm-20261024-a8ab07bbaa1777"
     },
     {
-      "prompt": "Które pole gry jest dłuższe? A: Boisko siatkówki halowej. B: Kort do padla. Odpowiedz A lub B.",
+      "prompt": "Większa długość\nA: Boisko siatkówki halowej\nB: Kort do padla",
       "answer": "B",
       "aliases": [
         "Kort do padla"
@@ -23710,7 +23710,7 @@ export const bank = {
       "id": "wm-20261024-ae8da7c17ef9ae"
     },
     {
-      "prompt": "Które boisko koszykarskie ma większą powierzchnię? A: FIBA. B: NBA. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: FIBA\nB: NBA",
       "answer": "B",
       "aliases": [
         "NBA"
@@ -23724,7 +23724,7 @@ export const bank = {
       "id": "wm-20261024-ad5a7b2e1801c1"
     },
     {
-      "prompt": "Które pole gry jest szersze? A: Kort tenisowy do debla. B: Boisko siatkówki halowej. Odpowiedz A lub B.",
+      "prompt": "Większa szerokość\nA: Kort tenisowy do debla\nB: Boisko siatkówki halowej",
       "answer": "A",
       "aliases": [
         "Kort tenisowy do debla"
@@ -23738,7 +23738,7 @@ export const bank = {
       "id": "wm-20261024-8005007dbedf6b"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Australia. B: Brazylia. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Australia\nB: Brazylia",
       "answer": "B",
       "aliases": [
         "Brazylia"
@@ -23752,7 +23752,7 @@ export const bank = {
       "id": "wm-20261024-77859fc07c1b9c"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Armenia. B: Albania. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Armenia\nB: Albania",
       "answer": "A",
       "aliases": [
         "Armenia"
@@ -23766,7 +23766,7 @@ export const bank = {
       "id": "wm-20261024-d66f851e7f23a9"
     },
     {
-      "prompt": "Który czysty metal ma wyższą temperaturę topnienia przy ciśnieniu atmosferycznym? A: Ołów. B: Cynk. Odpowiedz A lub B.",
+      "prompt": "Wyższa temperatura topnienia\nA: Ołów\nB: Cynk",
       "answer": "B",
       "aliases": [
         "Cynk"
@@ -23780,7 +23780,7 @@ export const bank = {
       "id": "wm-20261024-99ab9fcd2d681d"
     },
     {
-      "prompt": "Które pole gry ma większą powierzchnię (bez stref poza liniami)? A: Kort squasha do singla. B: Kort badmintona do debla. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Kort squasha do singla\nB: Kort badmintona do debla",
       "answer": "B",
       "aliases": [
         "Kort badmintona do debla"
@@ -23794,7 +23794,7 @@ export const bank = {
       "id": "wm-20261024-b5d7385456e71b"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Hiszpania. B: Szwecja. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Hiszpania\nB: Szwecja",
       "answer": "A",
       "aliases": [
         "Hiszpania"
@@ -23808,7 +23808,7 @@ export const bank = {
       "id": "wm-20261024-1ad90aef759b0e"
     },
     {
-      "prompt": "Która planeta ma większą średnią temperaturę? A: Merkury. B: Wenus. Odpowiedz A lub B.",
+      "prompt": "Wyższa średnia temperatura\nA: Merkury\nB: Wenus",
       "answer": "B",
       "aliases": [
         "Wenus"
@@ -23822,7 +23822,7 @@ export const bank = {
       "id": "wm-20261024-6dd877c43d320b"
     },
     {
-      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Irlandia. B: Litwa. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Irlandia\nB: Litwa",
       "answer": "A",
       "aliases": [
         "Irlandia"
@@ -23836,7 +23836,7 @@ export const bank = {
       "id": "wm-20261024-0a43cce27bd5ff"
     },
     {
-      "prompt": "Która planeta ma większą prędkość orbitalną? A: Mars. B: Ziemia. Odpowiedz A lub B.",
+      "prompt": "Większa prędkość orbitalna\nA: Mars\nB: Ziemia",
       "answer": "B",
       "aliases": [
         "Ziemia"
@@ -23850,7 +23850,7 @@ export const bank = {
       "id": "wm-20261024-3ead8b43d999cb"
     },
     {
-      "prompt": "Które pole gry jest szersze? A: Kort tenisowy do singla. B: Boisko siatkówki plażowej. Odpowiedz A lub B.",
+      "prompt": "Większa szerokość\nA: Kort tenisowy do singla\nB: Boisko siatkówki plażowej",
       "answer": "A",
       "aliases": [
         "Kort tenisowy do singla"
@@ -23864,7 +23864,7 @@ export const bank = {
       "id": "wm-20261024-43fa4257fbd09b"
     },
     {
-      "prompt": "Które pole gry ma większą powierzchnię (bez stref poza liniami)? A: Boisko siatkówki halowej. B: Kort tenisowy do debla. Odpowiedz A lub B.",
+      "prompt": "Większa powierzchnia\nA: Boisko siatkówki halowej\nB: Kort tenisowy do debla",
       "answer": "B",
       "aliases": [
         "Kort tenisowy do debla"
@@ -23878,7 +23878,7 @@ export const bank = {
       "id": "wm-20261024-d94a53c49f9ed9"
     },
     {
-      "prompt": "Która planeta ma większą średnicę? A: Uran. B: Neptun. Odpowiedz A lub B.",
+      "prompt": "Większa średnica\nA: Uran\nB: Neptun",
       "answer": "A",
       "aliases": [
         "Uran"
@@ -23894,7 +23894,7 @@ export const bank = {
   ],
   "Co było wcześniej?": [
     {
-      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Uciekające kurczaki. B: Lilo i Stitch (animacja). Odpowiedz A lub B.",
+      "prompt": "A: Uciekające kurczaki\nB: Lilo i Stitch (animacja)",
       "answer": "A",
       "aliases": [
         "Uciekające kurczaki"
@@ -23910,7 +23910,7 @@ export const bank = {
       "id": "cw-20261024-3e71676181cd89"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Patent Bella na telefon. B: Demonstracja fonografu Edisona. Odpowiedz A lub B.",
+      "prompt": "A: Patent Bella na telefon\nB: Demonstracja fonografu Edisona",
       "answer": "A",
       "aliases": [
         "Patent Bella na telefon"
@@ -23925,7 +23925,7 @@ export const bank = {
       "id": "cw-20261024-525e6238c24776"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Nowe szaty króla. B: Dawno temu w trawie. Odpowiedz A lub B.",
+      "prompt": "A: Nowe szaty króla\nB: Dawno temu w trawie",
       "answer": "B",
       "aliases": [
         "Dawno temu w trawie"
@@ -23941,7 +23941,7 @@ export const bank = {
       "id": "cw-20261024-6cb5858a4dd9a5"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Tarzan (animacja). B: Mulan (animacja). Odpowiedz A lub B.",
+      "prompt": "A: Tarzan (animacja)\nB: Mulan (animacja)",
       "answer": "B",
       "aliases": [
         "Mulan (animacja)"
@@ -23957,7 +23957,7 @@ export const bank = {
       "id": "cw-20261024-5bf1f49ad6d575"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Pierwsza konsola PlayStation 2 w sprzedaży. B: Pierwszy odtwarzacz iPod w sprzedaży. Odpowiedz A lub B.",
+      "prompt": "A: Pierwsza konsola PlayStation 2 w sprzedaży\nB: Pierwszy odtwarzacz iPod w sprzedaży",
       "answer": "A",
       "aliases": [
         "Pierwsza konsola PlayStation 2 w sprzedaży"
@@ -23972,7 +23972,7 @@ export const bank = {
       "id": "cw-20261024-a4f68117e59e1d"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Uruchomienie Snapchata. B: Uruchomienie Instagrama. Odpowiedz A lub B.",
+      "prompt": "A: Uruchomienie Snapchata\nB: Uruchomienie Instagrama",
       "answer": "B",
       "aliases": [
         "Uruchomienie Instagrama"
@@ -23987,7 +23987,7 @@ export const bank = {
       "id": "cw-20261024-c29e976aff2655"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Uruchomienie YouTube. B: Uruchomienie Wikipedii. Odpowiedz A lub B.",
+      "prompt": "A: Uruchomienie YouTube\nB: Uruchomienie Wikipedii",
       "answer": "B",
       "aliases": [
         "Uruchomienie Wikipedii"
@@ -24002,7 +24002,7 @@ export const bank = {
       "id": "cw-20261024-3e0cb53869a67f"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Merida Waleczna. B: Jak wytresować smoka (animacja). Odpowiedz A lub B.",
+      "prompt": "A: Merida Waleczna\nB: Jak wytresować smoka (animacja)",
       "answer": "B",
       "aliases": [
         "Jak wytresować smoka (animacja)"
@@ -24018,7 +24018,7 @@ export const bank = {
       "id": "cw-20261024-0bcfd8544bc550"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Kraina lodu. B: Zaplątani. Odpowiedz A lub B.",
+      "prompt": "A: Kraina lodu\nB: Zaplątani",
       "answer": "B",
       "aliases": [
         "Zaplątani"
@@ -24034,7 +24034,7 @@ export const bank = {
       "id": "cw-20261024-2e70ef6a522ab3"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Red Dead Redemption. B: Angry Birds. Odpowiedz A lub B.",
+      "prompt": "A: Red Dead Redemption\nB: Angry Birds",
       "answer": "B",
       "aliases": [
         "Angry Birds"
@@ -24048,7 +24048,7 @@ export const bank = {
       "id": "cw-20261024-8b957d045135b3"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Asteroids. B: Space Invaders. Odpowiedz A lub B.",
+      "prompt": "A: Asteroids\nB: Space Invaders",
       "answer": "B",
       "aliases": [
         "Space Invaders"
@@ -24062,7 +24062,7 @@ export const bank = {
       "id": "cw-20261024-220e24bf5e1740"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: The Last of Us (oryginał). B: Hearthstone (pełna wersja). Odpowiedz A lub B.",
+      "prompt": "A: The Last of Us (oryginał)\nB: Hearthstone (pełna wersja)",
       "answer": "A",
       "aliases": [
         "The Last of Us (oryginał)"
@@ -24076,7 +24076,7 @@ export const bank = {
       "id": "cw-20261024-f24535d2f11626"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Portal. B: GTA IV. Odpowiedz A lub B.",
+      "prompt": "A: Portal\nB: GTA IV",
       "answer": "A",
       "aliases": [
         "Portal"
@@ -24090,7 +24090,7 @@ export const bank = {
       "id": "cw-20261024-3a78e734ef7c5f"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Kung Fu Panda. B: Ratatuj. Odpowiedz A lub B.",
+      "prompt": "A: Kung Fu Panda\nB: Ratatuj",
       "answer": "B",
       "aliases": [
         "Ratatuj"
@@ -24106,7 +24106,7 @@ export const bank = {
       "id": "cw-20261024-fb400c03453191"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Pierwszy standard USB. B: Pierwsza specyfikacja Bluetooth. Odpowiedz A lub B.",
+      "prompt": "A: Pierwszy standard USB\nB: Pierwsza specyfikacja Bluetooth",
       "answer": "A",
       "aliases": [
         "Pierwszy standard USB"
@@ -24121,7 +24121,7 @@ export const bank = {
       "id": "cw-20261024-c54c48dac65bc4"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Nintendo DS. B: Xbox 360. Odpowiedz A lub B.",
+      "prompt": "A: Nintendo DS\nB: Xbox 360",
       "answer": "A",
       "aliases": [
         "Nintendo DS"
@@ -24135,7 +24135,7 @@ export const bank = {
       "id": "cw-20261024-728a188115405b"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Aladyn (animacja). B: Piękna i Bestia (animacja). Odpowiedz A lub B.",
+      "prompt": "A: Aladyn (animacja)\nB: Piękna i Bestia (animacja)",
       "answer": "B",
       "aliases": [
         "Piękna i Bestia (animacja)"
@@ -24151,7 +24151,7 @@ export const bank = {
       "id": "cw-20261024-0a07b3d98e0b33"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Shrek. B: Potwory i spółka. Odpowiedz A lub B.",
+      "prompt": "A: Shrek\nB: Potwory i spółka",
       "answer": "A",
       "aliases": [
         "Shrek"
@@ -24167,7 +24167,7 @@ export const bank = {
       "id": "cw-20261024-ec63fb333b0d91"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: To nie wypanda. B: Między nami żywiołami. Odpowiedz A lub B.",
+      "prompt": "A: To nie wypanda\nB: Między nami żywiołami",
       "answer": "A",
       "aliases": [
         "To nie wypanda"
@@ -24183,7 +24183,7 @@ export const bank = {
       "id": "cw-20261024-8fa60464a33090"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Madagaskar. B: Auta. Odpowiedz A lub B.",
+      "prompt": "A: Madagaskar\nB: Auta",
       "answer": "A",
       "aliases": [
         "Madagaskar"
@@ -24199,7 +24199,7 @@ export const bank = {
       "id": "cw-20261024-390ec8159965bb"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Sekiro: Shadows Die Twice. B: Red Dead Redemption 2. Odpowiedz A lub B.",
+      "prompt": "A: Sekiro: Shadows Die Twice\nB: Red Dead Redemption 2",
       "answer": "B",
       "aliases": [
         "Red Dead Redemption 2"
@@ -24213,7 +24213,7 @@ export const bank = {
       "id": "cw-20261024-ae73c2e06c9a2d"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Pierwszy mikroprocesor Intel 4004. B: Pierwsza mysz komputerowa Engelbarta (prototyp). Odpowiedz A lub B.",
+      "prompt": "A: Pierwszy mikroprocesor Intel 4004\nB: Pierwsza mysz komputerowa Engelbarta (prototyp)",
       "answer": "B",
       "aliases": [
         "Pierwsza mysz komputerowa Engelbarta (prototyp)"
@@ -24228,7 +24228,7 @@ export const bank = {
       "id": "cw-20261024-d9c1595fc6cd73"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Iniemamocni. B: Gdzie jest Nemo. Odpowiedz A lub B.",
+      "prompt": "A: Iniemamocni\nB: Gdzie jest Nemo",
       "answer": "B",
       "aliases": [
         "Gdzie jest Nemo"
@@ -24244,7 +24244,7 @@ export const bank = {
       "id": "cw-20261024-80041b413ffb8a"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Ogniwo Volty. B: Stetoskop Laenneca. Odpowiedz A lub B.",
+      "prompt": "A: Ogniwo Volty\nB: Stetoskop Laenneca",
       "answer": "A",
       "aliases": [
         "Ogniwo Volty"
@@ -24259,7 +24259,7 @@ export const bank = {
       "id": "cw-20261024-6558e27cb4d09d"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Herkules (animacja). B: Pocahontas. Odpowiedz A lub B.",
+      "prompt": "A: Herkules (animacja)\nB: Pocahontas",
       "answer": "B",
       "aliases": [
         "Pocahontas"
@@ -24275,7 +24275,7 @@ export const bank = {
       "id": "cw-20261024-0761b3098beb31"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Krudowie. B: Pingwiny z Madagaskaru. Odpowiedz A lub B.",
+      "prompt": "A: Krudowie\nB: Pingwiny z Madagaskaru",
       "answer": "A",
       "aliases": [
         "Krudowie"
@@ -24291,7 +24291,7 @@ export const bank = {
       "id": "cw-20261024-f8bcad656af015"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Kontrolowany lot samolotu braci Wright. B: Patent Benza na samochód. Odpowiedz A lub B.",
+      "prompt": "A: Kontrolowany lot samolotu braci Wright\nB: Patent Benza na samochód",
       "answer": "B",
       "aliases": [
         "Patent Benza na samochód"
@@ -24306,7 +24306,7 @@ export const bank = {
       "id": "cw-20261024-dac83ff0a7bbe6"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Pierwszy kod QR. B: Pierwszy SMS. Odpowiedz A lub B.",
+      "prompt": "A: Pierwszy kod QR\nB: Pierwszy SMS",
       "answer": "B",
       "aliases": [
         "Pierwszy SMS"
@@ -24321,7 +24321,7 @@ export const bank = {
       "id": "cw-20261024-1c9e214c08c4fa"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Pierwszy działający laser. B: Pierwszy tranzystor w Bell Labs. Odpowiedz A lub B.",
+      "prompt": "A: Pierwszy działający laser\nB: Pierwszy tranzystor w Bell Labs",
       "answer": "B",
       "aliases": [
         "Pierwszy tranzystor w Bell Labs"
@@ -24336,7 +24336,7 @@ export const bank = {
       "id": "cw-20261024-fc854899a8c70e"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Odlot. B: WALL-E. Odpowiedz A lub B.",
+      "prompt": "A: Odlot\nB: WALL-E",
       "answer": "B",
       "aliases": [
         "WALL-E"
@@ -24352,7 +24352,7 @@ export const bank = {
       "id": "cw-20261024-f21ee547211cff"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Game Boy. B: PlayStation (pierwszy model). Odpowiedz A lub B.",
+      "prompt": "A: Game Boy\nB: PlayStation (pierwszy model)",
       "answer": "A",
       "aliases": [
         "Game Boy"
@@ -24366,7 +24366,7 @@ export const bank = {
       "id": "cw-20261024-a0f783578a75c4"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Co w duszy gra. B: Luca. Odpowiedz A lub B.",
+      "prompt": "A: Co w duszy gra\nB: Luca",
       "answer": "A",
       "aliases": [
         "Co w duszy gra"
@@ -24382,7 +24382,7 @@ export const bank = {
       "id": "cw-20261024-3006b6e2503b43"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Doom (oryginał). B: Tekken (pierwsza część). Odpowiedz A lub B.",
+      "prompt": "A: Doom (oryginał)\nB: Tekken (pierwsza część)",
       "answer": "A",
       "aliases": [
         "Doom (oryginał)"
@@ -24396,7 +24396,7 @@ export const bank = {
       "id": "cw-20261024-16c4bff1e929a2"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Król Lew (animacja). B: Toy Story. Odpowiedz A lub B.",
+      "prompt": "A: Król Lew (animacja)\nB: Toy Story",
       "answer": "A",
       "aliases": [
         "Król Lew (animacja)"
@@ -24412,7 +24412,7 @@ export const bank = {
       "id": "cw-20261024-d7f4bec1dff23d"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: God of War (pierwsza część). B: GTA: San Andreas. Odpowiedz A lub B.",
+      "prompt": "A: God of War (pierwsza część)\nB: GTA: San Andreas",
       "answer": "B",
       "aliases": [
         "GTA: San Andreas"
@@ -24426,7 +24426,7 @@ export const bank = {
       "id": "cw-20261024-96f5560da621fc"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Trolle. B: Dzieciak rządzi. Odpowiedz A lub B.",
+      "prompt": "A: Trolle\nB: Dzieciak rządzi",
       "answer": "A",
       "aliases": [
         "Trolle"
@@ -24442,7 +24442,7 @@ export const bank = {
       "id": "cw-20261024-c2457e6b37b95f"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Vaiana: Skarb oceanu. B: Zwierzogród. Odpowiedz A lub B.",
+      "prompt": "A: Vaiana: Skarb oceanu\nB: Zwierzogród",
       "answer": "B",
       "aliases": [
         "Zwierzogród"
@@ -24458,7 +24458,7 @@ export const bank = {
       "id": "cw-20261024-f5c27f90e95118"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Call of Duty (pierwsza część). B: World of Warcraft. Odpowiedz A lub B.",
+      "prompt": "A: Call of Duty (pierwsza część)\nB: World of Warcraft",
       "answer": "A",
       "aliases": [
         "Call of Duty (pierwsza część)"
@@ -24472,7 +24472,7 @@ export const bank = {
       "id": "cw-20261024-ce247d556b0d02"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Pierwszy telefon iPhone w sprzedaży. B: Pierwszy telefon z Androidem w sprzedaży. Odpowiedz A lub B.",
+      "prompt": "A: Pierwszy telefon iPhone w sprzedaży\nB: Pierwszy telefon z Androidem w sprzedaży",
       "answer": "A",
       "aliases": [
         "Pierwszy telefon iPhone w sprzedaży"
@@ -24487,7 +24487,7 @@ export const bank = {
       "id": "cw-20261024-332db75f67b85e"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Half-Life. B: Tomb Raider (oryginał). Odpowiedz A lub B.",
+      "prompt": "A: Half-Life\nB: Tomb Raider (oryginał)",
       "answer": "B",
       "aliases": [
         "Tomb Raider (oryginał)"
@@ -24501,7 +24501,7 @@ export const bank = {
       "id": "cw-20261024-52d0f7661b230f"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Fallout 4. B: Dishonored (pierwsza część). Odpowiedz A lub B.",
+      "prompt": "A: Fallout 4\nB: Dishonored (pierwsza część)",
       "answer": "B",
       "aliases": [
         "Dishonored (pierwsza część)"
@@ -24515,7 +24515,7 @@ export const bank = {
       "id": "cw-20261024-b635675cd3878b"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Coco. B: W głowie się nie mieści. Odpowiedz A lub B.",
+      "prompt": "A: Coco\nB: W głowie się nie mieści",
       "answer": "B",
       "aliases": [
         "W głowie się nie mieści"
@@ -24531,7 +24531,7 @@ export const bank = {
       "id": "cw-20261024-70ff581cde580c"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Pac-Man. B: Donkey Kong. Odpowiedz A lub B.",
+      "prompt": "A: Pac-Man\nB: Donkey Kong",
       "answer": "A",
       "aliases": [
         "Pac-Man"
@@ -24545,7 +24545,7 @@ export const bank = {
       "id": "cw-20261024-00988ca3121ea1"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Pierwszy odtwarzacz CD Sony w sprzedaży. B: Pierwszy Walkman w sprzedaży. Odpowiedz A lub B.",
+      "prompt": "A: Pierwszy odtwarzacz CD Sony w sprzedaży\nB: Pierwszy Walkman w sprzedaży",
       "answer": "B",
       "aliases": [
         "Pierwszy Walkman w sprzedaży"
@@ -24560,7 +24560,7 @@ export const bank = {
       "id": "cw-20261024-7d864a1f044766"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Uruchomienie Facebooka. B: Uruchomienie wyszukiwarki Google. Odpowiedz A lub B.",
+      "prompt": "A: Uruchomienie Facebooka\nB: Uruchomienie wyszukiwarki Google",
       "answer": "B",
       "aliases": [
         "Uruchomienie wyszukiwarki Google"
@@ -24575,7 +24575,7 @@ export const bank = {
       "id": "cw-20261024-f7c898f6e1404a"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Patent na rzep Velcro. B: Pierwszy działający laser. Odpowiedz A lub B.",
+      "prompt": "A: Patent na rzep Velcro\nB: Pierwszy działający laser",
       "answer": "A",
       "aliases": [
         "Patent na rzep Velcro"
@@ -24590,7 +24590,7 @@ export const bank = {
       "id": "cw-20261024-a79a0abe2ae4fd"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Kot w butach. B: Megamocny. Odpowiedz A lub B.",
+      "prompt": "A: Kot w butach\nB: Megamocny",
       "answer": "B",
       "aliases": [
         "Megamocny"
@@ -24606,7 +24606,7 @@ export const bank = {
       "id": "cw-20261024-68cf5650d8fed6"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Pierwsza komercyjna kuchenka mikrofalowa Radarange. B: Pierwszy tranzystorowy odbiornik radiowy Regency TR-1 w sprzedaży. Odpowiedz A lub B.",
+      "prompt": "A: Pierwsza komercyjna kuchenka mikrofalowa Radarange\nB: Pierwszy tranzystorowy odbiornik radiowy Regency TR-1 w sprzedaży",
       "answer": "A",
       "aliases": [
         "Pierwsza komercyjna kuchenka mikrofalowa Radarange"
@@ -24621,7 +24621,7 @@ export const bank = {
       "id": "cw-20261024-a4ed7e2af9a692"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Pierwszy SMS. B: Pierwsza publiczna wersja WWW. Odpowiedz A lub B.",
+      "prompt": "A: Pierwszy SMS\nB: Pierwsza publiczna wersja WWW",
       "answer": "B",
       "aliases": [
         "Pierwsza publiczna wersja WWW"
@@ -24636,7 +24636,7 @@ export const bank = {
       "id": "cw-20261024-c82b135363bfaf"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Pierwsza komercyjna płyta CD w Japonii. B: Pierwszy komputer Macintosh w sprzedaży. Odpowiedz A lub B.",
+      "prompt": "A: Pierwsza komercyjna płyta CD w Japonii\nB: Pierwszy komputer Macintosh w sprzedaży",
       "answer": "A",
       "aliases": [
         "Pierwsza komercyjna płyta CD w Japonii"
@@ -24651,7 +24651,7 @@ export const bank = {
       "id": "cw-20261024-b48017232e975e"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Super Mario Bros.. B: The Legend of Zelda. Odpowiedz A lub B.",
+      "prompt": "A: Super Mario Bros.\nB: The Legend of Zelda",
       "answer": "A",
       "aliases": [
         "Super Mario Bros."
@@ -24665,7 +24665,7 @@ export const bank = {
       "id": "cw-20261024-65d6be06e487f8"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Final Fantasy VII (oryginał). B: Heroes of Might and Magic III. Odpowiedz A lub B.",
+      "prompt": "A: Final Fantasy VII (oryginał)\nB: Heroes of Might and Magic III",
       "answer": "A",
       "aliases": [
         "Final Fantasy VII (oryginał)"
@@ -24679,7 +24679,7 @@ export const bank = {
       "id": "cw-20261024-ed7644c9b22d32"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Far Cry 3. B: Skyrim. Odpowiedz A lub B.",
+      "prompt": "A: Far Cry 3\nB: Skyrim",
       "answer": "B",
       "aliases": [
         "Skyrim"
@@ -24693,7 +24693,7 @@ export const bank = {
       "id": "cw-20261024-a37ca8ce6a1fce"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Pierwszy lot Concorde’a. B: Pierwszy lot Boeinga 747. Odpowiedz A lub B.",
+      "prompt": "A: Pierwszy lot Concorde’a\nB: Pierwszy lot Boeinga 747",
       "answer": "B",
       "aliases": [
         "Pierwszy lot Boeinga 747"
@@ -24708,7 +24708,7 @@ export const bank = {
       "id": "cw-20261024-f5a98703dbe282"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Street Fighter II. B: Mortal Kombat. Odpowiedz A lub B.",
+      "prompt": "A: Street Fighter II\nB: Mortal Kombat",
       "answer": "A",
       "aliases": [
         "Street Fighter II"
@@ -24722,7 +24722,7 @@ export const bank = {
       "id": "cw-20261024-9748543fa755a8"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Wiedźmin 3: Dziki Gon. B: Overwatch (pierwsza część). Odpowiedz A lub B.",
+      "prompt": "A: Wiedźmin 3: Dziki Gon\nB: Overwatch (pierwsza część)",
       "answer": "A",
       "aliases": [
         "Wiedźmin 3: Dziki Gon"
@@ -24736,7 +24736,7 @@ export const bank = {
       "id": "cw-20261024-40961c7cb0147e"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Halo: Combat Evolved. B: GTA: Vice City. Odpowiedz A lub B.",
+      "prompt": "A: Halo: Combat Evolved\nB: GTA: Vice City",
       "answer": "A",
       "aliases": [
         "Halo: Combat Evolved"
@@ -24750,7 +24750,7 @@ export const bank = {
       "id": "cw-20261024-fa8e5395218bd9"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Wprowadzenie kasety Compact Cassette. B: Pierwszy Walkman w sprzedaży. Odpowiedz A lub B.",
+      "prompt": "A: Wprowadzenie kasety Compact Cassette\nB: Pierwszy Walkman w sprzedaży",
       "answer": "A",
       "aliases": [
         "Wprowadzenie kasety Compact Cassette"
@@ -24765,7 +24765,7 @@ export const bank = {
       "id": "cw-20261024-948abe2c699a7c"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Odkrycie promieni X. B: Odkrycie elektronu. Odpowiedz A lub B.",
+      "prompt": "A: Odkrycie promieni X\nB: Odkrycie elektronu",
       "answer": "A",
       "aliases": [
         "Odkrycie promieni X"
@@ -24780,7 +24780,7 @@ export const bank = {
       "id": "cw-20261024-d304226914dbf9"
     },
     {
-      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Crash Bandicoot (pierwsza część). B: Rayman (pierwsza część). Odpowiedz A lub B.",
+      "prompt": "A: Crash Bandicoot (pierwsza część)\nB: Rayman (pierwsza część)",
       "answer": "B",
       "aliases": [
         "Rayman (pierwsza część)"
@@ -25579,6 +25579,1327 @@ export const bank = {
       "id": "bl-20261024-dc7a1e9b1f01c8",
       "kind": "brakujące litery",
       "difficulty": "średnie"
+    }
+  ],
+  "Herby piłkarskie": [
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Bayern Monachium",
+      "aliases": [
+        "Bayern Munich",
+        "Bayern",
+        "Bayern München",
+        "Bayern Munchen",
+        "FC Bayern"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Bayern%20Munich.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/Bayern%20Munich.png",
+      "id": "herby-20261024-69385fdd4b808f"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Brighton & Hove Albion",
+      "aliases": [
+        "Brighton",
+        "Brighton and Hove Albion"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Brighton%20%26%20Hove%20Albion.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Brighton%20%26%20Hove%20Albion.png",
+      "id": "herby-20261024-a70253e4cc94fa"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "AC Milan",
+      "aliases": [
+        "Milan"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png",
+      "id": "herby-20261024-4f47225546a50d"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Newcastle United",
+      "aliases": [
+        "Newcastle"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Newcastle%20United.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Newcastle%20United.png",
+      "id": "herby-20261024-f8730f344f256e"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "RB Lipsk",
+      "aliases": [
+        "RB Leipzig",
+        "Lipsk",
+        "Leipzig"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/RB%20Leipzig.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/RB%20Leipzig.png",
+      "id": "herby-20261024-1866d0a72f43b8"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Zagłębie Lubin",
+      "aliases": [
+        "Zaglebie Lubin",
+        "Zagłębie",
+        "Zaglebie"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Zaglebie%20Lubin.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Zaglebie%20Lubin.png",
+      "id": "herby-20261024-995bdfe94b5aa7"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Real Betis",
+      "aliases": [
+        "Real Betis Balompié",
+        "Real Betis Balompie",
+        "Betis"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Betis%20Balompi%C3%A9.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Real%20Betis%20Balompi%C3%A9.png",
+      "id": "herby-20261024-bf73e7d9cc4db5"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Paris Saint-Germain",
+      "aliases": [
+        "PSG",
+        "Paris Saint Germain"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Paris%20Saint-Germain.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/Paris%20Saint-Germain.png",
+      "id": "herby-20261024-47694a61db4fbb"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Crystal Palace",
+      "aliases": [],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Crystal%20Palace.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Crystal%20Palace.png",
+      "id": "herby-20261024-4d48f1753671fb"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Cracovia",
+      "aliases": [
+        "Cracovia Kraków",
+        "Cracovia Krakow",
+        "KS Cracovia"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Cracovia.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Cracovia.png",
+      "id": "herby-20261024-c997998b2d5aa1"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Pogoń Szczecin",
+      "aliases": [
+        "Pogon Szczecin",
+        "Pogoń",
+        "Pogon"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Pogon%20Szczecin.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Pogon%20Szczecin.png",
+      "id": "herby-20261024-f8d775462c698c"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Inter Mediolan",
+      "aliases": [
+        "Inter Milan",
+        "Inter",
+        "Internazionale"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Inter%20Milan.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/Inter%20Milan.png",
+      "id": "herby-20261024-c764ec29d83d3e"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Genoa",
+      "aliases": [
+        "Genoa CFC"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Genoa%20CFC.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/Genoa%20CFC.png",
+      "id": "herby-20261024-0f37092ac66e43"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Tottenham Hotspur",
+      "aliases": [
+        "Tottenham",
+        "Spurs"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Tottenham%20Hotspur.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Tottenham%20Hotspur.png",
+      "id": "herby-20261024-8ecab079109a5e"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Manchester City",
+      "aliases": [
+        "Man City"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20City.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Manchester%20City.png",
+      "id": "herby-20261024-9986911fa8ce03"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Atalanta",
+      "aliases": [
+        "Atalanta BC",
+        "Atalanta Bergamo"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Atalanta%20BC.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/Atalanta%20BC.png",
+      "id": "herby-20261024-cb78a09fc104d8"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Schalke 04",
+      "aliases": [
+        "FC Schalke 04",
+        "Schalke"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/FC%20Schalke%2004.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/FC%20Schalke%2004.png",
+      "id": "herby-20261024-32faf58e49f94d"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Bologna",
+      "aliases": [
+        "Bologna FC 1909",
+        "Bologna FC"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Bologna%20FC%201909.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/Bologna%20FC%201909.png",
+      "id": "herby-20261024-0f6ffd30247967"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "AS Roma",
+      "aliases": [
+        "Roma"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AS%20Roma.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/AS%20Roma.png",
+      "id": "herby-20261024-216834a1255ea3"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Fiorentina",
+      "aliases": [
+        "ACF Fiorentina"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/ACF%20Fiorentina.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/ACF%20Fiorentina.png",
+      "id": "herby-20261024-d800ac079643e3"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Raków Częstochowa",
+      "aliases": [
+        "Rakow Czestochowa",
+        "Raków",
+        "Rakow"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Rak%C3%B3w%20Cz%C4%99stochowa.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Rak%C3%B3w%20Cz%C4%99stochowa.png",
+      "id": "herby-20261024-dd361f8d66c4c4"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Real Sociedad",
+      "aliases": [
+        "Real Sociedad San Sebastian"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Sociedad.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Real%20Sociedad.png",
+      "id": "herby-20261024-403b246f961eec"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Arka Gdynia",
+      "aliases": [
+        "Arka"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Arka%20Gdynia.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Arka%20Gdynia.png",
+      "id": "herby-20261024-560ef1ae75551d"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Celta Vigo",
+      "aliases": [
+        "Celta de Vigo",
+        "Celta"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Celta%20de%20Vigo.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Celta%20de%20Vigo.png",
+      "id": "herby-20261024-d9ed35a291f58b"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Legia Warszawa",
+      "aliases": [
+        "Legia"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Legia%20Warszawa.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Legia%20Warszawa.png",
+      "id": "herby-20261024-9ffdf4fc2d1f3b"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Eintracht Frankfurt",
+      "aliases": [
+        "Eintracht"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Eintracht%20Frankfurt.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/Eintracht%20Frankfurt.png",
+      "id": "herby-20261024-d461dcead7362e"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "GKS Katowice",
+      "aliases": [
+        "GieKSa"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/GKS%20Katowice.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/GKS%20Katowice.png",
+      "id": "herby-20261024-680e4734d4acfe"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Jagiellonia Białystok",
+      "aliases": [
+        "Jagiellonia Bialystok",
+        "Jagiellonia",
+        "Jaga"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Jagiellonia%20Bialystok.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Jagiellonia%20Bialystok.png",
+      "id": "herby-20261024-b606b5f2a0d4a6"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Arsenal",
+      "aliases": [
+        "Arsenal FC",
+        "Arsenal Londyn"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Arsenal%20FC.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Arsenal%20FC.png",
+      "id": "herby-20261024-c999199b2612ce"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "SC Freiburg",
+      "aliases": [
+        "Freiburg"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/SC%20Freiburg.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/SC%20Freiburg.png",
+      "id": "herby-20261024-a36a41ea860026"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Leeds United",
+      "aliases": [
+        "Leeds"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Leeds%20United.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Leeds%20United.png",
+      "id": "herby-20261024-c550616e40058e"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Widzew Łódź",
+      "aliases": [
+        "Widzew Lodz",
+        "Widzew"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Widzew%20Lodz.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Widzew%20Lodz.png",
+      "id": "herby-20261024-753d54b98aa07c"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Valencia",
+      "aliases": [
+        "Valencia CF"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Valencia%20CF.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Valencia%20CF.png",
+      "id": "herby-20261024-a66b6c078db27b"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Lille",
+      "aliases": [
+        "LOSC Lille",
+        "LOSC"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/LOSC%20Lille.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/LOSC%20Lille.png",
+      "id": "herby-20261024-3389a5bf037de6"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Parma",
+      "aliases": [
+        "Parma Calcio 1913",
+        "Parma Calcio"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Parma%20Calcio%201913.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/Parma%20Calcio%201913.png",
+      "id": "herby-20261024-fa68eb67b36bbb"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Borussia Dortmund",
+      "aliases": [
+        "Dortmund",
+        "BVB"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Borussia%20Dortmund.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/Borussia%20Dortmund.png",
+      "id": "herby-20261024-56723566c4135f"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Liverpool",
+      "aliases": [
+        "Liverpool FC"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Liverpool%20FC.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Liverpool%20FC.png",
+      "id": "herby-20261024-6a5ed83658ef85"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Borussia Mönchengladbach",
+      "aliases": [
+        "Borussia Monchengladbach",
+        "Mönchengladbach",
+        "Monchengladbach",
+        "Gladbach",
+        "Borussia Moenchengladbach"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Borussia%20M%C3%B6nchengladbach.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/Borussia%20M%C3%B6nchengladbach.png",
+      "id": "herby-20261024-952637f794e610"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Espanyol",
+      "aliases": [
+        "RCD Espanyol Barcelona",
+        "RCD Espanyol",
+        "Espanyol Barcelona"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/RCD%20Espanyol%20Barcelona.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/RCD%20Espanyol%20Barcelona.png",
+      "id": "herby-20261024-dbed6537630de7"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Aston Villa",
+      "aliases": [],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Aston%20Villa.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Aston%20Villa.png",
+      "id": "herby-20261024-2fa9bd880a4d71"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Chelsea",
+      "aliases": [
+        "Chelsea FC",
+        "Chelsea Londyn"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png",
+      "id": "herby-20261024-836530272c76ba"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Bayer Leverkusen",
+      "aliases": [
+        "Bayer 04 Leverkusen",
+        "Bayer",
+        "Leverkusen"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Bayer%2004%20Leverkusen.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/Bayer%2004%20Leverkusen.png",
+      "id": "herby-20261024-b185ed072ee3b8"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Fulham",
+      "aliases": [
+        "Fulham FC"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Fulham%20FC.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Fulham%20FC.png",
+      "id": "herby-20261024-ff52101685ce9e"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "AS Monaco",
+      "aliases": [
+        "Monaco"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/AS%20Monaco.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/AS%20Monaco.png",
+      "id": "herby-20261024-822175c200870b"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Manchester United",
+      "aliases": [
+        "Man United",
+        "Man Utd"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20United.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Manchester%20United.png",
+      "id": "herby-20261024-2a3b62cd7af2a8"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Villarreal",
+      "aliases": [
+        "Villarreal CF"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Villarreal%20CF.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Villarreal%20CF.png",
+      "id": "herby-20261024-f90cc5271f9369"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Werder Brema",
+      "aliases": [
+        "SV Werder Bremen",
+        "Werder",
+        "Werder Bremen"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/SV%20Werder%20Bremen.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/SV%20Werder%20Bremen.png",
+      "id": "herby-20261024-9e2ce806ba6083"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Torino",
+      "aliases": [
+        "Torino FC"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Torino%20FC.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/Torino%20FC.png",
+      "id": "herby-20261024-2e56b9d7dab446"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Atlético Madryt",
+      "aliases": [
+        "Atletico Madryt",
+        "Atlético de Madrid",
+        "Atletico de Madrid",
+        "Atletico",
+        "Atletico Madrid"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Atl%C3%A9tico%20de%20Madrid.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Atl%C3%A9tico%20de%20Madrid.png",
+      "id": "herby-20261024-6cb0d26b8fe41c"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Union Berlin",
+      "aliases": [
+        "1.FC Union Berlin",
+        "1. FC Union Berlin"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/1.FC%20Union%20Berlin.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/1.FC%20Union%20Berlin.png",
+      "id": "herby-20261024-61a4b93ae6fd0b"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "VfB Stuttgart",
+      "aliases": [
+        "Stuttgart"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/VfB%20Stuttgart.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/VfB%20Stuttgart.png",
+      "id": "herby-20261024-eefa56725bca3d"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Real Madryt",
+      "aliases": [
+        "Real Madrid"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png",
+      "id": "herby-20261024-3bd8dcb00162dd"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Olympique Marsylia",
+      "aliases": [
+        "Olympique Marseille",
+        "Marsylia",
+        "Marseille",
+        "Olympique de Marseille",
+        "OM"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Olympique%20Marseille.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/Olympique%20Marseille.png",
+      "id": "herby-20261024-e353c9f32abf5e"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Olympique Lyon",
+      "aliases": [
+        "Lyon",
+        "Olympique Lyonnais",
+        "OL"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Olympique%20Lyon.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/Olympique%20Lyon.png",
+      "id": "herby-20261024-c24796b7844c55"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Lazio",
+      "aliases": [
+        "SS Lazio",
+        "Lazio Rzym"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/SS%20Lazio.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/SS%20Lazio.png",
+      "id": "herby-20261024-c0eeea1ec15a66"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "FC Barcelona",
+      "aliases": [
+        "Barcelona",
+        "Barça",
+        "Barca"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png",
+      "id": "herby-20261024-09c58af5e0ed9e"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Sevilla",
+      "aliases": [
+        "Sevilla FC"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Sevilla%20FC.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Sevilla%20FC.png",
+      "id": "herby-20261024-69d2280dea38ba"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Juventus",
+      "aliases": [
+        "Juventus FC",
+        "Juve",
+        "Juventus Turyn"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Juventus%20FC.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/Juventus%20FC.png",
+      "id": "herby-20261024-805addd3b0bc63"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Piast Gliwice",
+      "aliases": [
+        "Piast"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Piast%20Gliwice.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Piast%20Gliwice.png",
+      "id": "herby-20261024-94e53b3daedd04"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Korona Kielce",
+      "aliases": [
+        "Korona"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Korona%20Kielce.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Korona%20Kielce.png",
+      "id": "herby-20261024-195f38887da852"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Napoli",
+      "aliases": [
+        "SSC Napoli"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/SSC%20Napoli.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Italy%20-%20Serie%20A/SSC%20Napoli.png",
+      "id": "herby-20261024-8f51ddf7b345d5"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Górnik Zabrze",
+      "aliases": [
+        "Gornik Zabrze",
+        "Górnik",
+        "Gornik"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/G%C3%B3rnik%20Zabrze.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/G%C3%B3rnik%20Zabrze.png",
+      "id": "herby-20261024-63d59594968098"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Lech Poznań",
+      "aliases": [
+        "Lech Poznan",
+        "Lech"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Lech%20Poznan.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Lech%20Poznan.png",
+      "id": "herby-20261024-9894f02fa6f72b"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Nottingham Forest",
+      "aliases": [
+        "Nottingham"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Nottingham%20Forest.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Nottingham%20Forest.png",
+      "id": "herby-20261024-acae383b03a952"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Athletic Bilbao",
+      "aliases": [
+        "Athletic Club",
+        "Athletic"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Athletic%20Bilbao.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/Athletic%20Bilbao.png",
+      "id": "herby-20261024-6aa4c0d0270409"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Everton",
+      "aliases": [
+        "Everton FC"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Everton%20FC.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/England%20-%20Premier%20League/Everton%20FC.png",
+      "id": "herby-20261024-327de51951336b"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "RC Lens",
+      "aliases": [
+        "Lens"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/RC%20Lens.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/France%20-%20Ligue%201/RC%20Lens.png",
+      "id": "herby-20261024-b6915aef774002"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Osasuna",
+      "aliases": [
+        "CA Osasuna"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/CA%20Osasuna.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Spain%20-%20LaLiga/CA%20Osasuna.png",
+      "id": "herby-20261024-e4dd7f5e3716f4"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Hamburger SV",
+      "aliases": [
+        "HSV",
+        "Hamburg"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Hamburger%20SV.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Germany%20-%20Bundesliga/Hamburger%20SV.png",
+      "id": "herby-20261024-142d7be0752df9"
+    },
+    {
+      "prompt": "Jaki klub piłkarski przedstawia ten herb?",
+      "answer": "Lechia Gdańsk",
+      "aliases": [
+        "Lechia Gdansk",
+        "Lechia"
+      ],
+      "image": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Lechia%20Gdansk.png",
+      "source": "https://github.com/luukhopman/football-logos/blob/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Lechia%20Gdansk.png",
+      "id": "herby-20261024-a45f87f86c0600"
+    }
+  ],
+  "Rozsypane litery": [
+    {
+      "prompt": "N · I · P · W · N · G · I\nPtak",
+      "answer": "Pingwin",
+      "aliases": [
+        "pingwin"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: pingwin.",
+      "id": "rozsypane-20261024-eb3172f1bb8b3c"
+    },
+    {
+      "prompt": "R · J · M · W · A · A · T\nŚrodek transportu",
+      "answer": "Tramwaj",
+      "aliases": [
+        "tramwaj"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: tramwaj.",
+      "id": "rozsypane-20261024-e4ebff4fecf4dd"
+    },
+    {
+      "prompt": "E · A · M · L · O · N · A · D · I\nNapój",
+      "answer": "Lemoniada",
+      "aliases": [
+        "lemoniada"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: lemoniada.",
+      "id": "rozsypane-20261024-62909d743beaac"
+    },
+    {
+      "prompt": "T · K · O · R · P · E · A\nArtykuł papierniczy",
+      "answer": "Koperta",
+      "aliases": [
+        "koperta"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: koperta.",
+      "id": "rozsypane-20261024-a75708e4d87e1d"
+    },
+    {
+      "prompt": "O · K · T · E · B · Y · W · I\nFotografia",
+      "answer": "Obiektyw",
+      "aliases": [
+        "obiektyw"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: obiektyw.",
+      "id": "rozsypane-20261024-32bf6a2443dbb1"
+    },
+    {
+      "prompt": "R · R · A · W · P · P · A · Y · Z\nDodatek kulinarny",
+      "answer": "Przyprawa",
+      "aliases": [
+        "przyprawa"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: przyprawa.",
+      "id": "rozsypane-20261024-8bd6bebbee61a2"
+    },
+    {
+      "prompt": "R · O · C · D · Z · Z · K · U · A\nSprzęt domowy",
+      "answer": "Odkurzacz",
+      "aliases": [
+        "odkurzacz"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: odkurzacz.",
+      "id": "rozsypane-20261024-92a77d3664250b"
+    },
+    {
+      "prompt": "A · T · I · A · P · M · Ą · K\nCoś z podróży",
+      "answer": "Pamiątka",
+      "aliases": [
+        "pamiątka",
+        "pamiatka"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: pamiątka.",
+      "id": "rozsypane-20261024-d195eb78661800"
+    },
+    {
+      "prompt": "D · A · R · O · A · E · R · B · G\nMiejsce przechowywania",
+      "answer": "Garderoba",
+      "aliases": [
+        "garderoba"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: garderoba.",
+      "id": "rozsypane-20261024-919c548659f724"
+    },
+    {
+      "prompt": "Z · O · H · S · N · W · C · C · I · A · A\nElement gry",
+      "answer": "Szachownica",
+      "aliases": [
+        "szachownica"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: szachownica.",
+      "id": "rozsypane-20261024-32779c75c6278a"
+    },
+    {
+      "prompt": "L · R · N · A · K · S · A\nPostać z opowieści",
+      "answer": "Krasnal",
+      "aliases": [
+        "krasnal"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: krasnal.",
+      "id": "rozsypane-20261024-c07f48e5381e07"
+    },
+    {
+      "prompt": "A · O · D · R · A · W · A · Ł · K\nAkcesorium elektroniczne",
+      "answer": "Ładowarka",
+      "aliases": [
+        "ładowarka",
+        "ladowarka"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: ładowarka.",
+      "id": "rozsypane-20261024-3136452adfbbd0"
+    },
+    {
+      "prompt": "K · P · M · R · T · A · O · T · O · N · E\nPrzedmiot osobisty",
+      "answer": "Portmonetka",
+      "aliases": [
+        "portmonetka"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: portmonetka.",
+      "id": "rozsypane-20261024-fa0a5d8657a311"
+    },
+    {
+      "prompt": "A · Z · J · R · Ę · A · N · I · B\nRoślina",
+      "answer": "Jarzębina",
+      "aliases": [
+        "jarzębina",
+        "jarzebina"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: jarzębina.",
+      "id": "rozsypane-20261024-40037e3addcc16"
+    },
+    {
+      "prompt": "R · D · A · R · U · K · K · A\nSprzęt biurowy",
+      "answer": "Drukarka",
+      "aliases": [
+        "drukarka"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: drukarka.",
+      "id": "rozsypane-20261024-b970c0f5ece389"
+    },
+    {
+      "prompt": "S · O · A · T · A · L · R · B · K · E · N\nOzdoba",
+      "answer": "Bransoletka",
+      "aliases": [
+        "bransoletka"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: bransoletka.",
+      "id": "rozsypane-20261024-ee2a677cbc7ea3"
+    },
+    {
+      "prompt": "N · I · A · L · K · R · S · A · Z\nBudowla ogrodowa",
+      "answer": "Szklarnia",
+      "aliases": [
+        "szklarnia"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: szklarnia.",
+      "id": "rozsypane-20261024-7e06957a02eafd"
+    },
+    {
+      "prompt": "E · P · L · E · O · S · K · T\nPrzyrząd obserwacyjny",
+      "answer": "Teleskop",
+      "aliases": [
+        "teleskop"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: teleskop.",
+      "id": "rozsypane-20261024-6b029207717d3c"
+    },
+    {
+      "prompt": "K · F · N · I · A · I · L · Ż · A\nNaczynie",
+      "answer": "Filiżanka",
+      "aliases": [
+        "filiżanka",
+        "filizanka"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: filiżanka.",
+      "id": "rozsypane-20261024-81ca6d37b2632b"
+    },
+    {
+      "prompt": "O · M · N · R · A · A · K\nProdukt spożywczy",
+      "answer": "Makaron",
+      "aliases": [
+        "makaron"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: makaron.",
+      "id": "rozsypane-20261024-e3f23b01e23102"
+    },
+    {
+      "prompt": "A · K · A · C · T · Z\nSprzęt ogrodowy",
+      "answer": "Taczka",
+      "aliases": [
+        "taczka"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: taczka.",
+      "id": "rozsypane-20261024-0033ed02822fc1"
+    },
+    {
+      "prompt": "A · N · Z · C · P · K · Z · L · A · A · I\nPrzedmiot codzienny",
+      "answer": "Zapalniczka",
+      "aliases": [
+        "zapalniczka"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: zapalniczka.",
+      "id": "rozsypane-20261024-c333abbba0c6ce"
+    },
+    {
+      "prompt": "A · K · S · A · K · A · K · N\nSprzęt do ćwiczeń",
+      "answer": "Skakanka",
+      "aliases": [
+        "skakanka"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: skakanka.",
+      "id": "rozsypane-20261024-9c5fbf9458fb99"
+    },
+    {
+      "prompt": "Z · A · W · A · L · R · C · H\nPrzedmiot osobisty",
+      "answer": "Wachlarz",
+      "aliases": [
+        "wachlarz"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: wachlarz.",
+      "id": "rozsypane-20261024-ebaf7c528759c0"
+    },
+    {
+      "prompt": "P · S · O · O · D · D · W · A\nElement krajobrazu",
+      "answer": "Wodospad",
+      "aliases": [
+        "wodospad"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: wodospad.",
+      "id": "rozsypane-20261024-6ecec84e880173"
+    },
+    {
+      "prompt": "A · J · R · E · K · C · M · A · L · A\nSprawa konsumencka",
+      "answer": "Reklamacja",
+      "aliases": [
+        "reklamacja"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: reklamacja.",
+      "id": "rozsypane-20261024-8849533e3756f6"
+    },
+    {
+      "prompt": "L · I · A · P · A · R · N\nMiejsce usługowe",
+      "answer": "Pralnia",
+      "aliases": [
+        "pralnia"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: pralnia.",
+      "id": "rozsypane-20261024-fe460b987030b4"
+    },
+    {
+      "prompt": "D · A · R · Y · L · O · Ż · N\nWyposażenie wnętrza",
+      "answer": "Żyrandol",
+      "aliases": [
+        "żyrandol",
+        "zyrandol"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: żyrandol.",
+      "id": "rozsypane-20261024-9c22ab17d378a5"
+    },
+    {
+      "prompt": "I · N · M · O · R · A · C · O · I · Ś\nZwierzę",
+      "answer": "Ośmiornica",
+      "aliases": [
+        "ośmiornica",
+        "osmiornica"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: ośmiornica.",
+      "id": "rozsypane-20261024-3b2c2882c3af09"
+    },
+    {
+      "prompt": "T · Ć · K · I · A · A · R · W\nCzęść całości",
+      "answer": "Ćwiartka",
+      "aliases": [
+        "ćwiartka",
+        "cwiartka"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: ćwiartka.",
+      "id": "rozsypane-20261024-0102339bd2b829"
+    },
+    {
+      "prompt": "G · Z · A · R · T · K · E · C · O · H\nZabawka",
+      "answer": "Grzechotka",
+      "aliases": [
+        "grzechotka"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: grzechotka.",
+      "id": "rozsypane-20261024-c46b6238620f9a"
+    },
+    {
+      "prompt": "H · S · I · W · A · U · K · Ł · C\nSprzęt elektroniczny",
+      "answer": "Słuchawki",
+      "aliases": [
+        "słuchawki",
+        "sluchawki"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: słuchawki.",
+      "id": "rozsypane-20261024-7a69cc3d8c3368"
+    },
+    {
+      "prompt": "E · S · C · K · P · Y · R · Z\nInstrument",
+      "answer": "Skrzypce",
+      "aliases": [
+        "skrzypce"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: skrzypce.",
+      "id": "rozsypane-20261024-33709eb1640e98"
+    },
+    {
+      "prompt": "I · Ł · D · M · A · O\nWyposażenie warsztatu",
+      "answer": "Imadło",
+      "aliases": [
+        "imadło",
+        "imadlo"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: imadło.",
+      "id": "rozsypane-20261024-b43d1caba12133"
+    },
+    {
+      "prompt": "A · T · A · O · N · N · N · F\nElement przestrzeni miejskiej",
+      "answer": "Fontanna",
+      "aliases": [
+        "fontanna"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: fontanna.",
+      "id": "rozsypane-20261024-69e5e74ea97bb6"
+    },
+    {
+      "prompt": "W · O · C · Ó · K · A · P · Z · T\nPamiątka z podróży",
+      "answer": "Pocztówka",
+      "aliases": [
+        "pocztówka",
+        "pocztowka"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: pocztówka.",
+      "id": "rozsypane-20261024-1d53cf80f1c6df"
+    },
+    {
+      "prompt": "O · R · W · A · K · C · Z\nFryzura",
+      "answer": "Warkocz",
+      "aliases": [
+        "warkocz"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: warkocz.",
+      "id": "rozsypane-20261024-76a7871549a28b"
+    },
+    {
+      "prompt": "B · E · B · A · L · T · I · I · O · K\nMiejsce publiczne",
+      "answer": "Biblioteka",
+      "aliases": [
+        "biblioteka"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: biblioteka.",
+      "id": "rozsypane-20261024-3e86a67342b14e"
+    },
+    {
+      "prompt": "A · A · N · I · K · W · R · I · A\nLokal",
+      "answer": "Kawiarnia",
+      "aliases": [
+        "kawiarnia"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: kawiarnia.",
+      "id": "rozsypane-20261024-177d63b13ff08e"
+    },
+    {
+      "prompt": "E · K · A · I · E · A · T · R · T · R · S\nMiejsce pracy",
+      "answer": "Sekretariat",
+      "aliases": [
+        "sekretariat"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: sekretariat.",
+      "id": "rozsypane-20261024-9b65a52d55e266"
+    },
+    {
+      "prompt": "O · R · B · I · T · L · O · M · U · A · R · A\nMiejsce pracy",
+      "answer": "Laboratorium",
+      "aliases": [
+        "laboratorium"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: laboratorium.",
+      "id": "rozsypane-20261024-51f4b84a8c6bf5"
+    },
+    {
+      "prompt": "W · N · A · I · N · R · Ó\nForma terenu",
+      "answer": "Równina",
+      "aliases": [
+        "równina",
+        "rownina"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: równina.",
+      "id": "rozsypane-20261024-77165aaffa51ab"
+    },
+    {
+      "prompt": "E · D · C · Z · O · K · A · L · A\nProdukt spożywczy",
+      "answer": "Czekolada",
+      "aliases": [
+        "czekolada"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: czekolada.",
+      "id": "rozsypane-20261024-b5ea153b6da27f"
+    },
+    {
+      "prompt": "K · I · A · M · A · O · Z\nDekoracja",
+      "answer": "Mozaika",
+      "aliases": [
+        "mozaika"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: mozaika.",
+      "id": "rozsypane-20261024-9345348c0dd135"
+    },
+    {
+      "prompt": "R · T · O · U · R · Ś · Ę · B · K\nNarzędzie",
+      "answer": "Śrubokręt",
+      "aliases": [
+        "śrubokręt",
+        "srubokret"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: śrubokręt.",
+      "id": "rozsypane-20261024-72208cea5adaaa"
+    },
+    {
+      "prompt": "S · Z · D · O · P · U · K · A\nWyposażenie sypialni",
+      "answer": "Poduszka",
+      "aliases": [
+        "poduszka"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: poduszka.",
+      "id": "rozsypane-20261024-b4ab9ef47cbf73"
+    },
+    {
+      "prompt": "E · N · G · Y · D · T · R · Y\nZawód",
+      "answer": "Dyrygent",
+      "aliases": [
+        "dyrygent"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: dyrygent.",
+      "id": "rozsypane-20261024-6d57ce20735d55"
+    },
+    {
+      "prompt": "S · I · A · J · A · L · T · R · U · C\nElement książki",
+      "answer": "Ilustracja",
+      "aliases": [
+        "ilustracja"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: ilustracja.",
+      "id": "rozsypane-20261024-e195e310433d8b"
+    },
+    {
+      "prompt": "W · M · A · R · K · I · A · U\nWyposażenie domu",
+      "answer": "Akwarium",
+      "aliases": [
+        "akwarium"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: akwarium.",
+      "id": "rozsypane-20261024-35a3e005332dfd"
+    },
+    {
+      "prompt": "Ż · Y · E · R · R · S · E\nZawód",
+      "answer": "Reżyser",
+      "aliases": [
+        "reżyser",
+        "rezyser"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: reżyser.",
+      "id": "rozsypane-20261024-a5e117145a0ac0"
+    },
+    {
+      "prompt": "O · K · M · R · K · I · P · S · O\nPrzyrząd obserwacyjny",
+      "answer": "Mikroskop",
+      "aliases": [
+        "mikroskop"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: mikroskop.",
+      "id": "rozsypane-20261024-2a50cce6d94f31"
+    },
+    {
+      "prompt": "I · Y · Z · A · K · S · J · N · N\nBiżuteria",
+      "answer": "Naszyjnik",
+      "aliases": [
+        "naszyjnik"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: naszyjnik.",
+      "id": "rozsypane-20261024-7aef8752c9d905"
+    },
+    {
+      "prompt": "G · Ż · A · K · L · W · Ó · A\nŚrodek transportu",
+      "answer": "Żaglówka",
+      "aliases": [
+        "żaglówka",
+        "zaglowka"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: żaglówka.",
+      "id": "rozsypane-20261024-3b2d2c50f9d7d9"
+    },
+    {
+      "prompt": "C · I · A · M · A · K · R · E\nRzemiosło",
+      "answer": "Ceramika",
+      "aliases": [
+        "ceramika"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: ceramika.",
+      "id": "rozsypane-20261024-5e308ea3b7629b"
+    },
+    {
+      "prompt": "N · A · W · F · I · C · O · R · G · O\nUrządzenie kuchenne",
+      "answer": "Gofrownica",
+      "aliases": [
+        "gofrownica"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: gofrownica.",
+      "id": "rozsypane-20261024-7f9f3485d53a82"
+    },
+    {
+      "prompt": "L · K · A · E · A · M · K · Z · I\nCzęść garderoby",
+      "answer": "Kamizelka",
+      "aliases": [
+        "kamizelka"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: kamizelka.",
+      "id": "rozsypane-20261024-cc11bccc32713d"
+    },
+    {
+      "prompt": "L · U · U · E · L · K · E\nInstrument",
+      "answer": "Ukulele",
+      "aliases": [
+        "ukulele"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: ukulele.",
+      "id": "rozsypane-20261024-66714d1cd3b4d9"
+    },
+    {
+      "prompt": "R · T · E · W · L · A · O · E\nBudowla magazynowa",
+      "answer": "Elewator",
+      "aliases": [
+        "elewator"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: elewator.",
+      "id": "rozsypane-20261024-f104fb13718a5f"
+    },
+    {
+      "prompt": "O · A · N · T · W · R · G · A · I\nFunkcja w załodze",
+      "answer": "Nawigator",
+      "aliases": [
+        "nawigator"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: nawigator.",
+      "id": "rozsypane-20261024-5f23ab53a986d8"
+    },
+    {
+      "prompt": "A · A · W · T · H · U · K · Ś\nPlac zabaw",
+      "answer": "Huśtawka",
+      "aliases": [
+        "huśtawka",
+        "hustawka"
+      ],
+      "explanation": "Z podanych liter powstaje słowo: huśtawka.",
+      "id": "rozsypane-20261024-ec35c58fd704cf"
     }
   ]
 
