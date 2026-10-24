@@ -33,13 +33,13 @@ function answer(room,kind,now){
 test('True/false bank adds exactly 80 questions as a category',()=>{
  assert.equal(trueFalseQuestions.length,80);
  assert.equal(bank['Prawda/Fałsz'].length,80);
- assert.equal(categories.length,35);
- assert.equal(Object.values(bank).reduce((count,questions)=>count+questions.length,0),3000);
+ assert.equal(categories.length,42);
+ assert.equal(Object.values(bank).reduce((count,questions)=>count+questions.length,0),3462);
  assert.equal(new Set(trueFalseQuestions.map(question=>question.prompt)).size,80);
  assert.ok(trueFalseQuestions.every(question=>['Prawda','Fałsz'].includes(question.answer)));
  const room=createRoom('123456','Gracz','token',1000),state=publicState(room,room.hostId);
- assert.equal(state.categories.length,35);
- assert.equal(state.totalQuestions,3000);
+ assert.equal(state.categories.length,42);
+ assert.equal(state.totalQuestions,3462);
  assert.equal(state.categoryCounts['Prawda/Fałsz'],80);
 });
 

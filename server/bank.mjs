@@ -16196,19 +16196,7 @@ export const bank = {
       "answer": "Amortyzator",
       "id": "audit6-356535bb79cc9d1c5d74"
     },
-    {
-      "prompt": "Jak nazywa się gumowy element koła stykający się z nawierzchnią?",
-      "answer": "Opona",
-      "image": "https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f6de.svg",
-      "source": "Twemoji, Twitter i współtwórcy, CC BY 4.0, bez zmian",
-      "emoji": "🛞",
-      "id": "audit6-5b5241efa68ac8a87cad"
-    },
-    {
-      "prompt": "Jak nazywa się metalowa część koła, na której osadzona jest opona?",
-      "answer": "Felga",
-      "id": "audit6-ffac2121f616d460b308"
-    },
+
     {
       "prompt": "Jak nazywa się część opony z rowkami odprowadzającymi wodę?",
       "answer": "Bieżnik",
@@ -16296,18 +16284,6 @@ export const bank = {
       "kind": "opis",
       "difficulty": "łatwe/średnie",
       "id": "v8-e5d2ed916a3976d4"
-    },
-    {
-      "prompt": "Jak nazywa się koło przewożone na wypadek uszkodzenia innego koła?",
-      "answer": "Koło zapasowe / Zapas",
-      "aliases": [
-        "Koło zapasowe / Zapas",
-        "Koło zapasowe",
-        "Zapas"
-      ],
-      "kind": "opis",
-      "difficulty": "łatwe/średnie",
-      "id": "v8-d8bf877177addc94"
     },
     {
       "prompt": "Jak nazywa się urządzenie podnoszące część auta podczas wymiany koła?",
@@ -23073,5 +23049,2537 @@ export const bank = {
       "source": "Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Znak_D-10.svg; nazwa i znaczenie: https://pl.wikipedia.org/wiki/Znak_informacyjny",
       "id": "znaki-20261023-070"
     }
+  ],
+  "Więcej czy mniej?": [
+    {
+      "prompt": "Który czysty metal ma wyższą temperaturę topnienia przy ciśnieniu atmosferycznym? A: Złoto. B: Miedź. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Miedź"
+      ],
+      "explanation": "A: 1064.18 °C; B: 1084.62 °C.",
+      "referenceResources": [
+        "https://www.lenntech.com/periodic-chart-elements/melting-point.htm"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-95036e23e1c32f"
+    },
+    {
+      "prompt": "Która planeta ma większą masę? A: Uran. B: Neptun. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Neptun"
+      ],
+      "explanation": "A: 86.8 × 10²⁴ kg; B: 102 × 10²⁴ kg.",
+      "referenceResources": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-3c94bc6e3759e0"
+    },
+    {
+      "prompt": "Który obiekt ma większą średnicę? A: Mars. B: Merkury. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Mars"
+      ],
+      "explanation": "A: 6792 km; B: 4879 km.",
+      "referenceResources": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-44116e29301235"
+    },
+    {
+      "prompt": "Które pole gry ma większą powierzchnię (bez stref poza liniami)? A: Kort do padla. B: Kort tenisowy do singla. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Kort do padla"
+      ],
+      "explanation": "A: 200 m²; B: 195.627 m².",
+      "referenceResources": [
+        "https://dimensionsencyclopedia.com/sports-court-sizes/"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-b7e80c69246422"
+    },
+    {
+      "prompt": "Który czysty metal ma wyższą temperaturę topnienia przy ciśnieniu atmosferycznym? A: Wolfram. B: Tytan. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Wolfram"
+      ],
+      "explanation": "A: 3422 °C; B: 1668 °C.",
+      "referenceResources": [
+        "https://www.lenntech.com/periodic-chart-elements/melting-point.htm"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-95777aa88e3867"
+    },
+    {
+      "prompt": "Które pole gry ma większą powierzchnię (bez stref poza liniami)? A: Boisko siatkówki plażowej. B: Kort do padla. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Kort do padla"
+      ],
+      "explanation": "A: 128 m²; B: 200 m².",
+      "referenceResources": [
+        "https://dimensionsencyclopedia.com/sports-court-sizes/"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-940e8e96dcab6f"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Chiny. B: Kanada. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Kanada"
+      ],
+      "explanation": "A: 9.59696e+06 km²; B: 9.98467e+06 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-510d5cdd5ae3f7"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Austria. B: Czechy. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Austria"
+      ],
+      "explanation": "A: 83879 km²; B: 78871 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-b452751df6974c"
+    },
+    {
+      "prompt": "Który czysty metal ma wyższą temperaturę topnienia przy ciśnieniu atmosferycznym? A: Żelazo. B: Nikiel. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Żelazo"
+      ],
+      "explanation": "A: 1538 °C; B: 1455 °C.",
+      "referenceResources": [
+        "https://www.lenntech.com/periodic-chart-elements/melting-point.htm"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-89c659ae79508e"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Kuba. B: Islandia. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Kuba"
+      ],
+      "explanation": "A: 109884 km²; B: 103000 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-9091812b229d0f"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Finlandia. B: Polska. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Finlandia"
+      ],
+      "explanation": "A: 338455 km²; B: 312696 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-d10b563bfcb7e3"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Sri Lanka. B: Gruzja. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Gruzja"
+      ],
+      "explanation": "A: 65610 km²; B: 69700 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-94d2748325c02b"
+    },
+    {
+      "prompt": "Która planeta ma większą prędkość ucieczki? A: Ziemia. B: Wenus. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Ziemia"
+      ],
+      "explanation": "A: 11.2 km/s; B: 10.4 km/s.",
+      "referenceResources": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-980ab98f94f060"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Egipt. B: Nigeria. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Egipt"
+      ],
+      "explanation": "A: 1.00145e+06 km²; B: 923768 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-3e4eaef7f62956"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Chorwacja. B: Łotwa. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Łotwa"
+      ],
+      "explanation": "A: 56594 km²; B: 64589 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-f5f7f3c4b75437"
+    },
+    {
+      "prompt": "Która planeta ma większą średnią gęstość? A: Saturn. B: Uran. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Uran"
+      ],
+      "explanation": "A: 687 kg/m³; B: 1270 kg/m³.",
+      "referenceResources": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-422f4f4c3e1383"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Rumunia. B: Wielka Brytania. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Wielka Brytania"
+      ],
+      "explanation": "A: 238397 km²; B: 243610 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-6a5ae944a5ecbd"
+    },
+    {
+      "prompt": "Która planeta potrzebuje więcej czasu na pełny obrót wokół osi? A: Saturn. B: Jowisz. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Saturn"
+      ],
+      "explanation": "A: 10.7 godzin; B: 9.9 godzin.",
+      "referenceResources": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-1ea858962f8750"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Peru. B: Mongolia. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Mongolia"
+      ],
+      "explanation": "A: 1.28522e+06 km²; B: 1.56412e+06 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-20b6480b04b630"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Bułgaria. B: Grecja. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Grecja"
+      ],
+      "explanation": "A: 110994 km²; B: 131957 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-6a8d0fcde4c16a"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Niemcy. B: Japonia. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Japonia"
+      ],
+      "explanation": "A: 357588 km²; B: 377975 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-f9410fb0172397"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Kenia. B: Madagaskar. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Madagaskar"
+      ],
+      "explanation": "A: 580367 km²; B: 587041 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-28c280867b00b5"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Kazachstan. B: Argentyna. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Argentyna"
+      ],
+      "explanation": "A: 2.72491e+06 km²; B: 2.7804e+06 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-685c9dffd50849"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Węgry. B: Portugalia. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Węgry"
+      ],
+      "explanation": "A: 93028 km²; B: 92212 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-a1a41513f17d48"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Słowacja. B: Estonia. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Słowacja"
+      ],
+      "explanation": "A: 49035 km²; B: 45339 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-ea3aa2bc7e0983"
+    },
+    {
+      "prompt": "Który czysty metal ma wyższą temperaturę topnienia przy ciśnieniu atmosferycznym? A: Miedź. B: Magnez. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Miedź"
+      ],
+      "explanation": "A: 1084.62 °C; B: 650 °C.",
+      "referenceResources": [
+        "https://www.lenntech.com/periodic-chart-elements/melting-point.htm"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-3df2770e215a7d"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Meksyk. B: Indonezja. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Meksyk"
+      ],
+      "explanation": "A: 1.96438e+06 km²; B: 1.90457e+06 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-20f7cafeb61551"
+    },
+    {
+      "prompt": "Który czysty metal ma wyższą temperaturę topnienia przy ciśnieniu atmosferycznym? A: Cynk. B: Aluminium. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Aluminium"
+      ],
+      "explanation": "A: 419.53 °C; B: 660.32 °C.",
+      "referenceResources": [
+        "https://www.lenntech.com/periodic-chart-elements/melting-point.htm"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-4599ae8e00b50c"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Polska. B: Malezja. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Malezja"
+      ],
+      "explanation": "A: 312696 km²; B: 330803 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-546242b8f94da8"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Nowa Zelandia. B: Rumunia. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Nowa Zelandia"
+      ],
+      "explanation": "A: 268021 km²; B: 238397 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-db292a43cdfd56"
+    },
+    {
+      "prompt": "Który czysty metal ma wyższą temperaturę topnienia przy ciśnieniu atmosferycznym? A: Srebro. B: Złoto. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Złoto"
+      ],
+      "explanation": "A: 961.78 °C; B: 1064.18 °C.",
+      "referenceResources": [
+        "https://www.lenntech.com/periodic-chart-elements/melting-point.htm"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-a07808ad27030a"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Ekwador. B: Nowa Zelandia. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Ekwador"
+      ],
+      "explanation": "A: 283561 km²; B: 268021 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-dfbd1184bf0156"
+    },
+    {
+      "prompt": "Która planeta potrzebuje więcej czasu na pełny obrót wokół osi? A: Wenus. B: Merkury. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Wenus"
+      ],
+      "explanation": "A: 5832.5 godzin; B: 1407.6 godzin.",
+      "referenceResources": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-61ebec3f9efb56"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Hiszpania. B: Tajlandia. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Tajlandia"
+      ],
+      "explanation": "A: 505990 km²; B: 513120 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-c7e1f89742fca9"
+    },
+    {
+      "prompt": "Które boisko jest dłuższe? A: Tenis. B: Koszykówka FIBA. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Koszykówka FIBA"
+      ],
+      "explanation": "A: 23.77 m; B: 28 m.",
+      "referenceResources": [
+        "https://dimensionsencyclopedia.com/sports-court-sizes/"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-bfa1ad8ddfb5ab"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Belgia. B: Szwajcaria. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Szwajcaria"
+      ],
+      "explanation": "A: 30689 km²; B: 41285 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-27cbfe3faad25b"
+    },
+    {
+      "prompt": "Który czysty metal ma wyższą temperaturę topnienia przy ciśnieniu atmosferycznym? A: Aluminium. B: Srebro. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Srebro"
+      ],
+      "explanation": "A: 660.32 °C; B: 961.78 °C.",
+      "referenceResources": [
+        "https://www.lenntech.com/periodic-chart-elements/melting-point.htm"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-38f32a61865974"
+    },
+    {
+      "prompt": "Który czysty metal ma wyższą temperaturę topnienia przy ciśnieniu atmosferycznym? A: Tytan. B: Żelazo. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Tytan"
+      ],
+      "explanation": "A: 1668 °C; B: 1538 °C.",
+      "referenceResources": [
+        "https://www.lenntech.com/periodic-chart-elements/melting-point.htm"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-9a2624a062530c"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Wietnam. B: Japonia. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Japonia"
+      ],
+      "explanation": "A: 331212 km²; B: 377975 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-e93fbfef760cae"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Grecja. B: Islandia. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Grecja"
+      ],
+      "explanation": "A: 131957 km²; B: 103000 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-a49d99f034556a"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Urugwaj. B: Tunezja. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Urugwaj"
+      ],
+      "explanation": "A: 176215 km²; B: 163610 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-edb81ccd542b21"
+    },
+    {
+      "prompt": "Które pole gry jest szersze? A: Kort badmintona do debla. B: Kort squasha do singla. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Kort squasha do singla"
+      ],
+      "explanation": "A: 6.1 m; B: 6.4 m.",
+      "referenceResources": [
+        "https://dimensionsencyclopedia.com/sports-court-sizes/"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-ab395a56554ab1"
+    },
+    {
+      "prompt": "Która planeta ma większą średnią gęstość? A: Ziemia. B: Merkury. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Ziemia"
+      ],
+      "explanation": "A: 5514 kg/m³; B: 5429 kg/m³.",
+      "referenceResources": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-dfc4ee17c62834"
+    },
+    {
+      "prompt": "Który czysty metal ma wyższą temperaturę topnienia przy ciśnieniu atmosferycznym? A: Ołów. B: Cyna. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Ołów"
+      ],
+      "explanation": "A: 327.46 °C; B: 231.93 °C.",
+      "referenceResources": [
+        "https://www.lenntech.com/periodic-chart-elements/melting-point.htm"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-a6fd5c6d498c89"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Polska. B: Włochy. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Polska"
+      ],
+      "explanation": "A: 312696 km²; B: 301340 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-6c3b76bc52244e"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Włochy. B: Filipiny. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Włochy"
+      ],
+      "explanation": "A: 301340 km²; B: 300000 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-a8ab07bbaa1777"
+    },
+    {
+      "prompt": "Które pole gry jest dłuższe? A: Boisko siatkówki halowej. B: Kort do padla. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Kort do padla"
+      ],
+      "explanation": "A: 18 m; B: 20 m.",
+      "referenceResources": [
+        "https://dimensionsencyclopedia.com/sports-court-sizes/"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-ae8da7c17ef9ae"
+    },
+    {
+      "prompt": "Które boisko koszykarskie ma większą powierzchnię? A: FIBA. B: NBA. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "NBA"
+      ],
+      "explanation": "A: 420 m²; B: 436.626 m².",
+      "referenceResources": [
+        "https://dimensionsencyclopedia.com/sports-court-sizes/"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-ad5a7b2e1801c1"
+    },
+    {
+      "prompt": "Które pole gry jest szersze? A: Kort tenisowy do debla. B: Boisko siatkówki halowej. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Kort tenisowy do debla"
+      ],
+      "explanation": "A: 10.97 m; B: 9 m.",
+      "referenceResources": [
+        "https://dimensionsencyclopedia.com/sports-court-sizes/"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-8005007dbedf6b"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Australia. B: Brazylia. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Brazylia"
+      ],
+      "explanation": "A: 7.74122e+06 km²; B: 8.51035e+06 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-77859fc07c1b9c"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Armenia. B: Albania. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Armenia"
+      ],
+      "explanation": "A: 29743 km²; B: 28748 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-d66f851e7f23a9"
+    },
+    {
+      "prompt": "Który czysty metal ma wyższą temperaturę topnienia przy ciśnieniu atmosferycznym? A: Ołów. B: Cynk. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Cynk"
+      ],
+      "explanation": "A: 327.46 °C; B: 419.53 °C.",
+      "referenceResources": [
+        "https://www.lenntech.com/periodic-chart-elements/melting-point.htm"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-99ab9fcd2d681d"
+    },
+    {
+      "prompt": "Które pole gry ma większą powierzchnię (bez stref poza liniami)? A: Kort squasha do singla. B: Kort badmintona do debla. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Kort badmintona do debla"
+      ],
+      "explanation": "A: 62.4 m²; B: 81.74 m².",
+      "referenceResources": [
+        "https://dimensionsencyclopedia.com/sports-court-sizes/"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-b5d7385456e71b"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Hiszpania. B: Szwecja. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Hiszpania"
+      ],
+      "explanation": "A: 505990 km²; B: 450295 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-1ad90aef759b0e"
+    },
+    {
+      "prompt": "Która planeta ma większą średnią temperaturę? A: Merkury. B: Wenus. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Wenus"
+      ],
+      "explanation": "A: 167 °C; B: 464 °C.",
+      "referenceResources": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-6dd877c43d320b"
+    },
+    {
+      "prompt": "Które państwo ma większą powierzchnię całkowitą? A: Irlandia. B: Litwa. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Irlandia"
+      ],
+      "explanation": "A: 70273 km²; B: 65300 km².",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-0a43cce27bd5ff"
+    },
+    {
+      "prompt": "Która planeta ma większą prędkość orbitalną? A: Mars. B: Ziemia. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Ziemia"
+      ],
+      "explanation": "A: 24.1 km/s; B: 29.8 km/s.",
+      "referenceResources": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-3ead8b43d999cb"
+    },
+    {
+      "prompt": "Które pole gry jest szersze? A: Kort tenisowy do singla. B: Boisko siatkówki plażowej. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Kort tenisowy do singla"
+      ],
+      "explanation": "A: 8.23 m; B: 8 m.",
+      "referenceResources": [
+        "https://dimensionsencyclopedia.com/sports-court-sizes/"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-43fa4257fbd09b"
+    },
+    {
+      "prompt": "Które pole gry ma większą powierzchnię (bez stref poza liniami)? A: Boisko siatkówki halowej. B: Kort tenisowy do debla. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Kort tenisowy do debla"
+      ],
+      "explanation": "A: 162 m²; B: 260.757 m².",
+      "referenceResources": [
+        "https://dimensionsencyclopedia.com/sports-court-sizes/"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-d94a53c49f9ed9"
+    },
+    {
+      "prompt": "Która planeta ma większą średnicę? A: Uran. B: Neptun. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Uran"
+      ],
+      "explanation": "A: 51118 km; B: 49528 km.",
+      "referenceResources": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+      ],
+      "kind": "porównanie",
+      "difficulty": "średnie",
+      "id": "wm-20261024-7f96428098ebfa"
+    }
+  ],
+  "Co było wcześniej?": [
+    {
+      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Uciekające kurczaki. B: Lilo i Stitch (animacja). Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Uciekające kurczaki"
+      ],
+      "explanation": "A: 2000; B: 2002.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_Pixar_films",
+        "https://en.wikipedia.org/wiki/List_of_DreamWorks_Animation_productions",
+        "https://en.wikipedia.org/wiki/List_of_Walt_Disney_Animation_Studios_films"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-3e71676181cd89"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Patent Bella na telefon. B: Demonstracja fonografu Edisona. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Patent Bella na telefon"
+      ],
+      "explanation": "A: 1876; B: 1877.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/Timeline_of_historic_inventions",
+        "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-e.html"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-525e6238c24776"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Nowe szaty króla. B: Dawno temu w trawie. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Dawno temu w trawie"
+      ],
+      "explanation": "A: 2000; B: 1998.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_Pixar_films",
+        "https://en.wikipedia.org/wiki/List_of_DreamWorks_Animation_productions",
+        "https://en.wikipedia.org/wiki/List_of_Walt_Disney_Animation_Studios_films"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-6cb5858a4dd9a5"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Tarzan (animacja). B: Mulan (animacja). Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Mulan (animacja)"
+      ],
+      "explanation": "A: 1999; B: 1998.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_Pixar_films",
+        "https://en.wikipedia.org/wiki/List_of_DreamWorks_Animation_productions",
+        "https://en.wikipedia.org/wiki/List_of_Walt_Disney_Animation_Studios_films"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-5bf1f49ad6d575"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Pierwsza konsola PlayStation 2 w sprzedaży. B: Pierwszy odtwarzacz iPod w sprzedaży. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Pierwsza konsola PlayStation 2 w sprzedaży"
+      ],
+      "explanation": "A: 2000; B: 2001.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/Timeline_of_historic_inventions",
+        "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-e.html"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-a4f68117e59e1d"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Uruchomienie Snapchata. B: Uruchomienie Instagrama. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Uruchomienie Instagrama"
+      ],
+      "explanation": "A: 2011; B: 2010.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/Timeline_of_historic_inventions",
+        "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-e.html"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-c29e976aff2655"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Uruchomienie YouTube. B: Uruchomienie Wikipedii. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Uruchomienie Wikipedii"
+      ],
+      "explanation": "A: 2005; B: 2001.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/Timeline_of_historic_inventions",
+        "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-e.html"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-3e0cb53869a67f"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Merida Waleczna. B: Jak wytresować smoka (animacja). Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Jak wytresować smoka (animacja)"
+      ],
+      "explanation": "A: 2012; B: 2010.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_Pixar_films",
+        "https://en.wikipedia.org/wiki/List_of_DreamWorks_Animation_productions",
+        "https://en.wikipedia.org/wiki/List_of_Walt_Disney_Animation_Studios_films"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-0bcfd8544bc550"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Kraina lodu. B: Zaplątani. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Zaplątani"
+      ],
+      "explanation": "A: 2013; B: 2010.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_Pixar_films",
+        "https://en.wikipedia.org/wiki/List_of_DreamWorks_Animation_productions",
+        "https://en.wikipedia.org/wiki/List_of_Walt_Disney_Animation_Studios_films"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-2e70ef6a522ab3"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Red Dead Redemption. B: Angry Birds. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Angry Birds"
+      ],
+      "explanation": "A: 2010; B: 2009.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_years_in_video_games"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-8b957d045135b3"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Asteroids. B: Space Invaders. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Space Invaders"
+      ],
+      "explanation": "A: 1979; B: 1978.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_years_in_video_games"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-220e24bf5e1740"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: The Last of Us (oryginał). B: Hearthstone (pełna wersja). Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "The Last of Us (oryginał)"
+      ],
+      "explanation": "A: 2013; B: 2014.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_years_in_video_games"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-f24535d2f11626"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Portal. B: GTA IV. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Portal"
+      ],
+      "explanation": "A: 2007; B: 2008.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_years_in_video_games"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-3a78e734ef7c5f"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Kung Fu Panda. B: Ratatuj. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Ratatuj"
+      ],
+      "explanation": "A: 2008; B: 2007.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_Pixar_films",
+        "https://en.wikipedia.org/wiki/List_of_DreamWorks_Animation_productions",
+        "https://en.wikipedia.org/wiki/List_of_Walt_Disney_Animation_Studios_films"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-fb400c03453191"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Pierwszy standard USB. B: Pierwsza specyfikacja Bluetooth. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Pierwszy standard USB"
+      ],
+      "explanation": "A: 1996; B: 1999.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/Timeline_of_historic_inventions",
+        "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-e.html"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-c54c48dac65bc4"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Nintendo DS. B: Xbox 360. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Nintendo DS"
+      ],
+      "explanation": "A: 2004; B: 2005.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_years_in_video_games"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-728a188115405b"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Aladyn (animacja). B: Piękna i Bestia (animacja). Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Piękna i Bestia (animacja)"
+      ],
+      "explanation": "A: 1992; B: 1991.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_Pixar_films",
+        "https://en.wikipedia.org/wiki/List_of_DreamWorks_Animation_productions",
+        "https://en.wikipedia.org/wiki/List_of_Walt_Disney_Animation_Studios_films"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-0a07b3d98e0b33"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Shrek. B: Potwory i spółka. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Shrek"
+      ],
+      "explanation": "Shrek: maj 2001; Potwory i spółka: listopad 2001.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_Pixar_films",
+        "https://en.wikipedia.org/wiki/List_of_DreamWorks_Animation_productions",
+        "https://en.wikipedia.org/wiki/List_of_Walt_Disney_Animation_Studios_films"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-ec63fb333b0d91"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: To nie wypanda. B: Między nami żywiołami. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "To nie wypanda"
+      ],
+      "explanation": "A: 2022; B: 2023.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_Pixar_films",
+        "https://en.wikipedia.org/wiki/List_of_DreamWorks_Animation_productions",
+        "https://en.wikipedia.org/wiki/List_of_Walt_Disney_Animation_Studios_films"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-8fa60464a33090"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Madagaskar. B: Auta. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Madagaskar"
+      ],
+      "explanation": "A: 2005; B: 2006.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_Pixar_films",
+        "https://en.wikipedia.org/wiki/List_of_DreamWorks_Animation_productions",
+        "https://en.wikipedia.org/wiki/List_of_Walt_Disney_Animation_Studios_films"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-390ec8159965bb"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Sekiro: Shadows Die Twice. B: Red Dead Redemption 2. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Red Dead Redemption 2"
+      ],
+      "explanation": "A: 2019; B: 2018.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_years_in_video_games"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-ae73c2e06c9a2d"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Pierwszy mikroprocesor Intel 4004. B: Pierwsza mysz komputerowa Engelbarta (prototyp). Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Pierwsza mysz komputerowa Engelbarta (prototyp)"
+      ],
+      "explanation": "A: 1971; B: 1964.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/Timeline_of_historic_inventions",
+        "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-e.html"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-d9c1595fc6cd73"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Iniemamocni. B: Gdzie jest Nemo. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Gdzie jest Nemo"
+      ],
+      "explanation": "A: 2004; B: 2003.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_Pixar_films",
+        "https://en.wikipedia.org/wiki/List_of_DreamWorks_Animation_productions",
+        "https://en.wikipedia.org/wiki/List_of_Walt_Disney_Animation_Studios_films"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-80041b413ffb8a"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Ogniwo Volty. B: Stetoskop Laenneca. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Ogniwo Volty"
+      ],
+      "explanation": "A: 1800; B: 1816.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/Timeline_of_historic_inventions",
+        "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-e.html"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-6558e27cb4d09d"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Herkules (animacja). B: Pocahontas. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Pocahontas"
+      ],
+      "explanation": "A: 1997; B: 1995.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_Pixar_films",
+        "https://en.wikipedia.org/wiki/List_of_DreamWorks_Animation_productions",
+        "https://en.wikipedia.org/wiki/List_of_Walt_Disney_Animation_Studios_films"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-0761b3098beb31"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Krudowie. B: Pingwiny z Madagaskaru. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Krudowie"
+      ],
+      "explanation": "A: 2013; B: 2014.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_Pixar_films",
+        "https://en.wikipedia.org/wiki/List_of_DreamWorks_Animation_productions",
+        "https://en.wikipedia.org/wiki/List_of_Walt_Disney_Animation_Studios_films"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-f8bcad656af015"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Kontrolowany lot samolotu braci Wright. B: Patent Benza na samochód. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Patent Benza na samochód"
+      ],
+      "explanation": "A: 1903; B: 1886.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/Timeline_of_historic_inventions",
+        "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-e.html"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-dac83ff0a7bbe6"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Pierwszy kod QR. B: Pierwszy SMS. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Pierwszy SMS"
+      ],
+      "explanation": "A: 1994; B: 1992.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/Timeline_of_historic_inventions",
+        "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-e.html"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-1c9e214c08c4fa"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Pierwszy działający laser. B: Pierwszy tranzystor w Bell Labs. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Pierwszy tranzystor w Bell Labs"
+      ],
+      "explanation": "A: 1960; B: 1947.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/Timeline_of_historic_inventions",
+        "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-e.html"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-fc854899a8c70e"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Odlot. B: WALL-E. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "WALL-E"
+      ],
+      "explanation": "A: 2009; B: 2008.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_Pixar_films",
+        "https://en.wikipedia.org/wiki/List_of_DreamWorks_Animation_productions",
+        "https://en.wikipedia.org/wiki/List_of_Walt_Disney_Animation_Studios_films"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-f21ee547211cff"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Game Boy. B: PlayStation (pierwszy model). Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Game Boy"
+      ],
+      "explanation": "A: 1989; B: 1994.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_years_in_video_games"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-a0f783578a75c4"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Co w duszy gra. B: Luca. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Co w duszy gra"
+      ],
+      "explanation": "A: 2020; B: 2021.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_Pixar_films",
+        "https://en.wikipedia.org/wiki/List_of_DreamWorks_Animation_productions",
+        "https://en.wikipedia.org/wiki/List_of_Walt_Disney_Animation_Studios_films"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-3006b6e2503b43"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Doom (oryginał). B: Tekken (pierwsza część). Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Doom (oryginał)"
+      ],
+      "explanation": "A: 1993; B: 1994.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_years_in_video_games"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-16c4bff1e929a2"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Król Lew (animacja). B: Toy Story. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Król Lew (animacja)"
+      ],
+      "explanation": "A: 1994; B: 1995.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_Pixar_films",
+        "https://en.wikipedia.org/wiki/List_of_DreamWorks_Animation_productions",
+        "https://en.wikipedia.org/wiki/List_of_Walt_Disney_Animation_Studios_films"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-d7f4bec1dff23d"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: God of War (pierwsza część). B: GTA: San Andreas. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "GTA: San Andreas"
+      ],
+      "explanation": "A: 2005; B: 2004.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_years_in_video_games"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-96f5560da621fc"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Trolle. B: Dzieciak rządzi. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Trolle"
+      ],
+      "explanation": "A: 2016; B: 2017.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_Pixar_films",
+        "https://en.wikipedia.org/wiki/List_of_DreamWorks_Animation_productions",
+        "https://en.wikipedia.org/wiki/List_of_Walt_Disney_Animation_Studios_films"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-c2457e6b37b95f"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Vaiana: Skarb oceanu. B: Zwierzogród. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Zwierzogród"
+      ],
+      "explanation": "Zwierzogród: marzec 2016; Vaiana: Skarb oceanu: listopad 2016.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_Pixar_films",
+        "https://en.wikipedia.org/wiki/List_of_DreamWorks_Animation_productions",
+        "https://en.wikipedia.org/wiki/List_of_Walt_Disney_Animation_Studios_films"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-f5c27f90e95118"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Call of Duty (pierwsza część). B: World of Warcraft. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Call of Duty (pierwsza część)"
+      ],
+      "explanation": "A: 2003; B: 2004.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_years_in_video_games"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-ce247d556b0d02"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Pierwszy telefon iPhone w sprzedaży. B: Pierwszy telefon z Androidem w sprzedaży. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Pierwszy telefon iPhone w sprzedaży"
+      ],
+      "explanation": "A: 2007; B: 2008.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/Timeline_of_historic_inventions",
+        "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-e.html"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-332db75f67b85e"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Half-Life. B: Tomb Raider (oryginał). Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Tomb Raider (oryginał)"
+      ],
+      "explanation": "A: 1998; B: 1996.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_years_in_video_games"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-52d0f7661b230f"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Fallout 4. B: Dishonored (pierwsza część). Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Dishonored (pierwsza część)"
+      ],
+      "explanation": "A: 2015; B: 2012.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_years_in_video_games"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-b635675cd3878b"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Coco. B: W głowie się nie mieści. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "W głowie się nie mieści"
+      ],
+      "explanation": "A: 2017; B: 2015.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_Pixar_films",
+        "https://en.wikipedia.org/wiki/List_of_DreamWorks_Animation_productions",
+        "https://en.wikipedia.org/wiki/List_of_Walt_Disney_Animation_Studios_films"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-70ff581cde580c"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Pac-Man. B: Donkey Kong. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Pac-Man"
+      ],
+      "explanation": "A: 1980; B: 1981.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_years_in_video_games"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-00988ca3121ea1"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Pierwszy odtwarzacz CD Sony w sprzedaży. B: Pierwszy Walkman w sprzedaży. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Pierwszy Walkman w sprzedaży"
+      ],
+      "explanation": "A: 1982; B: 1979.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/Timeline_of_historic_inventions",
+        "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-e.html"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-7d864a1f044766"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Uruchomienie Facebooka. B: Uruchomienie wyszukiwarki Google. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Uruchomienie wyszukiwarki Google"
+      ],
+      "explanation": "A: 2004; B: 1998.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/Timeline_of_historic_inventions",
+        "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-e.html"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-f7c898f6e1404a"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Patent na rzep Velcro. B: Pierwszy działający laser. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Patent na rzep Velcro"
+      ],
+      "explanation": "A: 1955; B: 1960.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/Timeline_of_historic_inventions",
+        "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-e.html"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-a79a0abe2ae4fd"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj oryginalne premiery filmów, nie polskie premiery ani remake’i. A: Kot w butach. B: Megamocny. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Megamocny"
+      ],
+      "explanation": "A: 2011; B: 2010.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_Pixar_films",
+        "https://en.wikipedia.org/wiki/List_of_DreamWorks_Animation_productions",
+        "https://en.wikipedia.org/wiki/List_of_Walt_Disney_Animation_Studios_films"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-68cf5650d8fed6"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Pierwsza komercyjna kuchenka mikrofalowa Radarange. B: Pierwszy tranzystorowy odbiornik radiowy Regency TR-1 w sprzedaży. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Pierwsza komercyjna kuchenka mikrofalowa Radarange"
+      ],
+      "explanation": "A: 1947; B: 1954.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/Timeline_of_historic_inventions",
+        "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-e.html"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-a4ed7e2af9a692"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Pierwszy SMS. B: Pierwsza publiczna wersja WWW. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Pierwsza publiczna wersja WWW"
+      ],
+      "explanation": "A: 1992; B: 1991.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/Timeline_of_historic_inventions",
+        "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-e.html"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-c82b135363bfaf"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Pierwsza komercyjna płyta CD w Japonii. B: Pierwszy komputer Macintosh w sprzedaży. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Pierwsza komercyjna płyta CD w Japonii"
+      ],
+      "explanation": "A: 1982; B: 1984.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/Timeline_of_historic_inventions",
+        "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-e.html"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-b48017232e975e"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Super Mario Bros.. B: The Legend of Zelda. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Super Mario Bros."
+      ],
+      "explanation": "A: 1985; B: 1986.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_years_in_video_games"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-65d6be06e487f8"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Final Fantasy VII (oryginał). B: Heroes of Might and Magic III. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Final Fantasy VII (oryginał)"
+      ],
+      "explanation": "A: 1997; B: 1999.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_years_in_video_games"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-ed7644c9b22d32"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Far Cry 3. B: Skyrim. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Skyrim"
+      ],
+      "explanation": "A: 2012; B: 2011.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_years_in_video_games"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-a37ca8ce6a1fce"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Pierwszy lot Concorde’a. B: Pierwszy lot Boeinga 747. Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Pierwszy lot Boeinga 747"
+      ],
+      "explanation": "Boeing 747: 9 lutego 1969; Concorde: 2 marca 1969.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/Timeline_of_historic_inventions",
+        "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-e.html"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-f5a98703dbe282"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Street Fighter II. B: Mortal Kombat. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Street Fighter II"
+      ],
+      "explanation": "A: 1991; B: 1992.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_years_in_video_games"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-9748543fa755a8"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Wiedźmin 3: Dziki Gon. B: Overwatch (pierwsza część). Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Wiedźmin 3: Dziki Gon"
+      ],
+      "explanation": "A: 2015; B: 2016.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_years_in_video_games"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-40961c7cb0147e"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Halo: Combat Evolved. B: GTA: Vice City. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Halo: Combat Evolved"
+      ],
+      "explanation": "A: 2001; B: 2002.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_years_in_video_games"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-fa8e5395218bd9"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Wprowadzenie kasety Compact Cassette. B: Pierwszy Walkman w sprzedaży. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Wprowadzenie kasety Compact Cassette"
+      ],
+      "explanation": "A: 1963; B: 1979.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/Timeline_of_historic_inventions",
+        "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-e.html"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-948abe2c699a7c"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj wskazane wydarzenia, nie początek prac nad wynalazkiem. A: Odkrycie promieni X. B: Odkrycie elektronu. Odpowiedz A lub B.",
+      "answer": "A",
+      "aliases": [
+        "Odkrycie promieni X"
+      ],
+      "explanation": "A: 1895; B: 1897.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/Timeline_of_historic_inventions",
+        "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-e.html"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-d304226914dbf9"
+    },
+    {
+      "prompt": "Co było wcześniej? Porównaj pierwsze wydania gier lub debiuty urządzeń na świecie, nie późniejsze porty. A: Crash Bandicoot (pierwsza część). B: Rayman (pierwsza część). Odpowiedz A lub B.",
+      "answer": "B",
+      "aliases": [
+        "Rayman (pierwsza część)"
+      ],
+      "explanation": "A: 1996; B: 1995.",
+      "referenceResources": [
+        "https://en.wikipedia.org/wiki/List_of_years_in_video_games"
+      ],
+      "kind": "chronologia",
+      "difficulty": "średnie",
+      "id": "cw-20261024-8f626cd8d13799"
+    }
+  ],
+  "Brakujące litery": [
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: L _ W _ N _ A. Wskazówka: Roślina kojarzona z zapachem.",
+      "answer": "Lawenda",
+      "aliases": [
+        "lawenda",
+        "LAWENDA"
+      ],
+      "id": "bl-20261024-3885c12a67b513",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: A K O _ _ _ O N. Wskazówka: Instrument muzyczny.",
+      "answer": "Akordeon",
+      "aliases": [
+        "akordeon",
+        "AKORDEON"
+      ],
+      "id": "bl-20261024-3288a20b58c4ae",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: P _ R _ O _ A. Wskazówka: Konstrukcja ogrodowa.",
+      "answer": "Pergola",
+      "aliases": [
+        "pergola",
+        "PERGOLA"
+      ],
+      "id": "bl-20261024-2beda6e95db6ec",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: S _ W _ _ A _ K A. Wskazówka: Narzędzie do dokładnych pomiarów.",
+      "answer": "Suwmiarka",
+      "aliases": [
+        "suwmiarka",
+        "SUWMIARKA"
+      ],
+      "id": "bl-20261024-4c2699a55308ac",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: K _ _ _ O _ I Ą G. Wskazówka: Akcesorium kuchenne.",
+      "answer": "Korkociąg",
+      "aliases": [
+        "korkociąg",
+        "KORKOCIĄG",
+        "korkociag"
+      ],
+      "id": "bl-20261024-63ff48024165d4",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: C Y _ _ _ O N. Wskazówka: Przyprawa do deserów.",
+      "answer": "Cynamon",
+      "aliases": [
+        "cynamon",
+        "CYNAMON"
+      ],
+      "id": "bl-20261024-d87f388d7273c1",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: D Z _ O _ _ K. Wskazówka: Ssak żyjący w Australii.",
+      "answer": "Dziobak",
+      "aliases": [
+        "dziobak",
+        "DZIOBAK"
+      ],
+      "id": "bl-20261024-418d8a287c714f",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: Z _ Z Y _ _ C Z. Wskazówka: Akcesorium biurowe.",
+      "answer": "Zszywacz",
+      "aliases": [
+        "zszywacz",
+        "ZSZYWACZ"
+      ],
+      "id": "bl-20261024-d3824612566fd3",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: S _ U _ _ L K A. Wskazówka: Pomocna przy sprzątaniu.",
+      "answer": "Szufelka",
+      "aliases": [
+        "szufelka",
+        "SZUFELKA"
+      ],
+      "id": "bl-20261024-eb0f1f6c342f8e",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: R _ C _ _ H Y. Wskazówka: Smażone danie, często z jabłkami.",
+      "answer": "Racuchy",
+      "aliases": [
+        "racuchy",
+        "RACUCHY"
+      ],
+      "id": "bl-20261024-c45fc792bb58c9",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: M A _ _ A R Y _ _ A. Wskazówka: Owoc z łatwo oddzielającą się skórką.",
+      "answer": "Mandarynka",
+      "aliases": [
+        "mandarynka",
+        "MANDARYNKA"
+      ],
+      "id": "bl-20261024-9135d748f072ce",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: T _ _ M O _ E _ R. Wskazówka: Przyrząd pomiarowy.",
+      "answer": "Termometr",
+      "aliases": [
+        "termometr",
+        "TERMOMETR"
+      ],
+      "id": "bl-20261024-0ac1514a44402f",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: N _ _ _ _ P E R Z. Wskazówka: Zwierzę aktywne po zmroku.",
+      "answer": "Nietoperz",
+      "aliases": [
+        "nietoperz",
+        "NIETOPERZ"
+      ],
+      "id": "bl-20261024-b0da8733e161b3",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: P A _ _ C _ A K. Wskazówka: Owad znany z kamuflażu.",
+      "answer": "Patyczak",
+      "aliases": [
+        "patyczak",
+        "PATYCZAK"
+      ],
+      "id": "bl-20261024-a4ebe60ad354d1",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: L O R _ E _ _ A. Wskazówka: Przydatna podczas obserwacji.",
+      "answer": "Lornetka",
+      "aliases": [
+        "lornetka",
+        "LORNETKA"
+      ],
+      "id": "bl-20261024-a3027565c824df",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: K O _ _ _ S. Wskazówka: Pomaga odnaleźć kierunek.",
+      "answer": "Kompas",
+      "aliases": [
+        "kompas",
+        "KOMPAS"
+      ],
+      "id": "bl-20261024-e48cc79c18f2a0",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: K _ L _ F _ O R. Wskazówka: Warzywo używane w kuchni.",
+      "answer": "Kalafior",
+      "aliases": [
+        "kalafior",
+        "KALAFIOR"
+      ],
+      "id": "bl-20261024-ba6a79f14b7eae",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: P A R _ _ _ L. Wskazówka: Przydaje się podczas niepogody.",
+      "answer": "Parasol",
+      "aliases": [
+        "parasol",
+        "PARASOL"
+      ],
+      "id": "bl-20261024-6e07719f9c2ef9",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: L A _ _ R _ A. Wskazówka: Pomaga po zmroku.",
+      "answer": "Latarka",
+      "aliases": [
+        "latarka",
+        "LATARKA"
+      ],
+      "id": "bl-20261024-5c4548dcc88ab2",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: A _ T _ _ S _ L A. Wskazówka: Element wnętrza mieszkalnego.",
+      "answer": "Antresola",
+      "aliases": [
+        "antresola",
+        "ANTRESOLA"
+      ],
+      "id": "bl-20261024-ebbbf2c051ebbe",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: Z I M _ _ O _ _ K. Wskazówka: Ptak polujący nad wodą.",
+      "answer": "Zimorodek",
+      "aliases": [
+        "zimorodek",
+        "ZIMORODEK"
+      ],
+      "id": "bl-20261024-668eaaefa4d579",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: W I O _ _ _ C _ E _ A. Wskazówka: Instrument smyczkowy.",
+      "answer": "Wiolonczela",
+      "aliases": [
+        "wiolonczela",
+        "WIOLONCZELA"
+      ],
+      "id": "bl-20261024-e3e7f68c636e88",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: P _ _ R _ Ć. Wskazówka: Roślina spotykana w lesie i w doniczce.",
+      "answer": "Paproć",
+      "aliases": [
+        "paproć",
+        "PAPROĆ",
+        "paproc"
+      ],
+      "id": "bl-20261024-cf6e12c0857819",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: R _ _ M _ R Y N. Wskazówka: Zioło używane do pieczenia.",
+      "answer": "Rozmaryn",
+      "aliases": [
+        "rozmaryn",
+        "ROZMARYN"
+      ],
+      "id": "bl-20261024-60da704ad3aca9",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: J E Ż _ _ W _ _ R Z. Wskazówka: Ssak z charakterystyczną okrywą ciała.",
+      "answer": "Jeżozwierz",
+      "aliases": [
+        "jeżozwierz",
+        "JEŻOZWIERZ",
+        "jezozwierz"
+      ],
+      "id": "bl-20261024-6e920b1dca1836",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: R Ę K _ _ _ _ Z K I. Wskazówka: Część garderoby.",
+      "answer": "Rękawiczki",
+      "aliases": [
+        "rękawiczki",
+        "RĘKAWICZKI",
+        "rekawiczki"
+      ],
+      "id": "bl-20261024-8a9eb2bd764d3d",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: P _ E _ _ I K. Wskazówka: Wypiek z przyprawami korzennymi.",
+      "answer": "Piernik",
+      "aliases": [
+        "piernik",
+        "PIERNIK"
+      ],
+      "id": "bl-20261024-380aae45d7b260",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: S K _ _ _ Ż O W A _ _ E. Wskazówka: Element sieci drogowej.",
+      "answer": "Skrzyżowanie",
+      "aliases": [
+        "skrzyżowanie",
+        "SKRZYŻOWANIE",
+        "skrzyzowanie"
+      ],
+      "id": "bl-20261024-404e49ec4c2370",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: H A _ _ K. Wskazówka: Miejsce odpoczynku.",
+      "answer": "Hamak",
+      "aliases": [
+        "hamak",
+        "HAMAK"
+      ],
+      "id": "bl-20261024-b90d59ac1eddb3",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: M A _ K O _ _ R. Wskazówka: Ptak morski.",
+      "answer": "Maskonur",
+      "aliases": [
+        "maskonur",
+        "MASKONUR"
+      ],
+      "id": "bl-20261024-f4adb66d9ed298",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: P _ _ _ S T A N _ K. Wskazówka: Miejsce związane z transportem.",
+      "answer": "Przystanek",
+      "aliases": [
+        "przystanek",
+        "PRZYSTANEK"
+      ],
+      "id": "bl-20261024-fe83be4765d1b0",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: D R O _ D Ż _ _ _ A. Wskazówka: Słodki wypiek z piekarni.",
+      "answer": "Drożdżówka",
+      "aliases": [
+        "drożdżówka",
+        "DROŻDŻÓWKA",
+        "drozdzowka"
+      ],
+      "id": "bl-20261024-ce286cfb1dd093",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: S _ O _ R _ _ K A. Wskazówka: Kwiat spotykany na trawnikach.",
+      "answer": "Stokrotka",
+      "aliases": [
+        "stokrotka",
+        "STOKROTKA"
+      ],
+      "id": "bl-20261024-b3eaba4078ce0f",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: S _ _ A _ A _ D R A. Wskazówka: Płaz spotykany w wilgotnych lasach.",
+      "answer": "Salamandra",
+      "aliases": [
+        "salamandra",
+        "SALAMANDRA"
+      ],
+      "id": "bl-20261024-0bf7cb8f6b9d2e",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: W _ _ _ A Ż. Wskazówka: Dekoracyjny element architektury.",
+      "answer": "Witraż",
+      "aliases": [
+        "witraż",
+        "WITRAŻ",
+        "witraz"
+      ],
+      "id": "bl-20261024-d2f260b822d582",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: H A _ M O _ _ _ K A. Wskazówka: Niewielki instrument muzyczny.",
+      "answer": "Harmonijka",
+      "aliases": [
+        "harmonijka",
+        "HARMONIJKA"
+      ],
+      "id": "bl-20261024-675baaa49404f4",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: T _ Z _ P _ C Z _ A. Wskazówka: Ręczne akcesorium kuchenne.",
+      "answer": "Trzepaczka",
+      "aliases": [
+        "trzepaczka",
+        "TRZEPACZKA"
+      ],
+      "id": "bl-20261024-16c7d4670e06e4",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: P R Z _ B I _ _ _ _ G. Wskazówka: Roślina kwitnąca pod koniec zimy.",
+      "answer": "Przebiśnieg",
+      "aliases": [
+        "przebiśnieg",
+        "PRZEBIŚNIEG",
+        "przebisnieg"
+      ],
+      "id": "bl-20261024-259bef2497bee6",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: M _ R _ _ A. Wskazówka: Owoc z pestką.",
+      "answer": "Morela",
+      "aliases": [
+        "morela",
+        "MORELA"
+      ],
+      "id": "bl-20261024-23515eeb1a269a",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: S P _ _ _ C Z. Wskazówka: Pomaga porządkować dokumenty.",
+      "answer": "Spinacz",
+      "aliases": [
+        "spinacz",
+        "SPINACZ"
+      ],
+      "id": "bl-20261024-ae986aac08f25c",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: B _ L U _ T R _ _ A. Wskazówka: Element zabezpieczający w budynku.",
+      "answer": "Balustrada",
+      "aliases": [
+        "balustrada",
+        "BALUSTRADA"
+      ],
+      "id": "bl-20261024-bca91dc85d2cd8",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: N _ _ A R S _ _ K. Wskazówka: Przydaje się podczas szycia.",
+      "answer": "Naparstek",
+      "aliases": [
+        "naparstek",
+        "NAPARSTEK"
+      ],
+      "id": "bl-20261024-f109533874319b",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: K O _ _ _ L I A. Wskazówka: Roślina o drobnych kwiatach.",
+      "answer": "Konwalia",
+      "aliases": [
+        "konwalia",
+        "KONWALIA"
+      ],
+      "id": "bl-20261024-32ac2cbb7abe6b",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: P O _ _ _ M I _ A. Wskazówka: Przydaje się przy remoncie.",
+      "answer": "Poziomica",
+      "aliases": [
+        "poziomica",
+        "POZIOMICA"
+      ],
+      "id": "bl-20261024-85e033025296be",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: M A J _ _ A _ _ K. Wskazówka: Przyprawa popularna w polskiej kuchni.",
+      "answer": "Majeranek",
+      "aliases": [
+        "majeranek",
+        "MAJERANEK"
+      ],
+      "id": "bl-20261024-264ef648f3ca1b",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: Z _ K Ł _ D _ A. Wskazówka: Przydaje się podczas czytania.",
+      "answer": "Zakładka",
+      "aliases": [
+        "zakładka",
+        "ZAKŁADKA",
+        "zakladka"
+      ],
+      "id": "bl-20261024-275d92e983eb2e",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: T _ M _ E _ Ó W _ A. Wskazówka: Mieści się w piórniku.",
+      "answer": "Temperówka",
+      "aliases": [
+        "temperówka",
+        "TEMPERÓWKA",
+        "temperowka"
+      ],
+      "id": "bl-20261024-9ea021bd613c32",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: K _ R I _ A _ A. Wskazówka: Przydaje się na biwaku.",
+      "answer": "Karimata",
+      "aliases": [
+        "karimata",
+        "KARIMATA"
+      ],
+      "id": "bl-20261024-7beffe55a10aa7",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: C _ R A _ Ą _ Z _ Z. Wskazówka: Owad spotykany wiosną.",
+      "answer": "Chrabąszcz",
+      "aliases": [
+        "chrabąszcz",
+        "CHRABĄSZCZ",
+        "chrabaszcz"
+      ],
+      "id": "bl-20261024-4595a41b63a631",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: T _ M _ _ R Y N. Wskazówka: Instrument perkusyjny.",
+      "answer": "Tamburyn",
+      "aliases": [
+        "tamburyn",
+        "TAMBURYN"
+      ],
+      "id": "bl-20261024-24a062fb433872",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: R _ _ D K _ _ W K A. Wskazówka: Dodatek do kanapek.",
+      "answer": "Rzodkiewka",
+      "aliases": [
+        "rzodkiewka",
+        "RZODKIEWKA"
+      ],
+      "id": "bl-20261024-77dcdde071876c",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: K R _ _ _ D Y L. Wskazówka: Zwierzę związane z wodą.",
+      "answer": "Krokodyl",
+      "aliases": [
+        "krokodyl",
+        "KROKODYL"
+      ],
+      "id": "bl-20261024-e24514792d7379",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: K _ A _ N _ T. Wskazówka: Instrument dęty.",
+      "answer": "Klarnet",
+      "aliases": [
+        "klarnet",
+        "KLARNET"
+      ],
+      "id": "bl-20261024-3b6cf337183e5d",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: M O _ L _ S _ _ A. Wskazówka: Drapieżny owad.",
+      "answer": "Modliszka",
+      "aliases": [
+        "modliszka",
+        "MODLISZKA"
+      ],
+      "id": "bl-20261024-3f1768baaba946",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: K A _ E _ D _ _ Z. Wskazówka: Pomaga w planowaniu.",
+      "answer": "Kalendarz",
+      "aliases": [
+        "kalendarz",
+        "KALENDARZ"
+      ],
+      "id": "bl-20261024-35dad821c25396",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: N A _ _ Ś _ I K. Wskazówka: Danie z patelni.",
+      "answer": "Naleśnik",
+      "aliases": [
+        "naleśnik",
+        "NALEŚNIK",
+        "nalesnik"
+      ],
+      "id": "bl-20261024-4f246ad5a15f48",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: B R _ _ _ _ L K A. Wskazówka: Warzywo spotykane w mrożonkach.",
+      "answer": "Brukselka",
+      "aliases": [
+        "brukselka",
+        "BRUKSELKA"
+      ],
+      "id": "bl-20261024-53bc24a4c77e10",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: K _ _ A B _ Ń _ Z _ K. Wskazówka: Element wyposażenia turystycznego.",
+      "answer": "Karabińczyk",
+      "aliases": [
+        "karabińczyk",
+        "KARABIŃCZYK",
+        "karabinczyk"
+      ],
+      "id": "bl-20261024-145fd51a9f963f",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: D _ R _ Z L _ K. Wskazówka: Przydaje się przy gotowaniu.",
+      "answer": "Durszlak",
+      "aliases": [
+        "durszlak",
+        "DURSZLAK"
+      ],
+      "id": "bl-20261024-edbc1594165319",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: W _ _ _ Z K A. Wskazówka: Towarzyszy podróżnym.",
+      "answer": "Walizka",
+      "aliases": [
+        "walizka",
+        "WALIZKA"
+      ],
+      "id": "bl-20261024-347c1c56550508",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: K A S _ T A _ _ W _ _ C. Wskazówka: Drzewo często sadzone w parkach.",
+      "answer": "Kasztanowiec",
+      "aliases": [
+        "kasztanowiec",
+        "KASZTANOWIEC"
+      ],
+      "id": "bl-20261024-3b518d3a5324b4",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: K _ E P _ _ _ R A. Wskazówka: Służy do odmierzania.",
+      "answer": "Klepsydra",
+      "aliases": [
+        "klepsydra",
+        "KLEPSYDRA"
+      ],
+      "id": "bl-20261024-125ec3f4a93903",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: J A Ł _ _ I _ C. Wskazówka: Roślina iglasta, także przyprawowa.",
+      "answer": "Jałowiec",
+      "aliases": [
+        "jałowiec",
+        "JAŁOWIEC",
+        "jalowiec"
+      ],
+      "id": "bl-20261024-91dfd153dee226",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: P _ L _ K _ N. Wskazówka: Ptak związany z wodą.",
+      "answer": "Pelikan",
+      "aliases": [
+        "pelikan",
+        "PELIKAN"
+      ],
+      "id": "bl-20261024-36d91157618e2a",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: M O _ R _ _ W. Wskazówka: Drzewo iglaste.",
+      "answer": "Modrzew",
+      "aliases": [
+        "modrzew",
+        "MODRZEW"
+      ],
+      "id": "bl-20261024-568d8d2c12299f",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: P _ E _ R U _ _ K A. Wskazówka: Składnik włoszczyzny.",
+      "answer": "Pietruszka",
+      "aliases": [
+        "pietruszka",
+        "PIETRUSZKA"
+      ],
+      "id": "bl-20261024-98b853f25f3992",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: G _ _ J P _ _ U T. Wskazówka: Owoc cytrusowy.",
+      "answer": "Grejpfrut",
+      "aliases": [
+        "grejpfrut",
+        "GREJPFRUT"
+      ],
+      "id": "bl-20261024-35765edb62e0ba",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: K A _ D A _ _ N. Wskazówka: Aromatyczna przyprawa.",
+      "answer": "Kardamon",
+      "aliases": [
+        "kardamon",
+        "KARDAMON"
+      ],
+      "id": "bl-20261024-8dfb46af4be29c",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: K _ _ E L _ O N. Wskazówka: Zwierzę hodowane w terrarium.",
+      "answer": "Kameleon",
+      "aliases": [
+        "kameleon",
+        "KAMELEON"
+      ],
+      "id": "bl-20261024-313f56575953f8",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: B A _ _ _ Ż A N. Wskazówka: Produkt z warzywniaka.",
+      "answer": "Bakłażan",
+      "aliases": [
+        "bakłażan",
+        "BAKŁAŻAN",
+        "baklazan"
+      ],
+      "id": "bl-20261024-dc7a1e9b1f01c8",
+      "kind": "brakujące litery",
+      "difficulty": "średnie"
+    }
   ]
+
 };
