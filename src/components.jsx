@@ -43,6 +43,9 @@ const categoryEmojis = {
   'wiecej czy mniej?': '⚖️',
   'co bylo wczesniej?': '⏳',
   'brakujace litery': '🔤',
+  'herby pilkarskie': '🛡️',
+  'rozsypane litery': '🔀',
+  'co to za pilkarz?': '⚽',
 };
 
 export function getCategoryEmoji(category) {

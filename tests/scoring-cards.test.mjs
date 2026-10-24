@@ -30,16 +30,27 @@ function answer(room,kind,now){
  return action(room,room.duel.adminId,'ANSWER',{kind,questionKey:room.duel.key},now);
 }
 
+test('Footballer category has at least 60 unique players with nationality and five clubs',()=>{
+ const questions=bank['Co to za piłkarz?'];
+ assert.ok(categories.includes('Co to za piłkarz?'));
+ assert.ok(questions.length>=60);
+ assert.equal(new Set(questions.map(question=>question.answer)).size,questions.length);
+ assert.equal(new Set(questions.map(question=>question.id)).size,questions.length);
+ for(const question of questions){
+  assert.match(question.prompt,/Narodowość: [^.]+./);
+  assert.equal(question.prompt.split('Ostatnie kluby')[1].split(' → ').length,5);
+ }
+});
+
 test('True/false bank adds exactly 80 questions as a category',()=>{
  assert.equal(trueFalseQuestions.length,80);
  assert.equal(bank['Prawda/Fałsz'].length,80);
- assert.equal(categories.length,42);
- assert.equal(Object.values(bank).reduce((count,questions)=>count+questions.length,0),3462);
+ assert.equal(categories.length,Object.keys(bank).length);
  assert.equal(new Set(trueFalseQuestions.map(question=>question.prompt)).size,80);
  assert.ok(trueFalseQuestions.every(question=>['Prawda','Fałsz'].includes(question.answer)));
  const room=createRoom('123456','Gracz','token',1000),state=publicState(room,room.hostId);
- assert.equal(state.categories.length,42);
- assert.equal(state.totalQuestions,3462);
+ assert.equal(state.categories.length,categories.length);
+ assert.equal(state.totalQuestions,Object.values(bank).reduce((count,questions)=>count+questions.length,0));
  assert.equal(state.categoryCounts['Prawda/Fałsz'],80);
 });
 

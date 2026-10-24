@@ -26901,6 +26901,690 @@ export const bank = {
       "explanation": "Z podanych liter powstaje słowo: huśtawka.",
       "id": "rozsypane-20261024-ec35c58fd704cf"
     }
+  ],
+  "Co to za piłkarz?": [
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Szwecja. Ostatnie kluby (od najstarszego): AC Milan → Paris Saint-Germain → Manchester United → LA Galaxy → AC Milan.",
+      "answer": "Zlatan Ibrahimović",
+      "id": "pilkarz-2066b676ca29ee620bf6",
+      "aliases": [
+        "Ibrahimović",
+        "Zlatan"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Francja. Ostatnie kluby (od najstarszego): Arsenal → FC Barcelona → New York Red Bulls → Arsenal → New York Red Bulls.",
+      "answer": "Thierry Henry",
+      "id": "pilkarz-a02b6d89f8bb88fbf138",
+      "aliases": [
+        "Henry"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Anglia. Ostatnie kluby (od najstarszego): Swansea City → West Ham United → Chelsea → Manchester City → New York City FC.",
+      "answer": "Frank Lampard",
+      "id": "pilkarz-104b8e9dd8b7aa9d1e9f",
+      "aliases": [
+        "Lampard"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Brazylia. Ostatnie kluby (od najstarszego): AC Milan → Flamengo → Atlético Mineiro → Querétaro → Fluminense.",
+      "answer": "Ronaldinho",
+      "id": "pilkarz-8f7791f6642342042906"
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Brazylia. Ostatnie kluby (od najstarszego): FC Barcelona → Inter Mediolan → Real Madryt → AC Milan → Corinthians.",
+      "answer": "Ronaldo Nazário",
+      "id": "pilkarz-58d1233d563a7f78c4c5",
+      "aliases": [
+        "Ronaldo"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Kamerun. Ostatnie kluby (od najstarszego): Everton → Sampdoria → Antalyaspor → Konyaspor → Qatar SC.",
+      "answer": "Samuel Eto'o",
+      "id": "pilkarz-e9fc6d6a9a2d9643d3f7",
+      "aliases": [
+        "Eto'o"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Wybrzeże Kości Słoniowej. Ostatnie kluby (od najstarszego): Shanghai Shenhua → Galatasaray → Chelsea → Montreal Impact → Phoenix Rising.",
+      "answer": "Didier Drogba",
+      "id": "pilkarz-d7790e919c421508175f",
+      "aliases": [
+        "Drogba"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Hiszpania. Ostatnie kluby (od najstarszego): FC Barcelona → Atlético Madryt → Melbourne City → New York City FC → Vissel Kobe.",
+      "answer": "David Villa",
+      "id": "pilkarz-0dc0f595619c2052b1e3",
+      "aliases": [
+        "Villa"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Hiszpania. Ostatnie kluby (od najstarszego): Liverpool → Chelsea → AC Milan → Atlético Madryt → Sagan Tosu.",
+      "answer": "Fernando Torres",
+      "id": "pilkarz-4b889d9cf77860fe1d14",
+      "aliases": [
+        "Torres"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Holandia. Ostatnie kluby (od najstarszego): Real Madryt → Inter Mediolan → Galatasaray → OGC Nice → Al-Gharafa.",
+      "answer": "Wesley Sneijder",
+      "id": "pilkarz-b1ed7a79151bf86e18d6",
+      "aliases": [
+        "Sneijder"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Holandia. Ostatnie kluby (od najstarszego): PSV Eindhoven → Chelsea → Real Madryt → Bayern Monachium → FC Groningen.",
+      "answer": "Arjen Robben",
+      "id": "pilkarz-dc4b54d4a15083c83b16",
+      "aliases": [
+        "Robben"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Urugwaj. Ostatnie kluby (od najstarszego): Internacional → Cerezo Osaka → Peñarol → Mumbai City → Kitchee.",
+      "answer": "Diego Forlán",
+      "id": "pilkarz-f946ecb1f89f3a5d0848",
+      "aliases": [
+        "Forlán",
+        "Forlan"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Urugwaj. Ostatnie kluby (od najstarszego): FC Barcelona → Atlético Madryt → Nacional → Grêmio → Inter Miami.",
+      "answer": "Luis Suárez",
+      "id": "pilkarz-ef9e1efa99b00e0e48d5",
+      "aliases": [
+        "Suárez",
+        "Suarez"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Portugalia. Ostatnie kluby (od najstarszego): Manchester United → Real Madryt → Juventus → Manchester United → Al-Nassr.",
+      "answer": "Cristiano Ronaldo",
+      "id": "pilkarz-fefb0286624adae8ada9",
+      "aliases": [
+        "Ronaldo",
+        "CR7"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Polska. Ostatnie kluby (od najstarszego): Znicz Pruszków → Lech Poznań → Borussia Dortmund → Bayern Monachium → FC Barcelona.",
+      "answer": "Robert Lewandowski",
+      "id": "pilkarz-dc21d6b78ffe4823369c",
+      "aliases": [
+        "Lewandowski"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Polska. Ostatnie kluby (od najstarszego): Brentford → Arsenal → AS Roma → Juventus → FC Barcelona.",
+      "answer": "Wojciech Szczęsny",
+      "id": "pilkarz-e78e53857ca40921e8f5",
+      "aliases": [
+        "Szczęsny"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Polska. Ostatnie kluby (od najstarszego): Borussia Dortmund → Fiorentina → Borussia Dortmund → VfL Wolfsburg → Wisła Kraków.",
+      "answer": "Jakub Błaszczykowski",
+      "id": "pilkarz-efaca4623606c1e2f373",
+      "aliases": [
+        "Błaszczykowski",
+        "Kuba"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Polska. Ostatnie kluby (od najstarszego): Concordia Knurów → Sokół Tychy → Feyenoord → Liverpool → Real Madryt.",
+      "answer": "Jerzy Dudek",
+      "id": "pilkarz-757e0fced4f39001461c",
+      "aliases": [
+        "Dudek"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Polska. Ostatnie kluby (od najstarszego): AS Bari → Torino → AS Monaco → Benevento → Cracovia.",
+      "answer": "Kamil Glik",
+      "id": "pilkarz-4f72a67f534d4fcc9ab8",
+      "aliases": [
+        "Glik"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Polska. Ostatnie kluby (od najstarszego): Lokomotiw Moskwa → FK Krasnodar → AEK Ateny → Al-Shabab → Abha Club.",
+      "answer": "Grzegorz Krychowiak",
+      "id": "pilkarz-82b478bae12afcf649cf",
+      "aliases": [
+        "Krychowiak"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Polska. Ostatnie kluby (od najstarszego): FC Augsburg → Ajax Amsterdam → Napoli → Olympique Marsylia → Juventus.",
+      "answer": "Arkadiusz Milik",
+      "id": "pilkarz-67db2ecdc88a530e7a45",
+      "aliases": [
+        "Milik"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Polska. Ostatnie kluby (od najstarszego): Hertha Berlin → Fiorentina → Salernitana → İstanbul Başakşehir → Al-Duhail.",
+      "answer": "Krzysztof Piątek",
+      "id": "pilkarz-772bef44f349f60bc8fa",
+      "aliases": [
+        "Piątek"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Polska. Ostatnie kluby (od najstarszego): Lech Poznań → Legia Warszawa → Arsenal → Swansea City → West Ham United.",
+      "answer": "Łukasz Fabiański",
+      "id": "pilkarz-31fb456896a746f374b9",
+      "aliases": [
+        "Fabiański"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Polska. Ostatnie kluby (od najstarszego): Sivasspor → Stade Rennais → Hull City → West Bromwich Albion → Pogoń Szczecin.",
+      "answer": "Kamil Grosicki",
+      "id": "pilkarz-232c5d293df50d724fde",
+      "aliases": [
+        "Grosicki"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Niemcy. Ostatnie kluby (od najstarszego): Inter Mediolan → Galatasaray → Vissel Kobe → Antalyaspor → Górnik Zabrze.",
+      "answer": "Lukas Podolski",
+      "id": "pilkarz-42aa54cedb4a15018b99",
+      "aliases": [
+        "Podolski"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Argentyna. Ostatnie kluby (od najstarszego): AC Milan → Chelsea → Inter Mediolan → Genoa → Parma.",
+      "answer": "Hernán Crespo",
+      "id": "pilkarz-1a7da0936ffd27ae0453",
+      "aliases": [
+        "Crespo"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Argentyna. Ostatnie kluby (od najstarszego): Boca Juniors → Fiorentina → AS Roma → Inter Mediolan → Al-Arabi.",
+      "answer": "Gabriel Batistuta",
+      "id": "pilkarz-51598f3c36a3ce07c18f",
+      "aliases": [
+        "Batistuta"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Argentyna. Ostatnie kluby (od najstarszego): Manchester City → Juventus → Boca Juniors → Shanghai Shenhua → Boca Juniors.",
+      "answer": "Carlos Tevez",
+      "id": "pilkarz-d587b071f376892c5581",
+      "aliases": [
+        "Tevez"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Argentyna. Ostatnie kluby (od najstarszego): Manchester United → Paris Saint-Germain → Juventus → Benfica → Rosario Central.",
+      "answer": "Ángel Di María",
+      "id": "pilkarz-443a681c625d613d0e85",
+      "aliases": [
+        "Di María",
+        "Di Maria"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Argentyna. Ostatnie kluby (od najstarszego): West Ham United → Liverpool → FC Barcelona → Hebei China Fortune → Estudiantes.",
+      "answer": "Javier Mascherano",
+      "id": "pilkarz-98f6600d0dd0f96a1902",
+      "aliases": [
+        "Mascherano"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Argentyna. Ostatnie kluby (od najstarszego): Juventus → AC Milan → Chelsea → Juventus → Inter Miami.",
+      "answer": "Gonzalo Higuaín",
+      "id": "pilkarz-1e479e187dfa8ace2387",
+      "aliases": [
+        "Higuaín",
+        "Higuain"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Urugwaj. Ostatnie kluby (od najstarszego): Napoli → Paris Saint-Germain → Manchester United → Valencia → Boca Juniors.",
+      "answer": "Edinson Cavani",
+      "id": "pilkarz-4aae96658d6dcf724e41",
+      "aliases": [
+        "Cavani"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Francja. Ostatnie kluby (od najstarszego): Galatasaray → Olympique Marsylia → Bayern Monachium → Fiorentina → Salernitana.",
+      "answer": "Franck Ribéry",
+      "id": "pilkarz-710cf5e5c43a423b0ddf",
+      "aliases": [
+        "Ribéry",
+        "Ribery"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Francja. Ostatnie kluby (od najstarszego): Chelsea → Shanghai Shenhua → Juventus → West Bromwich Albion → Mumbai City.",
+      "answer": "Nicolas Anelka",
+      "id": "pilkarz-b3c5a422fa98289c4cd6",
+      "aliases": [
+        "Anelka"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Francja. Ostatnie kluby (od najstarszego): AC Milan → Arsenal → Juventus → Inter Mediolan → Manchester City.",
+      "answer": "Patrick Vieira",
+      "id": "pilkarz-899757e7712ba48e4eb2",
+      "aliases": [
+        "Vieira"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Francja. Ostatnie kluby (od najstarszego): Olympique Marsylia → Celta Vigo → Real Madryt → Chelsea → Paris Saint-Germain.",
+      "answer": "Claude Makélélé",
+      "id": "pilkarz-ceb0c3bd157515198b08",
+      "aliases": [
+        "Makélélé",
+        "Makelele"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Francja. Ostatnie kluby (od najstarszego): Olympique Marsylia → Arsenal → Villarreal → Aston Villa → FC Goa.",
+      "answer": "Robert Pirès",
+      "id": "pilkarz-9dccbc1430c638fb9233",
+      "aliases": [
+        "Pirès",
+        "Pires"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Francja. Ostatnie kluby (od najstarszego): Arsenal → Chelsea → AC Milan → Los Angeles FC → LOSC Lille.",
+      "answer": "Olivier Giroud",
+      "id": "pilkarz-12e56c3ca9285bc866e5",
+      "aliases": [
+        "Giroud"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Anglia. Ostatnie kluby (od najstarszego): Liverpool → Real Madryt → Newcastle United → Manchester United → Stoke City.",
+      "answer": "Michael Owen",
+      "id": "pilkarz-69311d31619545f619bc",
+      "aliases": [
+        "Owen"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Anglia. Ostatnie kluby (od najstarszego): Liverpool → Portsmouth → Tottenham Hotspur → Stoke City → Burnley.",
+      "answer": "Peter Crouch",
+      "id": "pilkarz-213b4c1f659bce4a2a14",
+      "aliases": [
+        "Crouch"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Anglia. Ostatnie kluby (od najstarszego): Toronto FC → Sunderland → AFC Bournemouth → Rangers → Sunderland.",
+      "answer": "Jermain Defoe",
+      "id": "pilkarz-ff0f5b095913bd2f19d5",
+      "aliases": [
+        "Defoe"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Anglia. Ostatnie kluby (od najstarszego): AFC Bournemouth → West Ham United → Leeds United → Manchester United → Queens Park Rangers.",
+      "answer": "Rio Ferdinand",
+      "id": "pilkarz-d1fa764438ac39e6ceff",
+      "aliases": [
+        "Ferdinand"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Anglia. Ostatnie kluby (od najstarszego): Arsenal → Chelsea → AS Roma → LA Galaxy → Derby County.",
+      "answer": "Ashley Cole",
+      "id": "pilkarz-76af6c48add0dc253b55",
+      "aliases": [
+        "Cole"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Anglia. Ostatnie kluby (od najstarszego): Stocksbridge Park Steels → FC Halifax Town → Fleetwood Town → Leicester City → Cremonese.",
+      "answer": "Jamie Vardy",
+      "id": "pilkarz-4089872d98d019219df4",
+      "aliases": [
+        "Vardy"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Chorwacja. Ostatnie kluby (od najstarszego): Inter Zaprešić → Dinamo Zagrzeb → Tottenham Hotspur → Real Madryt → AC Milan.",
+      "answer": "Luka Modrić",
+      "id": "pilkarz-041ad2c373c51ea16f0d",
+      "aliases": [
+        "Modrić",
+        "Modric"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Chorwacja. Ostatnie kluby (od najstarszego): Sevilla → FC Barcelona → Sevilla → Al-Shabab → Hajduk Split.",
+      "answer": "Ivan Rakitić",
+      "id": "pilkarz-c82bf45398fd9bff2f16",
+      "aliases": [
+        "Rakitić",
+        "Rakitic"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Chorwacja. Ostatnie kluby (od najstarszego): Bayern Monachium → Atlético Madryt → Juventus → Al-Duhail → AC Milan.",
+      "answer": "Mario Mandžukić",
+      "id": "pilkarz-93fe0848db8d47d1924e",
+      "aliases": [
+        "Mandžukić",
+        "Mandzukic"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Bułgaria. Ostatnie kluby (od najstarszego): Manchester United → Fulham → AS Monaco → PAOK → Kerala Blasters.",
+      "answer": "Dimitar Berbatow",
+      "id": "pilkarz-07991b062d755fd2a34d",
+      "aliases": [
+        "Berbatow",
+        "Berbatov"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Bułgaria. Ostatnie kluby (od najstarszego): CSKA Sofia → Al-Nassr → Kashiwa Reysol → Chicago Fire → DC United.",
+      "answer": "Christo Stoiczkow",
+      "id": "pilkarz-380890b4ba2d631c43b4",
+      "aliases": [
+        "Stoiczkow",
+        "Stoichkov"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Czechy. Ostatnie kluby (od najstarszego): Chmel Blšany → Sparta Praga → Stade Rennais → Chelsea → Arsenal.",
+      "answer": "Petr Čech",
+      "id": "pilkarz-43bafbe12d9b000ed555",
+      "aliases": [
+        "Čech",
+        "Cech"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Holandia. Ostatnie kluby (od najstarszego): Sampdoria → Real Madryt → Inter Mediolan → AC Milan → Botafogo.",
+      "answer": "Clarence Seedorf",
+      "id": "pilkarz-de5ad3bba0c235c2a781",
+      "aliases": [
+        "Seedorf"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Holandia. Ostatnie kluby (od najstarszego): FC Barcelona → Newcastle United → Valencia → PSV Eindhoven → LOSC Lille.",
+      "answer": "Patrick Kluivert",
+      "id": "pilkarz-eeba400517f4e8032f3f",
+      "aliases": [
+        "Kluivert"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Holandia. Ostatnie kluby (od najstarszego): PSV Eindhoven → Manchester United → Real Madryt → Hamburger SV → Málaga.",
+      "answer": "Ruud van Nistelrooy",
+      "id": "pilkarz-a429a6d8768d61e2e1bb",
+      "aliases": [
+        "van Nistelrooy",
+        "Van Nistelrooy"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Niemcy. Ostatnie kluby (od najstarszego): 1. FC Kaiserslautern → Bayer Leverkusen → Bayern Monachium → Chelsea → Bayer Leverkusen.",
+      "answer": "Michael Ballack",
+      "id": "pilkarz-a2a1ed507329ab6ecc3c",
+      "aliases": [
+        "Ballack"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Niemcy. Ostatnie kluby (od najstarszego): FC 08 Homburg → 1. FC Kaiserslautern → Werder Brema → Bayern Monachium → Lazio.",
+      "answer": "Miroslav Klose",
+      "id": "pilkarz-314e717dad20dce4c593",
+      "aliases": [
+        "Klose"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Niemcy. Ostatnie kluby (od najstarszego): Werder Brema → Real Madryt → Arsenal → Fenerbahçe → İstanbul Başakşehir.",
+      "answer": "Mesut Özil",
+      "id": "pilkarz-c4a79fe33763307c3ccc",
+      "aliases": [
+        "Özil",
+        "Ozil"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Hiszpania. Ostatnie kluby (od najstarszego): Arsenal → FC Barcelona → Chelsea → AS Monaco → Como.",
+      "answer": "Cesc Fàbregas",
+      "id": "pilkarz-9209889fdd11394d6aea",
+      "aliases": [
+        "Fàbregas",
+        "Fabregas"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Hiszpania. Ostatnie kluby (od najstarszego): SD Eibar → Real Sociedad → Liverpool → Real Madryt → Bayern Monachium.",
+      "answer": "Xabi Alonso",
+      "id": "pilkarz-e5d623d5fd810ec5486d",
+      "aliases": [
+        "Alonso"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Hiszpania. Ostatnie kluby (od najstarszego): AC Milan → Aston Villa → Lazio → Villarreal → Como.",
+      "answer": "Pepe Reina",
+      "id": "pilkarz-b99496b516ba254c90d2",
+      "aliases": [
+        "Reina"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Hiszpania. Ostatnie kluby (od najstarszego): Atlético Madryt → Atlético Mineiro → Wolverhampton Wanderers → Botafogo → Grêmio.",
+      "answer": "Diego Costa",
+      "id": "pilkarz-631c60aa86368e99e2fe",
+      "aliases": [
+        "Costa"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Wybrzeże Kości Słoniowej. Ostatnie kluby (od najstarszego): AS Monaco → FC Barcelona → Manchester City → Olympiakos Pireus → Qingdao Huanghai.",
+      "answer": "Yaya Touré",
+      "id": "pilkarz-ac2baad989d30dcb4654",
+      "aliases": [
+        "Touré",
+        "Toure"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Ghana. Ostatnie kluby (od najstarszego): Chelsea → AC Milan → Panathinaikos → Persib Bandung → Sabail.",
+      "answer": "Michael Essien",
+      "id": "pilkarz-d17efbb225e76c851471",
+      "aliases": [
+        "Essien"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Egipt. Ostatnie kluby (od najstarszego): FC Basel → Chelsea → Fiorentina → AS Roma → Liverpool.",
+      "answer": "Mohamed Salah",
+      "id": "pilkarz-f042e1c7daf8bda14733",
+      "aliases": [
+        "Salah"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Senegal. Ostatnie kluby (od najstarszego): Red Bull Salzburg → Southampton → Liverpool → Bayern Monachium → Al-Nassr.",
+      "answer": "Sadio Mané",
+      "id": "pilkarz-1aa9b2a6c333ab26b5b3",
+      "aliases": [
+        "Mané",
+        "Mane"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Gabon. Ostatnie kluby (od najstarszego): FC Barcelona → Chelsea → Olympique Marsylia → Al-Qadsiah → Olympique Marsylia.",
+      "answer": "Pierre-Emerick Aubameyang",
+      "id": "pilkarz-08fb232c72f69f26be79",
+      "aliases": [
+        "Aubameyang"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Liberia. Ostatnie kluby (od najstarszego): AC Milan → Chelsea → Manchester City → Olympique Marsylia → Al-Jazira.",
+      "answer": "George Weah",
+      "id": "pilkarz-8199c2e7cf43f5e907b1",
+      "aliases": [
+        "Weah"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Włochy. Ostatnie kluby (od najstarszego): Perugia → Rangers → Salernitana → AC Milan → FC Sion.",
+      "answer": "Gennaro Gattuso",
+      "id": "pilkarz-de34b8938e9b358f6eaf",
+      "aliases": [
+        "Gattuso"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Włochy. Ostatnie kluby (od najstarszego): Piacenza → Parma → Atalanta → Juventus → AC Milan.",
+      "answer": "Filippo Inzaghi",
+      "id": "pilkarz-e4cb5b6aadd8ec98acf4",
+      "aliases": [
+        "Inzaghi",
+        "Pippo Inzaghi"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Włochy. Ostatnie kluby (od najstarszego): Juventus → AC Milan → Bologna → Inter Mediolan → Brescia.",
+      "answer": "Roberto Baggio",
+      "id": "pilkarz-c0acc3308a9e5e852fd7",
+      "aliases": [
+        "Baggio"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Włochy. Ostatnie kluby (od najstarszego): Inter Mediolan → Juventus → Real Madryt → Juventus → Al-Ahli Dubaj.",
+      "answer": "Fabio Cannavaro",
+      "id": "pilkarz-09ef23f7eb370a6e63ba",
+      "aliases": [
+        "Cannavaro"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Włochy. Ostatnie kluby (od najstarszego): Inter Mediolan → Brescia → AC Milan → Juventus → New York City FC.",
+      "answer": "Andrea Pirlo",
+      "id": "pilkarz-a10b711e9fa3f9206aa9",
+      "aliases": [
+        "Pirlo"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Brazylia. Ostatnie kluby (od najstarszego): Real Madryt → Fenerbahçe → Corinthians → Anży Machaczkała → Delhi Dynamos.",
+      "answer": "Roberto Carlos",
+      "id": "pilkarz-91f425cebc73a62b0587"
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Brazylia. Ostatnie kluby (od najstarszego): Real Zaragoza → Juventude → Palmeiras → AS Roma → AC Milan.",
+      "answer": "Cafu",
+      "id": "pilkarz-723b2f53f2543519ed1e"
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Brazylia. Ostatnie kluby (od najstarszego): Juventus → Paris Saint-Germain → São Paulo → FC Barcelona → Pumas UNAM.",
+      "answer": "Dani Alves",
+      "id": "pilkarz-c9d7277b962518aa1b1f",
+      "aliases": [
+        "Alves"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Brazylia. Ostatnie kluby (od najstarszego): AC Milan → Real Madryt → AC Milan → São Paulo → Orlando City.",
+      "answer": "Kaká",
+      "id": "pilkarz-63433414611262d92d4b",
+      "aliases": [
+        "Kaka"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Portugalia. Ostatnie kluby (od najstarszego): Salgueiros → FC Porto → FC Barcelona → Chelsea → Fluminense.",
+      "answer": "Deco",
+      "id": "pilkarz-cd4ecb10b7d07bbf0847"
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Portugalia. Ostatnie kluby (od najstarszego): Al-Ahli Dubaj → FC Porto → Beşiktaş → Kasımpaşa → Vitória Guimarães.",
+      "answer": "Ricardo Quaresma",
+      "id": "pilkarz-ca113edb174aaed5366b",
+      "aliases": [
+        "Quaresma"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Belgia. Ostatnie kluby (od najstarszego): Werder Brema → Chelsea → VfL Wolfsburg → Manchester City → Napoli.",
+      "answer": "Kevin De Bruyne",
+      "id": "pilkarz-2a336ce97313579163bc",
+      "aliases": [
+        "De Bruyne"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Belgia. Ostatnie kluby (od najstarszego): Inter Mediolan → Chelsea → Inter Mediolan → AS Roma → Napoli.",
+      "answer": "Romelu Lukaku",
+      "id": "pilkarz-4833225795a112406501",
+      "aliases": [
+        "Lukaku"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Kolumbia. Ostatnie kluby (od najstarszego): Chelsea → AS Monaco → Galatasaray → Rayo Vallecano → Millonarios.",
+      "answer": "Radamel Falcao",
+      "id": "pilkarz-8ec2b52510984f8b6fff",
+      "aliases": [
+        "Falcao"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Chile. Ostatnie kluby (od najstarszego): FC Barcelona → Inter Mediolan → Flamengo → Athletico Paranaense → Colo-Colo.",
+      "answer": "Arturo Vidal",
+      "id": "pilkarz-ca69b8f0abfd8d27e34d",
+      "aliases": [
+        "Vidal"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Japonia. Ostatnie kluby (od najstarszego): Beşiktaş → Real Zaragoza → PAOK → Sint-Truiden → Cerezo Osaka.",
+      "answer": "Shinji Kagawa",
+      "id": "pilkarz-d9a9bdab6b02cc698a28",
+      "aliases": [
+        "Kagawa"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Meksyk. Ostatnie kluby (od najstarszego): Bayer Leverkusen → West Ham United → Sevilla → LA Galaxy → Chivas Guadalajara.",
+      "answer": "Javier Hernández",
+      "id": "pilkarz-3487c4f49ade5dfa24fd",
+      "aliases": [
+        "Chicharito",
+        "Hernández"
+      ]
+    },
+    {
+      "prompt": "Co to za piłkarz? Narodowość: Norwegia. Ostatnie kluby (od najstarszego): Bryne → Molde → Red Bull Salzburg → Borussia Dortmund → Manchester City.",
+      "answer": "Erling Haaland",
+      "id": "pilkarz-acaf2f994d745344468b",
+      "aliases": [
+        "Haaland"
+      ]
+    }
   ]
-
 };
