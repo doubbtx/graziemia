@@ -266,6 +266,10 @@ details[open] > summary { margin-bottom: 10px; }
 /* Duel */
 .duel-head { display: flex; align-items: end; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
 .duel-head h2 { font-size: 28px; margin-top: 4px; }
+.duel-head__desc { margin-top: 4px; max-width: 40em; }
+.rule-note { padding: 8px 14px; border-radius: 12px; background: var(--warning-soft); color: #8a4b00; font-size: 13px; font-weight: 500; }
+:root[data-theme="dark"] .rule-note { color: var(--warning); }
+.overview-tile__desc { margin-top: 4px; color: var(--muted); font-size: 12px; line-height: 1.35; }
 .duel-players { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .duel-player { --side: var(--cyan); gap: 6px; transition: box-shadow 300ms var(--ease), transform 300ms var(--ease); }
 .duel-player[data-side="1"] { --side: var(--magenta); }

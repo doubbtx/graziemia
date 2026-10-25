@@ -1,6 +1,7 @@
 import React, {useEffect, useRef, useState} from 'react';
 import {FootballerCard, getCategoryEmoji, PixelTimer, PlayerAvatar, TerritoryTile} from './components.jsx';
 import {AudiencePanel, CardPanel, EconomyDialog, QuestionReports, ShopPanel, TeamScreen, plural} from './panels.jsx';
+import {CHOICE_RULE, categoryDescription, isChoiceQuestion} from './categoryInfo.js';
 import './arena.css';
 
 function saved() { try { return JSON.parse(sessionStorage.getItem('arena-v6') || 'null'); } catch { return null; } }
@@ -112,7 +113,7 @@ export default function Arena() {
         const worker = async () => {
           while (!cancelled) {
             const url = images[next++]; if (!url) return;
-            const ok = await preloadImage(url, controller.signal); if (cancelled) return;
+            const ok = await preloadImage(url.startsWith('/media/') ? (session.base || '') + url : url, controller.signal); if (cancelled) return;
             done++; if (!ok) { failed++; failedUrls.push(url); }
             if (done % 8 === 0 || done === images.length) setImagePreload({status: 'loading', done, total: images.length, failed});
           }
@@ -121,7 +122,7 @@ export default function Arena() {
         for (const url of failedUrls.splice(0)) {
           if (cancelled) return;
           await new Promise(resolve => setTimeout(resolve, 400));
-          if (await preloadImage(url, controller.signal)) failed--; else failedUrls.push(url);
+          if (await preloadImage(url.startsWith('/media/') ? (session.base || '') + url : url, controller.signal)) failed--; else failedUrls.push(url);
         }
         if (!cancelled) setImagePreload({status: 'complete', done, total: images.length, failed, failedUrls});
       } catch (e) { if (!cancelled && e.name !== 'AbortError') setImagePreload({status: 'error', message: e.message, done: 0, total: 0, failed: 0}); }
@@ -129,6 +130,8 @@ export default function Arena() {
     return () => { cancelled = true; controller.abort(); };
   }, [session]);
 
+  // Images cached by the game server are served from the backend, which may live on another origin than this page.
+  const mediaUrl = src => src?.startsWith('/media/') ? (session?.base || '') + src : src;
   const d = room?.duel, me = room?.players.find(p => p.id === room.you), host = !!room && room.hostId === room.you;
   const judge = !!d && d.adminId === room.you, participant = !!d && d.ids.includes(room.you), disabled = busy || !online;
   const teams = room?.settings.mode === 'teams';
@@ -140,7 +143,7 @@ export default function Arena() {
   const q = room?.questionPanel;
 
   useEffect(() => {
-    if (d?.status === 'media' && (loaded === d.questionKey || loadedImageUrls.has(d.image)) && (judge || participant) && !d.mediaReady.includes(room.you) && !busy && online) send('IMAGE_READY', {questionKey: d.questionKey});
+    if (d?.status === 'media' && (loaded === d.questionKey || loadedImageUrls.has(mediaUrl(d.image))) && (judge || participant) && !d.mediaReady.includes(room.you) && !busy && online) send('IMAGE_READY', {questionKey: d.questionKey});
   }, [room?.rev, d?.status, d?.questionKey, d?.image, loaded, imagePreload?.done, busy, online]);
 
   // Tell the server once every image is ready, so image questions start without a loading pause.
@@ -262,7 +265,7 @@ export default function Arena() {
 
   const duel = () => <div className="stack">
     <div className="duel-head">
-      <div><span className="eyebrow">Pojedynek · runda {room.round + 1}</span><h2>{getCategoryEmoji(d.category)} {d.category}</h2></div>
+      <div><span className="eyebrow">Pojedynek · runda {room.round + 1}</span><h2>{getCategoryEmoji(d.category)} {d.category}</h2>{categoryDescription(d.category) && <p className="muted small duel-head__desc">{categoryDescription(d.category)}</p>}</div>
       <span className="pill">⚖ Sędzia: {pname(d.adminId)}</span>
     </div>
     <div className="duel-players">{d.ids.map((id, index) => {
@@ -285,9 +288,11 @@ export default function Arena() {
         {d.visual && <div className="visual-riddle" role="img" aria-label="Rebus do rozpoznania">{d.visual}</div>}
         {d.privateHint && !publicView && <div className="notice notice--hint">{d.privateHint}</div>}
         {d.audio && judge && !publicView && <div><p className="muted small">Odtwórz przez wspólny kanał głosowy. Na czas odsłuchu włącz pauzę.</p><audio controls preload="none" src={d.audio}/></div>}
-        {d.image && imageError !== d.questionKey && <img className="quiz-image" decoding="sync" key={d.questionKey} src={d.image} alt="Obrazek do rozpoznania" referrerPolicy="no-referrer" onLoad={() => setLoaded(d.questionKey)} onError={() => { setImageError(d.questionKey); setLoaded(d.questionKey); }}/>}
+        {d.image && imageError !== d.questionKey && <img className="quiz-image" decoding="sync" key={d.questionKey} src={mediaUrl(d.image)} alt="Obrazek do rozpoznania" referrerPolicy="no-referrer" onLoad={() => setLoaded(d.questionKey)} onError={() => { setImageError(d.questionKey); setLoaded(d.questionKey); }}/>}
         {imageError === d.questionKey && (d.emoji ? <div className="emoji-fallback" role="img" aria-label="Ilustracja do rozpoznania">{d.emoji}</div> : <p>Grafika niedostępna. Sędzia może unieważnić pytanie bez kary.</p>)}
+        {d.status === 'running' && isChoiceQuestion(d.category, d.prompt) && <p className="rule-note">{CHOICE_RULE}</p>}
         <p className="muted">{d.status === 'media' ? `Wczytano u ${d.mediaReady.length}/3 osób.` : `Odpowiada ${pname(d.turn)}.`}</p>
+        {d.turn === me.id && !judge && !publicView && d.status === 'running' && <button className="btn" disabled={disabled} onClick={() => send('PLAYER_SKIP', {questionKey: d.questionKey})}>↷ Pomiń pytanie · {d.skip5?.playerId === me.id && d.skip5.remaining > 0 ? 'bez kary' : '−3 s'}</button>}
       </>}
       {previous()}
       {!publicView && <QuestionReports room={room} send={send} disabled={disabled}/>}
@@ -363,6 +368,8 @@ export default function Arena() {
     </ol> : <ol>
       <li>Każdy wybiera kategorię i ma 3 życia. Wyeliminowani mogą sędziować i typować odpowiedzi jako widzowie.</li>
       <li>Pojedynek to dwa zegary szachowe. Odpowiadacie na zmianę na głos, a sędzia ocenia: <b>Zalicza</b> zmienia turę, <b>Pomiń</b> kosztuje 3 s i daje nowe pytanie.</li>
+      <li>Odpowiadający może sam pominąć pytanie przyciskiem „Pomiń pytanie” – kosztuje to 3 s, tak jak pominięcie przez sędziego.</li>
+      <li>Pytania z wyborem (prawda/fałsz, A lub B, „co tu nie pasuje”): zła odpowiedź oznacza pominięcie – nie można zgadywać drugi raz.</li>
       <li>Komu pierwszemu skończy się czas, przegrywa i traci życie. Zwycięzca wybiera kolejnego rywala, a przegrany nową kategorię.</li>
       <li>Rozegrana kategoria znika z puli. Przegrany ma ochronę na jeden pojedynek (poza finałem dwóch graczy).</li>
     </ol>}
@@ -417,7 +424,7 @@ export default function Arena() {
           <div className="panel__head"><h2>Wszystkie kategorie</h2><span className="pill">{room.categories.length} kategorii · {room.totalQuestions} pytań</span></div>
           <div className="tile-grid">{room.categories.map(c => {
             const status = room.retired.includes(c) ? 'Rozegrana' : room.players.some(p => p.category === c && p.lives > 0) ? 'Zajęta' : 'Wolna';
-            return <article className="overview-tile" data-status={status} key={c}><span className="overview-tile__emoji" aria-hidden="true">{getCategoryEmoji(c)}</span><div><strong>{c}</strong><small>{room.categoryCounts[c]} pytań · {status}</small></div></article>;
+            return <article className="overview-tile" data-status={status} key={c}><span className="overview-tile__emoji" aria-hidden="true">{getCategoryEmoji(c)}</span><div><strong>{c}</strong><small>{room.categoryCounts[c]} pytań · {status}</small>{categoryDescription(c) && <p className="overview-tile__desc">{categoryDescription(c)}</p>}</div></article>;
           })}</div>
         </section>}
         {tab === 'ranking' && <section className="panel">

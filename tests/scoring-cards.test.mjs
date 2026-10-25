@@ -133,3 +133,14 @@ test('Shop prices use the new point economy',()=>{
  const room=createRoom('765432','Gracz','token',1000);
  assert.deepEqual(publicState(room,room.hostId).economyPanel.prices,{revive:50,laststand:35});
 });
+
+test('The answering player can skip their own question like the judge (−3 s, new question)',()=>{
+ const room=startDuel(readyDuel()),turn=room.duel.turn,other=room.duel.ids.find(id=>id!==turn),key=room.duel.key;
+ assert.throws(()=>action(room,other,'PLAYER_SKIP',{questionKey:key},4500));
+ const before=room.duel.remaining[turn];
+ action(room,turn,'PLAYER_SKIP',{questionKey:key},4500);
+ assert.notEqual(room.duel.key,key);
+ assert.equal(room.duel.turn,turn);
+ assert.ok(room.duel.remaining[turn]<=before-3000);
+ assert.equal(room.duel.skipCounts[turn],1);
+});

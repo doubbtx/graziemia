@@ -20,6 +20,8 @@ export function command(r,id,a,now=Date.now()){
  tick(r,now);
  // Idempotent status report, accepted regardless of revision so a busy room cannot starve it.
  if(a.type==='MEDIA_PRELOADED'){ok(r.players.some(p=>p.id===id),'Brak sesji.');ok(Array.isArray(a.failed)&&a.failed.length<=1000&&a.failed.every(x=>typeof x==='string'&&x.length<=500),'Nieprawidłowa lista obrazków.');r.mediaPreload={...r.mediaPreload,[id]:a.failed};observe(r,now);r.rev++;r.updated=now;return r;}ok(a.rev===r.rev,'Stan gry zmienił się.');const p=r.players.find(p=>p.id===id);ok(p?.connected,'Brak sesji.');const d=r.duel,q=current(r);
+ // The answering player may skip their own question; it is applied exactly like the judge's skip (−3 s, new question).
+ if(a.type==='PLAYER_SKIP'){ok(d&&d.status==='running'&&d.turn===id&&a.questionKey===d.key,'Pominąć możesz tylko własne, aktywne pytanie.');return command(r,d.adminId,{type:'ANSWER',kind:'skip',questionKey:d.key,rev:r.rev},now);}
  if(['Q12_REPORT','Q12_HINT','Q12_SKIP'].includes(a.type)){
   ok(d&&q&&d.status==='running'&&a.questionKey===d.key,'To pytanie nie jest już aktywne.');
   if(a.type==='Q12_REPORT'){

@@ -1,4 +1,5 @@
 import React, {memo, useEffect, useState} from 'react';
+import {categoryDescription} from './categoryInfo.js';
 
 const categoryEmojis = {
   stolice: '🏛️',
@@ -77,7 +78,7 @@ export const PixelTimer = memo(function PixelTimer({milliseconds, label, active 
 });
 
 export function TerritoryTile({category, count, status, state, selected, disabled, onClick}) {
-  return <button type="button" className="tile" data-state={state} aria-pressed={selected} aria-label={`${category}, ${count} pytań, ${status}`} disabled={disabled} onClick={onClick}>
+  return <button type="button" className="tile" data-state={state} aria-pressed={selected} aria-label={`${category}, ${count} pytań, ${status}`} disabled={disabled} onClick={onClick} title={categoryDescription(category)}>
     <span className="tile__emoji" aria-hidden="true">{getCategoryEmoji(category)}</span>
     <span className="tile__text"><strong>{category}</strong><small>{count} pytań · {status}</small></span>
     {selected && <span className="tile__check" aria-hidden="true">✓</span>}

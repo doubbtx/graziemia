@@ -12477,6 +12477,56 @@ export const bank = {
       "prompt": "Jaka liczba jest następna: 1, 4, 9, 16, 25, …?",
       "answer": "36",
       "id": "v20-e3727a534477c02b7f66"
+    },
+    {
+      "prompt": "Jaka liczba jest następna: 2, 4, 8, 16, …?",
+      "answer": "32",
+      "id": "v20-fa6f8645029f0f7d5d2d"
+    },
+    {
+      "prompt": "Jaka liczba jest następna: 1, 3, 6, 10, 15, …?",
+      "answer": "21",
+      "id": "v20-a0da319ba0f62cbec274"
+    },
+    {
+      "prompt": "Jaka litera jest następna: Z, X, V, T, …?",
+      "answer": "R",
+      "id": "v20-c6dc57c349891a6b64d8"
+    },
+    {
+      "prompt": "Wczoraj był piątek. Jaki dzień będzie za dwa dni?",
+      "answer": "Poniedziałek",
+      "id": "v20-b5395ee7be232467fd96"
+    },
+    {
+      "prompt": "Rolnik miał 17 owiec. Wszystkie oprócz 9 uciekły. Ile mu zostało?",
+      "answer": "9",
+      "id": "v20-713f5767c58f3b968d21"
+    },
+    {
+      "prompt": "Ile razy w ciągu doby pokrywają się wskazówki godzinowa i minutowa?",
+      "answer": "22",
+      "id": "v20-54fc81b770fbb621c72b"
+    },
+    {
+      "prompt": "Jaki dzień jest następny w ciągu: poniedziałek, środa, piątek, …?",
+      "answer": "Niedziela",
+      "id": "v20-7e27a4aa2999ce06e068"
+    },
+    {
+      "prompt": "Ojciec Marysi ma pięć córek: Lalę, Lelę, Lilę, Lolę i… Jak ma na imię piąta?",
+      "answer": "Marysia",
+      "id": "v20-1e964adfa3713850b6dc"
+    },
+    {
+      "prompt": "Ile końców mają dwa i pół kija?",
+      "answer": "6",
+      "id": "v20-bdff3a76162b3cb56125"
+    },
+    {
+      "prompt": "Wchodzisz do ciemnego pokoju z jedną zapałką. Jest tam świeca, lampa naftowa i kominek. Co zapalisz najpierw?",
+      "answer": "Zapałkę",
+      "id": "v20-86adb8ab21ba3b01ecf1"
     }
   ],
   "Liczby rzymskie": [
@@ -13490,6 +13540,62 @@ export const bank = {
         "BotW"
       ],
       "id": "v20-6526e124add63d3f2455"
+    },
+    {
+      "prompt": "Jak nazywa się seria gier o budowie miasta, zapoczątkowana przez Maxis w 1989 roku?",
+      "answer": "SimCity",
+      "id": "v20-f7117521a520069c28e8"
+    },
+    {
+      "prompt": "W jakim fikcyjnym mieście toczy się akcja GTA V?",
+      "answer": "Los Santos",
+      "id": "v20-8d3a5a715b9469893769"
+    },
+    {
+      "prompt": "Jaki podtytuł ma trzecia część „Wiedźmina”?",
+      "answer": "Dziki Gon",
+      "aliases": [
+        "Wild Hunt"
+      ],
+      "id": "v20-67a35cc3ec4aa6947eee"
+    },
+    {
+      "prompt": "Które polskie studio stworzyło grę „Dying Light”?",
+      "answer": "Techland",
+      "id": "v20-b46402e3da444e933d4b"
+    },
+    {
+      "prompt": "Jak nazywa się battle royale od studia Respawn osadzone w świecie Titanfall?",
+      "answer": "Apex Legends",
+      "id": "v20-6b30cab205cd58abac06"
+    },
+    {
+      "prompt": "Która gra wideo jest najlepiej sprzedającą się grą w historii?",
+      "answer": "Minecraft",
+      "id": "v20-294dc761d74ca4d184eb"
+    },
+    {
+      "prompt": "Jak nazywa się gra z 2016 roku, w której łapie się Pokémony w rzeczywistości rozszerzonej?",
+      "answer": "Pokémon GO",
+      "aliases": [
+        "Pokemon Go"
+      ],
+      "id": "v20-b9f8c04e414c4dcf328a"
+    },
+    {
+      "prompt": "Które studio stworzyło serie Uncharted i The Last of Us?",
+      "answer": "Naughty Dog",
+      "id": "v20-bdd64c66b875f4a439ba"
+    },
+    {
+      "prompt": "Jak nazywa się kultowa strzelanka studia id Software z 1993 roku?",
+      "answer": "Doom",
+      "id": "v20-67f161be29a6fd97fb44"
+    },
+    {
+      "prompt": "Jak nazywa się gra 11 bit studios o przetrwaniu cywilów w oblężonym mieście?",
+      "answer": "This War of Mine",
+      "id": "v20-6f028cdfe49369037ea3"
     }
   ],
   "Filmy": [
@@ -14068,6 +14174,68 @@ export const bank = {
       "prompt": "W którym mieście odbywa się festiwal filmowy, na którym przyznaje się Złotą Palmę?",
       "answer": "Cannes",
       "id": "v20-0bba9fe8116422a033e3"
+    },
+    {
+      "prompt": "Jak nazywa się dyrektor Hogwartu w „Harrym Potterze”?",
+      "answer": "Albus Dumbledore",
+      "aliases": [
+        "Dumbledore"
+      ],
+      "id": "v20-584dd0b0ae4ed5147f9a"
+    },
+    {
+      "prompt": "Ile Oscarów zdobył film „Titanic”?",
+      "answer": "11",
+      "id": "v20-fb4b8de55835cd91bd63"
+    },
+    {
+      "prompt": "Kto wyreżyserował „Incepcję” i „Oppenheimera”?",
+      "answer": "Christopher Nolan",
+      "aliases": [
+        "Nolan"
+      ],
+      "id": "v20-73b3981634e542848862"
+    },
+    {
+      "prompt": "Który film zdobył Oscara dla najlepszego filmu na gali w 2024 roku?",
+      "answer": "Oppenheimer",
+      "id": "v20-d93bbfcbcf4744bbb40d"
+    },
+    {
+      "prompt": "Który superbohater walczy młotem Mjölnir?",
+      "answer": "Thor",
+      "id": "v20-021339bfb2e0593da779"
+    },
+    {
+      "prompt": "Jak nazywa się afrykańskie królestwo Czarnej Pantery?",
+      "answer": "Wakanda",
+      "id": "v20-69e66958a265d83fcfbc"
+    },
+    {
+      "prompt": "Za jaki film Leonardo DiCaprio otrzymał Oscara?",
+      "answer": "Zjawa",
+      "aliases": [
+        "The Revenant"
+      ],
+      "id": "v20-66ee3f93355480e99519"
+    },
+    {
+      "prompt": "Jak nazywa się film Pawła Pawlikowskiego, pierwszy polski zdobywca Oscara dla filmu nieanglojęzycznego?",
+      "answer": "Ida",
+      "id": "v20-946a1eedf8929df226d8"
+    },
+    {
+      "prompt": "Kto wyreżyserował trylogię „Władca Pierścieni”?",
+      "answer": "Peter Jackson",
+      "aliases": [
+        "Jackson"
+      ],
+      "id": "v20-a7acb6888467393b2667"
+    },
+    {
+      "prompt": "Jak ma na imię laleczka z serii horrorów, opętana duszą mordercy?",
+      "answer": "Chucky",
+      "id": "v20-cd6edc4e70e40d33b271"
     }
   ],
   "Kosmos": [
@@ -14544,6 +14712,62 @@ export const bank = {
         "Andromeda"
       ],
       "id": "v20-592529aa7adcd77cf462"
+    },
+    {
+      "prompt": "Jak nazywa się najwyższa znana góra w Układzie Słonecznym, leżąca na Marsie?",
+      "answer": "Olympus Mons",
+      "aliases": [
+        "Olimp"
+      ],
+      "id": "v20-a393f68f5a6b56bc08f0"
+    },
+    {
+      "prompt": "Który księżyc Jowisza ma pod lodową skorupą ocean i jest celem misji Europa Clipper?",
+      "answer": "Europa",
+      "id": "v20-2694f77adb7cbe1457f0"
+    },
+    {
+      "prompt": "Jak nazywa się łazik NASA, który wylądował na Marsie w 2021 roku?",
+      "answer": "Perseverance",
+      "id": "v20-4259a6c964a1095216b0"
+    },
+    {
+      "prompt": "Jak nazywał się mały helikopter, który jako pierwszy latał na Marsie?",
+      "answer": "Ingenuity",
+      "id": "v20-96d031b64b3e62b6775d"
+    },
+    {
+      "prompt": "Jak nazywa się kometa widoczna z Ziemi mniej więcej co 76 lat?",
+      "answer": "Kometa Halleya",
+      "aliases": [
+        "Halley"
+      ],
+      "id": "v20-55e7f9a2a5c7d50753dc"
+    },
+    {
+      "prompt": "Jak nazywa się program NASA, którego celem jest powrót ludzi na Księżyc?",
+      "answer": "Artemis",
+      "id": "v20-712802b527d9174f3405"
+    },
+    {
+      "prompt": "Jak nazywa się najjaśniejsza gwiazda nocnego nieba?",
+      "answer": "Syriusz",
+      "id": "v20-5211b355fdbe294f6533"
+    },
+    {
+      "prompt": "W którym gwiazdozbiorze leży „Wielki Wóz”?",
+      "answer": "Wielka Niedźwiedzica",
+      "id": "v20-f916d519fd680d5647c8"
+    },
+    {
+      "prompt": "Jak nazywa się firma Elona Muska budująca rakiety Falcon i Starship?",
+      "answer": "SpaceX",
+      "id": "v20-6b27c10a80f4e35d610b"
+    },
+    {
+      "prompt": "W którym roku wystrzelono Kosmiczny Teleskop Hubble’a?",
+      "answer": "1990",
+      "id": "v20-3c3de8aec0868a4f5478"
     }
   ],
   "Historia": [
@@ -14987,6 +15211,69 @@ export const bank = {
         "Stalin"
       ],
       "id": "v20-76cc82235d5fc8a5a70a"
+    },
+    {
+      "prompt": "Która królowa Polski, żona Władysława Jagiełły, została ogłoszona świętą?",
+      "answer": "Jadwiga",
+      "aliases": [
+        "Święta Jadwiga",
+        "Jadwiga Andegaweńska"
+      ],
+      "id": "v20-96555fd7510727ea8fa0"
+    },
+    {
+      "prompt": "Jak nazywa się bitwa z 1920 roku nazywana „cudem nad Wisłą”?",
+      "answer": "Bitwa Warszawska",
+      "id": "v20-11c5a03973fc7188752e"
+    },
+    {
+      "prompt": "Ile dni trwało powstanie warszawskie?",
+      "answer": "63",
+      "id": "v20-7aa28a86773e4092fc3a"
+    },
+    {
+      "prompt": "Na którą wyspę zesłano Napoleona po klęsce pod Waterloo?",
+      "answer": "Święta Helena",
+      "aliases": [
+        "Wyspa Świętej Heleny"
+      ],
+      "id": "v20-a46b4defd8944ee37ce8"
+    },
+    {
+      "prompt": "Kto był pierwszym prezydentem II Rzeczypospolitej?",
+      "answer": "Gabriel Narutowicz",
+      "aliases": [
+        "Narutowicz"
+      ],
+      "id": "v20-c02f8c3f5cb6c3c15b38"
+    },
+    {
+      "prompt": "W którym roku wybuchło powstanie kościuszkowskie?",
+      "answer": "1794",
+      "id": "v20-10b3784f576ee6357f9c"
+    },
+    {
+      "prompt": "Jak nazywał się okręt flagowy Krzysztofa Kolumba w 1492 roku?",
+      "answer": "Santa María",
+      "id": "v20-fbdab6768c65cabcbc40"
+    },
+    {
+      "prompt": "Czyja wyprawa jako pierwsza opłynęła Ziemię w latach 1519–1522?",
+      "answer": "Ferdynanda Magellana",
+      "aliases": [
+        "Magellan"
+      ],
+      "id": "v20-4cb2315d1d7e9d6897bb"
+    },
+    {
+      "prompt": "Jak Churchill nazwał granicę dzielącą Europę w czasie zimnej wojny?",
+      "answer": "Żelazna kurtyna",
+      "id": "v20-e4313b2de6e121ee3586"
+    },
+    {
+      "prompt": "W którym roku wprowadzono w Polsce stan wojenny?",
+      "answer": "1981",
+      "id": "v20-c2822b407378469f4ce5"
     }
   ],
   "Literatura": [
@@ -16829,6 +17116,72 @@ export const bank = {
       "prompt": "Jak nazywa się pałeczka, którą dyrygent prowadzi orkiestrę?",
       "answer": "Batuta",
       "id": "v20-091a8711c42e045f090e"
+    },
+    {
+      "prompt": "Jak nazywa się słynny ponad sześciominutowy utwór zespołu Queen z 1975 roku?",
+      "answer": "Bohemian Rhapsody",
+      "id": "v20-553bd2eb1bc4279c5634"
+    },
+    {
+      "prompt": "Który polski raper wydał mixtape „Trójkąt warszawski”?",
+      "answer": "Taco Hemingway",
+      "aliases": [
+        "Taco"
+      ],
+      "id": "v20-612ca6371c658f65c92a"
+    },
+    {
+      "prompt": "Jak nazywa się polski zespół rockowy, którego wokalistą był Grzegorz Markowski?",
+      "answer": "Perfect",
+      "id": "v20-964c513c35d96e5e4afb"
+    },
+    {
+      "prompt": "Kto zaśpiewał z Daddy Yankee przebój „Despacito”?",
+      "answer": "Luis Fonsi",
+      "aliases": [
+        "Fonsi"
+      ],
+      "id": "v20-f789b953fa81feaa139e"
+    },
+    {
+      "prompt": "Który instrument orkiestrowy ma około 47 strun i pedały?",
+      "answer": "Harfa",
+      "id": "v20-6e3adccba81e1de3bbc9"
+    },
+    {
+      "prompt": "Jak nazywa się duży festiwal muzyczny odbywający się co roku na lotnisku Gdynia-Kosakowo?",
+      "answer": "Open’er",
+      "aliases": [
+        "Opener",
+        "Open'er Festival"
+      ],
+      "id": "v20-eb97e09f47214ed2bf66"
+    },
+    {
+      "prompt": "Który polski kompozytor napisał operę „Straszny dwór”?",
+      "answer": "Stanisław Moniuszko",
+      "aliases": [
+        "Moniuszko"
+      ],
+      "id": "v20-0d7ad9f4008a94046c9a"
+    },
+    {
+      "prompt": "Kto nagrał album „Thriller”, najlepiej sprzedający się album w historii?",
+      "answer": "Michael Jackson",
+      "aliases": [
+        "Jackson"
+      ],
+      "id": "v20-3edb9871014c18d6cd70"
+    },
+    {
+      "prompt": "Jak nazywa się wokalista zespołu Coldplay?",
+      "answer": "Chris Martin",
+      "id": "v20-1f75da283a74f2e46402"
+    },
+    {
+      "prompt": "Jaki koreański zespół nagrał przeboje „Dynamite” i „Butter”?",
+      "answer": "BTS",
+      "id": "v20-225addc0c5c26879890d"
     }
   ],
   "Pogoda i zjawiska": [
@@ -19166,6 +19519,59 @@ export const bank = {
       "prompt": "Podaj liczbę mnogą słowa „dziecko”.",
       "answer": "dzieci",
       "id": "v20-ec14b4655df783823482"
+    },
+    {
+      "prompt": "Która forma jest poprawna: „wziąść” czy „wziąć”?",
+      "answer": "Wziąć",
+      "id": "v20-5feabed5e97695794e18"
+    },
+    {
+      "prompt": "Która forma jest poprawna: „w cudzysłowiu” czy „w cudzysłowie”?",
+      "answer": "W cudzysłowie",
+      "id": "v20-63b87d87338d706cd8e2"
+    },
+    {
+      "prompt": "Podaj liczbę mnogą słowa „brat”.",
+      "answer": "bracia",
+      "id": "v20-3173914b652984c1fe7c"
+    },
+    {
+      "prompt": "Podaj dopełniacz liczby pojedynczej słowa „pies” (kogo? czego?).",
+      "answer": "psa",
+      "id": "v20-4879be6fd79378e7ce67"
+    },
+    {
+      "prompt": "Jak nazywa się wymiana głosek w odmianie wyrazu, np. „wiosna – na wiośnie”?",
+      "answer": "Oboczność",
+      "id": "v20-1a726e5336890a565f13"
+    },
+    {
+      "prompt": "Która forma jest poprawna: „półtorej roku” czy „półtora roku”?",
+      "answer": "Półtora roku",
+      "id": "v20-d4ec03f0a000b8a9c438"
+    },
+    {
+      "prompt": "Jaki znak interpunkcyjny stawiamy przed spójnikiem „że”?",
+      "answer": "Przecinek",
+      "id": "v20-49e550b0db13aed9264c"
+    },
+    {
+      "prompt": "Ile sylab ma słowo „samochód”?",
+      "answer": "3",
+      "id": "v20-d12275da7d0b5af6d7ad"
+    },
+    {
+      "prompt": "Jaka część mowy odpowiada na pytania „kto? co?”?",
+      "answer": "Rzeczownik",
+      "id": "v20-7e3bbdee448a51831529"
+    },
+    {
+      "prompt": "Jak nazywa się wyraz naśladujący dźwięk, np. „kukuryku”?",
+      "answer": "Onomatopeja",
+      "aliases": [
+        "Wyraz dźwiękonaśladowczy"
+      ],
+      "id": "v20-66b73140c42b327170f8"
     }
   ],
   "Rebusy emoji": [
@@ -30854,6 +31260,811 @@ export const bank = {
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Reksio_pomnik_02.jpg/500px-Reksio_pomnik_02.jpg",
       "source": "https://pl.wikipedia.org/wiki/Reksio_(serial_animowany)",
       "id": "postac-89c45d48735752deffb9"
+    }
+  ],
+  "Bajki z dzieciństwa": [
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Kacze opowieści",
+      "aliases": [
+        "DuckTales"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/54/Scrooge_McDuck.png",
+      "source": "https://en.wikipedia.org/wiki/Scrooge_McDuck",
+      "id": "bajka-0bac081c7f1048218a35"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Chip i Dale",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/dd/Chip_%27n%27_Dale_Duckipedia.png",
+      "source": "https://en.wikipedia.org/wiki/Chip_'n'_Dale",
+      "id": "bajka-c8a719d7f035900eab4d"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Flintstonowie",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ad/Fred_Flintstone.png",
+      "source": "https://en.wikipedia.org/wiki/Fred_Flintstone",
+      "id": "bajka-c59e849622837f816ec4"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Jetsonowie",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/67/George_Jetson.png",
+      "source": "https://en.wikipedia.org/wiki/George_Jetson",
+      "id": "bajka-25bb5f7a3fa798f2099f"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Różowa Pantera",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/96/Pink_Panther.png",
+      "source": "https://en.wikipedia.org/wiki/Pink_Panther_(character)",
+      "id": "bajka-737c9192f6292eb035ba"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Muppety",
+      "aliases": [
+        "Muppet Show"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Kermit_puppet.jpg/500px-Kermit_puppet.jpg",
+      "source": "https://en.wikipedia.org/wiki/Kermit_the_Frog",
+      "id": "bajka-96fdde38e3bbf921641b"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Ulica Sezamkowa",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Elmo.jpg/500px-Elmo.jpg",
+      "source": "https://en.wikipedia.org/wiki/Elmo",
+      "id": "bajka-840485145e91f5814d66"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Tomek i przyjaciele",
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/eb/Thomas_the_Tank_Engine_1946.webp",
+      "source": "https://en.wikipedia.org/wiki/Thomas_the_Tank_Engine",
+      "id": "bajka-4b14aefa3df7eaf18329"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Pokémon",
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e4/Ash_Ketchum_Journeys.png",
+      "source": "https://en.wikipedia.org/wiki/Ash_Ketchum",
+      "id": "bajka-f0f3be8dbad191f5c393"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Dragon Ball",
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4c/GokumangaToriyama.png",
+      "source": "https://en.wikipedia.org/wiki/Goku",
+      "id": "bajka-168c1defb8eea5b6de8b"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Czarodziejka z Księżyca",
+      "aliases": [
+        "Sailor Moon"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/2b/Sailor_Moon_01.jpg",
+      "source": "https://en.wikipedia.org/wiki/Sailor_Moon_(character)",
+      "id": "bajka-df17d4815d9f88d11fbd"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Pełzaki",
+      "aliases": [
+        "Rugrats"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Tommy_Pickles_character.png",
+      "source": "https://en.wikipedia.org/wiki/Tommy_Pickles",
+      "id": "bajka-fbadb176ba8213fdf40f"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Ben 10",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bf/Ben_Tennyson.png",
+      "source": "https://en.wikipedia.org/wiki/Ben_Tennyson",
+      "id": "bajka-356a6c36711d67d50154"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Fineasz i Ferb",
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/52/Phineas_Flynn.png",
+      "source": "https://en.wikipedia.org/wiki/Phineas_Flynn",
+      "id": "bajka-ed7863a6056a99ef6216"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Jimmy Neutron: mały geniusz",
+      "aliases": [
+        "Jimmy Neutron"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Jimmy_Neutron.png/500px-Jimmy_Neutron.png",
+      "source": "https://en.wikipedia.org/wiki/Jimmy_Neutron_(character)",
+      "id": "bajka-95b1f89d56ad7ef60041"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Kim Kolwiek",
+      "aliases": [
+        "Kim Possible"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/2b/Kim_Possible_%28character_design%29.png",
+      "source": "https://en.wikipedia.org/wiki/Kim_Possible_(character)",
+      "id": "bajka-2aaf50b06705bb224ede"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Dora poznaje świat",
+      "aliases": [
+        "Dora"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/99/Dora_the_Explorer_%28character%29.webp",
+      "source": "https://en.wikipedia.org/wiki/Dora_(Dora_the_Explorer)",
+      "id": "bajka-f4c384b87c02cd138951"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Zwariowane melodie",
+      "aliases": [
+        "Looney Tunes"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c4/Taz-Looney_Tunes.svg/500px-Taz-Looney_Tunes.svg.png",
+      "source": "https://en.wikipedia.org/wiki/Tasmanian_Devil_(Looney_Tunes)",
+      "id": "bajka-26ca7b19e759f864a758"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Popeye",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Popeye_transparent.png/500px-Popeye_transparent.png",
+      "source": "https://en.wikipedia.org/wiki/Popeye",
+      "id": "bajka-8628cf3deca6acf66927"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Dzięcioł Woody",
+      "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/e/e4/Woody_Woodpecker.svg/500px-Woody_Woodpecker.svg.png",
+      "source": "https://en.wikipedia.org/wiki/Woody_Woodpecker",
+      "id": "bajka-6f8fba38ab7975c45ec2"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Miś Yogi",
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f0/Yogi_Bear_Yogi_Bear.png",
+      "source": "https://en.wikipedia.org/wiki/Yogi_Bear",
+      "id": "bajka-29cdbf0cbec8e707b911"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Awatar: Legenda Aanga",
+      "aliases": [
+        "Awatar"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/86/Avatar_Aang.png",
+      "source": "https://en.wikipedia.org/wiki/Aang",
+      "id": "bajka-309786c397e8bdab939e"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Doraemon",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bd/Doraemon_character.png",
+      "source": "https://en.wikipedia.org/wiki/Doraemon_(character)",
+      "id": "bajka-3b96910f6c3d8156cf72"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Marsupilami",
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/ef/Marsupilami_1.jpg",
+      "source": "https://en.wikipedia.org/wiki/Marsupilami",
+      "id": "bajka-8b97eb9f25f7efff93fd"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Zwariowane melodie",
+      "aliases": [
+        "Looney Tunes",
+        "Kaczor Daffy"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/f4/Daffy_Duck.svg/500px-Daffy_Duck.svg.png",
+      "source": "https://en.wikipedia.org/wiki/Daffy_Duck",
+      "id": "bajka-94bf8004a52ba45ca4ae"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Scooby-Doo",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/87/ShaggyRogers.png",
+      "source": "https://en.wikipedia.org/wiki/Shaggy_Rogers",
+      "id": "bajka-0c6de4c47699dafe87da"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Bob Budowniczy",
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c5/Bob_the_builder.jpg",
+      "source": "https://en.wikipedia.org/wiki/Bob_the_Builder_(character)",
+      "id": "bajka-1fcb01a1d6e03381366a"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Koziołek Matołek",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Pacan%C3%B3w_pomnik_kozio%C5%82ka.JPG/500px-Pacan%C3%B3w_pomnik_kozio%C5%82ka.JPG",
+      "source": "https://pl.wikipedia.org/wiki/Kozio%C5%82ek_Mato%C5%82ek",
+      "id": "bajka-a72906f54a38a7e5a75b"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Muminki",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a9/Moomin_kuva.JPG",
+      "source": "https://en.wikipedia.org/wiki/Moomins",
+      "id": "bajka-bb474f00a987810ba021"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Smerfy",
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fe/Smurfette-comics_version.png",
+      "source": "https://en.wikipedia.org/wiki/Smurfette",
+      "id": "bajka-e48d10810590c21d2309"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Auta",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/82/Lightning_McQueen.png",
+      "source": "https://en.wikipedia.org/wiki/Lightning_McQueen",
+      "id": "bajka-39e5c11945e95d617862"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Ed, Edd i Eddy",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0e/Ed%2C_Edd_n_Eddy_characters.png",
+      "source": "https://en.wikipedia.org/wiki/Ed_(Ed%2C_Edd_n_Eddy)",
+      "id": "bajka-4358239b1bce8cf15599"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Droopy",
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fd/Droopy_dog.png",
+      "source": "https://en.wikipedia.org/wiki/Droopy",
+      "id": "bajka-ba5a07be42de0e8bd2ff"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Tabaluga",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Tabaluga_Erfurt_by_Stepro.jpg/500px-Tabaluga_Erfurt_by_Stepro.jpg",
+      "source": "https://en.wikipedia.org/wiki/Tabaluga",
+      "id": "bajka-b89eaddb55d5004e57d3"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Mała Syrenka",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/77/Ariel_disney.png",
+      "source": "https://en.wikipedia.org/wiki/Ariel_(The_Little_Mermaid)",
+      "id": "bajka-2d7d5535e43a27893281"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Aladyn",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/be/Aladdin_Disney_pose.png",
+      "source": "https://en.wikipedia.org/wiki/Aladdin_(Disney_character)",
+      "id": "bajka-e508a197c9794c9f3f7c"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Iniemamocni",
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/22/Mr._Incredible.png",
+      "source": "https://en.wikipedia.org/wiki/Mr._Incredible",
+      "id": "bajka-9644c9ae232a74736873"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Kung Fu Panda",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3d/Po_from_DreamWorks_Animation%27s_Kung_Fu_Panda.png",
+      "source": "https://en.wikipedia.org/wiki/Po_(Kung_Fu_Panda)",
+      "id": "bajka-4da8143eada89b66ea4b"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Epoka lodowcowa",
+      "aliases": [
+        "Epoka lodowcowa"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/ec/Scrat_Ice_Age.png",
+      "source": "https://en.wikipedia.org/wiki/Scrat",
+      "id": "bajka-434c5e1dd539380bc1ba"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Herkules",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/76/Disney%27s_Hercules_characters.jpg",
+      "source": "https://en.wikipedia.org/wiki/Hercules_(Disney_character)",
+      "id": "bajka-91260f9825ef8da247dc"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Piękna i Bestia",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d5/Belle_disney.png",
+      "source": "https://en.wikipedia.org/wiki/Belle_(Disney_character)",
+      "id": "bajka-f10daf4a57a536e8f2a5"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Zaplątani",
+      "aliases": [
+        "Roszpunka"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6a/Rapunzel_tangled.png",
+      "source": "https://en.wikipedia.org/wiki/Rapunzel_(Tangled)",
+      "id": "bajka-075d7f5695f4ca7a90cf"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Vaiana: Skarb oceanu",
+      "aliases": [
+        "Vaiana"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/56/Moana_%28character%29.png",
+      "source": "https://en.wikipedia.org/wiki/Moana_(character)",
+      "id": "bajka-ab5a0c2b6ffbec7cebcc"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Mój sąsiad Totoro",
+      "aliases": [
+        "Totoro"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/02/My_Neighbor_Totoro_-_Tonari_no_Totoro_%28Movie_Poster%29.jpg",
+      "source": "https://en.wikipedia.org/wiki/My_Neighbor_Totoro",
+      "id": "bajka-a15ababbad9479db3c62"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Kopciuszek",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/75/Cinderella2024design.png",
+      "source": "https://en.wikipedia.org/wiki/Cinderella_(Disney_character)",
+      "id": "bajka-81d8de552ae33ee797a8"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Królewna Śnieżka",
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e1/Snow_white_disney.png",
+      "source": "https://en.wikipedia.org/wiki/Snow_White_(Disney_character)",
+      "id": "bajka-74d5ded1486981b7e84b"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Tom i Jerry",
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/2f/Jerry_Mouse.png",
+      "source": "https://en.wikipedia.org/wiki/Jerry_Mouse",
+      "id": "bajka-0de5a261ee1a51a747a9"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Fistaszki",
+      "aliases": [
+        "Snoopy"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/53/Snoopy_Peanuts.png",
+      "source": "https://en.wikipedia.org/wiki/Snoopy",
+      "id": "bajka-7730f164a4691fa88c93"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Kot Feliks",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Felix_for_Judy_-_Svg.svg/500px-Felix_for_Judy_-_Svg.svg.png",
+      "source": "https://en.wikipedia.org/wiki/Felix_the_Cat",
+      "id": "bajka-1a50b0994bd481844c47"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Noddy",
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e2/Noddy_300.jpg",
+      "source": "https://en.wikipedia.org/wiki/Noddy_(character)",
+      "id": "bajka-eee19d5524b059ada1d6"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Kubuś Puchatek",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/10/Winniethepooh.png",
+      "source": "https://en.wikipedia.org/wiki/Winnie_the_Pooh_(Disney_character)",
+      "id": "bajka-680d0b4ef1e0894ef157"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Król Lew",
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/23/LionKingCharacters.jpg",
+      "source": "https://en.wikipedia.org/wiki/List_of_The_Lion_King_(franchise)_characters",
+      "id": "bajka-3749bd2de096ddb6c000"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Śpiąca królewna",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7e/Malefica.jpg",
+      "source": "https://en.wikipedia.org/wiki/Maleficent",
+      "id": "bajka-4d3e4424e4d793ef71cb"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "101 dalmatyńczyków",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/64/Cruella_de_Vil.png",
+      "source": "https://en.wikipedia.org/wiki/Cruella_de_Vil",
+      "id": "bajka-e893e4e737be4401a000"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Robin Hood",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0a/Robin_Hood_Disney_character.png",
+      "source": "https://en.wikipedia.org/wiki/Robin_Hood_(Disney_character)",
+      "id": "bajka-bd1c6e4ccd79358b3c2b"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "W głowie się nie mieści",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/30/Joy_-_Inside_Out.webp",
+      "source": "https://en.wikipedia.org/wiki/Joy_(Inside_Out)",
+      "id": "bajka-23b7935f846ab62b4414"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Odlot",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9f/Carl_from_Up_2009.png",
+      "source": "https://en.wikipedia.org/wiki/Carl_Fredricksen",
+      "id": "bajka-8a6f1768a27e69bc29b9"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Simpsonowie",
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/ec/Lisa_Simpson.png",
+      "source": "https://en.wikipedia.org/wiki/Lisa_Simpson",
+      "id": "bajka-5dd0ac399ecd3d49dc62"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Merida Waleczna",
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e8/Merida_disney.png",
+      "source": "https://en.wikipedia.org/wiki/Merida_(Brave)",
+      "id": "bajka-4ca4623cd4e520a5f400"
+    },
+    {
+      "prompt": "Z jakiej bajki pochodzi ta postać?",
+      "answer": "Księżniczka i żaba",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/81/Tiana_Disney.png",
+      "source": "https://en.wikipedia.org/wiki/Tiana_(The_Princess_and_the_Frog)",
+      "id": "bajka-93c019b45ada8c82bfc5"
+    }
+  ],
+  "Znane sklepy": [
+    {
+      "prompt": "Do jakiej portugalskiej grupy należy sieć Biedronka?",
+      "answer": "Jerónimo Martins",
+      "id": "sklep-073a15e6b23bb3335d50"
+    },
+    {
+      "prompt": "W którym roku otwarto w Poznaniu pierwszy sklep Biedronka?",
+      "answer": "1995",
+      "id": "sklep-53ed8652feac8a1ac669"
+    },
+    {
+      "prompt": "Hasło której sieci dyskontów brzmi „Codziennie niskie ceny”?",
+      "answer": "Biedronka",
+      "id": "sklep-1eb9a1bd0428c8be9bee"
+    },
+    {
+      "prompt": "Jak nazywa się program lojalnościowy Biedronki?",
+      "answer": "Moja Biedronka",
+      "id": "sklep-97303f04c607378a39f4"
+    },
+    {
+      "prompt": "Jak nazywa się aplikacja lojalnościowa sieci Żabka?",
+      "answer": "Żappka",
+      "id": "sklep-aab1909286accb3ec96f"
+    },
+    {
+      "prompt": "Jak nazywają się bezobsługowe sklepy Żabki, w których płaci się bez kasjera?",
+      "answer": "Żabka Nano",
+      "id": "sklep-74656098dad2c3f020b0"
+    },
+    {
+      "prompt": "Jaka sieć sklepów ma w logo zielonego dinozaura?",
+      "answer": "Dino",
+      "id": "sklep-69fe65438a9e30bd6060"
+    },
+    {
+      "prompt": "Z jakiego wielkopolskiego miasta pochodzi sieć Dino?",
+      "answer": "Krotoszyn",
+      "id": "sklep-bea0b81313feee464dca"
+    },
+    {
+      "prompt": "Jakie zwierzę jest w logo sieci Netto?",
+      "answer": "Pies",
+      "aliases": [
+        "Szkocki terier",
+        "Terier"
+      ],
+      "id": "sklep-8ccd0def65e8f2e8de22"
+    },
+    {
+      "prompt": "Z jakiego kraju pochodzi sieć Netto?",
+      "answer": "Dania",
+      "id": "sklep-8ba44f9927582add0eed"
+    },
+    {
+      "prompt": "Jaka niemiecka grupa jest właścicielem Lidla i Kauflandu?",
+      "answer": "Schwarz",
+      "aliases": [
+        "Schwarz Gruppe",
+        "Grupa Schwarz"
+      ],
+      "id": "sklep-5706974a2e0b45c502e9"
+    },
+    {
+      "prompt": "Z jakiego kraju pochodzi Lidl?",
+      "answer": "Niemcy",
+      "id": "sklep-a8cc4f10f2d60deefea7"
+    },
+    {
+      "prompt": "Jak nazywa się aplikacja lojalnościowa Lidla?",
+      "answer": "Lidl Plus",
+      "id": "sklep-a0c34bd3336ae0c78a9a"
+    },
+    {
+      "prompt": "Z jakiego kraju pochodzi sieć hipermarketów Carrefour?",
+      "answer": "Francja",
+      "id": "sklep-0b869a267679ab83c88f"
+    },
+    {
+      "prompt": "Z jakiego kraju pochodzi sieć Auchan?",
+      "answer": "Francja",
+      "id": "sklep-291f6b2a2fe6f5b45799"
+    },
+    {
+      "prompt": "Jak nazywa się francuska sieć hipermarketów założona przez Édouarda Leclerca?",
+      "answer": "E.Leclerc",
+      "aliases": [
+        "Leclerc"
+      ],
+      "id": "sklep-6b99cd26e6dc501d4e40"
+    },
+    {
+      "prompt": "Jaka polska sieć supermarketów z Lublina ma w nazwie kwiat?",
+      "answer": "Stokrotka",
+      "id": "sklep-6ee317185947c92147c4"
+    },
+    {
+      "prompt": "Która brytyjska sieć hipermarketów wycofała się z Polski w 2021 roku?",
+      "answer": "Tesco",
+      "id": "sklep-e28c1ca845c8c40084d4"
+    },
+    {
+      "prompt": "Jak nazywa się polska sieć franczyzowa sklepów nazwana od biblijnego morskiego potwora?",
+      "answer": "Lewiatan",
+      "id": "sklep-04f7f8ee1b10aab68a9e"
+    },
+    {
+      "prompt": "Jak nazywa się sieć delikatesów franczyzowych należąca do grupy Eurocash?",
+      "answer": "Delikatesy Centrum",
+      "id": "sklep-40c999f7ea60545bfb2c"
+    },
+    {
+      "prompt": "Z jakiego kraju pochodzi IKEA?",
+      "answer": "Szwecja",
+      "id": "sklep-974a99465cc58bdeaf4d"
+    },
+    {
+      "prompt": "Kto założył IKEA?",
+      "answer": "Ingvar Kamprad",
+      "aliases": [
+        "Kamprad"
+      ],
+      "id": "sklep-a7966ee923a8f401ce26"
+    },
+    {
+      "prompt": "Jakie danie słynie z restauracji w sklepach IKEA?",
+      "answer": "Klopsiki",
+      "aliases": [
+        "Köttbullar"
+      ],
+      "id": "sklep-5ffe22e66e43c9b3af44"
+    },
+    {
+      "prompt": "Od czego pochodzi litera „I” w nazwie IKEA?",
+      "answer": "Od imienia Ingvar",
+      "aliases": [
+        "Ingvar"
+      ],
+      "id": "sklep-79151c14ebd6bcb034de"
+    },
+    {
+      "prompt": "Która sieć sprzedaje meble do samodzielnego montażu w płaskich paczkach i ma w sklepach jednokierunkową trasę?",
+      "answer": "IKEA",
+      "id": "sklep-c410957ebe8ff729c6f7"
+    },
+    {
+      "prompt": "Która sieć elektromarketów reklamowała się hasłem „Nie dla idiotów”?",
+      "answer": "Media Markt",
+      "aliases": [
+        "MediaMarkt"
+      ],
+      "id": "sklep-8912ebf3e5e1fc85635b"
+    },
+    {
+      "prompt": "Z jakiego kraju pochodzi Media Markt?",
+      "answer": "Niemcy",
+      "id": "sklep-906d6b044df867a509c3"
+    },
+    {
+      "prompt": "Jak nazywa się polska sieć elektromarketów z siedzibą w Złotowie?",
+      "answer": "Media Expert",
+      "id": "sklep-bb109966bbf00f0e5327"
+    },
+    {
+      "prompt": "Jak nazywa się polski sklep internetowy z elektroniką i komputerami z Częstochowy?",
+      "answer": "x-kom",
+      "id": "sklep-2659e16afdb5f2da5e17"
+    },
+    {
+      "prompt": "Z jakiego kraju pochodzi drogeria Rossmann?",
+      "answer": "Niemcy",
+      "id": "sklep-24baa7243456c05d6e14"
+    },
+    {
+      "prompt": "Jak nazywa się sieć drogerii należąca do właściciela Biedronki?",
+      "answer": "Hebe",
+      "id": "sklep-4da7d0b6682380623f0f"
+    },
+    {
+      "prompt": "Z jakiego kraju pochodzi sieć perfumerii Sephora?",
+      "answer": "Francja",
+      "id": "sklep-94b14dd344b9e31cf413"
+    },
+    {
+      "prompt": "Z jakiego kraju pochodzi sieć perfumerii Douglas?",
+      "answer": "Niemcy",
+      "id": "sklep-e71f696a5360979c955c"
+    },
+    {
+      "prompt": "Jak nazywa się holenderska sieć tanich sklepów „wszystkiego po trochu”?",
+      "answer": "Action",
+      "id": "sklep-bef69c29ed891bba1581"
+    },
+    {
+      "prompt": "Jak nazywa się sieć tanich sklepów odzieżowo-domowych z siedzibą w Poznaniu, obecna w całej Europie?",
+      "answer": "Pepco",
+      "id": "sklep-e9d06f13bf256c511a47"
+    },
+    {
+      "prompt": "Z jakiego kraju pochodzi sieć odzieżowa Primark?",
+      "answer": "Irlandia",
+      "id": "sklep-77dc1f319f575105bed4"
+    },
+    {
+      "prompt": "Z jakiego kraju pochodzi sieć odzieżowa H&M?",
+      "answer": "Szwecja",
+      "id": "sklep-0ce3f727789a0b7c4b30"
+    },
+    {
+      "prompt": "Do jakiej hiszpańskiej grupy należy Zara?",
+      "answer": "Inditex",
+      "id": "sklep-403f878a855e5464ad60"
+    },
+    {
+      "prompt": "Jak nazywa się polska firma z Gdańska, właściciel marek Reserved, Cropp, House, Mohito i Sinsay?",
+      "answer": "LPP",
+      "id": "sklep-4c0b7bd6d9a19f6a93f3"
+    },
+    {
+      "prompt": "Która marka LPP, założona w 1999 roku, jest jej flagową siecią salonów odzieżowych?",
+      "answer": "Reserved",
+      "id": "sklep-193b6bbab757ce49646c"
+    },
+    {
+      "prompt": "Jak nazywa się polska sieć sklepów obuwniczych z Polkowic?",
+      "answer": "CCC",
+      "id": "sklep-d92ec95b1865e135b49a"
+    },
+    {
+      "prompt": "Od jakiego skrótu pochodzi nazwa sieci Empik?",
+      "answer": "KMPiK",
+      "aliases": [
+        "Klub Międzynarodowej Prasy i Książki"
+      ],
+      "id": "sklep-9829bafe96716ab2f257"
+    },
+    {
+      "prompt": "Z jakiego kraju pochodzi sieć sklepów sportowych Decathlon?",
+      "answer": "Francja",
+      "id": "sklep-43dda983fcf0befe9ac1"
+    },
+    {
+      "prompt": "Jak nazywa się polska marka odzieży sportowej, która ubiera polskich olimpijczyków?",
+      "answer": "4F",
+      "id": "sklep-d61bc180ab689d422a78"
+    },
+    {
+      "prompt": "Z jakiego kraju pochodzi market budowlany OBI?",
+      "answer": "Niemcy",
+      "id": "sklep-0bc8a636692cddedd96a"
+    },
+    {
+      "prompt": "Z jakiego kraju pochodzi market budowlany Leroy Merlin?",
+      "answer": "Francja",
+      "id": "sklep-ceae3249236f798958e8"
+    },
+    {
+      "prompt": "Jak nazywa się polska platforma zakupowa założona w 1999 roku w Poznaniu?",
+      "answer": "Allegro",
+      "id": "sklep-bc3fd38a404a4c3c57ea"
+    },
+    {
+      "prompt": "Kto założył Amazona?",
+      "answer": "Jeff Bezos",
+      "aliases": [
+        "Bezos"
+      ],
+      "id": "sklep-7b2f90eba2de99f6cd66"
+    },
+    {
+      "prompt": "Co Amazon sprzedawał na początku działalności?",
+      "answer": "Książki",
+      "id": "sklep-2abeb516d9464889fda3"
+    },
+    {
+      "prompt": "Jak nazywa się litewska platforma do sprzedaży używanych ubrań?",
+      "answer": "Vinted",
+      "id": "sklep-996b0c06844f0446b1f2"
+    },
+    {
+      "prompt": "Jak nazywa się chiński sklep internetowy z grupy Alibaba, popularny w Polsce?",
+      "answer": "AliExpress",
+      "id": "sklep-591baf6696cddbb0faec"
+    },
+    {
+      "prompt": "Jak nazywa się chińska platforma zakupowa z hasłem „Shop like a billionaire”?",
+      "answer": "Temu",
+      "id": "sklep-1f7d2c100ceee1ac82a9"
+    },
+    {
+      "prompt": "Z jakiego kraju pochodzi sklep internetowy Zalando?",
+      "answer": "Niemcy",
+      "id": "sklep-5bee0680cb551b0d49ea"
+    },
+    {
+      "prompt": "Jak nazywa się polska sieć sklepów z zabawkami i artykułami dla dzieci?",
+      "answer": "Smyk",
+      "id": "sklep-6eb600c9ac75d005981c"
+    },
+    {
+      "prompt": "Jak nazywa się najstarsza polska firma jubilerska, założona w Poznaniu w 1840 roku?",
+      "answer": "W.Kruk",
+      "aliases": [
+        "Kruk"
+      ],
+      "id": "sklep-7083fa259401284a5cb5"
+    },
+    {
+      "prompt": "Jak nazywa się polski producent i sieć sklepów meblowych z Biłgoraja?",
+      "answer": "Black Red White",
+      "aliases": [
+        "BRW"
+      ],
+      "id": "sklep-5ecc0db815a2437fdbc4"
+    },
+    {
+      "prompt": "Z jakiego kraju pochodzi sieć sklepów Jysk?",
+      "answer": "Dania",
+      "id": "sklep-7d7580803dc92c41ecdb"
+    },
+    {
+      "prompt": "Jak nazywa się największa sieć stacji paliw w Polsce, dawniej CPN?",
+      "answer": "Orlen",
+      "id": "sklep-2393e730e49caacd6d04"
+    },
+    {
+      "prompt": "Jak nazywa się duński producent klocków, który ma w Polsce własne sklepy firmowe?",
+      "answer": "LEGO",
+      "id": "sklep-81b407cf907b40a6774b"
+    },
+    {
+      "prompt": "Z jakiego kraju pochodzi sieć dyskontów Aldi?",
+      "answer": "Niemcy",
+      "id": "sklep-e86b8b9d74ca0758193a"
     }
   ]
 };
