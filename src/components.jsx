@@ -1,5 +1,5 @@
 import React, {memo, useEffect, useState} from 'react';
-import {categoryDescription} from './categoryInfo.js';
+import {CHOICE_RULE, categoryDescription, isChoiceCategory} from './categoryInfo.js';
 
 const categoryEmojis = {
   stolice: '🏛️',
@@ -50,6 +50,9 @@ const categoryEmojis = {
   'kontury panstw': '🗺️',
   kosmetyki: '💄',
   'co to za postac?': '🎭',
+  'bajki z dziecinstwa': '🧸',
+  'znane sklepy': '🛒',
+  'co to za dzien?': '📅',
 };
 
 export function getCategoryEmoji(category) {
@@ -77,12 +80,41 @@ export const PixelTimer = memo(function PixelTimer({milliseconds, label, active 
   return <output className={`clock${active ? ' clock--active' : ''}${active && remaining <= 5000 ? ' clock--urgent' : ''}`} role="timer" aria-label={`${label}: ${Math.ceil(remaining / 1000)} sekund`}>{(remaining / 1000).toFixed(1)}<small>s</small></output>;
 });
 
-export function TerritoryTile({category, count, status, state, selected, disabled, onClick}) {
-  return <button type="button" className="tile" data-state={state} aria-pressed={selected} aria-label={`${category}, ${count} pytań, ${status}`} disabled={disabled} onClick={onClick} title={categoryDescription(category)}>
-    <span className="tile__emoji" aria-hidden="true">{getCategoryEmoji(category)}</span>
-    <span className="tile__text"><strong>{category}</strong><small>{count} pytań · {status}</small></span>
-    {selected && <span className="tile__check" aria-hidden="true">✓</span>}
-  </button>;
+export function TerritoryTile({category, count, status, state, selected, disabled, onClick, onInfo}) {
+  return <div className="tile-wrap">
+    <button type="button" className="tile" data-state={state} aria-pressed={selected} aria-label={`${category}, ${count} pytań, ${status}`} disabled={disabled} onClick={onClick} title={categoryDescription(category)}>
+      <span className="tile__emoji" aria-hidden="true">{getCategoryEmoji(category)}</span>
+      <span className="tile__text"><strong>{category}</strong><small>{count} pytań · {status}</small></span>
+      {selected && <span className="tile__check" aria-hidden="true">✓</span>}
+    </button>
+    {onInfo && <InfoButton category={category} onClick={onInfo}/>}
+  </div>;
+}
+
+export function InfoButton({category, onClick}) {
+  return <button type="button" className="info-button" aria-label={`Opis kategorii ${category}`} title={categoryDescription(category)} onClick={onClick}>i</button>;
+}
+
+/** Sheet with a category's description and, for choice categories, the wrong-answer rule. */
+export function CategorySheet({category, count, status, onPick, pickLabel = 'Wybierz tę kategorię', onClose}) {
+  useEffect(() => {
+    const onKey = e => { if (e.key === 'Escape') onClose(); };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [onClose]);
+  return <div className="modal" role="dialog" aria-modal="true" aria-labelledby="category-sheet-title" onClick={e => { if (e.target === e.currentTarget) onClose(); }}>
+    <div className="modal__box category-sheet">
+      <span className="category-sheet__emoji" aria-hidden="true">{getCategoryEmoji(category)}</span>
+      <h2 id="category-sheet-title">{category}</h2>
+      {(count !== undefined || status) && <p className="muted">{[count !== undefined && `${count} pytań`, status].filter(Boolean).join(' · ')}</p>}
+      <p className="category-sheet__desc">{categoryDescription(category) || 'Brak opisu.'}</p>
+      {isChoiceCategory(category) && <p className="rule-note">{CHOICE_RULE}</p>}
+      <div className="category-sheet__actions">
+        {onPick && <button type="button" className="btn btn--primary btn--lg" onClick={() => { onPick(); onClose(); }}>{pickLabel}</button>}
+        <button type="button" className="btn btn--lg" onClick={onClose} autoFocus>Zamknij</button>
+      </div>
+    </div>
+  </div>;
 }
 
 function ClubCrest({club}) {

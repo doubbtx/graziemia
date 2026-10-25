@@ -46,15 +46,17 @@ const info = {
   'Rozsypane litery': 'Ułóż słowo z rozsypanych liter, korzystając z podpowiedzi.',
   'Co to za piłkarz?': 'Po fladze, pozycji i herbach ostatnich klubów zgadnij piłkarza.',
   'Kontury państw': 'Rozpoznaj państwo po samym kształcie granic.',
-  'Kosmetyki': 'Powiedz, co to za kosmetyk lub akcesorium i do czego służy.',
+  'Kosmetyki': 'Makijaż, paznokcie, pielęgnacja i stylizacja włosów – powiedz, co to jest i do czego służy.',
   'Co to za postać?': 'Rozpoznaj postać z gry, filmu albo serialu po obrazku.',
   'Bajki z dzieciństwa': 'Po obrazku postaci podaj tytuł bajki, z której pochodzi.',
   'Znane sklepy': 'Sieci sklepów: logotypy, maskotki, hasła i skąd pochodzą.',
+  'Co to za dzień?': 'Podana jest data – powiedz, jakie święto lub dzień obchodzimy. Gdy tego dnia jest kilka świąt, wystarczy jedno z nich.',
 };
 // Categories where every question offers a fixed set of options.
 const choiceCategories = new Set(['Prawda/Fałsz', 'Więcej czy mniej?', 'Co było wcześniej?', 'Co tu nie pasuje?']);
 
 export const CHOICE_RULE = 'Pytanie z wyborem: zła odpowiedź oznacza pominięcie (−3 s) – nie można zgadywać drugi raz.';
 export const categoryDescription = category => info[category] || '';
+export const isChoiceCategory = category => choiceCategories.has(category);
 /** True when the question offers options to choose from (whole category or an "A czy B?" prompt). */
 export const isChoiceQuestion = (category, prompt = '') => choiceCategories.has(category) || /\bczy\b[^?]*\?\s*$/.test(prompt) && /:\s*[^?]+\bczy\b/.test(prompt) || /^A: .+\nB: /m.test(prompt);

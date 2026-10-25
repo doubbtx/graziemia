@@ -30338,28 +30338,6 @@ export const bank = {
     },
     {
       "prompt": "Co to jest i do czego służy?",
-      "answer": "Dezodorant w sztyfcie – neutralizuje zapach potu",
-      "aliases": [
-        "Dezodorant w sztyfcie",
-        "Dezodorant"
-      ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Deodorant_stick_%28front_label%29.jpg/330px-Deodorant_stick_%28front_label%29.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Deodorant_stick_(front_label).jpg",
-      "id": "kosmetyk-aa3d573eb12f623eeedc"
-    },
-    {
-      "prompt": "Co to jest i do czego służy?",
-      "answer": "Antyperspirant w sprayu – ogranicza pocenie się",
-      "aliases": [
-        "Antyperspirant w sprayu",
-        "Antyperspirant"
-      ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Dove_antiperspirant.jpg/330px-Dove_antiperspirant.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Dove_antiperspirant.jpg",
-      "id": "kosmetyk-2f2f8dd3a7bdd911499e"
-    },
-    {
-      "prompt": "Co to jest i do czego służy?",
       "answer": "Perfumy – nadają ciału trwały zapach",
       "aliases": [
         "Perfumy",
@@ -30368,16 +30346,6 @@ export const bank = {
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Perfume_set_from_Sovjetunio_cca_1965.jpg/330px-Perfume_set_from_Sovjetunio_cca_1965.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Perfume_set_from_Sovjetunio_cca_1965.jpg",
       "id": "kosmetyk-17e6b122bee532f13973"
-    },
-    {
-      "prompt": "Co to jest i do czego służy?",
-      "answer": "Szampon – myje włosy i skórę głowy",
-      "aliases": [
-        "Szampon"
-      ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Dove_shampoo_bottle.jpg/330px-Dove_shampoo_bottle.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Dove_shampoo_bottle.jpg",
-      "id": "kosmetyk-a428767885e81501509a"
     },
     {
       "prompt": "Co to jest i do czego służy?",
@@ -30391,47 +30359,6 @@ export const bank = {
     },
     {
       "prompt": "Co to jest i do czego służy?",
-      "answer": "Pianka do golenia – zmiękcza zarost i ułatwia golenie",
-      "aliases": [
-        "Pianka do golenia"
-      ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Shaving_Cream_-_Gillette_%2851013604097%29.jpg/330px-Shaving_Cream_-_Gillette_%2851013604097%29.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Shaving_Cream_-_Gillette_(51013604097).jpg",
-      "id": "kosmetyk-c45d188d9334ccd18c28"
-    },
-    {
-      "prompt": "Co to jest i do czego służy?",
-      "answer": "Woda po goleniu – łagodzi podrażnienia i odkaża skórę po goleniu",
-      "aliases": [
-        "Woda po goleniu"
-      ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Pitralon_Pre-Shave_Aftershave_2017.jpg/330px-Pitralon_Pre-Shave_Aftershave_2017.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Pitralon_Pre-Shave_Aftershave_2017.jpg",
-      "id": "kosmetyk-69f4b97ce497af3a104d"
-    },
-    {
-      "prompt": "Co to jest i do czego służy?",
-      "answer": "Maszynka do golenia – służy do golenia zarostu",
-      "aliases": [
-        "Maszynka do golenia",
-        "Żyletka"
-      ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Parker-76R_Safety_Razor.jpg/330px-Parker-76R_Safety_Razor.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Parker-76R_Safety_Razor.jpg",
-      "id": "kosmetyk-eac27e697df0b1016d93"
-    },
-    {
-      "prompt": "Co to jest i do czego służy?",
-      "answer": "Mydło – myje skórę",
-      "aliases": [
-        "Mydło"
-      ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Bars_of_pure_Marseille_and_Aleppo_soap%2C_2024.jpg/330px-Bars_of_pure_Marseille_and_Aleppo_soap%2C_2024.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Bars_of_pure_Marseille_and_Aleppo_soap,_2024.jpg",
-      "id": "kosmetyk-3d92ea98c3c5e2153ce9"
-    },
-    {
-      "prompt": "Co to jest i do czego służy?",
       "answer": "Kula do kąpieli – rozpuszcza się w wannie, barwiąc i perfumując wodę",
       "aliases": [
         "Kula do kąpieli"
@@ -30439,37 +30366,6 @@ export const bank = {
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Bath_Bombs_-_Lush_Cosmetics_%2851333340003%29.jpg/330px-Bath_Bombs_-_Lush_Cosmetics_%2851333340003%29.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Bath_Bombs_-_Lush_Cosmetics_(51333340003).jpg",
       "id": "kosmetyk-8cda38162ede19b0ad36"
-    },
-    {
-      "prompt": "Co to jest i do czego służy?",
-      "answer": "Pasta do zębów – czyści zęby i chroni je przed próchnicą",
-      "aliases": [
-        "Pasta do zębów"
-      ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Vitis_Dentaid_toothpaste_tube%2C_Hillegersberg%2C_Rotterdam_%282021%29_01.jpg/330px-Vitis_Dentaid_toothpaste_tube%2C_Hillegersberg%2C_Rotterdam_%282021%29_01.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Vitis_Dentaid_toothpaste_tube,_Hillegersberg,_Rotterdam_(2021)_01.jpg",
-      "id": "kosmetyk-a392116b15c17e9292a6"
-    },
-    {
-      "prompt": "Co to jest i do czego służy?",
-      "answer": "Płyn do płukania jamy ustnej – odświeża oddech i ogranicza bakterie w jamie ustnej",
-      "aliases": [
-        "Płyn do płukania jamy ustnej"
-      ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Mouthwash_R.O.C.S._2023_Russia.png/330px-Mouthwash_R.O.C.S._2023_Russia.png",
-      "source": "https://commons.wikimedia.org/wiki/File:Mouthwash_R.O.C.S._2023_Russia.png",
-      "id": "kosmetyk-45cee5c69d52e12f0d6c"
-    },
-    {
-      "prompt": "Co to jest i do czego służy?",
-      "answer": "Gąbka luffa – złuszcza i masuje skórę podczas kąpieli",
-      "aliases": [
-        "Gąbka luffa",
-        "Luffa"
-      ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Luffa_sponges_spelled_loofah.jpg/330px-Luffa_sponges_spelled_loofah.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Luffa_sponges_spelled_loofah.jpg",
-      "id": "kosmetyk-ef935ac81031258c5769"
     },
     {
       "prompt": "Co to jest i do czego służy?",
@@ -30575,17 +30471,6 @@ export const bank = {
     },
     {
       "prompt": "Co to jest i do czego służy?",
-      "answer": "Patyczki kosmetyczne – służą do precyzyjnych poprawek makijażu i higieny",
-      "aliases": [
-        "Patyczki kosmetyczne",
-        "Patyczki higieniczne"
-      ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Cotton_swab%2C_package_and_swabs.jpg/330px-Cotton_swab%2C_package_and_swabs.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Cotton_swab,_package_and_swabs.jpg",
-      "id": "kosmetyk-c79e70eed9aecf344444"
-    },
-    {
-      "prompt": "Co to jest i do czego służy?",
       "answer": "Nożyczki do paznokci – obcina się nimi paznokcie i skórki",
       "aliases": [
         "Nożyczki do paznokci"
@@ -30593,57 +30478,6 @@ export const bank = {
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Nagelschere.jpg/330px-Nagelschere.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Nagelschere.jpg",
       "id": "kosmetyk-c829b21cbcfddab14901"
-    },
-    {
-      "prompt": "Co to jest i do czego służy?",
-      "answer": "Szczoteczka do zębów – służy do mycia zębów",
-      "aliases": [
-        "Szczoteczka do zębów"
-      ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Toothbrush_x3_20050716_002.jpg/330px-Toothbrush_x3_20050716_002.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Toothbrush_x3_20050716_002.jpg",
-      "id": "kosmetyk-8f63bc73269249a8d14a"
-    },
-    {
-      "prompt": "Co to jest i do czego służy?",
-      "answer": "Nić dentystyczna – czyści przestrzenie między zębami",
-      "aliases": [
-        "Nić dentystyczna"
-      ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Dental_floss_%28whole%29.jpg/330px-Dental_floss_%28whole%29.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Dental_floss_(whole).jpg",
-      "id": "kosmetyk-dd41c68f1eb1cafb4317"
-    },
-    {
-      "prompt": "Co to jest i do czego służy?",
-      "answer": "Pędzel do golenia – spienia krem do golenia i nakłada go na zarost",
-      "aliases": [
-        "Pędzel do golenia"
-      ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Shaving-Brush.jpg/330px-Shaving-Brush.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Shaving-Brush.jpg",
-      "id": "kosmetyk-41f4be2d9af861817609"
-    },
-    {
-      "prompt": "Co to jest i do czego służy?",
-      "answer": "Golarka elektryczna – goli zarost bez wody i pianki",
-      "aliases": [
-        "Golarka elektryczna"
-      ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/2023_Golarka_Philips.jpg/330px-2023_Golarka_Philips.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:2023_Golarka_Philips.jpg",
-      "id": "kosmetyk-00b2975a86b38c92108d"
-    },
-    {
-      "prompt": "Co to jest i do czego służy?",
-      "answer": "Maszynka do strzyżenia – strzyże włosy na krótko",
-      "aliases": [
-        "Maszynka do strzyżenia",
-        "Trymer"
-      ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/HITACHI_CL-8300.jpg/330px-HITACHI_CL-8300.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:HITACHI_CL-8300.jpg",
-      "id": "kosmetyk-844399d637f8a6d27c17"
     },
     {
       "prompt": "Co to jest i do czego służy?",
@@ -30691,37 +30525,6 @@ export const bank = {
     },
     {
       "prompt": "Co to jest i do czego służy?",
-      "answer": "Żel pod prysznic – myje ciało pod prysznicem",
-      "aliases": [
-        "Żel pod prysznic"
-      ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Care_lime_shower_gel_%282019%29_01.jpg/330px-Care_lime_shower_gel_%282019%29_01.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Care_lime_shower_gel_(2019)_01.jpg",
-      "id": "kosmetyk-7b4d46f67ef5a4f2c180"
-    },
-    {
-      "prompt": "Co to jest i do czego służy?",
-      "answer": "Talk – osusza skórę i zapobiega otarciom",
-      "aliases": [
-        "Talk",
-        "Zasypka"
-      ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/4711_Talcum_Puder_BW_2025-07-05_17-49-38.jpg/330px-4711_Talcum_Puder_BW_2025-07-05_17-49-38.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:4711_Talcum_Puder_BW_2025-07-05_17-49-38.jpg",
-      "id": "kosmetyk-4e6a710d7f8571d8af57"
-    },
-    {
-      "prompt": "Co to jest i do czego służy?",
-      "answer": "Wazelina – natłuszcza i chroni suchą skórę",
-      "aliases": [
-        "Wazelina"
-      ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Bo%C3%AEte_de_vaseline_britannique%2C_1996.180%283%29.jpg/330px-Bo%C3%AEte_de_vaseline_britannique%2C_1996.180%283%29.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Bo%C3%AEte_de_vaseline_britannique,_1996.180(3).jpg",
-      "id": "kosmetyk-f2d602e8d0ea5786704b"
-    },
-    {
-      "prompt": "Co to jest i do czego służy?",
       "answer": "Polerka do paznokci – wygładza i nabłyszcza płytkę paznokcia",
       "aliases": [
         "Polerka do paznokci"
@@ -30738,11 +30541,6 @@ export const bank = {
         "Filtr przeciwsłoneczny"
       ],
       "id": "kosmetyk-7744e7f7fcce2c5ff216"
-    },
-    {
-      "prompt": "Czym różni się antyperspirant od dezodorantu?",
-      "answer": "Antyperspirant ogranicza pocenie się, dezodorant tylko neutralizuje zapach",
-      "id": "kosmetyk-93650d1101c8ae28945a"
     },
     {
       "prompt": "Jak nazywa się kosmetyk nakładany przed podkładem, który wygładza skórę i przedłuża trwałość makijażu?",
@@ -30764,6 +30562,180 @@ export const bank = {
         "Lawsonia"
       ],
       "id": "kosmetyk-e5d1b675c0f0a741af51"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Kredka do brwi – wypełnia i podkreśla brwi",
+      "aliases": [
+        "Kredka do brwi"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Augenbrauenstift_V1.png/330px-Augenbrauenstift_V1.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Augenbrauenstift_V1.png",
+      "id": "kosmetyk-ae187f4f6a021b387348"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Zdobienie paznokci – ozdabia paznokcie wzorami",
+      "aliases": [
+        "Zdobienie paznokci",
+        "Nail art",
+        "Manicure"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Polished_purple_nails_with_nail_art_on.jpg/330px-Polished_purple_nails_with_nail_art_on.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Polished_purple_nails_with_nail_art_on.jpg",
+      "id": "kosmetyk-cb81ea5bb743e3b686a7"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Manicure francuski – białe końcówki paznokci na naturalnym tle",
+      "aliases": [
+        "Manicure francuski",
+        "French manicure",
+        "Manicure"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/French_Manicure_with_Glitter_nail_art_on_ring_finger.jpg/330px-French_Manicure_with_Glitter_nail_art_on_ring_finger.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:French_Manicure_with_Glitter_nail_art_on_ring_finger.jpg",
+      "id": "kosmetyk-7af4d5e3651f19ce1054"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Pędzelek do cieni – nakłada cienie na powieki",
+      "aliases": [
+        "Pędzelek do cieni",
+        "Pędzel do makijażu"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Eyeshadow_Application_on_Brush_-_50922296537.jpg/330px-Eyeshadow_Application_on_Brush_-_50922296537.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Eyeshadow_Application_on_Brush_-_50922296537.jpg",
+      "id": "kosmetyk-43f1f027d15e07dcc406"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Spinka do włosów (klamra) – spina i podtrzymuje upięte włosy",
+      "aliases": [
+        "Spinka do włosów (klamra)",
+        "Klamra",
+        "Spinka"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/3_big_claw_clips_for_thick_long_hair.png/330px-3_big_claw_clips_for_thick_long_hair.png",
+      "source": "https://commons.wikimedia.org/wiki/File:3_big_claw_clips_for_thick_long_hair.png",
+      "id": "kosmetyk-aeea6e32b980e8ea6f97"
+    },
+    {
+      "prompt": "Jak nazywa się technika modelowania twarzy ciemniejszym i jaśniejszym kosmetykiem?",
+      "answer": "Konturowanie",
+      "aliases": [
+        "Konturing"
+      ],
+      "id": "kosmetyk-e37c59808ef1fa32f0a4"
+    },
+    {
+      "prompt": "Jak nazywa się makijaż oczu z przydymionym, rozmytym efektem?",
+      "answer": "Smoky eye",
+      "aliases": [
+        "Smoky eyes",
+        "Przydymione oko"
+      ],
+      "id": "kosmetyk-34f2f6b1ed9981a61db0"
+    },
+    {
+      "prompt": "Jak nazywa się kreska eyelinera wyciągnięta ku górze w zewnętrznym kąciku oka?",
+      "answer": "Kocia kreska",
+      "aliases": [
+        "Cat eye",
+        "Kocie oko"
+      ],
+      "id": "kosmetyk-fccb9144be823da3788d"
+    },
+    {
+      "prompt": "Jaki kosmetyk nakłada się na kości policzkowe, by nadać im blask?",
+      "answer": "Rozświetlacz",
+      "aliases": [
+        "Highlighter"
+      ],
+      "id": "kosmetyk-c34c05e7da7f00083d18"
+    },
+    {
+      "prompt": "Jak nazywa się kosmetyk, który na długo barwi usta, dając efekt naturalnie „zaróżowionych” warg?",
+      "answer": "Tint do ust",
+      "aliases": [
+        "Tint"
+      ],
+      "id": "kosmetyk-e12ca080094cfe3c301b"
+    },
+    {
+      "prompt": "Jak nazywa się manicure z lakierem utwardzanym w lampie UV lub LED?",
+      "answer": "Manicure hybrydowy",
+      "aliases": [
+        "Hybryda"
+      ],
+      "id": "kosmetyk-9c6bc71092465f25bd08"
+    },
+    {
+      "prompt": "Jak nazywa się zabieg trwałego podkręcenia i odżywienia naturalnych rzęs?",
+      "answer": "Lifting rzęs",
+      "aliases": [
+        "Laminacja rzęs"
+      ],
+      "id": "kosmetyk-32eb5de9dac24ccf80f8"
+    },
+    {
+      "prompt": "Jak nazywa się makijaż „bez makijażu”, podkreślający naturalną urodę?",
+      "answer": "Makijaż naturalny",
+      "aliases": [
+        "No make-up make-up",
+        "No makeup"
+      ],
+      "id": "kosmetyk-cd2380254d6e97684d98"
+    },
+    {
+      "prompt": "Jak nazywa się lekki kosmetyk łączący podkład z kremem nawilżającym, oznaczany dwiema literami?",
+      "answer": "Krem BB",
+      "aliases": [
+        "BB"
+      ],
+      "id": "kosmetyk-94fe7900337b9bbb5007"
+    },
+    {
+      "prompt": "Jaki kolor korektora neutralizuje zaczerwienienia na skórze?",
+      "answer": "Zielony",
+      "id": "kosmetyk-1e1778749319fd351e8d"
+    },
+    {
+      "prompt": "Jakim kosmetykiem w mgiełce utrwala się gotowy makijaż?",
+      "answer": "Spray utrwalający",
+      "aliases": [
+        "Fixer",
+        "Utrwalacz"
+      ],
+      "id": "kosmetyk-bfd0e5ad7c75e82f8e77"
+    },
+    {
+      "prompt": "Jak nazywa się zabieg pielęgnacji dłoni i paznokci?",
+      "answer": "Manicure",
+      "id": "kosmetyk-e427f37ef5b5632ae52e"
+    },
+    {
+      "prompt": "Jak nazywa się zabieg pielęgnacji stóp i paznokci u nóg?",
+      "answer": "Pedicure",
+      "id": "kosmetyk-3a095c8ede49ad439839"
+    },
+    {
+      "prompt": "Jak potocznie nazywa się gąbkę w kształcie kropli do nakładania podkładu, od nazwy marki?",
+      "answer": "Beauty blender",
+      "aliases": [
+        "Blender"
+      ],
+      "id": "kosmetyk-0423d47d53854c443d1b"
+    },
+    {
+      "prompt": "Jaki olejek z drzewa rosnącego w Maroku słynie z pielęgnacji końcówek włosów?",
+      "answer": "Olejek arganowy",
+      "id": "kosmetyk-4c157d03628cfc08f262"
+    },
+    {
+      "prompt": "Jaka substancja wiąże wodę w skórze i jest gwiazdą serum nawilżających?",
+      "answer": "Kwas hialuronowy",
+      "id": "kosmetyk-9fbdbcf5fe39ecd8333e"
     }
   ],
   "Co to za postać?": [
@@ -32065,6 +32037,617 @@ export const bank = {
       "prompt": "Z jakiego kraju pochodzi sieć dyskontów Aldi?",
       "answer": "Niemcy",
       "id": "sklep-e86b8b9d74ca0758193a"
+    }
+  ],
+  "Co to za dzień?": [
+    {
+      "prompt": "Co obchodzimy 1 stycznia?",
+      "answer": "Nowy Rok",
+      "aliases": [
+        "Nowy Rok"
+      ],
+      "visual": "📅 1 stycznia",
+      "id": "dzien-0312163c853fd9bbdb6b"
+    },
+    {
+      "prompt": "Co obchodzimy 6 stycznia?",
+      "answer": "Święto Trzech Króli (także: Trzech Króli, Objawienie Pańskie)",
+      "aliases": [
+        "Święto Trzech Króli",
+        "Trzech Króli",
+        "Objawienie Pańskie"
+      ],
+      "visual": "📅 6 stycznia",
+      "id": "dzien-e69529091a2d296a6f4c"
+    },
+    {
+      "prompt": "Co obchodzimy 21 stycznia?",
+      "answer": "Dzień Babci",
+      "aliases": [
+        "Dzień Babci"
+      ],
+      "visual": "📅 21 stycznia",
+      "id": "dzien-8bc865a6d664d060646a"
+    },
+    {
+      "prompt": "Co obchodzimy 22 stycznia?",
+      "answer": "Dzień Dziadka",
+      "aliases": [
+        "Dzień Dziadka"
+      ],
+      "visual": "📅 22 stycznia",
+      "id": "dzien-19e0a369d1d97b4edc88"
+    },
+    {
+      "prompt": "Co obchodzimy 27 stycznia?",
+      "answer": "Międzynarodowy Dzień Pamięci o Ofiarach Holokaustu (także: Dzień Pamięci o Ofiarach Holokaustu)",
+      "aliases": [
+        "Międzynarodowy Dzień Pamięci o Ofiarach Holokaustu",
+        "Dzień Pamięci o Ofiarach Holokaustu"
+      ],
+      "visual": "📅 27 stycznia",
+      "id": "dzien-f055a8338098b93eca8f"
+    },
+    {
+      "prompt": "Co obchodzimy 2 lutego?",
+      "answer": "Święto Matki Bożej Gromnicznej (także: Ofiarowanie Pańskie, Dzień Świstaka)",
+      "aliases": [
+        "Święto Matki Bożej Gromnicznej",
+        "Ofiarowanie Pańskie",
+        "Dzień Świstaka"
+      ],
+      "visual": "📅 2 lutego",
+      "id": "dzien-79fe93c18f8b99875b07"
+    },
+    {
+      "prompt": "Co obchodzimy 4 lutego?",
+      "answer": "Światowy Dzień Walki z Rakiem",
+      "aliases": [
+        "Światowy Dzień Walki z Rakiem"
+      ],
+      "visual": "📅 4 lutego",
+      "id": "dzien-8fb1aedcbee17c439d45"
+    },
+    {
+      "prompt": "Co obchodzimy 14 lutego?",
+      "answer": "Walentynki (także: Dzień Zakochanych, Święto Zakochanych)",
+      "aliases": [
+        "Walentynki",
+        "Dzień Zakochanych",
+        "Święto Zakochanych"
+      ],
+      "visual": "📅 14 lutego",
+      "id": "dzien-f576d02fab774abae10e"
+    },
+    {
+      "prompt": "Co obchodzimy 17 lutego?",
+      "answer": "Dzień Kota (także: Światowy Dzień Kota)",
+      "aliases": [
+        "Dzień Kota",
+        "Światowy Dzień Kota"
+      ],
+      "visual": "📅 17 lutego",
+      "id": "dzien-0a6536ef144e67ac4b89"
+    },
+    {
+      "prompt": "Co obchodzimy 1 marca?",
+      "answer": "Narodowy Dzień Pamięci Żołnierzy Wyklętych (także: Dzień Żołnierzy Wyklętych)",
+      "aliases": [
+        "Narodowy Dzień Pamięci Żołnierzy Wyklętych",
+        "Dzień Żołnierzy Wyklętych"
+      ],
+      "visual": "📅 1 marca",
+      "id": "dzien-bb77a3203d8bc4bd63ea"
+    },
+    {
+      "prompt": "Co obchodzimy 8 marca?",
+      "answer": "Dzień Kobiet",
+      "aliases": [
+        "Dzień Kobiet"
+      ],
+      "visual": "📅 8 marca",
+      "id": "dzien-db1fba67c0aa9a52863a"
+    },
+    {
+      "prompt": "Co obchodzimy 10 marca?",
+      "answer": "Dzień Mężczyzn",
+      "aliases": [
+        "Dzień Mężczyzn"
+      ],
+      "visual": "📅 10 marca",
+      "id": "dzien-12f8b759724bc79339fc"
+    },
+    {
+      "prompt": "Co obchodzimy 14 marca?",
+      "answer": "Dzień Liczby Pi (także: Dzień Pi)",
+      "aliases": [
+        "Dzień Liczby Pi",
+        "Dzień Pi"
+      ],
+      "visual": "📅 14 marca",
+      "id": "dzien-40c50f1ba6d5aa4427d6"
+    },
+    {
+      "prompt": "Co obchodzimy 17 marca?",
+      "answer": "Dzień Świętego Patryka",
+      "aliases": [
+        "Dzień Świętego Patryka"
+      ],
+      "visual": "📅 17 marca",
+      "id": "dzien-5d8860651a28715988b3"
+    },
+    {
+      "prompt": "Co obchodzimy 21 marca?",
+      "answer": "Pierwszy dzień wiosny (także: Dzień Wagarowicza, Topienie Marzanny)",
+      "aliases": [
+        "Pierwszy dzień wiosny",
+        "Dzień Wagarowicza",
+        "Topienie Marzanny"
+      ],
+      "visual": "📅 21 marca",
+      "id": "dzien-6686dd26c8f26ba0d958"
+    },
+    {
+      "prompt": "Co obchodzimy 22 marca?",
+      "answer": "Światowy Dzień Wody",
+      "aliases": [
+        "Światowy Dzień Wody"
+      ],
+      "visual": "📅 22 marca",
+      "id": "dzien-9aeada7d004fbec202e9"
+    },
+    {
+      "prompt": "Co obchodzimy 1 kwietnia?",
+      "answer": "Prima aprilis",
+      "aliases": [
+        "Prima aprilis"
+      ],
+      "visual": "📅 1 kwietnia",
+      "id": "dzien-5833a404c29ed7b93bda"
+    },
+    {
+      "prompt": "Co obchodzimy 7 kwietnia?",
+      "answer": "Światowy Dzień Zdrowia",
+      "aliases": [
+        "Światowy Dzień Zdrowia"
+      ],
+      "visual": "📅 7 kwietnia",
+      "id": "dzien-046a44095f0e07c302af"
+    },
+    {
+      "prompt": "Co obchodzimy 22 kwietnia?",
+      "answer": "Dzień Ziemi (także: Międzynarodowy Dzień Ziemi)",
+      "aliases": [
+        "Dzień Ziemi",
+        "Międzynarodowy Dzień Ziemi"
+      ],
+      "visual": "📅 22 kwietnia",
+      "id": "dzien-ce5f282e6518a5ecb737"
+    },
+    {
+      "prompt": "Co obchodzimy 23 kwietnia?",
+      "answer": "Światowy Dzień Książki (także: Światowy Dzień Książki i Praw Autorskich)",
+      "aliases": [
+        "Światowy Dzień Książki",
+        "Światowy Dzień Książki i Praw Autorskich"
+      ],
+      "visual": "📅 23 kwietnia",
+      "id": "dzien-0f50e4df9516fc3b12d8"
+    },
+    {
+      "prompt": "Co obchodzimy 29 kwietnia?",
+      "answer": "Międzynarodowy Dzień Tańca",
+      "aliases": [
+        "Międzynarodowy Dzień Tańca"
+      ],
+      "visual": "📅 29 kwietnia",
+      "id": "dzien-c2e5ad8ee4591f24c7f4"
+    },
+    {
+      "prompt": "Co obchodzimy 1 maja?",
+      "answer": "Święto Pracy",
+      "aliases": [
+        "Święto Pracy"
+      ],
+      "visual": "📅 1 maja",
+      "id": "dzien-bdcd6221f54c1886319a"
+    },
+    {
+      "prompt": "Co obchodzimy 2 maja?",
+      "answer": "Dzień Flagi Rzeczypospolitej Polskiej (także: Dzień Flagi, Dzień Polonii)",
+      "aliases": [
+        "Dzień Flagi Rzeczypospolitej Polskiej",
+        "Dzień Flagi",
+        "Dzień Polonii"
+      ],
+      "visual": "📅 2 maja",
+      "id": "dzien-b5281b987df36643340f"
+    },
+    {
+      "prompt": "Co obchodzimy 3 maja?",
+      "answer": "Święto Konstytucji 3 Maja",
+      "aliases": [
+        "Święto Konstytucji 3 Maja"
+      ],
+      "visual": "📅 3 maja",
+      "id": "dzien-c485a14eef470443836c"
+    },
+    {
+      "prompt": "Co obchodzimy 4 maja?",
+      "answer": "Dzień Strażaka (także: Dzień Świętego Floriana, Dzień Gwiezdnych Wojen)",
+      "aliases": [
+        "Dzień Strażaka",
+        "Dzień Świętego Floriana",
+        "Dzień Gwiezdnych Wojen"
+      ],
+      "visual": "📅 4 maja",
+      "id": "dzien-cb55a4bb0e756a031f3d"
+    },
+    {
+      "prompt": "Co obchodzimy 9 maja?",
+      "answer": "Dzień Europy",
+      "aliases": [
+        "Dzień Europy"
+      ],
+      "visual": "📅 9 maja",
+      "id": "dzien-5aa6c4a396a37ab97da4"
+    },
+    {
+      "prompt": "Co obchodzimy 15 maja?",
+      "answer": "Międzynarodowy Dzień Rodziny",
+      "aliases": [
+        "Międzynarodowy Dzień Rodziny"
+      ],
+      "visual": "📅 15 maja",
+      "id": "dzien-c4a17aa927fe1b22ddc3"
+    },
+    {
+      "prompt": "Co obchodzimy 20 maja?",
+      "answer": "Światowy Dzień Pszczół",
+      "aliases": [
+        "Światowy Dzień Pszczół"
+      ],
+      "visual": "📅 20 maja",
+      "id": "dzien-20affb16e1f1af9c2c72"
+    },
+    {
+      "prompt": "Co obchodzimy 26 maja?",
+      "answer": "Dzień Matki",
+      "aliases": [
+        "Dzień Matki"
+      ],
+      "visual": "📅 26 maja",
+      "id": "dzien-554194260199b17531ce"
+    },
+    {
+      "prompt": "Co obchodzimy 1 czerwca?",
+      "answer": "Dzień Dziecka",
+      "aliases": [
+        "Dzień Dziecka"
+      ],
+      "visual": "📅 1 czerwca",
+      "id": "dzien-b198eb07b2b576fa2aef"
+    },
+    {
+      "prompt": "Co obchodzimy 5 czerwca?",
+      "answer": "Światowy Dzień Środowiska",
+      "aliases": [
+        "Światowy Dzień Środowiska"
+      ],
+      "visual": "📅 5 czerwca",
+      "id": "dzien-dd2860affae05ee91442"
+    },
+    {
+      "prompt": "Co obchodzimy 23 czerwca?",
+      "answer": "Dzień Ojca",
+      "aliases": [
+        "Dzień Ojca"
+      ],
+      "visual": "📅 23 czerwca",
+      "id": "dzien-cae05683e8554ee7b923"
+    },
+    {
+      "prompt": "Co obchodzimy 4 lipca?",
+      "answer": "Dzień Niepodległości Stanów Zjednoczonych (także: Dzień Niepodległości USA)",
+      "aliases": [
+        "Dzień Niepodległości Stanów Zjednoczonych",
+        "Dzień Niepodległości USA"
+      ],
+      "visual": "📅 4 lipca",
+      "id": "dzien-dbac9b086201c16db43a"
+    },
+    {
+      "prompt": "Co obchodzimy 14 lipca?",
+      "answer": "Święto Narodowe Francji (także: Dzień Bastylii)",
+      "aliases": [
+        "Święto Narodowe Francji",
+        "Dzień Bastylii"
+      ],
+      "visual": "📅 14 lipca",
+      "id": "dzien-6722db2a6b8180e02f86"
+    },
+    {
+      "prompt": "Co obchodzimy 1 sierpnia?",
+      "answer": "Narodowy Dzień Pamięci Powstania Warszawskiego (także: Rocznica wybuchu powstania warszawskiego)",
+      "aliases": [
+        "Narodowy Dzień Pamięci Powstania Warszawskiego",
+        "Rocznica wybuchu powstania warszawskiego"
+      ],
+      "visual": "📅 1 sierpnia",
+      "id": "dzien-d65368e556d29d2e1fe1"
+    },
+    {
+      "prompt": "Co obchodzimy 15 sierpnia?",
+      "answer": "Święto Wojska Polskiego (także: Wniebowzięcie Najświętszej Maryi Panny, Matki Boskiej Zielnej)",
+      "aliases": [
+        "Święto Wojska Polskiego",
+        "Wniebowzięcie Najświętszej Maryi Panny",
+        "Matki Boskiej Zielnej"
+      ],
+      "visual": "📅 15 sierpnia",
+      "id": "dzien-b0bccfb7fe2490b24c66"
+    },
+    {
+      "prompt": "Co obchodzimy 26 sierpnia?",
+      "answer": "Międzynarodowy Dzień Psa (także: Dzień Psa)",
+      "aliases": [
+        "Międzynarodowy Dzień Psa",
+        "Dzień Psa"
+      ],
+      "visual": "📅 26 sierpnia",
+      "id": "dzien-283c46ed1825c35d6840"
+    },
+    {
+      "prompt": "Co obchodzimy 1 września?",
+      "answer": "Rocznica wybuchu II wojny światowej (także: Początek roku szkolnego)",
+      "aliases": [
+        "Rocznica wybuchu II wojny światowej",
+        "Początek roku szkolnego"
+      ],
+      "visual": "📅 1 września",
+      "id": "dzien-7aff9bd32b4c58123861"
+    },
+    {
+      "prompt": "Co obchodzimy 21 września?",
+      "answer": "Międzynarodowy Dzień Pokoju",
+      "aliases": [
+        "Międzynarodowy Dzień Pokoju"
+      ],
+      "visual": "📅 21 września",
+      "id": "dzien-465d0245458f4a483a01"
+    },
+    {
+      "prompt": "Co obchodzimy 29 września?",
+      "answer": "Światowy Dzień Serca",
+      "aliases": [
+        "Światowy Dzień Serca"
+      ],
+      "visual": "📅 29 września",
+      "id": "dzien-396a1816594ad233dcfb"
+    },
+    {
+      "prompt": "Co obchodzimy 30 września?",
+      "answer": "Dzień Chłopaka",
+      "aliases": [
+        "Dzień Chłopaka"
+      ],
+      "visual": "📅 30 września",
+      "id": "dzien-18021013514434382ead"
+    },
+    {
+      "prompt": "Co obchodzimy 1 października?",
+      "answer": "Międzynarodowy Dzień Muzyki (także: Międzynarodowy Dzień Osób Starszych, Dzień Seniora)",
+      "aliases": [
+        "Międzynarodowy Dzień Muzyki",
+        "Międzynarodowy Dzień Osób Starszych",
+        "Dzień Seniora"
+      ],
+      "visual": "📅 1 października",
+      "id": "dzien-4155c5a37aa176754db3"
+    },
+    {
+      "prompt": "Co obchodzimy 4 października?",
+      "answer": "Światowy Dzień Zwierząt",
+      "aliases": [
+        "Światowy Dzień Zwierząt"
+      ],
+      "visual": "📅 4 października",
+      "id": "dzien-5aa9b314d3e75f96b8b1"
+    },
+    {
+      "prompt": "Co obchodzimy 14 października?",
+      "answer": "Dzień Edukacji Narodowej (także: Dzień Nauczyciela)",
+      "aliases": [
+        "Dzień Edukacji Narodowej",
+        "Dzień Nauczyciela"
+      ],
+      "visual": "📅 14 października",
+      "id": "dzien-0d134cc836a0bafc22c9"
+    },
+    {
+      "prompt": "Co obchodzimy 16 października?",
+      "answer": "Światowy Dzień Żywności (także: Dzień Papieża Jana Pawła II)",
+      "aliases": [
+        "Światowy Dzień Żywności",
+        "Dzień Papieża Jana Pawła II"
+      ],
+      "visual": "📅 16 października",
+      "id": "dzien-fac43ac791ceb516688d"
+    },
+    {
+      "prompt": "Co obchodzimy 31 października?",
+      "answer": "Halloween",
+      "aliases": [
+        "Halloween"
+      ],
+      "visual": "📅 31 października",
+      "id": "dzien-2ce505e9b1a9bcc3f0b6"
+    },
+    {
+      "prompt": "Co obchodzimy 1 listopada?",
+      "answer": "Wszystkich Świętych (także: Dzień Wszystkich Świętych)",
+      "aliases": [
+        "Wszystkich Świętych",
+        "Dzień Wszystkich Świętych"
+      ],
+      "visual": "📅 1 listopada",
+      "id": "dzien-9eb3b0360d904338a519"
+    },
+    {
+      "prompt": "Co obchodzimy 2 listopada?",
+      "answer": "Zaduszki (także: Dzień Zaduszny)",
+      "aliases": [
+        "Zaduszki",
+        "Dzień Zaduszny"
+      ],
+      "visual": "📅 2 listopada",
+      "id": "dzien-f82d26a1d5add4f07ad8"
+    },
+    {
+      "prompt": "Co obchodzimy 11 listopada?",
+      "answer": "Narodowe Święto Niepodległości (także: Święto Niepodległości)",
+      "aliases": [
+        "Narodowe Święto Niepodległości",
+        "Święto Niepodległości"
+      ],
+      "visual": "📅 11 listopada",
+      "id": "dzien-6340eb41ede07c92eee3"
+    },
+    {
+      "prompt": "Co obchodzimy 19 listopada?",
+      "answer": "Międzynarodowy Dzień Mężczyzn",
+      "aliases": [
+        "Międzynarodowy Dzień Mężczyzn"
+      ],
+      "visual": "📅 19 listopada",
+      "id": "dzien-04c953b1c5766bfc4351"
+    },
+    {
+      "prompt": "Co obchodzimy 20 listopada?",
+      "answer": "Międzynarodowy Dzień Praw Dziecka (także: Dzień Praw Dziecka)",
+      "aliases": [
+        "Międzynarodowy Dzień Praw Dziecka",
+        "Dzień Praw Dziecka"
+      ],
+      "visual": "📅 20 listopada",
+      "id": "dzien-9cc3ed51cab47296492e"
+    },
+    {
+      "prompt": "Co obchodzimy 21 listopada?",
+      "answer": "Światowy Dzień Życzliwości i Pozdrowień",
+      "aliases": [
+        "Światowy Dzień Życzliwości i Pozdrowień"
+      ],
+      "visual": "📅 21 listopada",
+      "id": "dzien-63b10163aa24bd76e77a"
+    },
+    {
+      "prompt": "Co obchodzimy 29 listopada?",
+      "answer": "Andrzejki (także: Wieczór andrzejkowy)",
+      "aliases": [
+        "Andrzejki",
+        "Wieczór andrzejkowy"
+      ],
+      "visual": "📅 29 listopada",
+      "id": "dzien-a4e0debd3ac9dff0a3d7"
+    },
+    {
+      "prompt": "Co obchodzimy 1 grudnia?",
+      "answer": "Światowy Dzień AIDS (także: Światowy Dzień Walki z AIDS)",
+      "aliases": [
+        "Światowy Dzień AIDS",
+        "Światowy Dzień Walki z AIDS"
+      ],
+      "visual": "📅 1 grudnia",
+      "id": "dzien-bcbfb95a88386a56bd17"
+    },
+    {
+      "prompt": "Co obchodzimy 4 grudnia?",
+      "answer": "Barbórka (także: Dzień Górnika, Dzień Świętej Barbary)",
+      "aliases": [
+        "Barbórka",
+        "Dzień Górnika",
+        "Dzień Świętej Barbary"
+      ],
+      "visual": "📅 4 grudnia",
+      "id": "dzien-f0948450d46887ea0fc4"
+    },
+    {
+      "prompt": "Co obchodzimy 5 grudnia?",
+      "answer": "Międzynarodowy Dzień Wolontariusza",
+      "aliases": [
+        "Międzynarodowy Dzień Wolontariusza"
+      ],
+      "visual": "📅 5 grudnia",
+      "id": "dzien-f1e370569bf45ee1c89f"
+    },
+    {
+      "prompt": "Co obchodzimy 6 grudnia?",
+      "answer": "Mikołajki (także: Dzień Świętego Mikołaja)",
+      "aliases": [
+        "Mikołajki",
+        "Dzień Świętego Mikołaja"
+      ],
+      "visual": "📅 6 grudnia",
+      "id": "dzien-9b4526640f0e7b1f351a"
+    },
+    {
+      "prompt": "Co obchodzimy 10 grudnia?",
+      "answer": "Dzień Praw Człowieka (także: Międzynarodowy Dzień Praw Człowieka)",
+      "aliases": [
+        "Dzień Praw Człowieka",
+        "Międzynarodowy Dzień Praw Człowieka"
+      ],
+      "visual": "📅 10 grudnia",
+      "id": "dzien-a3091ff92e8205782090"
+    },
+    {
+      "prompt": "Co obchodzimy 13 grudnia?",
+      "answer": "Rocznica wprowadzenia stanu wojennego",
+      "aliases": [
+        "Rocznica wprowadzenia stanu wojennego"
+      ],
+      "visual": "📅 13 grudnia",
+      "id": "dzien-028c5b595a91224765a7"
+    },
+    {
+      "prompt": "Co obchodzimy 24 grudnia?",
+      "answer": "Wigilia (także: Wigilia Bożego Narodzenia)",
+      "aliases": [
+        "Wigilia",
+        "Wigilia Bożego Narodzenia"
+      ],
+      "visual": "📅 24 grudnia",
+      "id": "dzien-e59f66c94cee380ed45a"
+    },
+    {
+      "prompt": "Co obchodzimy 25 grudnia?",
+      "answer": "Boże Narodzenie (także: Pierwszy dzień świąt)",
+      "aliases": [
+        "Boże Narodzenie",
+        "Pierwszy dzień świąt"
+      ],
+      "visual": "📅 25 grudnia",
+      "id": "dzien-a7d707b45568da851796"
+    },
+    {
+      "prompt": "Co obchodzimy 26 grudnia?",
+      "answer": "Drugi dzień świąt Bożego Narodzenia (także: Dzień Świętego Szczepana)",
+      "aliases": [
+        "Drugi dzień świąt Bożego Narodzenia",
+        "Dzień Świętego Szczepana"
+      ],
+      "visual": "📅 26 grudnia",
+      "id": "dzien-6d455334266199575053"
+    },
+    {
+      "prompt": "Co obchodzimy 31 grudnia?",
+      "answer": "Sylwester",
+      "aliases": [
+        "Sylwester"
+      ],
+      "visual": "📅 31 grudnia",
+      "id": "dzien-ab7603c35364961e58fb"
     }
   ]
 };

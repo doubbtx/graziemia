@@ -1,5 +1,5 @@
 import React, {useEffect, useRef, useState} from 'react';
-import {FootballerCard, getCategoryEmoji, PixelTimer, PlayerAvatar, TerritoryTile} from './components.jsx';
+import {CategorySheet, FootballerCard, getCategoryEmoji, InfoButton, PixelTimer, PlayerAvatar, TerritoryTile} from './components.jsx';
 import {AudiencePanel, CardPanel, EconomyDialog, QuestionReports, ShopPanel, TeamScreen, plural} from './panels.jsx';
 import {CHOICE_RULE, categoryDescription, isChoiceQuestion} from './categoryInfo.js';
 import './arena.css';
@@ -32,7 +32,7 @@ export default function Arena() {
   const params = new URLSearchParams(location.search);
   const [name, setName] = useState(''), [code, setCode] = useState(() => params.get('room') || '');
   const [endpoint] = useState(() => params.get('backend') || import.meta.env.VITE_API_BASE_URL || '');
-  const [tab, setTab] = useState('arena'), [search, setSearch] = useState(''), [publicView, setPublicView] = useState(false);
+  const [infoCategory, setInfoCategory] = useState(null), [tab, setTab] = useState('arena'), [search, setSearch] = useState(''), [publicView, setPublicView] = useState(false);
   const [loaded, setLoaded] = useState(null), [imageError, setImageError] = useState(null), [imagePreload, setImagePreload] = useState(null);
   const ref = useRef(null), sref = useRef(session), conn = useRef(false), lock = useRef(false);
   sref.current = session;
@@ -192,7 +192,7 @@ export default function Arena() {
       </div>
       <div className="tile-grid">{list.map(c => {
         const selected = me.category === c, retired = room.retired.includes(c), available = room.availableCategories.includes(c);
-        return <TerritoryTile key={c} category={c} count={room.categoryCounts[c]} selected={selected} state={selected ? 'selected' : retired ? 'played' : available ? 'available' : 'locked'} status={retired ? 'rozegrana' : selected ? 'twoja' : available ? 'wolna' : 'zajęta'} disabled={disabled || !available} onClick={() => send('CATEGORY', {category: c})}/>;
+        return <TerritoryTile key={c} category={c} count={room.categoryCounts[c]} selected={selected} state={selected ? 'selected' : retired ? 'played' : available ? 'available' : 'locked'} status={retired ? 'rozegrana' : selected ? 'twoja' : available ? 'wolna' : 'zajęta'} disabled={disabled || !available} onClick={() => send('CATEGORY', {category: c})} onInfo={() => setInfoCategory(c)}/>;
       })}</div>
       {!list.length && <p className="muted">Brak pasujących kategorii.</p>}
     </div>;
@@ -265,7 +265,7 @@ export default function Arena() {
 
   const duel = () => <div className="stack">
     <div className="duel-head">
-      <div><span className="eyebrow">Pojedynek · runda {room.round + 1}</span><h2>{getCategoryEmoji(d.category)} {d.category}</h2>{categoryDescription(d.category) && <p className="muted small duel-head__desc">{categoryDescription(d.category)}</p>}</div>
+      <div><span className="eyebrow">Pojedynek · runda {room.round + 1}</span><h2 className="duel-head__title" title={categoryDescription(d.category)}>{getCategoryEmoji(d.category)} {d.category} <InfoButton category={d.category} onClick={() => setInfoCategory(d.category)}/></h2></div>
       <span className="pill">⚖ Sędzia: {pname(d.adminId)}</span>
     </div>
     <div className="duel-players">{d.ids.map((id, index) => {
@@ -285,7 +285,7 @@ export default function Arena() {
         <span className="eyebrow">{d.status === 'paused' ? '⏸ Pauza' : d.status === 'media' ? 'Wczytywanie obrazka · limit 6 s' : 'Odpowiedz na głos'}</span>
         {d.footballer ? <FootballerCard footballer={d.footballer}/> : <h2 className="question__prompt">{d.prompt}</h2>}
         {q?.format === 'clues' && <p className="muted small">Sędzia odsłania kolejne wskazówki. Szybka odpowiedź (do 1,5 s) daje dodatkowy punkt.</p>}
-        {d.visual && <div className="visual-riddle" role="img" aria-label="Rebus do rozpoznania">{d.visual}</div>}
+        {d.visual && (d.visual.startsWith('📅 ') ? (() => { const [day, ...month] = d.visual.slice(3).split(' '); return <div className="calendar-card" role="img" aria-label={d.visual.slice(3)}><span>{month.join(' ')}</span><b>{day}</b></div>; })() : <div className="visual-riddle" role="img" aria-label="Rebus do rozpoznania">{d.visual}</div>)}
         {d.privateHint && !publicView && <div className="notice notice--hint">{d.privateHint}</div>}
         {d.audio && judge && !publicView && <div><p className="muted small">Odtwórz przez wspólny kanał głosowy. Na czas odsłuchu włącz pauzę.</p><audio controls preload="none" src={d.audio}/></div>}
         {d.image && imageError !== d.questionKey && <img className="quiz-image" decoding="sync" key={d.questionKey} src={mediaUrl(d.image)} alt="Obrazek do rozpoznania" referrerPolicy="no-referrer" onLoad={() => setLoaded(d.questionKey)} onError={() => { setImageError(d.questionKey); setLoaded(d.questionKey); }}/>}
@@ -395,6 +395,11 @@ export default function Arena() {
     <div className="wrap">
       {error && <div role="alert" className="notice notice--error"><span>{error}</span><button className="btn btn--ghost btn--sm" onClick={() => setError('')}>Zamknij</button></div>}
       {notice && <div role="status" className="toast">{notice}</div>}
+      {infoCategory && room && (() => {
+        const canPick = room.phase === 'lobby' && !teams && room.availableCategories.includes(infoCategory) && me?.category !== infoCategory && !publicView || room.phase === 'category' && room.pending?.[0] === me?.id && room.availableCategories.includes(infoCategory);
+        const status = room.retired.includes(infoCategory) ? 'rozegrana' : me?.category === infoCategory ? 'Twoja kategoria' : room.availableCategories.includes(infoCategory) ? 'wolna' : 'zajęta';
+        return <CategorySheet category={infoCategory} count={room.categoryCounts[infoCategory]} status={status} onPick={canPick && !disabled ? () => send('CATEGORY', {category: infoCategory}) : null} onClose={() => setInfoCategory(null)}/>;
+      })()}
       {!session ? <div className="home">
         <section className="home__copy">
           <span className="eyebrow">Quiz na żywo ze znajomymi</span>
@@ -424,7 +429,7 @@ export default function Arena() {
           <div className="panel__head"><h2>Wszystkie kategorie</h2><span className="pill">{room.categories.length} kategorii · {room.totalQuestions} pytań</span></div>
           <div className="tile-grid">{room.categories.map(c => {
             const status = room.retired.includes(c) ? 'Rozegrana' : room.players.some(p => p.category === c && p.lives > 0) ? 'Zajęta' : 'Wolna';
-            return <article className="overview-tile" data-status={status} key={c}><span className="overview-tile__emoji" aria-hidden="true">{getCategoryEmoji(c)}</span><div><strong>{c}</strong><small>{room.categoryCounts[c]} pytań · {status}</small>{categoryDescription(c) && <p className="overview-tile__desc">{categoryDescription(c)}</p>}</div></article>;
+            return <button type="button" className="overview-tile" data-status={status} key={c} title={categoryDescription(c)} onClick={() => setInfoCategory(c)}><span className="overview-tile__emoji" aria-hidden="true">{getCategoryEmoji(c)}</span><div><strong>{c}</strong><small>{room.categoryCounts[c]} pytań · {status}</small></div><span className="overview-tile__more" aria-hidden="true">ⓘ</span></button>;
           })}</div>
         </section>}
         {tab === 'ranking' && <section className="panel">
