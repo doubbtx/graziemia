@@ -196,3 +196,12 @@ test('Soundtrack questions send the audio to both players and the judge once the
  room.duel.category='Soundtrack';room.duel.index=0;
  for(const id of [...room.duel.ids,room.duel.adminId])assert.equal(publicState(room,id,4000).duel.audio,questions[0].audio);
 });
+
+test('Zoom questions send the focus point once the question is visible',()=>{
+ const questions=bank['Przybliżenie'];
+ assert.ok(questions.length>=60);
+ assert.ok(questions.every(question=>question.image&&question.zoom.x>=0&&question.zoom.x<=100&&question.zoom.y>=0&&question.zoom.y<=100));
+ const room=startDuel(readyDuel());
+ room.duel.category='Przybliżenie';room.duel.index=0;
+ for(const id of [...room.duel.ids,room.duel.adminId])assert.deepEqual(publicState(room,id,4000).duel.zoom,questions[0].zoom);
+});

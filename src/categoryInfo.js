@@ -59,6 +59,7 @@ const info = {
   'Minecraft': 'Rozpoznaj moba, blok albo przedmiot po obrazku; do tego pytania o zasady gry.',
   'Rasy psów': 'Po zdjęciu rozpoznaj rasę psa.',
   'Soundtrack': 'Leci muzyka z serialu, filmu albo gry – zgadnij, skąd pochodzi. Zegar rusza razem z muzyką.',
+  'Przybliżenie': 'Zdjęcie startuje mocno przybliżone i cały czas się oddala – zgadnij, co to jest, zanim zobaczysz całość.',
   'Co to za dzień?': 'Podana jest data – powiedz, jakie święto lub dzień obchodzimy. Gdy tego dnia jest kilka świąt, wystarczy jedno z nich.',
 };
 // Categories where every question offers a fixed set of options.

@@ -40,6 +40,7 @@ Listy klubów obejmują pięć ostatnich etapów kariery seniorskiej (z wypożyc
 - Minecraft: obrazki mobów, bloków i przedmiotów z Minecraft Wiki (minecraft.wiki), zmniejszone do public/minecraft. Minecraft © Mojang Studios / Microsoft; użycie niekomercyjne zgodnie z wytycznymi Minecrafta dotyczącymi użycia marki i zasobów; projekt nie jest powiązany z Mojang ani Microsoftem.
 - Rasy psów: zdjęcia z artykułów polskiej i angielskiej Wikipedii (Wikimedia Commons, wolne licencje – autorzy na stronach plików); link do artykułu w polu source.
 - Soundtrack: 30-sekundowe fragmenty (podglądy) utworów odtwarzane bezpośrednio z serwerów Apple przez iTunes Search API; pliki nie są przechowywane w projekcie. Prawa do muzyki należą do jej twórców i wydawców; link do utworu w Apple Music w polu source.
+- Przybliżenie: zdjęcia i obrazy (domena publiczna) z artykułów angielskiej Wikipedii (Wikimedia Commons, wolne licencje – autorzy na stronach plików), przycięte do 960×720 w public/zoom; link do artykułu w polu source. Kilka obrazków pochodzi z kategorii Minecraft.
 
 ## Zdjęcia kosmetyków
 - Tusz do rzęs: [Mascara de pestañas.jpg](https://commons.wikimedia.org/wiki/File:Mascara_de_pesta%C3%B1as.jpg)

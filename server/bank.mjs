@@ -37973,5 +37973,735 @@ export const bank = {
       "source": "https://music.apple.com/us/album/grand-theft-auto-san-andreas-official-theme-song/1708262967",
       "id": "ost-a420b6f2b007c6e726a2"
     }
+  ],
+  "Przybliżenie": [
+    {
+      "prompt": "Co to jest?",
+      "answer": "Truskawka",
+      "image": "/zoom/strawberry.webp",
+      "zoom": {
+        "x": 45,
+        "y": 50
+      },
+      "source": "https://en.wikipedia.org/wiki/Strawberry",
+      "id": "zoom-393d46da8467a9e4437a"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Brokuł",
+      "image": "/zoom/broccoli.webp",
+      "zoom": {
+        "x": 30,
+        "y": 25
+      },
+      "source": "https://en.wikipedia.org/wiki/Broccoli",
+      "id": "zoom-6b23b66196301a19c6a0"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Kalafior romanesco",
+      "aliases": [
+        "Romanesco"
+      ],
+      "image": "/zoom/romanesco-broccoli.webp",
+      "zoom": {
+        "x": 50,
+        "y": 35
+      },
+      "source": "https://en.wikipedia.org/wiki/Romanesco_broccoli",
+      "id": "zoom-a763f358d369106085bf"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Ananas",
+      "image": "/zoom/pineapple.webp",
+      "zoom": {
+        "x": 55,
+        "y": 50
+      },
+      "source": "https://en.wikipedia.org/wiki/Pineapple",
+      "id": "zoom-347aecd593ec2bc501b2"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Granat (owoc)",
+      "aliases": [
+        "Granat"
+      ],
+      "image": "/zoom/pomegranate.webp",
+      "zoom": {
+        "x": 55,
+        "y": 55
+      },
+      "source": "https://en.wikipedia.org/wiki/Pomegranate",
+      "id": "zoom-f483353bc70545a26eb3"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Arbuz",
+      "image": "/zoom/watermelon.webp",
+      "zoom": {
+        "x": 60,
+        "y": 50
+      },
+      "source": "https://en.wikipedia.org/wiki/Watermelon",
+      "id": "zoom-654a5083667369ba4ea9"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Ser szwajcarski",
+      "aliases": [
+        "Ementaler",
+        "Ser"
+      ],
+      "image": "/zoom/emmental-cheese.webp",
+      "zoom": {
+        "x": 40,
+        "y": 65
+      },
+      "source": "https://en.wikipedia.org/wiki/Emmental_cheese",
+      "id": "zoom-e6c978e962f84e1782a1"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Ziarna kawy",
+      "aliases": [
+        "Kawa"
+      ],
+      "image": "/zoom/coffee-bean.webp",
+      "zoom": {
+        "x": 50,
+        "y": 50
+      },
+      "source": "https://en.wikipedia.org/wiki/Coffee_bean",
+      "id": "zoom-ca729905fe6701493680"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Gofr",
+      "aliases": [
+        "Wafel"
+      ],
+      "image": "/zoom/waffle.webp",
+      "zoom": {
+        "x": 45,
+        "y": 40
+      },
+      "source": "https://en.wikipedia.org/wiki/Waffle",
+      "id": "zoom-dcc4f1b8a4fe22577b02"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Precel",
+      "image": "/zoom/pretzel.webp",
+      "zoom": {
+        "x": 35,
+        "y": 40
+      },
+      "source": "https://en.wikipedia.org/wiki/Pretzel",
+      "id": "zoom-fd37cfdcef488d698b1e"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Kukurydza",
+      "image": "/zoom/maize.webp",
+      "zoom": {
+        "x": 85,
+        "y": 55
+      },
+      "source": "https://en.wikipedia.org/wiki/Maize",
+      "id": "zoom-2bda38b1be42bc86071f"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Awokado",
+      "image": "/zoom/avocado.webp",
+      "zoom": {
+        "x": 70,
+        "y": 35
+      },
+      "source": "https://en.wikipedia.org/wiki/Avocado",
+      "id": "zoom-f6706ea333bbff8e98d7"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Plaster miodu",
+      "aliases": [
+        "Plaster",
+        "Miód"
+      ],
+      "image": "/zoom/honeycomb.webp",
+      "zoom": {
+        "x": 70,
+        "y": 45
+      },
+      "source": "https://en.wikipedia.org/wiki/Honeycomb",
+      "id": "zoom-2f9e6e0c7c01692de494"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Paw",
+      "image": "/zoom/peafowl.webp",
+      "zoom": {
+        "x": 25,
+        "y": 30
+      },
+      "source": "https://en.wikipedia.org/wiki/Peafowl",
+      "id": "zoom-7252f2ef2adea4b72ae9"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Zebra",
+      "image": "/zoom/zebra.webp",
+      "zoom": {
+        "x": 50,
+        "y": 45
+      },
+      "source": "https://en.wikipedia.org/wiki/Zebra",
+      "id": "zoom-b2d43dc84d9fb986efd8"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Żyrafa",
+      "image": "/zoom/giraffe.webp",
+      "zoom": {
+        "x": 45,
+        "y": 45
+      },
+      "source": "https://en.wikipedia.org/wiki/Giraffe",
+      "id": "zoom-70dd942bcb5bc262860f"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Tygrys",
+      "image": "/zoom/tiger.webp",
+      "zoom": {
+        "x": 45,
+        "y": 50
+      },
+      "source": "https://en.wikipedia.org/wiki/Tiger",
+      "id": "zoom-dd697aa8cce5c810f100"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Lampart",
+      "image": "/zoom/leopard.webp",
+      "zoom": {
+        "x": 50,
+        "y": 40
+      },
+      "source": "https://en.wikipedia.org/wiki/Leopard",
+      "id": "zoom-3ee924e59f48f89881e4"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Słonecznik",
+      "image": "/zoom/common-sunflower.webp",
+      "zoom": {
+        "x": 45,
+        "y": 55
+      },
+      "source": "https://en.wikipedia.org/wiki/Common_sunflower",
+      "id": "zoom-b0539b59535100ba33fa"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Szyszka",
+      "image": "/zoom/conifer-cone.webp",
+      "zoom": {
+        "x": 50,
+        "y": 50
+      },
+      "source": "https://en.wikipedia.org/wiki/Cone_(botany)",
+      "id": "zoom-df7cd6da62a0cec5d41b"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Płatek śniegu",
+      "aliases": [
+        "Śnieżynka"
+      ],
+      "image": "/zoom/snowflake.webp",
+      "zoom": {
+        "x": 50,
+        "y": 50
+      },
+      "source": "https://en.wikipedia.org/wiki/Snowflake",
+      "id": "zoom-fda76b0bcc1e87cf259b"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Mucha",
+      "image": "/zoom/housefly.webp",
+      "zoom": {
+        "x": 35,
+        "y": 40
+      },
+      "source": "https://en.wikipedia.org/wiki/Housefly",
+      "id": "zoom-76d00d099612658a062e"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Biedronka",
+      "image": "/zoom/ladybird.webp",
+      "zoom": {
+        "x": 35,
+        "y": 40
+      },
+      "source": "https://en.wikipedia.org/wiki/Coccinellidae",
+      "id": "zoom-06a41be382712f554ee3"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Jeż",
+      "image": "/zoom/hedgehog.webp",
+      "zoom": {
+        "x": 55,
+        "y": 40
+      },
+      "source": "https://en.wikipedia.org/wiki/Hedgehog",
+      "id": "zoom-9398c2df5b872f41138f"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Kameleon",
+      "image": "/zoom/chameleon.webp",
+      "zoom": {
+        "x": 45,
+        "y": 40
+      },
+      "source": "https://en.wikipedia.org/wiki/Chameleon",
+      "id": "zoom-3d0fe27bee8b87383ba2"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Odcisk palca",
+      "image": "/zoom/fingerprint.webp",
+      "zoom": {
+        "x": 50,
+        "y": 50
+      },
+      "source": "https://en.wikipedia.org/wiki/Fingerprint",
+      "id": "zoom-fed4c9053d8c85c9d959"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Oko (tęczówka)",
+      "aliases": [
+        "Oko",
+        "Tęczówka"
+      ],
+      "image": "/zoom/iris-anatomy.webp",
+      "zoom": {
+        "x": 45,
+        "y": 50
+      },
+      "source": "https://en.wikipedia.org/wiki/Iris_(anatomy)",
+      "id": "zoom-a08d6f092fffaf9e332f"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Rzep",
+      "aliases": [
+        "Rzepy"
+      ],
+      "image": "/zoom/hook-and-loop-fastener.webp",
+      "zoom": {
+        "x": 50,
+        "y": 50
+      },
+      "source": "https://en.wikipedia.org/wiki/Velcro",
+      "id": "zoom-20d8a2a57f6b364be102"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Zamek błyskawiczny",
+      "aliases": [
+        "Suwak",
+        "Zamek"
+      ],
+      "image": "/zoom/zipper.webp",
+      "zoom": {
+        "x": 70,
+        "y": 30
+      },
+      "source": "https://en.wikipedia.org/wiki/Zipper",
+      "id": "zoom-6ac590de841597a8f0f4"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Kod QR",
+      "image": "/zoom/qr-code.webp",
+      "zoom": {
+        "x": 50,
+        "y": 50
+      },
+      "source": "https://en.wikipedia.org/wiki/QR_code",
+      "id": "zoom-abba02fcdd8b9ce1dde7"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Piłka golfowa",
+      "image": "/zoom/golf-ball.webp",
+      "zoom": {
+        "x": 75,
+        "y": 40
+      },
+      "source": "https://en.wikipedia.org/wiki/Golf_ball",
+      "id": "zoom-6782c69e7b5e4890b819"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Piłka tenisowa",
+      "image": "/zoom/tennis-ball.webp",
+      "zoom": {
+        "x": 60,
+        "y": 45
+      },
+      "source": "https://en.wikipedia.org/wiki/Tennis_ball",
+      "id": "zoom-fa6ee228cca8f619be51"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Piłka do koszykówki",
+      "image": "/zoom/basketball-ball.webp",
+      "zoom": {
+        "x": 50,
+        "y": 40
+      },
+      "source": "https://en.wikipedia.org/wiki/Basketball_(ball)",
+      "id": "zoom-c26e8126ad84db0630ca"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Kostka Rubika",
+      "image": "/zoom/rubik-s-cube.webp",
+      "zoom": {
+        "x": 45,
+        "y": 55
+      },
+      "source": "https://en.wikipedia.org/wiki/Rubik's_Cube",
+      "id": "zoom-bfbe3603f876e03f3bb9"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Klawiatura",
+      "image": "/zoom/computer-keyboard.webp",
+      "zoom": {
+        "x": 45,
+        "y": 60
+      },
+      "source": "https://en.wikipedia.org/wiki/Computer_keyboard",
+      "id": "zoom-0f1a66856a12105ffceb"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Folia bąbelkowa",
+      "image": "/zoom/bubble-wrap.webp",
+      "zoom": {
+        "x": 50,
+        "y": 50
+      },
+      "source": "https://en.wikipedia.org/wiki/Bubble_wrap",
+      "id": "zoom-7672e64a6b4724d3025a"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Spinacz",
+      "image": "/zoom/paper-clip.webp",
+      "zoom": {
+        "x": 45,
+        "y": 60
+      },
+      "source": "https://en.wikipedia.org/wiki/Paper_clip",
+      "id": "zoom-16491b3afc19a393d66c"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Żarówka",
+      "image": "/zoom/incandescent-light-bulb.webp",
+      "zoom": {
+        "x": 55,
+        "y": 50
+      },
+      "source": "https://en.wikipedia.org/wiki/Incandescent_light_bulb",
+      "id": "zoom-e748482fc0e99277f30b"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Kostka do gry",
+      "aliases": [
+        "Kość do gry"
+      ],
+      "image": "/zoom/dice.webp",
+      "zoom": {
+        "x": 30,
+        "y": 50
+      },
+      "source": "https://en.wikipedia.org/wiki/Dice",
+      "id": "zoom-7927f138711ad7d18769"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Szczoteczka do zębów",
+      "image": "/zoom/toothbrush.webp",
+      "zoom": {
+        "x": 45,
+        "y": 30
+      },
+      "source": "https://en.wikipedia.org/wiki/Toothbrush",
+      "id": "zoom-5682a7aaa5ef56b37242"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Ołówek",
+      "image": "/zoom/pencil.webp",
+      "zoom": {
+        "x": 30,
+        "y": 62
+      },
+      "source": "https://en.wikipedia.org/wiki/Pencil",
+      "id": "zoom-5136ae1b5bfe9175a6ed"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Zapałki",
+      "aliases": [
+        "Pudełko zapałek"
+      ],
+      "image": "/zoom/matchbox.webp",
+      "zoom": {
+        "x": 15,
+        "y": 45
+      },
+      "source": "https://en.wikipedia.org/wiki/Matchbox",
+      "id": "zoom-b941dfad3c073b261f28"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Mona Lisa",
+      "aliases": [
+        "Gioconda"
+      ],
+      "image": "/zoom/mona-lisa.webp",
+      "zoom": {
+        "x": 50,
+        "y": 35
+      },
+      "source": "https://en.wikipedia.org/wiki/Mona_Lisa",
+      "id": "zoom-3a81ed88fdff26d7a2ad"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Gwiaździsta noc",
+      "image": "/zoom/the-starry-night.webp",
+      "zoom": {
+        "x": 45,
+        "y": 25
+      },
+      "source": "https://en.wikipedia.org/wiki/The_Starry_Night",
+      "id": "zoom-95328d9e16f43ae9790d"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Krzyk",
+      "image": "/zoom/the-scream.webp",
+      "zoom": {
+        "x": 48,
+        "y": 48
+      },
+      "source": "https://en.wikipedia.org/wiki/The_Scream",
+      "id": "zoom-78668a4a14aad3ad5e9b"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Dziewczyna z perłą",
+      "image": "/zoom/girl-with-a-pearl-earring.webp",
+      "zoom": {
+        "x": 50,
+        "y": 60
+      },
+      "source": "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring",
+      "id": "zoom-f65e3d1dbe191cf836d5"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Bitwa pod Grunwaldem",
+      "image": "/zoom/battle-of-grunwald-painting.webp",
+      "zoom": {
+        "x": 50,
+        "y": 45
+      },
+      "source": "https://en.wikipedia.org/wiki/Battle_of_Grunwald_(Matejko)",
+      "id": "zoom-88f39ec8cd5651a5b31d"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Dama z gronostajem",
+      "image": "/zoom/lady-with-an-ermine.webp",
+      "zoom": {
+        "x": 60,
+        "y": 65
+      },
+      "source": "https://en.wikipedia.org/wiki/Lady_with_an_Ermine",
+      "id": "zoom-5075189adeeea9e8ccb7"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Stworzenie Adama",
+      "image": "/zoom/the-creation-of-adam.webp",
+      "zoom": {
+        "x": 55,
+        "y": 50
+      },
+      "source": "https://en.wikipedia.org/wiki/The_Creation_of_Adam",
+      "id": "zoom-3c8010ea9d1043e5263d"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Narodziny Wenus",
+      "image": "/zoom/the-birth-of-venus.webp",
+      "zoom": {
+        "x": 50,
+        "y": 45
+      },
+      "source": "https://en.wikipedia.org/wiki/The_Birth_of_Venus",
+      "id": "zoom-ee463d3ffd09f6b35cd0"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Wielka fala w Kanagawie",
+      "aliases": [
+        "Wielka fala"
+      ],
+      "image": "/zoom/the-great-wave-off-kanagawa.webp",
+      "zoom": {
+        "x": 30,
+        "y": 30
+      },
+      "source": "https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa",
+      "id": "zoom-14dc806d58cf1fbe52a1"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Amerykański gotyk",
+      "image": "/zoom/american-gothic.webp",
+      "zoom": {
+        "x": 75,
+        "y": 70
+      },
+      "source": "https://en.wikipedia.org/wiki/American_Gothic",
+      "id": "zoom-bf0096f7e603451aa90f"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Straż nocna",
+      "image": "/zoom/the-night-watch.webp",
+      "zoom": {
+        "x": 50,
+        "y": 50
+      },
+      "source": "https://en.wikipedia.org/wiki/The_Night_Watch",
+      "id": "zoom-3428adfc29a74605f334"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Słoneczniki",
+      "image": "/zoom/sunflowers-van-gogh-series.webp",
+      "zoom": {
+        "x": 50,
+        "y": 40
+      },
+      "source": "https://en.wikipedia.org/wiki/Sunflowers_(Van_Gogh_series)",
+      "id": "zoom-6e065c637417d221b773"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Creeper z Minecrafta",
+      "aliases": [
+        "Creeper"
+      ],
+      "image": "/minecraft/creeper.webp",
+      "zoom": {
+        "x": 50,
+        "y": 45,
+        "pixel": true
+      },
+      "id": "zoom-864ec09181e24ca5c4da"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Ruda diamentu z Minecrafta",
+      "aliases": [
+        "Ruda diamentu",
+        "Diament"
+      ],
+      "image": "/minecraft/diamond-ore.webp",
+      "zoom": {
+        "x": 50,
+        "y": 45,
+        "pixel": true
+      },
+      "id": "zoom-2b9746ca6deb2c94649a"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Stół rzemieślniczy z Minecrafta",
+      "aliases": [
+        "Stół rzemieślniczy",
+        "Crafting table"
+      ],
+      "image": "/minecraft/crafting-table.webp",
+      "zoom": {
+        "x": 50,
+        "y": 45,
+        "pixel": true
+      },
+      "id": "zoom-9490095f4486df537aeb"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Ciasto z Minecrafta",
+      "aliases": [
+        "Ciasto",
+        "Tort"
+      ],
+      "image": "/minecraft/cake.webp",
+      "zoom": {
+        "x": 50,
+        "y": 45,
+        "pixel": true
+      },
+      "id": "zoom-287f98796768a30d8d31"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Złote jabłko z Minecrafta",
+      "aliases": [
+        "Złote jabłko"
+      ],
+      "image": "/minecraft/golden-apple.webp",
+      "zoom": {
+        "x": 50,
+        "y": 45,
+        "pixel": true
+      },
+      "id": "zoom-1da98c11f893c7cee167"
+    },
+    {
+      "prompt": "Co to jest?",
+      "answer": "Biblioteczka z Minecrafta",
+      "aliases": [
+        "Biblioteczka",
+        "Regał"
+      ],
+      "image": "/minecraft/bookshelf.webp",
+      "zoom": {
+        "x": 50,
+        "y": 45,
+        "pixel": true
+      },
+      "id": "zoom-3b8e49b6aeb645bf1d0f"
+    }
   ]
 };

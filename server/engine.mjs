@@ -99,6 +99,7 @@ export function publicState(r,id,now=Date.now()){
  s.cardTypes={...s.cardTypes,...newCards};if(solo(r)&&s.cardTypes.homecategory)s.cardTypes.homecategory={...s.cardTypes.homecategory,text:'Przed rozpoczęciem własnego pojedynku zmień jego kategorię na swoją (jeśli nie była jeszcze rozgrywana).'};const p=r.players.find(x=>x.id===id);
  // Soundtrack questions play on every device, not only the judge's.
  if(s.duel&&s.duel.prompt&&q?.audio)s.duel.audio=q.audio;
+ if(s.duel&&s.duel.prompt&&q?.zoom)s.duel.zoom=q.zoom;
  if(s.duel&&d){s.duel.fog=d.fog?{target:d.fog.target}:null;s.duel.fogged=d.fog?.target===id;s.duel.freeze=d.freeze?{playerId:d.freeze.playerId,left:d.freeze.left}:null;}
  if(s.cardPanel?.visible&&newCards[p?.card]){const running=d?.status==='running',allowed=p.card==='fog'?inDuel(r,id)&&!d.fog:p.card==='freeze'?running&&d.turn===id&&!d.freeze:running&&d.ids.includes(id);s.cardPanel={...s.cardPanel,allowed,reason:{fog:'Aktywuj podczas własnego pojedynku – działa do jego końca.',freeze:'Użyj we własnej turze, gdy biegnie Twój zegar.',steal:'Użyj w trakcie własnego pojedynku.'}[p.card]};}
  if(s.economyPanel)s.economyPanel.cards=Object.entries(cardPrices).map(([type,price])=>({type,price,name:cardName(type),text:s.cardTypes[type]?.text||'',canBuy:shopOpen(r)&&!!p&&p.lives>0&&!(p.card===type&&!p.cardUsed)&&(p.walletCents||0)>=price*100})),s.economyPanel.holding=p?.card&&!p.cardUsed?p.card:null;

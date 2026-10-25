@@ -294,7 +294,9 @@ export default function Arena() {
         {d.visual && (d.visual.startsWith('📅 ') ? (() => { const [day, ...month] = d.visual.slice(3).split(' '); return <div className="calendar-card" role="img" aria-label={d.visual.slice(3)}><span>{month.join(' ')}</span><b>{day}</b></div>; })() : <div className="visual-riddle" role="img" aria-label="Rebus do rozpoznania">{d.visual}</div>)}
         {d.privateHint && <div className="notice notice--hint">{d.privateHint}</div>}
         {d.audio && <SoundtrackPlayer src={d.audio} playKey={d.questionKey} running={d.status === 'running'} volume={settings.volume} onVolume={volume => setSettings(s => ({...s, volume}))}/>}
-        {d.image && imageError !== d.questionKey && <img className="quiz-image" decoding="sync" key={d.questionKey} src={mediaUrl(d.image)} alt="Obrazek do rozpoznania" referrerPolicy="no-referrer" onLoad={() => setLoaded(d.questionKey)} onError={() => { setImageError(d.questionKey); setLoaded(d.questionKey); }}/>}
+        {d.image && imageError !== d.questionKey && (d.zoom
+          ? <div className={'zoom-frame' + (d.zoom.pixel ? ' is-pixel' : '') + (d.status === 'running' ? '' : ' is-held')} key={d.questionKey} style={{'--zx': d.zoom.x + '%', '--zy': d.zoom.y + '%'}}><img className="zoom-frame__img" decoding="sync" src={mediaUrl(d.image)} alt="Obrazek do rozpoznania" referrerPolicy="no-referrer" onLoad={() => setLoaded(d.questionKey)} onError={() => { setImageError(d.questionKey); setLoaded(d.questionKey); }}/></div>
+          : <img className="quiz-image" decoding="sync" key={d.questionKey} src={mediaUrl(d.image)} alt="Obrazek do rozpoznania" referrerPolicy="no-referrer" onLoad={() => setLoaded(d.questionKey)} onError={() => { setImageError(d.questionKey); setLoaded(d.questionKey); }}/>)}
         {imageError === d.questionKey && (d.emoji ? <div className="emoji-fallback" role="img" aria-label="Ilustracja do rozpoznania">{d.emoji}</div> : <p>Grafika niedostępna. Sędzia może unieważnić pytanie bez kary.</p>)}
         </div>
         {d.status === 'running' && isChoiceQuestion(d.category, d.prompt) && <p className="rule-note">{CHOICE_RULE}</p>}
