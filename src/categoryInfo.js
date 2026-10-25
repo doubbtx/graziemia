@@ -49,7 +49,7 @@ const info = {
   'Kosmetyki': 'Makijaż, paznokcie, pielęgnacja i stylizacja włosów – powiedz, co to jest i do czego służy.',
   'Co to za postać?': 'Rozpoznaj postać z gry, filmu albo serialu po obrazku.',
   'Bajki z dzieciństwa': 'Po obrazku postaci podaj tytuł bajki, z której pochodzi.',
-  'Znane sklepy': 'Logo sklepu startuje mocno przybliżone i cały czas się oddala – zgadnij jak najwcześniej. Do tego pytania o sieci handlowe.',
+  'Znane sklepy': 'Rozpoznaj sklep lub markę po logo. Do tego pytania o sieci handlowe.',
   'Co to za skrót?': 'Rozwiń skrót – instytucje, organizacje, medycyna, internet i skróty z języka polskiego.',
   'Zabytki świata': 'Po zdjęciu rozpoznaj zabytek i powiedz, gdzie się znajduje.',
   'Co kosztuje więcej?': 'Z dwóch rzeczy (A lub B) wskaż droższą – ceny orientacyjne z lat 2025–2026.',
@@ -61,6 +61,7 @@ const info = {
   'Soundtrack': 'Leci muzyka z serialu, filmu albo gry – zgadnij, skąd pochodzi. Zegar rusza razem z muzyką.',
   'Przybliżenie': 'Zdjęcie startuje mocno przybliżone i cały czas się oddala – zgadnij, co to jest, zanim zobaczysz całość.',
   'Popularne piosenki': 'Leci fragment aktualnego hitu z list Apple Music (rap, pop, dance, rock) – wystarczy wykonawca albo tytuł.',
+  'Dokończ tekst': 'Podany jest początek znanej polskiej piosenki – dokończ kolejne słowa. Przeboje, biesiadne, ludowe, dziecięce i kolędy.',
   'Co to za dzień?': 'Podana jest data – powiedz, jakie święto lub dzień obchodzimy. Gdy tego dnia jest kilka świąt, wystarczy jedno z nich.',
 };
 // Categories where every question offers a fixed set of options.

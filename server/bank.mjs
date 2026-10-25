@@ -31704,454 +31704,294 @@ export const bank = {
   ],
   "Znane sklepy": [
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Biedronka",
       "image": "/shops/logo-biedronka.webp",
-      "zoom": {
-        "x": 22,
-        "y": 45
-      },
       "source": "https://en.wikipedia.org/wiki/Biedronka_(sie%C4%87_handlowa)",
       "id": "sklep-a3228e96c333a91f6129"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Dino",
       "image": "/shops/logo-dino.webp",
-      "zoom": {
-        "x": 20,
-        "y": 45
-      },
       "source": "https://en.wikipedia.org/wiki/Dino_Polska",
       "id": "sklep-975394cda12705066697"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Netto",
       "image": "/shops/logo-netto.webp",
-      "zoom": {
-        "x": 60,
-        "y": 50
-      },
       "source": "https://en.wikipedia.org/wiki/Netto_(Denmark)",
       "id": "sklep-0676d1bec651ec93d691"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Lidl",
       "image": "/shops/logo-lidl.webp",
-      "zoom": {
-        "x": 48,
-        "y": 48
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Lidl-Logo.svg",
       "id": "sklep-c13976f91a2a494881a5"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Kaufland",
       "image": "/shops/logo-kaufland.webp",
-      "zoom": {
-        "x": 12,
-        "y": 45
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Logo_Kaufland.svg",
       "id": "sklep-8a3efb75007c21ba4ba4"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Carrefour",
       "image": "/shops/logo-carrefour.webp",
-      "zoom": {
-        "x": 30,
-        "y": 50
-      },
       "source": "https://en.wikipedia.org/wiki/Carrefour",
       "id": "sklep-46057c74e3bc8e631ce6"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Auchan",
       "image": "/shops/logo-auchan.webp",
-      "zoom": {
-        "x": 78,
-        "y": 48
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Auchan_Retail_logo.svg",
       "id": "sklep-e4fc66fe757c6824bd83"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "E.Leclerc",
       "aliases": [
         "Leclerc"
       ],
       "image": "/shops/logo-e-leclerc.webp",
-      "zoom": {
-        "x": 88,
-        "y": 45
-      },
       "source": "https://commons.wikimedia.org/wiki/File:E.Leclerc_logo.svg",
       "id": "sklep-c6bbd02ce0cfa314e6bf"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Stokrotka",
       "image": "/shops/logo-stokrotka.webp",
-      "zoom": {
-        "x": 50,
-        "y": 25
-      },
       "source": "https://en.wikipedia.org/wiki/Stokrotka",
       "id": "sklep-f205eeae907bcdb9d523"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Aldi",
       "image": "/shops/logo-aldi.webp",
-      "zoom": {
-        "x": 45,
-        "y": 30
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Aldi_S%C3%BCd_2017_logo.svg",
       "id": "sklep-955171b500851a90731f"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Tesco",
       "image": "/shops/logo-tesco.webp",
-      "zoom": {
-        "x": 50,
-        "y": 65
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Tesco_1995_logo.svg",
       "id": "sklep-b234eff2806f304821bb"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Intermarché",
       "image": "/shops/logo-intermarche.webp",
-      "zoom": {
-        "x": 55,
-        "y": 48
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Intermarch%C3%A9_logo_2009_classic.svg",
       "id": "sklep-0e1d71f103f91835ce5d"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "IKEA",
       "image": "/shops/logo-ikea.webp",
-      "zoom": {
-        "x": 42,
-        "y": 45
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Ikea_logo.svg",
       "id": "sklep-edebd606a09d9cda0f15"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Rossmann",
       "image": "/shops/logo-rossmann.webp",
-      "zoom": {
-        "x": 24,
-        "y": 48
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Rossmann_Logo.svg",
       "id": "sklep-9c72e824dc5bde422992"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Sephora",
       "image": "/shops/logo-sephora.webp",
-      "zoom": {
-        "x": 45,
-        "y": 48
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Sephora_logo.svg",
       "id": "sklep-8265a88556ae5e211e14"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Pepco",
       "image": "/shops/logo-pepco.webp",
-      "zoom": {
-        "x": 85,
-        "y": 40
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Pepco_logo.svg",
       "id": "sklep-7f616067f8df9dc740bd"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Primark",
       "image": "/shops/logo-primark.webp",
-      "zoom": {
-        "x": 65,
-        "y": 48
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Primark_Logo_2024.svg",
       "id": "sklep-68f92f17b3d9e5f19a24"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "H&M",
       "image": "/shops/logo-h-m.webp",
-      "zoom": {
-        "x": 52,
-        "y": 65
-      },
       "source": "https://commons.wikimedia.org/wiki/File:H%26M-Logo.svg",
       "id": "sklep-6d5a3bda95d06b7fca05"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Zara",
       "image": "/shops/logo-zara.webp",
-      "zoom": {
-        "x": 68,
-        "y": 48
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Zara_2008_Logo.svg",
       "id": "sklep-cb4640eeb7f3ff8da60e"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Sinsay",
       "image": "/shops/logo-sinsay.webp",
-      "zoom": {
-        "x": 45,
-        "y": 50
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Sinsay_logo.svg",
       "id": "sklep-4244c70c28a29c018321"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Decathlon",
       "image": "/shops/logo-decathlon.webp",
-      "zoom": {
-        "x": 10,
-        "y": 45
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Decathlon_-_logo_(France,_2024).svg",
       "id": "sklep-d80479b029c6722fbe64"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "4F",
       "image": "/shops/logo-4f.webp",
-      "zoom": {
-        "x": 55,
-        "y": 45
-      },
       "source": "https://commons.wikimedia.org/wiki/File:4F_(company)_logo.svg",
       "id": "sklep-d26dae439690f592bd3c"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "OBI",
       "image": "/shops/logo-obi.webp",
-      "zoom": {
-        "x": 52,
-        "y": 48
-      },
       "source": "https://commons.wikimedia.org/wiki/File:OBI-Logo-2026.svg",
       "id": "sklep-3d1a8e37e4b77f209b13"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Leroy Merlin",
       "image": "/shops/logo-leroy-merlin.webp",
-      "zoom": {
-        "x": 50,
-        "y": 45
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Leroy_Merlin_-_logo_(France,_1995-).svg",
       "id": "sklep-1db0348df487add2c925"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Castorama",
       "image": "/shops/logo-castorama.webp",
-      "zoom": {
-        "x": 60,
-        "y": 48
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Castorama_-_logo_(France,_2014-).svg",
       "id": "sklep-0024dd3ff4c76f8ed944"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Allegro",
       "image": "/shops/logo-allegro.webp",
-      "zoom": {
-        "x": 55,
-        "y": 50
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Allegro-logo.svg",
       "id": "sklep-94de5d62bec50ced6bf6"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Amazon",
       "image": "/shops/logo-amazon.webp",
-      "zoom": {
-        "x": 60,
-        "y": 72
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Amazon_logo.svg",
       "id": "sklep-44d625c31ae1b15bcbff"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Vinted",
       "image": "/shops/logo-vinted.webp",
-      "zoom": {
-        "x": 50,
-        "y": 48
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Vinted_Logo_2022.svg",
       "id": "sklep-b28a3c6ab7bf5510c3fa"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "AliExpress",
       "image": "/shops/logo-aliexpress.webp",
-      "zoom": {
-        "x": 64,
-        "y": 48
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Aliexpress_logo.svg",
       "id": "sklep-1870ba18539a9dfe3318"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Temu",
       "image": "/shops/logo-temu.webp",
-      "zoom": {
-        "x": 40,
-        "y": 48
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Temu_logo.svg",
       "id": "sklep-8dbc2b1c6bbb783560b4"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Zalando",
       "image": "/shops/logo-zalando.webp",
-      "zoom": {
-        "x": 12,
-        "y": 48
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Zalando_Logo_2024.svg",
       "id": "sklep-77694e2bc2fbcb1928c7"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Black Red White",
       "aliases": [
         "BRW"
       ],
       "image": "/shops/logo-black-red-white.webp",
-      "zoom": {
-        "x": 30,
-        "y": 50
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Black_Red_White_logo.svg",
       "id": "sklep-6a89a000212a5d14f0c3"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Jysk",
       "image": "/shops/logo-jysk.webp",
-      "zoom": {
-        "x": 15,
-        "y": 40
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Jysk_logo.svg",
       "id": "sklep-807c73c03e5e14f4f49c"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Orlen",
       "image": "/shops/logo-orlen.webp",
-      "zoom": {
-        "x": 40,
-        "y": 48
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Orlen_wordmark_logo.svg",
       "id": "sklep-1577a7fd8b6a8b6e1af1"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "LEGO",
       "aliases": [
         "Lego"
       ],
       "image": "/shops/logo-lego.webp",
-      "zoom": {
-        "x": 45,
-        "y": 50
-      },
       "source": "https://en.wikipedia.org/wiki/The_Lego_Group",
       "id": "sklep-637777fb89b39406818e"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Shein",
       "image": "/shops/logo-shein.webp",
-      "zoom": {
-        "x": 40,
-        "y": 48
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Shein_Logo_2017.svg",
       "id": "sklep-3da3c6986ebcd97ebd71"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Apple",
       "aliases": [
         "Apple Store"
       ],
       "image": "/shops/logo-apple.webp",
-      "zoom": {
-        "x": 63,
-        "y": 18
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg",
       "id": "sklep-d05c97ce70f3ae83f07c"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Nike",
       "image": "/shops/logo-nike.webp",
-      "zoom": {
-        "x": 70,
-        "y": 25
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Logo_NIKE.svg",
       "id": "sklep-c2f29bc2d877ccb6ad57"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Adidas",
       "image": "/shops/logo-adidas.webp",
-      "zoom": {
-        "x": 55,
-        "y": 35
-      },
       "source": "https://commons.wikimedia.org/wiki/File:Adidas_Logo.svg",
       "id": "sklep-9d83418406b7c44dfb07"
     },
     {
-      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "prompt": "Jaki to sklep lub marka?",
       "answer": "Shell",
       "image": "/shops/logo-shell.webp",
-      "zoom": {
-        "x": 50,
-        "y": 45
-      },
       "source": "https://en.wikipedia.org/wiki/Shell_plc",
       "id": "sklep-bac96c045db159ff3fa7"
     },
@@ -40208,6 +40048,398 @@ export const bank = {
       "explanation": "Dance, alternatywa, rock i inne. Apple Music USA: miejsce 3 (25.10.2026). Zalicz wykonawcę albo tytuł.",
       "source": "https://music.apple.com/pl/album/choosin-texas/1844932149",
       "id": "hit-1e96a6706e6bf36f30db"
+    }
+  ],
+  "Dokończ tekst": [
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Tu na razie jest ściernisko, ale będzie…”",
+      "answer": "San Francisco",
+      "explanation": "Golec uOrkiestra – „Ściernisko”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-6e82a7ddab39e7f2fe13"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Jolka, Jolka, pamiętasz…”",
+      "answer": "lato ze snu",
+      "explanation": "Budka Suflera – „Jolka, Jolka pamiętasz”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-c76909c3b8aeb75f8899"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Whisky, moja żono…”",
+      "answer": "jednak tyś najlepszą z dam",
+      "explanation": "Dżem – „Whisky”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-d159570a5c0d82840c80"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Wehikuł czasu…”",
+      "answer": "to byłby cud",
+      "explanation": "Dżem – „Wehikuł czasu”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-71ec7fb8e4e857165ef7"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Chcemy być sobą…”",
+      "answer": "chcemy być sobą jeszcze",
+      "explanation": "Perfect – „Chcemy być sobą”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-ba2e23cc81d23401505c"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Baśka miała…”",
+      "answer": "fajny biust",
+      "explanation": "Wilki – „Baśka”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-c4d796218d04293a2775"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Niech żyje bal, bo to życie to bal jest…”",
+      "answer": "nad bale",
+      "explanation": "Maryla Rodowicz – „Niech żyje bal”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-411385c31d8fc2646443"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Wsiąść do pociągu byle jakiego, nie dbać o bagaż…”",
+      "answer": "nie dbać o bilet",
+      "explanation": "Maryla Rodowicz – „Wsiąść do pociągu”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-b5179becec799b8fccda"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Małgośka, mówią mi, on nie jest wart…”",
+      "answer": "jednej łzy",
+      "explanation": "Maryla Rodowicz – „Małgośka”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-c15bf56736af32ee5f3d"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Kolorowe jarmarki…”",
+      "answer": "blaszane zegarki",
+      "explanation": "Maryla Rodowicz – „Kolorowe jarmarki”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-99eaeeb7f217d22b1260"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Ale to już było i nie…”",
+      "answer": "wróci więcej",
+      "explanation": "Maryla Rodowicz – „Ale to już było”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-326b486c44957ecfb2e6"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Dziwny jest ten świat, gdzie jeszcze wciąż mieści się…”",
+      "answer": "wiele zła",
+      "explanation": "Czesław Niemen – „Dziwny jest ten świat”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-041d5f96df9bdb82da35"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Gdzie ci mężczyźni, prawdziwi tacy…”",
+      "answer": "orły, sokoły, herosy",
+      "explanation": "Danuta Rinn – „Gdzie ci mężczyźni”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-ed68e4b009f62a1901ce"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Jestem z miasta, to widać…”",
+      "answer": "słychać i czuć",
+      "explanation": "Elektryczne Gitary – „Jestem z miasta”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-0df02de507587b9877fc"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Przez twe oczy, oczy zielone…”",
+      "answer": "oszalałem",
+      "explanation": "Akcent – „Przez twe oczy zielone”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-a5b6926dc9a85322091b"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Jesteś szalona…”",
+      "answer": "mówię ci",
+      "explanation": "Boys – „Jesteś szalona”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-15f6543c6dc9b16928e4"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„To nie ja byłam…”",
+      "answer": "Ewą",
+      "explanation": "Edyta Górniak – „To nie ja”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-c98c8a532fbf6ab15a77"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Józek, nie daruję ci…”",
+      "answer": "tej nocy",
+      "explanation": "Bajm – „Józek, nie daruję ci tej nocy”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-83a606e0fa0b222fa9ae"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Chciałem być marynarzem, chciałem mieć…”",
+      "answer": "tatuaże",
+      "explanation": "Krzysztof Krawczyk – „Chciałem być”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-f7f495ef4213508e19f4"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Parostatkiem w piękny…”",
+      "answer": "rejs",
+      "explanation": "Krzysztof Krawczyk – „Parostatek”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-52a2876c8476c2b92801"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Za tobą pójdę jak…”",
+      "answer": "na bal",
+      "explanation": "Krzysztof Krawczyk – „Za tobą pójdę jak na bal”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-95da1e683ca10a74ad4d"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Bo jesteś…”",
+      "answer": "ty",
+      "explanation": "Krzysztof Krawczyk – „Bo jesteś ty”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-fa5cf1b7c1c65430bf33"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Tyle słońca w…”",
+      "answer": "całym mieście",
+      "explanation": "Anna Jantar – „Tyle słońca w całym mieście”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-7f96ec781eb2bb009ea3"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Boskie Buenos…”",
+      "answer": "Buenos Aires",
+      "explanation": "Maanam – „Boskie Buenos”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-e4ce442a4d698cc272f6"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Takie ładne…”",
+      "answer": "oczy",
+      "explanation": "Czerwone Gitary – „Takie ładne oczy”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-079079f506bc03717844"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Słodkiego, miłego…”",
+      "answer": "życia",
+      "explanation": "Kombi – „Słodkiego, miłego życia”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-fc681c07198dd85d1502"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Tańcz, głupia…”",
+      "answer": "tańcz",
+      "explanation": "Lady Pank – „Tańcz głupia, tańcz”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-5a7056000477ffde6873"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Zawsze tam…”",
+      "answer": "gdzie ty",
+      "explanation": "Lady Pank – „Zawsze tam, gdzie ty”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-3e83f5bcad9705ac7071"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Mniej niż…”",
+      "answer": "zero",
+      "explanation": "Lady Pank – „Mniej niż zero”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-18ede48d3e25606d8781"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Kryzysowa…”",
+      "answer": "narzeczona",
+      "explanation": "Lady Pank – „Kryzysowa narzeczona”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-45e54554ece4feeb87e4"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Przeżyj to…”",
+      "answer": "sam",
+      "explanation": "Lombard – „Przeżyj to sam”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-17d2c4d03e63470824dd"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Orła…”",
+      "answer": "cień",
+      "explanation": "Varius Manx – „Orła cień”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-e949a88a14d84d21afea"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Chciałbym umrzeć…”",
+      "answer": "z miłości",
+      "explanation": "Myslovitz – „Chciałbym umrzeć z miłości”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-f5403473d5eec037d962"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Długość dźwięku…”",
+      "answer": "samotności",
+      "explanation": "Myslovitz – „Długość dźwięku samotności”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-3d85e17db7ee7fbd1f09"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Uciekaj, moje…”",
+      "answer": "serce",
+      "explanation": "Seweryn Krajewski – „Uciekaj, moje serce”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-362b862c63553722247c"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Z kopyta kulig…”",
+      "answer": "rwie",
+      "explanation": "Skaldowie – „Z kopyta kulig rwie”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-f4bc4dd582e3a0c7ef4e"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Byłaś serca…”",
+      "answer": "biciem",
+      "explanation": "Andrzej Zaucha – „Byłaś serca biciem”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-38a28f7d683777e9b71e"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Twój ból jest lepszy…”",
+      "answer": "niż mój",
+      "explanation": "Kazik – „Twój ból jest lepszy niż mój”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-18777d355feb310ffedb"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Ona tańczy…”",
+      "answer": "dla mnie",
+      "explanation": "Weekend – „Ona tańczy dla mnie”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-10da84ed8f353ebc37a6"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Czerwone…”",
+      "answer": "korale",
+      "explanation": "Brathanki – „Czerwone korale”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-6b026e0dc0739e225aee"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Czerwony jak…”",
+      "answer": "cegła",
+      "explanation": "Dżem – „Czerwony jak cegła”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-5a5c5730a8889c7b1a4f"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Ale wkoło jest…”",
+      "answer": "wesoło",
+      "explanation": "Perfect – „Ale wkoło jest wesoło”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-d167721d8957c767ed27"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Nie płacz…”",
+      "answer": "Ewka",
+      "explanation": "Perfect – „Nie płacz Ewka”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-33738f7a3988733b551a"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Co mi, panie…”",
+      "answer": "dasz",
+      "explanation": "Bajm – „Co mi, panie, dasz”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-d85805f29d544444d25d"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Nie ma…”",
+      "answer": "fal",
+      "explanation": "Dawid Podsiadło – „Nie ma fal”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-9af04aeb6042c1f84a22"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Tak smakuje…”",
+      "answer": "życie",
+      "explanation": "Enej – „Tak smakuje życie”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-f0300ad7dc5531aec986"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Sto lat, sto lat, niech żyje, żyje…”",
+      "answer": "nam",
+      "explanation": "„Sto lat”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-18996d38f81a5b48f8a3"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Hej, hej, hej, sokoły, omijajcie…”",
+      "answer": "góry, lasy, doły",
+      "explanation": "„Hej, sokoły”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-caf03f065075ea1e0c17"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Szła dzieweczka do laseczka, do…”",
+      "answer": "zielonego",
+      "explanation": "„Szła dzieweczka”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-a2f15c22d2452cb66e48"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Gdybym ja była słoneczkiem…”",
+      "answer": "na niebie",
+      "explanation": "„Gdybym ja była słoneczkiem”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-6e0a794c0beae34837eb"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„U prząśniczki siedzą jak anioł…”",
+      "answer": "dzieweczki",
+      "explanation": "Stanisław Moniuszko – „Prząśniczka”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-d5a60316a9f7aad0236d"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Płonie ognisko i szumią…”",
+      "answer": "knieje",
+      "explanation": "„Płonie ognisko”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-7c170f4277db2a1367f7"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Wlazł kotek na płotek i…”",
+      "answer": "mruga",
+      "explanation": "„Wlazł kotek na płotek”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-ddf2de313374f96aca99"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Pije Kuba do…”",
+      "answer": "Jakuba",
+      "explanation": "„Pije Kuba do Jakuba”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-d1649c0ef2dda1d98b78"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Jedzie pociąg z daleka, na nikogo nie…”",
+      "answer": "czeka",
+      "explanation": "„Jedzie pociąg z daleka”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-5c4afca5caf5137b9837"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Panie Janie, panie Janie, rano…”",
+      "answer": "wstań",
+      "explanation": "„Panie Janie”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-f4d9463fc4baa86afcb0"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Głowa, ramiona, kolana…”",
+      "answer": "pięty",
+      "explanation": "„Głowa, ramiona, kolana, pięty”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-f9df52a9c0d356576723"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Jeszcze Polska nie zginęła, kiedy my…”",
+      "answer": "żyjemy",
+      "explanation": "Hymn Polski – „Mazurek Dąbrowskiego”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-20d15c537d6d1f4dda73"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Nie rzucim ziemi, skąd nasz…”",
+      "answer": "ród",
+      "explanation": "Maria Konopnicka – „Rota”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-e90f38a07da3fea948c7"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Hej, hej, ułani, malowane…”",
+      "answer": "dzieci",
+      "explanation": "„Hej, hej, ułani”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-8b728ffcefbeaac46a9b"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Legiony to żołnierska nuta, legiony to…”",
+      "answer": "straceńców los",
+      "explanation": "„My, Pierwsza Brygada”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-f9801c459e1e151fb2e1"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Czerwone maki na…”",
+      "answer": "Monte Cassino",
+      "explanation": "„Czerwone maki na Monte Cassino”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-52535b93f9eedb238266"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Wśród nocnej ciszy głos się…”",
+      "answer": "rozchodzi",
+      "explanation": "Kolęda „Wśród nocnej ciszy”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-e5561d4b4fcb71916dd2"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Bóg się rodzi, moc…”",
+      "answer": "truchleje",
+      "explanation": "Kolęda „Bóg się rodzi”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-0051c14f6f6ca74bf846"
+    },
+    {
+      "prompt": "Dokończ tekst piosenki:\n„Lulajże, Jezuniu, moja…”",
+      "answer": "perełko",
+      "explanation": "Kolęda „Lulajże, Jezuniu”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-2c4282d81b0c1269bfb8"
     }
   ]
 };

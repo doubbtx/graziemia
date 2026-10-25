@@ -37,6 +37,7 @@ export default function Arena() {
   const [infoCategory, setInfoCategory] = useState(null), [tab, setTab] = useState('arena'), [search, setSearch] = useState('');
   const [loaded, setLoaded] = useState(null), [imageError, setImageError] = useState(null), [imagePreload, setImagePreload] = useState(null);
   const [flash, setFlash] = useState(null), seenAnswer = useRef(null);
+  const questionRef = useRef(null), [questionMinHeight, setQuestionMinHeight] = useState(0);
   const ref = useRef(null), sref = useRef(session), conn = useRef(false), lock = useRef(false);
   sref.current = session;
 
@@ -337,7 +338,7 @@ export default function Arena() {
         <small className="duel-player__state">{active ? '● Odpowiada' : 'Czeka'}{player.armed ? ' · ' + room.cardTypes[player.armed].name : ''}{d.freeze?.playerId === id ? (active ? ' · ❄ Zegar zamrożony' : ` · ❄ Zamrożenie czeka (${Math.ceil(d.freeze.left / 1000)} s)`) : ''}{d.fog?.target === id ? ' · 🌫 Mgła' : ''}</small>
       </section>;
     })}</div>
-    <section className={`panel question${d.status === 'paused' ? ' is-paused' : ''}`}>
+    <section ref={questionRef} style={{minHeight: questionMinHeight || undefined}} className={`panel question${d.status === 'paused' ? ' is-paused' : ''}`}>
       {d.status === 'ready' ? <>
         <h2>Potwierdźcie gotowość</h2>
         <div className="ready-list">{[...d.ids, d.adminId].map(id => <span className={`pill${d.ready.includes(id) ? ' pill--ok' : ''}`} key={id}>{d.ready.includes(id) ? '✓' : '○'} {pname(id)}</span>)}</div>
@@ -445,8 +446,20 @@ export default function Arena() {
     <p><kbd>→</kbd> zalicza · <kbd>P</kbd> pomija · <kbd>Spacja</kbd> pauza · <kbd>Z</kbd> cofnij</p>
   </section>;
 
+  // The question panel keeps the tallest height reached in the current duel, so the page does not jump up
+  // when a question with an image is followed by one without (or an image is still loading).
+  const duelId = d ? d.ids.join('|') + ':' + room.round : '';
+  useEffect(() => {
+    setQuestionMinHeight(0);
+    const el = questionRef.current;
+    if (!duelId || !el || typeof ResizeObserver === 'undefined') return;
+    const observer = new ResizeObserver(() => setQuestionMinHeight(h => Math.max(h, Math.ceil(el.getBoundingClientRect().height))));
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [duelId, !!d && d.status !== 'ready' && d.status !== 'countdown']);
+
   // Short full-screen blink after each judged answer: green = correct, red = wrong choice, orange = skipped.
-  const answerFlash = flash && <div className={'answer-flash answer-flash--' + flash.tone} key={flash.n} role="status" aria-label={flash.text}/>;
+  const answerFlash = flash && settings.flashes && <div className={'answer-flash answer-flash--' + flash.tone} key={flash.n} role="status" aria-label={flash.text}/>;
 
   // Readiness is confirmed from a bar pinned to the bottom of the screen, so nobody has to scroll to it.
   const readyBar = (() => {

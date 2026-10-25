@@ -55,7 +55,7 @@ const categoryEmojis = {
   'co to za dzien?': '📅',
   'co to za skrot?': '🔠',
   'zabytki swiata': '🏰',
-  'co kosztuje wiecej?': '💰', 'siatkowka': '🏐', 'slang mlodziezowy': '💬', 'valorant': '🎯', 'minecraft': '⛏️', 'rasy psow': '🐶', 'soundtrack': '🎵', 'przyblizenie': '🔍', 'popularne piosenki': '🎤',
+  'co kosztuje wiecej?': '💰', 'siatkowka': '🏐', 'slang mlodziezowy': '💬', 'valorant': '🎯', 'minecraft': '⛏️', 'rasy psow': '🐶', 'soundtrack': '🎵', 'przyblizenie': '🔍', 'popularne piosenki': '🎤', 'dokoncz tekst': '📝',
 };
 
 export function getCategoryEmoji(category) {
@@ -168,7 +168,7 @@ export function SoundtrackPlayer({src, playKey, running, volume, onVolume}) {
   </div>;
 }
 
-export const DEFAULT_SETTINGS = {textScale: 1, imageScale: 1, uiScale: 1, volume: 0.7};
+export const DEFAULT_SETTINGS = {textScale: 1, imageScale: 1, uiScale: 1, volume: 0.7, flashes: true};
 const SETTING_ROWS = [
   ['textScale', 'Wielkość tekstu pytań', 0.8, 1.6, 0.05, v => Math.round(v * 100) + '%'],
   ['imageScale', 'Wielkość obrazków', 0.6, 2, 0.05, v => Math.round(v * 100) + '%'],
@@ -191,6 +191,7 @@ export function SettingsSheet({settings, onChange, onClose}) {
         <span>{label}<b>{format(settings[key])}</b></span>
         <input type="range" min={min} max={max} step={step} value={settings[key]} onChange={e => onChange({...settings, [key]: +e.target.value})}/>
       </label>)}
+      <label className="settings__toggle"><span>Błyski po odpowiedzi<small>Zielony – dobrze, czerwony – źle, pomarańczowy – pominięte.</small></span><input type="checkbox" checked={settings.flashes} onChange={e => onChange({...settings, flashes: e.target.checked})}/></label>
       <div className="settings__preview" aria-hidden="true"><span className="question__prompt">Przykładowe pytanie?</span><span className="settings__swatch"/></div>
       <div className="category-sheet__actions">
         <button type="button" className="btn" onClick={() => onChange(DEFAULT_SETTINGS)}>Przywróć domyślne</button>
