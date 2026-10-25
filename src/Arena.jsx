@@ -1,5 +1,5 @@
 import React, {useEffect, useRef, useState} from 'react';
-import {CategorySheet, FootballerCard, getCategoryEmoji, InfoButton, PixelTimer, PlayerAvatar, SoundtrackPlayer, TerritoryTile} from './components.jsx';
+import {CategorySheet, DEFAULT_SETTINGS, FootballerCard, getCategoryEmoji, InfoButton, PixelTimer, PlayerAvatar, SettingsSheet, SoundtrackPlayer, TerritoryTile} from './components.jsx';
 import {AudiencePanel, CardPanel, EconomyDialog, QuestionReports, ShopPanel, TeamScreen, plural} from './panels.jsx';
 import {CHOICE_RULE, categoryDescription, isChoiceQuestion} from './categoryInfo.js';
 import './arena.css';
@@ -27,6 +27,7 @@ const STATUS = {running: 'Na żywo', paused: 'Pauza', media: 'Obrazek', countdow
 
 export default function Arena() {
   const [theme, setTheme] = useState(() => { try { return localStorage.getItem('arena-theme') === 'dark' ? 'dark' : 'light'; } catch { return 'light'; } });
+  const [settings, setSettings] = useState(() => { try { return {...DEFAULT_SETTINGS, ...JSON.parse(localStorage.getItem('arena-settings') || '{}')}; } catch { return DEFAULT_SETTINGS; } }), [settingsOpen, setSettingsOpen] = useState(false);
   const [session, setSession] = useState(saved), [room, setRoom] = useState(null), [online, setOnline] = useState(false);
   const [busy, setBusy] = useState(false), [error, setError] = useState(''), [notice, setNotice] = useState('');
   const params = new URLSearchParams(location.search);
@@ -42,6 +43,11 @@ export default function Arena() {
     const meta = document.querySelector('meta[name="theme-color"]'); if (meta) meta.content = theme === 'dark' ? '#000000' : '#f5f5f7';
     try { localStorage.setItem('arena-theme', theme); } catch {}
   }, [theme]);
+  useEffect(() => {
+    const root = document.documentElement.style;
+    root.setProperty('--text-scale', settings.textScale); root.setProperty('--image-scale', settings.imageScale); root.setProperty('--ui-scale', settings.uiScale);
+    try { localStorage.setItem('arena-settings', JSON.stringify(settings)); } catch {}
+  }, [settings]);
   useEffect(() => { if (!notice) return; const t = setTimeout(() => setNotice(''), 4000); return () => clearTimeout(t); }, [notice]);
 
   function accept(r) {
@@ -287,7 +293,7 @@ export default function Arena() {
         {q?.format === 'clues' && <p className="muted small">Sędzia odsłania kolejne wskazówki. Szybka odpowiedź (do 1,5 s) daje dodatkowy punkt.</p>}
         {d.visual && (d.visual.startsWith('📅 ') ? (() => { const [day, ...month] = d.visual.slice(3).split(' '); return <div className="calendar-card" role="img" aria-label={d.visual.slice(3)}><span>{month.join(' ')}</span><b>{day}</b></div>; })() : <div className="visual-riddle" role="img" aria-label="Rebus do rozpoznania">{d.visual}</div>)}
         {d.privateHint && <div className="notice notice--hint">{d.privateHint}</div>}
-        {d.audio && <SoundtrackPlayer src={d.audio} playKey={d.questionKey} running={d.status === 'running'}/>}
+        {d.audio && <SoundtrackPlayer src={d.audio} playKey={d.questionKey} running={d.status === 'running'} volume={settings.volume} onVolume={volume => setSettings(s => ({...s, volume}))}/>}
         {d.image && imageError !== d.questionKey && <img className="quiz-image" decoding="sync" key={d.questionKey} src={mediaUrl(d.image)} alt="Obrazek do rozpoznania" referrerPolicy="no-referrer" onLoad={() => setLoaded(d.questionKey)} onError={() => { setImageError(d.questionKey); setLoaded(d.questionKey); }}/>}
         {imageError === d.questionKey && (d.emoji ? <div className="emoji-fallback" role="img" aria-label="Ilustracja do rozpoznania">{d.emoji}</div> : <p>Grafika niedostępna. Sędzia może unieważnić pytanie bez kary.</p>)}
         </div>
@@ -389,12 +395,14 @@ export default function Arena() {
       <div className="topbar__actions">
         {session && <span className={`pill ${online ? 'pill--ok' : 'pill--warn'}`}>{online ? '● Online' : '○ Łączenie…'}</span>}
         <button className="btn btn--ghost btn--icon" aria-label={theme === 'dark' ? 'Włącz jasny motyw' : 'Włącz ciemny motyw'} title="Motyw" onClick={() => setTheme(t => t === 'dark' ? 'light' : 'dark')}>{theme === 'dark' ? '☀' : '☾'}</button>
+        <button className="btn btn--ghost btn--icon" aria-label="Ustawienia" title="Ustawienia: wielkość tekstu, obrazków, głośność" onClick={() => setSettingsOpen(true)}>⚙</button>
         <button className="btn btn--ghost btn--icon" aria-label="Pełny ekran" title="Pełny ekran" onClick={toggleFullscreen}>⛶</button>
       </div>
     </header>
     <div className="wrap">
       {error && <div role="alert" className="notice notice--error"><span>{error}</span><button className="btn btn--ghost btn--sm" onClick={() => setError('')}>Zamknij</button></div>}
       {notice && <div role="status" className="toast">{notice}</div>}
+      {settingsOpen && <SettingsSheet settings={settings} onChange={setSettings} onClose={() => setSettingsOpen(false)}/>}
       {infoCategory && room && (() => {
         const canPick = room.phase === 'lobby' && !teams && room.availableCategories.includes(infoCategory) && me?.category !== infoCategory || room.phase === 'category' && room.pending?.[0] === me?.id && room.availableCategories.includes(infoCategory);
         const status = room.retired.includes(infoCategory) ? 'rozegrana' : me?.category === infoCategory ? 'Twoja kategoria' : room.availableCategories.includes(infoCategory) ? 'wolna' : 'zajęta';

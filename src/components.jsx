@@ -145,7 +145,7 @@ export function FootballerCard({footballer}) {
 }
 
 /** Plays a question's music on every device as soon as the question starts; pauses with the duel. */
-export function SoundtrackPlayer({src, playKey, running}) {
+export function SoundtrackPlayer({src, playKey, running, volume, onVolume}) {
   const audio = useRef(null), [blocked, setBlocked] = useState(false);
   const [muted, setMuted] = useState(() => { try { return localStorage.getItem('arena-muted') === '1'; } catch { return false; } });
   useEffect(() => {
@@ -154,14 +154,48 @@ export function SoundtrackPlayer({src, playKey, running}) {
   }, [src, playKey]);
   useEffect(() => {
     const a = audio.current; if (!a) return;
-    a.muted = muted;
+    a.muted = muted; a.volume = volume;
     if (running) a.play().then(() => setBlocked(false), () => setBlocked(true)); else a.pause();
   }, [running, muted, src, playKey]);
+  useEffect(() => { if (audio.current) audio.current.volume = volume; }, [volume]);
   function replay() { const a = audio.current; if (!a) return; a.currentTime = 0; a.play().then(() => setBlocked(false), () => setBlocked(true)); }
   function toggleMute() { setMuted(m => { try { localStorage.setItem('arena-muted', m ? '0' : '1'); } catch {} return !m; }); }
   return <div className="soundtrack">
+    <label className="volume" title="Głośność"><span aria-hidden="true">{muted || volume === 0 ? '🔈' : '🔊'}</span><input type="range" min="0" max="100" step="5" value={Math.round(volume * 100)} onChange={e => onVolume(e.target.value / 100)} aria-label="Głośność muzyki"/><b>{Math.round(volume * 100)}%</b></label>
     <span className={`soundtrack__wave${running && !blocked && !muted ? ' is-playing' : ''}`} aria-hidden="true"><i/><i/><i/><i/><i/></span>
     {blocked ? <button className="btn btn--primary btn--sm" onClick={replay}>▶ Kliknij, aby włączyć muzykę</button> : <button className="btn btn--sm" onClick={replay} disabled={!running}>↺ Od początku</button>}
-    <button className="btn btn--ghost btn--sm" onClick={toggleMute} aria-pressed={muted}>{muted ? '🔇 Wyciszone' : '🔊 Dźwięk'}</button>
+    <button className="btn btn--ghost btn--sm" onClick={toggleMute} aria-pressed={muted}>{muted ? '🔇 Wyciszone' : 'Wycisz'}</button>
+  </div>;
+}
+
+export const DEFAULT_SETTINGS = {textScale: 1, imageScale: 1, uiScale: 1, volume: 0.7};
+const SETTING_ROWS = [
+  ['textScale', 'Wielkość tekstu pytań', 0.8, 1.6, 0.05, v => Math.round(v * 100) + '%'],
+  ['imageScale', 'Wielkość obrazków', 0.6, 2, 0.05, v => Math.round(v * 100) + '%'],
+  ['uiScale', 'Skala całego interfejsu', 0.8, 1.3, 0.05, v => Math.round(v * 100) + '%'],
+  ['volume', 'Głośność muzyki', 0, 1, 0.05, v => Math.round(v * 100) + '%'],
+];
+
+/** Per-device display settings: text, image and interface scale plus music volume. */
+export function SettingsSheet({settings, onChange, onClose}) {
+  useEffect(() => {
+    const onKey = e => { if (e.key === 'Escape') onClose(); };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [onClose]);
+  return <div className="modal" role="dialog" aria-modal="true" aria-labelledby="settings-title" onClick={e => { if (e.target === e.currentTarget) onClose(); }}>
+    <div className="modal__box settings">
+      <h2 id="settings-title">Ustawienia</h2>
+      <p className="muted small">Zapisywane tylko na tym urządzeniu.</p>
+      {SETTING_ROWS.map(([key, label, min, max, step, format]) => <label className="settings__row" key={key}>
+        <span>{label}<b>{format(settings[key])}</b></span>
+        <input type="range" min={min} max={max} step={step} value={settings[key]} onChange={e => onChange({...settings, [key]: +e.target.value})}/>
+      </label>)}
+      <div className="settings__preview" aria-hidden="true"><span className="question__prompt">Przykładowe pytanie?</span><span className="settings__swatch"/></div>
+      <div className="category-sheet__actions">
+        <button type="button" className="btn" onClick={() => onChange(DEFAULT_SETTINGS)}>Przywróć domyślne</button>
+        <button type="button" className="btn btn--primary" onClick={onClose} autoFocus>Gotowe</button>
+      </div>
+    </div>
   </div>;
 }
