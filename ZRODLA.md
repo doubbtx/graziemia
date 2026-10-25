@@ -29,7 +29,7 @@ Listy klubów obejmują pięć ostatnich etapów kariery seniorskiej (z wypożyc
 - [Twemoji](https://github.com/jdecked/twemoji), Twitter i współtwórcy, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), bez zmian. Gdy grafika się nie wczyta, może pojawić się emoji systemowe.
 - Flagi: [Flagcdn](https://flagcdn.com/), [Flagpedia](https://flagpedia.net/).
 
-- Kontury państw: [mapsicon](https://github.com/djaiss/mapsicon), autor djaiss – użyte z podaniem autora, zgodnie z warunkami projektu.
+- Kontury państw: mapy lokalizacyjne z Wikimedia Commons (seria „Europe-…” oraz „… (orthographic projection)”, licencje CC BY-SA / domena publiczna – autorzy na stronach plików), przekonwertowane do public/outlines; link do pliku w polu source.
 - Zdjęcia kosmetyków: [Wikimedia Commons](https://commons.wikimedia.org/), wolne licencje; autorzy i licencje na stronach plików poniżej.
 
 - Postacie z gier, filmów i seriali: grafiki z artykułów Wikipedii (głównie ilustracje promocyjne objęte prawem autorskim właścicieli marek), wyświetlane jako odnośniki do serwerów Wikimedia, bez kopiowania do repozytorium. Wybrano postacie animowane, z gier, CGI i w kostiumach – bez zdjęć twarzy aktorów.

@@ -45,7 +45,7 @@ const info = {
   'Herby piłkarskie': 'Rozpoznaj klub piłkarski po herbie.',
   'Rozsypane litery': 'Ułóż słowo z rozsypanych liter, korzystając z podpowiedzi.',
   'Co to za piłkarz?': 'Po fladze, pozycji i herbach ostatnich klubów zgadnij piłkarza.',
-  'Kontury państw': 'Rozpoznaj państwo po samym kształcie granic.',
+  'Kontury państw': 'Na mapie z sąsiadami zaznaczone jest jedno państwo – powiedz które.',
   'Kosmetyki': 'Makijaż, paznokcie, pielęgnacja i stylizacja włosów – powiedz, co to jest i do czego służy.',
   'Co to za postać?': 'Rozpoznaj postać z gry, filmu albo serialu po obrazku.',
   'Bajki z dzieciństwa': 'Po obrazku postaci podaj tytuł bajki, z której pochodzi.',

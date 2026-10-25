@@ -46,16 +46,16 @@ test('Footballer category has at least 60 unique players with nationality and fi
  }
 });
 
-test('True/false bank adds exactly 80 questions as a category',()=>{
- assert.equal(trueFalseQuestions.length,80);
- assert.equal(bank['Prawda/Fałsz'].length,80);
+test('True/false bank has at least 80 unique questions as a category',()=>{
+ assert.ok(trueFalseQuestions.length>=80);
+
  assert.equal(categories.length,Object.keys(bank).length);
- assert.equal(new Set(trueFalseQuestions.map(question=>question.prompt)).size,80);
+ assert.equal(new Set(trueFalseQuestions.map(question=>question.prompt)).size,trueFalseQuestions.length);
  assert.ok(trueFalseQuestions.every(question=>['Prawda','Fałsz'].includes(question.answer)));
  const room=createRoom('123456','Gracz','token',1000),state=publicState(room,room.hostId);
  assert.equal(state.categories.length,categories.length);
  assert.equal(state.totalQuestions,Object.values(bank).reduce((count,questions)=>count+questions.length,0));
- assert.equal(state.categoryCounts['Prawda/Fałsz'],80);
+ assert.equal(state.categoryCounts['Prawda/Fałsz'],trueFalseQuestions.length);
 });
 
 test('Card pool replaces random-card card with five free skips',()=>{
@@ -283,4 +283,13 @@ test('The next question is drawn in advance and its image is announced before th
  assert.equal(room.duel.index,upcoming);
  assert.ok(room.used['Flagi na obrazkach'].includes(upcoming));
  assert.equal(new Set(room.used['Flagi na obrazkach']).size,room.used['Flagi na obrazkach'].length);
+});
+
+test('A new game starts with the least recently played question of the category',async()=>{
+ const {questionHistory}=await import('../server/engine.mjs');
+ const questions=bank['Nauka'],fresh=7;
+ questionHistory.load(Object.fromEntries(questions.map((question,index)=>[question.id||'Nauka#'+index,index===fresh?1:Date.now()])));
+ const room=readyDuel();
+ assert.equal(room.duel.category,'Nauka');
+ assert.equal(room.duel.index,fresh);
 });

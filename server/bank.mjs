@@ -229,21 +229,6 @@ export const bank = {
       "id": "audit6-d8ad95d484a1eb533bf7"
     },
     {
-      "prompt": "Podaj stolicę państwa: Paragwaj.",
-      "answer": "Asunción",
-      "id": "audit6-e1b99c2e209302141e1f"
-    },
-    {
-      "prompt": "Podaj stolicę państwa: Gujana.",
-      "answer": "Georgetown",
-      "id": "audit6-5cef06b2d5971c862f69"
-    },
-    {
-      "prompt": "Podaj stolicę państwa: Surinam.",
-      "answer": "Paramaribo",
-      "id": "audit6-568d4eac78fc4123aed9"
-    },
-    {
       "prompt": "Podaj stolicę państwa: Kuba.",
       "answer": "Hawana",
       "id": "audit6-dbc86fa937c2d67d1725"
@@ -254,44 +239,9 @@ export const bank = {
       "id": "audit6-ba317f1abeb3af4eb54e"
     },
     {
-      "prompt": "Podaj stolicę państwa: Haiti.",
-      "answer": "Port-au-Prince",
-      "id": "audit6-91955e931165f9fd6ef4"
-    },
-    {
       "prompt": "Podaj stolicę państwa: Dominikana.",
       "answer": "Santo Domingo",
       "id": "audit6-e9f8b4fca0b5961e47be"
-    },
-    {
-      "prompt": "Podaj stolicę państwa: Bahamy.",
-      "answer": "Nassau",
-      "id": "audit6-8a738997f1c37a4ca8bb"
-    },
-    {
-      "prompt": "Podaj stolicę państwa: Barbados.",
-      "answer": "Bridgetown",
-      "id": "audit6-663e6a138a39ec60a776"
-    },
-    {
-      "prompt": "Podaj stolicę państwa: Belize.",
-      "answer": "Belmopan",
-      "id": "audit6-dcfe7aa3c29477a9e0c4"
-    },
-    {
-      "prompt": "Podaj stolicę państwa: Honduras.",
-      "answer": "Tegucigalpa",
-      "id": "audit6-e4fc24d7c757f29450f9"
-    },
-    {
-      "prompt": "Podaj stolicę państwa: Salwador.",
-      "answer": "San Salvador",
-      "id": "audit6-30ecf626629332c9d8e1"
-    },
-    {
-      "prompt": "Podaj stolicę państwa: Nikaragua.",
-      "answer": "Managua",
-      "id": "audit6-247f7b9ed5b3ba9de19f"
     },
     {
       "prompt": "Podaj stolicę państwa: Kostaryka.",
@@ -329,74 +279,14 @@ export const bank = {
       "id": "audit6-58a73da96c637b8d3ee9"
     },
     {
-      "prompt": "Podaj stolicę państwa: Ghana.",
-      "answer": "Akra",
-      "id": "audit6-0b0b397db904a13a54fe"
-    },
-    {
-      "prompt": "Podaj stolicę państwa: Nigeria.",
-      "answer": "Abudża",
-      "id": "audit6-4db1a73d03319c75c52c"
-    },
-    {
       "prompt": "Podaj stolicę państwa: Kenia.",
       "answer": "Nairobi",
       "id": "audit6-ced4db746cf9db27b531"
     },
     {
-      "prompt": "Podaj stolicę państwa: Uganda.",
-      "answer": "Kampala",
-      "id": "audit6-8831fd776e5f1d707168"
-    },
-    {
-      "prompt": "Podaj stolicę państwa: Tanzania.",
-      "answer": "Dodoma",
-      "id": "audit6-95cb95f11d3cd22ca6f3"
-    },
-    {
-      "prompt": "Podaj stolicę państwa: Rwanda.",
-      "answer": "Kigali",
-      "id": "audit6-4177e1d0e18177c3ddee"
-    },
-    {
       "prompt": "Podaj stolicę państwa: Etiopia.",
       "answer": "Addis Abeba",
       "id": "audit6-c8e4f49179af4625e3a9"
-    },
-    {
-      "prompt": "Podaj stolicę państwa: Zambia.",
-      "answer": "Lusaka",
-      "id": "audit6-6ae89ef583d0bee0ad10"
-    },
-    {
-      "prompt": "Podaj stolicę państwa: Zimbabwe.",
-      "answer": "Harare",
-      "id": "audit6-609983d366a9322b6eff"
-    },
-    {
-      "prompt": "Podaj stolicę państwa: Botswana.",
-      "answer": "Gaborone",
-      "id": "audit6-b62c2599f9c40522fb88"
-    },
-    {
-      "prompt": "Podaj stolicę państwa: Namibia.",
-      "answer": "Windhuk",
-      "id": "audit6-85f1edd5bfc0813de826"
-    },
-    {
-      "prompt": "Podaj stolicę państwa: Madagaskar.",
-      "answer": "Antananarywa",
-      "id": "audit6-fb071b27e8036bc81ca4"
-    },
-    {
-      "prompt": "Podaj stolicę państwa: Mauritius.",
-      "answer": "Port Louis",
-      "id": "audit6-9ee9d4f6fb9a9195a419"
-    },
-    {
-      "prompt": "Podaj stolicę państwa: Seszele.",
-      "answer": "Victoria",
-      "id": "audit6-71206739f7dfed7a8a48"
     },
     {
       "prompt": "Podaj stolicę państwa: Armenia.",
@@ -419,141 +309,6 @@ export const bank = {
       "id": "audit6-a8632668b9997bde13c3"
     },
     {
-      "prompt": "Podaj stolicę państwa: Uzbekistan.",
-      "answer": "Taszkent",
-      "id": "audit6-4295a16cb231428e8425"
-    },
-    {
-      "prompt": "Podaj stolicę państwa: Kirgistan.",
-      "answer": "Biszkek",
-      "id": "audit6-37b457a6186b5c2e0fe9"
-    },
-    {
-      "prompt": "Podaj stolicę państwa: Tadżykistan.",
-      "answer": "Duszanbe",
-      "id": "audit6-1b53480b9c564e3edff2"
-    },
-    {
-      "prompt": "Jaką oficjalną stolicę ma państwo Angola?",
-      "answer": "Luanda",
-      "id": "audit6-52560e0e4017377d5294"
-    },
-    {
-      "prompt": "Jaką oficjalną stolicę ma państwo Benin?",
-      "answer": "Porto-Novo",
-      "id": "audit6-a09a12e93ec3f4cfaeff"
-    },
-    {
-      "prompt": "Jaką oficjalną stolicę ma państwo Burkina Faso?",
-      "answer": "Wagadugu",
-      "id": "audit6-6191309b22448fbb4fa8"
-    },
-    {
-      "prompt": "Jaką oficjalną stolicę ma państwo Kamerun?",
-      "answer": "Jaunde",
-      "id": "audit6-1a3bcd63822a4aa6a311"
-    },
-    {
-      "prompt": "Jaką oficjalną stolicę ma państwo Republika Środkowoafrykańska?",
-      "answer": "Bangi",
-      "id": "audit6-49d3411085bfefd38152"
-    },
-    {
-      "prompt": "Jaką oficjalną stolicę ma państwo Czad?",
-      "answer": "Ndżamena",
-      "id": "audit6-d2e03c44810c1f075a1f"
-    },
-    {
-      "prompt": "Jaką oficjalną stolicę ma państwo Komory?",
-      "answer": "Moroni",
-      "id": "audit6-e38c7603ad16778b0023"
-    },
-    {
-      "prompt": "Jaką oficjalną stolicę ma państwo Demokratyczna Republika Konga?",
-      "answer": "Kinszasa",
-      "id": "audit6-67b0d6434a0e069d1063"
-    },
-    {
-      "prompt": "Jaką oficjalną stolicę ma państwo Republika Konga?",
-      "answer": "Brazzaville",
-      "id": "audit6-226ad8c5462a7379f516"
-    },
-    {
-      "prompt": "Jaką oficjalną stolicę ma państwo Wybrzeże Kości Słoniowej?",
-      "answer": "Jamusukro",
-      "id": "audit6-143440ed95bf65f4a589"
-    },
-    {
-      "prompt": "Jaką oficjalną stolicę ma państwo Erytrea?",
-      "answer": "Asmara",
-      "id": "audit6-aec176bbe0a8e66d91c1"
-    },
-    {
-      "prompt": "Jaką oficjalną stolicę ma państwo Gabon?",
-      "answer": "Libreville",
-      "id": "audit6-f89dae013ce7b419bafc"
-    },
-    {
-      "prompt": "Jaką oficjalną stolicę ma państwo Gambia?",
-      "answer": "Bandżul",
-      "id": "audit6-bc00172fbe788f6e4b38"
-    },
-    {
-      "prompt": "Jaką oficjalną stolicę ma państwo Gwinea?",
-      "answer": "Konakry",
-      "id": "audit6-531aa8f36bb2ce9f252c"
-    },
-    {
-      "prompt": "Jaką oficjalną stolicę ma państwo Lesotho?",
-      "answer": "Maseru",
-      "id": "audit6-520d73778913430fc114"
-    },
-    {
-      "prompt": "Jaką oficjalną stolicę ma państwo Liberia?",
-      "answer": "Monrovia",
-      "id": "audit6-25024940824090725f41"
-    },
-    {
-      "prompt": "Jaką oficjalną stolicę ma państwo Malawi?",
-      "answer": "Lilongwe",
-      "id": "audit6-61a1423343af323c1c50"
-    },
-    {
-      "prompt": "Jaką oficjalną stolicę ma państwo Mali?",
-      "answer": "Bamako",
-      "id": "audit6-a0b8072d35600500af26"
-    },
-    {
-      "prompt": "Jaką oficjalną stolicę ma państwo Mauretania?",
-      "answer": "Nawakszut",
-      "id": "audit6-c8f09ee0ad6c6eca609c"
-    },
-    {
-      "prompt": "Jaką oficjalną stolicę ma państwo Mozambik?",
-      "answer": "Maputo",
-      "id": "audit6-fb4858e5fa540af72a14"
-    },
-    {
-      "prompt": "Jaką oficjalną stolicę ma państwo Niger?",
-      "answer": "Niamey",
-      "id": "audit6-ed66f68b604cf9efbf18"
-    },
-    {
-      "prompt": "Jaką oficjalną stolicę ma państwo Sierra Leone?",
-      "answer": "Freetown",
-      "id": "audit6-cc60147e400e87b03ffe"
-    },
-    {
-      "prompt": "Jaką oficjalną stolicę ma państwo Togo?",
-      "answer": "Lomé",
-      "id": "audit6-7cfe6abb547f9037bd94"
-    },
-    {
-      "prompt": "Stolicą którego państwa jest Bissau?",
-      "answer": "Gwinea Bissau",
-      "id": "audit6-8f6017002638e57aa944"
-    },
-    {
       "prompt": "Które miasto jest stolicą Szwajcarii w sensie siedziby władz federalnych?",
       "answer": "Berno",
       "aliases": [
@@ -572,6 +327,231 @@ export const bank = {
       "kind": "kontekst",
       "difficulty": "średnie",
       "id": "v9-fc1741a067ac4ae4"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Polska.",
+      "answer": "Warszawa",
+      "id": "stolica-224d1ec2cc10d7c7fc80"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Niemcy.",
+      "answer": "Berlin",
+      "id": "stolica-3a7a5474613ab3ccb5d9"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Francja.",
+      "answer": "Paryż",
+      "id": "stolica-a78460e9eaa48bb800b4"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Hiszpania.",
+      "answer": "Madryt",
+      "id": "stolica-d168ff206b1719b55892"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Włochy.",
+      "answer": "Rzym",
+      "id": "stolica-ac11ce2968cf70e804d5"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Wielka Brytania.",
+      "answer": "Londyn",
+      "id": "stolica-c472e98091ee17e8c7d7"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Czechy.",
+      "answer": "Praga",
+      "id": "stolica-d02f0bcc328e79c28871"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Ukraina.",
+      "answer": "Kijów",
+      "id": "stolica-a48156d5fe2f4b926991"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Białoruś.",
+      "answer": "Mińsk",
+      "id": "stolica-aaae47ebcef2d3ec9b64"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Rosja.",
+      "answer": "Moskwa",
+      "id": "stolica-28d7bc1e5a05d66f79d5"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Holandia.",
+      "answer": "Amsterdam",
+      "id": "stolica-1c7a0e803e1f6263b6a6"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Luksemburg.",
+      "answer": "Luksemburg",
+      "id": "stolica-b69e9dbe7d33daee9002"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Monako.",
+      "answer": "Monako",
+      "id": "stolica-005960a6d90814b26d58"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Watykan.",
+      "answer": "Watykan",
+      "id": "stolica-bcd0f7972ee262a63d5f"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: San Marino.",
+      "answer": "San Marino",
+      "id": "stolica-87fd3befcce67042618f"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Liechtenstein.",
+      "answer": "Vaduz",
+      "id": "stolica-b0ddce0f54c916c10611"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Andora.",
+      "answer": "Andora (Andorra la Vella)",
+      "aliases": [
+        "Andorra la Vella",
+        "Andora"
+      ],
+      "id": "stolica-9cff830fcbb7f78e81e6"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Stany Zjednoczone.",
+      "answer": "Waszyngton",
+      "id": "stolica-911ffd390963ff9ad227"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Meksyk.",
+      "answer": "Meksyk",
+      "id": "stolica-2af68c7fb2d696fa3167"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Japonia.",
+      "answer": "Tokio",
+      "id": "stolica-166dfb52db0ce3588f68"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Chiny.",
+      "answer": "Pekin",
+      "id": "stolica-f64994be0b5b8069ca43"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Korea Północna.",
+      "answer": "Pjongjang",
+      "id": "stolica-321a458b423138efab58"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Izrael.",
+      "answer": "Jerozolima",
+      "id": "stolica-9d8d2f170096ae06643a",
+      "aliases": [
+        "Tel Awiw",
+        "Tel Aviv"
+      ],
+      "explanation": "Izrael uznaje za stolicę Jerozolimę; wiele państw ma ambasady w Tel Awiwie – zalicz oba."
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Iran.",
+      "answer": "Teheran",
+      "id": "stolica-889224e3fca24a6ab17d"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Irak.",
+      "answer": "Bagdad",
+      "id": "stolica-01aa4d23379565882d27"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Arabia Saudyjska.",
+      "answer": "Rijad",
+      "id": "stolica-2c434c103a73cf83586c"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Zjednoczone Emiraty Arabskie.",
+      "answer": "Abu Zabi",
+      "aliases": [
+        "Abu Dhabi"
+      ],
+      "id": "stolica-1eb120f0c5b2a33da708"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Katar.",
+      "answer": "Doha",
+      "id": "stolica-c00520635918e03ae17f"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Indonezja.",
+      "answer": "Dżakarta",
+      "id": "stolica-afa4458778131ec4650f"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Filipiny.",
+      "answer": "Manila",
+      "id": "stolica-209ba94a7aec68b7a8d6"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Pakistan.",
+      "answer": "Islamabad",
+      "id": "stolica-82d220df17cebf5ce489"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Afganistan.",
+      "answer": "Kabul",
+      "id": "stolica-b103848123f91f6f6cca"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Syria.",
+      "answer": "Damaszek",
+      "id": "stolica-3ed104337eb1dfb75010"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Liban.",
+      "answer": "Bejrut",
+      "id": "stolica-4f6c60af881ad82a823a"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Jordania.",
+      "answer": "Amman",
+      "id": "stolica-2ee9f70fec8794c79394"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Singapur.",
+      "answer": "Singapur",
+      "id": "stolica-b9f87c80f875ddc25015"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Malezja.",
+      "answer": "Kuala Lumpur",
+      "id": "stolica-9a49426541dd7c551022"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Kambodża.",
+      "answer": "Phnom Penh",
+      "id": "stolica-a279974180682a666d73"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Sri Lanka.",
+      "answer": "Kolombo",
+      "aliases": [
+        "Sri Dźajawardanapura Kotte"
+      ],
+      "id": "stolica-197042c4de91dae8aeaf"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Republika Południowej Afryki.",
+      "answer": "Pretoria",
+      "id": "stolica-8dcad8cc88660aaaf7c5"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Sudan.",
+      "answer": "Chartum",
+      "id": "stolica-1193ba31f109ecfdfab7"
+    },
+    {
+      "prompt": "Podaj stolicę państwa: Grenlandia (terytorium Danii).",
+      "answer": "Nuuk",
+      "id": "stolica-72e69e63e4a60b25530c"
     }
   ],
   "Pierwiastki": [
@@ -1053,6 +1033,291 @@ export const bank = {
       "prompt": "Który pierwiastek, którego biała odmiana świeci w ciemności, nazwano od greckiego „niosący światło”?",
       "answer": "Fosfor",
       "id": "v8-be266ff33e202d8c"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol H?",
+      "answer": "Wodór",
+      "id": "pierw-d2d87c3ebad9df3f13e5"
+    },
+    {
+      "prompt": "Jaką liczbę atomową ma wodór?",
+      "answer": "1",
+      "id": "pierw-d6abc9ab1b6b59c19c8e"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol He?",
+      "answer": "Hel",
+      "id": "pierw-4e3a03dfb6acc0fd750e"
+    },
+    {
+      "prompt": "Jaką liczbę atomową ma hel?",
+      "answer": "2",
+      "id": "pierw-d31199081d394ce45f0e"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol Li?",
+      "answer": "Lit",
+      "id": "pierw-b979edd8147b45f71ae3"
+    },
+    {
+      "prompt": "Jaką liczbę atomową ma lit?",
+      "answer": "3",
+      "id": "pierw-b52028faf061d8aa42b2"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol C?",
+      "answer": "Węgiel",
+      "id": "pierw-b02769171f8bab6af7ae"
+    },
+    {
+      "prompt": "Jaką liczbę atomową ma węgiel?",
+      "answer": "6",
+      "id": "pierw-e79df68efbfff109499f"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol N?",
+      "answer": "Azot",
+      "id": "pierw-e53c6844382337f8badd"
+    },
+    {
+      "prompt": "Jaką liczbę atomową ma azot?",
+      "answer": "7",
+      "id": "pierw-5d2d32718f4d0d46c5f0"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol O?",
+      "answer": "Tlen",
+      "id": "pierw-f1dced498b9289c5545a"
+    },
+    {
+      "prompt": "Jaką liczbę atomową ma tlen?",
+      "answer": "8",
+      "id": "pierw-9540f52f5049e023440f"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol F?",
+      "answer": "Fluor",
+      "id": "pierw-ce4e434411cc8232e61b"
+    },
+    {
+      "prompt": "Jaką liczbę atomową ma fluor?",
+      "answer": "9",
+      "id": "pierw-f5ddee8aad9e2a0cb78e"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol Ne?",
+      "answer": "Neon",
+      "id": "pierw-cb3ceed54413ba1ff28d"
+    },
+    {
+      "prompt": "Jaką liczbę atomową ma neon?",
+      "answer": "10",
+      "id": "pierw-894cee8b5f6467262cfb"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol Na?",
+      "answer": "Sód",
+      "id": "pierw-50b79e9a64b6ca1efe6d"
+    },
+    {
+      "prompt": "Jaką liczbę atomową ma sód?",
+      "answer": "11",
+      "id": "pierw-53ac99366a80ad121605"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol Mg?",
+      "answer": "Magnez",
+      "id": "pierw-3259113ba81d9126faa2"
+    },
+    {
+      "prompt": "Jaką liczbę atomową ma magnez?",
+      "answer": "12",
+      "id": "pierw-c51fd32adc2454246c92"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol Al?",
+      "answer": "Glin",
+      "id": "pierw-e91889e76273cf43292b"
+    },
+    {
+      "prompt": "Jaką liczbę atomową ma glin?",
+      "answer": "13",
+      "id": "pierw-8dd6970844d684b81089"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol Si?",
+      "answer": "Krzem",
+      "id": "pierw-31f9347ac1bf1beae2d9"
+    },
+    {
+      "prompt": "Jaką liczbę atomową ma krzem?",
+      "answer": "14",
+      "id": "pierw-08336b1e86a93bfdbbb8"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol P?",
+      "answer": "Fosfor",
+      "id": "pierw-82923876b1f40b647e08"
+    },
+    {
+      "prompt": "Jaką liczbę atomową ma fosfor?",
+      "answer": "15",
+      "id": "pierw-43bf9280c67751f194a2"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol S?",
+      "answer": "Siarka",
+      "id": "pierw-8349b7003973cc864a65"
+    },
+    {
+      "prompt": "Jaką liczbę atomową ma siarka?",
+      "answer": "16",
+      "id": "pierw-475701ae119c13f21a19"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol Cl?",
+      "answer": "Chlor",
+      "id": "pierw-87ac09c504a9937bb044"
+    },
+    {
+      "prompt": "Jaką liczbę atomową ma chlor?",
+      "answer": "17",
+      "id": "pierw-d222800cdb13d8fac6f3"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol Ar?",
+      "answer": "Argon",
+      "id": "pierw-f46d7c7dd386e66e2fc6"
+    },
+    {
+      "prompt": "Jaką liczbę atomową ma argon?",
+      "answer": "18",
+      "id": "pierw-1ed5f90f9b8f82121f26"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol K?",
+      "answer": "Potas",
+      "id": "pierw-647073ba05a88cbc5fc7"
+    },
+    {
+      "prompt": "Jaką liczbę atomową ma potas?",
+      "answer": "19",
+      "id": "pierw-7b1978e9c289f2386488"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol Ca?",
+      "answer": "Wapń",
+      "id": "pierw-41068d858231ab363a04"
+    },
+    {
+      "prompt": "Jaką liczbę atomową ma wapń?",
+      "answer": "20",
+      "id": "pierw-348952d97e303b22b6e3"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol Fe?",
+      "answer": "Żelazo",
+      "id": "pierw-e24623182b8bbfe17ea0"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol Cu?",
+      "answer": "Miedź",
+      "id": "pierw-82d48533a22eeea80965"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol Zn?",
+      "answer": "Cynk",
+      "id": "pierw-7cc92bc78869f1a68ab7"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol Ag?",
+      "answer": "Srebro",
+      "id": "pierw-c8a300f8628dbab130e7"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol Sn?",
+      "answer": "Cyna",
+      "id": "pierw-25d89adbb08e1f625082"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol I?",
+      "answer": "Jod",
+      "id": "pierw-274fb551783437468376"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol Au?",
+      "answer": "Złoto",
+      "id": "pierw-fbcdb2bb8e08c2ccc25a"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol Hg?",
+      "answer": "Rtęć",
+      "id": "pierw-6d5f2d35c6d395a2309b"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol Pb?",
+      "answer": "Ołów",
+      "id": "pierw-da5404389402f1fddd6b"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol U?",
+      "answer": "Uran",
+      "id": "pierw-bf4319bf3553dfd2f43f"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol Pt?",
+      "answer": "Platyna",
+      "id": "pierw-24cc756e3eafd2587c3b"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol Ni?",
+      "answer": "Nikiel",
+      "id": "pierw-dee2cdcd0c5d2ce27412"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol Cr?",
+      "answer": "Chrom",
+      "id": "pierw-33636ac55b247920486e"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol W?",
+      "answer": "Wolfram",
+      "id": "pierw-ff96a363a5d0c6a1d86b"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol Ra?",
+      "answer": "Rad",
+      "id": "pierw-3f474b67930e99d9d2d3"
+    },
+    {
+      "prompt": "Który pierwiastek ma symbol Po?",
+      "answer": "Polon",
+      "id": "pierw-f48b0f27c1a1efb73a8f"
+    },
+    {
+      "prompt": "Który pierwiastek odkryła Maria Skłodowska-Curie i nazwała na cześć Polski?",
+      "answer": "Polon",
+      "id": "pierw-b66cfad9e9d3ce7b7e0d"
+    },
+    {
+      "prompt": "Który pierwiastek jest głównym składnikiem diamentu?",
+      "answer": "Węgiel",
+      "id": "pierw-22514121cde5d40f82a6"
+    },
+    {
+      "prompt": "Który gaz szlachetny świeci na czerwono-pomarańczowo w reklamach?",
+      "answer": "Neon",
+      "id": "pierw-9259a3c03cdfb4d59daf"
+    },
+    {
+      "prompt": "Który pierwiastek jest najlżejszy?",
+      "answer": "Wodór",
+      "id": "pierw-2fe1e9e06af64f511a03"
+    },
+    {
+      "prompt": "Z jakiego pierwiastka jest zbudowany grafit?",
+      "answer": "Węgiel",
+      "id": "pierw-a46a4dc482c4719f0a9e"
     }
   ],
   "Zwierzęta": [
@@ -1550,6 +1815,223 @@ export const bank = {
       "kind": "kontekst",
       "difficulty": "średnie",
       "id": "v9-a3ae2d71f5424725"
+    },
+    {
+      "prompt": "Jak nazywa się samica konia?",
+      "answer": "Klacz",
+      "id": "zwierzeta-8cecd982e640ef01c13e"
+    },
+    {
+      "prompt": "Jak nazywa się młode konia?",
+      "answer": "Źrebię",
+      "aliases": [
+        "Źrebak"
+      ],
+      "id": "zwierzeta-37639844339f80e1355b"
+    },
+    {
+      "prompt": "Jak nazywa się samiec kury?",
+      "answer": "Kogut",
+      "id": "zwierzeta-668a323020871c7629db"
+    },
+    {
+      "prompt": "Jak nazywa się młode kozy?",
+      "answer": "Koźlę",
+      "id": "zwierzeta-8ac59feb196d999e26ca"
+    },
+    {
+      "prompt": "Jak nazywa się młode owcy?",
+      "answer": "Jagnię",
+      "aliases": [
+        "Owieczka",
+        "Baranek"
+      ],
+      "id": "zwierzeta-095c606cd91bccc0f0bf"
+    },
+    {
+      "prompt": "Jak nazywa się samiec kaczki?",
+      "answer": "Kaczor",
+      "id": "zwierzeta-4935e0d5518bb33ce9c6"
+    },
+    {
+      "prompt": "Jak nazywa się młode żaby?",
+      "answer": "Kijanka",
+      "id": "zwierzeta-1b62006b880760317416"
+    },
+    {
+      "prompt": "Ile nóg ma owad?",
+      "answer": "6",
+      "aliases": [
+        "Sześć"
+      ],
+      "id": "zwierzeta-04e985c895a07cf3663b"
+    },
+    {
+      "prompt": "Ile nóg ma pająk?",
+      "answer": "8",
+      "aliases": [
+        "Osiem"
+      ],
+      "id": "zwierzeta-b868cc6d9df95d094e7c"
+    },
+    {
+      "prompt": "Ile serc ma ośmiornica?",
+      "answer": "3",
+      "aliases": [
+        "Trzy"
+      ],
+      "id": "zwierzeta-c25cce70d85549a28ca1"
+    },
+    {
+      "prompt": "Jakiego koloru jest krew ośmiornicy?",
+      "answer": "Niebieskiego",
+      "aliases": [
+        "Niebieska"
+      ],
+      "id": "zwierzeta-e48f758cb3f9a76e8285"
+    },
+    {
+      "prompt": "Które zwierzę jest najszybszym zwierzęciem lądowym?",
+      "answer": "Gepard",
+      "id": "zwierzeta-35b9ffa14202b222d3c0"
+    },
+    {
+      "prompt": "Jaki jest największy ptak świata?",
+      "answer": "Struś",
+      "id": "zwierzeta-00c0786dd46bcf4389f5"
+    },
+    {
+      "prompt": "Jaki ssak potrafi aktywnie latać?",
+      "answer": "Nietoperz",
+      "id": "zwierzeta-524f437db916a73ecf8b"
+    },
+    {
+      "prompt": "Jakie zwierzę jest symbolem WWF?",
+      "answer": "Panda wielka",
+      "aliases": [
+        "Panda"
+      ],
+      "id": "zwierzeta-3a45955686b12d19a276"
+    },
+    {
+      "prompt": "Czym żywi się głównie panda wielka?",
+      "answer": "Bambusem",
+      "aliases": [
+        "Bambus"
+      ],
+      "id": "zwierzeta-3bc8a79a0b4e736c5eeb"
+    },
+    {
+      "prompt": "Czym żywi się koala?",
+      "answer": "Liśćmi eukaliptusa",
+      "aliases": [
+        "Eukaliptus"
+      ],
+      "id": "zwierzeta-f682ec85c42b54d62ce5"
+    },
+    {
+      "prompt": "Jak nazywa się największy polski ssak?",
+      "answer": "Żubr",
+      "id": "zwierzeta-1919a3581aed1b44317f"
+    },
+    {
+      "prompt": "Jaki ptak jest symbolem Polski w godle?",
+      "answer": "Orzeł",
+      "aliases": [
+        "Orzeł bielik",
+        "Bielik"
+      ],
+      "id": "zwierzeta-05397f86eae965cb74e5"
+    },
+    {
+      "prompt": "Jaki ptak przylatuje do Polski wiosną i buduje gniazda na słupach?",
+      "answer": "Bocian",
+      "aliases": [
+        "Bocian biały"
+      ],
+      "id": "zwierzeta-bc9170b4ae32a42db610"
+    },
+    {
+      "prompt": "Jak nazywa się zimowy sen niektórych zwierząt?",
+      "answer": "Hibernacja",
+      "aliases": [
+        "Sen zimowy"
+      ],
+      "id": "zwierzeta-6c9a92ba91f25640b87a"
+    },
+    {
+      "prompt": "Które zwierzę zmienia kolor skóry, by się kamuflować?",
+      "answer": "Kameleon",
+      "id": "zwierzeta-490c2fffc0221a953b0e"
+    },
+    {
+      "prompt": "Co wielbłąd magazynuje w garbie?",
+      "answer": "Tłuszcz",
+      "id": "zwierzeta-21dfdfc58257bcc545a5"
+    },
+    {
+      "prompt": "Ile garbów ma wielbłąd dwugarbny?",
+      "answer": "2",
+      "aliases": [
+        "Dwa"
+      ],
+      "id": "zwierzeta-bce663a2dad4b98b7428"
+    },
+    {
+      "prompt": "Jak nazywa się zwierzę, które w Australii ma torbę i skacze?",
+      "answer": "Kangur",
+      "id": "zwierzeta-d2f2bf1a3e4f14c93411"
+    },
+    {
+      "prompt": "Który ssak składa jaja i ma dziób jak kaczka?",
+      "answer": "Dziobak",
+      "id": "zwierzeta-f8d4e86e855ab3ef3a47"
+    },
+    {
+      "prompt": "Jak nazywa się dom bobra?",
+      "answer": "Żeremie",
+      "id": "zwierzeta-e9c1b44379f5170c8db1"
+    },
+    {
+      "prompt": "Jak nazywa się dom pszczół w pasiece?",
+      "answer": "Ul",
+      "id": "zwierzeta-55add10307101580f3af"
+    },
+    {
+      "prompt": "Które zwierzę śpi najdłużej w ciągu doby (do ok. 20 godzin)?",
+      "answer": "Koala",
+      "aliases": [
+        "Leniwiec"
+      ],
+      "id": "zwierzeta-fea820480b602e0b4235"
+    },
+    {
+      "prompt": "Jak nazywa się największa ryba świata?",
+      "answer": "Rekin wielorybi",
+      "id": "zwierzeta-dae218fe351fea276174"
+    },
+    {
+      "prompt": "Który ptak potrafi latać do tyłu?",
+      "answer": "Koliber",
+      "id": "zwierzeta-f0b197b3953c0243c138"
+    },
+    {
+      "prompt": "Ile kończyn ma rozgwiazda (najczęściej)?",
+      "answer": "5",
+      "aliases": [
+        "Pięć"
+      ],
+      "id": "zwierzeta-7dd7aa6fff7990f0afd0"
+    },
+    {
+      "prompt": "Jak nazywa się zwierzę, które zwija się w kulkę z kolcami?",
+      "answer": "Jeż",
+      "id": "zwierzeta-b72139e80c0735f590d5"
+    },
+    {
+      "prompt": "Jak nazywa się psia rasa z Polski, symbol Tatr, o białej sierści?",
+      "answer": "Owczarek podhalański",
+      "id": "zwierzeta-a331bae274c400535417"
     }
   ],
   "Polska": [
@@ -2077,6 +2559,256 @@ export const bank = {
       "kind": "kontekst",
       "difficulty": "średnie",
       "id": "v9-f2d8a7d24f4f7fe2"
+    },
+    {
+      "prompt": "Jak nazywa się najdłuższa rzeka w Polsce?",
+      "answer": "Wisła",
+      "id": "polska-8e819d4ed6fbeb5afadd"
+    },
+    {
+      "prompt": "Jaki jest najwyższy szczyt Polski?",
+      "answer": "Rysy",
+      "id": "polska-a2664761d597fad8f21b"
+    },
+    {
+      "prompt": "Jak nazywa się największe jezioro w Polsce?",
+      "answer": "Śniardwy",
+      "id": "polska-9fe5c6fd625b968c5e05"
+    },
+    {
+      "prompt": "Jak nazywa się najgłębsze jezioro w Polsce?",
+      "answer": "Hańcza",
+      "id": "polska-efb0c84ae3acfc679b3d"
+    },
+    {
+      "prompt": "Które województwo jest największe powierzchniowo?",
+      "answer": "Mazowieckie",
+      "id": "polska-d749c4bfb66c6e1dfc54"
+    },
+    {
+      "prompt": "Które polskie miasto ma najwięcej mieszkańców po Warszawie?",
+      "answer": "Kraków",
+      "id": "polska-a010a0a2dc03ba68dce2"
+    },
+    {
+      "prompt": "Jak nazywa się półwysep na polskim wybrzeżu, zakończony Helem?",
+      "answer": "Mierzeja Helska",
+      "aliases": [
+        "Półwysep Helski",
+        "Hel"
+      ],
+      "id": "polska-36f0bf166d12a4a37cc3"
+    },
+    {
+      "prompt": "Jak nazywa się największa pustynia w Polsce?",
+      "answer": "Pustynia Błędowska",
+      "id": "polska-fa53051f399a3be76821"
+    },
+    {
+      "prompt": "Jak nazywa się najstarszy park narodowy w Polsce (utworzony w 1932)?",
+      "answer": "Białowieski Park Narodowy",
+      "aliases": [
+        "Białowieski",
+        "Pieniński"
+      ],
+      "id": "polska-c9b835779e6b42c112a7"
+    },
+    {
+      "prompt": "W jakim mieście znajduje się Wawel?",
+      "answer": "Kraków",
+      "aliases": [
+        "W Krakowie"
+      ],
+      "id": "polska-fbd6978ae3a047bbf987"
+    },
+    {
+      "prompt": "W jakim mieście jest Pałac Kultury i Nauki?",
+      "answer": "Warszawa",
+      "aliases": [
+        "W Warszawie"
+      ],
+      "id": "polska-58882f6f276ff7959cae"
+    },
+    {
+      "prompt": "W jakim mieście stoi Neptun przed Dworem Artusa?",
+      "answer": "Gdańsk",
+      "aliases": [
+        "W Gdańsku"
+      ],
+      "id": "polska-3b342cd0ab8d9237e963"
+    },
+    {
+      "prompt": "W jakim mieście jest Hala Stulecia?",
+      "answer": "Wrocław",
+      "aliases": [
+        "We Wrocławiu"
+      ],
+      "id": "polska-3253d12f8396351d8a89"
+    },
+    {
+      "prompt": "W jakim mieście co dzień w południe na Starym Rynku trykają się koziołki?",
+      "answer": "Poznań",
+      "aliases": [
+        "W Poznaniu"
+      ],
+      "id": "polska-ffa34c802116611f59a0"
+    },
+    {
+      "prompt": "W jakim mieście urodził się Mikołaj Kopernik?",
+      "answer": "Toruń",
+      "aliases": [
+        "W Toruniu"
+      ],
+      "id": "polska-c1bdb1a6977739023a66"
+    },
+    {
+      "prompt": "W jakim mieście jest największy zamek ceglany świata, siedziba Krzyżaków?",
+      "answer": "Malbork",
+      "aliases": [
+        "W Malborku"
+      ],
+      "id": "polska-b6d9125d8930f5e523b7"
+    },
+    {
+      "prompt": "Z jakiego miasta pochodzą słynne pierniki?",
+      "answer": "Toruń",
+      "id": "polska-ec31e7e991dc78249743"
+    },
+    {
+      "prompt": "Jakie miasto słynie z oscypków i jest zimową stolicą Polski?",
+      "answer": "Zakopane",
+      "id": "polska-2426e96cc150d86c543f"
+    },
+    {
+      "prompt": "Jak nazywa się kopalnia soli wpisana na listę UNESCO, niedaleko Krakowa?",
+      "answer": "Kopalnia Soli w Wieliczce",
+      "aliases": [
+        "Wieliczka"
+      ],
+      "id": "polska-bec3d6522b6939b4f20d"
+    },
+    {
+      "prompt": "Jak nazywa się najdłuższe molo w Polsce?",
+      "answer": "Molo w Sopocie",
+      "aliases": [
+        "Sopot"
+      ],
+      "id": "polska-ee0aab0f9966deeaf0ce"
+    },
+    {
+      "prompt": "Jak nazywa się główny szlak wodny przez Kraków i Warszawę?",
+      "answer": "Wisła",
+      "id": "polska-3bf7654a1468e514a28c"
+    },
+    {
+      "prompt": "Jakie zwierzę jest symbolem Warszawy?",
+      "answer": "Syrenka",
+      "aliases": [
+        "Syrena"
+      ],
+      "id": "polska-591344cfb1c2609d5f6c"
+    },
+    {
+      "prompt": "Jakie zwierzę jest symbolem Krakowa w legendzie?",
+      "answer": "Smok Wawelski",
+      "aliases": [
+        "Smok"
+      ],
+      "id": "polska-4abd2d560b9ae5679b0e"
+    },
+    {
+      "prompt": "Jakiego koloru są polskie flagi (od góry)?",
+      "answer": "Biały i czerwony",
+      "aliases": [
+        "Biało-czerwona"
+      ],
+      "id": "polska-a73dbdc36c2dc7271fc7"
+    },
+    {
+      "prompt": "Kiedy obchodzimy Święto Niepodległości?",
+      "answer": "11 listopada",
+      "id": "polska-9d6c24710fdc9930e790"
+    },
+    {
+      "prompt": "Jak nazywa się hymn Polski?",
+      "answer": "Mazurek Dąbrowskiego",
+      "id": "polska-da17952a92ffe1a12cb8"
+    },
+    {
+      "prompt": "Jaka waluta obowiązuje w Polsce?",
+      "answer": "Złoty",
+      "aliases": [
+        "PLN",
+        "Złotówka"
+      ],
+      "id": "polska-a76570393b166963c722"
+    },
+    {
+      "prompt": "Z iloma państwami graniczy Polska?",
+      "answer": "7",
+      "aliases": [
+        "Siedem"
+      ],
+      "id": "polska-14b4d946753939efd8ae"
+    },
+    {
+      "prompt": "Jak nazywa się pasmo gór na południowym zachodzie Polski ze Śnieżką?",
+      "answer": "Karkonosze",
+      "id": "polska-5fd9c3a39a980b4e7ffc"
+    },
+    {
+      "prompt": "Jak nazywa się kraina na północnym wschodzie Polski „tysiąca jezior”?",
+      "answer": "Mazury",
+      "id": "polska-9109ecf4711f8aecf558"
+    },
+    {
+      "prompt": "Jak nazywa się polski region słynący z gwary i strojów ludowych w okolicy Łowicza?",
+      "answer": "Łowickie",
+      "aliases": [
+        "Księstwo Łowickie",
+        "Łowicz"
+      ],
+      "id": "polska-9cb9126f371421e0e47d"
+    },
+    {
+      "prompt": "W którym mieście znajduje się Jasna Góra?",
+      "answer": "Częstochowa",
+      "aliases": [
+        "W Częstochowie"
+      ],
+      "id": "polska-4488524deeb147732cb6"
+    },
+    {
+      "prompt": "Jaka rzeka płynie przez Wrocław?",
+      "answer": "Odra",
+      "id": "polska-cf368c96bf37de4bd987"
+    },
+    {
+      "prompt": "Jaka rzeka płynie przez Poznań?",
+      "answer": "Warta",
+      "id": "polska-3d24fa68ec215e7aeed4"
+    },
+    {
+      "prompt": "Jak nazywa się zatoka nad którą leżą Gdańsk i Gdynia?",
+      "answer": "Zatoka Gdańska",
+      "id": "polska-bf41228e3608cb40e43a"
+    },
+    {
+      "prompt": "W którym mieście jest stadion Narodowy?",
+      "answer": "Warszawa",
+      "aliases": [
+        "W Warszawie"
+      ],
+      "id": "polska-18b6d0fd5b70f7acd9e1"
+    },
+    {
+      "prompt": "Jak nazywa się najstarszy polski uniwersytet?",
+      "answer": "Uniwersytet Jagielloński",
+      "aliases": [
+        "UJ",
+        "Akademia Krakowska"
+      ],
+      "id": "polska-21ccc956e56dbcdb3aa7"
     }
   ],
   "Jedzenie": [
@@ -6287,16 +7019,6 @@ export const bank = {
       "id": "audit6-9022c1e2894bbc7feb67"
     },
     {
-      "prompt": "Jak nazywa się pustynia nad Atlantykiem w Namibii?",
-      "answer": "Namib",
-      "id": "audit6-607cede00f322d314028"
-    },
-    {
-      "prompt": "Jak nazywa się pustynia w Botswanie, Namibii i RPA?",
-      "answer": "Kalahari",
-      "id": "audit6-8d38e2c55fd8942d1553"
-    },
-    {
       "prompt": "Jak nazywa się największy system raf koralowych u wybrzeży Australii?",
       "answer": "Wielka Rafa Koralowa",
       "id": "audit6-555d927d1925c14b2549"
@@ -6305,11 +7027,6 @@ export const bank = {
       "prompt": "Jak nazywa się najgłębszy rów oceaniczny?",
       "answer": "Rów Mariański",
       "id": "audit6-c2732b0d7ce67bcb0ddd"
-    },
-    {
-      "prompt": "Jak nazywa się najgłębszy znany punkt oceanów w Rowie Mariańskim?",
-      "answer": "Głębia Challengera",
-      "id": "audit6-cdd58078f9bff5a09a1a"
     },
     {
       "prompt": "Jak nazywa się ciepły prąd oceaniczny płynący od Zatoki Meksykańskiej ku północnemu Atlantykowi?",
@@ -6321,33 +7038,9 @@ export const bank = {
       ]
     },
     {
-      "prompt": "Jak nazywa się zimny prąd wzdłuż zachodnich wybrzeży Ameryki Południowej?",
-      "answer": "Prąd Peruwiański / Humboldta",
-      "id": "audit6-aa69877d3a70cae0698a",
-      "aliases": [
-        "Prąd Peruwiański",
-        "Humboldta"
-      ]
-    },
-    {
-      "prompt": "Jak nazywa się okresowe ocieplenie powierzchni równikowego Pacyfiku?",
-      "answer": "El Niño",
-      "id": "audit6-a061bf89736539cae369"
-    },
-    {
       "prompt": "Jak nazywa się sezonowy wiatr zmieniający kierunek między latem i zimą, ważny w Azji?",
       "answer": "Monsun",
       "id": "audit6-0741d832ae6427d5c973"
-    },
-    {
-      "prompt": "Jak nazywa się stały wiatr wiejący od wyżów zwrotnikowych ku równikowi?",
-      "answer": "Pasat",
-      "id": "audit6-eb130f784d3538165ae5"
-    },
-    {
-      "prompt": "Jak nazywa się ciepły, suchy wiatr spadający po zawietrznej stronie gór?",
-      "answer": "Fen",
-      "id": "audit6-550772d34c57276c7c6c"
     },
     {
       "prompt": "Jak nazywa się trawiasta formacja strefy międzyzwrotnikowej z rozproszonymi drzewami?",
@@ -6375,16 +7068,6 @@ export const bank = {
       "id": "audit6-8fabc12a9019e3645e04"
     },
     {
-      "prompt": "Jak nazywa się trawiasta formacja Argentyny i Urugwaju?",
-      "answer": "Pampa",
-      "id": "audit6-1ce6dc25ffafdc0e9b38"
-    },
-    {
-      "prompt": "Jak nazywa się wilgotny las równikowy dorzecza Amazonki, określany jednym słowem?",
-      "answer": "Selwa",
-      "id": "audit6-4aa9f77a2c1cac2dc2ae"
-    },
-    {
       "prompt": "Jak nazywa się najdłuższa rzeka Europy?",
       "answer": "Wołga",
       "id": "audit6-6430bf28a4adc036fc58"
@@ -6395,68 +7078,9 @@ export const bank = {
       "id": "audit6-139976182e03c8fff744"
     },
     {
-      "prompt": "Jak nazywa się rzeka nazywana Żółtą Rzeką?",
-      "answer": "Huang He",
-      "id": "audit6-e9db8e5e2540b5dd6dfd"
-    },
-    {
-      "prompt": "Jak nazywa się rzeka przepływająca przez Bagdad?",
-      "answer": "Tygrys",
-      "id": "audit6-717e5a4b19c003276e7d"
-    },
-    {
-      "prompt": "Jak nazywa się druga wielka rzeka Mezopotamii, obok Tygrysu?",
-      "answer": "Eufrat",
-      "id": "audit6-c8147fe4826899427370"
-    },
-    {
-      "prompt": "Jak nazywa się rzeka przepływająca przez Lizbonę?",
-      "answer": "Tag",
-      "id": "audit6-b98049dbabc724bc90fc"
-    },
-    {
-      "prompt": "Jak nazywa się rzeka przepływająca przez Porto?",
-      "answer": "Douro",
-      "id": "audit6-a72c7295b1532762b6a9"
-    },
-    {
-      "prompt": "Jak nazywa się rzeka przepływająca przez Hamburg?",
-      "answer": "Łaba",
-      "id": "audit6-02194e17891fcdd970ca"
-    },
-    {
       "prompt": "Jak nazywa się rzeka przepływająca przez Kolonię?",
       "answer": "Ren",
       "id": "audit6-80e2ba63bd6e3056e0ed"
-    },
-    {
-      "prompt": "Jak nazywa się rzeka przepływająca przez Lyon wraz z Saoną?",
-      "answer": "Rodan",
-      "id": "audit6-0c9910ea6a87c578363b"
-    },
-    {
-      "prompt": "Jak nazywa się rzeka przepływająca przez Florencję?",
-      "answer": "Arno",
-      "id": "audit6-e1f8adece7e43a1e5f49"
-    },
-    {
-      "prompt": "Jak nazywa się rzeka przepływająca przez Bangkok?",
-      "answer": "Menam / Chao Phraya",
-      "id": "audit6-5b1d8c3ec0959624adf6",
-      "aliases": [
-        "Menam",
-        "Chao Phraya"
-      ]
-    },
-    {
-      "prompt": "Jak nazywa się rzeka przepływająca przez Seul?",
-      "answer": "Han",
-      "id": "audit6-656788c7f3a9e35f0ce0"
-    },
-    {
-      "prompt": "Jak nazywa się rzeka przepływająca przez Waszyngton?",
-      "answer": "Potomak",
-      "id": "audit6-6e0eec13e97028028c54"
     },
     {
       "prompt": "Jak nazywa się największe jezioro Afryki pod względem powierzchni?",
@@ -6464,19 +7088,9 @@ export const bank = {
       "id": "audit6-7cf9c8695aa5a5b6bc22"
     },
     {
-      "prompt": "Jak nazywa się najgłębsze jezioro Afryki?",
-      "answer": "Tanganika",
-      "id": "audit6-999101bb2e47a2706c75"
-    },
-    {
       "prompt": "Jak nazywa się najwyżej położone duże żeglowne jezioro na granicy Peru i Boliwii?",
       "answer": "Titicaca",
       "id": "audit6-c0d8494cf7a9f29dc2a7"
-    },
-    {
-      "prompt": "Jak nazywa się największe z Wielkich Jezior Ameryki Północnej pod względem powierzchni?",
-      "answer": "Jezioro Górne",
-      "id": "audit6-8a1fb1d20a275a68c2ba"
     },
     {
       "prompt": "Jak nazywa się największy zbiornik śródlądowy świata, tradycyjnie nazywany morzem?",
@@ -6494,44 +7108,14 @@ export const bank = {
       "id": "audit6-52c287d1d9a17a3db5fd"
     },
     {
-      "prompt": "Jak nazywa się pasmo górskie w północno-zachodniej Afryce?",
-      "answer": "Atlas",
-      "id": "audit6-0b32ff652698423002bf"
-    },
-    {
-      "prompt": "Jak nazywa się pasmo górskie wzdłuż wschodniej części Ameryki Północnej?",
-      "answer": "Appalachy",
-      "id": "audit6-e087f234304748b72e37"
-    },
-    {
-      "prompt": "Jak nazywa się najwyższy szczyt Ameryki Północnej?",
-      "answer": "Denali",
-      "id": "audit6-4c36b156b4313d026d34"
-    },
-    {
       "prompt": "Jak nazywa się najwyższy szczyt Alp?",
       "answer": "Mont Blanc",
       "id": "audit6-e06be62e7966203295fa"
     },
     {
-      "prompt": "Jak nazywa się najwyższy szczyt Pirenejów?",
-      "answer": "Aneto",
-      "id": "audit6-22ef2297956bc505bc94"
-    },
-    {
       "prompt": "Jak nazywa się najwyższy szczyt Australii kontynentalnej?",
       "answer": "Góra Kościuszki",
       "id": "audit6-e77f34e091b0129613f6"
-    },
-    {
-      "prompt": "Jak nazywa się cieśnina między wyspami Wielkiej Brytanii i Irlandii, na północy Morza Irlandzkiego?",
-      "answer": "Kanał Północny",
-      "id": "audit6-c08ee2899a8cd5605dbd"
-    },
-    {
-      "prompt": "Jak nazywa się cieśnina między Półwyspem Malajskim a Sumatrą?",
-      "answer": "Cieśnina Malakka",
-      "id": "audit6-c72d9e5bacd554c6ca13"
     },
     {
       "prompt": "Na którym kontynencie leżą Andy?",
@@ -6747,6 +7331,210 @@ export const bank = {
       "prompt": "Na którym kontynencie leży najwięcej państw?",
       "answer": "Afryka",
       "id": "v20-22bd13aae93c58485c2f"
+    },
+    {
+      "prompt": "Na którym kontynencie leży Polska?",
+      "answer": "Europa",
+      "id": "geo-swiat-b431969fe8f125e77a13"
+    },
+    {
+      "prompt": "Na którym kontynencie leży Egipt?",
+      "answer": "Afryka",
+      "id": "geo-swiat-1498adec22dcf32feb6f"
+    },
+    {
+      "prompt": "Na którym kontynencie leży Japonia?",
+      "answer": "Azja",
+      "id": "geo-swiat-22695287660488621edc"
+    },
+    {
+      "prompt": "Na którym kontynencie leży Brazylia?",
+      "answer": "Ameryka Południowa",
+      "id": "geo-swiat-a7b91ba2a46492c32ce3"
+    },
+    {
+      "prompt": "Który kontynent jest największy?",
+      "answer": "Azja",
+      "id": "geo-swiat-6fcdbb331d93ab3286ec"
+    },
+    {
+      "prompt": "Który kontynent jest najzimniejszy i pokryty lodem?",
+      "answer": "Antarktyda",
+      "id": "geo-swiat-364436a0a83a24dde2a5"
+    },
+    {
+      "prompt": "Ile kontynentów jest na Ziemi (najczęściej podawana liczba)?",
+      "answer": "7",
+      "aliases": [
+        "Siedem"
+      ],
+      "id": "geo-swiat-85a126317881ae4691f7"
+    },
+    {
+      "prompt": "Jak nazywa się największa pustynia gorąca na świecie?",
+      "answer": "Sahara",
+      "id": "geo-swiat-241b71ebec03ba4a57cc"
+    },
+    {
+      "prompt": "Jak nazywa się morze, nad którym leży Polska?",
+      "answer": "Bałtyk",
+      "aliases": [
+        "Morze Bałtyckie"
+      ],
+      "id": "geo-swiat-8cdc5174f5b1fc479025"
+    },
+    {
+      "prompt": "Nad jakim morzem leży Chorwacja?",
+      "answer": "Adriatyk",
+      "aliases": [
+        "Morze Adriatyckie"
+      ],
+      "id": "geo-swiat-a56f1d56b655be940538"
+    },
+    {
+      "prompt": "Nad jakim morzem leży Grecja (głównie)?",
+      "answer": "Morze Egejskie",
+      "aliases": [
+        "Morze Śródziemne",
+        "Egejskie"
+      ],
+      "id": "geo-swiat-f07f91482962dc325f78"
+    },
+    {
+      "prompt": "Jak nazywa się morze, nad którym leżą Bułgaria, Rumunia i Turcja (północne wybrzeże)?",
+      "answer": "Morze Czarne",
+      "id": "geo-swiat-5d77ec36d54b8f502fc4"
+    },
+    {
+      "prompt": "W jakim państwie leży Wielki Kanion?",
+      "answer": "Stany Zjednoczone",
+      "aliases": [
+        "USA"
+      ],
+      "id": "geo-swiat-a4dc487e0aaa3d99d311"
+    },
+    {
+      "prompt": "W jakim państwie znajduje się wieża Eiffla?",
+      "answer": "Francja",
+      "id": "geo-swiat-44345286a0a9ca0e748b"
+    },
+    {
+      "prompt": "W jakim państwie są piramidy w Gizie?",
+      "answer": "Egipt",
+      "id": "geo-swiat-bcb1bd331132552bd223"
+    },
+    {
+      "prompt": "W jakim państwie znajduje się Koloseum?",
+      "answer": "Włochy",
+      "id": "geo-swiat-fdb8b0a48e6db60113ce"
+    },
+    {
+      "prompt": "W jakim państwie leży Wielki Mur?",
+      "answer": "Chiny",
+      "id": "geo-swiat-c453d61c656ff89860e0"
+    },
+    {
+      "prompt": "W jakim państwie znajduje się Statua Wolności?",
+      "answer": "Stany Zjednoczone",
+      "aliases": [
+        "USA"
+      ],
+      "id": "geo-swiat-f4a00e650a38bb941a28"
+    },
+    {
+      "prompt": "W jakim państwie leży góra Fudżi?",
+      "answer": "Japonia",
+      "id": "geo-swiat-5de31f545a9ca9dfeb23"
+    },
+    {
+      "prompt": "W jakim państwie znajduje się Akropol?",
+      "answer": "Grecja",
+      "id": "geo-swiat-1ff4498f4a988bc3c620"
+    },
+    {
+      "prompt": "W jakim państwie leży Big Ben?",
+      "answer": "Wielka Brytania",
+      "aliases": [
+        "Anglia"
+      ],
+      "id": "geo-swiat-ccffe8e54bea324c505d"
+    },
+    {
+      "prompt": "W jakim państwie leży Kilimandżaro?",
+      "answer": "Tanzania",
+      "id": "geo-swiat-e3a4c4b143b703cbd145"
+    },
+    {
+      "prompt": "Jak nazywa się państwo w kształcie buta?",
+      "answer": "Włochy",
+      "id": "geo-swiat-a8db5da269ac52a75968"
+    },
+    {
+      "prompt": "Które państwo jest największe w Ameryce Południowej?",
+      "answer": "Brazylia",
+      "id": "geo-swiat-5dcfc45bc2bb63ccb729"
+    },
+    {
+      "prompt": "Jaka rzeka przepływa przez Wiedeń, Budapeszt i Belgrad?",
+      "answer": "Dunaj",
+      "id": "geo-swiat-60749280af60f8a090f7"
+    },
+    {
+      "prompt": "Jak nazywa się największe jezioro w Europie Zachodniej, między Szwajcarią a Francją?",
+      "answer": "Jezioro Genewskie",
+      "aliases": [
+        "Leman"
+      ],
+      "id": "geo-swiat-f09f35dbd1b4f1408b06"
+    },
+    {
+      "prompt": "Jak nazywa się wyspa, na której leży Londyn?",
+      "answer": "Wielka Brytania",
+      "id": "geo-swiat-9227575aabcf2108cf07"
+    },
+    {
+      "prompt": "Na jakiej wyspie leży hiszpańska Palma?",
+      "answer": "Majorka",
+      "id": "geo-swiat-4642ccfab637b24a8feb"
+    },
+    {
+      "prompt": "Do jakiego państwa należą Wyspy Kanaryjskie?",
+      "answer": "Hiszpania",
+      "id": "geo-swiat-82677b578eb3a57d4c59"
+    },
+    {
+      "prompt": "Do jakiego państwa należy Sycylia?",
+      "answer": "Włochy",
+      "id": "geo-swiat-16e6dbbb8b22432ab6d5"
+    },
+    {
+      "prompt": "Do jakiego państwa należy Kreta?",
+      "answer": "Grecja",
+      "id": "geo-swiat-929256722e333101b655"
+    },
+    {
+      "prompt": "Do jakiego państwa należy Korsyka?",
+      "answer": "Francja",
+      "id": "geo-swiat-9824be507f39f2ccecfd"
+    },
+    {
+      "prompt": "Jak nazywa się państwo zajmujące cały kontynent?",
+      "answer": "Australia",
+      "id": "geo-swiat-588b1c12eed059a40835"
+    },
+    {
+      "prompt": "Jaki ocean leży między Europą a Ameryką?",
+      "answer": "Atlantycki",
+      "aliases": [
+        "Atlantyk",
+        "Ocean Atlantycki"
+      ],
+      "id": "geo-swiat-065ab02f434c03406476"
+    },
+    {
+      "prompt": "Jak nazywa się kraj, w którym leżą fiordy i Oslo?",
+      "answer": "Norwegia",
+      "id": "geo-swiat-5664e917e8c9ec9ec4e9"
     }
   ],
   "Przeciwieństwa": [
@@ -8152,1346 +8940,2562 @@ export const bank = {
   ],
   "Matematyka": [
     {
-      "prompt": "Ile wynosi 7 × 8?",
-      "answer": "56",
-      "id": "audit6-082e7cd9af5121ba47b0"
-    },
-    {
-      "prompt": "Ile wynosi 20% z 150?",
-      "answer": "30",
-      "id": "audit6-2e2974c72489121bae84"
-    },
-    {
-      "prompt": "Oblicz 11² − 10².",
-      "answer": "21",
-      "id": "audit6-c65298ad862b9d7e5485"
-    },
-    {
-      "prompt": "Rozwiąż równanie: 2x + 5 = 13.",
-      "answer": "4",
-      "id": "audit6-49f9565f038cea4fa1db"
-    },
-    {
-      "prompt": "Oblicz średnią arytmetyczną liczb 2, 6, 10.",
-      "answer": "6",
-      "id": "audit6-e9953497a8c0afcc7b05"
-    },
-    {
-      "prompt": "Cena 200 zł spada o 20%, a potem rośnie o 25%. Jaka jest cena końcowa?",
-      "answer": "200 zł",
-      "id": "audit6-516c26ad97ac6711eaa1"
-    },
-    {
-      "prompt": "Rozwiąż: 4x − 12 = 36.",
-      "answer": "12",
-      "id": "audit6-e2f085a3dec3c98a0660"
-    },
-    {
-      "prompt": "Ile wynosi 3/4 liczby 48?",
-      "answer": "36",
-      "id": "audit6-37693e099204a136aa2e"
-    },
-    {
-      "prompt": "Każde jabłko kosztuje 3 zł. Ile zapłacisz za 4 jabłka? Podaj liczbę złotych.",
-      "answer": "12",
-      "aliases": [
-        "12"
-      ],
-      "kind": "zadanie",
-      "difficulty": "łatwe/średnie",
-      "visual": "🍎 × 4",
-      "id": "v8-44f6dd7c971e2e7d"
-    },
-    {
-      "prompt": "Bilet kosztował 20 zł. Obniżono cenę o 25%. Ile kosztuje teraz? Podaj liczbę złotych.",
-      "answer": "15",
-      "aliases": [
-        "15"
-      ],
-      "kind": "zadanie",
-      "difficulty": "łatwe/średnie",
-      "visual": "🎟️ −25%",
-      "id": "v8-40486cf4040299c7"
-    },
-    {
-      "prompt": "Jaka liczba pasuje do równania □ + 7 = 12?",
-      "answer": "5",
-      "aliases": [
-        "5"
-      ],
-      "kind": "zadanie",
-      "difficulty": "łatwe/średnie",
-      "id": "v8-460281850b34967b"
-    },
-    {
-      "prompt": "Ile wynosi 15% z 240?",
-      "answer": "36",
-      "id": "audit21-6e8ca90a331f6bc29e51",
-      "aliases": [
-        "36"
-      ]
-    },
-    {
-      "prompt": "Ile wynosi 12,5% z 80?",
-      "answer": "10",
-      "id": "audit21-ae96ccebb1c41c21d497",
-      "aliases": [
-        "10"
-      ]
-    },
-    {
-      "prompt": "Ile wynosi 75% z 64?",
+      "prompt": "Ile wynosi 6 × 8?",
       "answer": "48",
-      "id": "audit21-0b974e6815610a766230",
-      "aliases": [
-        "48"
-      ]
+      "id": "mat-f6239f9ef0693b1947af"
     },
     {
-      "prompt": "Ile wynosi 2 do potęgi ósmej?",
-      "answer": "256",
-      "id": "audit21-e98e27358b69edc50cff",
-      "aliases": [
-        "256"
-      ]
+      "prompt": "Ile wynosi 6 do potęgi 3?",
+      "answer": "216",
+      "id": "mat-1994f0a0f3728b81fc8a"
     },
     {
-      "prompt": "Ile wynosi 3 do potęgi czwartej?",
-      "answer": "81",
-      "id": "audit21-90415eb805e3592e642b",
-      "aliases": [
-        "81"
-      ]
+      "prompt": "Ile wynosi 4 + 7 × 9?",
+      "answer": "67",
+      "id": "mat-dce696c07384d05af756"
     },
     {
-      "prompt": "Ile wynosi pierwiastek kwadratowy ze 144?",
-      "answer": "12",
-      "id": "audit21-e688c4e679551539ca14",
-      "aliases": [
-        "12"
-      ]
+      "prompt": "Ile wynosi 813 + 516?",
+      "answer": "1329",
+      "id": "mat-39cdece1a887ef86f323"
     },
     {
-      "prompt": "Ile wynosi pierwiastek sześcienny z 125?",
-      "answer": "5",
-      "id": "audit21-538e7a6acaaf89cf2ec8",
-      "aliases": [
-        "5"
-      ]
+      "prompt": "Ile wynosi 4 + 2 × 9?",
+      "answer": "22",
+      "id": "mat-a3de2fb9b0cc9ac44555"
     },
     {
-      "prompt": "Ile wynosi 1/2 + 1/3? Podaj ułamek zwykły.",
-      "answer": "5/6",
-      "id": "audit21-afdd6671f2b40b93b96f",
-      "aliases": [
-        "5/6"
-      ]
+      "prompt": "Samochód jedzie ze stałą prędkością 70 km/h. Ile kilometrów przejedzie w 3 godziny?",
+      "answer": "210",
+      "id": "mat-55ba951d949eed132298"
     },
     {
-      "prompt": "Ile wynosi 3/4 − 1/8? Podaj ułamek zwykły.",
-      "answer": "5/8",
-      "id": "audit21-71f4cfbb80b76b7e3775",
-      "aliases": [
-        "5/8"
-      ]
-    },
-    {
-      "prompt": "Ile wynosi 2/3 z liczby 90?",
+      "prompt": "Ile to jest 30% z 200?",
       "answer": "60",
-      "id": "audit21-25e75956aa6caeb07409",
-      "aliases": [
-        "60"
-      ]
+      "id": "mat-73c76cae582eeb2527c9"
     },
     {
-      "prompt": "Ile wynosi 0,6 × 0,5?",
-      "answer": "0,3",
-      "id": "audit21-bba74474e4a4078493f6",
-      "aliases": [
-        "0,3",
-        "0.3"
-      ]
-    },
-    {
-      "prompt": "Ile wynosi 7,2 podzielone przez 0,9?",
-      "answer": "8",
-      "id": "audit21-bc7b78f911cc507292ad",
-      "aliases": [
-        "8"
-      ]
-    },
-    {
-      "prompt": "Ile wynosi 18 + 6 × 4?",
-      "answer": "42",
-      "id": "audit21-a4eca818ca63f228895f",
-      "aliases": [
-        "42"
-      ]
-    },
-    {
-      "prompt": "Ile wynosi 100 − 3 × 17?",
-      "answer": "49",
-      "id": "audit21-99bd7e9a7dbf222e91a2",
-      "aliases": [
-        "49"
-      ]
-    },
-    {
-      "prompt": "Rozwiąż równanie: 5x + 7 = 42.",
+      "prompt": "Rozwiąż równanie: 9x + 6 = 69. Ile wynosi x?",
       "answer": "7",
-      "id": "audit21-35f0c6a87131ab810a17",
-      "aliases": [
-        "7"
-      ]
+      "id": "mat-40911fa4a53f015af675"
     },
     {
-      "prompt": "Rozwiąż równanie: 3(x − 4) = 21.",
-      "answer": "11",
-      "id": "audit21-fe67d1e67e8ffa806f68",
-      "aliases": [
-        "11"
-      ]
+      "prompt": "Ile wynosi 175 : 7?",
+      "answer": "25",
+      "id": "mat-160801ff39a76fef99d9"
     },
     {
-      "prompt": "Jaka jest średnia arytmetyczna liczb 7, 11 i 18?",
-      "answer": "12",
-      "id": "audit21-b4f5866904931a05567d",
-      "aliases": [
-        "12"
-      ]
-    },
-    {
-      "prompt": "Jaka jest mediana liczb 2, 5, 9, 12, 20?",
-      "answer": "9",
-      "id": "audit21-e74ef36d9fee38e65755",
-      "aliases": [
-        "9"
-      ]
-    },
-    {
-      "prompt": "Jaki jest największy wspólny dzielnik liczb 18 i 24?",
-      "answer": "6",
-      "id": "audit21-390e6a699f8a13921f0a",
-      "aliases": [
-        "6"
-      ]
-    },
-    {
-      "prompt": "Jaka jest najmniejsza wspólna wielokrotność liczb 6 i 8?",
-      "answer": "24",
-      "id": "audit21-4a7e9da4f8f68c49c93e",
-      "aliases": [
-        "24"
-      ]
-    },
-    {
-      "prompt": "Ile wynosi suma liczb całkowitych od 1 do 10?",
-      "answer": "55",
-      "id": "audit21-50a9ccb4504d7cf736b6",
-      "aliases": [
-        "55"
-      ]
-    },
-    {
-      "prompt": "Ile wynosi 5 silnia, czyli 5!?",
-      "answer": "120",
-      "id": "audit21-9d43683e2052a5145f52",
-      "aliases": [
-        "120"
-      ]
-    },
-    {
-      "prompt": "Cena wzrosła z 80 zł do 100 zł. O ile procent wzrosła?",
-      "answer": "25%",
-      "id": "audit21-65cdcdf931de3f3af3d0",
-      "aliases": [
-        "25%",
-        "25"
-      ]
-    },
-    {
-      "prompt": "Cena spadła ze 150 zł do 120 zł. O ile procent spadła?",
-      "answer": "20%",
-      "id": "audit21-f071e634765615cbb5ce",
-      "aliases": [
-        "20%",
-        "20"
-      ]
-    },
-    {
-      "prompt": "Za trzy identyczne zeszyty płacisz 21 zł. Ile kosztuje pięć takich zeszytów?",
-      "answer": "35 zł",
-      "id": "audit21-6a8552b1aeaa72e9ad66",
-      "aliases": [
-        "35 zł",
-        "35"
-      ]
-    },
-    {
-      "prompt": "W klasie jest 30 osób, z czego 40% to dziewczęta. Ilu jest chłopców?",
-      "answer": "18",
-      "id": "audit21-a6de3e6cd4e9fcf3381d",
-      "aliases": [
-        "18"
-      ]
-    },
-    {
-      "prompt": "Stosunek czerwonych kul do niebieskich wynosi 2:3. Łącznie jest 25 kul. Ile jest czerwonych?",
-      "answer": "10",
-      "id": "audit21-84d6451f261962d28cff",
-      "aliases": [
-        "10"
-      ]
-    },
-    {
-      "prompt": "Liczba po zwiększeniu o 20% wynosi 72. Jaka to była liczba?",
-      "answer": "60",
-      "id": "audit21-13b24e4553061f57375d",
-      "aliases": [
-        "60"
-      ]
-    },
-    {
-      "prompt": "Ile wynosi wartość bezwzględna liczby −17?",
-      "answer": "17",
-      "id": "audit21-ebcb3d82ccfb4bf58fd2",
-      "aliases": [
-        "17"
-      ]
-    },
-    {
-      "prompt": "Ile wynosi (−6) × (−7)?",
-      "answer": "42",
-      "id": "audit21-1d8eb7abdeeda4cb909d",
-      "aliases": [
-        "42"
-      ]
-    },
-    {
-      "prompt": "Ile wynosi 2⁵ + 3²?",
-      "answer": "41",
-      "id": "audit21-d4e3738f0c0b22134358",
-      "aliases": [
-        "41"
-      ]
-    },
-    {
-      "prompt": "Ile wynosi 9² − 7²?",
-      "answer": "32",
-      "id": "audit21-3d0c5268d8b2892a7ed0",
-      "aliases": [
-        "32"
-      ]
-    },
-    {
-      "prompt": "Jaka liczba stanowi 30% liczby 250?",
+      "prompt": "Ile to jest 25% z 300?",
       "answer": "75",
-      "id": "audit21-b2bc81197825b927c137",
-      "aliases": [
-        "75"
-      ]
+      "id": "mat-57dabb4d872423d01688"
     },
     {
-      "prompt": "Ile wynosi 1,5²?",
-      "answer": "2,25",
-      "id": "audit21-57e8b04b7a8d107bcfe5",
-      "aliases": [
-        "2,25",
-        "2.25"
-      ]
+      "prompt": "Bluza kosztowała 120 zł. Obniżono cenę o 20%. Ile kosztuje teraz? Podaj liczbę złotych.",
+      "answer": "96",
+      "id": "mat-a70fd32f170f922a75a1"
     },
     {
-      "prompt": "Ile wynosi 25 × 16?",
-      "answer": "400",
-      "id": "audit21-0e7bec204fc35dfba5a4",
-      "aliases": [
-        "400"
-      ]
+      "prompt": "Ile wynosi 4/4 + 6/4? Podaj ułamek zwykły (nieskrócony też się liczy).",
+      "answer": "10/4",
+      "id": "mat-2234f0fe113f01150df9"
     },
     {
-      "prompt": "Ile wynosi 15 × 15?",
-      "answer": "225",
-      "id": "v20-23588f771b55173a3c88"
+      "prompt": "Ile wynosi 8 + 13 + 11?",
+      "answer": "32",
+      "id": "mat-bacf6b1aeeec874c6969"
     },
     {
-      "prompt": "Ile procent to 1/8?",
-      "answer": "12,5%",
-      "aliases": [
-        "12,5",
-        "12.5"
-      ],
-      "id": "v20-3042fd503451cccd70c6"
+      "prompt": "Ile wynosi 4 + 3 × 2?",
+      "answer": "10",
+      "id": "mat-41cf05fa3e40422eaca7"
     },
     {
-      "prompt": "Zapisz 2/5 jako ułamek dziesiętny.",
-      "answer": "0,4",
-      "aliases": [
-        "0.4"
-      ],
-      "id": "v20-f04717e296ec7c6dddde"
+      "prompt": "Ile wynosi (9 + 2) × 5?",
+      "answer": "55",
+      "id": "mat-333add14a3a8343075bc"
     },
     {
-      "prompt": "Ile jest liczb pierwszych mniejszych od 20?",
-      "answer": "8",
-      "id": "v20-27a43609a2ce30848c2c"
+      "prompt": "Ile wynosi 3 + 6 × 4?",
+      "answer": "27",
+      "id": "mat-3f198b6d0973d81cc0aa"
     },
     {
-      "prompt": "Jaka jest najmniejsza liczba pierwsza?",
-      "answer": "2",
-      "id": "v20-47fa66e79f710b710597"
-    },
-    {
-      "prompt": "Pociąg jedzie ze stałą prędkością 90 km/h. Ile kilometrów pokona w 40 minut?",
+      "prompt": "Ile to jest 25% z 240?",
       "answer": "60",
-      "aliases": [
-        "60 km"
-      ],
-      "id": "v20-a817c39dcb507fb3b8fd"
+      "id": "mat-b57d3589bd4ea361255f"
     },
     {
-      "prompt": "Ile wynosi 0,1 + 0,2 × 3?",
-      "answer": "0,7",
-      "aliases": [
-        "0.7"
-      ],
-      "id": "v20-ff8acb9832f51c8f951a"
+      "prompt": "Ile wynosi 17 × 17?",
+      "answer": "289",
+      "id": "mat-0e26c1168c7fd988d221"
     },
     {
-      "prompt": "Rozwiąż równanie: x/4 + 3 = 8.",
+      "prompt": "Ile wynosi 673 + 439?",
+      "answer": "1112",
+      "id": "mat-ae0e59751c8a5d2e832a"
+    },
+    {
+      "prompt": "Ile wynosi 150 + 260?",
+      "answer": "410",
+      "id": "mat-468560f90f2c755f2a8c"
+    },
+    {
+      "prompt": "Masz 6 banknoty po 20 zł i 2 monet po 2 zł. Ile masz złotych?",
+      "answer": "124",
+      "id": "mat-21748d3ce8e9817a115e"
+    },
+    {
+      "prompt": "Ile wynosi 348 : 12?",
+      "answer": "29",
+      "id": "mat-85ff5e0be7e5d265b729"
+    },
+    {
+      "prompt": "Ile wynosi 420 + 420?",
+      "answer": "840",
+      "id": "mat-1d03a6bfec778638347c"
+    },
+    {
+      "prompt": "Bluza kosztowała 150 zł. Obniżono cenę o 20%. Ile kosztuje teraz? Podaj liczbę złotych.",
+      "answer": "120",
+      "id": "mat-c36ad82c32774f54edd5"
+    },
+    {
+      "prompt": "24 cukierków dzielimy po równo między 4 dzieci. Ile dostanie każde dziecko?",
+      "answer": "6",
+      "id": "mat-c1eab00d719a60dd7d83"
+    },
+    {
+      "prompt": "Ile wynosi 482 − 376?",
+      "answer": "106",
+      "id": "mat-0f895d022b2ebc496441"
+    },
+    {
+      "prompt": "Ile wynosi 14 + 10 + 7?",
+      "answer": "31",
+      "id": "mat-8b95a044027be9a6f875"
+    },
+    {
+      "prompt": "Samochód jedzie ze stałą prędkością 50 km/h. Ile kilometrów przejedzie w 2 godziny?",
+      "answer": "100",
+      "id": "mat-a30b4e34e536f526aeee"
+    },
+    {
+      "prompt": "16 cukierków dzielimy po równo między 4 dzieci. Ile dostanie każde dziecko?",
+      "answer": "4",
+      "id": "mat-46defac412b50039c926"
+    },
+    {
+      "prompt": "Ile wynosi 4/5 + 7/5? Podaj ułamek zwykły (nieskrócony też się liczy).",
+      "answer": "11/5",
+      "id": "mat-bc0198d047b857e616d1"
+    },
+    {
+      "prompt": "Rozwiąż równanie: 7x + 14 = 105. Ile wynosi x?",
+      "answer": "13",
+      "id": "mat-ead7e9727e27506e9262"
+    },
+    {
+      "prompt": "Ile wynosi 8 + 8 × 9?",
+      "answer": "80",
+      "id": "mat-a3b2fb9c80b6a77a4d17"
+    },
+    {
+      "prompt": "Ile wynosi 108 : 6?",
+      "answer": "18",
+      "id": "mat-4de9ba84e2f3eb78c8be"
+    },
+    {
+      "prompt": "Ile wynosi 706 − 391?",
+      "answer": "315",
+      "id": "mat-2df975715b4be833120b"
+    },
+    {
+      "prompt": "Ile wynosi 5 + 4 × 6?",
+      "answer": "29",
+      "id": "mat-0867e91ff79939cec76f"
+    },
+    {
+      "prompt": "Masz 4 banknoty po 20 zł i 2 monet po 2 zł. Ile masz złotych?",
+      "answer": "84",
+      "id": "mat-8b6955ae068e616fe35d"
+    },
+    {
+      "prompt": "Ile wynosi 15 × 16?",
+      "answer": "240",
+      "id": "mat-3d5ad0878a8e677c2fb3"
+    },
+    {
+      "prompt": "Rozwiąż równanie: 7x + 17 = 73. Ile wynosi x?",
+      "answer": "8",
+      "id": "mat-79e7e6e6bc20f96c8b27"
+    },
+    {
+      "prompt": "Ile wynosi 361 + 393?",
+      "answer": "754",
+      "id": "mat-adb2243e0e543035a100"
+    },
+    {
+      "prompt": "Ile wynosi połowa z 90?",
+      "answer": "45",
+      "id": "mat-5ad5e0aac17fe6c61b99"
+    },
+    {
+      "prompt": "Ile wynosi 68 × 8?",
+      "answer": "544",
+      "id": "mat-a7f004d9e13d7b3890cf"
+    },
+    {
+      "prompt": "Ile wynosi 7 + 6 × 3?",
+      "answer": "25",
+      "id": "mat-9aa2db47d3fcc6e62bb8"
+    },
+    {
+      "prompt": "Ile wynosi 9 + 7 × 2?",
+      "answer": "23",
+      "id": "mat-191aae786173ca90f818"
+    },
+    {
+      "prompt": "Jaka jest średnia arytmetyczna liczb 3, 15, 18?",
+      "answer": "12",
+      "id": "mat-434a2697ede8ece84d2c"
+    },
+    {
+      "prompt": "Bluza kosztowała 80 zł. Obniżono cenę o 10%. Ile kosztuje teraz? Podaj liczbę złotych.",
+      "answer": "72",
+      "id": "mat-f0dddfce7d459df0333b"
+    },
+    {
+      "prompt": "Ile wynosi 225 : 9?",
+      "answer": "25",
+      "id": "mat-2fa0affd3ff10915fd82"
+    },
+    {
+      "prompt": "Ile wynosi 480 + 420?",
+      "answer": "900",
+      "id": "mat-2a696a966a852a1ceef9"
+    },
+    {
+      "prompt": "Rozwiąż równanie: 3x + 18 = 30. Ile wynosi x?",
+      "answer": "4",
+      "id": "mat-7fc70c75fe3a6b42fcd9"
+    },
+    {
+      "prompt": "Ile wynosi 9 + 7 × 7?",
+      "answer": "58",
+      "id": "mat-2e75a95a4eb7ee887ffb"
+    },
+    {
+      "prompt": "Ile wynosi połowa z 50?",
+      "answer": "25",
+      "id": "mat-4325b7bb4d2454449201"
+    },
+    {
+      "prompt": "Ile wynosi 427 − 275?",
+      "answer": "152",
+      "id": "mat-7f5067099cd4e897ce0a"
+    },
+    {
+      "prompt": "Ile wynosi 36 × 5?",
+      "answer": "180",
+      "id": "mat-0fcd0c9c97ab452bd776"
+    },
+    {
+      "prompt": "Ile wynosi pierwiastek kwadratowy z 196?",
+      "answer": "14",
+      "id": "mat-6869da881b3ca0250527"
+    },
+    {
+      "prompt": "Ile wynosi połowa z 110?",
+      "answer": "55",
+      "id": "mat-efabfc9a835fc512d48e"
+    },
+    {
+      "prompt": "Ile wynosi 120 : 6?",
       "answer": "20",
-      "id": "v20-71bbbf926d8b55a805f2"
+      "id": "mat-fec77ec2366027c06d1b"
+    },
+    {
+      "prompt": "Ile to jest 10% z 400?",
+      "answer": "40",
+      "id": "mat-1a13b2a6c00bde21b5b4"
+    },
+    {
+      "prompt": "Masz 3 banknoty po 20 zł i 2 monet po 2 zł. Ile masz złotych?",
+      "answer": "64",
+      "id": "mat-faec49d8849190928afc"
+    },
+    {
+      "prompt": "Ile wynosi 417 − 361?",
+      "answer": "56",
+      "id": "mat-e8fde59323d258b43d4a"
+    },
+    {
+      "prompt": "Ile wynosi (2 + 2) × 9?",
+      "answer": "36",
+      "id": "mat-2030485335c0f4676bf1"
+    },
+    {
+      "prompt": "Ile wynosi 938 − 207?",
+      "answer": "731",
+      "id": "mat-aaaf1ab6a4da16e3223e"
+    },
+    {
+      "prompt": "Ile wynosi 360 + 230?",
+      "answer": "590",
+      "id": "mat-3e7d201091306965199e"
+    },
+    {
+      "prompt": "Ile wynosi 6 + 7 × 7?",
+      "answer": "55",
+      "id": "mat-84adb33cbbf2cfe4156f"
+    },
+    {
+      "prompt": "Ile wynosi 9 + 6 × 5?",
+      "answer": "39",
+      "id": "mat-62556cb48814aaffe884"
+    },
+    {
+      "prompt": "Ile wynosi 38 × 5?",
+      "answer": "190",
+      "id": "mat-f63e5c13de171b5dc542"
+    },
+    {
+      "prompt": "Ile wynosi połowa z 150?",
+      "answer": "75",
+      "id": "mat-0ec2b7e2dfbc7ee55cce"
+    },
+    {
+      "prompt": "12 cukierków dzielimy po równo między 4 dzieci. Ile dostanie każde dziecko?",
+      "answer": "3",
+      "id": "mat-cfdf6115662e0cc236fe"
+    },
+    {
+      "prompt": "Ile wynosi 24²?",
+      "answer": "576",
+      "id": "mat-c582e56dbe8ce1862c25"
+    },
+    {
+      "prompt": "Ile wynosi pierwiastek kwadratowy z 25?",
+      "answer": "5",
+      "id": "mat-c3dcbedef5cb7573c835"
+    },
+    {
+      "prompt": "Rozwiąż równanie: 3x + 7 = 25. Ile wynosi x?",
+      "answer": "6",
+      "id": "mat-90dc0bb444c7906025d5"
+    },
+    {
+      "prompt": "28 cukierków dzielimy po równo między 4 dzieci. Ile dostanie każde dziecko?",
+      "answer": "7",
+      "id": "mat-3393a1dad513d8bc510b"
+    },
+    {
+      "prompt": "Ile wynosi 18 × 19?",
+      "answer": "342",
+      "id": "mat-1274ce129712362b52d4"
+    },
+    {
+      "prompt": "Ile wynosi 48 : 6?",
+      "answer": "8",
+      "id": "mat-0fa733232053b4926f56"
+    },
+    {
+      "prompt": "Rozwiąż równanie: 6x + 29 = 65. Ile wynosi x?",
+      "answer": "6",
+      "id": "mat-bbe839841478762adae8"
+    },
+    {
+      "prompt": "Samochód jedzie ze stałą prędkością 100 km/h. Ile kilometrów przejedzie w 2 godziny?",
+      "answer": "200",
+      "id": "mat-b9d45ee0346e57d04151"
+    },
+    {
+      "prompt": "Ile wynosi pierwiastek kwadratowy z 16?",
+      "answer": "4",
+      "id": "mat-d442ffabb68f771cfe96"
+    },
+    {
+      "prompt": "Ile wynosi 9 + 4 × 9?",
+      "answer": "45",
+      "id": "mat-5e3ae85ce3d7d16da35e"
+    },
+    {
+      "prompt": "Rozwiąż równanie: 7x + 29 = 120. Ile wynosi x?",
+      "answer": "13",
+      "id": "mat-5190e98dcffbb28cb451"
+    },
+    {
+      "prompt": "Ile wynosi 3 do potęgi 4?",
+      "answer": "81",
+      "id": "mat-728edff3be69fb23981f"
+    },
+    {
+      "prompt": "Ile wynosi 21²?",
+      "answer": "441",
+      "id": "mat-a34177c6d596c2291cbd"
+    },
+    {
+      "prompt": "Masz 6 banknoty po 20 zł i 4 monet po 2 zł. Ile masz złotych?",
+      "answer": "128",
+      "id": "mat-daf7fcb99bc7dafef39a"
+    },
+    {
+      "prompt": "Samochód jedzie ze stałą prędkością 80 km/h. Ile kilometrów przejedzie w 2 godziny?",
+      "answer": "160",
+      "id": "mat-e9813dcdf628cba359c3"
+    },
+    {
+      "prompt": "Ile wynosi 25²?",
+      "answer": "625",
+      "id": "mat-a5fd00ff6f62159d7297"
+    },
+    {
+      "prompt": "Samochód jedzie ze stałą prędkością 40 km/h. Ile kilometrów przejedzie w 3 godziny?",
+      "answer": "120",
+      "id": "mat-3671b13390a1e43e2d5c"
+    },
+    {
+      "prompt": "Bluza kosztowała 60 zł. Obniżono cenę o 50%. Ile kosztuje teraz? Podaj liczbę złotych.",
+      "answer": "30",
+      "id": "mat-bf74b260351ef632dbaf"
+    },
+    {
+      "prompt": "Ile wynosi 975 − 253?",
+      "answer": "722",
+      "id": "mat-3fa2d06ae956ecc07efc"
+    },
+    {
+      "prompt": "Ile wynosi 10 do potęgi 3?",
+      "answer": "1000",
+      "id": "mat-17658bf4d583f0d61683"
+    },
+    {
+      "prompt": "Ile wynosi 466 − 375?",
+      "answer": "91",
+      "id": "mat-a4c8bed6753ac0ec7985"
+    },
+    {
+      "prompt": "Bluza kosztowała 60 zł. Obniżono cenę o 20%. Ile kosztuje teraz? Podaj liczbę złotych.",
+      "answer": "48",
+      "id": "mat-135a98ebbad6be6e0fd7"
+    },
+    {
+      "prompt": "Ile wynosi 308 : 11?",
+      "answer": "28",
+      "id": "mat-311b696fd21c46b11576"
+    },
+    {
+      "prompt": "Ile wynosi 459 + 606?",
+      "answer": "1065",
+      "id": "mat-c9ab28eaaa31d655bf28"
+    },
+    {
+      "prompt": "Ile wynosi pierwiastek kwadratowy z 49?",
+      "answer": "7",
+      "id": "mat-fa71205b8a91de86d7ab"
+    },
+    {
+      "prompt": "Ile wynosi 7 + 6 × 9?",
+      "answer": "61",
+      "id": "mat-a8ada198c6505f111c8c"
+    },
+    {
+      "prompt": "Rozwiąż równanie: 7x + 8 = 106. Ile wynosi x?",
+      "answer": "14",
+      "id": "mat-e71732201e9039dea482"
+    },
+    {
+      "prompt": "Ile wynosi 168 : 6?",
+      "answer": "28",
+      "id": "mat-b013a134727c116677ed"
+    },
+    {
+      "prompt": "Ile to jest 30% z 80?",
+      "answer": "24",
+      "id": "mat-c2c83d5794ea614d01d2"
+    },
+    {
+      "prompt": "Ile wynosi 1/8 + 4/8? Podaj ułamek zwykły (nieskrócony też się liczy).",
+      "answer": "5/8",
+      "id": "mat-821954e6aca98b6a053b"
+    },
+    {
+      "prompt": "Ile to jest 25% z 400?",
+      "answer": "100",
+      "id": "mat-2fe8d44affeb4af20e41"
+    },
+    {
+      "prompt": "Ile wynosi 90 × 3?",
+      "answer": "270",
+      "id": "mat-b38e2ba8a11f2e39328a"
+    },
+    {
+      "prompt": "Ile wynosi 182 : 7?",
+      "answer": "26",
+      "id": "mat-c3e464059edef6f3682f"
+    },
+    {
+      "prompt": "Ile wynosi pierwiastek kwadratowy z 100?",
+      "answer": "10",
+      "id": "mat-91f0ed4746ee495bad2c"
+    },
+    {
+      "prompt": "Ile wynosi 12 × 14?",
+      "answer": "168",
+      "id": "mat-d7c50d46117ff33015c2"
+    },
+    {
+      "prompt": "Ile wynosi 5 + 5 + 10?",
+      "answer": "20",
+      "id": "mat-942e42ccf157f3059789"
+    },
+    {
+      "prompt": "Ile wynosi 1/6 + 4/6? Podaj ułamek zwykły (nieskrócony też się liczy).",
+      "answer": "5/6",
+      "id": "mat-496fe0b240da4ab994a3"
+    },
+    {
+      "prompt": "Ile wynosi połowa z 70?",
+      "answer": "35",
+      "id": "mat-e699a078ac01442de089"
+    },
+    {
+      "prompt": "Ile wynosi 77 : 7?",
+      "answer": "11",
+      "id": "mat-5a715c3b0e550651acd2"
+    },
+    {
+      "prompt": "Ile to jest 50% z 60?",
+      "answer": "30",
+      "id": "mat-3e3310d43192b04a1d1f"
+    },
+    {
+      "prompt": "Samochód jedzie ze stałą prędkością 80 km/h. Ile kilometrów przejedzie w 5 godziny?",
+      "answer": "400",
+      "id": "mat-9c2a833c45c3fcb38b66"
+    },
+    {
+      "prompt": "32 cukierków dzielimy po równo między 4 dzieci. Ile dostanie każde dziecko?",
+      "answer": "8",
+      "id": "mat-6ae6c1934697d72f922f"
+    },
+    {
+      "prompt": "Ile wynosi 410 + 300?",
+      "answer": "710",
+      "id": "mat-f5636c53724ca35d21b0"
+    },
+    {
+      "prompt": "Ile wynosi (5 + 5) × 2?",
+      "answer": "20",
+      "id": "mat-479047b4721be28917f0"
+    },
+    {
+      "prompt": "Samochód jedzie ze stałą prędkością 60 km/h. Ile kilometrów przejedzie w 5 godziny?",
+      "answer": "300",
+      "id": "mat-e176bb5905370984747d"
+    },
+    {
+      "prompt": "Ile wynosi 7 + 6 + 16?",
+      "answer": "29",
+      "id": "mat-c6b3a5ec85060911d7b8"
+    },
+    {
+      "prompt": "Ile wynosi 330 + 280?",
+      "answer": "610",
+      "id": "mat-0d9fd4ca3255b983359e"
+    },
+    {
+      "prompt": "Bluza kosztowała 40 zł. Obniżono cenę o 10%. Ile kosztuje teraz? Podaj liczbę złotych.",
+      "answer": "36",
+      "id": "mat-999a7510aa6e30a860d3"
+    },
+    {
+      "prompt": "Samochód jedzie ze stałą prędkością 90 km/h. Ile kilometrów przejedzie w 2 godziny?",
+      "answer": "180",
+      "id": "mat-190bcec4e52bfcd604cb"
+    },
+    {
+      "prompt": "Ile wynosi 260 + 390?",
+      "answer": "650",
+      "id": "mat-ab0dcff9b2143b9a5315"
+    },
+    {
+      "prompt": "Masz 2 banknoty po 20 zł i 7 monet po 2 zł. Ile masz złotych?",
+      "answer": "54",
+      "id": "mat-9f6edf2738ef45f3f006"
+    },
+    {
+      "prompt": "Ile wynosi 7 + 3 × 9?",
+      "answer": "34",
+      "id": "mat-5f660d3e5c31e6461da4"
+    },
+    {
+      "prompt": "Ile wynosi 5 do potęgi 4?",
+      "answer": "625",
+      "id": "mat-7fd43004cb07471c67d5"
+    },
+    {
+      "prompt": "Ile wynosi 7 + 5 × 2?",
+      "answer": "17",
+      "id": "mat-7f4f4d2dc8f2125d979d"
+    },
+    {
+      "prompt": "Ile wynosi 12 + 12 + 7?",
+      "answer": "31",
+      "id": "mat-7f9ad9c759c2370cfa29"
+    },
+    {
+      "prompt": "Ile wynosi 6 do potęgi 2?",
+      "answer": "36",
+      "id": "mat-dda39c4afcf330dfb88c"
+    },
+    {
+      "prompt": "Rozwiąż równanie: 2x + 5 = 29. Ile wynosi x?",
+      "answer": "12",
+      "id": "mat-df6e78a6ea5076750acd"
+    },
+    {
+      "prompt": "Ile wynosi 57 × 4?",
+      "answer": "228",
+      "id": "mat-3c7b11b313f413eda893"
+    },
+    {
+      "prompt": "Ile to jest 20% z 240?",
+      "answer": "48",
+      "id": "mat-8cbc2bd8c9a8674f17ee"
+    },
+    {
+      "prompt": "Ile wynosi 2 do potęgi 3?",
+      "answer": "8",
+      "id": "mat-040e0ce1642d404065e3"
+    },
+    {
+      "prompt": "Ile wynosi (3 + 5) × 4?",
+      "answer": "32",
+      "id": "mat-6f14433ef7c01f508e4e"
+    },
+    {
+      "prompt": "Masz 5 banknoty po 20 zł i 2 monet po 2 zł. Ile masz złotych?",
+      "answer": "104",
+      "id": "mat-1eaeefce0fc22f14e53c"
+    },
+    {
+      "prompt": "Ile wynosi 982 − 119?",
+      "answer": "863",
+      "id": "mat-c721c134f60b8f2951b6"
+    },
+    {
+      "prompt": "36 cukierków dzielimy po równo między 4 dzieci. Ile dostanie każde dziecko?",
+      "answer": "9",
+      "id": "mat-74c8975a6d4de16a131e"
+    },
+    {
+      "prompt": "Ile wynosi pierwiastek kwadratowy z 81?",
+      "answer": "9",
+      "id": "mat-8983c9899cafcf4ad611"
+    },
+    {
+      "prompt": "Jaka jest średnia arytmetyczna liczb 10, 4, 16?",
+      "answer": "10",
+      "id": "mat-afdc31a6a27a52581573"
     },
     {
       "prompt": "Ile wynosi 13²?",
       "answer": "169",
-      "id": "v20-e10bd1cb315e141ff3b3"
+      "id": "mat-864277ae55614b3e653e"
     },
     {
-      "prompt": "Ile wynosi 999 + 999?",
-      "answer": "1998",
-      "id": "v20-d95a428679cc6f34185c"
+      "prompt": "Ile wynosi 55 : 5?",
+      "answer": "11",
+      "id": "mat-b36a38e4eb810b9e9259"
     },
     {
-      "prompt": "Liczba pomnożona przez 2 i pomniejszona o 5 daje 19. Jaka to liczba?",
-      "answer": "12",
-      "id": "v20-9d433127d3af231d63de"
+      "prompt": "Ile wynosi 490 + 330?",
+      "answer": "820",
+      "id": "mat-9238995c14bd25ffeca5"
     },
     {
-      "prompt": "Ile minut to 1/6 godziny?",
+      "prompt": "Ile wynosi (4 + 4) × 5?",
+      "answer": "40",
+      "id": "mat-dc57c49bf078391e29b7"
+    },
+    {
+      "prompt": "Ile wynosi 3/8 + 4/8? Podaj ułamek zwykły (nieskrócony też się liczy).",
+      "answer": "7/8",
+      "id": "mat-b23a896512cf78f1d06c"
+    },
+    {
+      "prompt": "Ile wynosi (8 + 4) × 2?",
+      "answer": "24",
+      "id": "mat-986b1d3cc8405604cddf"
+    },
+    {
+      "prompt": "Ile to jest 10% z 40?",
+      "answer": "4",
+      "id": "mat-776044648a6b169134e6"
+    },
+    {
+      "prompt": "Ile wynosi 4/5 + 5/5? Podaj ułamek zwykły (nieskrócony też się liczy).",
+      "answer": "9/5",
+      "id": "mat-8092f8033408afead82c"
+    },
+    {
+      "prompt": "Ile wynosi 120 : 12?",
       "answer": "10",
-      "id": "v20-533f2997b2a8702d877d"
+      "id": "mat-b94351fda126e07147db"
     },
     {
-      "prompt": "Ile wynosi 2⁰ + 2¹ + 2² + 2³?",
-      "answer": "15",
-      "id": "v20-e1fc60a0a7289dab2d13"
+      "prompt": "Ile wynosi 14 + 11 + 15?",
+      "answer": "40",
+      "id": "mat-2c9ea6d7edac82771e51"
     },
     {
-      "prompt": "Ile wynosi 1000 − 7³?",
-      "answer": "657",
-      "id": "v20-c58de0a7c25e8980842b"
+      "prompt": "Ile wynosi 23²?",
+      "answer": "529",
+      "id": "mat-e10b4226be3725c380a9"
+    },
+    {
+      "prompt": "Ile wynosi 3 do potęgi 3?",
+      "answer": "27",
+      "id": "mat-ae7ee74edc44b079ef9a"
+    },
+    {
+      "prompt": "Ile wynosi 58 × 3?",
+      "answer": "174",
+      "id": "mat-70a33ba65b31d72eeab5"
+    },
+    {
+      "prompt": "Ile wynosi 4 do potęgi 4?",
+      "answer": "256",
+      "id": "mat-9f16323801be1e2ef188"
+    },
+    {
+      "prompt": "Ile wynosi połowa z 170?",
+      "answer": "85",
+      "id": "mat-6d81dad397bf9669f348"
+    },
+    {
+      "prompt": "Ile wynosi 2 do potęgi 2?",
+      "answer": "4",
+      "id": "mat-b55ff4d7b320a9bba4b5"
+    },
+    {
+      "prompt": "Ile wynosi 373 + 322?",
+      "answer": "695",
+      "id": "mat-7fe0ab8a3f048448b610"
+    },
+    {
+      "prompt": "Samochód jedzie ze stałą prędkością 100 km/h. Ile kilometrów przejedzie w 3 godziny?",
+      "answer": "300",
+      "id": "mat-30586757ba8122a16c23"
+    },
+    {
+      "prompt": "Masz 5 banknoty po 20 zł i 6 monet po 2 zł. Ile masz złotych?",
+      "answer": "112",
+      "id": "mat-69c25798f8c787f90202"
+    },
+    {
+      "prompt": "Ile wynosi 2 + 8 × 8?",
+      "answer": "66",
+      "id": "mat-11a61215e0ca1ba98da5"
+    },
+    {
+      "prompt": "Ile wynosi 585 + 514?",
+      "answer": "1099",
+      "id": "mat-4b7aa78278752fc5239d"
+    },
+    {
+      "prompt": "Ile wynosi 501 + 777?",
+      "answer": "1278",
+      "id": "mat-1c396859c9762af46385"
+    },
+    {
+      "prompt": "Samochód jedzie ze stałą prędkością 40 km/h. Ile kilometrów przejedzie w 2 godziny?",
+      "answer": "80",
+      "id": "mat-43244ca9168d4ca775c5"
+    },
+    {
+      "prompt": "Rozwiąż równanie: 7x + 28 = 84. Ile wynosi x?",
+      "answer": "8",
+      "id": "mat-8171d45c2e84fef1d984"
+    },
+    {
+      "prompt": "Ile wynosi 886 + 838?",
+      "answer": "1724",
+      "id": "mat-dc7718db2be0c6a5d7db"
+    },
+    {
+      "prompt": "Ile wynosi 130 + 260?",
+      "answer": "390",
+      "id": "mat-d43200374ad2fcff8fcd"
+    },
+    {
+      "prompt": "Ile wynosi 3 + 9 × 3?",
+      "answer": "30",
+      "id": "mat-e563b202f69d3e0c1eea"
+    },
+    {
+      "prompt": "Ile wynosi 541 − 184?",
+      "answer": "357",
+      "id": "mat-90a01a907109b42ce772"
     }
   ],
   "Geometria": [
     {
-      "prompt": "Oblicz obwód kwadratu o boku 2 cm.",
-      "answer": "8 cm",
-      "id": "audit6-f024a7a82e972e9db18c"
+      "prompt": "Oblicz obwód kwadratu o boku 8 cm. Podaj liczbę centymetrów.",
+      "answer": "32",
+      "id": "geo-0cff69a381a65c005aa4"
     },
     {
-      "prompt": "Oblicz pole kwadratu o boku 2 cm.",
-      "answer": "4 cm²",
-      "id": "audit6-a6276c2ff64334a5154a"
+      "prompt": "Ile przekątnych ma czworokąt wypukły?",
+      "answer": "2",
+      "id": "geo-a9b8857ac10ae52e3494"
     },
     {
-      "prompt": "Oblicz pole prostokąta o bokach 3 cm i 5 cm.",
-      "answer": "15 cm²",
-      "id": "audit6-38d31d8bb26c51b4e2bb"
+      "prompt": "Oblicz pole trójkąta o podstawie 8 cm i wysokości 4 cm. Podaj liczbę cm².",
+      "answer": "16",
+      "id": "geo-9361e06c02726bec505f"
     },
     {
-      "prompt": "Oblicz pole trójkąta o podstawie 4 cm i wysokości 3 cm.",
-      "answer": "6 cm²",
-      "id": "audit6-b541c08b748116f8b344"
+      "prompt": "Przekątne rombu mają 14 cm i 6 cm. Ile wynosi pole rombu w cm²?",
+      "answer": "42",
+      "id": "geo-4ea315a0838d947ea38e"
     },
     {
-      "prompt": "Oblicz objętość sześcianu o krawędzi 2 cm.",
-      "answer": "8 cm³",
-      "id": "audit6-0d65f8a2ef844d1b04bd"
-    },
-    {
-      "prompt": "Oblicz pole trapezu o podstawach 2 cm i 6 cm oraz wysokości 6 cm.",
-      "answer": "24 cm²",
-      "id": "audit6-5bc8d8cb2bdfaf8023ec"
-    },
-    {
-      "prompt": "Oblicz objętość prostopadłościanu o krawędziach 2, 3, 4 cm.",
-      "answer": "24 cm³",
-      "id": "audit6-e8c0be281fbd30794efd"
-    },
-    {
-      "prompt": "Oblicz długość przeciwprostokątnej trójkąta prostokątnego o przyprostokątnych 6 cm i 8 cm.",
-      "answer": "10 cm",
-      "id": "audit6-e2119963c4785f3f4486"
-    },
-    {
-      "prompt": "Oblicz sumę kątów wewnętrznych wypukłego 3-kąta.",
-      "answer": "180°",
-      "id": "audit6-ee7910af46e82825da61"
-    },
-    {
-      "prompt": "Pole rombu o przekątnych 12 cm i 10 cm wynosi?",
-      "answer": "60 cm²",
-      "id": "audit6-0928af0b93d390bf013c"
-    },
-    {
-      "prompt": "Objętość ostrosłupa o polu podstawy 36 cm² i wysokości 9 cm wynosi?",
-      "answer": "108 cm³",
-      "id": "audit6-4ff3924ce558b464bb28"
-    },
-    {
-      "prompt": "Obwód prostokąta o bokach 12 cm i 17 cm wynosi?",
-      "answer": "58 cm",
-      "id": "audit6-04efd489b3936bd2b1a6"
-    },
-    {
-      "prompt": "Oblicz pole koła o promieniu 12 cm. Odpowiedz jako wielokrotność π.",
-      "answer": "144π cm²",
-      "id": "audit6-e04aab6f9cdb7cca5f81"
-    },
-    {
-      "prompt": "Oblicz objętość walca o promieniu 2 cm i wysokości 12 cm. Odpowiedz z π.",
-      "answer": "48π cm³",
-      "id": "audit6-c6cd703a6edc330e392f"
-    },
-    {
-      "prompt": "Kwadrat ma bok 3 cm. Podaj jego pole w cm² jako liczbę.",
-      "answer": "9",
+      "prompt": "Promień okręgu ma 12 cm. Ile wynosi jego obwód? Podaj wynik jako wielokrotność π.",
+      "answer": "24π",
       "aliases": [
-        "9"
+        "24 pi",
+        "24"
       ],
-      "kind": "zadanie",
-      "difficulty": "łatwe/średnie",
-      "visual": "□",
-      "id": "v8-e8d7575d5f3e24c8"
+      "id": "geo-aa0a32b190739f4d1967"
     },
     {
-      "prompt": "Trójkąt ma podstawę 2 cm i wysokość 5 cm. Podaj pole w cm² jako liczbę.",
+      "prompt": "Dwa kąty trójkąta mają 28° i 36°. Ile stopni ma trzeci kąt?",
+      "answer": "116",
+      "id": "geo-1adadf5ca55662a66225"
+    },
+    {
+      "prompt": "Ile stopni ma kąt dopełniający kąt 23° do kąta prostego?",
+      "answer": "67",
+      "id": "geo-8df86b74e40a88bd96d9"
+    },
+    {
+      "prompt": "Ile stopni ma mniejszy kąt między wskazówkami zegara o godzinie 3:00?",
+      "answer": "90",
+      "id": "geo-142e17c7e401f2bcc418"
+    },
+    {
+      "prompt": "Dwa kąty trójkąta mają 52° i 33°. Ile stopni ma trzeci kąt?",
+      "answer": "95",
+      "id": "geo-f745bcb8e745c6bd48cd"
+    },
+    {
+      "prompt": "Oblicz objętość sześcianu o krawędzi 4 cm. Podaj liczbę cm³.",
+      "answer": "64",
+      "id": "geo-a4c9aec9267e483377a2"
+    },
+    {
+      "prompt": "Oblicz obwód kwadratu o boku 10 cm. Podaj liczbę centymetrów.",
+      "answer": "40",
+      "id": "geo-e6806e04cf199511ae52"
+    },
+    {
+      "prompt": "Oblicz obwód kwadratu o boku 3 cm. Podaj liczbę centymetrów.",
+      "answer": "12",
+      "id": "geo-88de9608c33e658f7c64"
+    },
+    {
+      "prompt": "Oblicz obwód kwadratu o boku 14 cm. Podaj liczbę centymetrów.",
+      "answer": "56",
+      "id": "geo-49280c2371dc72c06d71"
+    },
+    {
+      "prompt": "Oblicz obwód kwadratu o boku 9 cm. Podaj liczbę centymetrów.",
+      "answer": "36",
+      "id": "geo-827f0008666cabc6fa4c"
+    },
+    {
+      "prompt": "Oblicz pole trójkąta o podstawie 22 cm i wysokości 8 cm. Podaj liczbę cm².",
+      "answer": "88",
+      "id": "geo-cab2b121128a88da8488"
+    },
+    {
+      "prompt": "Ile przekątnych ma ośmiokąt wypukły?",
+      "answer": "20",
+      "id": "geo-28b7589095c300e68330"
+    },
+    {
+      "prompt": "Ile stopni ma mniejszy kąt między wskazówkami zegara o godzinie 1:00?",
+      "answer": "30",
+      "id": "geo-da18c73e71a47e68d12d"
+    },
+    {
+      "prompt": "Oblicz pole trójkąta o podstawie 22 cm i wysokości 3 cm. Podaj liczbę cm².",
+      "answer": "33",
+      "id": "geo-ca138a744dccb4c1c47d"
+    },
+    {
+      "prompt": "Oblicz obwód prostokąta o bokach 9 cm i 8 cm. Podaj liczbę centymetrów.",
+      "answer": "34",
+      "id": "geo-9259d4d639b809b3150c"
+    },
+    {
+      "prompt": "Oblicz obwód prostokąta o bokach 12 cm i 11 cm. Podaj liczbę centymetrów.",
+      "answer": "46",
+      "id": "geo-9853fad30edd3452e564"
+    },
+    {
+      "prompt": "Promień koła ma 10 cm. Ile wynosi jego pole? Podaj wynik jako wielokrotność π (np. 9π).",
+      "answer": "100π",
+      "aliases": [
+        "100 pi",
+        "100"
+      ],
+      "id": "geo-d425ffbc7435402cf73a"
+    },
+    {
+      "prompt": "Ile stopni ma kąt dopełniający kąt 54° do kąta prostego?",
+      "answer": "36",
+      "id": "geo-e08910933cd588ac5d09"
+    },
+    {
+      "prompt": "Oblicz pole trójkąta o podstawie 18 cm i wysokości 12 cm. Podaj liczbę cm².",
+      "answer": "108",
+      "id": "geo-3cf461faa95d0eae08d2"
+    },
+    {
+      "prompt": "Oblicz obwód prostokąta o bokach 11 cm i 5 cm. Podaj liczbę centymetrów.",
+      "answer": "32",
+      "id": "geo-5124fee88c1462afb067"
+    },
+    {
+      "prompt": "Ile ścian ma graniastosłup trójkątny?",
       "answer": "5",
-      "aliases": [
-        "5"
-      ],
-      "kind": "zadanie",
-      "difficulty": "łatwe/średnie",
-      "visual": "△",
-      "id": "v8-6863f661baa7a59b"
+      "id": "geo-6357a687a275d807b5a6"
     },
     {
-      "prompt": "Prostopadłościan ma wymiary 2 cm × 3 cm × 3 cm. Podaj objętość w cm³ jako liczbę.",
-      "answer": "18",
-      "aliases": [
-        "18"
-      ],
-      "kind": "zadanie",
-      "difficulty": "łatwe/średnie",
-      "visual": "📦",
-      "id": "v8-d19b20b3103cc2bb"
+      "prompt": "Oblicz pole kwadratu o boku 7 cm. Podaj liczbę cm².",
+      "answer": "49",
+      "id": "geo-0474569e48618c67c9ba"
     },
     {
-      "prompt": "Dwa kąty trójkąta mają 40° i 30°. Ile stopni ma trzeci? Podaj liczbę.",
-      "answer": "110",
-      "aliases": [
-        "110"
-      ],
-      "kind": "zadanie",
-      "difficulty": "łatwe/średnie",
-      "visual": "△",
-      "id": "v8-b004a09c88740782"
+      "prompt": "Oblicz obwód kwadratu o boku 15 cm. Podaj liczbę centymetrów.",
+      "answer": "60",
+      "id": "geo-c6b0c9b220c19fb0358c"
     },
     {
-      "prompt": "Ile stopni ma suma kątów wewnętrznych pięciokąta wypukłego?",
+      "prompt": "Oblicz pole powierzchni całkowitej sześcianu o krawędzi 2 cm. Podaj liczbę cm².",
+      "answer": "24",
+      "id": "geo-b51b52e68c93cab0797c"
+    },
+    {
+      "prompt": "Ile przekątnych ma trójkąt wypukły?",
+      "answer": "0",
+      "id": "geo-bb0ff0a87f18af42cb53"
+    },
+    {
+      "prompt": "Oblicz pole prostokąta o bokach 4 cm i 11 cm. Podaj liczbę cm².",
+      "answer": "44",
+      "id": "geo-5b2eb4243193a2a80156"
+    },
+    {
+      "prompt": "Ile stopni ma mniejszy kąt między wskazówkami zegara o godzinie 2:00?",
+      "answer": "60",
+      "id": "geo-14d3add9fc41bf22c23b"
+    },
+    {
+      "prompt": "Przekątne rombu mają 24 cm i 5 cm. Ile wynosi pole rombu w cm²?",
+      "answer": "60",
+      "id": "geo-6772a70acd96cee88a9f"
+    },
+    {
+      "prompt": "Dwa kąty trójkąta mają 25° i 89°. Ile stopni ma trzeci kąt?",
+      "answer": "66",
+      "id": "geo-da2d7cd2d93e9a2479d7"
+    },
+    {
+      "prompt": "Przekątne rombu mają 14 cm i 8 cm. Ile wynosi pole rombu w cm²?",
+      "answer": "56",
+      "id": "geo-51ca4e83078ed419fa26"
+    },
+    {
+      "prompt": "Oblicz pole kwadratu o boku 13 cm. Podaj liczbę cm².",
+      "answer": "169",
+      "id": "geo-9a936f75bacb8201bc40"
+    },
+    {
+      "prompt": "Oblicz obwód kwadratu o boku 5 cm. Podaj liczbę centymetrów.",
+      "answer": "20",
+      "id": "geo-8ee3803c74ba898191b3"
+    },
+    {
+      "prompt": "Oblicz obwód prostokąta o bokach 12 cm i 12 cm. Podaj liczbę centymetrów.",
+      "answer": "48",
+      "id": "geo-722e3e242c8515ea573c"
+    },
+    {
+      "prompt": "Oblicz pole powierzchni całkowitej sześcianu o krawędzi 6 cm. Podaj liczbę cm².",
+      "answer": "216",
+      "id": "geo-968c5be8b383cbc55a1e"
+    },
+    {
+      "prompt": "Ile stopni wynosi suma kątów wewnętrznych 5-kąta wypukłego?",
       "answer": "540",
-      "id": "audit21-1a04f015fef17319eb4a",
-      "aliases": [
-        "540",
-        "540°"
-      ]
+      "id": "geo-00fd40bd0585cff9bb69"
     },
     {
-      "prompt": "Ile stopni ma suma kątów wewnętrznych sześciokąta wypukłego?",
-      "answer": "720",
-      "id": "audit21-c4de8f19a6fa77432d57",
-      "aliases": [
-        "720",
-        "720°"
-      ]
+      "prompt": "Oblicz objętość prostopadłościanu o wymiarach 9 cm × 5 cm × 6 cm. Podaj liczbę cm³.",
+      "answer": "270",
+      "id": "geo-888d50e7462bc5c619ac"
     },
     {
-      "prompt": "Ile stopni ma jeden kąt wewnętrzny sześciokąta foremnego?",
-      "answer": "120",
-      "id": "audit21-88f6cc4451ba7cfe80e9",
-      "aliases": [
-        "120",
-        "120°"
-      ]
+      "prompt": "Ile stopni ma kąt dopełniający kąt 36° do kąta prostego?",
+      "answer": "54",
+      "id": "geo-00f4786fa873b81a9a08"
     },
     {
-      "prompt": "Ile stopni ma kąt zewnętrzny pięciokąta foremnego?",
-      "answer": "72",
-      "id": "audit21-964ed4fe2126d04610a0",
-      "aliases": [
-        "72",
-        "72°"
-      ]
+      "prompt": "Ile stopni wynosi suma kątów wewnętrznych 12-kąta wypukłego?",
+      "answer": "1800",
+      "id": "geo-ecb0d48432afe04d3af5"
     },
     {
-      "prompt": "Ile przekątnych ma pięciokąt wypukły?",
-      "answer": "5",
-      "id": "audit21-7d4ecfbf36aa37da3bcd",
-      "aliases": [
-        "5"
-      ]
+      "prompt": "Oblicz pole prostokąta o bokach 3 cm i 5 cm. Podaj liczbę cm².",
+      "answer": "15",
+      "id": "geo-0553e19d9924c5c05a91"
+    },
+    {
+      "prompt": "Przyprostokątne trójkąta prostokątnego mają 12 cm i 16 cm. Ile centymetrów ma przeciwprostokątna?",
+      "answer": "20",
+      "id": "geo-7b99195eddb0cfc13de2"
+    },
+    {
+      "prompt": "Dwa kąty trójkąta mają 44° i 29°. Ile stopni ma trzeci kąt?",
+      "answer": "107",
+      "id": "geo-de0d1ca9df0c58231fb1"
     },
     {
       "prompt": "Ile przekątnych ma sześciokąt wypukły?",
       "answer": "9",
-      "id": "audit21-beef881235f28034b88a",
-      "aliases": [
-        "9"
-      ]
+      "id": "geo-52fead7f8e1cd3771e39"
     },
     {
-      "prompt": "Ile ścian ma prostopadłościan?",
-      "answer": "6",
-      "id": "audit21-7cb93be9e79ee8af8927",
-      "aliases": [
-        "6"
-      ]
+      "prompt": "Oblicz pole trójkąta o podstawie 12 cm i wysokości 6 cm. Podaj liczbę cm².",
+      "answer": "36",
+      "id": "geo-790876e9ebd5f0868d18"
     },
     {
-      "prompt": "Ile krawędzi ma sześcian?",
-      "answer": "12",
-      "id": "audit21-4f9faedf261aa6deba21",
-      "aliases": [
-        "12"
-      ]
+      "prompt": "Ile stopni ma kąt przyległy do kąta o mierze 70°?",
+      "answer": "110",
+      "id": "geo-dab15408edd7e476934e"
+    },
+    {
+      "prompt": "Oblicz pole powierzchni całkowitej sześcianu o krawędzi 3 cm. Podaj liczbę cm².",
+      "answer": "54",
+      "id": "geo-c2592b6a194b15812bde"
+    },
+    {
+      "prompt": "Oblicz objętość sześcianu o krawędzi 2 cm. Podaj liczbę cm³.",
+      "answer": "8",
+      "id": "geo-405612431c234fe49d24"
+    },
+    {
+      "prompt": "Przekątne rombu mają 6 cm i 3 cm. Ile wynosi pole rombu w cm²?",
+      "answer": "9",
+      "id": "geo-72f12aef4c984f9c533f"
+    },
+    {
+      "prompt": "Przyprostokątne trójkąta prostokątnego mają 9 cm i 12 cm. Ile centymetrów ma przeciwprostokątna?",
+      "answer": "15",
+      "id": "geo-33bfb3a6fd491a44f09a"
+    },
+    {
+      "prompt": "Ile stopni ma kąt przyległy do kąta o mierze 37°?",
+      "answer": "143",
+      "id": "geo-b867446ec2d303474f5e"
+    },
+    {
+      "prompt": "Oblicz obwód prostokąta o bokach 12 cm i 13 cm. Podaj liczbę centymetrów.",
+      "answer": "50",
+      "id": "geo-a3896215060eee7bffab"
+    },
+    {
+      "prompt": "Oblicz obwód prostokąta o bokach 4 cm i 10 cm. Podaj liczbę centymetrów.",
+      "answer": "28",
+      "id": "geo-2b76c15e1169f3160798"
     },
     {
       "prompt": "Ile wierzchołków ma sześcian?",
       "answer": "8",
-      "id": "audit21-75e533e479aa5b0457ae",
-      "aliases": [
-        "8"
-      ]
+      "id": "geo-0b7ea701b1e734a78616"
     },
     {
-      "prompt": "Ile ścian ma ostrosłup o podstawie kwadratu?",
-      "answer": "5",
-      "id": "audit21-7c2a8ded2556edc61fa6",
+      "prompt": "Promień koła ma 6 cm. Ile wynosi jego pole? Podaj wynik jako wielokrotność π (np. 9π).",
+      "answer": "36π",
       "aliases": [
-        "5"
-      ]
+        "36 pi",
+        "36"
+      ],
+      "id": "geo-4a9a97b02d480d347ca4"
     },
     {
-      "prompt": "Ile krawędzi ma ostrosłup o podstawie kwadratu?",
-      "answer": "8",
-      "id": "audit21-c23f5e0d1355c93dad0e",
-      "aliases": [
-        "8"
-      ]
+      "prompt": "Ile stopni ma kąt przyległy do kąta o mierze 44°?",
+      "answer": "136",
+      "id": "geo-cdfbb94ef1bf8140a320"
     },
     {
-      "prompt": "Ile wierzchołków ma graniastosłup trójkątny?",
-      "answer": "6",
-      "id": "audit21-142361b282c7301ca940",
+      "prompt": "Promień okręgu ma 6 cm. Ile wynosi jego obwód? Podaj wynik jako wielokrotność π.",
+      "answer": "12π",
       "aliases": [
-        "6"
-      ]
+        "12 pi",
+        "12"
+      ],
+      "id": "geo-9877a179103e13cce020"
     },
     {
-      "prompt": "Ile osi symetrii ma kwadrat?",
-      "answer": "4",
-      "id": "audit21-d851b89fbaaf350aefd5",
-      "aliases": [
-        "4"
-      ]
-    },
-    {
-      "prompt": "Ile osi symetrii ma trójkąt równoboczny?",
-      "answer": "3",
-      "id": "audit21-8e7d7abb3f959db09ed9",
-      "aliases": [
-        "3"
-      ]
-    },
-    {
-      "prompt": "Ile stopni ma kąt między wskazówkami zegara dokładnie o 3:00?",
-      "answer": "90",
-      "id": "audit21-d5927c5317eda39429c2",
-      "aliases": [
-        "90",
-        "90°"
-      ]
-    },
-    {
-      "prompt": "Dwa kąty trójkąta mają 35° i 65°. Ile stopni ma trzeci?",
+      "prompt": "Ile stopni ma kąt dopełniający kąt 10° do kąta prostego?",
       "answer": "80",
-      "id": "audit21-694b754c109113f137dc",
-      "aliases": [
-        "80",
-        "80°"
-      ]
+      "id": "geo-8a06b734823f3d2b794d"
     },
     {
-      "prompt": "Jeden kąt ostry trójkąta prostokątnego ma 28°. Ile stopni ma drugi?",
-      "answer": "62",
-      "id": "audit21-99071f4ff2dfd303bf91",
-      "aliases": [
-        "62",
-        "62°"
-      ]
+      "prompt": "Ile stopni ma kąt dopełniający kąt 42° do kąta prostego?",
+      "answer": "48",
+      "id": "geo-78c9fd30d67fe87fba05"
     },
     {
-      "prompt": "Promień koła wynosi 7 cm. Ile centymetrów ma średnica?",
-      "answer": "14",
-      "id": "audit21-3eb888388c5497d9efd3",
+      "prompt": "Promień koła ma 9 cm. Ile wynosi jego pole? Podaj wynik jako wielokrotność π (np. 9π).",
+      "answer": "81π",
       "aliases": [
-        "14",
-        "14 cm"
-      ]
+        "81 pi",
+        "81"
+      ],
+      "id": "geo-f99ffcff5dd549a367b2"
     },
     {
-      "prompt": "Średnica koła wynosi 18 cm. Ile centymetrów ma promień?",
-      "answer": "9",
-      "id": "audit21-387ae1385f52d3dee171",
-      "aliases": [
-        "9",
-        "9 cm"
-      ]
+      "prompt": "Ile stopni ma kąt dopełniający kąt 70° do kąta prostego?",
+      "answer": "20",
+      "id": "geo-f6527163162b1c6c3be5"
     },
     {
-      "prompt": "Pole kwadratu wynosi 81 cm². Ile centymetrów ma jego bok?",
-      "answer": "9",
-      "id": "audit21-5a05851daa86aa5a4c8d",
+      "prompt": "Promień okręgu ma 7 cm. Ile wynosi jego obwód? Podaj wynik jako wielokrotność π.",
+      "answer": "14π",
       "aliases": [
-        "9",
-        "9 cm"
-      ]
+        "14 pi",
+        "14"
+      ],
+      "id": "geo-e809328bbe120554e32e"
     },
     {
-      "prompt": "Obwód kwadratu wynosi 36 cm. Ile centymetrów ma jego bok?",
-      "answer": "9",
-      "id": "audit21-8436c36c488f3894aedb",
-      "aliases": [
-        "9",
-        "9 cm"
-      ]
+      "prompt": "Oblicz objętość prostopadłościanu o wymiarach 6 cm × 8 cm × 4 cm. Podaj liczbę cm³.",
+      "answer": "192",
+      "id": "geo-3f40ed2574364647185b"
     },
     {
-      "prompt": "Pole prostokąta wynosi 48 cm², a jeden bok ma 6 cm. Ile centymetrów ma drugi?",
-      "answer": "8",
-      "id": "audit21-32300521144f2d348638",
-      "aliases": [
-        "8",
-        "8 cm"
-      ]
+      "prompt": "Ile stopni ma kąt przyległy do kąta o mierze 15°?",
+      "answer": "165",
+      "id": "geo-f0c4567864747dced3bb"
     },
     {
-      "prompt": "Objętość sześcianu wynosi 64 cm³. Ile centymetrów ma krawędź?",
-      "answer": "4",
-      "id": "audit21-e07b9db06558695cc111",
+      "prompt": "Promień okręgu ma 9 cm. Ile wynosi jego obwód? Podaj wynik jako wielokrotność π.",
+      "answer": "18π",
       "aliases": [
-        "4",
-        "4 cm"
-      ]
+        "18 pi",
+        "18"
+      ],
+      "id": "geo-8ab22bda7e7dec6182a2"
     },
     {
-      "prompt": "Ile razy wzrośnie pole kwadratu, jeśli długość boku wzrośnie trzykrotnie?",
-      "answer": "9",
-      "id": "audit21-36ef3756ca68995cb20a",
-      "aliases": [
-        "9",
-        "dziewięć"
-      ]
+      "prompt": "Przekątne rombu mają 22 cm i 12 cm. Ile wynosi pole rombu w cm²?",
+      "answer": "132",
+      "id": "geo-02bb071ddd11c1c3b353"
     },
     {
-      "prompt": "Ile razy wzrośnie objętość sześcianu, jeśli długość krawędzi wzrośnie dwukrotnie?",
-      "answer": "8",
-      "id": "audit21-401c001078e63b138281",
-      "aliases": [
-        "8",
-        "osiem"
-      ]
+      "prompt": "Oblicz objętość prostopadłościanu o wymiarach 4 cm × 4 cm × 5 cm. Podaj liczbę cm³.",
+      "answer": "80",
+      "id": "geo-7ff02bace7d98ee4f1ed"
     },
     {
-      "prompt": "Ile wynosi pole koła o promieniu 3 cm? Podaj wynik z π.",
-      "answer": "9π cm²",
-      "id": "audit21-9b434b0efe5ec28c8913",
-      "aliases": [
-        "9π cm²",
-        "9π",
-        "9 pi"
-      ]
+      "prompt": "Oblicz objętość sześcianu o krawędzi 5 cm. Podaj liczbę cm³.",
+      "answer": "125",
+      "id": "geo-728a6fc4b97f18aa5193"
     },
     {
-      "prompt": "Ile wynosi obwód koła o promieniu 4 cm? Podaj wynik z π.",
-      "answer": "8π cm",
-      "id": "audit21-456d25600897f5808980",
-      "aliases": [
-        "8π cm",
-        "8π",
-        "8 pi"
-      ]
+      "prompt": "Dwa kąty trójkąta mają 24° i 78°. Ile stopni ma trzeci kąt?",
+      "answer": "78",
+      "id": "geo-87327d3a906c2620733f"
     },
     {
-      "prompt": "Ile wynosi pole powierzchni całkowitej sześcianu o krawędzi 3 cm?",
-      "answer": "54 cm²",
-      "id": "audit21-ba3804f1eed2f412db7b",
-      "aliases": [
-        "54 cm²",
-        "54"
-      ]
+      "prompt": "Oblicz pole powierzchni całkowitej sześcianu o krawędzi 4 cm. Podaj liczbę cm².",
+      "answer": "96",
+      "id": "geo-74d5b56e0f5580bde13f"
     },
     {
-      "prompt": "Ile centymetrów ma przeciwprostokątna przy przyprostokątnych 5 cm i 12 cm?",
+      "prompt": "Przyprostokątne trójkąta prostokątnego mają 8 cm i 15 cm. Ile centymetrów ma przeciwprostokątna?",
+      "answer": "17",
+      "id": "geo-a6c497097505811092fc"
+    },
+    {
+      "prompt": "Ile stopni wynosi suma kątów wewnętrznych 9-kąta wypukłego?",
+      "answer": "1260",
+      "id": "geo-96ca5ba53597435d741b"
+    },
+    {
+      "prompt": "Dwa kąty trójkąta mają 23° i 20°. Ile stopni ma trzeci kąt?",
+      "answer": "137",
+      "id": "geo-09311c3e8e521012c203"
+    },
+    {
+      "prompt": "Oblicz obwód prostokąta o bokach 10 cm i 4 cm. Podaj liczbę centymetrów.",
+      "answer": "28",
+      "id": "geo-62ebe46d21679a9eac56"
+    },
+    {
+      "prompt": "Oblicz obwód prostokąta o bokach 5 cm i 6 cm. Podaj liczbę centymetrów.",
+      "answer": "22",
+      "id": "geo-34a3f51744c9a8b86d8a"
+    },
+    {
+      "prompt": "Oblicz pole prostokąta o bokach 15 cm i 6 cm. Podaj liczbę cm².",
+      "answer": "90",
+      "id": "geo-4ce902ef742fae9a14f9"
+    },
+    {
+      "prompt": "Oblicz objętość sześcianu o krawędzi 6 cm. Podaj liczbę cm³.",
+      "answer": "216",
+      "id": "geo-e2b904dfd9628457f182"
+    },
+    {
+      "prompt": "Oblicz pole prostokąta o bokach 5 cm i 11 cm. Podaj liczbę cm².",
+      "answer": "55",
+      "id": "geo-d8af39586205ca9ec35a"
+    },
+    {
+      "prompt": "Dwa kąty trójkąta mają 27° i 58°. Ile stopni ma trzeci kąt?",
+      "answer": "95",
+      "id": "geo-bb4aaafbc81dd1316053"
+    },
+    {
+      "prompt": "Ile stopni ma mniejszy kąt między wskazówkami zegara o godzinie 4:00?",
+      "answer": "120",
+      "id": "geo-3c95d9310a1bf4fc3d22"
+    },
+    {
+      "prompt": "Oblicz objętość prostopadłościanu o wymiarach 4 cm × 6 cm × 6 cm. Podaj liczbę cm³.",
+      "answer": "144",
+      "id": "geo-31759fa213e50a30054d"
+    },
+    {
+      "prompt": "Ile krawędzi ma sześcian?",
+      "answer": "12",
+      "id": "geo-c6acc59fd7d157a56d69"
+    },
+    {
+      "prompt": "Przyprostokątne trójkąta prostokątnego mają 3 cm i 4 cm. Ile centymetrów ma przeciwprostokątna?",
+      "answer": "5",
+      "id": "geo-b639bab484c264ecdf0b"
+    },
+    {
+      "prompt": "Ile stopni ma mniejszy kąt między wskazówkami zegara o godzinie 5:00?",
+      "answer": "150",
+      "id": "geo-a2f744497f02911cb2d9"
+    },
+    {
+      "prompt": "Oblicz pole prostokąta o bokach 8 cm i 14 cm. Podaj liczbę cm².",
+      "answer": "112",
+      "id": "geo-f7e836b5dfd495e9e5de"
+    },
+    {
+      "prompt": "Oblicz pole trójkąta o podstawie 16 cm i wysokości 12 cm. Podaj liczbę cm².",
+      "answer": "96",
+      "id": "geo-9fb4f7b7863a1ac30f16"
+    },
+    {
+      "prompt": "Oblicz objętość sześcianu o krawędzi 7 cm. Podaj liczbę cm³.",
+      "answer": "343",
+      "id": "geo-8fd09d83ef111dbcc64c"
+    },
+    {
+      "prompt": "Przyprostokątne trójkąta prostokątnego mają 5 cm i 12 cm. Ile centymetrów ma przeciwprostokątna?",
       "answer": "13",
-      "id": "audit21-878fe0e8cd6cead413b2",
-      "aliases": [
-        "13",
-        "13 cm"
-      ]
+      "id": "geo-c74b41173d6c1cdf9f0c"
     },
     {
-      "prompt": "Ile stopni ma kąt pełny?",
-      "answer": "360",
-      "id": "v20-0583ace5098b0992f1ff"
+      "prompt": "Przyprostokątne trójkąta prostokątnego mają 6 cm i 8 cm. Ile centymetrów ma przeciwprostokątna?",
+      "answer": "10",
+      "id": "geo-bfd733b41f55ee9ae520"
     },
     {
-      "prompt": "Jak nazywa się trójkąt, który ma wszystkie boki równe?",
-      "answer": "Równoboczny",
+      "prompt": "Oblicz obwód kwadratu o boku 11 cm. Podaj liczbę centymetrów.",
+      "answer": "44",
+      "id": "geo-c3e0506231052357fe99"
+    },
+    {
+      "prompt": "Ile stopni ma kąt dopełniający kąt 68° do kąta prostego?",
+      "answer": "22",
+      "id": "geo-5f065ddab6ca460849bb"
+    },
+    {
+      "prompt": "Oblicz pole prostokąta o bokach 15 cm i 15 cm. Podaj liczbę cm².",
+      "answer": "225",
+      "id": "geo-4883e005a06be3e333ba"
+    },
+    {
+      "prompt": "Ile stopni ma kąt przyległy do kąta o mierze 43°?",
+      "answer": "137",
+      "id": "geo-22cc0d6b786a16b0ef1c"
+    },
+    {
+      "prompt": "Przekątne rombu mają 10 cm i 10 cm. Ile wynosi pole rombu w cm²?",
+      "answer": "50",
+      "id": "geo-0be762132d1ca8f653a6"
+    },
+    {
+      "prompt": "Oblicz obwód prostokąta o bokach 5 cm i 9 cm. Podaj liczbę centymetrów.",
+      "answer": "28",
+      "id": "geo-7d194de7af714bea5edd"
+    },
+    {
+      "prompt": "Oblicz objętość prostopadłościanu o wymiarach 8 cm × 9 cm × 4 cm. Podaj liczbę cm³.",
+      "answer": "288",
+      "id": "geo-eebb4adfd64686ff0b92"
+    },
+    {
+      "prompt": "Oblicz pole kwadratu o boku 5 cm. Podaj liczbę cm².",
+      "answer": "25",
+      "id": "geo-70add71664b9e080e344"
+    },
+    {
+      "prompt": "Promień okręgu ma 8 cm. Ile wynosi jego obwód? Podaj wynik jako wielokrotność π.",
+      "answer": "16π",
       "aliases": [
-        "Trójkąt równoboczny"
+        "16 pi",
+        "16"
       ],
-      "id": "v20-990aa77b4957d0bf9c92"
+      "id": "geo-5b33ec723a6af421823f"
     },
     {
-      "prompt": "Jak nazywa się odcinek łączący środek okręgu z dowolnym punktem okręgu?",
-      "answer": "Promień",
-      "id": "v20-19c60583a268ccd34261"
+      "prompt": "Ile stopni ma kąt dopełniający kąt 80° do kąta prostego?",
+      "answer": "10",
+      "id": "geo-6ae8b26b3795ccd21a04"
     },
     {
-      "prompt": "Jak nazywa się bryła, której wszystkie ściany są przystającymi kwadratami?",
-      "answer": "Sześcian",
-      "id": "v20-bb8421968bdceb513ab2"
+      "prompt": "Ile stopni ma kąt dopełniający kąt 50° do kąta prostego?",
+      "answer": "40",
+      "id": "geo-086993dcc7c87cd961fb"
     },
     {
-      "prompt": "Podaj przybliżenie liczby π do dwóch miejsc po przecinku.",
-      "answer": "3,14",
+      "prompt": "Promień koła ma 8 cm. Ile wynosi jego pole? Podaj wynik jako wielokrotność π (np. 9π).",
+      "answer": "64π",
       "aliases": [
-        "3.14"
+        "64 pi",
+        "64"
       ],
-      "id": "v20-7607ff089b164a69dc2b"
+      "id": "geo-432bfc8ad1faa494360c"
     },
     {
-      "prompt": "Ile ścian ma czworościan?",
-      "answer": "4",
-      "id": "v20-f2138d5d144a764c29b6"
+      "prompt": "Ile stopni ma kąt przyległy do kąta o mierze 33°?",
+      "answer": "147",
+      "id": "geo-d35b44687c7387ba6602"
     },
     {
-      "prompt": "Jak nazywa się twierdzenie opisane wzorem a² + b² = c²?",
-      "answer": "Twierdzenie Pitagorasa",
+      "prompt": "Przekątne rombu mają 20 cm i 11 cm. Ile wynosi pole rombu w cm²?",
+      "answer": "110",
+      "id": "geo-df0d56480195f190eb99"
+    },
+    {
+      "prompt": "Przekątne rombu mają 22 cm i 4 cm. Ile wynosi pole rombu w cm²?",
+      "answer": "44",
+      "id": "geo-ab9d3f63536912e48a04"
+    },
+    {
+      "prompt": "Dwa kąty trójkąta mają 58° i 49°. Ile stopni ma trzeci kąt?",
+      "answer": "73",
+      "id": "geo-df443085594543bbaf5d"
+    },
+    {
+      "prompt": "Ile stopni wynosi suma kątów wewnętrznych 10-kąta wypukłego?",
+      "answer": "1440",
+      "id": "geo-2d43862b9c143d606541"
+    },
+    {
+      "prompt": "Oblicz pole kwadratu o boku 15 cm. Podaj liczbę cm².",
+      "answer": "225",
+      "id": "geo-d76b167b33a1fccf0919"
+    },
+    {
+      "prompt": "Oblicz objętość prostopadłościanu o wymiarach 2 cm × 8 cm × 5 cm. Podaj liczbę cm³.",
+      "answer": "80",
+      "id": "geo-a1747f73d1e4f9216483"
+    },
+    {
+      "prompt": "Promień koła ma 3 cm. Ile wynosi jego pole? Podaj wynik jako wielokrotność π (np. 9π).",
+      "answer": "9π",
       "aliases": [
-        "Pitagorasa"
+        "9 pi",
+        "9"
       ],
-      "id": "v20-7544eed07596a0da5c04"
+      "id": "geo-255eb09b4637257a6451"
     },
     {
-      "prompt": "Ile stopni ma kąt między wskazówkami zegara dokładnie o 6:00?",
-      "answer": "180",
-      "id": "v20-eec93bc9b9f55a2f3a75"
+      "prompt": "Ile stopni ma kąt dopełniający kąt 56° do kąta prostego?",
+      "answer": "34",
+      "id": "geo-181bea29c419710c59e2"
     },
     {
-      "prompt": "Ile osi symetrii ma okrąg?",
-      "answer": "Nieskończenie wiele",
+      "prompt": "Oblicz pole trójkąta o podstawie 20 cm i wysokości 2 cm. Podaj liczbę cm².",
+      "answer": "20",
+      "id": "geo-22cda3a3e41e4fc78eb8"
+    },
+    {
+      "prompt": "Promień koła ma 12 cm. Ile wynosi jego pole? Podaj wynik jako wielokrotność π (np. 9π).",
+      "answer": "144π",
       "aliases": [
-        "Nieskończoność"
+        "144 pi",
+        "144"
       ],
-      "id": "v20-70d29f6414a7201a4474"
+      "id": "geo-ec03cf8a00e03142c802"
     },
     {
-      "prompt": "Jak nazywa się wielokąt o ośmiu bokach?",
-      "answer": "Ośmiokąt",
-      "id": "v20-f23e6140833b513b2719"
+      "prompt": "Ile wierzchołków ma ostrosłup czworokątny?",
+      "answer": "5",
+      "id": "geo-e8c2932c5f1c00f5269b"
     },
     {
-      "prompt": "Jak nazywa się kąt większy od 90°, ale mniejszy od 180°?",
-      "answer": "Rozwarty",
+      "prompt": "Oblicz pole kwadratu o boku 6 cm. Podaj liczbę cm².",
+      "answer": "36",
+      "id": "geo-c6d3fe8b51bac2b3f92d"
+    },
+    {
+      "prompt": "Ile stopni wynosi suma kątów wewnętrznych 7-kąta wypukłego?",
+      "answer": "900",
+      "id": "geo-627ee01c0e1f8f9f7a3e"
+    },
+    {
+      "prompt": "Oblicz obwód prostokąta o bokach 5 cm i 12 cm. Podaj liczbę centymetrów.",
+      "answer": "34",
+      "id": "geo-498bf976ee296f387442"
+    },
+    {
+      "prompt": "Ile stopni ma kąt przyległy do kąta o mierze 32°?",
+      "answer": "148",
+      "id": "geo-f92ab0f50d6641d81839"
+    },
+    {
+      "prompt": "Przekątne rombu mają 22 cm i 10 cm. Ile wynosi pole rombu w cm²?",
+      "answer": "110",
+      "id": "geo-0ee45ce48ce11f085959"
+    },
+    {
+      "prompt": "Oblicz pole trójkąta o podstawie 6 cm i wysokości 6 cm. Podaj liczbę cm².",
+      "answer": "18",
+      "id": "geo-be5badfa685437b23d21"
+    },
+    {
+      "prompt": "Przekątne rombu mają 18 cm i 4 cm. Ile wynosi pole rombu w cm²?",
+      "answer": "36",
+      "id": "geo-d12415a10ac11a04d1a4"
+    },
+    {
+      "prompt": "Oblicz pole prostokąta o bokach 5 cm i 12 cm. Podaj liczbę cm².",
+      "answer": "60",
+      "id": "geo-8072c08cc34e02ab79a5"
+    },
+    {
+      "prompt": "Oblicz pole prostokąta o bokach 12 cm i 10 cm. Podaj liczbę cm².",
+      "answer": "120",
+      "id": "geo-ba30f23b3887015863db"
+    },
+    {
+      "prompt": "Promień okręgu ma 10 cm. Ile wynosi jego obwód? Podaj wynik jako wielokrotność π.",
+      "answer": "20π",
       "aliases": [
-        "Kąt rozwarty"
+        "20 pi",
+        "20"
       ],
-      "id": "v20-f3d67901d2562704e02d"
+      "id": "geo-f16cbd32fb9c33a23847"
     },
     {
-      "prompt": "Oblicz obwód trójkąta równobocznego o boku 7 cm.",
-      "answer": "21 cm",
+      "prompt": "Oblicz pole powierzchni całkowitej sześcianu o krawędzi 8 cm. Podaj liczbę cm².",
+      "answer": "384",
+      "id": "geo-abee2b34649367f7d4e2"
+    },
+    {
+      "prompt": "Oblicz obwód prostokąta o bokach 9 cm i 13 cm. Podaj liczbę centymetrów.",
+      "answer": "44",
+      "id": "geo-7d9d4adb216b7fa0254a"
+    },
+    {
+      "prompt": "Ile stopni ma kąt dopełniający kąt 11° do kąta prostego?",
+      "answer": "79",
+      "id": "geo-24cdccb0ea43dbd56602"
+    },
+    {
+      "prompt": "Oblicz pole trójkąta o podstawie 12 cm i wysokości 4 cm. Podaj liczbę cm².",
+      "answer": "24",
+      "id": "geo-a52f9a31de79fe82dd2f"
+    },
+    {
+      "prompt": "Oblicz obwód prostokąta o bokach 14 cm i 10 cm. Podaj liczbę centymetrów.",
+      "answer": "48",
+      "id": "geo-38cf047e42495bb210c2"
+    },
+    {
+      "prompt": "Ile stopni ma kąt przyległy do kąta o mierze 10°?",
+      "answer": "170",
+      "id": "geo-1b734aff3a36b06b2f93"
+    },
+    {
+      "prompt": "Oblicz pole trójkąta o podstawie 20 cm i wysokości 7 cm. Podaj liczbę cm².",
+      "answer": "70",
+      "id": "geo-fdaf26f8a77c3e02db61"
+    },
+    {
+      "prompt": "Dwa kąty trójkąta mają 28° i 53°. Ile stopni ma trzeci kąt?",
+      "answer": "99",
+      "id": "geo-fe823c8f97d7f662c7cb"
+    },
+    {
+      "prompt": "Oblicz pole kwadratu o boku 11 cm. Podaj liczbę cm².",
+      "answer": "121",
+      "id": "geo-0f236338039149b5fb3c"
+    },
+    {
+      "prompt": "Dwa kąty trójkąta mają 41° i 86°. Ile stopni ma trzeci kąt?",
+      "answer": "53",
+      "id": "geo-737a54824f57edf203fb"
+    },
+    {
+      "prompt": "Oblicz obwód kwadratu o boku 6 cm. Podaj liczbę centymetrów.",
+      "answer": "24",
+      "id": "geo-42342285e3c3eb3fdd9c"
+    },
+    {
+      "prompt": "Ile przekątnych ma pięciokąt wypukły?",
+      "answer": "5",
+      "id": "geo-be406402eb025fefc30e"
+    },
+    {
+      "prompt": "Ile stopni ma kąt dopełniający kąt 58° do kąta prostego?",
+      "answer": "32",
+      "id": "geo-d2f73a655481278916df"
+    },
+    {
+      "prompt": "Oblicz pole prostokąta o bokach 13 cm i 3 cm. Podaj liczbę cm².",
+      "answer": "39",
+      "id": "geo-387befea3c21c64ffacb"
+    },
+    {
+      "prompt": "Przekątne rombu mają 16 cm i 4 cm. Ile wynosi pole rombu w cm²?",
+      "answer": "32",
+      "id": "geo-17d1342f34a2492fbead"
+    },
+    {
+      "prompt": "Ile stopni ma kąt przyległy do kąta o mierze 74°?",
+      "answer": "106",
+      "id": "geo-2dd0bc5586b1e307c52b"
+    },
+    {
+      "prompt": "Oblicz obwód kwadratu o boku 13 cm. Podaj liczbę centymetrów.",
+      "answer": "52",
+      "id": "geo-4c8f9d5e37d02b104c70"
+    },
+    {
+      "prompt": "Oblicz obwód prostokąta o bokach 12 cm i 7 cm. Podaj liczbę centymetrów.",
+      "answer": "38",
+      "id": "geo-59d33705b178f1fa9bc9"
+    },
+    {
+      "prompt": "Ile stopni ma kąt dopełniający kąt 51° do kąta prostego?",
+      "answer": "39",
+      "id": "geo-de3deea782f36d2739dc"
+    },
+    {
+      "prompt": "Promień koła ma 5 cm. Ile wynosi jego pole? Podaj wynik jako wielokrotność π (np. 9π).",
+      "answer": "25π",
       "aliases": [
-        "21"
+        "25 pi",
+        "25"
       ],
-      "id": "v20-c5b8848bc5639004d0ec"
+      "id": "geo-0cee31a0321e6d763583"
     },
     {
-      "prompt": "Jak nazywa się bryła obrotowa w kształcie rożka do lodów?",
-      "answer": "Stożek",
-      "id": "v20-9ce7c9ae3739e3749e81"
+      "prompt": "Oblicz pole kwadratu o boku 14 cm. Podaj liczbę cm².",
+      "answer": "196",
+      "id": "geo-9d18c2244031f848ead4"
     },
     {
-      "prompt": "Ile przekątnych ma kwadrat?",
-      "answer": "2",
-      "id": "v20-343cbceb38470824dc4b"
+      "prompt": "Promień okręgu ma 2 cm. Ile wynosi jego obwód? Podaj wynik jako wielokrotność π.",
+      "answer": "4π",
+      "aliases": [
+        "4 pi",
+        "4"
+      ],
+      "id": "geo-02fb12e2d7f207ff178d"
+    },
+    {
+      "prompt": "Oblicz objętość prostopadłościanu o wymiarach 6 cm × 7 cm × 7 cm. Podaj liczbę cm³.",
+      "answer": "294",
+      "id": "geo-60612d136fb6344a3988"
+    },
+    {
+      "prompt": "Oblicz pole trójkąta o podstawie 16 cm i wysokości 11 cm. Podaj liczbę cm².",
+      "answer": "88",
+      "id": "geo-13619d902aff7d7920ae"
+    },
+    {
+      "prompt": "Promień okręgu ma 3 cm. Ile wynosi jego obwód? Podaj wynik jako wielokrotność π.",
+      "answer": "6π",
+      "aliases": [
+        "6 pi",
+        "6"
+      ],
+      "id": "geo-1825d8b2dc1aecfb88f2"
     }
   ],
   "Jednostki": [
     {
-      "prompt": "Ile sekund ma 1 minuta?",
-      "answer": "60 s",
+      "prompt": "Ile minut to 2 h 20 min?",
+      "answer": "140",
+      "id": "jedn-190e4e0e337b5b75f001"
+    },
+    {
+      "prompt": "Ile dni to 7 tygodni?",
+      "answer": "49",
+      "id": "jedn-97be4ee8ea56996a4165"
+    },
+    {
+      "prompt": "Ile minut to 1 h 15 min?",
+      "answer": "75",
+      "id": "jedn-b7c6dde05c74c6cd81d2"
+    },
+    {
+      "prompt": "Ile centymetrów sześciennych to 3 l?",
+      "answer": "3000",
       "aliases": [
-        "60"
+        "3000 cm³"
       ],
-      "id": "audit6-af945ccc55cc27e6e423"
+      "id": "jedn-fad12847335fcd9e6ada"
     },
     {
-      "prompt": "Ile mililitrów ma 1 litr?",
-      "answer": "1000 ml",
+      "prompt": "Ile centymetrów to 8 m?",
+      "answer": "800",
+      "id": "jedn-bb0b1b2a4f24428a0291"
+    },
+    {
+      "prompt": "Ile dni to 3 tygodni?",
+      "answer": "21",
+      "id": "jedn-cdb6e55b2679c53db966"
+    },
+    {
+      "prompt": "Ile kelwinów to 25 °C? (w przybliżeniu, bez części dziesiętnych)",
+      "answer": "298",
+      "id": "jedn-8030eefb81c67c738b48"
+    },
+    {
+      "prompt": "Ile centymetrów sześciennych to 1 l?",
+      "answer": "1000",
       "aliases": [
-        "1000"
+        "1000 cm³"
       ],
-      "id": "audit6-1a4b6e19a66fb4c7a6ba"
+      "id": "jedn-4f8f1770a3a637f6a024"
     },
     {
-      "prompt": "Ile metrów kwadratowych ma 1 hektar?",
-      "answer": "10000 m²",
+      "prompt": "Ile tuzinów to 120 sztuk?",
+      "answer": "10",
+      "id": "jedn-030136b5e3db15f05e0b"
+    },
+    {
+      "prompt": "Ile minut to 1 h 30 min?",
+      "answer": "90",
+      "id": "jedn-fbdd0151082258428ca8"
+    },
+    {
+      "prompt": "Ile metrów na sekundę to 72 km/h?",
+      "answer": "20",
       "aliases": [
-        "10000"
+        "20 m/s"
       ],
-      "id": "audit6-6c5b45925e3a0a745480"
+      "id": "jedn-0dd27b5d9347325581ee"
     },
     {
-      "prompt": "Przelicz 72 km/h na m/s.",
-      "answer": "20 m/s",
-      "id": "audit6-68875b579cb019040fd4"
+      "prompt": "Ile mililitrów to 1,5 l?",
+      "answer": "1500",
+      "id": "jedn-92e58fb1532e8b1f4424"
     },
     {
-      "prompt": "Przelicz 2 m³ na litry.",
-      "answer": "2000 l",
-      "id": "audit6-f2e423874e083a518d17"
+      "prompt": "Ile tuzinów to 24 sztuk?",
+      "answer": "2",
+      "id": "jedn-16bd9378acdcafb80d2b"
     },
     {
-      "prompt": "Przelicz 2 kWh na dżule.",
-      "answer": "7200000 J",
-      "id": "audit6-22bf22f694d521a7897e"
+      "prompt": "Ile tuzinów to 48 sztuk?",
+      "answer": "4",
+      "id": "jedn-88cdc64a9d4cedc542a5"
     },
     {
-      "prompt": "Przelicz 2 MPa na paskale.",
-      "answer": "2000000 Pa",
-      "id": "audit6-e77b2d008a1657514fe7"
+      "prompt": "Ile kelwinów to 10 °C? (w przybliżeniu, bez części dziesiętnych)",
+      "answer": "283",
+      "id": "jedn-8c375f46997033fc1b1d"
     },
     {
-      "prompt": "Przelicz 2 tony na kilogramy.",
-      "answer": "2000 kg",
-      "id": "audit6-263f9b81a0ba1ffc4703"
-    },
-    {
-      "prompt": "Przelicz 12 hektarów na metry kwadratowe.",
-      "answer": "120000 m²",
-      "id": "audit6-a5508354df6c0e04fd3e"
-    },
-    {
-      "prompt": "Przelicz 12 decymetrów sześciennych na centymetry sześcienne.",
-      "answer": "12000 cm³",
-      "id": "audit6-f1be719b0b6e02a12559"
-    },
-    {
-      "prompt": "Przelicz 12 minut na sekundy.",
-      "answer": "720 s",
-      "id": "audit6-c54eb33426f7ce95d206"
-    },
-    {
-      "prompt": "Przelicz 12 megabajtów na bajty, używając dziesiętnego MB.",
-      "answer": "12000000 B",
-      "id": "audit6-d758b81d11db1298517f"
-    },
-    {
-      "prompt": "Przelicz 12 decygramów na miligramy.",
-      "answer": "1200 mg",
-      "id": "audit6-c66f268ef553995a8846"
-    },
-    {
-      "prompt": "Czas: 2 h. Ile to minut? Podaj liczbę.",
+      "prompt": "Ile milimetrów to 12 cm?",
       "answer": "120",
+      "id": "jedn-cf862815207468733179"
+    },
+    {
+      "prompt": "Ile metrów na sekundę to 108 km/h?",
+      "answer": "30",
       "aliases": [
-        "120"
+        "30 m/s"
       ],
-      "kind": "zadanie",
-      "difficulty": "łatwe/średnie",
-      "visual": "🕒",
-      "id": "v8-9c99bc36c36e12d1"
+      "id": "jedn-1baec0261aac874759c1"
     },
     {
-      "prompt": "Pojemność: 2 l. Ile to mililitrów? Podaj liczbę.",
-      "answer": "2000",
-      "aliases": [
-        "2000"
-      ],
-      "kind": "zadanie",
-      "difficulty": "łatwe/średnie",
-      "visual": "🍼",
-      "id": "v8-7d8b2c6fbe179391"
+      "prompt": "Ile minut to 4 h 20 min?",
+      "answer": "260",
+      "id": "jedn-18de286a90c7f239e2e0"
     },
     {
-      "prompt": "Długość trasy: 3 km. Ile to metrów? Podaj liczbę.",
-      "answer": "3000",
-      "aliases": [
-        "3000"
-      ],
-      "kind": "zadanie",
-      "difficulty": "łatwe/średnie",
-      "visual": "🛣️",
-      "id": "v8-6dee4ae6642719cf"
+      "prompt": "Ile minut to 4 h?",
+      "answer": "240",
+      "id": "jedn-928157d8fdac216063a1"
     },
     {
-      "prompt": "Ile centymetrów ma 2,75 metra?",
-      "answer": "275",
-      "id": "audit21-8b391f1a54f8de0cebfb",
-      "aliases": [
-        "275"
-      ]
-    },
-    {
-      "prompt": "Ile metrów ma 3,6 kilometra?",
-      "answer": "3600",
-      "id": "audit21-b32703ca443e0e634b4c",
-      "aliases": [
-        "3600"
-      ]
-    },
-    {
-      "prompt": "Ile milimetrów ma 4,2 centymetra?",
-      "answer": "42",
-      "id": "audit21-3e00f721aa0888a78348",
-      "aliases": [
-        "42"
-      ]
-    },
-    {
-      "prompt": "Ile metrów ma 850 centymetrów?",
-      "answer": "8,5",
-      "id": "audit21-ce0d55f9feb7ebc466b6",
-      "aliases": [
-        "8,5",
-        "8.5"
-      ]
-    },
-    {
-      "prompt": "Ile kilogramów ma 2,4 tony?",
-      "answer": "2400",
-      "id": "audit21-2a0f49181538af484ab7",
-      "aliases": [
-        "2400"
-      ]
-    },
-    {
-      "prompt": "Ile gramów ma 0,75 kilograma?",
-      "answer": "750",
-      "id": "audit21-c8e3ea89330b60b769c3",
-      "aliases": [
-        "750"
-      ]
-    },
-    {
-      "prompt": "Ile miligramów ma 3 gramy?",
-      "answer": "3000",
-      "id": "audit21-9947b2d6984bd01e068f",
-      "aliases": [
-        "3000"
-      ]
-    },
-    {
-      "prompt": "Ile kilogramów ma 1250 gramów?",
-      "answer": "1,25",
-      "id": "audit21-2f51c521f4b5301512bd",
-      "aliases": [
-        "1,25",
-        "1.25"
-      ]
-    },
-    {
-      "prompt": "Ile mililitrów ma 1,75 litra?",
-      "answer": "1750",
-      "id": "audit21-4524ce496d7e58e72d8b",
-      "aliases": [
-        "1750"
-      ]
-    },
-    {
-      "prompt": "Ile litrów ma 250 mililitrów?",
-      "answer": "0,25",
-      "id": "audit21-4f47c53a6092279c84f7",
-      "aliases": [
-        "0,25",
-        "0.25"
-      ]
-    },
-    {
-      "prompt": "Ile litrów ma 0,6 metra sześciennego?",
-      "answer": "600",
-      "id": "audit21-5875099b52b2d35cf2be",
-      "aliases": [
-        "600"
-      ]
-    },
-    {
-      "prompt": "Ile centymetrów sześciennych ma 2 litry?",
-      "answer": "2000",
-      "id": "audit21-b06915eb2823b07d89a4",
-      "aliases": [
-        "2000"
-      ]
-    },
-    {
-      "prompt": "Ile sekund ma 7 minut?",
-      "answer": "420",
-      "id": "audit21-4ef1d27f86715b7e79f8",
-      "aliases": [
-        "420"
-      ]
-    },
-    {
-      "prompt": "Ile minut ma 2,5 godziny?",
-      "answer": "150",
-      "id": "audit21-bbcab7809233e7e58b21",
-      "aliases": [
-        "150"
-      ]
-    },
-    {
-      "prompt": "Ile godzin ma 270 minut?",
-      "answer": "4,5",
-      "id": "audit21-bbb2c48a75bcba49d319",
-      "aliases": [
-        "4,5",
-        "4.5"
-      ]
-    },
-    {
-      "prompt": "Ile sekund ma pół godziny?",
-      "answer": "1800",
-      "id": "audit21-9b0069021dd5cbf12f5e",
-      "aliases": [
-        "1800"
-      ]
-    },
-    {
-      "prompt": "Ile godzin mają trzy doby?",
+      "prompt": "Ile godzin to 3 doby?",
       "answer": "72",
-      "id": "audit21-9a128081f8f63711b209",
-      "aliases": [
-        "72"
-      ]
+      "id": "jedn-62586c483d167871a961"
     },
     {
-      "prompt": "Ile metrów kwadratowych ma 0,5 hektara?",
-      "answer": "5000",
-      "id": "audit21-c06e79012cfc4032f829",
-      "aliases": [
-        "5000"
-      ]
+      "prompt": "Ile minut to 2 h 30 min?",
+      "answer": "150",
+      "id": "jedn-58ae90149e9b22e9a726"
     },
     {
-      "prompt": "Ile metrów kwadratowych ma 12 arów?",
-      "answer": "1200",
-      "id": "audit21-74d129d327e6ef7e84eb",
+      "prompt": "Ile to jest 70 milimetrów w centymetrach?",
+      "answer": "7",
       "aliases": [
-        "1200"
-      ]
+        "7 cm"
+      ],
+      "id": "jedn-71f334306f8d40c8910b"
     },
     {
-      "prompt": "Ile arów ma 1 hektar?",
-      "answer": "100",
-      "id": "audit21-8551eb04b4bd28331e5e",
-      "aliases": [
-        "100"
-      ]
+      "prompt": "Ile minut to 1 h 45 min?",
+      "answer": "105",
+      "id": "jedn-520897081f1f4665e499"
     },
     {
-      "prompt": "Ile centymetrów kwadratowych ma 0,2 metra kwadratowego?",
+      "prompt": "Ile mililitrów to 2 l?",
       "answer": "2000",
-      "id": "audit21-54e1d5b62732dc3c824c",
-      "aliases": [
-        "2000"
-      ]
+      "id": "jedn-7ff5b7fc2a5bfd44f7b7"
     },
     {
-      "prompt": "Ile metrów kwadratowych ma 1 kilometr kwadratowy?",
-      "answer": "1000000",
-      "id": "audit21-d04fa82a50f36d459d66",
+      "prompt": "Ile tuzinów to 36 sztuk?",
+      "answer": "3",
+      "id": "jedn-50fc55ca89188f10a1a9"
+    },
+    {
+      "prompt": "Ile kelwinów to 0 °C? (w przybliżeniu, bez części dziesiętnych)",
+      "answer": "273",
+      "id": "jedn-5e04f691a40a889529e2"
+    },
+    {
+      "prompt": "Ile minut to 2 h 15 min?",
+      "answer": "135",
+      "id": "jedn-605e9b42342c57490ce8"
+    },
+    {
+      "prompt": "Ile minut to 3 h 20 min?",
+      "answer": "200",
+      "id": "jedn-5069e1e8e485da8c2ed4"
+    },
+    {
+      "prompt": "Ile dni to 4 tygodni?",
+      "answer": "28",
+      "id": "jedn-16c3f101a218261b0148"
+    },
+    {
+      "prompt": "Ile metrów na sekundę to 90 km/h?",
+      "answer": "25",
       "aliases": [
-        "1000000"
-      ]
+        "25 m/s"
+      ],
+      "id": "jedn-dbe1a2ff7b00527bd4b4"
+    },
+    {
+      "prompt": "Ile metrów na sekundę to 54 km/h?",
+      "answer": "15",
+      "aliases": [
+        "15 m/s"
+      ],
+      "id": "jedn-d872986a3debcaab5cd6"
+    },
+    {
+      "prompt": "Ile centymetrów sześciennych to 5 l?",
+      "answer": "5000",
+      "aliases": [
+        "5000 cm³"
+      ],
+      "id": "jedn-f3833872345db5cb9933"
+    },
+    {
+      "prompt": "Ile metrów to 2 km?",
+      "answer": "2000",
+      "id": "jedn-69aa729be26c69b5e480"
+    },
+    {
+      "prompt": "Ile to jest 5000 centymetrów kwadratowych w metrach kwadratowych?",
+      "answer": "0,5",
+      "aliases": [
+        "0.5",
+        "0,5 m²"
+      ],
+      "id": "jedn-874d0ff5c824cfe33264"
+    },
+    {
+      "prompt": "Ile sekund to 15 min?",
+      "answer": "900",
+      "id": "jedn-08b98c3916a496ca4c45"
+    },
+    {
+      "prompt": "Ile kelwinów to 100 °C? (w przybliżeniu, bez części dziesiętnych)",
+      "answer": "373",
+      "id": "jedn-918d2c83b84ccd8827d8"
+    },
+    {
+      "prompt": "Ile to jest 1500 mililitrów w litrach?",
+      "answer": "1,5",
+      "aliases": [
+        "1.5",
+        "1,5 l"
+      ],
+      "id": "jedn-83b6efb50381458ff806"
+    },
+    {
+      "prompt": "Ile tuzinów to 60 sztuk?",
+      "answer": "5",
+      "id": "jedn-40edf56bc9d88a147113"
+    },
+    {
+      "prompt": "Ile milimetrów to 7 cm?",
+      "answer": "70",
+      "id": "jedn-c23bf484fb945f077d57"
+    },
+    {
+      "prompt": "Ile dni to 8 tygodni?",
+      "answer": "56",
+      "id": "jedn-e8f864bd357fc9f00c3f"
+    },
+    {
+      "prompt": "Ile to jest 1500 gramów w kilogramach?",
+      "answer": "1,5",
+      "aliases": [
+        "1.5",
+        "1,5 kg"
+      ],
+      "id": "jedn-503b97c003825c1330e3"
+    },
+    {
+      "prompt": "Ile metrów to 4 km?",
+      "answer": "4000",
+      "id": "jedn-182588fc85fc35c1979a"
+    },
+    {
+      "prompt": "Ile to jest 4000 gramów w kilogramach?",
+      "answer": "4",
+      "aliases": [
+        "4 kg"
+      ],
+      "id": "jedn-4860db7abe6a192e3c67"
+    },
+    {
+      "prompt": "Ile centymetrów sześciennych to 2 l?",
+      "answer": "2000",
+      "aliases": [
+        "2000 cm³"
+      ],
+      "id": "jedn-18d66757c87d27c6a059"
+    },
+    {
+      "prompt": "Ile to jest 500 mililitrów w litrach?",
+      "answer": "0,5",
+      "aliases": [
+        "0.5",
+        "0,5 l"
+      ],
+      "id": "jedn-7b3249e9dbb8675180a9"
+    },
+    {
+      "prompt": "Ile to jest 480 minut w godzinach?",
+      "answer": "8",
+      "aliases": [
+        "8 h"
+      ],
+      "id": "jedn-efe7463fa4a5c6d57f0f"
+    },
+    {
+      "prompt": "Ile minut to 5 h 15 min?",
+      "answer": "315",
+      "id": "jedn-87657a1f0da113e9c718"
+    },
+    {
+      "prompt": "Ile milimetrów to 3,5 cm?",
+      "answer": "35",
+      "id": "jedn-bc0803a6c68d9403e569"
+    },
+    {
+      "prompt": "Ile minut to 5 h 20 min?",
+      "answer": "320",
+      "id": "jedn-35b50f5e5de458c21de5"
+    },
+    {
+      "prompt": "Ile metrów to 3,5 km?",
+      "answer": "3500",
+      "id": "jedn-2ce541227febd016391c"
+    },
+    {
+      "prompt": "Ile kelwinów to 20 °C? (w przybliżeniu, bez części dziesiętnych)",
+      "answer": "293",
+      "id": "jedn-346624c2b8eed52eac43"
+    },
+    {
+      "prompt": "Ile to jest 20 decymetrów w metrach?",
+      "answer": "2",
+      "aliases": [
+        "2 m"
+      ],
+      "id": "jedn-04214d8385dc600aa656"
+    },
+    {
+      "prompt": "Ile minut to 5 h 45 min?",
+      "answer": "345",
+      "id": "jedn-2da9fe7171113e6583e9"
+    },
+    {
+      "prompt": "Ile to jest 3200 gramów w kilogramach?",
+      "answer": "3,2",
+      "aliases": [
+        "3.2",
+        "3,2 kg"
+      ],
+      "id": "jedn-2e881974f21eb1587cac"
+    },
+    {
+      "prompt": "Ile dni to 5 tygodni?",
+      "answer": "35",
+      "id": "jedn-72a7d9064db2b97374ce"
+    },
+    {
+      "prompt": "Ile kelwinów to 30 °C? (w przybliżeniu, bez części dziesiętnych)",
+      "answer": "303",
+      "id": "jedn-fd45282b012779d86c6a"
+    },
+    {
+      "prompt": "Ile godzin to 2 doby?",
+      "answer": "48",
+      "id": "jedn-0784414d7024217e8fbe"
     },
     {
       "prompt": "Ile metrów na sekundę to 36 km/h?",
       "answer": "10",
-      "id": "audit21-535c5a22d89fd043d9d3",
       "aliases": [
-        "10"
-      ]
+        "10 m/s"
+      ],
+      "id": "jedn-74e06d0923fe79b0fe4b"
     },
     {
-      "prompt": "Ile kilometrów na godzinę to 15 m/s?",
-      "answer": "54",
-      "id": "audit21-3feea464ab796a1eb851",
-      "aliases": [
-        "54"
-      ]
+      "prompt": "Ile gramów to 4 kg?",
+      "answer": "4000",
+      "id": "jedn-041d6b6df5d6241c8b2c"
     },
     {
-      "prompt": "Ile kilowatów ma 2500 watów?",
-      "answer": "2,5",
-      "id": "audit21-f86d49375eb922e1e1c1",
-      "aliases": [
-        "2,5",
-        "2.5"
-      ]
+      "prompt": "Ile dni to 6 tygodni?",
+      "answer": "42",
+      "id": "jedn-7fe08548f263bcd9c7b7"
     },
     {
-      "prompt": "Ile watów ma 0,75 kilowata?",
+      "prompt": "Ile gramów to 1,5 kg?",
+      "answer": "1500",
+      "id": "jedn-eb56ff65d0a71dd481af"
+    },
+    {
+      "prompt": "Ile gramów to 0,5 kg?",
+      "answer": "500",
+      "id": "jedn-5db461f695b2c5bf0441"
+    },
+    {
+      "prompt": "Ile dni to 2 tygodni?",
+      "answer": "14",
+      "id": "jedn-f35339593ea37e356396"
+    },
+    {
+      "prompt": "Ile minut to 1,5 h?",
+      "answer": "90",
+      "id": "jedn-bcdde9536a95d037d0dd"
+    },
+    {
+      "prompt": "Ile to jest 5000 metrów kwadratowych w hektarach?",
+      "answer": "0,5",
+      "aliases": [
+        "0.5",
+        "0,5 ha"
+      ],
+      "id": "jedn-78eb2e6a378f29ee21c0"
+    },
+    {
+      "prompt": "Ile metrów to 12 km?",
+      "answer": "12000",
+      "id": "jedn-a07caaf78e04ffed2c95"
+    },
+    {
+      "prompt": "Ile to jest 20000 centymetrów kwadratowych w metrach kwadratowych?",
+      "answer": "2",
+      "aliases": [
+        "2 m²"
+      ],
+      "id": "jedn-909ff9ff6d8dc0917d6e"
+    },
+    {
+      "prompt": "Ile to jest 3000 mililitrów w litrach?",
+      "answer": "3",
+      "aliases": [
+        "3 l"
+      ],
+      "id": "jedn-eca54c202424ad38ee18"
+    },
+    {
+      "prompt": "Ile godzin to 7 doby?",
+      "answer": "168",
+      "id": "jedn-59c381bc3ca3fee6bb8f"
+    },
+    {
+      "prompt": "Ile decymetrów to 2 m?",
+      "answer": "20",
+      "id": "jedn-dcb7d45eb755d1147a1f"
+    },
+    {
+      "prompt": "Ile to jest 500 centymetrów w metrach?",
+      "answer": "5",
+      "aliases": [
+        "5 m"
+      ],
+      "id": "jedn-9210384e2012b2f53869"
+    },
+    {
+      "prompt": "Ile metrów kwadratowych to 3 ha?",
+      "answer": "30000",
+      "id": "jedn-33371b4bd088909da874"
+    },
+    {
+      "prompt": "Ile to jest 200 centymetrów w metrach?",
+      "answer": "2",
+      "aliases": [
+        "2 m"
+      ],
+      "id": "jedn-17da03ce0a0028e4b124"
+    },
+    {
+      "prompt": "Ile minut to 2 h 45 min?",
+      "answer": "165",
+      "id": "jedn-bf8169b257108beaf77e"
+    },
+    {
+      "prompt": "Ile to jest 180 sekund w minutach?",
+      "answer": "3",
+      "aliases": [
+        "3 min"
+      ],
+      "id": "jedn-ff5b440b2a770d704f88"
+    },
+    {
+      "prompt": "Ile to jest 72 godzin w dobach?",
+      "answer": "3",
+      "aliases": [
+        "3 doby"
+      ],
+      "id": "jedn-d5deccd0cf76f1b24322"
+    },
+    {
+      "prompt": "Ile centymetrów kwadratowych to 2 m²?",
+      "answer": "20000",
+      "id": "jedn-71ab314a54239fc4dfb6"
+    },
+    {
+      "prompt": "Ile centymetrów to 3,5 m?",
+      "answer": "350",
+      "id": "jedn-c096a2a6893799a2fbc7"
+    },
+    {
+      "prompt": "Ile to jest 30000 centymetrów kwadratowych w metrach kwadratowych?",
+      "answer": "3",
+      "aliases": [
+        "3 m²"
+      ],
+      "id": "jedn-123bc4ca861bafcd93f4"
+    },
+    {
+      "prompt": "Ile minut to 4 h 45 min?",
+      "answer": "285",
+      "id": "jedn-42f7924ed62e0e78cac4"
+    },
+    {
+      "prompt": "Ile minut to 4 h 15 min?",
+      "answer": "255",
+      "id": "jedn-16773748747864158a36"
+    },
+    {
+      "prompt": "Ile metrów kwadratowych to 2 ha?",
+      "answer": "20000",
+      "id": "jedn-cdd96009cfd685f0ffc2"
+    },
+    {
+      "prompt": "Ile centymetrów to 1,2 m?",
+      "answer": "120",
+      "id": "jedn-66e2f2b5c37478ff3047"
+    },
+    {
+      "prompt": "Ile groszy to 7,5 zł?",
       "answer": "750",
-      "id": "audit21-8498298821dda9203ea7",
-      "aliases": [
-        "750"
-      ]
+      "id": "jedn-e084cfa0bae798dd9c5a"
     },
     {
-      "prompt": "Ile paskali ma 1013 hektopaskali?",
-      "answer": "101300",
-      "id": "audit21-70fc5d1d0d671e28db3b",
+      "prompt": "Ile to jest 1200 groszy w złotych?",
+      "answer": "12",
       "aliases": [
-        "101300"
-      ]
+        "12 zł"
+      ],
+      "id": "jedn-d0433d5dc8cd0d36a316"
     },
     {
-      "prompt": "Ile herców ma 2,5 kiloherca?",
-      "answer": "2500",
-      "id": "audit21-bcda2413ff9a4ca924bc",
+      "prompt": "Ile to jest 120 godzin w dobach?",
+      "answer": "5",
       "aliases": [
-        "2500"
-      ]
+        "5 doby"
+      ],
+      "id": "jedn-fe0f339e6219247f68ff"
     },
     {
-      "prompt": "Ile dżuli ma 3 kilodżule?",
-      "answer": "3000",
-      "id": "audit21-226e8f1cfc5c2536f2e6",
+      "prompt": "Ile to jest 1500 kilogramów w tonach?",
+      "answer": "1,5",
       "aliases": [
-        "3000"
-      ]
+        "1.5",
+        "1,5 t"
+      ],
+      "id": "jedn-847d7d9fd7c72719f91e"
     },
     {
-      "prompt": "Ile niutonów ma 0,8 kiloniutona?",
-      "answer": "800",
-      "id": "audit21-9207d5c1c77c2e2c87f9",
-      "aliases": [
-        "800"
-      ]
-    },
-    {
-      "prompt": "Ile metrów sześciennych ma 4500 litrów?",
-      "answer": "4,5",
-      "id": "audit21-0fc4af0c8bf816904973",
-      "aliases": [
-        "4,5",
-        "4.5"
-      ]
-    },
-    {
-      "prompt": "Ile mililitrów ma 0,08 litra?",
+      "prompt": "Ile minut to 1 h 20 min?",
       "answer": "80",
-      "id": "audit21-997568f0a05c302c9b9d",
-      "aliases": [
-        "80"
-      ]
+      "id": "jedn-ed475c022e7217a7b1ee"
     },
     {
-      "prompt": "Ile cali ma stopa?",
+      "prompt": "Ile gramów to 3,2 kg?",
+      "answer": "3200",
+      "id": "jedn-5613226cb83291d24e33"
+    },
+    {
+      "prompt": "Ile gramów to 2 kg?",
+      "answer": "2000",
+      "id": "jedn-81bf97e7bf115188a408"
+    },
+    {
+      "prompt": "Ile kilogramów to 1,5 t?",
+      "answer": "1500",
+      "id": "jedn-ab6acbc4c331c801c681"
+    },
+    {
+      "prompt": "Ile to jest 120 milimetrów w centymetrach?",
       "answer": "12",
-      "id": "v20-77183684dffb4a092b46"
-    },
-    {
-      "prompt": "Ile centymetrów ma cal?",
-      "answer": "2,54",
       "aliases": [
-        "2.54"
+        "12 cm"
       ],
-      "id": "v20-5e7a2a85a6165430625b"
+      "id": "jedn-7af2da687ac743ca1351"
     },
     {
-      "prompt": "Ile w przybliżeniu kilometrów ma mila lądowa?",
-      "answer": "1,6",
+      "prompt": "Ile groszy to 3 zł?",
+      "answer": "300",
+      "id": "jedn-9a7d6a8184bdbc887279"
+    },
+    {
+      "prompt": "Ile kilogramów to 4,5 t?",
+      "answer": "4500",
+      "id": "jedn-1c0137dc95ada15ead24"
+    },
+    {
+      "prompt": "Ile to jest 250 groszy w złotych?",
+      "answer": "2,5",
       "aliases": [
-        "1,609",
-        "1.6"
+        "2.5",
+        "2,5 zł"
       ],
-      "id": "v20-8f15906f996137548317"
+      "id": "jedn-2ecad81d42b17b10aadd"
     },
     {
-      "prompt": "Ile metrów ma mila morska?",
-      "answer": "1852",
-      "id": "v20-a2b2adb15520dbb464e9"
-    },
-    {
-      "prompt": "Ile sekund ma doba?",
-      "answer": "86400",
-      "id": "v20-54f8e49ba56c25629c1b"
-    },
-    {
-      "prompt": "Ile minut ma doba?",
-      "answer": "1440",
-      "id": "v20-13740b749894fc79f16b"
-    },
-    {
-      "prompt": "Ile dni ma rok przestępny?",
-      "answer": "366",
-      "id": "v20-509297679c3676351092"
-    },
-    {
-      "prompt": "Ile stopni Fahrenheita odpowiada 0 °C?",
-      "answer": "32",
+      "prompt": "Ile to jest 2000 gramów w kilogramach?",
+      "answer": "2",
       "aliases": [
-        "32 °F"
+        "2 kg"
       ],
-      "id": "v20-5264e74e71dde3c58940"
+      "id": "jedn-e71735ce14ff08417f56"
     },
     {
-      "prompt": "Ile w przybliżeniu kilogramów ma funt?",
-      "answer": "0,45",
+      "prompt": "Ile to jest 10000 metrów kwadratowych w hektarach?",
+      "answer": "1",
       "aliases": [
-        "0,454",
-        "0.45"
+        "1 ha"
       ],
-      "id": "v20-e4c0aeb904f6a2239032"
+      "id": "jedn-a63c5319644cfd98814f"
     },
     {
-      "prompt": "Ile sztuk to tuzin?",
-      "answer": "12",
-      "id": "v20-bdb4271e91d8b8b7e654"
+      "prompt": "Ile minut to 5 h 30 min?",
+      "answer": "330",
+      "id": "jedn-8b2a68f7d252a5efe6fe"
     },
     {
-      "prompt": "Ile gramów ma dekagram?",
-      "answer": "10",
-      "id": "v20-f51c2ed0fe948f3924b7"
+      "prompt": "Ile minut to 3 h 30 min?",
+      "answer": "210",
+      "id": "jedn-5dbb0d3ba5dc73132413"
     },
     {
-      "prompt": "Ile kilobajtów ma megabajt w układzie dziesiętnym?",
-      "answer": "1000",
-      "id": "v20-a3b8653bf2370740a27f"
+      "prompt": "Ile to jest 2000 kilogramów w tonach?",
+      "answer": "2",
+      "aliases": [
+        "2 t"
+      ],
+      "id": "jedn-56dd349fd3ec040feb40"
+    },
+    {
+      "prompt": "Ile centymetrów kwadratowych to 0,5 m²?",
+      "answer": "5000",
+      "id": "jedn-7f88099d74c9cf1539da"
+    },
+    {
+      "prompt": "Ile to jest 42 milimetrów w centymetrach?",
+      "answer": "4,2",
+      "aliases": [
+        "4.2",
+        "4,2 cm"
+      ],
+      "id": "jedn-40f63057e6f354f13091"
+    },
+    {
+      "prompt": "Ile to jest 120 minut w godzinach?",
+      "answer": "2",
+      "aliases": [
+        "2 h"
+      ],
+      "id": "jedn-b62b129bb1dae00e402a"
+    },
+    {
+      "prompt": "Ile minut to 3 h 15 min?",
+      "answer": "195",
+      "id": "jedn-798d6103051b242c11d3"
+    },
+    {
+      "prompt": "Ile minut to 3 h 45 min?",
+      "answer": "225",
+      "id": "jedn-ed723edbe886ca8a6736"
+    },
+    {
+      "prompt": "Ile sekund to 10 min?",
+      "answer": "600",
+      "id": "jedn-851eba79455eb08f4848"
+    },
+    {
+      "prompt": "Ile to jest 7000 metrów w kilometrach?",
+      "answer": "7",
+      "aliases": [
+        "7 km"
+      ],
+      "id": "jedn-55e4047c479c40d547b4"
+    },
+    {
+      "prompt": "Ile centymetrów kwadratowych to 3 m²?",
+      "answer": "30000",
+      "id": "jedn-15a86227137823b671ce"
+    },
+    {
+      "prompt": "Ile to jest 30000 metrów kwadratowych w hektarach?",
+      "answer": "3",
+      "aliases": [
+        "3 ha"
+      ],
+      "id": "jedn-0d702afb2416d11436ef"
+    },
+    {
+      "prompt": "Ile mililitrów to 3 l?",
+      "answer": "3000",
+      "id": "jedn-908628348a55122ab3e3"
+    },
+    {
+      "prompt": "Ile to jest 300 sekund w minutach?",
+      "answer": "5",
+      "aliases": [
+        "5 min"
+      ],
+      "id": "jedn-fecbed7c6cca6970c128"
+    },
+    {
+      "prompt": "Ile centymetrów to 5 m?",
+      "answer": "500",
+      "id": "jedn-e2a7476578c0e59f7e35"
+    },
+    {
+      "prompt": "Ile groszy to 12 zł?",
+      "answer": "1200",
+      "id": "jedn-61d9096019179de15262"
+    },
+    {
+      "prompt": "Ile milimetrów to 25 cm?",
+      "answer": "250",
+      "id": "jedn-7456d45aa5e06c40aee0"
+    },
+    {
+      "prompt": "Ile centymetrów kwadratowych to 1 m²?",
+      "answer": "10000",
+      "id": "jedn-561f30ecc0fc4e3923cd"
+    },
+    {
+      "prompt": "Ile to jest 180 minut w godzinach?",
+      "answer": "3",
+      "aliases": [
+        "3 h"
+      ],
+      "id": "jedn-16bf46bafbf4548a5974"
+    },
+    {
+      "prompt": "Ile decymetrów to 7 m?",
+      "answer": "70",
+      "id": "jedn-f9907e0ae66fab26ddfb"
+    },
+    {
+      "prompt": "Ile to jest 10000 centymetrów kwadratowych w metrach kwadratowych?",
+      "answer": "1",
+      "aliases": [
+        "1 m²"
+      ],
+      "id": "jedn-32d5d059085590203abf"
+    },
+    {
+      "prompt": "Ile minut to 2 h?",
+      "answer": "120",
+      "id": "jedn-e1d8e9ada81ce623e6fa"
+    },
+    {
+      "prompt": "Ile decymetrów to 3,5 m?",
+      "answer": "35",
+      "id": "jedn-066f1ec0cd4429e47d24"
+    },
+    {
+      "prompt": "Ile minut to 4 h 30 min?",
+      "answer": "270",
+      "id": "jedn-addff07dcffcc4082a77"
+    },
+    {
+      "prompt": "Ile kilogramów to 3 t?",
+      "answer": "3000",
+      "id": "jedn-17e0e3f8f5a4c18b59d5"
+    },
+    {
+      "prompt": "Ile mililitrów to 0,5 l?",
+      "answer": "500",
+      "id": "jedn-701a99d766a5402f9305"
+    },
+    {
+      "prompt": "Ile minut to 8 h?",
+      "answer": "480",
+      "id": "jedn-2a7a26be07571ddb0e7a"
+    },
+    {
+      "prompt": "Ile to jest 35 decymetrów w metrach?",
+      "answer": "3,5",
+      "aliases": [
+        "3.5",
+        "3,5 m"
+      ],
+      "id": "jedn-3297d0641ec0fa0a616d"
+    },
+    {
+      "prompt": "Ile godzin to 5 doby?",
+      "answer": "120",
+      "id": "jedn-ca8c737878184950edab"
+    },
+    {
+      "prompt": "Ile to jest 90 minut w godzinach?",
+      "answer": "1,5",
+      "aliases": [
+        "1.5",
+        "1,5 h"
+      ],
+      "id": "jedn-e47ceadc49545c235d95"
+    },
+    {
+      "prompt": "Ile to jest 2000 mililitrów w litrach?",
+      "answer": "2",
+      "aliases": [
+        "2 l"
+      ],
+      "id": "jedn-937b5a07b034f377b383"
+    },
+    {
+      "prompt": "Ile to jest 70 decymetrów w metrach?",
+      "answer": "7",
+      "aliases": [
+        "7 m"
+      ],
+      "id": "jedn-81bd78c4e54922a74186"
+    },
+    {
+      "prompt": "Ile mililitrów to 0,25 l?",
+      "answer": "250",
+      "id": "jedn-d47d0af75797779d3d1c"
+    },
+    {
+      "prompt": "Ile metrów to 7 km?",
+      "answer": "7000",
+      "id": "jedn-4dc3d7a29a118f20ce60"
+    },
+    {
+      "prompt": "Ile to jest 240 minut w godzinach?",
+      "answer": "4",
+      "aliases": [
+        "4 h"
+      ],
+      "id": "jedn-21efd9a21955e8bccafe"
+    },
+    {
+      "prompt": "Ile to jest 168 godzin w dobach?",
+      "answer": "7",
+      "aliases": [
+        "7 doby"
+      ],
+      "id": "jedn-b6d57e8dec7614e2b7f2"
+    },
+    {
+      "prompt": "Ile to jest 4500 kilogramów w tonach?",
+      "answer": "4,5",
+      "aliases": [
+        "4.5",
+        "4,5 t"
+      ],
+      "id": "jedn-6b1344aa376385f139a6"
+    },
+    {
+      "prompt": "Ile to jest 120 sekund w minutach?",
+      "answer": "2",
+      "aliases": [
+        "2 min"
+      ],
+      "id": "jedn-63cecf7b7e2a8d4bfe90"
+    },
+    {
+      "prompt": "Ile to jest 250 milimetrów w centymetrach?",
+      "answer": "25",
+      "aliases": [
+        "25 cm"
+      ],
+      "id": "jedn-f08eb97e1b8b2e827877"
+    },
+    {
+      "prompt": "Ile centymetrów to 2 m?",
+      "answer": "200",
+      "id": "jedn-fa763aa6a1febfd40cc5"
+    },
+    {
+      "prompt": "Ile to jest 3500 metrów w kilometrach?",
+      "answer": "3,5",
+      "aliases": [
+        "3.5",
+        "3,5 km"
+      ],
+      "id": "jedn-17200916567f00d58785"
+    },
+    {
+      "prompt": "Ile to jest 3000 kilogramów w tonach?",
+      "answer": "3",
+      "aliases": [
+        "3 t"
+      ],
+      "id": "jedn-d6589e8030477cec4d75"
+    },
+    {
+      "prompt": "Ile kilogramów to 2 t?",
+      "answer": "2000",
+      "id": "jedn-566c80893c00add814ed"
+    },
+    {
+      "prompt": "Ile groszy to 2,5 zł?",
+      "answer": "250",
+      "id": "jedn-60c93e7d060f50ff0b3b"
+    },
+    {
+      "prompt": "Ile minut to 3 h?",
+      "answer": "180",
+      "id": "jedn-2068ad8d994c95109959"
+    },
+    {
+      "prompt": "Ile to jest 1500 metrów w kilometrach?",
+      "answer": "1,5",
+      "aliases": [
+        "1.5",
+        "1,5 km"
+      ],
+      "id": "jedn-eeb2f3325fe416565543"
+    },
+    {
+      "prompt": "Ile decymetrów to 12 m?",
+      "answer": "120",
+      "id": "jedn-f5e88cc6cbe98ed04808"
+    },
+    {
+      "prompt": "Ile to jest 800 centymetrów w metrach?",
+      "answer": "8",
+      "aliases": [
+        "8 m"
+      ],
+      "id": "jedn-5408cdc32a5c071ef9b6"
+    },
+    {
+      "prompt": "Ile to jest 4000 metrów w kilometrach?",
+      "answer": "4",
+      "aliases": [
+        "4 km"
+      ],
+      "id": "jedn-8a31e43a206f6a8d8b62"
+    },
+    {
+      "prompt": "Ile to jest 500 gramów w kilogramach?",
+      "answer": "0,5",
+      "aliases": [
+        "0.5",
+        "0,5 kg"
+      ],
+      "id": "jedn-47ad2de2b2b0a3620b99"
+    },
+    {
+      "prompt": "Ile to jest 750 groszy w złotych?",
+      "answer": "7,5",
+      "aliases": [
+        "7.5",
+        "7,5 zł"
+      ],
+      "id": "jedn-9f49ae57212fda8c5a15"
+    },
+    {
+      "prompt": "Ile to jest 35 milimetrów w centymetrach?",
+      "answer": "3,5",
+      "aliases": [
+        "3.5",
+        "3,5 cm"
+      ],
+      "id": "jedn-85f8bf3860ceb2a61791"
+    },
+    {
+      "prompt": "Ile to jest 20000 metrów kwadratowych w hektarach?",
+      "answer": "2",
+      "aliases": [
+        "2 ha"
+      ],
+      "id": "jedn-48b3c64da4e35971568d"
     }
   ],
   "Angielski": [
@@ -10231,6 +12235,224 @@ export const bank = {
       "prompt": "Co znaczy po polsku angielskie słowo „pharmacy”?",
       "answer": "apteka",
       "id": "v20-4f478e42186d4c41a92d"
+    },
+    {
+      "prompt": "Jak jest „biblioteka” po angielsku?",
+      "answer": "Library",
+      "id": "ang-bf0988d5500ca2cd086e"
+    },
+    {
+      "prompt": "Jak jest „księgarnia” po angielsku?",
+      "answer": "Bookshop",
+      "aliases": [
+        "Bookstore"
+      ],
+      "id": "ang-85bc30bb38cec48bb6e0"
+    },
+    {
+      "prompt": "Jak jest „pociąg” po angielsku?",
+      "answer": "Train",
+      "id": "ang-6a6c822da754b53886e6"
+    },
+    {
+      "prompt": "Jak jest „kierownica” po angielsku?",
+      "answer": "Steering wheel",
+      "id": "ang-3b3acda5ffe5aca8b4ee"
+    },
+    {
+      "prompt": "Jak jest „wiewiórka” po angielsku?",
+      "answer": "Squirrel",
+      "id": "ang-27bc11d342f7cdea664d"
+    },
+    {
+      "prompt": "Jak jest „żółw” po angielsku?",
+      "answer": "Turtle",
+      "aliases": [
+        "Tortoise"
+      ],
+      "id": "ang-deba27bfafbe9d43ff49"
+    },
+    {
+      "prompt": "Jak jest „marchewka” po angielsku?",
+      "answer": "Carrot",
+      "id": "ang-2416f22924189ca05692"
+    },
+    {
+      "prompt": "Jak jest „czosnek” po angielsku?",
+      "answer": "Garlic",
+      "id": "ang-00cc17d8e5e142d4cbb9"
+    },
+    {
+      "prompt": "Jak jest „widelec” po angielsku?",
+      "answer": "Fork",
+      "id": "ang-2f1069eee15bc342ca0c"
+    },
+    {
+      "prompt": "Jak jest „parasol” po angielsku?",
+      "answer": "Umbrella",
+      "id": "ang-a420b9675a5da2097d9b"
+    },
+    {
+      "prompt": "Jak jest „ręcznik” po angielsku?",
+      "answer": "Towel",
+      "id": "ang-ae70244dad9702f2353b"
+    },
+    {
+      "prompt": "Jak jest „szuflada” po angielsku?",
+      "answer": "Drawer",
+      "id": "ang-bd52b3cff3f9565233f8"
+    },
+    {
+      "prompt": "Co znaczy angielskie słowo „actually”?",
+      "answer": "Właściwie, w rzeczywistości",
+      "aliases": [
+        "W rzeczywistości",
+        "Właściwie",
+        "Tak naprawdę"
+      ],
+      "id": "ang-169c99cb4cc92e4da94c"
+    },
+    {
+      "prompt": "Co znaczy angielskie słowo „eventually”?",
+      "answer": "W końcu, ostatecznie",
+      "aliases": [
+        "W końcu",
+        "Ostatecznie"
+      ],
+      "id": "ang-1ce270f4885fab19d557"
+    },
+    {
+      "prompt": "Co znaczy angielskie słowo „sensible”?",
+      "answer": "Rozsądny",
+      "id": "ang-902c67d08faf816ddb01"
+    },
+    {
+      "prompt": "Co znaczy angielskie słowo „pregnant”?",
+      "answer": "W ciąży",
+      "id": "ang-3aa76565109c0f8a4a37"
+    },
+    {
+      "prompt": "Co znaczy angielskie słowo „lecture”?",
+      "answer": "Wykład",
+      "id": "ang-681a0e8386fa731fd523"
+    },
+    {
+      "prompt": "Podaj drugą formę czasownika „go”.",
+      "answer": "Went",
+      "id": "ang-4de86a2b2516b5f2e757"
+    },
+    {
+      "prompt": "Podaj trzecią formę czasownika „write”.",
+      "answer": "Written",
+      "id": "ang-b98c298a2698282058e6"
+    },
+    {
+      "prompt": "Podaj drugą formę czasownika „buy”.",
+      "answer": "Bought",
+      "id": "ang-bf106e3b0d9d6b698ef9"
+    },
+    {
+      "prompt": "Podaj trzecią formę czasownika „eat”.",
+      "answer": "Eaten",
+      "id": "ang-a9ed19db75acd0beaba1"
+    },
+    {
+      "prompt": "Podaj drugą formę czasownika „think”.",
+      "answer": "Thought",
+      "id": "ang-55fbc4bd4ac39a1d7bbe"
+    },
+    {
+      "prompt": "Podaj liczbę mnogą słowa „mouse”.",
+      "answer": "Mice",
+      "id": "ang-6f5acb5b1a81815809b4"
+    },
+    {
+      "prompt": "Podaj liczbę mnogą słowa „child”.",
+      "answer": "Children",
+      "id": "ang-1d0421acf0a1ff1e6285"
+    },
+    {
+      "prompt": "Podaj liczbę mnogą słowa „tooth”.",
+      "answer": "Teeth",
+      "id": "ang-3e7799f37d67feaae05a"
+    },
+    {
+      "prompt": "Podaj liczbę mnogą słowa „person”.",
+      "answer": "People",
+      "id": "ang-06575a3d4799fab8d6f2"
+    },
+    {
+      "prompt": "Jak powiedzieć po angielsku „Miło cię poznać”?",
+      "answer": "Nice to meet you",
+      "id": "ang-ff91893da6b6eed99ddf"
+    },
+    {
+      "prompt": "Jak powiedzieć po angielsku „Wszystkiego najlepszego z okazji urodzin”?",
+      "answer": "Happy birthday",
+      "id": "ang-a9f8c386dda59729f4f2"
+    },
+    {
+      "prompt": "Jak powiedzieć po angielsku „Na zdrowie” (po kichnięciu)?",
+      "answer": "Bless you",
+      "id": "ang-9554d951ed8e48aff128"
+    },
+    {
+      "prompt": "Jaki czas wyraża zdanie „I have lived here for ten years”?",
+      "answer": "Present Perfect",
+      "id": "ang-5be6831c36f1daea1fe8"
+    },
+    {
+      "prompt": "Jaki czas wyraża zdanie „I was reading when you called”?",
+      "answer": "Past Continuous",
+      "id": "ang-6cbc683758c194cd0226"
+    },
+    {
+      "prompt": "Jakiego przedimka użyjesz przed słowem „apple”: a czy an?",
+      "answer": "An",
+      "id": "ang-598a92c8dc67c97ea0fe"
+    },
+    {
+      "prompt": "Jak jest „wtorek” po angielsku?",
+      "answer": "Tuesday",
+      "id": "ang-c5c3e08d34abbd823c49"
+    },
+    {
+      "prompt": "Jak jest „czwartek” po angielsku?",
+      "answer": "Thursday",
+      "id": "ang-23bec44800a850c45a88"
+    },
+    {
+      "prompt": "Jak jest „luty” po angielsku?",
+      "answer": "February",
+      "id": "ang-21ec4288f8424cdb1269"
+    },
+    {
+      "prompt": "Jak jest „czterdzieści” po angielsku?",
+      "answer": "Forty",
+      "id": "ang-d4a00d73e1957d320d02"
+    },
+    {
+      "prompt": "Jak jest „dziewięćdziesiąt” po angielsku?",
+      "answer": "Ninety",
+      "id": "ang-862e226b963ab8d8a37e"
+    },
+    {
+      "prompt": "Jak jest „siostrzeniec / bratanek” po angielsku?",
+      "answer": "Nephew",
+      "id": "ang-d8561c632f717b0c507f"
+    },
+    {
+      "prompt": "Jak jest „teściowa” po angielsku?",
+      "answer": "Mother-in-law",
+      "id": "ang-d36b36233b6722a18117"
+    },
+    {
+      "prompt": "Jak jest „sąsiad” po angielsku?",
+      "answer": "Neighbour",
+      "aliases": [
+        "Neighbor"
+      ],
+      "id": "ang-ff7615db3bd78f020e8b"
     }
   ],
   "Wiedza ogólna": [
@@ -10809,6 +13031,250 @@ export const bank = {
         "Chopin"
       ],
       "id": "v20-ec46b7eb5e6fa0166dcc"
+    },
+    {
+      "prompt": "Ile minut ma doba?",
+      "answer": "1440",
+      "id": "wiedza-a4c8a2581e1d52ef00de"
+    },
+    {
+      "prompt": "Ile sekund ma godzina?",
+      "answer": "3600",
+      "id": "wiedza-98b23bb13af1fee8cd29"
+    },
+    {
+      "prompt": "Ile dni ma luty w roku przestępnym?",
+      "answer": "29",
+      "id": "wiedza-4924d6c99089d1931658"
+    },
+    {
+      "prompt": "Co ile lat jest rok przestępny?",
+      "answer": "4",
+      "aliases": [
+        "Co 4 lata",
+        "Cztery"
+      ],
+      "id": "wiedza-c746c897a306050554eb"
+    },
+    {
+      "prompt": "Ile kontynentów wyróżnia się zwykle?",
+      "answer": "7",
+      "aliases": [
+        "Siedem",
+        "6"
+      ],
+      "id": "wiedza-63ef332d699831d8ca82"
+    },
+    {
+      "prompt": "Ile oceanów jest na Ziemi (wg najczęstszego podziału)?",
+      "answer": "5",
+      "aliases": [
+        "Pięć",
+        "4"
+      ],
+      "id": "wiedza-dc2a1371a98785e1120d"
+    },
+    {
+      "prompt": "Jakie zwierzę jest największym na świecie?",
+      "answer": "Płetwal błękitny",
+      "id": "wiedza-d68f84671ed45f3a0eac"
+    },
+    {
+      "prompt": "Ile zawodników liczy drużyna piłkarska na boisku?",
+      "answer": "11",
+      "aliases": [
+        "Jedenastu"
+      ],
+      "id": "wiedza-6657b1802097257dda6c"
+    },
+    {
+      "prompt": "Jakiego koloru jest flaga Japonii?",
+      "answer": "Biała z czerwonym kołem",
+      "aliases": [
+        "Biało-czerwona"
+      ],
+      "id": "wiedza-047618daa5cfce54db84"
+    },
+    {
+      "prompt": "W jakim kraju jest wieża Eiffla?",
+      "answer": "Francja",
+      "aliases": [
+        "We Francji"
+      ],
+      "id": "wiedza-3d9540dc9849dc71fa7b"
+    },
+    {
+      "prompt": "W jakim kraju są piramidy w Gizie?",
+      "answer": "Egipt",
+      "aliases": [
+        "W Egipcie"
+      ],
+      "id": "wiedza-b513b619912d3ddf6446"
+    },
+    {
+      "prompt": "Ile kości ma dorosły człowiek?",
+      "answer": "206",
+      "id": "wiedza-a1cc07144d6960077bcb"
+    },
+    {
+      "prompt": "Jaki organ pompuje krew?",
+      "answer": "Serce",
+      "id": "wiedza-abf0a9daebe907bb351b"
+    },
+    {
+      "prompt": "Ile zębów ma dorosły człowiek (z zębami mądrości)?",
+      "answer": "32",
+      "id": "wiedza-aeb58e987674355e5057"
+    },
+    {
+      "prompt": "Jaka jest stolica Australii?",
+      "answer": "Canberra",
+      "id": "wiedza-548fbf381514800a18a6"
+    },
+    {
+      "prompt": "Jaka jest stolica Kanady?",
+      "answer": "Ottawa",
+      "id": "wiedza-9f48885ac2cdf2e7728e"
+    },
+    {
+      "prompt": "Jaka jest stolica Brazylii?",
+      "answer": "Brasília",
+      "aliases": [
+        "Brasilia"
+      ],
+      "id": "wiedza-ed373d5a6f04e81560ee"
+    },
+    {
+      "prompt": "Jaki gaz wydychamy, a rośliny pochłaniają?",
+      "answer": "Dwutlenek węgla",
+      "aliases": [
+        "CO2",
+        "CO₂"
+      ],
+      "id": "wiedza-8afe9ad83df389fc6b2f"
+    },
+    {
+      "prompt": "Jaki gaz jest potrzebny do oddychania?",
+      "answer": "Tlen",
+      "id": "wiedza-765cd89d718bff72fb02"
+    },
+    {
+      "prompt": "Ile wynosi temperatura ciała zdrowego człowieka (°C, w przybliżeniu)?",
+      "answer": "36,6",
+      "aliases": [
+        "37",
+        "36,6 °C"
+      ],
+      "id": "wiedza-f3fb10e36b6bd1079acf"
+    },
+    {
+      "prompt": "Jak nazywa się najbardziej znany obraz Leonarda da Vinci?",
+      "answer": "Mona Lisa",
+      "aliases": [
+        "Gioconda"
+      ],
+      "id": "wiedza-916598419d4d469d4bcb"
+    },
+    {
+      "prompt": "Kto namalował „Gwiaździstą noc”?",
+      "answer": "Vincent van Gogh",
+      "aliases": [
+        "Van Gogh"
+      ],
+      "id": "wiedza-c68b6c990ecfbeb6438d"
+    },
+    {
+      "prompt": "Kto namalował „Bitwę pod Grunwaldem”?",
+      "answer": "Jan Matejko",
+      "aliases": [
+        "Matejko"
+      ],
+      "id": "wiedza-506bbbff099047049028"
+    },
+    {
+      "prompt": "Ile kolorów ma tęcza?",
+      "answer": "7",
+      "aliases": [
+        "Siedem"
+      ],
+      "id": "wiedza-5ff193784d96f4e81b04"
+    },
+    {
+      "prompt": "Ile nóg ma krab?",
+      "answer": "10",
+      "aliases": [
+        "Dziesięć"
+      ],
+      "id": "wiedza-cbb4ecdde01077e70ec2"
+    },
+    {
+      "prompt": "Jak nazywa się waluta Szwajcarii?",
+      "answer": "Frank szwajcarski",
+      "aliases": [
+        "Frank"
+      ],
+      "id": "wiedza-b375bd799c7d22de2195"
+    },
+    {
+      "prompt": "Ile wynosi liczba π w przybliżeniu do dwóch miejsc po przecinku?",
+      "answer": "3,14",
+      "id": "wiedza-1ed880f660fe6b5ddc8e"
+    },
+    {
+      "prompt": "Jak nazywa się najdłuższa rzeka świata (wg najczęstszych pomiarów)?",
+      "answer": "Nil",
+      "aliases": [
+        "Amazonka"
+      ],
+      "id": "wiedza-ab890f12327162541658"
+    },
+    {
+      "prompt": "Jak nazywa się najwyższa góra świata?",
+      "answer": "Mount Everest",
+      "aliases": [
+        "Everest",
+        "Czomolungma"
+      ],
+      "id": "wiedza-93ce2a04889bebab4b58"
+    },
+    {
+      "prompt": "Jakie święto obchodzimy 1 listopada?",
+      "answer": "Wszystkich Świętych",
+      "id": "wiedza-a8f77324b13cd561966d"
+    },
+    {
+      "prompt": "Ile lat trwa kadencja prezydenta Polski?",
+      "answer": "5",
+      "aliases": [
+        "Pięć"
+      ],
+      "id": "wiedza-207d535ffcd336f68a11"
+    },
+    {
+      "prompt": "Jak nazywa się parlament Polski (obie izby razem)?",
+      "answer": "Zgromadzenie Narodowe",
+      "aliases": [
+        "Sejm i Senat"
+      ],
+      "id": "wiedza-7492ab64d9d3f437a436"
+    },
+    {
+      "prompt": "Ile posłów zasiada w Sejmie?",
+      "answer": "460",
+      "id": "wiedza-234ac9ebb350e39548e2"
+    },
+    {
+      "prompt": "Ile senatorów zasiada w Senacie?",
+      "answer": "100",
+      "id": "wiedza-fbeb157a1f43fc5f4f1c"
+    },
+    {
+      "prompt": "Jak nazywa się dzień, w którym dzień jest najdłuższy w roku (ok. 21 czerwca)?",
+      "answer": "Przesilenie letnie",
+      "aliases": [
+        "Letnie przesilenie"
+      ],
+      "id": "wiedza-abc986438ec92f066125"
     }
   ],
   "Flagi na obrazkach": [
@@ -12527,338 +14993,1108 @@ export const bank = {
       "prompt": "Wchodzisz do ciemnego pokoju z jedną zapałką. Jest tam świeca, lampa naftowa i kominek. Co zapalisz najpierw?",
       "answer": "Zapałkę",
       "id": "v20-86adb8ab21ba3b01ecf1"
+    },
+    {
+      "prompt": "Jaka jest następna liczba w ciągu: 19, 27, 35, 43?",
+      "answer": "51",
+      "id": "logika-3ea9ba713cf491af14fd"
+    },
+    {
+      "prompt": "W turnieju 6 drużyn każda gra z każdą jeden mecz. Ile meczów zostanie rozegranych?",
+      "answer": "15",
+      "id": "logika-c9e38308b3155824b67b"
+    },
+    {
+      "prompt": "Jaka jest następna liczba w ciągu: 43, 34, 25, 16?",
+      "answer": "7",
+      "id": "logika-8e57e23f623ae01d396d"
+    },
+    {
+      "prompt": "Mama jest o 29 lat starsza od córki. Za 5 lat córka będzie miała 12 lat. Ile lat ma teraz mama?",
+      "answer": "36",
+      "id": "logika-d14f54d80c03360e8fd1"
+    },
+    {
+      "prompt": "Jaka jest następna liczba w ciągu: 2, 5, 11, 23? (wskazówka: razy dwa i…)",
+      "answer": "47",
+      "id": "logika-5fb8900b4d39a5755bb3"
+    },
+    {
+      "prompt": "Ślimak wspina się na słup o wysokości 7 m. W dzień wchodzi 3 m, w nocy zsuwa się 2 m. Którego dnia dotrze na szczyt?",
+      "answer": "5",
+      "id": "logika-1b47abf6a16b21875dc0"
+    },
+    {
+      "prompt": "Na prostej drodze stoi 8 słupków w odstępach co 10 m. Ile metrów jest od pierwszego do ostatniego?",
+      "answer": "70",
+      "id": "logika-81c1eccedbf7f04304d6"
+    },
+    {
+      "prompt": "Mama jest o 24 lat starsza od córki. Za 5 lat córka będzie miała 11 lat. Ile lat ma teraz mama?",
+      "answer": "30",
+      "id": "logika-c0fc0a53ab7748e92f4e"
+    },
+    {
+      "prompt": "Ile jest możliwych wyników rzutu 4 monetami (orzeł/reszka, kolejność ma znaczenie)?",
+      "answer": "16",
+      "id": "logika-1f8285ab1debf22d7d8e"
+    },
+    {
+      "prompt": "Mama jest o 20 lat starsza od córki. Za 5 lat córka będzie miała 14 lat. Ile lat ma teraz mama?",
+      "answer": "29",
+      "id": "logika-3611a28e6ef0747e77e7"
+    },
+    {
+      "prompt": "Jeśli dziś jest czwartek, to jaki dzień będzie za 10 dni?",
+      "answer": "niedziela",
+      "id": "logika-07bc634b16cec34a53eb"
+    },
+    {
+      "prompt": "Ile razy trzeba przeciąć kłodę, żeby otrzymać 8 kawałków?",
+      "answer": "7",
+      "id": "logika-14d76aab2959c19f5a8f"
+    },
+    {
+      "prompt": "Każda liczba to suma dwóch poprzednich: 1, 3, 4, 7, 11. Jaka jest następna?",
+      "answer": "18",
+      "id": "logika-050bdd1542f1679c9207"
+    },
+    {
+      "prompt": "Jeśli dziś jest poniedziałek, to jaki dzień będzie za 9 dni?",
+      "answer": "środa",
+      "id": "logika-6debdc6999d23cb11f95"
+    },
+    {
+      "prompt": "Ile jest możliwych wyników rzutu 5 monetami (orzeł/reszka, kolejność ma znaczenie)?",
+      "answer": "32",
+      "id": "logika-0b6d84bc362920ba0261"
+    },
+    {
+      "prompt": "Jaka jest następna liczba w ciągu: 49, 40, 31, 22?",
+      "answer": "13",
+      "id": "logika-fa7d8cbc96dbdc2fae12"
+    },
+    {
+      "prompt": "Ile razy trzeba przeciąć kłodę, żeby otrzymać 9 kawałków?",
+      "answer": "8",
+      "id": "logika-c524c8a9f7b5eeaf4442"
+    },
+    {
+      "prompt": "Jaka jest następna liczba w ciągu: 57, 54, 51, 48?",
+      "answer": "45",
+      "id": "logika-73797c6c5bcdf325329c"
+    },
+    {
+      "prompt": "W grupie 9 osób każda wita się uściskiem dłoni z każdą inną dokładnie raz. Ile jest uścisków?",
+      "answer": "36",
+      "id": "logika-408a95225188051edbdf"
+    },
+    {
+      "prompt": "Ile razy trzeba przeciąć kłodę, żeby otrzymać 6 kawałków?",
+      "answer": "5",
+      "id": "logika-53de1f0b934ac1fd5d1d"
+    },
+    {
+      "prompt": "W turnieju 10 drużyn każda gra z każdą jeden mecz. Ile meczów zostanie rozegranych?",
+      "answer": "45",
+      "id": "logika-86dc13de6d5f1d6ebc34"
+    },
+    {
+      "prompt": "Jeśli dziś jest sobota, to jaki dzień będzie za 10 dni?",
+      "answer": "wtorek",
+      "id": "logika-36ce5d6b253450d108f4"
+    },
+    {
+      "prompt": "Na prostej drodze stoi 5 słupków w odstępach co 10 m. Ile metrów jest od pierwszego do ostatniego?",
+      "answer": "40",
+      "id": "logika-1ecec0f68623805d787d"
+    },
+    {
+      "prompt": "Każda liczba to suma dwóch poprzednich: 4, 6, 10, 16, 26. Jaka jest następna?",
+      "answer": "42",
+      "id": "logika-b3a7bbe2f750f149fc36"
+    },
+    {
+      "prompt": "Ile razy trzeba przeciąć kłodę, żeby otrzymać 3 kawałków?",
+      "answer": "2",
+      "id": "logika-970bb07105e58240e098"
+    },
+    {
+      "prompt": "Mama jest o 30 lat starsza od córki. Za 5 lat córka będzie miała 16 lat. Ile lat ma teraz mama?",
+      "answer": "41",
+      "id": "logika-ab26e37065bf5f1d2f83"
+    },
+    {
+      "prompt": "Jaka jest następna liczba w ciągu: 18, 30, 42, 54?",
+      "answer": "66",
+      "id": "logika-66611bdde523b538ebc4"
+    },
+    {
+      "prompt": "Na podwórku są kury i krowy. Mają razem 7 głów i 18 nóg. Ile jest krów?",
+      "answer": "2",
+      "id": "logika-cebddd40465247c21d1f"
+    },
+    {
+      "prompt": "Jaka jest następna liczba w ciągu: 52, 48, 44, 40?",
+      "answer": "36",
+      "id": "logika-d9919f058c06ef099a2e"
+    },
+    {
+      "prompt": "Na prostej drodze stoi 7 słupków w odstępach co 10 m. Ile metrów jest od pierwszego do ostatniego?",
+      "answer": "60",
+      "id": "logika-4d5861f8b11255ea5834"
+    },
+    {
+      "prompt": "Jaka jest następna liczba w ciągu: 16, 25, 36, 49?",
+      "answer": "64",
+      "id": "logika-e6e260961d9ccdc669ed"
+    },
+    {
+      "prompt": "Jaka jest następna liczba w ciągu: 89, 82, 75, 68?",
+      "answer": "61",
+      "id": "logika-e30abacaf859f3def739"
+    },
+    {
+      "prompt": "Jaka jest następna liczba w ciągu: 4, 12, 36, 108?",
+      "answer": "324",
+      "id": "logika-cdcf082760bd34d0827b"
+    },
+    {
+      "prompt": "Jaka jest następna liczba w ciągu: 18, 21, 24, 27?",
+      "answer": "30",
+      "id": "logika-f9f6abe87a39c669bd45"
+    },
+    {
+      "prompt": "Jaka jest następna liczba w ciągu: 42, 33, 24, 15?",
+      "answer": "6",
+      "id": "logika-654d08eb8f8540d78620"
+    },
+    {
+      "prompt": "Jaka jest następna liczba w ciągu: 2, 4, 8, 16?",
+      "answer": "32",
+      "id": "logika-1d636240f2413b260251"
+    },
+    {
+      "prompt": "Ile jest możliwych wyników rzutu dwiema monetami (orzeł/reszka, kolejność ma znaczenie)?",
+      "answer": "4",
+      "id": "logika-71cd5d912fea284dbf58"
+    },
+    {
+      "prompt": "Jaka jest następna liczba w ciągu: 9, 18, 27, 36?",
+      "answer": "45",
+      "id": "logika-cfa643a779a0653e906b"
+    },
+    {
+      "prompt": "Każda liczba to suma dwóch poprzednich: 3, 2, 5, 7, 12. Jaka jest następna?",
+      "answer": "19",
+      "id": "logika-82bd0a2c3df6dae9c7b4"
+    },
+    {
+      "prompt": "Ślimak wspina się na słup o wysokości 6 m. W dzień wchodzi 3 m, w nocy zsuwa się 2 m. Którego dnia dotrze na szczyt?",
+      "answer": "4",
+      "id": "logika-1802eeadb9b1f3f39c0c"
+    },
+    {
+      "prompt": "Jeśli dziś jest wtorek, to jaki dzień będzie za 10 dni?",
+      "answer": "piątek",
+      "id": "logika-930f724eae42923d04ad"
+    },
+    {
+      "prompt": "Jaka jest następna liczba w ciągu: 9, 16, 25, 36?",
+      "answer": "49",
+      "id": "logika-db70cd4242c92bbd7d16"
+    },
+    {
+      "prompt": "Jaka jest następna liczba w ciągu: 4, 8, 16, 32?",
+      "answer": "64",
+      "id": "logika-c45f95ae12a27a23f416"
+    },
+    {
+      "prompt": "Każda liczba to suma dwóch poprzednich: 2, 4, 6, 10, 16. Jaka jest następna?",
+      "answer": "26",
+      "id": "logika-310368e0f21ca391cc97"
+    },
+    {
+      "prompt": "Każda liczba to suma dwóch poprzednich: 1, 2, 3, 5, 8. Jaka jest następna?",
+      "answer": "13",
+      "id": "logika-ad9ff44a021259e26c91"
+    },
+    {
+      "prompt": "Ile razy trzeba przeciąć kłodę, żeby otrzymać 7 kawałków?",
+      "answer": "6",
+      "id": "logika-d80f1ad447dea70dab91"
+    },
+    {
+      "prompt": "Jaka jest następna liczba w ciągu: 4, 9, 16, 25?",
+      "answer": "36",
+      "id": "logika-26fae84c2ff2d1dd39ed"
+    },
+    {
+      "prompt": "W turnieju 4 drużyn każda gra z każdą jeden mecz. Ile meczów zostanie rozegranych?",
+      "answer": "6",
+      "id": "logika-b7064631e0b9bad040e6"
+    },
+    {
+      "prompt": "Ślimak wspina się na słup o wysokości 9 m. W dzień wchodzi 3 m, w nocy zsuwa się 2 m. Którego dnia dotrze na szczyt?",
+      "answer": "7",
+      "id": "logika-07187a3b83564267ad60"
+    },
+    {
+      "prompt": "Jaka jest następna liczba w ciągu: 1, 4, 9, 16?",
+      "answer": "25",
+      "id": "logika-dc9334dfe55621a6f923"
+    },
+    {
+      "prompt": "Jaka jest następna liczba w ciągu: 1, 3, 7, 15? (wskazówka: razy dwa i…)",
+      "answer": "31",
+      "id": "logika-06953d145cb26d7a8c3f"
+    },
+    {
+      "prompt": "Na podwórku są kury i krowy. Mają razem 7 głów i 20 nóg. Ile jest krów?",
+      "answer": "3",
+      "id": "logika-7ffc0a00232e51c4e4a6"
+    },
+    {
+      "prompt": "Każda liczba to suma dwóch poprzednich: 4, 5, 9, 14, 23. Jaka jest następna?",
+      "answer": "37",
+      "id": "logika-060762fa7bd236625dcb"
+    },
+    {
+      "prompt": "Na prostej drodze stoi 11 słupków w odstępach co 10 m. Ile metrów jest od pierwszego do ostatniego?",
+      "answer": "100",
+      "id": "logika-47ceed35858327c14fad"
+    },
+    {
+      "prompt": "W turnieju 8 drużyn każda gra z każdą jeden mecz. Ile meczów zostanie rozegranych?",
+      "answer": "28",
+      "id": "logika-93174f08e07a42703126"
+    },
+    {
+      "prompt": "Każda liczba to suma dwóch poprzednich: 5, 6, 11, 17, 28. Jaka jest następna?",
+      "answer": "45",
+      "id": "logika-31fb7d1f37af73679ede"
+    },
+    {
+      "prompt": "Jaka jest następna liczba w ciągu: 3, 9, 15, 21?",
+      "answer": "27",
+      "id": "logika-42bafc3b7b75556dbf5f"
+    },
+    {
+      "prompt": "Ślimak wspina się na słup o wysokości 4 m. W dzień wchodzi 3 m, w nocy zsuwa się 2 m. Którego dnia dotrze na szczyt?",
+      "answer": "2",
+      "id": "logika-6ca54cd453db2b12efbe"
+    },
+    {
+      "prompt": "Na podwórku są kury i krowy. Mają razem 10 głów i 28 nóg. Ile jest krów?",
+      "answer": "4",
+      "id": "logika-5fe15ccdb172ebbfabb9"
+    },
+    {
+      "prompt": "Jaka jest następna liczba w ciągu: 85, 78, 71, 64?",
+      "answer": "57",
+      "id": "logika-5129b3f66275f3436e14"
+    },
+    {
+      "prompt": "Mama jest o 23 lat starsza od córki. Za 5 lat córka będzie miała 12 lat. Ile lat ma teraz mama?",
+      "answer": "30",
+      "id": "logika-69d2afe711ccc4cd8eaf"
+    },
+    {
+      "prompt": "Jaka jest następna liczba w ciągu: 3, 9, 27, 81?",
+      "answer": "243",
+      "id": "logika-77baa0c511a78968e891"
+    },
+    {
+      "prompt": "Jaka jest następna liczba w ciągu: 6, 12, 18, 24?",
+      "answer": "30",
+      "id": "logika-b51a0031d3c03cbad4d7"
+    },
+    {
+      "prompt": "Mama jest o 24 lat starsza od córki. Za 5 lat córka będzie miała 12 lat. Ile lat ma teraz mama?",
+      "answer": "31",
+      "id": "logika-5c5aa7f80d9a85d1eaa7"
+    },
+    {
+      "prompt": "W grupie 5 osób każda wita się uściskiem dłoni z każdą inną dokładnie raz. Ile jest uścisków?",
+      "answer": "10",
+      "id": "logika-6f41d55f869f1d35839a"
+    },
+    {
+      "prompt": "Jaka jest następna liczba w ciągu: 56, 47, 38, 29?",
+      "answer": "20",
+      "id": "logika-4c140465ab5f1b8be1bc"
+    },
+    {
+      "prompt": "Na podwórku są kury i krowy. Mają razem 5 głów i 14 nóg. Ile jest krów?",
+      "answer": "2",
+      "id": "logika-d2d80f28bd2088d8ef37"
+    },
+    {
+      "prompt": "Mama jest o 30 lat starsza od córki. Za 5 lat córka będzie miała 15 lat. Ile lat ma teraz mama?",
+      "answer": "40",
+      "id": "logika-4fe27f34fb67d04cf75d"
+    },
+    {
+      "prompt": "Jaka jest następna liczba w ciągu: 88, 79, 70, 61?",
+      "answer": "52",
+      "id": "logika-c482d243b24a7bfb54b6"
+    },
+    {
+      "prompt": "Mama jest o 26 lat starsza od córki. Za 5 lat córka będzie miała 13 lat. Ile lat ma teraz mama?",
+      "answer": "34",
+      "id": "logika-0b96b8646cf906af44fe"
     }
   ],
   "Liczby rzymskie": [
     {
-      "prompt": "Zapisz cyframi arabskimi: IV.",
-      "answer": "4",
-      "id": "audit6-42a87eccb59c91f71b0f"
+      "prompt": "Zapisz rok 1953 cyframi rzymskimi.",
+      "answer": "MCMLIII",
+      "id": "rzym-a1ee7874da7bb546e4b4"
     },
     {
-      "prompt": "Zapisz cyframi rzymskimi liczbę 1601.",
-      "answer": "MDCI",
-      "id": "audit6-01b3cbd3ea73348c350c"
+      "prompt": "Jaką liczbę arabską oznacza zapis MDLXXXI?",
+      "answer": "1581",
+      "id": "rzym-51f5e839bf80cae94c79"
     },
     {
-      "prompt": "Jaką liczbę arabską oznacza zapis MDCCLI?",
-      "answer": "1751",
-      "id": "audit6-4fa8e7304e3db37bbaf0"
+      "prompt": "Zapisz rok 2012 cyframi rzymskimi.",
+      "answer": "MMXII",
+      "id": "rzym-3fbb6d802378a50e0cde"
     },
     {
-      "prompt": "Odczytaj liczbę rzymską z karty. Podaj zapis arabski.",
-      "visual": "XXXIV",
-      "answer": "34",
-      "aliases": [
-        "34"
-      ],
-      "kind": "symbol",
-      "difficulty": "średnie",
-      "id": "v8-9d38e33ef974159a"
+      "prompt": "Jaką liczbę arabską oznacza zapis CCCLXXX?",
+      "answer": "380",
+      "id": "rzym-5c32f9506c7aa48957c7"
     },
     {
-      "prompt": "Odczytaj liczbę rzymską z karty. Podaj zapis arabski.",
-      "visual": "LIV",
-      "answer": "54",
-      "aliases": [
-        "54"
-      ],
-      "kind": "symbol",
-      "difficulty": "średnie",
-      "id": "v8-f1d4eb71bc6d73e5"
+      "prompt": "Jaką liczbę arabską oznacza zapis MDX?",
+      "answer": "1510",
+      "id": "rzym-4add85cb7db352bc11a8"
     },
     {
-      "prompt": "Odczytaj liczbę rzymską z karty. Podaj zapis arabski.",
-      "visual": "LXIX",
-      "answer": "69",
-      "aliases": [
-        "69"
-      ],
-      "kind": "symbol",
-      "difficulty": "średnie",
-      "id": "v8-441f81b8158569a0"
+      "prompt": "Zapisz liczbę 371 cyframi rzymskimi.",
+      "answer": "CCCLXXI",
+      "id": "rzym-3ff20601fb461ad2d577"
     },
     {
-      "prompt": "Odczytaj liczbę rzymską z karty. Podaj zapis arabski.",
-      "visual": "LXXXIX",
-      "answer": "89",
-      "aliases": [
-        "89"
-      ],
-      "kind": "symbol",
-      "difficulty": "średnie",
-      "id": "v8-c6ad88dbbfde12de"
+      "prompt": "Zapisz liczbę 6 cyframi rzymskimi.",
+      "answer": "VI",
+      "id": "rzym-482626c173bdf1cb54bd"
     },
     {
-      "prompt": "Odczytaj liczbę rzymską z karty. Podaj zapis arabski.",
-      "visual": "CIX",
-      "answer": "109",
-      "aliases": [
-        "109"
-      ],
-      "kind": "symbol",
-      "difficulty": "średnie",
-      "id": "v8-dc4b46181b006c30"
+      "prompt": "Jaką liczbę arabską oznacza zapis DCCCXI?",
+      "answer": "811",
+      "id": "rzym-e2c951942ff0d1122435"
     },
     {
-      "prompt": "Jaką liczbę arabską oznacza zapis XIV?",
-      "answer": "14",
-      "id": "audit21-8bae4c8a7bd146643de0"
+      "prompt": "Jaką liczbę arabską oznacza zapis XCIII?",
+      "answer": "93",
+      "id": "rzym-6be16f6e496e65edea0d"
     },
     {
-      "prompt": "Jaką liczbę arabską oznacza zapis XIX?",
-      "answer": "19",
-      "id": "audit21-dfe632a0c0b50c4a347f"
+      "prompt": "Zapisz rok 1985 cyframi rzymskimi.",
+      "answer": "MCMLXXXV",
+      "id": "rzym-ce3739837e84aab7552d"
     },
     {
-      "prompt": "Jaką liczbę arabską oznacza zapis XXIV?",
-      "answer": "24",
-      "id": "audit21-9367e7e8849813f93aaf"
+      "prompt": "Ile wynosi XVI + XV? Podaj wynik cyframi arabskimi.",
+      "answer": "31",
+      "id": "rzym-80b294b8123f8ae07fd7"
     },
     {
-      "prompt": "Jaką liczbę arabską oznacza zapis XXXIX?",
-      "answer": "39",
-      "id": "audit21-57e66f49521edbbee074"
+      "prompt": "Jaką liczbę arabską oznacza zapis DCCCXXVI?",
+      "answer": "826",
+      "id": "rzym-36b38e7734224d3ed946"
     },
     {
-      "prompt": "Jaką liczbę arabską oznacza zapis XLIV?",
-      "answer": "44",
-      "id": "audit21-be2fc72a8882ba2fc944"
+      "prompt": "Jaką liczbę arabską oznacza zapis DCCCLXXXIII?",
+      "answer": "883",
+      "id": "rzym-bd8fe4299a6aa8375da3"
     },
     {
-      "prompt": "Jaką liczbę arabską oznacza zapis XLIX?",
-      "answer": "49",
-      "id": "audit21-495f1875baca385703a8"
+      "prompt": "Jaką liczbę arabską oznacza zapis MCCXXIV?",
+      "answer": "1224",
+      "id": "rzym-948e9822d5b2e813c230"
     },
     {
-      "prompt": "Jaką liczbę arabską oznacza zapis LVIII?",
+      "prompt": "Zapisz liczbę 165 cyframi rzymskimi.",
+      "answer": "CLXV",
+      "id": "rzym-c9482a96e30e4f76d488"
+    },
+    {
+      "prompt": "Zapisz liczbę 390 cyframi rzymskimi.",
+      "answer": "CCCXC",
+      "id": "rzym-e123321843edef3c5bd6"
+    },
+    {
+      "prompt": "Ile wynosi XXII + VI? Podaj wynik cyframi arabskimi.",
+      "answer": "28",
+      "id": "rzym-620cf49b56df66ff62b7"
+    },
+    {
+      "prompt": "Zapisz liczbę 79 cyframi rzymskimi.",
+      "answer": "LXXIX",
+      "id": "rzym-f20cf8b1254014823c0b"
+    },
+    {
+      "prompt": "Zapisz rok 1977 cyframi rzymskimi.",
+      "answer": "MCMLXXVII",
+      "id": "rzym-7d16e3c94c914db58ad9"
+    },
+    {
+      "prompt": "Zapisz liczbę 95 cyframi rzymskimi.",
+      "answer": "XCV",
+      "id": "rzym-8eb4515bb641cc63d168"
+    },
+    {
+      "prompt": "Ile wynosi XXVI + XXXII? Podaj wynik cyframi arabskimi.",
       "answer": "58",
-      "id": "audit21-d2b80e98edd7f081647a"
+      "id": "rzym-55d3267ec29ddb102896"
     },
     {
-      "prompt": "Jaką liczbę arabską oznacza zapis LXIV?",
-      "answer": "64",
-      "id": "audit21-afeee2884e6fdfe1f7d7"
+      "prompt": "Zapisz liczbę 473 cyframi rzymskimi.",
+      "answer": "CDLXXIII",
+      "id": "rzym-8397df247cd8636ab046"
     },
     {
-      "prompt": "Jaką liczbę arabską oznacza zapis LXXIX?",
-      "answer": "79",
-      "id": "audit21-d9a93bf3209cd78e452a"
+      "prompt": "Zapisz liczbę 734 cyframi rzymskimi.",
+      "answer": "DCCXXXIV",
+      "id": "rzym-00123859245c861ef21c"
     },
     {
-      "prompt": "Jaką liczbę arabską oznacza zapis XCIV?",
-      "answer": "94",
-      "id": "audit21-9fe8990ef6c7a7a36401"
+      "prompt": "Zapisz liczbę 146 cyframi rzymskimi.",
+      "answer": "CXLVI",
+      "id": "rzym-7a2979baec8720fae069"
     },
     {
-      "prompt": "Jaką liczbę arabską oznacza zapis XCIX?",
-      "answer": "99",
-      "id": "audit21-217e00a48cd8a264734d"
+      "prompt": "Zapisz liczbę 910 cyframi rzymskimi.",
+      "answer": "CMX",
+      "id": "rzym-56d56bf388a1198381ee"
     },
     {
-      "prompt": "Jaką liczbę arabską oznacza zapis CXLIX?",
-      "answer": "149",
-      "id": "audit21-f4c87e3424a1587c9645"
+      "prompt": "Jaką liczbę arabską oznacza zapis CCXXXVII?",
+      "answer": "237",
+      "id": "rzym-192ac2949d86e3404ff2"
     },
     {
-      "prompt": "Jaką liczbę arabską oznacza zapis CXCIV?",
-      "answer": "194",
-      "id": "audit21-088ccc5e24ff16e58309"
+      "prompt": "Zapisz liczbę 46 cyframi rzymskimi.",
+      "answer": "XLVI",
+      "id": "rzym-ced905b2e174564b24bd"
     },
     {
-      "prompt": "Jaką liczbę arabską oznacza zapis CCXLIX?",
-      "answer": "249",
-      "id": "audit21-ce1c0a5e2e9f798b0ee2"
+      "prompt": "Jaką liczbę arabską oznacza zapis MCCCXVIII?",
+      "answer": "1318",
+      "id": "rzym-cb92d4cb8f2dc109f356"
     },
     {
-      "prompt": "Jaką liczbę arabską oznacza zapis CCCXCIX?",
-      "answer": "399",
-      "id": "audit21-3d778a8c571ab30075ac"
+      "prompt": "Jaką liczbę arabską oznacza zapis MMLXI?",
+      "answer": "2061",
+      "id": "rzym-8af52a9ee32c25b9ed7b"
     },
     {
-      "prompt": "Jaką liczbę arabską oznacza zapis CDXLIV?",
-      "answer": "444",
-      "id": "audit21-53246f3420c9663d9716"
+      "prompt": "Zapisz rok 1958 cyframi rzymskimi.",
+      "answer": "MCMLVIII",
+      "id": "rzym-0e24aa59218cb3c1b6de"
     },
     {
-      "prompt": "Jaką liczbę arabską oznacza zapis CDXC?",
-      "answer": "490",
-      "id": "audit21-0e9f96c29ff896163223"
+      "prompt": "Jaką liczbę arabską oznacza zapis DCCCLXXXI?",
+      "answer": "881",
+      "id": "rzym-d34054a94c4c24205553"
     },
     {
-      "prompt": "Jaką liczbę arabską oznacza zapis DCXLIX?",
-      "answer": "649",
-      "id": "audit21-94ae4924020497a962aa"
+      "prompt": "Zapisz liczbę 458 cyframi rzymskimi.",
+      "answer": "CDLVIII",
+      "id": "rzym-dea47463f55e2211beb2"
     },
     {
-      "prompt": "Jaką liczbę arabską oznacza zapis CMXLIV?",
-      "answer": "944",
-      "id": "audit21-f53112129f5f8598f41b"
+      "prompt": "Zapisz liczbę 17 cyframi rzymskimi.",
+      "answer": "XVII",
+      "id": "rzym-9eb2a4ad1282c1646242"
     },
     {
-      "prompt": "Jaką liczbę arabską oznacza zapis MCDXCII?",
-      "answer": "1492",
-      "id": "audit21-68de872e20e99fd23eac"
+      "prompt": "Zapisz rok 1988 cyframi rzymskimi.",
+      "answer": "MCMLXXXVIII",
+      "id": "rzym-a2f489540b681656b97f"
     },
     {
-      "prompt": "Zapisz liczbę 28 cyframi rzymskimi.",
-      "answer": "XXVIII",
-      "id": "audit21-74b3def432d288e222fa"
+      "prompt": "Jaką liczbę arabską oznacza zapis CCCXXIV?",
+      "answer": "324",
+      "id": "rzym-942ab0aa0535458cbcab"
     },
     {
-      "prompt": "Zapisz liczbę 47 cyframi rzymskimi.",
-      "answer": "XLVII",
-      "id": "audit21-fdba3763315d675d8b21"
+      "prompt": "Zapisz liczbę 60 cyframi rzymskimi.",
+      "answer": "LX",
+      "id": "rzym-0d796256e1ef9c44de0a"
+    },
+    {
+      "prompt": "Zapisz liczbę 80 cyframi rzymskimi.",
+      "answer": "LXXX",
+      "id": "rzym-be4a28fa89f5f297aa46"
+    },
+    {
+      "prompt": "Zapisz liczbę 938 cyframi rzymskimi.",
+      "answer": "CMXXXVIII",
+      "id": "rzym-d3ad331b1eeb8445b448"
+    },
+    {
+      "prompt": "Zapisz rok 1921 cyframi rzymskimi.",
+      "answer": "MCMXXI",
+      "id": "rzym-d1a94190f2a120b2326c"
+    },
+    {
+      "prompt": "Zapisz liczbę 4 cyframi rzymskimi.",
+      "answer": "IV",
+      "id": "rzym-59f821e98dca48b4b9a3"
+    },
+    {
+      "prompt": "Zapisz liczbę 82 cyframi rzymskimi.",
+      "answer": "LXXXII",
+      "id": "rzym-e9781637350faedfc3f3"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis CMXXII?",
+      "answer": "922",
+      "id": "rzym-ffeb4a27cd382fc04da0"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis MDCXXXIX?",
+      "answer": "1639",
+      "id": "rzym-99264f9839eca53b5d81"
+    },
+    {
+      "prompt": "Zapisz rok 2016 cyframi rzymskimi.",
+      "answer": "MMXVI",
+      "id": "rzym-c8a81b69b95e072d00e7"
+    },
+    {
+      "prompt": "Zapisz liczbę 37 cyframi rzymskimi.",
+      "answer": "XXXVII",
+      "id": "rzym-2a3ce6a8ea4a381bf720"
     },
     {
       "prompt": "Zapisz liczbę 68 cyframi rzymskimi.",
       "answer": "LXVIII",
-      "id": "audit21-6bf849b953f773910cc1"
+      "id": "rzym-db79553c7308d202f64a"
     },
     {
-      "prompt": "Zapisz liczbę 89 cyframi rzymskimi.",
-      "answer": "LXXXIX",
-      "id": "audit21-f2707fc727313945ec9d"
+      "prompt": "Ile wynosi XXIV + XXXII? Podaj wynik cyframi arabskimi.",
+      "answer": "56",
+      "id": "rzym-18fc74cfd05f9fff7c25"
     },
     {
-      "prompt": "Zapisz liczbę 140 cyframi rzymskimi.",
-      "answer": "CXL",
-      "id": "audit21-32492d144e6980983956"
+      "prompt": "Zapisz liczbę 64 cyframi rzymskimi.",
+      "answer": "LXIV",
+      "id": "rzym-a12caa077daa2d4f68b8"
     },
     {
-      "prompt": "Zapisz liczbę 260 cyframi rzymskimi.",
-      "answer": "CCLX",
-      "id": "audit21-eac89a14d1c29e378f27"
+      "prompt": "Zapisz liczbę 26 cyframi rzymskimi.",
+      "answer": "XXVI",
+      "id": "rzym-015320194cc5bf77fec5"
     },
     {
-      "prompt": "Zapisz liczbę 450 cyframi rzymskimi.",
-      "answer": "CDL",
-      "id": "audit21-5038f67275acd41a2e02"
+      "prompt": "Jaką liczbę arabską oznacza zapis DCCXXXVI?",
+      "answer": "736",
+      "id": "rzym-2284aa52be06d22df380"
     },
     {
-      "prompt": "Zapisz liczbę 690 cyframi rzymskimi.",
-      "answer": "DCXC",
-      "id": "audit21-e7301dc5ce0a68d33704"
-    },
-    {
-      "prompt": "Zapisz liczbę 990 cyframi rzymskimi.",
-      "answer": "CMXC",
-      "id": "audit21-ac1fe1f659243eba3438"
-    },
-    {
-      "prompt": "Zapisz liczbę 1666 cyframi rzymskimi.",
-      "answer": "MDCLXVI",
-      "id": "audit21-7611daa6a3c277f59d05"
-    },
-    {
-      "prompt": "Oblicz XIV + IX. Wynik podaj cyframi arabskimi.",
-      "answer": "23",
-      "id": "audit21-8d35d27e111915cc0d7a"
-    },
-    {
-      "prompt": "Oblicz XL − XIX. Wynik podaj cyframi arabskimi.",
-      "answer": "21",
-      "id": "audit21-5dcad67e02477d665f49"
-    },
-    {
-      "prompt": "Oblicz LX + XXV. Wynik podaj cyframi arabskimi.",
+      "prompt": "Jaką liczbę arabską oznacza zapis LXXXV?",
       "answer": "85",
-      "id": "audit21-15683549d414473e4202"
+      "id": "rzym-d3879d86ea173aa1b875"
     },
     {
-      "prompt": "Oblicz C − XLIX. Wynik podaj cyframi arabskimi.",
-      "answer": "51",
-      "id": "audit21-bd76877644cfd43b387f"
+      "prompt": "Jaką liczbę arabską oznacza zapis MCCXX?",
+      "answer": "1220",
+      "id": "rzym-eea6dee281c8cc80724f"
     },
     {
-      "prompt": "Oblicz XC + XIV. Wynik podaj cyframi arabskimi.",
-      "answer": "104",
-      "id": "audit21-98507a562565c5157d6b"
+      "prompt": "Ile wynosi VI + X? Podaj wynik cyframi arabskimi.",
+      "answer": "16",
+      "id": "rzym-bd757adb5be91f2d978a"
     },
     {
-      "prompt": "Oblicz L − IX. Wynik podaj cyframi arabskimi.",
+      "prompt": "Zapisz liczbę 532 cyframi rzymskimi.",
+      "answer": "DXXXII",
+      "id": "rzym-dde50923ba901b57b2c7"
+    },
+    {
+      "prompt": "Zapisz liczbę 61 cyframi rzymskimi.",
+      "answer": "LXI",
+      "id": "rzym-5c22605684e9ad455606"
+    },
+    {
+      "prompt": "Zapisz liczbę 59 cyframi rzymskimi.",
+      "answer": "LIX",
+      "id": "rzym-f3eda4a32ad5c7e37947"
+    },
+    {
+      "prompt": "Ile wynosi XXXV + XXX? Podaj wynik cyframi arabskimi.",
+      "answer": "65",
+      "id": "rzym-08a46f97443455183925"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis L?",
+      "answer": "50",
+      "id": "rzym-7715f80e9b2b60f7a72e"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis XC?",
+      "answer": "90",
+      "id": "rzym-d218074e3c20a9d85ed6"
+    },
+    {
+      "prompt": "Zapisz rok 1964 cyframi rzymskimi.",
+      "answer": "MCMLXIV",
+      "id": "rzym-3b8fc381df2726bb8b86"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis MCCCXXXIX?",
+      "answer": "1339",
+      "id": "rzym-d2aefc3d7d4f796f7c84"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis XLVII?",
+      "answer": "47",
+      "id": "rzym-4d0fa6c28b408569cf30"
+    },
+    {
+      "prompt": "Zapisz liczbę 898 cyframi rzymskimi.",
+      "answer": "DCCCXCVIII",
+      "id": "rzym-db86fe48cbcb36fa4644"
+    },
+    {
+      "prompt": "Ile wynosi XXX + XIII? Podaj wynik cyframi arabskimi.",
+      "answer": "43",
+      "id": "rzym-829f5fda1440c81492c0"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis LVIII?",
+      "answer": "58",
+      "id": "rzym-1fd2d8ade7cd19e7a38c"
+    },
+    {
+      "prompt": "Zapisz liczbę 131 cyframi rzymskimi.",
+      "answer": "CXXXI",
+      "id": "rzym-7056b0c8fd0be42cc596"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis DCXXXIV?",
+      "answer": "634",
+      "id": "rzym-953f4ff1f322e78ef6bb"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis XXIII?",
+      "answer": "23",
+      "id": "rzym-7fb41bb5bfd2be24c410"
+    },
+    {
+      "prompt": "Ile wynosi XXXVII + XXIII? Podaj wynik cyframi arabskimi.",
+      "answer": "60",
+      "id": "rzym-7bac9f19406fe46ab65e"
+    },
+    {
+      "prompt": "Zapisz liczbę 664 cyframi rzymskimi.",
+      "answer": "DCLXIV",
+      "id": "rzym-d396b51847c95c231be0"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis IV?",
+      "answer": "4",
+      "id": "rzym-9ce5f95ac68bc1ec8732"
+    },
+    {
+      "prompt": "Ile wynosi XV + XXXV? Podaj wynik cyframi arabskimi.",
+      "answer": "50",
+      "id": "rzym-2d91907f32f004c42b86"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis CCCII?",
+      "answer": "302",
+      "id": "rzym-3e56083350798fb8d64d"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis XVII?",
+      "answer": "17",
+      "id": "rzym-bc6164e316cbf7aa5042"
+    },
+    {
+      "prompt": "Zapisz liczbę 32 cyframi rzymskimi.",
+      "answer": "XXXII",
+      "id": "rzym-d82d8b8c7e08d907a09c"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis LXXXIV?",
+      "answer": "84",
+      "id": "rzym-657531b2cf7380412104"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis XVI?",
+      "answer": "16",
+      "id": "rzym-528a93a0e557062365f6"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis DCCLXXIV?",
+      "answer": "774",
+      "id": "rzym-0c65edd3bf649fe30871"
+    },
+    {
+      "prompt": "Zapisz rok 1973 cyframi rzymskimi.",
+      "answer": "MCMLXXIII",
+      "id": "rzym-18bf2353433017ce93f2"
+    },
+    {
+      "prompt": "Ile wynosi XXV + XXXV? Podaj wynik cyframi arabskimi.",
+      "answer": "60",
+      "id": "rzym-2c1bee363962fe0b5bac"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis MCDLIII?",
+      "answer": "1453",
+      "id": "rzym-c6401d8c39625c2c2ac4"
+    },
+    {
+      "prompt": "Zapisz rok 2004 cyframi rzymskimi.",
+      "answer": "MMIV",
+      "id": "rzym-a54c7899da84104ab801"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis DCCLXXV?",
+      "answer": "775",
+      "id": "rzym-20554ed7f69a72306395"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis DCCCLXXXVIII?",
+      "answer": "888",
+      "id": "rzym-b65289d1ba9f20d01b65"
+    },
+    {
+      "prompt": "Zapisz rok 1912 cyframi rzymskimi.",
+      "answer": "MCMXII",
+      "id": "rzym-dec8cd8fd45df40009dc"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis LXVIII?",
+      "answer": "68",
+      "id": "rzym-49ae1aff08b2c8e90674"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis V?",
+      "answer": "5",
+      "id": "rzym-ba05ebc9a94c10e1a74f"
+    },
+    {
+      "prompt": "Zapisz liczbę 524 cyframi rzymskimi.",
+      "answer": "DXXIV",
+      "id": "rzym-cbc0b3f729347ffe9866"
+    },
+    {
+      "prompt": "Zapisz rok 1944 cyframi rzymskimi.",
+      "answer": "MCMXLIV",
+      "id": "rzym-27bcf2294da4d9b2b540"
+    },
+    {
+      "prompt": "Ile wynosi XV + XXI? Podaj wynik cyframi arabskimi.",
+      "answer": "36",
+      "id": "rzym-02100f727894543cb236"
+    },
+    {
+      "prompt": "Zapisz liczbę 282 cyframi rzymskimi.",
+      "answer": "CCLXXXII",
+      "id": "rzym-76897cbcfe44bedbd560"
+    },
+    {
+      "prompt": "Zapisz rok 1928 cyframi rzymskimi.",
+      "answer": "MCMXXVIII",
+      "id": "rzym-f580b82984a6ffc5e017"
+    },
+    {
+      "prompt": "Ile wynosi VIII + XXXIII? Podaj wynik cyframi arabskimi.",
       "answer": "41",
-      "id": "audit21-4cf79eb242e744d37ef3"
+      "id": "rzym-cd042d0cdb1afa9199b1"
     },
     {
-      "prompt": "Oblicz CD + XC. Wynik podaj cyframi arabskimi.",
-      "answer": "490",
-      "id": "audit21-df834999632263b0acb0"
+      "prompt": "Jaką liczbę arabską oznacza zapis MCCCLXIII?",
+      "answer": "1363",
+      "id": "rzym-20e6ed37f9c87df894fd"
     },
     {
-      "prompt": "Zapisz cyframi rzymskimi liczbę 2026.",
-      "answer": "MMXXVI",
-      "id": "v20-96f8b5d5da56b973d0aa"
+      "prompt": "Ile wynosi XV + XVII? Podaj wynik cyframi arabskimi.",
+      "answer": "32",
+      "id": "rzym-cb9ff63ebe57d5265ad8"
     },
     {
-      "prompt": "Jaką wartość ma rzymski znak M?",
-      "answer": "1000",
-      "id": "v20-ab83864a75c254e542a0"
+      "prompt": "Zapisz liczbę 814 cyframi rzymskimi.",
+      "answer": "DCCCXIV",
+      "id": "rzym-4811ac8463ddc946ebac"
     },
     {
-      "prompt": "Jaką wartość ma rzymski znak D?",
-      "answer": "500",
-      "id": "v20-4cb9de2253672a16ef47"
+      "prompt": "Jaką liczbę arabską oznacza zapis XCVII?",
+      "answer": "97",
+      "id": "rzym-afb6fde4f493eaa49a63"
     },
     {
-      "prompt": "Jaka jest największa liczba zapisywana standardowo cyframi rzymskimi? Podaj ją cyframi arabskimi.",
-      "answer": "3999",
-      "id": "v20-493855e2d79c11158041"
+      "prompt": "Zapisz rok 1918 cyframi rzymskimi.",
+      "answer": "MCMXVIII",
+      "id": "rzym-2b2966e4b50fa62ef117"
     },
     {
-      "prompt": "Czy w rzymskim systemie liczbowym istnieje znak oznaczający zero?",
-      "answer": "Nie",
-      "id": "v20-4510f67a098669377d1d"
+      "prompt": "Ile wynosi XVI + XX? Podaj wynik cyframi arabskimi.",
+      "answer": "36",
+      "id": "rzym-0073ae4f464e69c9aecf"
     },
     {
-      "prompt": "Zapisz cyframi rzymskimi rok bitwy pod Grunwaldem (1410).",
-      "answer": "MCDX",
-      "id": "v20-4568aabbcdfdecbdfce1"
+      "prompt": "Zapisz liczbę 134 cyframi rzymskimi.",
+      "answer": "CXXXIV",
+      "id": "rzym-6c4a24920ea09413730b"
     },
     {
-      "prompt": "Zapisz cyframi rzymskimi rok chrztu Polski (966).",
-      "answer": "CMLXVI",
-      "id": "v20-56b1f9421a4130316c2f"
+      "prompt": "Zapisz rok 1997 cyframi rzymskimi.",
+      "answer": "MCMXCVII",
+      "id": "rzym-08f7b41196eeaf763232"
     },
     {
-      "prompt": "Oblicz X × V. Wynik podaj cyframi rzymskimi.",
-      "answer": "L",
-      "id": "v20-74f3c053837f4e192c1b"
+      "prompt": "Ile wynosi XXVII + XXIV? Podaj wynik cyframi arabskimi.",
+      "answer": "51",
+      "id": "rzym-e5f0d264819d2f6beb86"
     },
     {
-      "prompt": "Zapisz liczbę 2000 cyframi rzymskimi.",
-      "answer": "MM",
-      "id": "v20-39dda70c919498e1649e"
+      "prompt": "Zapisz liczbę 76 cyframi rzymskimi.",
+      "answer": "LXXVI",
+      "id": "rzym-ed0fa53306b7c5123be3"
     },
     {
-      "prompt": "Jaką liczbę arabską oznacza zapis MMXXIV?",
-      "answer": "2024",
-      "id": "v20-27bc2fdaeb92f22f5a02"
+      "prompt": "Jaką liczbę arabską oznacza zapis LXXX?",
+      "answer": "80",
+      "id": "rzym-e2928ff86a5cb0047667"
     },
     {
-      "prompt": "Jaką liczbę arabską oznacza zapis MCMXCIX?",
-      "answer": "1999",
-      "id": "v20-2f2729bdcc96009f7076"
+      "prompt": "Zapisz liczbę 819 cyframi rzymskimi.",
+      "answer": "DCCCXIX",
+      "id": "rzym-006056ec1541c44557e1"
     },
     {
-      "prompt": "Zapisz liczbę 15 cyframi rzymskimi.",
-      "answer": "XV",
-      "id": "v20-d9877c1e16e2b8b55514"
+      "prompt": "Zapisz rok 1961 cyframi rzymskimi.",
+      "answer": "MCMLXI",
+      "id": "rzym-86c18ab3ef20a9dbae3a"
     },
     {
-      "prompt": "Zapisz liczbę 400 cyframi rzymskimi.",
-      "answer": "CD",
-      "id": "v20-1a36765930c2ef07eb25"
+      "prompt": "Zapisz rok 1941 cyframi rzymskimi.",
+      "answer": "MCMXLI",
+      "id": "rzym-ae2b72a19c83f7a297de"
     },
     {
-      "prompt": "Jaką liczbę arabską oznacza zapis LV?",
-      "answer": "55",
-      "id": "v20-8d785d2d4e5086de08a9"
+      "prompt": "Ile wynosi IX + XXXII? Podaj wynik cyframi arabskimi.",
+      "answer": "41",
+      "id": "rzym-27b0b727becd3dc54135"
     },
     {
-      "prompt": "Jaką liczbę arabską oznacza zapis MCMXVIII?",
-      "answer": "1918",
-      "id": "v20-f8c9e43c320d297135ce"
+      "prompt": "Jaką liczbę arabską oznacza zapis DCXCVI?",
+      "answer": "696",
+      "id": "rzym-ad9e808d01cc467a2d61"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis CDXXXIII?",
+      "answer": "433",
+      "id": "rzym-55fd262173dd7b793172"
+    },
+    {
+      "prompt": "Zapisz liczbę 856 cyframi rzymskimi.",
+      "answer": "DCCCLVI",
+      "id": "rzym-1c4ec80618d1dca15c7d"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis MCCLXIII?",
+      "answer": "1263",
+      "id": "rzym-22df86ef4764162859a9"
+    },
+    {
+      "prompt": "Zapisz liczbę 73 cyframi rzymskimi.",
+      "answer": "LXXIII",
+      "id": "rzym-b00ad7e3c06c52f02290"
+    },
+    {
+      "prompt": "Zapisz liczbę 500 cyframi rzymskimi.",
+      "answer": "D",
+      "id": "rzym-65b04c99dd56e3aec69f"
+    },
+    {
+      "prompt": "Zapisz liczbę 680 cyframi rzymskimi.",
+      "answer": "DCLXXX",
+      "id": "rzym-0d0087135aa9c5233786"
+    },
+    {
+      "prompt": "Zapisz liczbę 463 cyframi rzymskimi.",
+      "answer": "CDLXIII",
+      "id": "rzym-1aac424f97c1e993a57a"
+    },
+    {
+      "prompt": "Zapisz rok 1967 cyframi rzymskimi.",
+      "answer": "MCMLXVII",
+      "id": "rzym-633aa3fa99b690b43e87"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis MCCLIX?",
+      "answer": "1259",
+      "id": "rzym-3ff0df21e7dad017b468"
+    },
+    {
+      "prompt": "Ile wynosi XXXVIII + VI? Podaj wynik cyframi arabskimi.",
+      "answer": "44",
+      "id": "rzym-51dc994457d9de7359c3"
+    },
+    {
+      "prompt": "Zapisz liczbę 113 cyframi rzymskimi.",
+      "answer": "CXIII",
+      "id": "rzym-53ccb51977a5a9c88ffb"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis LXXXI?",
+      "answer": "81",
+      "id": "rzym-6e9e015b171ee0d72d94"
+    },
+    {
+      "prompt": "Zapisz rok 1910 cyframi rzymskimi.",
+      "answer": "MCMX",
+      "id": "rzym-ce983d3175e785b232c3"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis XXVIII?",
+      "answer": "28",
+      "id": "rzym-77287cf5127481362146"
+    },
+    {
+      "prompt": "Zapisz rok 1955 cyframi rzymskimi.",
+      "answer": "MCMLV",
+      "id": "rzym-08734f19669d10e12903"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis DCCXXIV?",
+      "answer": "724",
+      "id": "rzym-4009c42ecd6c2632878d"
+    },
+    {
+      "prompt": "Ile wynosi XII + XXXI? Podaj wynik cyframi arabskimi.",
+      "answer": "43",
+      "id": "rzym-fd2dd17fbaba160afdd3"
+    },
+    {
+      "prompt": "Zapisz liczbę 81 cyframi rzymskimi.",
+      "answer": "LXXXI",
+      "id": "rzym-79d285be8d0a411c2cf0"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis MCL?",
+      "answer": "1150",
+      "id": "rzym-34bf66cc3f787ce1ced8"
+    },
+    {
+      "prompt": "Zapisz liczbę 5 cyframi rzymskimi.",
+      "answer": "V",
+      "id": "rzym-8eb4f7c86003b8030726"
+    },
+    {
+      "prompt": "Zapisz rok 1986 cyframi rzymskimi.",
+      "answer": "MCMLXXXVI",
+      "id": "rzym-bf020728bc883dcca2bf"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis MXXXI?",
+      "answer": "1031",
+      "id": "rzym-0ea3b9b4abe4774ca4f3"
+    },
+    {
+      "prompt": "Zapisz liczbę 211 cyframi rzymskimi.",
+      "answer": "CCXI",
+      "id": "rzym-91db86cdb5daf66fcf73"
+    },
+    {
+      "prompt": "Zapisz rok 2013 cyframi rzymskimi.",
+      "answer": "MMXIII",
+      "id": "rzym-28c608e5719fafbfe5e8"
+    },
+    {
+      "prompt": "Zapisz rok 2008 cyframi rzymskimi.",
+      "answer": "MMVIII",
+      "id": "rzym-b4f1782d795b610692d1"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis XCIV?",
+      "answer": "94",
+      "id": "rzym-b867aa701dc37814ad5f"
+    },
+    {
+      "prompt": "Zapisz liczbę 205 cyframi rzymskimi.",
+      "answer": "CCV",
+      "id": "rzym-682b0c24086322eb6286"
+    },
+    {
+      "prompt": "Zapisz liczbę 454 cyframi rzymskimi.",
+      "answer": "CDLIV",
+      "id": "rzym-b886ca332b8372263b4a"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis CMXXX?",
+      "answer": "930",
+      "id": "rzym-c4ffc6acbf8c623e8a1b"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis XXV?",
+      "answer": "25",
+      "id": "rzym-ab36355a6f464bb3c992"
+    },
+    {
+      "prompt": "Zapisz liczbę 92 cyframi rzymskimi.",
+      "answer": "XCII",
+      "id": "rzym-239935fea7c5ee19e390"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis LXXXIII?",
+      "answer": "83",
+      "id": "rzym-344bf017c15f0cec22cf"
+    },
+    {
+      "prompt": "Zapisz rok 2025 cyframi rzymskimi.",
+      "answer": "MMXXV",
+      "id": "rzym-f7dcc2ea483525aa3e8f"
+    },
+    {
+      "prompt": "Ile wynosi XXXIV + XXXVI? Podaj wynik cyframi arabskimi.",
+      "answer": "70",
+      "id": "rzym-7c431f5087a09b1d85e3"
+    },
+    {
+      "prompt": "Ile wynosi V + XIX? Podaj wynik cyframi arabskimi.",
+      "answer": "24",
+      "id": "rzym-0810b6157accbab5a36b"
+    },
+    {
+      "prompt": "Ile wynosi XVI + XXXI? Podaj wynik cyframi arabskimi.",
+      "answer": "47",
+      "id": "rzym-4e949dde30b4ce351f12"
+    },
+    {
+      "prompt": "Jaką liczbę arabską oznacza zapis XLI?",
+      "answer": "41",
+      "id": "rzym-ab2dc8675808034275e6"
+    },
+    {
+      "prompt": "Zapisz liczbę 41 cyframi rzymskimi.",
+      "answer": "XLI",
+      "id": "rzym-18dbbdece5c6ab0017ba"
+    },
+    {
+      "prompt": "Zapisz liczbę 903 cyframi rzymskimi.",
+      "answer": "CMIII",
+      "id": "rzym-d99895210b1951e4b17b"
+    },
+    {
+      "prompt": "Zapisz rok 1963 cyframi rzymskimi.",
+      "answer": "MCMLXIII",
+      "id": "rzym-aa4ad7dfd806f46e51ca"
+    },
+    {
+      "prompt": "Ile wynosi XXI + XXII? Podaj wynik cyframi arabskimi.",
+      "answer": "43",
+      "id": "rzym-337d3b0a369e3e4bdd25"
     }
   ],
   "Gry": [
@@ -14236,6 +17472,246 @@ export const bank = {
       "prompt": "Jak ma na imię laleczka z serii horrorów, opętana duszą mordercy?",
       "answer": "Chucky",
       "id": "v20-cd6edc4e70e40d33b271"
+    },
+    {
+      "prompt": "Jak nazywa się zielony ogr z filmu animowanego DreamWorks?",
+      "answer": "Shrek",
+      "id": "filmy-b8290dfcda63ed79093a"
+    },
+    {
+      "prompt": "Jak ma na imię lew, główny bohater „Króla Lwa”?",
+      "answer": "Simba",
+      "id": "filmy-ac299680fe5d4a6c729d"
+    },
+    {
+      "prompt": "Jak nazywa się bałwan z „Krainy lodu”?",
+      "answer": "Olaf",
+      "id": "filmy-c0bc825e2f34f4023066"
+    },
+    {
+      "prompt": "Jak nazywa się kowboj z „Toy Story”?",
+      "answer": "Chudy",
+      "aliases": [
+        "Woody"
+      ],
+      "id": "filmy-60b8c3cb6e3240d895ee"
+    },
+    {
+      "prompt": "Jak nazywa się kosmonauta-zabawka z „Toy Story”?",
+      "answer": "Buzz Astral",
+      "aliases": [
+        "Buzz Lightyear",
+        "Buzz"
+      ],
+      "id": "filmy-b098b6a3cbfc0e413ffc"
+    },
+    {
+      "prompt": "Jak nazywa się mała rybka-błazen szukana przez tatę?",
+      "answer": "Nemo",
+      "id": "filmy-57bf9a7004ad81d76eab"
+    },
+    {
+      "prompt": "Jak nazywa się szczur-kucharz z „Ratatuja”?",
+      "answer": "Remy",
+      "id": "filmy-b13328d83a4fd7859457"
+    },
+    {
+      "prompt": "Jak nazywa się robot zbierający śmieci z filmu Pixara?",
+      "answer": "WALL·E",
+      "aliases": [
+        "Wall-E"
+      ],
+      "id": "filmy-b685508acf229b4d07d9"
+    },
+    {
+      "prompt": "Jak nazywa się czarodziej z „Władcy Pierścieni” w szarej szacie?",
+      "answer": "Gandalf",
+      "id": "filmy-5221dcdde4f4b9b29fc8"
+    },
+    {
+      "prompt": "Jak nazywa się szkoła magii w „Harrym Potterze”?",
+      "answer": "Hogwart",
+      "aliases": [
+        "Hogwarts"
+      ],
+      "id": "filmy-fcf5c31908862e835c2e"
+    },
+    {
+      "prompt": "Jak nazywa się ojciec Luke’a Skywalkera?",
+      "answer": "Darth Vader",
+      "aliases": [
+        "Anakin Skywalker",
+        "Vader"
+      ],
+      "id": "filmy-8d1dde8da96868f6e329"
+    },
+    {
+      "prompt": "Jak nazywa się zielony mistrz Jedi?",
+      "answer": "Yoda",
+      "id": "filmy-e657a1af7df25db5e00c"
+    },
+    {
+      "prompt": "Kto wyreżyserował „Titanica” i „Avatara”?",
+      "answer": "James Cameron",
+      "aliases": [
+        "Cameron"
+      ],
+      "id": "filmy-afdabea288c66264a6b1"
+    },
+    {
+      "prompt": "Kto wyreżyserował „Park Jurajski” i „E.T.”?",
+      "answer": "Steven Spielberg",
+      "aliases": [
+        "Spielberg"
+      ],
+      "id": "filmy-e0371bd48e513068d03a"
+    },
+    {
+      "prompt": "Kto wyreżyserował „Pianistę”, nagrodzonego Oscarem za reżyserię?",
+      "answer": "Roman Polański",
+      "aliases": [
+        "Polański"
+      ],
+      "id": "filmy-abb44dc02548e424f4c7"
+    },
+    {
+      "prompt": "Kto wyreżyserował „Listę Schindlera”?",
+      "answer": "Steven Spielberg",
+      "aliases": [
+        "Spielberg"
+      ],
+      "id": "filmy-701814f86e2f6a0bcee5"
+    },
+    {
+      "prompt": "Jak nazywa się polski film, który zdobył Oscara dla najlepszego filmu nieanglojęzycznego w 2015 roku?",
+      "answer": "Ida",
+      "id": "filmy-99f96833980e72c785ba"
+    },
+    {
+      "prompt": "Jak nazywa się polska komedia z „Misiem” Stanisława Barei?",
+      "answer": "Miś",
+      "id": "filmy-f49e647689730da6b82c"
+    },
+    {
+      "prompt": "Jak nazywa się kultowa polska komedia o Pawlakach i Kargulach?",
+      "answer": "Sami swoi",
+      "id": "filmy-af38d416fd961e5174eb"
+    },
+    {
+      "prompt": "Kto zagrał Kilera w filmie Juliusza Machulskiego?",
+      "answer": "Cezary Pazura",
+      "aliases": [
+        "Pazura"
+      ],
+      "id": "filmy-b74f2b09fb46b01348d0"
+    },
+    {
+      "prompt": "Jak nazywa się nagroda filmowa przyznawana przez Amerykańską Akademię Filmową?",
+      "answer": "Oscar",
+      "id": "filmy-6cb5b40dbb787cf5cfa9"
+    },
+    {
+      "prompt": "W jakim mieście odbywa się festiwal filmowy ze Złotą Palmą?",
+      "answer": "Cannes",
+      "id": "filmy-f71d5f2451ff4a27de2f"
+    },
+    {
+      "prompt": "Jak nazywa się festiwal filmowy w Gdyni?",
+      "answer": "Festiwal Polskich Filmów Fabularnych",
+      "aliases": [
+        "FPFF",
+        "Festiwal w Gdyni"
+      ],
+      "id": "filmy-76535d459a69d5515836"
+    },
+    {
+      "prompt": "Jak nazywa się dzielnica Los Angeles, symbol przemysłu filmowego?",
+      "answer": "Hollywood",
+      "id": "filmy-0e09c694117d56f16239"
+    },
+    {
+      "prompt": "Jak nazywa się indyjski przemysł filmowy z Mumbaju?",
+      "answer": "Bollywood",
+      "id": "filmy-ca4c32d2ed993ebb45eb"
+    },
+    {
+      "prompt": "Jak nazywa się słynny agent 007?",
+      "answer": "James Bond",
+      "aliases": [
+        "Bond"
+      ],
+      "id": "filmy-78af9227a87cfb178840"
+    },
+    {
+      "prompt": "Jak ma na imię Iron Man?",
+      "answer": "Tony Stark",
+      "aliases": [
+        "Tony"
+      ],
+      "id": "filmy-fe0aaf02abf75d2d59ee"
+    },
+    {
+      "prompt": "Jak nazywa się młot Thora?",
+      "answer": "Mjolnir",
+      "aliases": [
+        "Mjölnir"
+      ],
+      "id": "filmy-61164029612a5ca09a91"
+    },
+    {
+      "prompt": "Jak nazywa się dziewczynka z „Czarnoksiężnika z Krainy Oz”?",
+      "answer": "Dorotka",
+      "aliases": [
+        "Dorothy"
+      ],
+      "id": "filmy-37354a4773dcf57a27c8"
+    },
+    {
+      "prompt": "Jak nazywa się słoń z filmu Disneya, który lata dzięki uszom?",
+      "answer": "Dumbo",
+      "id": "filmy-f768b58c8419a16839f3"
+    },
+    {
+      "prompt": "Jak nazywa się syrenka z filmu Disneya?",
+      "answer": "Arielka",
+      "aliases": [
+        "Ariel"
+      ],
+      "id": "filmy-5efe38d171baf38b3c06"
+    },
+    {
+      "prompt": "Jak nazywa się zła bohaterka „101 dalmatyńczyków”, która chce futra z psów?",
+      "answer": "Cruella de Mon",
+      "aliases": [
+        "Cruella"
+      ],
+      "id": "filmy-2b33317399e038f8e498"
+    },
+    {
+      "prompt": "W jakim filmie pada zdanie „Houston, mamy problem”?",
+      "answer": "Apollo 13",
+      "id": "filmy-08bf3d0a6b7bf09b758f"
+    },
+    {
+      "prompt": "Jak nazywa się chłopiec zostawiony sam w domu na święta?",
+      "answer": "Kevin",
+      "aliases": [
+        "Kevin McCallister"
+      ],
+      "id": "filmy-289cf4befdbf8e849526"
+    },
+    {
+      "prompt": "Jak nazywa się kot ze „Shreka 2” w butach?",
+      "answer": "Kot w Butach",
+      "id": "filmy-8d1896ad8cbb327d7b94"
+    },
+    {
+      "prompt": "Jak nazywa się osioł ze „Shreka”?",
+      "answer": "Osioł",
+      "aliases": [
+        "Donkey"
+      ],
+      "id": "filmy-25e1777bddab7446fca1"
     }
   ],
   "Kosmos": [
@@ -14768,6 +18244,240 @@ export const bank = {
       "prompt": "W którym roku wystrzelono Kosmiczny Teleskop Hubble’a?",
       "answer": "1990",
       "id": "v20-3c3de8aec0868a4f5478"
+    },
+    {
+      "prompt": "Która planeta jest najbliżej Słońca?",
+      "answer": "Merkury",
+      "id": "kosmos-6eef53b4aa4e551f6770"
+    },
+    {
+      "prompt": "Która planeta ma najbardziej znane pierścienie?",
+      "answer": "Saturn",
+      "id": "kosmos-e16f06cd8ee6924dad1a"
+    },
+    {
+      "prompt": "Która planeta jest nazywana Czerwoną Planetą?",
+      "answer": "Mars",
+      "id": "kosmos-60024c472d7de7671570"
+    },
+    {
+      "prompt": "Która planeta jest najgorętsza w Układzie Słonecznym?",
+      "answer": "Wenus",
+      "id": "kosmos-db99a52b3a7d3358280c"
+    },
+    {
+      "prompt": "Ile planet ma Układ Słoneczny?",
+      "answer": "8",
+      "aliases": [
+        "Osiem"
+      ],
+      "id": "kosmos-9d8d28cd714d191de7dc"
+    },
+    {
+      "prompt": "Jak nazywa się nasza galaktyka?",
+      "answer": "Droga Mleczna",
+      "id": "kosmos-c7c942703b4c44ccaeb8"
+    },
+    {
+      "prompt": "Jak nazywa się najbliższa nam duża galaktyka?",
+      "answer": "Galaktyka Andromedy",
+      "aliases": [
+        "Andromeda"
+      ],
+      "id": "kosmos-0e4192e1e56a39df3890"
+    },
+    {
+      "prompt": "Jak nazywa się najbliższa Słońcu gwiazda?",
+      "answer": "Proxima Centauri",
+      "aliases": [
+        "Proxima"
+      ],
+      "id": "kosmos-d3424f880e222b991a5b"
+    },
+    {
+      "prompt": "Jak nazywa się Gwiazda Polarna po łacinie (używana też po polsku)?",
+      "answer": "Polaris",
+      "id": "kosmos-6139c4c2a688aa080b78"
+    },
+    {
+      "prompt": "W jakim gwiazdozbiorze leży Gwiazda Polarna?",
+      "answer": "Mała Niedźwiedzica",
+      "id": "kosmos-9d8d639ad4fc620c181e"
+    },
+    {
+      "prompt": "Jak nazywa się gwiazdozbiór z charakterystycznym „pasem” trzech gwiazd?",
+      "answer": "Orion",
+      "id": "kosmos-ca39b774a80c5810a56d"
+    },
+    {
+      "prompt": "Jak nazywa się jednostka odległości równa drodze światła w ciągu roku?",
+      "answer": "Rok świetlny",
+      "id": "kosmos-6a089749e4748a3647e8"
+    },
+    {
+      "prompt": "Jak nazywa się jednostka równa średniej odległości Ziemi od Słońca?",
+      "answer": "Jednostka astronomiczna",
+      "aliases": [
+        "au",
+        "j.a."
+      ],
+      "id": "kosmos-979431ef6d15cf43ce22"
+    },
+    {
+      "prompt": "Jak nazywa się największy księżyc w Układzie Słonecznym?",
+      "answer": "Ganimedes",
+      "id": "kosmos-058d1f93dbec89ed8a42"
+    },
+    {
+      "prompt": "Ile księżyców ma Mars?",
+      "answer": "2",
+      "aliases": [
+        "Dwa",
+        "Fobos i Deimos"
+      ],
+      "id": "kosmos-49f0edc690b8054f2aa5"
+    },
+    {
+      "prompt": "Jak nazywa się najwyższy znany wulkan w Układzie Słonecznym (na Marsie)?",
+      "answer": "Olympus Mons",
+      "id": "kosmos-4ae7fc7b75a1f7d9d011"
+    },
+    {
+      "prompt": "Jak nazywa się wielki wir burzowy na Jowiszu?",
+      "answer": "Wielka Czerwona Plama",
+      "id": "kosmos-187a7b5fb85b2bcfc31c"
+    },
+    {
+      "prompt": "Która planeta obraca się „na boku”, z osią prawie poziomą?",
+      "answer": "Uran",
+      "id": "kosmos-43f4600e81f39dd81fa0"
+    },
+    {
+      "prompt": "Od 2006 roku Pluton jest klasyfikowany jako…?",
+      "answer": "Planeta karłowata",
+      "id": "kosmos-3a0fbd638b085107cec2"
+    },
+    {
+      "prompt": "Jak nazywa się pas obiektów między Marsem a Jowiszem?",
+      "answer": "Pas planetoid",
+      "aliases": [
+        "Pas asteroid",
+        "Główny pas planetoid"
+      ],
+      "id": "kosmos-ced1aab709201c651f89"
+    },
+    {
+      "prompt": "Jak nazywał się pierwszy sztuczny satelita Ziemi (1957)?",
+      "answer": "Sputnik",
+      "aliases": [
+        "Sputnik 1"
+      ],
+      "id": "kosmos-72b2d6df51079f9c4ff3"
+    },
+    {
+      "prompt": "Jak nazywał się pies, który jako pierwsze zwierzę okrążył Ziemię?",
+      "answer": "Łajka",
+      "aliases": [
+        "Laika"
+      ],
+      "id": "kosmos-1b87f349d1d7f3408e91"
+    },
+    {
+      "prompt": "Kto jako pierwszy człowiek stanął na Księżycu?",
+      "answer": "Neil Armstrong",
+      "aliases": [
+        "Armstrong"
+      ],
+      "id": "kosmos-62a00b19c06ab40ab02a"
+    },
+    {
+      "prompt": "Jak nazywała się misja, która w 1969 roku wylądowała na Księżycu?",
+      "answer": "Apollo 11",
+      "id": "kosmos-e1a53628f497e7e67036"
+    },
+    {
+      "prompt": "Kto był pierwszym Polakiem w kosmosie (1978)?",
+      "answer": "Mirosław Hermaszewski",
+      "aliases": [
+        "Hermaszewski"
+      ],
+      "id": "kosmos-1d445d1bd2160c9054c3"
+    },
+    {
+      "prompt": "Kto był drugim Polakiem w kosmosie (2025, misja Ax-4)?",
+      "answer": "Sławosz Uznański-Wiśniewski",
+      "aliases": [
+        "Sławosz Uznański",
+        "Uznański"
+      ],
+      "id": "kosmos-aa7a50ec1be310bedbe0"
+    },
+    {
+      "prompt": "Jak nazywa się Międzynarodowa Stacja Kosmiczna w skrócie?",
+      "answer": "ISS",
+      "id": "kosmos-75951fef155a5ab16adc"
+    },
+    {
+      "prompt": "Jak nazywa się kosmiczny teleskop wystrzelony w 2021 roku, następca Hubble’a?",
+      "answer": "Teleskop Jamesa Webba",
+      "aliases": [
+        "James Webb",
+        "JWST"
+      ],
+      "id": "kosmos-d707120a86a3baee4ef0"
+    },
+    {
+      "prompt": "Jaka firma Elona Muska buduje rakiety Falcon i Starship?",
+      "answer": "SpaceX",
+      "id": "kosmos-bd7bc187d6cf320d2ce2"
+    },
+    {
+      "prompt": "Jak nazywa się obszar wokół czarnej dziury, z którego nic nie ucieka?",
+      "answer": "Horyzont zdarzeń",
+      "id": "kosmos-9956effda596be9130b2"
+    },
+    {
+      "prompt": "Jak nazywa się wybuch umierającej, masywnej gwiazdy?",
+      "answer": "Supernowa",
+      "id": "kosmos-3816552476004d6c7774"
+    },
+    {
+      "prompt": "Jak nazywa się zjawisko, gdy Księżyc zasłania Słońce?",
+      "answer": "Zaćmienie Słońca",
+      "id": "kosmos-9386c5cc192c065366f5"
+    },
+    {
+      "prompt": "Jak nazywa się faza Księżyca, gdy widzimy cały jego oświetlony dysk?",
+      "answer": "Pełnia",
+      "id": "kosmos-e5f063409299bf048838"
+    },
+    {
+      "prompt": "Ile dni w przybliżeniu trwa pełny cykl faz Księżyca?",
+      "answer": "29,5",
+      "aliases": [
+        "29",
+        "30",
+        "Około 29,5 dnia"
+      ],
+      "id": "kosmos-f3708d33105a2b31b71a"
+    },
+    {
+      "prompt": "Jak nazywa się „spadająca gwiazda”, czyli świecący ślad kosmicznej skały w atmosferze?",
+      "answer": "Meteor",
+      "id": "kosmos-1ae0192ad7a7dd86279f"
+    },
+    {
+      "prompt": "Jak nazywa się kosmiczna skała, która spadła na powierzchnię Ziemi?",
+      "answer": "Meteoryt",
+      "id": "kosmos-d6db2048546ec169a856"
+    },
+    {
+      "prompt": "Jakiego koloru jest gwiazda chłodniejsza od Słońca, np. Betelgeza?",
+      "answer": "Czerwona",
+      "aliases": [
+        "Czerwonego"
+      ],
+      "id": "kosmos-d10d37f423231d7ac4f8"
     }
   ],
   "Historia": [
@@ -15274,6 +18984,279 @@ export const bank = {
       "prompt": "W którym roku wprowadzono w Polsce stan wojenny?",
       "answer": "1981",
       "id": "v20-c2822b407378469f4ce5"
+    },
+    {
+      "prompt": "Kto był pierwszym historycznym władcą Polski?",
+      "answer": "Mieszko I",
+      "aliases": [
+        "Mieszko"
+      ],
+      "id": "historia-f44b11702750b45cf44c"
+    },
+    {
+      "prompt": "W którym roku odbyła się bitwa pod Grunwaldem?",
+      "answer": "1410",
+      "id": "historia-0dac8f11d5fb4441edb1"
+    },
+    {
+      "prompt": "Kto dowodził wojskami polsko-litewskimi pod Grunwaldem?",
+      "answer": "Władysław Jagiełło",
+      "aliases": [
+        "Jagiełło"
+      ],
+      "id": "historia-66a5051d3e0e1ca3e678"
+    },
+    {
+      "prompt": "Jak nazywała się dynastia, która rządziła Polską po Piastach?",
+      "answer": "Jagiellonowie",
+      "aliases": [
+        "Jagiellonów",
+        "Dynastia Jagiellonów"
+      ],
+      "id": "historia-ab79db915482ae8a5eff"
+    },
+    {
+      "prompt": "Kto był ostatnim królem Polski przed rozbiorami?",
+      "answer": "Stanisław August Poniatowski",
+      "aliases": [
+        "Poniatowski"
+      ],
+      "id": "historia-4df6ce7a96599e417ec8"
+    },
+    {
+      "prompt": "Jakie państwa dokonały rozbiorów Polski?",
+      "answer": "Rosja, Prusy i Austria",
+      "aliases": [
+        "Rosja Prusy Austria"
+      ],
+      "id": "historia-50037a51dd80dcff3620"
+    },
+    {
+      "prompt": "Jak nazywała się pierwsza w Europie spisana nowoczesna konstytucja (1791)?",
+      "answer": "Konstytucja 3 Maja",
+      "id": "historia-b653a8d7f3b822354963"
+    },
+    {
+      "prompt": "Kto dowodził insurekcją z 1794 roku?",
+      "answer": "Tadeusz Kościuszko",
+      "aliases": [
+        "Kościuszko"
+      ],
+      "id": "historia-eddf01494bf84d00fc2f"
+    },
+    {
+      "prompt": "Kto był Naczelnikiem Państwa po odzyskaniu niepodległości w 1918 roku?",
+      "answer": "Józef Piłsudski",
+      "aliases": [
+        "Piłsudski"
+      ],
+      "id": "historia-af1f5a875c6a5ad17d3d"
+    },
+    {
+      "prompt": "Jak nazywa się zwycięska bitwa z bolszewikami z 1920 roku, zwana „cudem nad Wisłą”?",
+      "answer": "Bitwa Warszawska",
+      "id": "historia-83dd5d58647a81b8ca06"
+    },
+    {
+      "prompt": "Kiedy wybuchło powstanie warszawskie (dzień i miesiąc)?",
+      "answer": "1 sierpnia",
+      "aliases": [
+        "1 sierpnia 1944"
+      ],
+      "id": "historia-641fc6c0bf05fead61c3"
+    },
+    {
+      "prompt": "Kto był przywódcą „Solidarności” i późniejszym prezydentem Polski?",
+      "answer": "Lech Wałęsa",
+      "aliases": [
+        "Wałęsa"
+      ],
+      "id": "historia-8d618298c62659f2b315"
+    },
+    {
+      "prompt": "W którym roku Polska weszła do Unii Europejskiej?",
+      "answer": "2004",
+      "id": "historia-1633f0ae79f145e05862"
+    },
+    {
+      "prompt": "Jak nazywał się starożytny władca Macedonii, który podbił imperium perskie?",
+      "answer": "Aleksander Wielki",
+      "aliases": [
+        "Aleksander Macedoński"
+      ],
+      "id": "historia-430093b05df6d5e42d22"
+    },
+    {
+      "prompt": "W którym roku upadło zachodnie cesarstwo rzymskie?",
+      "answer": "476",
+      "id": "historia-43a0962e437a4ebf007c"
+    },
+    {
+      "prompt": "Kto został zamordowany w idy marcowe 44 roku p.n.e.?",
+      "answer": "Juliusz Cezar",
+      "aliases": [
+        "Cezar"
+      ],
+      "id": "historia-abf608e540b9c6dd3cce"
+    },
+    {
+      "prompt": "Jakim pismem posługiwali się starożytni Egipcjanie?",
+      "answer": "Hieroglify",
+      "aliases": [
+        "Hieroglifami"
+      ],
+      "id": "historia-e9a2e9fc8136d7e383ab"
+    },
+    {
+      "prompt": "Jak nazywa się najsłynniejszy grobowiec faraona odkryty nienaruszony w 1922 roku?",
+      "answer": "Grobowiec Tutanchamona",
+      "aliases": [
+        "Tutanchamon"
+      ],
+      "id": "historia-e928d5d620c169870d62"
+    },
+    {
+      "prompt": "Kto był cesarzem Francji i przegrał pod Waterloo?",
+      "answer": "Napoleon Bonaparte",
+      "aliases": [
+        "Napoleon"
+      ],
+      "id": "historia-a42f26aa3148f0e1bbba"
+    },
+    {
+      "prompt": "W którym roku miała miejsce bitwa pod Waterloo?",
+      "answer": "1815",
+      "id": "historia-086055d215fbb5bdf7b1"
+    },
+    {
+      "prompt": "Kto był pierwszym prezydentem Stanów Zjednoczonych?",
+      "answer": "George Washington",
+      "aliases": [
+        "Washington"
+      ],
+      "id": "historia-59a451eb6a8ca8a7cb05"
+    },
+    {
+      "prompt": "Który prezydent USA zniósł niewolnictwo i zginął w zamachu w 1865 roku?",
+      "answer": "Abraham Lincoln",
+      "aliases": [
+        "Lincoln"
+      ],
+      "id": "historia-49acf53b6ec798c1395c"
+    },
+    {
+      "prompt": "Jak nazywał się statek, którym w 1620 roku pielgrzymi przypłynęli do Ameryki?",
+      "answer": "Mayflower",
+      "id": "historia-fa363c5d73f70cdcec64"
+    },
+    {
+      "prompt": "Kto opłynął Ziemię w wyprawie zakończonej w 1522 roku (sam zginął w trakcie)?",
+      "answer": "Ferdynand Magellan",
+      "aliases": [
+        "Magellan"
+      ],
+      "id": "historia-8dd1752296bf6471c7e0"
+    },
+    {
+      "prompt": "Jak nazywał się mur dzielący Berlin w latach 1961–1989?",
+      "answer": "Mur berliński",
+      "id": "historia-8114c8a220b1af592ad2"
+    },
+    {
+      "prompt": "Jak nazywał się przywódca ZSRR, który zapoczątkował pierestrojkę?",
+      "answer": "Michaił Gorbaczow",
+      "aliases": [
+        "Gorbaczow"
+      ],
+      "id": "historia-71e7f5701927e376a21d"
+    },
+    {
+      "prompt": "Jak nazywa się sojusz wojskowy założony w 1949 roku?",
+      "answer": "NATO",
+      "id": "historia-d03b6716b4536c975429"
+    },
+    {
+      "prompt": "Jak nazywała się operacja lądowania aliantów w Normandii (1944)?",
+      "answer": "Overlord",
+      "aliases": [
+        "D-Day",
+        "Operacja Overlord"
+      ],
+      "id": "historia-207c9c443beba6b0e4fd"
+    },
+    {
+      "prompt": "Jak nazywał się samolot, który zrzucił bombę atomową na Hiroszimę?",
+      "answer": "Enola Gay",
+      "id": "historia-14b655672186a21f6105"
+    },
+    {
+      "prompt": "W którym roku zakończyła się II wojna światowa?",
+      "answer": "1945",
+      "id": "historia-5df776a2f55979a18da2"
+    },
+    {
+      "prompt": "Kto napisał „Manifest komunistyczny” wspólnie z Engelsem?",
+      "answer": "Karol Marks",
+      "aliases": [
+        "Marks",
+        "Karl Marx"
+      ],
+      "id": "historia-99095aeb2d9c6528a424"
+    },
+    {
+      "prompt": "Jak nazywał się kanclerz Niemiec nazywany „żelaznym kanclerzem”?",
+      "answer": "Otto von Bismarck",
+      "aliases": [
+        "Bismarck"
+      ],
+      "id": "historia-7911076768b7150c607d"
+    },
+    {
+      "prompt": "Kto był królową Wielkiej Brytanii najdłużej w historii (70 lat)?",
+      "answer": "Elżbieta II",
+      "aliases": [
+        "Elżbieta"
+      ],
+      "id": "historia-9dfe0aa3b1d4dc4d5bd5"
+    },
+    {
+      "prompt": "Jak nazywała się królowa Polski, która ufundowała odnowienie Akademii Krakowskiej?",
+      "answer": "Jadwiga",
+      "aliases": [
+        "Królowa Jadwiga",
+        "Jadwiga Andegaweńska"
+      ],
+      "id": "historia-152e3a56c1d259f9776d"
+    },
+    {
+      "prompt": "Który król Polski zginął w bitwie pod Warną?",
+      "answer": "Władysław III Warneńczyk",
+      "aliases": [
+        "Warneńczyk",
+        "Władysław Warneńczyk"
+      ],
+      "id": "historia-c7c0129e2ea6ffe0908d"
+    },
+    {
+      "prompt": "Który król rozbił Turków pod Wiedniem w 1683 roku?",
+      "answer": "Jan III Sobieski",
+      "aliases": [
+        "Sobieski"
+      ],
+      "id": "historia-a35f220ac2ba7a818a12"
+    },
+    {
+      "prompt": "Jak nazywał się słynny polski hetman, zwycięzca spod Kircholmu?",
+      "answer": "Jan Karol Chodkiewicz",
+      "aliases": [
+        "Chodkiewicz"
+      ],
+      "id": "historia-943ab0b077da43b0c85e"
+    },
+    {
+      "prompt": "Jak nazywał się szyfr używany przez Niemców, złamany przez polskich matematyków?",
+      "answer": "Enigma",
+      "id": "historia-90878e94fb6fbbf7e311"
     }
   ],
   "Literatura": [
@@ -15773,6 +19756,296 @@ export const bank = {
         "Sienkiewicz"
       ],
       "id": "v20-97dd4d2a63f5f96f38e1"
+    },
+    {
+      "prompt": "Kto napisał „Pana Tadeusza”?",
+      "answer": "Adam Mickiewicz",
+      "aliases": [
+        "Mickiewicz"
+      ],
+      "id": "lit-8786c4b8f4449de193bb"
+    },
+    {
+      "prompt": "Kto napisał „Lalkę”?",
+      "answer": "Bolesław Prus",
+      "aliases": [
+        "Prus"
+      ],
+      "id": "lit-1b344cb4937c4d319c61"
+    },
+    {
+      "prompt": "Kto napisał „Quo vadis”?",
+      "answer": "Henryk Sienkiewicz",
+      "aliases": [
+        "Sienkiewicz"
+      ],
+      "id": "lit-f74aed1e4b762b9c05d8"
+    },
+    {
+      "prompt": "Kto napisał „Chłopów” i dostał za nich Nobla?",
+      "answer": "Władysław Reymont",
+      "aliases": [
+        "Reymont"
+      ],
+      "id": "lit-50a79ac91a098b4800b7"
+    },
+    {
+      "prompt": "Kto napisał „Wesele”?",
+      "answer": "Stanisław Wyspiański",
+      "aliases": [
+        "Wyspiański"
+      ],
+      "id": "lit-55e63721f184723e611b"
+    },
+    {
+      "prompt": "Kto napisał „Balladynę”?",
+      "answer": "Juliusz Słowacki",
+      "aliases": [
+        "Słowacki"
+      ],
+      "id": "lit-ea74bd7a2ee56f64bfbc"
+    },
+    {
+      "prompt": "Kto napisał „Zemstę”?",
+      "answer": "Aleksander Fredro",
+      "aliases": [
+        "Fredro"
+      ],
+      "id": "lit-1c39cb29c1fa7534b1ca"
+    },
+    {
+      "prompt": "Kto napisał cykl o wiedźminie Geralcie?",
+      "answer": "Andrzej Sapkowski",
+      "aliases": [
+        "Sapkowski"
+      ],
+      "id": "lit-a96791282d1074e1ea27"
+    },
+    {
+      "prompt": "Kto napisał „Księgi Jakubowe”?",
+      "answer": "Olga Tokarczuk",
+      "aliases": [
+        "Tokarczuk"
+      ],
+      "id": "lit-0ab3b1be309a9fa6d488"
+    },
+    {
+      "prompt": "Kto napisał „Dżumę”?",
+      "answer": "Albert Camus",
+      "aliases": [
+        "Camus"
+      ],
+      "id": "lit-4be2873bfc3fe1d4b590"
+    },
+    {
+      "prompt": "Kto napisał „Zbrodnię i karę”?",
+      "answer": "Fiodor Dostojewski",
+      "aliases": [
+        "Dostojewski"
+      ],
+      "id": "lit-5cb33ff39e5d5c83c6f1"
+    },
+    {
+      "prompt": "Kto napisał „Romea i Julię”?",
+      "answer": "William Szekspir",
+      "aliases": [
+        "Szekspir",
+        "Shakespeare"
+      ],
+      "id": "lit-d8b0f65d6ecfb52b4898"
+    },
+    {
+      "prompt": "Kto napisał „Małego Księcia”?",
+      "answer": "Antoine de Saint-Exupéry",
+      "aliases": [
+        "Saint-Exupéry"
+      ],
+      "id": "lit-f61b9a2c6f88fd46926c"
+    },
+    {
+      "prompt": "Kto napisał „Harry’ego Pottera”?",
+      "answer": "J.K. Rowling",
+      "aliases": [
+        "Rowling"
+      ],
+      "id": "lit-eef294c84cb8345a6915"
+    },
+    {
+      "prompt": "Kto napisał „Władcę Pierścieni”?",
+      "answer": "J.R.R. Tolkien",
+      "aliases": [
+        "Tolkien"
+      ],
+      "id": "lit-787adfaa3043219b12e7"
+    },
+    {
+      "prompt": "Kto napisał „Rok 1984”?",
+      "answer": "George Orwell",
+      "aliases": [
+        "Orwell"
+      ],
+      "id": "lit-f6cd6baf143d7f30a1f8"
+    },
+    {
+      "prompt": "Kto napisał „Folwark zwierzęcy”?",
+      "answer": "George Orwell",
+      "aliases": [
+        "Orwell"
+      ],
+      "id": "lit-612399b053c8410f4478"
+    },
+    {
+      "prompt": "Kto napisał „Don Kichota”?",
+      "answer": "Miguel de Cervantes",
+      "aliases": [
+        "Cervantes"
+      ],
+      "id": "lit-d14963ec1417b92239b1"
+    },
+    {
+      "prompt": "Kto napisał „Przygody Tomka Sawyera”?",
+      "answer": "Mark Twain",
+      "aliases": [
+        "Twain"
+      ],
+      "id": "lit-1efcd4f66b545fe5a47b"
+    },
+    {
+      "prompt": "Kto napisał „Opowieść wigilijną”?",
+      "answer": "Charles Dickens",
+      "aliases": [
+        "Dickens"
+      ],
+      "id": "lit-8adc4ec1eb2662cdf8ef"
+    },
+    {
+      "prompt": "Kto napisał „Alicję w Krainie Czarów”?",
+      "answer": "Lewis Carroll",
+      "aliases": [
+        "Carroll"
+      ],
+      "id": "lit-7ac5683c390dcf4d92e3"
+    },
+    {
+      "prompt": "Jak ma na imię główny bohater „Lalki”?",
+      "answer": "Stanisław Wokulski",
+      "aliases": [
+        "Wokulski",
+        "Stanisław"
+      ],
+      "id": "lit-b8a30d84b50d7e7151fc"
+    },
+    {
+      "prompt": "Jak nazywa się ukochana Tadeusza w „Panu Tadeuszu”?",
+      "answer": "Zosia",
+      "id": "lit-0ae13c087fd498ce4c74"
+    },
+    {
+      "prompt": "Kto jest głównym bohaterem „Zbrodni i kary”?",
+      "answer": "Rodion Raskolnikow",
+      "aliases": [
+        "Raskolnikow"
+      ],
+      "id": "lit-6e516968760b4bf74874"
+    },
+    {
+      "prompt": "Jak nazywa się wierny giermek Don Kichota?",
+      "answer": "Sancho Pansa",
+      "aliases": [
+        "Sancho"
+      ],
+      "id": "lit-b0a34d663079a503aa6a"
+    },
+    {
+      "prompt": "Jak nazywa się przyjaciel Sherlocka Holmesa?",
+      "answer": "Doktor Watson",
+      "aliases": [
+        "Watson"
+      ],
+      "id": "lit-8dce383842be8730eafa"
+    },
+    {
+      "prompt": "Kto stworzył postać Sherlocka Holmesa?",
+      "answer": "Arthur Conan Doyle",
+      "aliases": [
+        "Conan Doyle",
+        "Doyle"
+      ],
+      "id": "lit-c92bf172883ab861a053"
+    },
+    {
+      "prompt": "Jak nazywa się mała dziewczynka z powieści Astrid Lindgren, najsilniejsza na świecie?",
+      "answer": "Pippi Pończoszanka",
+      "aliases": [
+        "Pippi"
+      ],
+      "id": "lit-8f5401adec6230324c22"
+    },
+    {
+      "prompt": "Kto napisał „Dzieci z Bullerbyn”?",
+      "answer": "Astrid Lindgren",
+      "aliases": [
+        "Lindgren"
+      ],
+      "id": "lit-befe87b42a1391311a07"
+    },
+    {
+      "prompt": "Jak nazywa się utwór liryczny o 14 wersach?",
+      "answer": "Sonet",
+      "id": "lit-902e4add028bafce0a9d"
+    },
+    {
+      "prompt": "Jak nazywa się utwór zakończony morałem, często o zwierzętach?",
+      "answer": "Bajka",
+      "aliases": [
+        "Bajka (bajka zwierzęca)"
+      ],
+      "id": "lit-70ac518fbff19100100f"
+    },
+    {
+      "prompt": "Kto jest nazywany „księciem poetów polskich” i napisał bajki?",
+      "answer": "Ignacy Krasicki",
+      "aliases": [
+        "Krasicki"
+      ],
+      "id": "lit-0f6ff2182c6f34e02f85"
+    },
+    {
+      "prompt": "Kto napisał „Treny” po śmierci córki Urszuli?",
+      "answer": "Jan Kochanowski",
+      "aliases": [
+        "Kochanowski"
+      ],
+      "id": "lit-2332bc7752fd91efe15c"
+    },
+    {
+      "prompt": "Kto napisał „Kamienie na szaniec”?",
+      "answer": "Aleksander Kamiński",
+      "aliases": [
+        "Kamiński"
+      ],
+      "id": "lit-b60f091d06a95225e191"
+    },
+    {
+      "prompt": "Kto napisał „W pustyni i w puszczy”?",
+      "answer": "Henryk Sienkiewicz",
+      "aliases": [
+        "Sienkiewicz"
+      ],
+      "id": "lit-993706f529bdba7bb3f1"
+    },
+    {
+      "prompt": "Jak nazywają się bohaterowie „W pustyni i w puszczy”?",
+      "answer": "Staś i Nel",
+      "id": "lit-74df54f30a6a173a98af"
+    },
+    {
+      "prompt": "Kto napisał „Akademię pana Kleksa”?",
+      "answer": "Jan Brzechwa",
+      "aliases": [
+        "Brzechwa"
+      ],
+      "id": "lit-a71c801f15ec23136ebe"
     }
   ],
   "Motoryzacja": [
@@ -16185,6 +20458,290 @@ export const bank = {
         "System przeciwblokujący"
       ],
       "id": "v20-c49aa59bfde52b4894d8"
+    },
+    {
+      "prompt": "Jak nazywa się pedał, który rozłącza silnik od skrzyni biegów w aucie z manualną skrzynią?",
+      "answer": "Sprzęgło",
+      "id": "moto-eae7fd354deba209ce46"
+    },
+    {
+      "prompt": "Co oznacza skrót ABS w samochodzie?",
+      "answer": "Układ zapobiegający blokowaniu kół podczas hamowania",
+      "aliases": [
+        "ABS",
+        "Antyblokada kół"
+      ],
+      "id": "moto-3ce4c0750f66e986d902"
+    },
+    {
+      "prompt": "Jakim paliwem jeździ samochód z silnikiem wysokoprężnym?",
+      "answer": "Olej napędowy",
+      "aliases": [
+        "Diesel",
+        "ON"
+      ],
+      "id": "moto-52b7a39fc5d6284ae845"
+    },
+    {
+      "prompt": "Ile wynosi w Polsce ogólne ograniczenie prędkości w obszarze zabudowanym (w dzień i w nocy)?",
+      "answer": "50 km/h",
+      "aliases": [
+        "50"
+      ],
+      "id": "moto-798a5f2241661150fdd1"
+    },
+    {
+      "prompt": "Ile wynosi maksymalna prędkość samochodu osobowego na polskiej autostradzie?",
+      "answer": "140 km/h",
+      "aliases": [
+        "140"
+      ],
+      "id": "moto-a169b5b2427ed049515a"
+    },
+    {
+      "prompt": "Od ilu lat można w Polsce zdobyć prawo jazdy kategorii B?",
+      "answer": "18",
+      "aliases": [
+        "18 lat"
+      ],
+      "id": "moto-d5740df830fc1611d1e3"
+    },
+    {
+      "prompt": "Jak nazywa się urządzenie, które pokazuje prędkość samochodu?",
+      "answer": "Prędkościomierz",
+      "aliases": [
+        "Szybkościomierz"
+      ],
+      "id": "moto-e218aea755d759c77cf2"
+    },
+    {
+      "prompt": "Jak nazywa się urządzenie pokazujące obroty silnika?",
+      "answer": "Obrotomierz",
+      "aliases": [
+        "Tachometr"
+      ],
+      "id": "moto-207ae12ce8c549689cfd"
+    },
+    {
+      "prompt": "Co trzeba wymieniać w samochodzie, żeby silnik był smarowany?",
+      "answer": "Olej silnikowy",
+      "aliases": [
+        "Olej"
+      ],
+      "id": "moto-fc7b9430e0303e92555d"
+    },
+    {
+      "prompt": "Jak nazywa się płyn, który chroni silnik przed przegrzaniem i zamarznięciem?",
+      "answer": "Płyn chłodniczy",
+      "aliases": [
+        "Chłodziwo"
+      ],
+      "id": "moto-de2dd949a4c90af381cb"
+    },
+    {
+      "prompt": "Która polska marka produkowała „Malucha”?",
+      "answer": "Fiat (FSM)",
+      "aliases": [
+        "FSM",
+        "Polski Fiat",
+        "Fiat"
+      ],
+      "id": "moto-82dc1b00392ad41e2618"
+    },
+    {
+      "prompt": "Jak nazywał się popularny polski samochód produkowany przez FSO w latach 1978–2002?",
+      "answer": "Polonez",
+      "aliases": [
+        "FSO Polonez"
+      ],
+      "id": "moto-c1c448029c9fae78bc27"
+    },
+    {
+      "prompt": "Jak nazywa się marka samochodów elektrycznych założona m.in. przez Elona Muska jako inwestora?",
+      "answer": "Tesla",
+      "id": "moto-be0aa44c91791f18bb35"
+    },
+    {
+      "prompt": "Z jakiego kraju pochodzi marka Volvo?",
+      "answer": "Szwecja",
+      "id": "moto-4b04995e5d6c828c4e8d"
+    },
+    {
+      "prompt": "Z jakiego kraju pochodzi marka Škoda?",
+      "answer": "Czechy",
+      "id": "moto-f68217d89825d69cc879"
+    },
+    {
+      "prompt": "Z jakiego kraju pochodzi marka Hyundai?",
+      "answer": "Korea Południowa",
+      "aliases": [
+        "Korea"
+      ],
+      "id": "moto-db2cdb0239bf2de862db"
+    },
+    {
+      "prompt": "Z jakiego kraju pochodzi marka Lamborghini?",
+      "answer": "Włochy",
+      "id": "moto-8907162f14b10f0f118a"
+    },
+    {
+      "prompt": "Z jakiego kraju pochodzi marka Peugeot?",
+      "answer": "Francja",
+      "id": "moto-8284070ef2099552028a"
+    },
+    {
+      "prompt": "Z jakiego kraju pochodzi marka Mini (oryginalnie)?",
+      "answer": "Wielka Brytania",
+      "aliases": [
+        "Anglia"
+      ],
+      "id": "moto-b50cdf9a918683571258"
+    },
+    {
+      "prompt": "Jakie zwierzę jest w logo Ferrari?",
+      "answer": "Koń",
+      "aliases": [
+        "Czarny koń",
+        "Rumak"
+      ],
+      "id": "moto-20e3355648583dc452e1"
+    },
+    {
+      "prompt": "Jakie zwierzę jest w logo Lamborghini?",
+      "answer": "Byk",
+      "id": "moto-bd0eae7040cf79bb158b"
+    },
+    {
+      "prompt": "Jakie zwierzę jest w logo Peugeota?",
+      "answer": "Lew",
+      "id": "moto-8260f74633dd20d0f5b7"
+    },
+    {
+      "prompt": "Ile kół ma typowy motocykl?",
+      "answer": "2",
+      "aliases": [
+        "Dwa"
+      ],
+      "id": "moto-4b9f9595fa5a349d0c77"
+    },
+    {
+      "prompt": "Jak nazywa się wyścig samochodowy rozgrywany od 1923 roku we Francji, trwający całą dobę?",
+      "answer": "24h Le Mans",
+      "aliases": [
+        "Le Mans",
+        "24 godziny Le Mans"
+      ],
+      "id": "moto-2a7b3fd4f18681135376"
+    },
+    {
+      "prompt": "Jak nazywa się najwyższa klasa wyścigów samochodów jednomiejscowych?",
+      "answer": "Formuła 1",
+      "aliases": [
+        "F1"
+      ],
+      "id": "moto-4fc7f4987a67f9c8bd10"
+    },
+    {
+      "prompt": "Jak nazywa się polski kierowca, który wygrał wyścig Formuły 1 (Kanada 2008)?",
+      "answer": "Robert Kubica",
+      "aliases": [
+        "Kubica"
+      ],
+      "id": "moto-35cb60e99ae1da034c78"
+    },
+    {
+      "prompt": "Ile punktów karnych w Polsce oznacza utratę prawa jazdy dla doświadczonego kierowcy?",
+      "answer": "24",
+      "aliases": [
+        "Powyżej 24"
+      ],
+      "id": "moto-d38c7d8ba97e7b1e0c5e"
+    },
+    {
+      "prompt": "Jakiego koloru jest tablica rejestracyjna z tłem w Polsce (zwykła)?",
+      "answer": "Biała",
+      "aliases": [
+        "Białe tło z czarnymi znakami"
+      ],
+      "id": "moto-e88aa46b9816fb73d27b"
+    },
+    {
+      "prompt": "Jaką literą zaczynają się tablice rejestracyjne z Warszawy?",
+      "answer": "W",
+      "id": "moto-e31fa60b1b74844f1c77"
+    },
+    {
+      "prompt": "Jaką literą zaczynają się tablice rejestracyjne z Krakowa?",
+      "answer": "K",
+      "aliases": [
+        "KR"
+      ],
+      "id": "moto-8ef7af05f73ccfc2cc05"
+    },
+    {
+      "prompt": "Jak nazywa się część hamulca tarczowego, która dociska klocki do tarczy?",
+      "answer": "Zacisk",
+      "aliases": [
+        "Zacisk hamulcowy"
+      ],
+      "id": "moto-22d33f5d44a5f1f1fede"
+    },
+    {
+      "prompt": "Jak nazywa się elektryczne urządzenie, które uruchamia silnik spalinowy?",
+      "answer": "Rozrusznik",
+      "id": "moto-d7d8b6f2286ce154bb30"
+    },
+    {
+      "prompt": "Jakie urządzenie ładuje akumulator w czasie jazdy?",
+      "answer": "Alternator",
+      "id": "moto-3c7002bd34fb5189276a"
+    },
+    {
+      "prompt": "Co oznacza na desce rozdzielczej czerwona kontrolka w kształcie oliwiarki?",
+      "answer": "Za niskie ciśnienie oleju",
+      "aliases": [
+        "Olej",
+        "Brak oleju"
+      ],
+      "id": "moto-903c59c31cad39eb15a2"
+    },
+    {
+      "prompt": "Jak nazywa się samochód z nadwoziem, w którym bagażnik jest połączony z kabiną i otwierany z tyłu klapą z szybą?",
+      "answer": "Hatchback",
+      "aliases": [
+        "Kombi"
+      ],
+      "id": "moto-66451ece566d55f5e936"
+    },
+    {
+      "prompt": "Ile osób (łącznie z kierowcą) może przewozić samochód osobowy według definicji prawa jazdy kategorii B?",
+      "answer": "9",
+      "aliases": [
+        "Do 9"
+      ],
+      "id": "moto-474d0c5bea578462ded0"
+    },
+    {
+      "prompt": "Jak nazywa się pojazd napędzany jednocześnie silnikiem spalinowym i elektrycznym?",
+      "answer": "Hybryda",
+      "aliases": [
+        "Samochód hybrydowy"
+      ],
+      "id": "moto-af331c0410d498538a6f"
+    },
+    {
+      "prompt": "Jakiego koloru jest światło, przy którym musimy się zatrzymać?",
+      "answer": "Czerwone",
+      "id": "moto-7d67336e799f03377e1c"
+    },
+    {
+      "prompt": "Kto jest uważany za wynalazcę pierwszego praktycznego samochodu z silnikiem spalinowym (1886)?",
+      "answer": "Carl Benz",
+      "aliases": [
+        "Karl Benz",
+        "Benz"
+      ],
+      "id": "moto-236b2bc12475410f1290"
     }
   ],
   "Wynalazki": [
@@ -16615,6 +21172,326 @@ export const bank = {
       "prompt": "Jak nazywała się sieć ARPA, poprzedniczka internetu?",
       "answer": "ARPANET",
       "id": "v20-9d2e0d04a4aa1982fb8b"
+    },
+    {
+      "prompt": "Kto wynalazł żarówkę, która stała się praktycznym produktem (1879)?",
+      "answer": "Thomas Edison",
+      "aliases": [
+        "Edison"
+      ],
+      "id": "wynalazki-c9b2e6d5c3b4902c1967"
+    },
+    {
+      "prompt": "Kto skonstruował pierwszy telegraf elektryczny i alfabet kropek i kresek?",
+      "answer": "Samuel Morse",
+      "aliases": [
+        "Morse"
+      ],
+      "id": "wynalazki-80dc141a20a92f6b0106"
+    },
+    {
+      "prompt": "Kto wynalazł dynamit?",
+      "answer": "Alfred Nobel",
+      "aliases": [
+        "Nobel"
+      ],
+      "id": "wynalazki-2a1be7d0a339f211a8a3"
+    },
+    {
+      "prompt": "Kto wynalazł prasę drukarską z ruchomą czcionką w Europie?",
+      "answer": "Johannes Gutenberg",
+      "aliases": [
+        "Gutenberg"
+      ],
+      "id": "wynalazki-4e3c1b5832abe50bb6dd"
+    },
+    {
+      "prompt": "Kto odkrył penicylinę?",
+      "answer": "Alexander Fleming",
+      "aliases": [
+        "Fleming"
+      ],
+      "id": "wynalazki-03194770524049bb2bdf"
+    },
+    {
+      "prompt": "Kto wynalazł szczepionkę przeciw wściekliźnie?",
+      "answer": "Louis Pasteur",
+      "aliases": [
+        "Pasteur"
+      ],
+      "id": "wynalazki-d906fe579323b53035d7"
+    },
+    {
+      "prompt": "Kto skonstruował pierwszą lampę naftową (1853)?",
+      "answer": "Ignacy Łukasiewicz",
+      "aliases": [
+        "Łukasiewicz"
+      ],
+      "id": "wynalazki-b1f715dfc27d4bd01eb1"
+    },
+    {
+      "prompt": "Jaki polski wynalazca stworzył kamizelkę kuloodporną z jedwabiu?",
+      "answer": "Jan Szczepanik (wspólnie z Kazimierzem Żegleniem)",
+      "aliases": [
+        "Szczepanik",
+        "Kazimierz Żegleń",
+        "Żegleń"
+      ],
+      "id": "wynalazki-b92e19d8c7e368142068"
+    },
+    {
+      "prompt": "Kto stworzył World Wide Web (1989–1991)?",
+      "answer": "Tim Berners-Lee",
+      "aliases": [
+        "Berners-Lee"
+      ],
+      "id": "wynalazki-780e53220a9e418c7b42"
+    },
+    {
+      "prompt": "Kto skonstruował pierwszą praktyczną maszynę parową z oddzielnym skraplaczem?",
+      "answer": "James Watt",
+      "aliases": [
+        "Watt"
+      ],
+      "id": "wynalazki-72da7f4d0c0e626dec6f"
+    },
+    {
+      "prompt": "Kto wynalazł radio (jeden z głównych pionierów, Nobel 1909)?",
+      "answer": "Guglielmo Marconi",
+      "aliases": [
+        "Marconi",
+        "Nikola Tesla"
+      ],
+      "id": "wynalazki-1a4058f15de55ac820eb"
+    },
+    {
+      "prompt": "Kto jest wynalazcą prądu przemiennego w praktycznym zastosowaniu i silnika indukcyjnego?",
+      "answer": "Nikola Tesla",
+      "aliases": [
+        "Tesla"
+      ],
+      "id": "wynalazki-b0c3e42f2a22564a2c4b"
+    },
+    {
+      "prompt": "Kto odkrył promieniowanie rentgenowskie?",
+      "answer": "Wilhelm Röntgen",
+      "aliases": [
+        "Röntgen",
+        "Rentgen"
+      ],
+      "id": "wynalazki-a4932ce4cd2910c69eea"
+    },
+    {
+      "prompt": "Kto wynalazł ogniwo galwaniczne (baterię)?",
+      "answer": "Alessandro Volta",
+      "aliases": [
+        "Volta"
+      ],
+      "id": "wynalazki-a81cb70e5c6427457db2"
+    },
+    {
+      "prompt": "Kto zbudował pierwszy termometr rtęciowy ze skalą?",
+      "answer": "Daniel Fahrenheit",
+      "aliases": [
+        "Fahrenheit"
+      ],
+      "id": "wynalazki-117296e1126839506c22"
+    },
+    {
+      "prompt": "Kto wynalazł piorunochron?",
+      "answer": "Benjamin Franklin",
+      "aliases": [
+        "Franklin"
+      ],
+      "id": "wynalazki-e7a92961110c0141af0c"
+    },
+    {
+      "prompt": "Kto zbudował pierwszy samolot z silnikiem, który odbył kontrolowany lot (1903)?",
+      "answer": "Bracia Wright",
+      "aliases": [
+        "Wright",
+        "Orville i Wilbur Wright"
+      ],
+      "id": "wynalazki-840a59f63a962e9c7046"
+    },
+    {
+      "prompt": "Jaki wynalazek przypisuje się braciom Lumière?",
+      "answer": "Kinematograf",
+      "aliases": [
+        "Kino",
+        "Film"
+      ],
+      "id": "wynalazki-3e703b15ebf67a7293ad"
+    },
+    {
+      "prompt": "Kto wynalazł telefon komórkowy (pierwsza rozmowa, 1973)?",
+      "answer": "Martin Cooper",
+      "aliases": [
+        "Cooper"
+      ],
+      "id": "wynalazki-189130845cbff4692b7b"
+    },
+    {
+      "prompt": "Kto wynalazł gramofon?",
+      "answer": "Emile Berliner",
+      "aliases": [
+        "Berliner"
+      ],
+      "id": "wynalazki-8b38122a710409a6fd2e"
+    },
+    {
+      "prompt": "Kto skonstruował pierwszy działający silnik spalinowy z zapłonem samoczynnym?",
+      "answer": "Rudolf Diesel",
+      "aliases": [
+        "Diesel"
+      ],
+      "id": "wynalazki-c9dfb86875595bed5ed0"
+    },
+    {
+      "prompt": "Jaki przedmiot wynalazł Laszlo Biro?",
+      "answer": "Długopis",
+      "id": "wynalazki-82c970577b56f405a90b"
+    },
+    {
+      "prompt": "Kto stworzył pierwszy mechaniczny kalkulator (paskalinę)?",
+      "answer": "Blaise Pascal",
+      "aliases": [
+        "Pascal"
+      ],
+      "id": "wynalazki-6c40051359d7e17ffb60"
+    },
+    {
+      "prompt": "Kto jest twórcą układu okresowego pierwiastków?",
+      "answer": "Dmitrij Mendelejew",
+      "aliases": [
+        "Mendelejew"
+      ],
+      "id": "wynalazki-4383cc294f518c107168"
+    },
+    {
+      "prompt": "Jaki wynalazek opatentował Willis Carrier w 1906 roku?",
+      "answer": "Klimatyzacja",
+      "aliases": [
+        "Klimatyzator"
+      ],
+      "id": "wynalazki-622761ed72efec79cd10"
+    },
+    {
+      "prompt": "Jaki przedmiot codziennego użytku wynalazł Whitcomb Judson, a ulepszył Gideon Sundback?",
+      "answer": "Zamek błyskawiczny",
+      "aliases": [
+        "Suwak"
+      ],
+      "id": "wynalazki-12c8f676e3c83f016e6c"
+    },
+    {
+      "prompt": "Kto odkrył grawitację, obserwując – według legendy – spadające jabłko?",
+      "answer": "Isaac Newton",
+      "aliases": [
+        "Newton"
+      ],
+      "id": "wynalazki-44934b621ca2d515188e"
+    },
+    {
+      "prompt": "Jaki wynalazek ze Szkocji z 1926 roku pokazał John Logie Baird?",
+      "answer": "Telewizja",
+      "aliases": [
+        "Telewizor"
+      ],
+      "id": "wynalazki-aaf071007feddf48ab9e"
+    },
+    {
+      "prompt": "Kto opracował metodę szybkiego mrożenia żywności, dając początek mrożonkom?",
+      "answer": "Clarence Birdseye",
+      "aliases": [
+        "Birdseye"
+      ],
+      "id": "wynalazki-5bb0bd5eacb8c73c47a6"
+    },
+    {
+      "prompt": "Kto wynalazł pierwszy skuteczny spadochron plecakowy (1911)?",
+      "answer": "Gleb Kotelnikow",
+      "aliases": [
+        "Kotelnikow"
+      ],
+      "id": "wynalazki-8613e132e338662e87cf"
+    },
+    {
+      "prompt": "Jaki pojazd opatentował Karl Drais w 1817 roku (bez pedałów)?",
+      "answer": "Drezyna",
+      "aliases": [
+        "Rower biegowy",
+        "Biegówka"
+      ],
+      "id": "wynalazki-c856ed2edf5f821bc3cc"
+    },
+    {
+      "prompt": "Jaki wynalazek z Chin pozwalał wskazywać kierunek północny?",
+      "answer": "Kompas",
+      "id": "wynalazki-c818948b7de48b772593"
+    },
+    {
+      "prompt": "Jaki wynalazek z Chin z ok. 105 roku przypisuje się Cai Lunowi?",
+      "answer": "Papier",
+      "id": "wynalazki-97d49030b61a9618c5a9"
+    },
+    {
+      "prompt": "Kto stworzył szczepionkę przeciw polio podawaną doustnie?",
+      "answer": "Albert Sabin",
+      "aliases": [
+        "Sabin",
+        "Hilary Koprowski"
+      ],
+      "id": "wynalazki-4bc3b6c29b815cd8264f"
+    },
+    {
+      "prompt": "Polski uczony, który współtworzył pierwszą żywą szczepionkę przeciw polio?",
+      "answer": "Hilary Koprowski",
+      "aliases": [
+        "Koprowski"
+      ],
+      "id": "wynalazki-f56f4baa69d2f8c8c2ff"
+    },
+    {
+      "prompt": "Jakie urządzenie skonstruował Stefan Drzewiecki dla floty rosyjskiej?",
+      "answer": "Okręt podwodny",
+      "aliases": [
+        "Łódź podwodna"
+      ],
+      "id": "wynalazki-7dc9fca44bddba199006"
+    },
+    {
+      "prompt": "Polski matematyk, który złamał szyfr Enigmy w 1932 roku?",
+      "answer": "Marian Rejewski",
+      "aliases": [
+        "Rejewski"
+      ],
+      "id": "wynalazki-a8f6a7afda9e6b164314"
+    },
+    {
+      "prompt": "Kto wynalazł kuchenkę mikrofalową, zauważając, że roztopił mu się batonik?",
+      "answer": "Percy Spencer",
+      "aliases": [
+        "Spencer"
+      ],
+      "id": "wynalazki-732d8a6d3c707383a111"
+    },
+    {
+      "prompt": "Jaki wynalazek opracował Tim Berners-Lee w CERN?",
+      "answer": "Sieć WWW",
+      "aliases": [
+        "WWW",
+        "World Wide Web"
+      ],
+      "id": "wynalazki-4dd0ea89cb5ab6039466"
+    },
+    {
+      "prompt": "Kto wynalazł pierwszy praktyczny aparat fotograficzny (dagerotyp)?",
+      "answer": "Louis Daguerre",
+      "aliases": [
+        "Daguerre"
+      ],
+      "id": "wynalazki-0354b88d0e8388023716"
     }
   ],
   "Muzyka": [
@@ -17182,6 +22059,267 @@ export const bank = {
       "prompt": "Jaki koreański zespół nagrał przeboje „Dynamite” i „Butter”?",
       "answer": "BTS",
       "id": "v20-225addc0c5c26879890d"
+    },
+    {
+      "prompt": "Ile linii ma pięciolinia?",
+      "answer": "5",
+      "aliases": [
+        "Pięć"
+      ],
+      "id": "muzyka-1cbf8e27889d05fef771"
+    },
+    {
+      "prompt": "Jak nazywa się znak na początku pięciolinii dla wysokich dźwięków?",
+      "answer": "Klucz wiolinowy",
+      "aliases": [
+        "Wiolinowy"
+      ],
+      "id": "muzyka-19e3502afb3027774273"
+    },
+    {
+      "prompt": "Jak nazywa się znak obniżający dźwięk o pół tonu?",
+      "answer": "Bemol",
+      "id": "muzyka-6dd8a43ed135e20d3b33"
+    },
+    {
+      "prompt": "Jak nazywa się znak podwyższający dźwięk o pół tonu?",
+      "answer": "Krzyżyk",
+      "id": "muzyka-37d1fd7daae8bc506f36"
+    },
+    {
+      "prompt": "Ile klawiszy ma standardowy fortepian?",
+      "answer": "88",
+      "id": "muzyka-51c627180ab5beecaf3c"
+    },
+    {
+      "prompt": "Ile strun ma standardowa gitara?",
+      "answer": "6",
+      "aliases": [
+        "Sześć"
+      ],
+      "id": "muzyka-6ccac3edbd0a6cc2f696"
+    },
+    {
+      "prompt": "Ile strun ma skrzypce?",
+      "answer": "4",
+      "aliases": [
+        "Cztery"
+      ],
+      "id": "muzyka-390b793e7993922cc380"
+    },
+    {
+      "prompt": "Jak nazywa się zespół czterech muzyków grających muzykę kameralną?",
+      "answer": "Kwartet",
+      "id": "muzyka-d854aa1c5b0f7253f91a"
+    },
+    {
+      "prompt": "Jak nazywa się osoba kierująca orkiestrą?",
+      "answer": "Dyrygent",
+      "id": "muzyka-fb5772cbbf44c6d10dbf"
+    },
+    {
+      "prompt": "Jak nazywa się najwyższy głos kobiecy?",
+      "answer": "Sopran",
+      "id": "muzyka-bae5c39486d435d06feb"
+    },
+    {
+      "prompt": "Jak nazywa się najniższy głos męski?",
+      "answer": "Bas",
+      "id": "muzyka-e5bb4d19dd58c1857cb9"
+    },
+    {
+      "prompt": "Kto skomponował „Odę do radości”, hymn Unii Europejskiej?",
+      "answer": "Ludwig van Beethoven",
+      "aliases": [
+        "Beethoven"
+      ],
+      "id": "muzyka-6a00e48624ad2e91dff9"
+    },
+    {
+      "prompt": "Kto skomponował „Cztery pory roku”?",
+      "answer": "Antonio Vivaldi",
+      "aliases": [
+        "Vivaldi"
+      ],
+      "id": "muzyka-6f47c86cee24390d024f"
+    },
+    {
+      "prompt": "Kto skomponował balet „Jezioro łabędzie”?",
+      "answer": "Piotr Czajkowski",
+      "aliases": [
+        "Czajkowski"
+      ],
+      "id": "muzyka-78a52f62c3bcea37010f"
+    },
+    {
+      "prompt": "Kto skomponował operę „Straszny dwór”?",
+      "answer": "Stanisław Moniuszko",
+      "aliases": [
+        "Moniuszko"
+      ],
+      "id": "muzyka-5b1de1343f62c16822c7"
+    },
+    {
+      "prompt": "W jakim mieście co pięć lat odbywa się Konkurs Chopinowski?",
+      "answer": "Warszawa",
+      "aliases": [
+        "W Warszawie"
+      ],
+      "id": "muzyka-e6b4a4b3e57a975945dd"
+    },
+    {
+      "prompt": "W jakim mieście co roku odbywa się Krajowy Festiwal Piosenki Polskiej?",
+      "answer": "Opole",
+      "aliases": [
+        "W Opolu"
+      ],
+      "id": "muzyka-d855db262315464848e8"
+    },
+    {
+      "prompt": "Jak nazywa się największy polski festiwal muzyczny organizowany przez Jurka Owsiaka?",
+      "answer": "Pol’and’Rock",
+      "aliases": [
+        "Przystanek Woodstock",
+        "Pol and Rock"
+      ],
+      "id": "muzyka-7c456ac55181fd7d1ce4"
+    },
+    {
+      "prompt": "Jak nazywał się zespół Freddiego Mercury’ego?",
+      "answer": "Queen",
+      "id": "muzyka-153330fe882dbd59ddd2"
+    },
+    {
+      "prompt": "Z jakiego miasta pochodzili Beatlesi?",
+      "answer": "Liverpool",
+      "aliases": [
+        "Z Liverpoolu"
+      ],
+      "id": "muzyka-7d3629110a0e8a28ed1f"
+    },
+    {
+      "prompt": "Kto jest nazywany „Królem Popu”?",
+      "answer": "Michael Jackson",
+      "aliases": [
+        "Jackson"
+      ],
+      "id": "muzyka-a76ba8613db540756c4b"
+    },
+    {
+      "prompt": "Kto jest nazywany „Królem Rock and Rolla”?",
+      "answer": "Elvis Presley",
+      "aliases": [
+        "Elvis"
+      ],
+      "id": "muzyka-25ef45d7efbe653b0960"
+    },
+    {
+      "prompt": "Jak nazywał się szwedzki zespół, który wygrał Eurowizję w 1974 roku piosenką „Waterloo”?",
+      "answer": "ABBA",
+      "id": "muzyka-3cbd0fffa94c469372d7"
+    },
+    {
+      "prompt": "Kto zaśpiewał „Bohemian Rhapsody”?",
+      "answer": "Queen",
+      "id": "muzyka-1b32d19603723dc37364"
+    },
+    {
+      "prompt": "Kto jest autorem albumu „Thriller” (najlepiej sprzedający się album w historii)?",
+      "answer": "Michael Jackson",
+      "aliases": [
+        "Jackson"
+      ],
+      "id": "muzyka-9bf131a208655efcbbf1"
+    },
+    {
+      "prompt": "Jak nazywa się polski konkurs talentów, w którym jurorką była m.in. Agnieszka Chylińska?",
+      "answer": "Mam Talent!",
+      "aliases": [
+        "Mam Talent"
+      ],
+      "id": "muzyka-334eed9ee59ba3f89f6f"
+    },
+    {
+      "prompt": "Jak nazywa się taniec narodowy w rytmie 3/4 o polskim pochodzeniu, komponowany przez Chopina?",
+      "answer": "Mazurek",
+      "aliases": [
+        "Mazur",
+        "Polonez"
+      ],
+      "id": "muzyka-1b1816eae2bda0d122ab"
+    },
+    {
+      "prompt": "Jaki taniec tańczy się na studniówce na rozpoczęcie?",
+      "answer": "Polonez",
+      "id": "muzyka-0f4ab5847ab621f520f0"
+    },
+    {
+      "prompt": "Jaki instrument jest symbolem muzyki góralskiej obok skrzypiec (trzystrunowy kontrabas)?",
+      "answer": "Basy",
+      "aliases": [
+        "Basy podhalańskie"
+      ],
+      "id": "muzyka-03610db45279de46089a"
+    },
+    {
+      "prompt": "Jak nazywa się szkocki instrument z workiem powietrza?",
+      "answer": "Dudy",
+      "id": "muzyka-0943bbd45d1ba215b39e"
+    },
+    {
+      "prompt": "Jak nazywa się australijski instrument dęty z drewna, wydrążony przez termity?",
+      "answer": "Didgeridoo",
+      "id": "muzyka-a85d7c669dc87be09aa3"
+    },
+    {
+      "prompt": "Jak nazywa się instrument perkusyjny z drewnianych sztabek, w które uderza się pałeczkami?",
+      "answer": "Ksylofon",
+      "aliases": [
+        "Marimba"
+      ],
+      "id": "muzyka-e06618182c7b65fc6282"
+    },
+    {
+      "prompt": "Jak nazywa się tempo muzyczne „bardzo szybko”?",
+      "answer": "Presto",
+      "aliases": [
+        "Allegro"
+      ],
+      "id": "muzyka-992b1b4e5d27b89eccef"
+    },
+    {
+      "prompt": "Jak nazywa się oznaczenie „głośno” w nutach?",
+      "answer": "Forte",
+      "aliases": [
+        "f"
+      ],
+      "id": "muzyka-efd798af421c57ff3bb6"
+    },
+    {
+      "prompt": "Jak nazywa się oznaczenie „cicho” w nutach?",
+      "answer": "Piano",
+      "aliases": [
+        "p"
+      ],
+      "id": "muzyka-5be7775a36edaf281ceb"
+    },
+    {
+      "prompt": "Jak nazywa się utwór na instrument solowy z orkiestrą w trzech częściach?",
+      "answer": "Koncert",
+      "id": "muzyka-4b315277eb513f3d0d83"
+    },
+    {
+      "prompt": "Kto śpiewa „Shape of You” (2017)?",
+      "answer": "Ed Sheeran",
+      "aliases": [
+        "Sheeran"
+      ],
+      "id": "muzyka-b0726d88e979db339cac"
+    },
+    {
+      "prompt": "Kto śpiewa „Bad Guy” (2019)?",
+      "answer": "Billie Eilish",
+      "id": "muzyka-102a19e9e39ea8085650"
     }
   ],
   "Pogoda i zjawiska": [
@@ -17792,6 +22930,306 @@ export const bank = {
         "Rayleigha"
       ],
       "id": "v20-5d095cc6f1962c5ae76f"
+    },
+    {
+      "prompt": "Jak nazywa się zjawisko, gdy kolorowy łuk pojawia się na niebie po deszczu?",
+      "answer": "Tęcza",
+      "id": "pogoda-a07a9a4a7c208d418bd2"
+    },
+    {
+      "prompt": "Ile kolorów wyróżnia się zwykle w tęczy?",
+      "answer": "7",
+      "aliases": [
+        "Siedem"
+      ],
+      "id": "pogoda-8fcbb5a3b17407aaf6b2"
+    },
+    {
+      "prompt": "Jak nazywa się przyrząd do pomiaru ciśnienia atmosferycznego?",
+      "answer": "Barometr",
+      "id": "pogoda-7f9f615b4d29dccfdd70"
+    },
+    {
+      "prompt": "Jak nazywa się przyrząd do pomiaru wilgotności powietrza?",
+      "answer": "Higrometr",
+      "aliases": [
+        "Wilgotnościomierz"
+      ],
+      "id": "pogoda-26b9af73c25afb95658a"
+    },
+    {
+      "prompt": "Jak nazywa się przyrząd do pomiaru prędkości wiatru?",
+      "answer": "Anemometr",
+      "aliases": [
+        "Wiatromierz"
+      ],
+      "id": "pogoda-a9d50f4632df6f69cfad"
+    },
+    {
+      "prompt": "Jak nazywa się przyrząd do pomiaru opadów?",
+      "answer": "Deszczomierz",
+      "aliases": [
+        "Pluwiometr",
+        "Ombrometr"
+      ],
+      "id": "pogoda-48edb899a0e59a3664fe"
+    },
+    {
+      "prompt": "Jak nazywa się ciepły, suchy wiatr wiejący z gór, np. w Tatrach?",
+      "answer": "Halny",
+      "aliases": [
+        "Wiatr halny",
+        "Fen"
+      ],
+      "id": "pogoda-440408eb7ccd4aedd662"
+    },
+    {
+      "prompt": "Jak nazywa się tropikalny cyklon na Atlantyku?",
+      "answer": "Huragan",
+      "id": "pogoda-b7e3fffe21b69d8b5a0a"
+    },
+    {
+      "prompt": "Jak nazywa się tropikalny cyklon na zachodnim Pacyfiku?",
+      "answer": "Tajfun",
+      "id": "pogoda-f8abd94c47774bb72ac5"
+    },
+    {
+      "prompt": "Jak nazywa się wirujący lej powietrza schodzący z chmury burzowej do ziemi?",
+      "answer": "Tornado",
+      "aliases": [
+        "Trąba powietrzna"
+      ],
+      "id": "pogoda-9d1c11003ed45e8534e5"
+    },
+    {
+      "prompt": "W jakiej jednostce podaje się ciśnienie atmosferyczne w prognozach pogody?",
+      "answer": "Hektopaskal",
+      "aliases": [
+        "hPa",
+        "Hektopaskale"
+      ],
+      "id": "pogoda-ccb074cc0722d1eeb760"
+    },
+    {
+      "prompt": "Ile hektopaskali wynosi średnie ciśnienie na poziomie morza (w przybliżeniu)?",
+      "answer": "1013",
+      "aliases": [
+        "1013 hPa",
+        "1013,25"
+      ],
+      "id": "pogoda-1ba088e390e98e140a99"
+    },
+    {
+      "prompt": "Jak nazywa się obszar wysokiego ciśnienia, zwykle przynoszący ładną pogodę?",
+      "answer": "Wyż",
+      "aliases": [
+        "Antycyklon",
+        "Wyż baryczny"
+      ],
+      "id": "pogoda-19e743fac3703f92eca1"
+    },
+    {
+      "prompt": "Jak nazywa się obszar niskiego ciśnienia, zwykle przynoszący opady?",
+      "answer": "Niż",
+      "aliases": [
+        "Cyklon",
+        "Niż baryczny"
+      ],
+      "id": "pogoda-78de476626b01ca48140"
+    },
+    {
+      "prompt": "Jak nazywają się wysokie, pierzaste chmury złożone z kryształków lodu?",
+      "answer": "Cirrusy",
+      "aliases": [
+        "Pierzaste",
+        "Cirrus"
+      ],
+      "id": "pogoda-c80b3f6423bae4375d34"
+    },
+    {
+      "prompt": "Jak nazywają się potężne chmury burzowe, sięgające kilkunastu kilometrów?",
+      "answer": "Cumulonimbusy",
+      "aliases": [
+        "Cumulonimbus",
+        "Chmury burzowe"
+      ],
+      "id": "pogoda-b46e552f346bbba22008"
+    },
+    {
+      "prompt": "Jak nazywają się białe, kłębiaste chmury ładnej pogody?",
+      "answer": "Cumulusy",
+      "aliases": [
+        "Kłębiaste",
+        "Cumulus"
+      ],
+      "id": "pogoda-d3cbe077c60754313a9c"
+    },
+    {
+      "prompt": "Co słyszymy po błyskawicy?",
+      "answer": "Grzmot",
+      "aliases": [
+        "Piorun",
+        "Grzmot pioruna"
+      ],
+      "id": "pogoda-2bed137d6325d7da0c4f"
+    },
+    {
+      "prompt": "Dlaczego najpierw widzimy błyskawicę, a dopiero potem słyszymy grzmot?",
+      "answer": "Światło jest szybsze od dźwięku",
+      "id": "pogoda-703fb133ea043dd507e8"
+    },
+    {
+      "prompt": "Jak nazywają się opady w postaci kulek lodu podczas burzy?",
+      "answer": "Grad",
+      "id": "pogoda-a10c91b86007c05790b7"
+    },
+    {
+      "prompt": "Jak nazywa się opad w postaci deszczu ze śniegiem?",
+      "answer": "Deszcz ze śniegiem",
+      "aliases": [
+        "Śnieg z deszczem",
+        "Plucha"
+      ],
+      "id": "pogoda-4ee54b25cfd36a3af56b"
+    },
+    {
+      "prompt": "Jak nazywa się zjawisko świecenia nieba nad biegunami?",
+      "answer": "Zorza polarna",
+      "aliases": [
+        "Zorza"
+      ],
+      "id": "pogoda-9112a7ebcb6420b7c471"
+    },
+    {
+      "prompt": "Jak nazywa się okres ciepłej pogody jesienią w Polsce?",
+      "answer": "Złota polska jesień",
+      "aliases": [
+        "Babie lato"
+      ],
+      "id": "pogoda-42b8a35b6a223fe8a976"
+    },
+    {
+      "prompt": "W jakiej skali mierzy się siłę wiatru od 0 do 12?",
+      "answer": "Skala Beauforta",
+      "aliases": [
+        "Beauforta"
+      ],
+      "id": "pogoda-3eacfd69be63e3b225a5"
+    },
+    {
+      "prompt": "Jak nazywa się wysoka fala morska wywołana trzęsieniem ziemi?",
+      "answer": "Tsunami",
+      "id": "pogoda-f7c3135913d7f274b1fa"
+    },
+    {
+      "prompt": "W jakiej skali mierzy się siłę trzęsień ziemi (najbardziej znana)?",
+      "answer": "Skala Richtera",
+      "aliases": [
+        "Richtera",
+        "Skala magnitudy"
+      ],
+      "id": "pogoda-48d7a4048d712243f13f"
+    },
+    {
+      "prompt": "Jak nazywa się stała pokrywa lodu na zboczach gór, która powoli spływa?",
+      "answer": "Lodowiec",
+      "id": "pogoda-cc79fd2ae39659d4e5aa"
+    },
+    {
+      "prompt": "Jak nazywa się zamarznięta rosa na trawie?",
+      "answer": "Szron",
+      "id": "pogoda-a7c0dc484bb3a5995051"
+    },
+    {
+      "prompt": "Jak nazywa się lód pokrywający drogi po deszczu w czasie mrozu?",
+      "answer": "Gołoledź",
+      "aliases": [
+        "Gołoledź",
+        "Lód"
+      ],
+      "id": "pogoda-e88b112039c7d9fcfe4c"
+    },
+    {
+      "prompt": "W którą stronę kręci się powietrze w niżu na półkuli północnej?",
+      "answer": "Przeciwnie do ruchu wskazówek zegara",
+      "aliases": [
+        "Przeciwnie do wskazówek zegara"
+      ],
+      "id": "pogoda-724ed8a4882228dd6061"
+    },
+    {
+      "prompt": "Jak nazywa się pora deszczowa w Azji Południowej?",
+      "answer": "Monsun",
+      "id": "pogoda-ee15c3dc5e931839d756"
+    },
+    {
+      "prompt": "Jak nazywa się ciepły prąd morski płynący przez Atlantyk ku Europie?",
+      "answer": "Golfsztrom",
+      "aliases": [
+        "Prąd Zatokowy"
+      ],
+      "id": "pogoda-01714df3e38162fff38b"
+    },
+    {
+      "prompt": "Jak nazywa się zjawisko, gdy na pustyni widać „jezioro”, którego nie ma?",
+      "answer": "Fatamorgana",
+      "aliases": [
+        "Miraż"
+      ],
+      "id": "pogoda-41fdc4496c874c095ad4"
+    },
+    {
+      "prompt": "W jakim stanie skupienia jest woda w chmurze?",
+      "answer": "Ciekłym (krople) lub stałym (kryształki lodu)",
+      "aliases": [
+        "Ciekłym",
+        "Kropelki wody"
+      ],
+      "id": "pogoda-cf43ecef91c6bbddb442"
+    },
+    {
+      "prompt": "Przy jakiej temperaturze (w °C) zamarza czysta woda?",
+      "answer": "0",
+      "aliases": [
+        "0 °C",
+        "Zero"
+      ],
+      "id": "pogoda-832b945c4c7899ade731"
+    },
+    {
+      "prompt": "Przy jakiej temperaturze (w °C) wrze woda na poziomie morza?",
+      "answer": "100",
+      "aliases": [
+        "100 °C"
+      ],
+      "id": "pogoda-13cfa9a1fa3b9c51e2a9"
+    },
+    {
+      "prompt": "Jak nazywa się mieszanina dymu i mgły nad miastami?",
+      "answer": "Smog",
+      "id": "pogoda-2badb9ef365b169cd8b9"
+    },
+    {
+      "prompt": "Jakiego gazu jest najwięcej w powietrzu?",
+      "answer": "Azotu",
+      "aliases": [
+        "Azot"
+      ],
+      "id": "pogoda-946e098eb91c6b8df63c"
+    },
+    {
+      "prompt": "Jak nazywa się warstwa atmosfery, w której powstaje prawie cała pogoda?",
+      "answer": "Troposfera",
+      "id": "pogoda-80b271f188762c05b9b0"
+    },
+    {
+      "prompt": "Jak nazywa się warstwa atmosfery chroniąca nas przed promieniowaniem UV?",
+      "answer": "Warstwa ozonowa",
+      "aliases": [
+        "Ozonosfera",
+        "Ozon"
+      ],
+      "id": "pogoda-cbfda5bbbf97ca8b0e1e"
     }
   ],
   "Transport i podróże": [
@@ -18392,6 +23830,275 @@ export const bank = {
       "prompt": "Jak nazywał się brytyjsko-francuski naddźwiękowy samolot pasażerski?",
       "answer": "Concorde",
       "id": "v20-11f1cefff4961498d730"
+    },
+    {
+      "prompt": "Jak nazywa się lotnisko w Krakowie?",
+      "answer": "Kraków-Balice",
+      "aliases": [
+        "Balice",
+        "Lotnisko im. Jana Pawła II"
+      ],
+      "id": "transport-10bb16aff2ac3c2a7fc9"
+    },
+    {
+      "prompt": "Jak nazywa się lotnisko w Gdańsku?",
+      "answer": "Gdańsk im. Lecha Wałęsy",
+      "aliases": [
+        "Rębiechowo",
+        "Lotnisko Lecha Wałęsy"
+      ],
+      "id": "transport-4df356c20f127cbbde67"
+    },
+    {
+      "prompt": "Jak nazywa się polski narodowy przewoźnik lotniczy?",
+      "answer": "LOT",
+      "aliases": [
+        "Polskie Linie Lotnicze LOT"
+      ],
+      "id": "transport-e98a37921629eeef5833"
+    },
+    {
+      "prompt": "Jak nazywa się spółka obsługująca polskie pociągi dalekobieżne (m.in. Pendolino)?",
+      "answer": "PKP Intercity",
+      "aliases": [
+        "Intercity"
+      ],
+      "id": "transport-260ede4d0c5b44482a63"
+    },
+    {
+      "prompt": "Jak nazywa się najszybszy pociąg w Polsce, oznaczany EIP?",
+      "answer": "Pendolino",
+      "aliases": [
+        "Express InterCity Premium"
+      ],
+      "id": "transport-532bf976f875e4da1593"
+    },
+    {
+      "prompt": "Jak nazywa się kolejka górska na Kasprowy Wierch?",
+      "answer": "Kolej linowa",
+      "aliases": [
+        "Kolejka na Kasprowy"
+      ],
+      "id": "transport-c93aad4f0253eb3f8751"
+    },
+    {
+      "prompt": "Ile linii metra ma Warszawa (stan na 2025)?",
+      "answer": "2",
+      "aliases": [
+        "Dwie"
+      ],
+      "id": "transport-79f956dea74cbc09a8a9"
+    },
+    {
+      "prompt": "Jak nazywa się tunel kolejowy łączący Wielką Brytanię z Francją?",
+      "answer": "Eurotunel",
+      "aliases": [
+        "Tunel pod kanałem La Manche",
+        "Channel Tunnel"
+      ],
+      "id": "transport-716aa956a4002d48e436"
+    },
+    {
+      "prompt": "Jak nazywa się najsłynniejszy pociąg kolei transsyberyjskiej łączący Moskwę z Władywostokiem?",
+      "answer": "Kolej Transsyberyjska",
+      "aliases": [
+        "Transsyberyjska"
+      ],
+      "id": "transport-01921da24b8b9b40d6a9"
+    },
+    {
+      "prompt": "Jak nazywa się japoński szybki pociąg?",
+      "answer": "Shinkansen",
+      "id": "transport-a9b205f5f8f45c4ea6cf"
+    },
+    {
+      "prompt": "Jak nazywa się francuski szybki pociąg?",
+      "answer": "TGV",
+      "id": "transport-d2cb1d0088d79f767198"
+    },
+    {
+      "prompt": "Jak nazywa się dokument potrzebny do przekroczenia granicy poza strefą Schengen?",
+      "answer": "Paszport",
+      "id": "transport-9232c46a8d08e697401d"
+    },
+    {
+      "prompt": "Jak nazywa się karta uprawniająca do leczenia w krajach UE?",
+      "answer": "Europejska Karta Ubezpieczenia Zdrowotnego",
+      "aliases": [
+        "EKUZ"
+      ],
+      "id": "transport-8770175825faa306a2f6"
+    },
+    {
+      "prompt": "Jak nazywa się kabina pilotów w samolocie?",
+      "answer": "Kokpit",
+      "id": "transport-f4c37b22ff0afc399059"
+    },
+    {
+      "prompt": "Jak nazywa się pas, z którego startują samoloty?",
+      "answer": "Pas startowy",
+      "aliases": [
+        "Droga startowa"
+      ],
+      "id": "transport-898a6efc95773cd788c1"
+    },
+    {
+      "prompt": "Jak nazywa się miejsce w porcie lotniczym, z którego wchodzi się na pokład?",
+      "answer": "Gate",
+      "aliases": [
+        "Bramka",
+        "Wyjście"
+      ],
+      "id": "transport-32b468a3c1ce0206ea42"
+    },
+    {
+      "prompt": "Jak nazywa się dokument upoważniający do wejścia na pokład samolotu?",
+      "answer": "Karta pokładowa",
+      "aliases": [
+        "Boarding pass"
+      ],
+      "id": "transport-ca183eaa866d8023e380"
+    },
+    {
+      "prompt": "Jak nazywa się zmęczenie po locie przez kilka stref czasowych?",
+      "answer": "Jet lag",
+      "id": "transport-12bc1ba50e5ae999180b"
+    },
+    {
+      "prompt": "Jak nazywa się lewa strona statku?",
+      "answer": "Bakburta",
+      "id": "transport-8d416e7c570523821300"
+    },
+    {
+      "prompt": "Jak nazywa się prawa strona statku?",
+      "answer": "Sterburta",
+      "id": "transport-c62c6c6556b3d6e5146b"
+    },
+    {
+      "prompt": "Jak nazywa się przód statku?",
+      "answer": "Dziób",
+      "id": "transport-72d78c4510419d0a145f"
+    },
+    {
+      "prompt": "Jak nazywa się tył statku?",
+      "answer": "Rufa",
+      "id": "transport-a7451361e93e228cc88f"
+    },
+    {
+      "prompt": "W jakich jednostkach mierzy się prędkość statków?",
+      "answer": "Węzły",
+      "aliases": [
+        "Węzeł"
+      ],
+      "id": "transport-21d4ad8d67512b420f8c"
+    },
+    {
+      "prompt": "Ile metrów ma mila morska (w przybliżeniu)?",
+      "answer": "1852",
+      "aliases": [
+        "1852 m"
+      ],
+      "id": "transport-e82af9d8be6e156db675"
+    },
+    {
+      "prompt": "Jak nazywa się słynny kanał łączący Atlantyk z Pacyfikiem?",
+      "answer": "Kanał Panamski",
+      "id": "transport-cdbcfa47df44caaffdee"
+    },
+    {
+      "prompt": "Jak nazywa się kanał łączący Morze Śródziemne z Morzem Czerwonym?",
+      "answer": "Kanał Sueski",
+      "id": "transport-fb1873fbe1096f12fd54"
+    },
+    {
+      "prompt": "Z jakiego miasta w Polsce odpływają promy do Szwecji (jedno z dwóch)?",
+      "answer": "Gdynia lub Świnoujście",
+      "aliases": [
+        "Gdynia",
+        "Świnoujście",
+        "Gdańsk"
+      ],
+      "id": "transport-63eb8e4d89dd36ee814f"
+    },
+    {
+      "prompt": "Jak nazywa się najdłuższy most w Polsce nad Wisłą w Warszawie (otwarty w 2008)?",
+      "answer": "Most Marii Skłodowskiej-Curie",
+      "aliases": [
+        "Most Północny"
+      ],
+      "id": "transport-d5b8f24c96ec7414e439"
+    },
+    {
+      "prompt": "Jakie miasto jest nazywane „Wenecją Północy” (jedno z najczęściej wymienianych)?",
+      "answer": "Amsterdam",
+      "aliases": [
+        "Sankt Petersburg",
+        "Brugia"
+      ],
+      "id": "transport-c2cf4554028e9f89c6e9"
+    },
+    {
+      "prompt": "Jakim pojazdem pływa się po kanałach Wenecji?",
+      "answer": "Gondolą",
+      "aliases": [
+        "Gondola"
+      ],
+      "id": "transport-d2af72c77b7cdc4dfdc5"
+    },
+    {
+      "prompt": "Jak nazywa się słynny czerwony piętrowy autobus z Londynu?",
+      "answer": "Routemaster",
+      "aliases": [
+        "Double-decker",
+        "Piętrus"
+      ],
+      "id": "transport-67cb05b3d20228869667"
+    },
+    {
+      "prompt": "Jak nazywa się żółta taksówka z Nowego Jorku w potocznym języku?",
+      "answer": "Yellow cab",
+      "aliases": [
+        "Yellow Cab"
+      ],
+      "id": "transport-5ea921dd1fac0c6659e7"
+    },
+    {
+      "prompt": "Jak nazywa się podróżowanie „na stopa”?",
+      "answer": "Autostop",
+      "aliases": [
+        "Autostop",
+        "Stop"
+      ],
+      "id": "transport-9187d105fd536ea0b77f"
+    },
+    {
+      "prompt": "Jak nazywa się system rowerów miejskich w Warszawie?",
+      "answer": "Veturilo",
+      "id": "transport-b612d095779dc08a362b"
+    },
+    {
+      "prompt": "Jak nazywa się polska autostrada łącząca Gdańsk z południem kraju?",
+      "answer": "A1",
+      "id": "transport-145124cca177f511160f"
+    },
+    {
+      "prompt": "Jak nazywa się autostrada łącząca granicę z Niemcami, Poznań i Warszawę?",
+      "answer": "A2",
+      "id": "transport-473d5e533df7467f6842"
+    },
+    {
+      "prompt": "Jak nazywa się autostrada biegnąca przez Wrocław, Katowice i Kraków?",
+      "answer": "A4",
+      "id": "transport-058a30aa13052098c391"
+    },
+    {
+      "prompt": "Jak nazywa się elektroniczny system opłat na niektórych polskich drogach?",
+      "answer": "e-TOLL",
+      "aliases": [
+        "eToll",
+        "e-Toll"
+      ],
+      "id": "transport-8bf2d7c44e9aaeec645e"
     }
   ],
   "Zawody i narzędzia": [
@@ -18984,6 +24691,269 @@ export const bank = {
         "Mechanik"
       ],
       "id": "v20-99cd328cc945cbd05ffb"
+    },
+    {
+      "prompt": "Kto projektuje budynki?",
+      "answer": "Architekt",
+      "id": "zawody-8965c8644dc4aa26a7e0"
+    },
+    {
+      "prompt": "Kto przygotowuje leki i wydaje je w aptece?",
+      "answer": "Farmaceuta",
+      "aliases": [
+        "Aptekarz"
+      ],
+      "id": "zawody-b36dd367ee29e215214a"
+    },
+    {
+      "prompt": "Kto naprawia instalacje wodne i rury?",
+      "answer": "Hydraulik",
+      "id": "zawody-aa6dbf497ce80de6515d"
+    },
+    {
+      "prompt": "Kto zakłada instalację elektryczną?",
+      "answer": "Elektryk",
+      "id": "zawody-f489616b6bcd206e9c11"
+    },
+    {
+      "prompt": "Kto robi meble z drewna?",
+      "answer": "Stolarz",
+      "id": "zawody-c8006c928ec49368a1a4"
+    },
+    {
+      "prompt": "Kto kładzie płytki ceramiczne?",
+      "answer": "Glazurnik",
+      "aliases": [
+        "Płytkarz"
+      ],
+      "id": "zawody-c0d00b434a168f782ef7"
+    },
+    {
+      "prompt": "Kto naprawia buty?",
+      "answer": "Szewc",
+      "id": "zawody-76fe3bdd213698a76d4f"
+    },
+    {
+      "prompt": "Kto podkuwa konie?",
+      "answer": "Kowal",
+      "id": "zawody-645443173cdcfb2ff1af"
+    },
+    {
+      "prompt": "Kto pilnuje owiec w górach?",
+      "answer": "Baca",
+      "aliases": [
+        "Juhas",
+        "Pasterz"
+      ],
+      "id": "zawody-f8f4c64ff1f2585a7237"
+    },
+    {
+      "prompt": "Kto prowadzi samolot?",
+      "answer": "Pilot",
+      "id": "zawody-deda1d6b15ec45de1a8c"
+    },
+    {
+      "prompt": "Kto obsługuje pasażerów w samolocie?",
+      "answer": "Steward",
+      "aliases": [
+        "Stewardesa",
+        "Personel pokładowy"
+      ],
+      "id": "zawody-bfc3eda540b857d5fd01"
+    },
+    {
+      "prompt": "Kto ratuje ludzi w górach (w Tatrach)?",
+      "answer": "Ratownik TOPR",
+      "aliases": [
+        "TOPR",
+        "Ratownik górski",
+        "GOPR"
+      ],
+      "id": "zawody-69fcbedb126e178b0fc4"
+    },
+    {
+      "prompt": "Kto pilnuje bezpieczeństwa na basenie lub plaży?",
+      "answer": "Ratownik",
+      "aliases": [
+        "Ratownik wodny"
+      ],
+      "id": "zawody-fea8766d527817ef5324"
+    },
+    {
+      "prompt": "Kto zarządza lotami z wieży kontroli lotów?",
+      "answer": "Kontroler ruchu lotniczego",
+      "aliases": [
+        "Kontroler lotów"
+      ],
+      "id": "zawody-c92e91c4f2a7504d61f9"
+    },
+    {
+      "prompt": "Kto przeprowadza sekcje zwłok?",
+      "answer": "Patolog",
+      "aliases": [
+        "Medyk sądowy"
+      ],
+      "id": "zawody-3d926d611a886206cbc0"
+    },
+    {
+      "prompt": "Kto wykonuje operacje w szpitalu?",
+      "answer": "Chirurg",
+      "id": "zawody-f03f8a844fa4af05881a"
+    },
+    {
+      "prompt": "Kto dba o znieczulenie podczas operacji?",
+      "answer": "Anestezjolog",
+      "id": "zawody-763885125ae67dfb4244"
+    },
+    {
+      "prompt": "Kto bada gwiazdy i planety?",
+      "answer": "Astronom",
+      "id": "zawody-895cbf5769442ec3a4b7"
+    },
+    {
+      "prompt": "Kto bada skamieniałości i dawne formy życia?",
+      "answer": "Paleontolog",
+      "id": "zawody-4c80aabd54b92c53cf75"
+    },
+    {
+      "prompt": "Kto bada pozostałości dawnych kultur, prowadząc wykopaliska?",
+      "answer": "Archeolog",
+      "id": "zawody-c27a43c5d094d2c6aaa5"
+    },
+    {
+      "prompt": "Kto tłumaczy ustnie na żywo, np. na konferencjach?",
+      "answer": "Tłumacz symultaniczny",
+      "aliases": [
+        "Tłumacz",
+        "Tłumacz ustny"
+      ],
+      "id": "zawody-08fb5d27f12728d30fd6"
+    },
+    {
+      "prompt": "Kto broni oskarżonego w sądzie?",
+      "answer": "Adwokat",
+      "aliases": [
+        "Obrońca"
+      ],
+      "id": "zawody-afc8780784d06743d6aa"
+    },
+    {
+      "prompt": "Kto oskarża w sądzie w imieniu państwa?",
+      "answer": "Prokurator",
+      "id": "zawody-47b2e6d6b930b37b3a1d"
+    },
+    {
+      "prompt": "Kto poświadcza dokumenty i umowy, np. akt kupna mieszkania?",
+      "answer": "Notariusz",
+      "id": "zawody-6d6299255fe564fe0006"
+    },
+    {
+      "prompt": "Jakim narzędziem wbija się gwoździe?",
+      "answer": "Młotkiem",
+      "aliases": [
+        "Młotek"
+      ],
+      "id": "zawody-e8ae4b7415e436d929a0"
+    },
+    {
+      "prompt": "Jakim narzędziem przecina się drewno?",
+      "answer": "Piłą",
+      "aliases": [
+        "Piła"
+      ],
+      "id": "zawody-55a81b0535da53ef9887"
+    },
+    {
+      "prompt": "Jakim narzędziem sprawdza się, czy powierzchnia jest pozioma?",
+      "answer": "Poziomicą",
+      "aliases": [
+        "Poziomica",
+        "Libella"
+      ],
+      "id": "zawody-d37040b3040ad4ab02c3"
+    },
+    {
+      "prompt": "Jakim narzędziem mierzy się długość na budowie?",
+      "answer": "Miarą zwijaną",
+      "aliases": [
+        "Miarka",
+        "Metrówka",
+        "Taśma miernicza"
+      ],
+      "id": "zawody-5fe88e52677e27c1b330"
+    },
+    {
+      "prompt": "Jakie narzędzie służy do odkręcania nakrętek?",
+      "answer": "Klucz",
+      "aliases": [
+        "Klucz płaski",
+        "Klucz nasadowy"
+      ],
+      "id": "zawody-f4e28ac690c196a016b6"
+    },
+    {
+      "prompt": "Jakim narzędziem wierci się otwory?",
+      "answer": "Wiertarką",
+      "aliases": [
+        "Wiertarka"
+      ],
+      "id": "zawody-c94132517cdec2765ae3"
+    },
+    {
+      "prompt": "Jakie narzędzie służy do chwytania i zaginania drutu?",
+      "answer": "Kombinerki",
+      "aliases": [
+        "Szczypce"
+      ],
+      "id": "zawody-eb736384ae348f901a08"
+    },
+    {
+      "prompt": "Jakim narzędziem przekopuje się ziemię w ogrodzie?",
+      "answer": "Łopatą",
+      "aliases": [
+        "Łopata",
+        "Szpadel"
+      ],
+      "id": "zawody-f6427efe36922aa30634"
+    },
+    {
+      "prompt": "Jakim narzędziem grabi się liście?",
+      "answer": "Grabiami",
+      "aliases": [
+        "Grabie"
+      ],
+      "id": "zawody-79eed2a73d5e04185af2"
+    },
+    {
+      "prompt": "Jakiego narzędzia używa lekarz do osłuchiwania serca?",
+      "answer": "Stetoskopu",
+      "aliases": [
+        "Stetoskop",
+        "Słuchawki lekarskie"
+      ],
+      "id": "zawody-5579cbf9906a244aa40b"
+    },
+    {
+      "prompt": "Jakie narzędzie trzyma malarz pokojowy, by malować duże ściany?",
+      "answer": "Wałek",
+      "aliases": [
+        "Wałek malarski"
+      ],
+      "id": "zawody-7317d64e1e7ce9f3ee4f"
+    },
+    {
+      "prompt": "Jakiego narzędzia używa fryzjer do strzyżenia na krótko?",
+      "answer": "Maszynki do strzyżenia",
+      "aliases": [
+        "Maszynka",
+        "Nożyczki"
+      ],
+      "id": "zawody-c15bfbf87d99befa439d"
+    },
+    {
+      "prompt": "Kto układa i redaguje słowniki?",
+      "answer": "Leksykograf",
+      "id": "zawody-9c5d1337e2133e49c7ce"
     }
   ],
   "Język polski": [
@@ -19572,6 +25542,238 @@ export const bank = {
         "Wyraz dźwiękonaśladowczy"
       ],
       "id": "v20-66b73140c42b327170f8"
+    },
+    {
+      "prompt": "Jaka część mowy odpowiada na pytanie „co robi?”",
+      "answer": "Czasownik",
+      "id": "jp-26ab306aabde25f2be83"
+    },
+    {
+      "prompt": "Jaka część mowy odpowiada na pytania „kto? co?”",
+      "answer": "Rzeczownik",
+      "id": "jp-2750c088985986d0e978"
+    },
+    {
+      "prompt": "Jaka część mowy odpowiada na pytania „jaki? jaka? jakie?”",
+      "answer": "Przymiotnik",
+      "id": "jp-83abb5c643133bd49824"
+    },
+    {
+      "prompt": "Jaka część mowy odpowiada na pytania „jak? gdzie? kiedy?”",
+      "answer": "Przysłówek",
+      "id": "jp-9fd8356f84dcac7d570e"
+    },
+    {
+      "prompt": "Ile przypadków ma język polski?",
+      "answer": "7",
+      "aliases": [
+        "Siedem"
+      ],
+      "id": "jp-789119dde699f69db65a"
+    },
+    {
+      "prompt": "Jak nazywa się przypadek odpowiadający na pytania „kim? czym?”",
+      "answer": "Narzędnik",
+      "id": "jp-3f31e9058fc565e0c250"
+    },
+    {
+      "prompt": "Jak nazywa się przypadek odpowiadający na pytania „kogo? czego?”",
+      "answer": "Dopełniacz",
+      "id": "jp-0031c31cb75bfa92941e"
+    },
+    {
+      "prompt": "Jak nazywa się przypadek używany przy zwracaniu się do kogoś („o!”)?",
+      "answer": "Wołacz",
+      "id": "jp-baf19eab6e442f80e361"
+    },
+    {
+      "prompt": "Jak nazywa się przypadek odpowiadający na pytania „o kim? o czym?”",
+      "answer": "Miejscownik",
+      "id": "jp-9305e7eec436e22342df"
+    },
+    {
+      "prompt": "Podaj wołacz od imienia „Marek”.",
+      "answer": "Marku",
+      "id": "jp-0ae298c9705987605b8b"
+    },
+    {
+      "prompt": "Podaj wołacz od słowa „pan”.",
+      "answer": "Panie",
+      "id": "jp-4ab7e2b5d4daf9ea455d"
+    },
+    {
+      "prompt": "Podaj dopełniacz liczby mnogiej słowa „dzień”.",
+      "answer": "Dni",
+      "aliases": [
+        "Dni"
+      ],
+      "id": "jp-8c9b651906423267bfa0"
+    },
+    {
+      "prompt": "Jak poprawnie: „w każdym bądź razie” czy „w każdym razie”?",
+      "answer": "W każdym razie",
+      "id": "jp-37fd14ddc6a2daf36afb"
+    },
+    {
+      "prompt": "Jak poprawnie: „wziąć” czy „wziąść”?",
+      "answer": "Wziąć",
+      "id": "jp-b5025bb7295bd94bb843"
+    },
+    {
+      "prompt": "Jak poprawnie: „poszłem” czy „poszedłem”?",
+      "answer": "Poszedłem",
+      "id": "jp-1864992b40bbd2a6a23f"
+    },
+    {
+      "prompt": "Jak poprawnie: „włanczać” czy „włączać”?",
+      "answer": "Włączać",
+      "id": "jp-6c15c9fad9724b184358"
+    },
+    {
+      "prompt": "Jak poprawnie: „ubrać płaszcz” czy „włożyć płaszcz”?",
+      "answer": "Włożyć płaszcz",
+      "aliases": [
+        "Założyć płaszcz"
+      ],
+      "id": "jp-cb8a9832598e544ad41e"
+    },
+    {
+      "prompt": "Jak poprawnie: „tą książkę” czy „tę książkę”?",
+      "answer": "Tę książkę",
+      "id": "jp-3aa66c0b7d4b88db2055"
+    },
+    {
+      "prompt": "Jak napisać poprawnie: „żółw” czy „rzółw”?",
+      "answer": "Żółw",
+      "id": "jp-3395f0937fed515be5cb"
+    },
+    {
+      "prompt": "Jak napisać poprawnie: „chmura” czy „hmura”?",
+      "answer": "Chmura",
+      "id": "jp-c010d79ff4609b542b4b"
+    },
+    {
+      "prompt": "Jak napisać poprawnie: „bóbr” czy „bubr”?",
+      "answer": "Bóbr",
+      "id": "jp-11a7ed0c0e3a8ea2673d"
+    },
+    {
+      "prompt": "Jak napisać poprawnie: „nie dobry” czy „niedobry”?",
+      "answer": "Niedobry",
+      "id": "jp-68c18f0f3c1a9a22c683"
+    },
+    {
+      "prompt": "Jak napisać poprawnie: „nie chcę” czy „niechcę”?",
+      "answer": "Nie chcę",
+      "id": "jp-5add4127b37922b032d0"
+    },
+    {
+      "prompt": "Jak napisać poprawnie: „na prawdę” czy „naprawdę”?",
+      "answer": "Naprawdę",
+      "id": "jp-ec5107b8e6911d825c33"
+    },
+    {
+      "prompt": "Jak nazywa się wyraz o przeciwnym znaczeniu?",
+      "answer": "Antonim",
+      "id": "jp-5e019c9cf1c2bb52d147"
+    },
+    {
+      "prompt": "Jak nazywa się wyraz o podobnym znaczeniu?",
+      "answer": "Synonim",
+      "id": "jp-17737165b6cfdc337769"
+    },
+    {
+      "prompt": "Jak nazywa się wyraz, który brzmi tak samo, ale ma inne znaczenie (np. zamek)?",
+      "answer": "Homonim",
+      "id": "jp-c8e4fb62b055a257188a"
+    },
+    {
+      "prompt": "Jak nazywa się środek stylistyczny polegający na nadaniu cech ludzkich przedmiotom?",
+      "answer": "Uosobienie",
+      "aliases": [
+        "Personifikacja"
+      ],
+      "id": "jp-1d2300f02f3fec603955"
+    },
+    {
+      "prompt": "Jak nazywa się porównanie bez słowa „jak” (np. „morze łez”)?",
+      "answer": "Metafora",
+      "aliases": [
+        "Przenośnia"
+      ],
+      "id": "jp-9ae35d9f293e7aade208"
+    },
+    {
+      "prompt": "Jak nazywa się zdanie złożone z dwóch zdań połączonych spójnikiem „i”?",
+      "answer": "Zdanie złożone współrzędnie",
+      "aliases": [
+        "Współrzędnie złożone"
+      ],
+      "id": "jp-d00202d3c357ec6b40fe"
+    },
+    {
+      "prompt": "Które litery są w polskim alfabecie, ale nie w angielskim (podaj jedną z dziewięciu)?",
+      "answer": "Ą, Ć, Ę, Ł, Ń, Ó, Ś, Ź, Ż",
+      "aliases": [
+        "Ą",
+        "Ć",
+        "Ę",
+        "Ł",
+        "Ń",
+        "Ó",
+        "Ś",
+        "Ź",
+        "Ż"
+      ],
+      "id": "jp-bb8090c9c440c4053857"
+    },
+    {
+      "prompt": "Który dwuznak oznacza ten sam dźwięk co „ż”?",
+      "answer": "Rz",
+      "id": "jp-53b16aa24c6a2365aab5"
+    },
+    {
+      "prompt": "Jak nazywa się podmiot i orzeczenie razem w zdaniu?",
+      "answer": "Związek główny",
+      "aliases": [
+        "Związek podmiotu z orzeczeniem"
+      ],
+      "id": "jp-bdef46e1558817237268"
+    },
+    {
+      "prompt": "Co oznacza frazeologizm „mieć muchy w nosie”?",
+      "answer": "Być obrażonym, w złym humorze",
+      "aliases": [
+        "Być obrażonym",
+        "Zły humor"
+      ],
+      "id": "jp-b095986f4b4e8c7c2315"
+    },
+    {
+      "prompt": "Co oznacza frazeologizm „wziąć nogi za pas”?",
+      "answer": "Uciec",
+      "aliases": [
+        "Uciekać"
+      ],
+      "id": "jp-9f0cbdd6f8648aa9ecb4"
+    },
+    {
+      "prompt": "Co oznacza frazeologizm „trzymać język za zębami”?",
+      "answer": "Zachować tajemnicę, milczeć",
+      "aliases": [
+        "Milczeć",
+        "Nie zdradzić tajemnicy"
+      ],
+      "id": "jp-87fd37178481837ba32c"
+    },
+    {
+      "prompt": "Co oznacza frazeologizm „bujać w obłokach”?",
+      "answer": "Marzyć, nie zwracać uwagi na rzeczywistość",
+      "aliases": [
+        "Marzyć",
+        "Fantazjować"
+      ],
+      "id": "jp-3178d53d798b5d80c38f"
     }
   ],
   "Rebusy emoji": [
@@ -20230,6 +26432,186 @@ export const bank = {
       ],
       "kind": "emoji-skojarzenia",
       "id": "pl-emoji-a239fb85a0e3659d"
+    },
+    {
+      "prompt": "Odgadnij polskie powiedzenie lub związek frazeologiczny przedstawiony emoji.",
+      "answer": "Nie wywołuj wilka z lasu",
+      "aliases": [
+        "Nie wywołuj wilka z lasu"
+      ],
+      "visual": "🚫📣🐺🌲",
+      "id": "rebus-bfc8137a6a168d72a102"
+    },
+    {
+      "prompt": "Odgadnij polskie powiedzenie lub związek frazeologiczny przedstawiony emoji.",
+      "answer": "Gdzie kucharek sześć, tam nie ma co jeść",
+      "aliases": [
+        "Gdzie kucharek sześć, tam nie ma co jeść"
+      ],
+      "visual": "👩‍🍳6️⃣ ➡️ 🚫🍽️",
+      "id": "rebus-dba168b3388719519bea"
+    },
+    {
+      "prompt": "Odgadnij polskie powiedzenie lub związek frazeologiczny przedstawiony emoji.",
+      "answer": "Lepszy wróbel w garści niż gołąb na dachu",
+      "aliases": [
+        "Lepszy wróbel w garści niż gołąb na dachu"
+      ],
+      "visual": "🐦✊ > 🕊️🏠",
+      "id": "rebus-7ed807de4182c696d3ae"
+    },
+    {
+      "prompt": "Odgadnij polskie powiedzenie lub związek frazeologiczny przedstawiony emoji.",
+      "answer": "Kto rano wstaje, temu Pan Bóg daje",
+      "aliases": [
+        "Kto rano wstaje, temu Pan Bóg daje"
+      ],
+      "visual": "⏰🌅 ➡️ 🎁",
+      "id": "rebus-b97914e785efb3a5bb8e"
+    },
+    {
+      "prompt": "Odgadnij polskie powiedzenie lub związek frazeologiczny przedstawiony emoji.",
+      "answer": "Nie ma róży bez kolców",
+      "aliases": [
+        "Nie ma róży bez kolców"
+      ],
+      "visual": "🌹 ➕ 🌵",
+      "id": "rebus-873e6e84b50087d4d7c7"
+    },
+    {
+      "prompt": "Odgadnij polskie powiedzenie lub związek frazeologiczny przedstawiony emoji.",
+      "answer": "Darowanemu koniowi nie zagląda się w zęby",
+      "aliases": [
+        "Darowanemu koniowi nie zagląda się w zęby"
+      ],
+      "visual": "🎁🐴 🚫👀🦷",
+      "id": "rebus-5464281a3734b66f77a1"
+    },
+    {
+      "prompt": "Odgadnij polskie powiedzenie lub związek frazeologiczny przedstawiony emoji.",
+      "answer": "Mieć węża w kieszeni",
+      "aliases": [
+        "Mieć węża w kieszeni"
+      ],
+      "visual": "🐍👖",
+      "id": "rebus-bf1dc0bdc1e436ac5b48"
+    },
+    {
+      "prompt": "Odgadnij polskie powiedzenie lub związek frazeologiczny przedstawiony emoji.",
+      "answer": "Wilk syty i owca cała",
+      "aliases": [
+        "Wilk syty i owca cała"
+      ],
+      "visual": "🐺😋 ➕ 🐑✅",
+      "id": "rebus-dfa5cd2781640c6c1bc2"
+    },
+    {
+      "prompt": "Odgadnij polskie powiedzenie lub związek frazeologiczny przedstawiony emoji.",
+      "answer": "Jak kamień w wodę",
+      "aliases": [
+        "Jak kamień w wodę"
+      ],
+      "visual": "🪨 ➡️ 💧",
+      "id": "rebus-e3419aae43fbd1989edc"
+    },
+    {
+      "prompt": "Odgadnij polskie powiedzenie lub związek frazeologiczny przedstawiony emoji.",
+      "answer": "Ciągnie wilka do lasu",
+      "aliases": [
+        "Ciągnie wilka do lasu"
+      ],
+      "visual": "🐺 ➡️ 🌲🌲",
+      "id": "rebus-495cbd9dd19bddbe0796"
+    },
+    {
+      "prompt": "Odgadnij polskie powiedzenie lub związek frazeologiczny przedstawiony emoji.",
+      "answer": "Pieniądze szczęścia nie dają",
+      "aliases": [
+        "Pieniądze szczęścia nie dają"
+      ],
+      "visual": "💰 🚫😊",
+      "id": "rebus-da2a616f816c71540b07"
+    },
+    {
+      "prompt": "Odgadnij polskie powiedzenie lub związek frazeologiczny przedstawiony emoji.",
+      "answer": "Złapać dwie sroki za ogon",
+      "aliases": [
+        "Złapać dwie sroki za ogon"
+      ],
+      "visual": "✊🐦🐦",
+      "id": "rebus-a6b78e0bdceb2d014613"
+    },
+    {
+      "prompt": "Odgadnij polskie powiedzenie lub związek frazeologiczny przedstawiony emoji.",
+      "answer": "Nie chwal dnia przed zachodem słońca",
+      "aliases": [
+        "Nie chwal dnia przed zachodem słońca"
+      ],
+      "visual": "🚫👏☀️ ⏳🌇",
+      "id": "rebus-20c819bcd875a19d1cc9"
+    },
+    {
+      "prompt": "Odgadnij polskie powiedzenie lub związek frazeologiczny przedstawiony emoji.",
+      "answer": "Fortuna kołem się toczy",
+      "aliases": [
+        "Fortuna kołem się toczy"
+      ],
+      "visual": "🍀🎡",
+      "id": "rebus-b4879bbc05fdd7ed4a75"
+    },
+    {
+      "prompt": "Odgadnij polskie powiedzenie lub związek frazeologiczny przedstawiony emoji.",
+      "answer": "Głodnemu chleb na myśli",
+      "aliases": [
+        "Głodnemu chleb na myśli"
+      ],
+      "visual": "😩🍽️💭🍞",
+      "id": "rebus-86df584e37e1e44f1966"
+    },
+    {
+      "prompt": "Odgadnij polskie powiedzenie lub związek frazeologiczny przedstawiony emoji.",
+      "answer": "Gruszki na wierzbie",
+      "aliases": [
+        "Gruszki na wierzbie"
+      ],
+      "visual": "🍐🌳",
+      "id": "rebus-8e411acfad4ea4a2bd5c"
+    },
+    {
+      "prompt": "Odgadnij polskie powiedzenie lub związek frazeologiczny przedstawiony emoji.",
+      "answer": "Mieć głowę w chmurach",
+      "aliases": [
+        "Mieć głowę w chmurach"
+      ],
+      "visual": "🧠☁️",
+      "id": "rebus-967a442557d9b73cf364"
+    },
+    {
+      "prompt": "Odgadnij polskie powiedzenie lub związek frazeologiczny przedstawiony emoji.",
+      "answer": "Bułka z masłem",
+      "aliases": [
+        "Bułka z masłem"
+      ],
+      "visual": "🥖🧈",
+      "id": "rebus-53b2e7fa20fbc1374c52"
+    },
+    {
+      "prompt": "Odgadnij polskie powiedzenie lub związek frazeologiczny przedstawiony emoji.",
+      "answer": "Kupować kota w worku",
+      "aliases": [
+        "Kupować kota w worku"
+      ],
+      "visual": "💸🐱👜",
+      "id": "rebus-68856e6fbd63e9aa25bd"
+    },
+    {
+      "prompt": "Odgadnij polskie powiedzenie lub związek frazeologiczny przedstawiony emoji.",
+      "answer": "Dmuchać na zimne",
+      "aliases": [
+        "Dmuchać na zimne"
+      ],
+      "visual": "🌬️🧊",
+      "id": "rebus-73ec62a7ebd0abd69ed6"
     }
   ],
   "Co tu nie pasuje?": [
@@ -20710,6 +27092,341 @@ export const bank = {
         "Morze Czerwone"
       ],
       "id": "v20-71306181b5cc6703be91"
+    },
+    {
+      "prompt": "Który z nich nie jest ssakiem: delfin, nietoperz, pingwin, wieloryb?",
+      "answer": "Pingwin",
+      "aliases": [
+        "Pingwin"
+      ],
+      "explanation": "Pingwin to ptak; pozostałe to ssaki.",
+      "id": "niepasuje-f1af18cd9526e6408a50"
+    },
+    {
+      "prompt": "Które zwierzę nie jest owadem: mrówka, pająk, pszczoła, motyl?",
+      "answer": "Pająk",
+      "aliases": [
+        "Pająk"
+      ],
+      "explanation": "Pająk to pajęczak (8 nóg); pozostałe to owady.",
+      "id": "niepasuje-4d4e24cc84173bdc5a41"
+    },
+    {
+      "prompt": "Który owoc nie jest cytrusem: cytryna, pomarańcza, kiwi, grejpfrut?",
+      "answer": "Kiwi",
+      "aliases": [
+        "Kiwi"
+      ],
+      "explanation": "Kiwi nie należy do cytrusów.",
+      "id": "niepasuje-bc94df0f13b45261d6a3"
+    },
+    {
+      "prompt": "Które warzywo nie rośnie pod ziemią: marchew, burak, ogórek, rzodkiewka?",
+      "answer": "Ogórek",
+      "aliases": [
+        "Ogórek"
+      ],
+      "explanation": "Ogórek rośnie nad ziemią; pozostałe to korzenie.",
+      "id": "niepasuje-055302650231930a9849"
+    },
+    {
+      "prompt": "Które miasto nie jest stolicą: Berlin, Madryt, Mediolan, Lizbona?",
+      "answer": "Mediolan",
+      "aliases": [
+        "Mediolan"
+      ],
+      "explanation": "Stolicą Włoch jest Rzym.",
+      "id": "niepasuje-854ee157d2498758f0c8"
+    },
+    {
+      "prompt": "Które państwo nie leży w Afryce: Kenia, Egipt, Peru, Maroko?",
+      "answer": "Peru",
+      "aliases": [
+        "Peru"
+      ],
+      "explanation": "Peru leży w Ameryce Południowej.",
+      "id": "niepasuje-0dbf90d3797c74c94302"
+    },
+    {
+      "prompt": "Która planeta nie jest gazowym olbrzymem: Jowisz, Saturn, Mars, Neptun?",
+      "answer": "Mars",
+      "aliases": [
+        "Mars"
+      ],
+      "explanation": "Mars jest planetą skalistą.",
+      "id": "niepasuje-b74cad8efdce6ea8a14c"
+    },
+    {
+      "prompt": "Która liczba nie jest parzysta: 14, 22, 37, 48?",
+      "answer": "37",
+      "aliases": [
+        "37"
+      ],
+      "explanation": "37 jest nieparzyste.",
+      "id": "niepasuje-a8689614b387be7cd89f"
+    },
+    {
+      "prompt": "Która liczba nie jest kwadratem liczby całkowitej: 49, 64, 80, 81?",
+      "answer": "80",
+      "aliases": [
+        "80"
+      ],
+      "explanation": "49=7², 64=8², 81=9².",
+      "id": "niepasuje-d452fb4e5ae7a969e41d"
+    },
+    {
+      "prompt": "Który instrument nie jest strunowy: gitara, harfa, flet, wiolonczela?",
+      "answer": "Flet",
+      "aliases": [
+        "Flet"
+      ],
+      "explanation": "Flet to instrument dęty.",
+      "id": "niepasuje-b6aacffd0aa39113a8c2"
+    },
+    {
+      "prompt": "Który kolor nie jest barwą podstawową w malarstwie (RYB): czerwony, żółty, zielony, niebieski?",
+      "answer": "Zielony",
+      "aliases": [
+        "Zielony"
+      ],
+      "explanation": "Zielony powstaje z żółtego i niebieskiego.",
+      "id": "niepasuje-a2b8169dc2bb3326c392"
+    },
+    {
+      "prompt": "Który z nich nie jest pierwiastkiem chemicznym: tlen, woda, żelazo, złoto?",
+      "answer": "Woda",
+      "aliases": [
+        "Woda"
+      ],
+      "explanation": "Woda to związek chemiczny (H₂O).",
+      "id": "niepasuje-5a88cad3cedce96ddea4"
+    },
+    {
+      "prompt": "Który sport nie używa piłki: siatkówka, tenis, hokej na lodzie, koszykówka?",
+      "answer": "Hokej na lodzie",
+      "aliases": [
+        "Hokej na lodzie"
+      ],
+      "explanation": "W hokeju na lodzie gra się krążkiem.",
+      "id": "niepasuje-fae27c5f25832dcf0f1c"
+    },
+    {
+      "prompt": "Która rzeka nie płynie przez Polskę: Wisła, Odra, Dunaj, Warta?",
+      "answer": "Dunaj",
+      "aliases": [
+        "Dunaj"
+      ],
+      "id": "niepasuje-e0e3e567d87695ee6707"
+    },
+    {
+      "prompt": "Który miesiąc nie ma 31 dni: styczeń, kwiecień, lipiec, sierpień?",
+      "answer": "Kwiecień",
+      "aliases": [
+        "Kwiecień"
+      ],
+      "explanation": "Kwiecień ma 30 dni.",
+      "id": "niepasuje-11f625ec986ddc056f7e"
+    },
+    {
+      "prompt": "Który z nich nie jest kontynentem: Azja, Grenlandia, Afryka, Australia?",
+      "answer": "Grenlandia",
+      "aliases": [
+        "Grenlandia"
+      ],
+      "explanation": "Grenlandia to wyspa.",
+      "id": "niepasuje-b80000e12ca553eee957"
+    },
+    {
+      "prompt": "Która postać nie pochodzi z „Kubusia Puchatka”: Prosiaczek, Kłapouchy, Tygrysek, Reksio?",
+      "answer": "Reksio",
+      "aliases": [
+        "Reksio"
+      ],
+      "explanation": "Reksio to polski piesek z innej bajki.",
+      "id": "niepasuje-4964cd0a7915158316c9"
+    },
+    {
+      "prompt": "Który z nich nie jest gatunkiem drzewa: dąb, buk, wrzos, klon?",
+      "answer": "Wrzos",
+      "aliases": [
+        "Wrzos"
+      ],
+      "explanation": "Wrzos to krzewinka.",
+      "id": "niepasuje-0c0c18eef587ac6e4817"
+    },
+    {
+      "prompt": "Która gra nie jest grą planszową: szachy, Monopoly, Tetris, warcaby?",
+      "answer": "Tetris",
+      "aliases": [
+        "Tetris"
+      ],
+      "explanation": "Tetris to gra komputerowa.",
+      "id": "niepasuje-cb370c37f25031302afc"
+    },
+    {
+      "prompt": "Który język nie jest słowiański: czeski, polski, węgierski, słowacki?",
+      "answer": "Węgierski",
+      "aliases": [
+        "Węgierski"
+      ],
+      "explanation": "Węgierski to język ugrofiński.",
+      "id": "niepasuje-e11e532cb4ac6e7b5b63"
+    },
+    {
+      "prompt": "Które zwierzę nie jest gadem: jaszczurka, żółw, żaba, wąż?",
+      "answer": "Żaba",
+      "aliases": [
+        "Żaba"
+      ],
+      "explanation": "Żaba to płaz.",
+      "id": "niepasuje-b9cd339e1e11a0fae0c8"
+    },
+    {
+      "prompt": "Który z nich nie jest polskim poetą romantycznym: Mickiewicz, Słowacki, Krasiński, Prus?",
+      "answer": "Prus",
+      "aliases": [
+        "Prus"
+      ],
+      "explanation": "Bolesław Prus to pisarz pozytywizmu.",
+      "id": "niepasuje-c5a63b332b308e6e0b77"
+    },
+    {
+      "prompt": "Która liczba nie jest pierwsza: 2, 13, 21, 31?",
+      "answer": "21",
+      "aliases": [
+        "21"
+      ],
+      "explanation": "21 = 3 × 7.",
+      "id": "niepasuje-537559d5a5761108e18e"
+    },
+    {
+      "prompt": "Który napój nie zawiera kofeiny (w klasycznej wersji): kawa, herbata czarna, cola, mleko?",
+      "answer": "Mleko",
+      "aliases": [
+        "Mleko"
+      ],
+      "id": "niepasuje-329ca3b85c9579f93e26"
+    },
+    {
+      "prompt": "Który z nich nie jest kształtem płaskim: kwadrat, trójkąt, sześcian, koło?",
+      "answer": "Sześcian",
+      "aliases": [
+        "Sześcian"
+      ],
+      "explanation": "Sześcian to bryła.",
+      "id": "niepasuje-484f15cf5fb97ee27b24"
+    },
+    {
+      "prompt": "Które z nich nie jest morzem: Bałtyk, Morze Czerwone, Morze Kaspijskie, Morze Śródziemne?",
+      "answer": "Morze Kaspijskie",
+      "aliases": [
+        "Morze Kaspijskie"
+      ],
+      "explanation": "Morze Kaspijskie to formalnie jezioro.",
+      "id": "niepasuje-b1343c797aea0010f685"
+    },
+    {
+      "prompt": "Który z nich nie jest gatunkiem psa: pudel, beagle, perski, jamnik?",
+      "answer": "Perski",
+      "aliases": [
+        "Perski"
+      ],
+      "explanation": "Perski to rasa kota.",
+      "id": "niepasuje-0934902b6a9da00e5745"
+    },
+    {
+      "prompt": "Który z nich nie jest gatunkiem muzycznym: jazz, rock, sonet, hip-hop?",
+      "answer": "Sonet",
+      "aliases": [
+        "Sonet"
+      ],
+      "explanation": "Sonet to forma poetycka.",
+      "id": "niepasuje-cd43a6522771e9d8b957"
+    },
+    {
+      "prompt": "Który element nie jest częścią komputera: procesor, karta graficzna, gaźnik, pamięć RAM?",
+      "answer": "Gaźnik",
+      "aliases": [
+        "Gaźnik"
+      ],
+      "explanation": "Gaźnik to część silnika spalinowego.",
+      "id": "niepasuje-6f3fc993ce3b9881704f"
+    },
+    {
+      "prompt": "Która z nich nie jest walutą: euro, jen, peso, sushi?",
+      "answer": "Sushi",
+      "aliases": [
+        "Sushi"
+      ],
+      "id": "niepasuje-aac58171319144791fc7"
+    },
+    {
+      "prompt": "Który z nich nie jest kolorem tęczy: czerwony, pomarańczowy, różowy, niebieski?",
+      "answer": "Różowy",
+      "aliases": [
+        "Różowy"
+      ],
+      "id": "niepasuje-920cafb68b6e5be52c96"
+    },
+    {
+      "prompt": "Który z nich nie jest organem człowieka: serce, wątroba, płetwa, płuca?",
+      "answer": "Płetwa",
+      "aliases": [
+        "Płetwa"
+      ],
+      "id": "niepasuje-cc064d4bee20c8831d1f"
+    },
+    {
+      "prompt": "Który z nich nie jest planetą: Wenus, Pluton, Saturn, Merkury?",
+      "answer": "Pluton",
+      "aliases": [
+        "Pluton"
+      ],
+      "explanation": "Pluton to planeta karłowata.",
+      "id": "niepasuje-7441617d9c10410dff54"
+    },
+    {
+      "prompt": "Które z nich nie jest świętem ruchomym: Wielkanoc, Boże Ciało, Boże Narodzenie, Zielone Świątki?",
+      "answer": "Boże Narodzenie",
+      "aliases": [
+        "Boże Narodzenie"
+      ],
+      "explanation": "Boże Narodzenie jest zawsze 25 grudnia.",
+      "id": "niepasuje-8185cc20014b6d3c52b0"
+    },
+    {
+      "prompt": "Który z nich nie jest pisarzem: Lem, Sienkiewicz, Chopin, Tokarczuk?",
+      "answer": "Chopin",
+      "aliases": [
+        "Chopin"
+      ],
+      "explanation": "Chopin był kompozytorem.",
+      "id": "niepasuje-0938bfc0835571dc28d0"
+    },
+    {
+      "prompt": "Które miasto nie leży nad morzem: Gdańsk, Sopot, Kraków, Gdynia?",
+      "answer": "Kraków",
+      "aliases": [
+        "Kraków"
+      ],
+      "id": "niepasuje-da759436fc8af5892aac"
+    },
+    {
+      "prompt": "Która jednostka nie mierzy długości: metr, cal, kilogram, mila?",
+      "answer": "Kilogram",
+      "aliases": [
+        "Kilogram"
+      ],
+      "explanation": "Kilogram to jednostka masy.",
+      "id": "niepasuje-c13a023310d6a87b4d1b"
+    },
+    {
+      "prompt": "Który z nich nie jest przyprawą: cynamon, pieprz, kurkuma, skrobia?",
+      "answer": "Skrobia",
+      "aliases": [
+        "Skrobia"
+      ],
+      "id": "niepasuje-63417cc5c62a47349450"
     }
   ],
   "Prawda/Fałsz": [
@@ -21112,6 +27829,160 @@ export const bank = {
       "prompt": "Prawda czy fałsz: Związek zawodowy „Solidarność” powstał w Gdańsku w 1980 roku.",
       "answer": "Prawda",
       "id": "v20-d28b64b8eb873fcd09dd"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Pająki są owadami.",
+      "answer": "Fałsz",
+      "explanation": "Pająki to pajęczaki – mają 8 nóg.",
+      "id": "pf-f7df9931955d7c8d397c"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Wieloryb jest ssakiem.",
+      "answer": "Prawda",
+      "id": "pf-b29e5c1cae9fe0a240c1"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Wenus obraca się w przeciwną stronę niż większość planet.",
+      "answer": "Prawda",
+      "id": "pf-c8b7991c956ddc0ac4c2"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Wielki Mur Chiński jest widoczny gołym okiem z Księżyca.",
+      "answer": "Fałsz",
+      "id": "pf-9de362f828e1a9381671"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Kraków był stolicą Polski przed Warszawą.",
+      "answer": "Prawda",
+      "id": "pf-158de285d090b3be23e9"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Rysy to najwyższy szczyt całych Tatr.",
+      "answer": "Fałsz",
+      "explanation": "Najwyższy jest Gerlach na Słowacji.",
+      "id": "pf-4155831bb4f04fb29e48"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Banan rośnie na drzewie.",
+      "answer": "Fałsz",
+      "explanation": "Bananowiec to bylina – zielna roślina, nie drzewo.",
+      "id": "pf-2b925e91d324f13751f3"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Pomidor botanicznie jest owocem.",
+      "answer": "Prawda",
+      "id": "pf-707aa819dcbf6945e7d3"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Złota rybka ma pamięć tylko 3 sekund.",
+      "answer": "Fałsz",
+      "explanation": "Ryby pamiętają informacje przez miesiące.",
+      "id": "pf-c69bf92ebb1272bbf752"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Dźwięk rozchodzi się w próżni.",
+      "answer": "Fałsz",
+      "id": "pf-3ee7ad6eb3dd33e971d9"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Kangur nie potrafi skakać do tyłu.",
+      "answer": "Prawda",
+      "id": "pf-80c97cef8f38459182cc"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Mount Everest leży na granicy Nepalu i Chin.",
+      "answer": "Prawda",
+      "id": "pf-afbb49d7eb3799ef45fb"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Australia jest jednocześnie państwem i kontynentem.",
+      "answer": "Prawda",
+      "id": "pf-76be4adc1155a8ab31a5"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Woda wrze zawsze w 100 °C, niezależnie od wysokości.",
+      "answer": "Fałsz",
+      "explanation": "Wysoko w górach wrze w niższej temperaturze.",
+      "id": "pf-0aef24bb7cdaa04206c2"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Chopin urodził się w Żelazowej Woli.",
+      "answer": "Prawda",
+      "id": "pf-83a4c3b901889ef8661f"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Maria Skłodowska-Curie zdobyła dwie Nagrody Nobla.",
+      "answer": "Prawda",
+      "id": "pf-bc2227751ed674b0cd68"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Strusie chowają głowę w piasek, gdy się boją.",
+      "answer": "Fałsz",
+      "id": "pf-c51569ca4fec5c14abb8"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Delfiny śpią z jedną półkulą mózgu „włączoną”.",
+      "answer": "Prawda",
+      "id": "pf-700675db63bb9ebec95d"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Islandia jest członkiem Unii Europejskiej.",
+      "answer": "Fałsz",
+      "id": "pf-a9bceb4db9218c0e4e1b"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Szwajcaria używa euro.",
+      "answer": "Fałsz",
+      "explanation": "Walutą jest frank szwajcarski.",
+      "id": "pf-70e843c783b1370eb243"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Polska leży w strefie czasowej UTC+1 (zimą).",
+      "answer": "Prawda",
+      "id": "pf-8e0fa5b3c2ac52c56b10"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Księżyc ma własne światło.",
+      "answer": "Fałsz",
+      "explanation": "Odbija światło Słońca.",
+      "id": "pf-7e3eb28103dc7a87c0dd"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Człowiek ma więcej kości jako niemowlę niż jako dorosły.",
+      "answer": "Prawda",
+      "id": "pf-ceb58ba974fd628e4f66"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Ryż jest trawą.",
+      "answer": "Prawda",
+      "id": "pf-54d1b8d0daff123cb4e5"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Truskawka jest jagodą w sensie botanicznym.",
+      "answer": "Fałsz",
+      "id": "pf-b800738904f86221e991"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Paryż leży nad Sekwaną.",
+      "answer": "Prawda",
+      "id": "pf-e5e7b5ef4d4da19f9304"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Budapeszt leży nad Renem.",
+      "answer": "Fałsz",
+      "explanation": "Budapeszt leży nad Dunajem.",
+      "id": "pf-92786c20547bce4c4c88"
+    },
+    {
+      "prompt": "Prawda czy fałsz: W szachach goniec porusza się po skosie.",
+      "answer": "Prawda",
+      "id": "pf-aae73495dc80a9aeefdc"
+    },
+    {
+      "prompt": "Prawda czy fałsz: Mecz piłki nożnej trwa 80 minut (bez doliczonego czasu).",
+      "answer": "Fałsz",
+      "explanation": "2 × 45 minut.",
+      "id": "pf-b47a67c224e70d5ed69e"
     }
   ],
   "League of Legends": [
@@ -22628,6 +29499,262 @@ export const bank = {
         "Język litewski"
       ],
       "id": "jezyki-20261023-070"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„I would like a cup of coffee and a piece of cake, please.”",
+      "answer": "Angielski",
+      "aliases": [
+        "Język angielski"
+      ],
+      "id": "jezyk-29321865fb2e45756478"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„Ich habe heute keine Zeit, aber morgen komme ich gern vorbei.”",
+      "answer": "Niemiecki",
+      "aliases": [
+        "Język niemiecki"
+      ],
+      "id": "jezyk-e55286b2b8c2cb9d8fdb"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„Je voudrais réserver une table pour deux personnes ce soir.”",
+      "answer": "Francuski",
+      "aliases": [
+        "Język francuski"
+      ],
+      "id": "jezyk-e6160f5bc986c46a6eb4"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„Mañana vamos a la playa si hace buen tiempo.”",
+      "answer": "Hiszpański",
+      "aliases": [
+        "Język hiszpański"
+      ],
+      "id": "jezyk-60ea54279cb34f0cb34e"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„Vorrei un caffè e un cornetto, per favore.”",
+      "answer": "Włoski",
+      "aliases": [
+        "Język włoski"
+      ],
+      "id": "jezyk-80ca92df27e4223719b7"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„Obrigado pela ajuda, você foi muito gentil.”",
+      "answer": "Portugalski",
+      "aliases": [
+        "Język portugalski"
+      ],
+      "id": "jezyk-636bdfd6adb82a8d7476"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„Ik woon in een klein huis vlak bij het station.”",
+      "answer": "Niderlandzki",
+      "aliases": [
+        "Język niderlandzki"
+      ],
+      "id": "jezyk-74a8272327347ccd0632"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„Jag tycker om att läsa böcker på kvällen.”",
+      "answer": "Szwedzki",
+      "aliases": [
+        "Język szwedzki"
+      ],
+      "id": "jezyk-9f8c072b2e2264b7034c"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„Jeg liker å gå på tur i fjellet om sommeren.”",
+      "answer": "Norweski",
+      "aliases": [
+        "Język norweski"
+      ],
+      "id": "jezyk-5a6d1ac0026657e48274"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„Jeg kan godt lide at cykle til arbejde hver dag.”",
+      "answer": "Duński",
+      "aliases": [
+        "Język duński"
+      ],
+      "id": "jezyk-47f2a337e4451179cf0b"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„Minä asun Helsingissä ja opiskelen yliopistossa.”",
+      "answer": "Fiński",
+      "aliases": [
+        "Język fiński"
+      ],
+      "id": "jezyk-8e8a9fa4648ed1fba513"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„Köszönöm szépen, nagyon finom volt az ebéd.”",
+      "answer": "Węgierski",
+      "aliases": [
+        "Język węgierski"
+      ],
+      "id": "jezyk-17878d15e037bfb03fbb"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„Dobrý den, kolik stojí lístek do Prahy?”",
+      "answer": "Czeski",
+      "aliases": [
+        "Język czeski"
+      ],
+      "id": "jezyk-1547c5a6ef7bb0b211d5"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„Ďakujem pekne, prídem zajtra ráno.”",
+      "answer": "Słowacki",
+      "aliases": [
+        "Język słowacki"
+      ],
+      "id": "jezyk-6ae05065b935551a9796"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„Дякую, я дуже радий тебе бачити.”",
+      "answer": "Ukraiński",
+      "aliases": [
+        "Język ukraiński"
+      ],
+      "id": "jezyk-0dc1e6fd7966f7a57e50"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„Спасибо, я очень рад тебя видеть.”",
+      "answer": "Rosyjski",
+      "aliases": [
+        "Język rosyjski"
+      ],
+      "id": "jezyk-8c7de82a75e682031705"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„Καλημέρα, πώς είσαι σήμερα;”",
+      "answer": "Grecki",
+      "aliases": [
+        "Język grecki"
+      ],
+      "id": "jezyk-7f97f8a93d7ed8b03934"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„Bugün hava çok güzel, parka gidelim.”",
+      "answer": "Turecki",
+      "aliases": [
+        "Język turecki"
+      ],
+      "id": "jezyk-668603e4f730260e7aa1"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„Labas rytas, kaip sekasi?”",
+      "answer": "Litewski",
+      "aliases": [
+        "Język litewski"
+      ],
+      "id": "jezyk-7b46311b211acc5d6142"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„Labdien, kā jums klājas?”",
+      "answer": "Łotewski",
+      "aliases": [
+        "Język łotewski"
+      ],
+      "id": "jezyk-b4eed5e9069d22e1a94e"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„Bună ziua, unde este gara, vă rog?”",
+      "answer": "Rumuński",
+      "aliases": [
+        "Język rumuński"
+      ],
+      "id": "jezyk-ce2b0d0bf453c73d6e88"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„Dobar dan, gdje je najbliža plaža?”",
+      "answer": "Chorwacki",
+      "aliases": [
+        "Język chorwacki"
+      ],
+      "id": "jezyk-28a248092de7480b942f"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„おはようございます。今日はいい天気ですね。”",
+      "answer": "Japoński",
+      "aliases": [
+        "Język japoński"
+      ],
+      "id": "jezyk-ee62fdb6ebf131484d11"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„你好，今天天气很好。”",
+      "answer": "Chiński",
+      "aliases": [
+        "Język chiński"
+      ],
+      "id": "jezyk-fb1b08ae8093e37eeffe"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„안녕하세요, 만나서 반갑습니다.”",
+      "answer": "Koreański",
+      "aliases": [
+        "Język koreański"
+      ],
+      "id": "jezyk-0ec5bdcbfa226fb080f0"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„مرحبا، كيف حالك اليوم؟”",
+      "answer": "Arabski",
+      "aliases": [
+        "Język arabski"
+      ],
+      "id": "jezyk-82716cd68fd4518da439"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„שלום, מה שלומך היום?”",
+      "answer": "Hebrajski",
+      "aliases": [
+        "Język hebrajski"
+      ],
+      "id": "jezyk-9de2ae0b22eee2663fa1"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„नमस्ते, आप कैसे हैं?”",
+      "answer": "Hindi",
+      "aliases": [
+        "Język hindi"
+      ],
+      "id": "jezyk-d5fabdc050cba7182f86"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„Xin chào, hôm nay bạn có khỏe không?”",
+      "answer": "Wietnamski",
+      "aliases": [
+        "Język wietnamski"
+      ],
+      "id": "jezyk-0caafcc7839c408be8ff"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„Góðan daginn, hvernig hefur þú það?”",
+      "answer": "Islandzki",
+      "aliases": [
+        "Język islandzki"
+      ],
+      "id": "jezyk-600e311557b042ed8f35"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„Tere hommikust, kuidas läheb?”",
+      "answer": "Estoński",
+      "aliases": [
+        "Język estoński"
+      ],
+      "id": "jezyk-6fe4c563f3ae24d03b7c"
+    },
+    {
+      "prompt": "W jakim języku napisano ten tekst?\n\n„Bon dia, com estàs avui?”",
+      "answer": "Kataloński",
+      "aliases": [
+        "Język kataloński"
+      ],
+      "id": "jezyk-bf01f3e661b700f4f9bd"
     }
   ],
   "Znaki drogowe": [
@@ -24065,6 +31192,816 @@ export const bank = {
       ],
       "explanation": "A: 27; B: 32.",
       "id": "v20-683c504e2ac5dc5d07cd"
+    },
+    {
+      "prompt": "Wyższa góra\nA: Denali\nB: Gerlach",
+      "answer": "A",
+      "aliases": [
+        "Denali"
+      ],
+      "explanation": "A: 6190 m n.p.m.; B: 2655 m n.p.m.",
+      "id": "wiecej-f0aa51461c2943f19574"
+    },
+    {
+      "prompt": "Większa średnica\nA: Wenus\nB: Saturn",
+      "answer": "B",
+      "aliases": [
+        "Saturn"
+      ],
+      "explanation": "A: 12 104 km; B: 116 460 km.",
+      "id": "wiecej-5ca353a608534f23285c"
+    },
+    {
+      "prompt": "Większa powierzchnia kraju\nA: Kanada\nB: Ukraina",
+      "answer": "A",
+      "aliases": [
+        "Kanada"
+      ],
+      "explanation": "A: 9985 tys. km²; B: 604 tys. km².",
+      "id": "wiecej-e57de2ac40feff3c4624"
+    },
+    {
+      "prompt": "Większa średnica\nA: Księżyc\nB: Merkury",
+      "answer": "B",
+      "aliases": [
+        "Merkury"
+      ],
+      "explanation": "A: 3474 km; B: 4879 km.",
+      "id": "wiecej-dc86117bc2d130553bff"
+    },
+    {
+      "prompt": "Większa masa dorosłego osobnika\nA: Niedźwiedź brunatny\nB: Krowa",
+      "answer": "B",
+      "aliases": [
+        "Krowa"
+      ],
+      "explanation": "A: 300 kg (typowo); B: 700 kg (typowo).",
+      "id": "wiecej-487a29a8e3c56b7a9539"
+    },
+    {
+      "prompt": "Większa prędkość maksymalna\nA: Gepard\nB: Człowiek (Usain Bolt)",
+      "answer": "A",
+      "aliases": [
+        "Gepard"
+      ],
+      "explanation": "A: 110 km/h (w przybliżeniu); B: 44 km/h (w przybliżeniu).",
+      "id": "wiecej-3ab7d0498673e62012f8"
+    },
+    {
+      "prompt": "Większa liczba\nA: Zęby stałe człowieka\nB: Pola szachownicy",
+      "answer": "B",
+      "aliases": [
+        "Pola szachownicy"
+      ],
+      "explanation": "A: 32; B: 64.",
+      "id": "wiecej-9dd2706bce8b49d6f679"
+    },
+    {
+      "prompt": "Większa liczba\nA: Klawisze fortepianu\nB: Dorosły człowiek – kości",
+      "answer": "B",
+      "aliases": [
+        "Dorosły człowiek – kości"
+      ],
+      "explanation": "A: 88; B: 206.",
+      "id": "wiecej-889956a24e52f3e248f1"
+    },
+    {
+      "prompt": "Dłuższa rzeka\nA: Missisipi\nB: Nil",
+      "answer": "B",
+      "aliases": [
+        "Nil"
+      ],
+      "explanation": "A: 3730 km; B: 6650 km.",
+      "id": "wiecej-5ebc43ccd3c7a437e478"
+    },
+    {
+      "prompt": "Większa liczba\nA: Talia kart do brydża\nB: Dni w roku",
+      "answer": "B",
+      "aliases": [
+        "Dni w roku"
+      ],
+      "explanation": "A: 52; B: 365.",
+      "id": "wiecej-e19ba01aac53118f40dd"
+    },
+    {
+      "prompt": "Większa prędkość maksymalna\nA: Sokół wędrowny w locie nurkowym\nB: Ślimak",
+      "answer": "A",
+      "aliases": [
+        "Sokół wędrowny w locie nurkowym"
+      ],
+      "explanation": "A: 320 km/h (w przybliżeniu); B: 0,05 km/h (w przybliżeniu).",
+      "id": "wiecej-a289939a6232553f8bbb"
+    },
+    {
+      "prompt": "Większa masa dorosłego osobnika\nA: Krowa\nB: Koń",
+      "answer": "A",
+      "aliases": [
+        "Krowa"
+      ],
+      "explanation": "A: 700 kg (typowo); B: 500 kg (typowo).",
+      "id": "wiecej-743e07d7fba830479f2c"
+    },
+    {
+      "prompt": "Dłuższa rzeka\nA: Missisipi\nB: Odra",
+      "answer": "A",
+      "aliases": [
+        "Missisipi"
+      ],
+      "explanation": "A: 3730 km; B: 854 km.",
+      "id": "wiecej-e6e32042de27f678de59"
+    },
+    {
+      "prompt": "Większa liczba\nA: Pola szachownicy\nB: Klawisze fortepianu",
+      "answer": "B",
+      "aliases": [
+        "Klawisze fortepianu"
+      ],
+      "explanation": "A: 64; B: 88.",
+      "id": "wiecej-3d1484c46d1e20f0ba6e"
+    },
+    {
+      "prompt": "Dłuższa rzeka\nA: Warta\nB: Ren",
+      "answer": "B",
+      "aliases": [
+        "Ren"
+      ],
+      "explanation": "A: 808 km; B: 1233 km.",
+      "id": "wiecej-3305fc486fa0b6ec610e"
+    },
+    {
+      "prompt": "Większa liczba\nA: Klawisze fortepianu\nB: Talia kart do brydża",
+      "answer": "A",
+      "aliases": [
+        "Klawisze fortepianu"
+      ],
+      "explanation": "A: 88; B: 52.",
+      "id": "wiecej-6872734b4f191ce75f4c"
+    },
+    {
+      "prompt": "Większa liczba\nA: Talia kart do brydża\nB: Dorosły człowiek – kości",
+      "answer": "B",
+      "aliases": [
+        "Dorosły człowiek – kości"
+      ],
+      "explanation": "A: 52; B: 206.",
+      "id": "wiecej-bf244832b8936bd52753"
+    },
+    {
+      "prompt": "Większa liczba\nA: Zęby stałe człowieka\nB: Klawisze fortepianu",
+      "answer": "B",
+      "aliases": [
+        "Klawisze fortepianu"
+      ],
+      "explanation": "A: 32; B: 88.",
+      "id": "wiecej-c684f294fd4f36bba61e"
+    },
+    {
+      "prompt": "Wyższa góra\nA: Śnieżka\nB: Denali",
+      "answer": "B",
+      "aliases": [
+        "Denali"
+      ],
+      "explanation": "A: 1603 m n.p.m.; B: 6190 m n.p.m.",
+      "id": "wiecej-b6f087d75a6641e56293"
+    },
+    {
+      "prompt": "Większa powierzchnia kraju\nA: Japonia\nB: Argentyna",
+      "answer": "B",
+      "aliases": [
+        "Argentyna"
+      ],
+      "explanation": "A: 378 tys. km²; B: 2780 tys. km².",
+      "id": "wiecej-15e61bccd320c5286b65"
+    },
+    {
+      "prompt": "Wyższa budowla\nA: Krzywa Wieża w Pizie\nB: Shanghai Tower",
+      "answer": "B",
+      "aliases": [
+        "Shanghai Tower"
+      ],
+      "explanation": "A: 56 m; B: 632 m.",
+      "id": "wiecej-e6758847a0aa1341a864"
+    },
+    {
+      "prompt": "Dłuższa rzeka\nA: Wisła\nB: Wołga",
+      "answer": "B",
+      "aliases": [
+        "Wołga"
+      ],
+      "explanation": "A: 1047 km; B: 3530 km.",
+      "id": "wiecej-dca0aa656dfd6534dbd7"
+    },
+    {
+      "prompt": "Większa prędkość maksymalna\nA: Sokół wędrowny w locie nurkowym\nB: Gepard",
+      "answer": "A",
+      "aliases": [
+        "Sokół wędrowny w locie nurkowym"
+      ],
+      "explanation": "A: 320 km/h (w przybliżeniu); B: 110 km/h (w przybliżeniu).",
+      "id": "wiecej-c65e806c6b4012ff892b"
+    },
+    {
+      "prompt": "Większa powierzchnia kraju\nA: Brazylia\nB: Francja",
+      "answer": "A",
+      "aliases": [
+        "Brazylia"
+      ],
+      "explanation": "A: 8516 tys. km²; B: 552 tys. km².",
+      "id": "wiecej-f11b0f8316add1a28a8b"
+    },
+    {
+      "prompt": "Większa powierzchnia kraju\nA: Australia\nB: Ukraina",
+      "answer": "A",
+      "aliases": [
+        "Australia"
+      ],
+      "explanation": "A: 7692 tys. km²; B: 604 tys. km².",
+      "id": "wiecej-346e252d0b76ef814d23"
+    },
+    {
+      "prompt": "Większa prędkość maksymalna\nA: Ślimak\nB: Słoń",
+      "answer": "B",
+      "aliases": [
+        "Słoń"
+      ],
+      "explanation": "A: 0,05 km/h (w przybliżeniu); B: 40 km/h (w przybliżeniu).",
+      "id": "wiecej-8a2a4a0e3fcbb92d1579"
+    },
+    {
+      "prompt": "Większa prędkość maksymalna\nA: Ślimak\nB: Gepard",
+      "answer": "B",
+      "aliases": [
+        "Gepard"
+      ],
+      "explanation": "A: 0,05 km/h (w przybliżeniu); B: 110 km/h (w przybliżeniu).",
+      "id": "wiecej-cdf7a4c6288984efa89c"
+    },
+    {
+      "prompt": "Większa średnica\nA: Księżyc\nB: Wenus",
+      "answer": "B",
+      "aliases": [
+        "Wenus"
+      ],
+      "explanation": "A: 3474 km; B: 12 104 km.",
+      "id": "wiecej-ee441733cdf06c6b8553"
+    },
+    {
+      "prompt": "Większa średnica\nA: Księżyc\nB: Saturn",
+      "answer": "B",
+      "aliases": [
+        "Saturn"
+      ],
+      "explanation": "A: 3474 km; B: 116 460 km.",
+      "id": "wiecej-56678484e0470390ab07"
+    },
+    {
+      "prompt": "Wyższa budowla\nA: Statua Wolności (z cokołem)\nB: Wieża Eiffla",
+      "answer": "B",
+      "aliases": [
+        "Wieża Eiffla"
+      ],
+      "explanation": "A: 93 m; B: 330 m.",
+      "id": "wiecej-a881ca1dfcbd655c2f15"
+    },
+    {
+      "prompt": "Większa masa dorosłego osobnika\nA: Płetwal błękitny\nB: Słoń afrykański",
+      "answer": "A",
+      "aliases": [
+        "Płetwal błękitny"
+      ],
+      "explanation": "A: 150 000 kg (typowo); B: 6000 kg (typowo).",
+      "id": "wiecej-8764cc349790bce39a98"
+    },
+    {
+      "prompt": "Wyższa góra\nA: Śnieżka\nB: Gerlach",
+      "answer": "B",
+      "aliases": [
+        "Gerlach"
+      ],
+      "explanation": "A: 1603 m n.p.m.; B: 2655 m n.p.m.",
+      "id": "wiecej-13f0339fa0aa8f05a2d6"
+    },
+    {
+      "prompt": "Większa prędkość maksymalna\nA: Gepard\nB: Kot domowy",
+      "answer": "A",
+      "aliases": [
+        "Gepard"
+      ],
+      "explanation": "A: 110 km/h (w przybliżeniu); B: 48 km/h (w przybliżeniu).",
+      "id": "wiecej-568ee3e6270f4e64cb2b"
+    },
+    {
+      "prompt": "Dłuższa rzeka\nA: Nil\nB: Dunaj",
+      "answer": "A",
+      "aliases": [
+        "Nil"
+      ],
+      "explanation": "A: 6650 km; B: 2850 km.",
+      "id": "wiecej-86235cd0add9c06a42f8"
+    },
+    {
+      "prompt": "Większa średnica\nA: Ziemia\nB: Uran",
+      "answer": "B",
+      "aliases": [
+        "Uran"
+      ],
+      "explanation": "A: 12 742 km; B: 50 724 km.",
+      "id": "wiecej-1a447511c390f52e5deb"
+    },
+    {
+      "prompt": "Większa liczba\nA: Dorosły człowiek – kości\nB: Dni w roku",
+      "answer": "B",
+      "aliases": [
+        "Dni w roku"
+      ],
+      "explanation": "A: 206; B: 365.",
+      "id": "wiecej-7503b524c1aaa65cb90a"
+    },
+    {
+      "prompt": "Większa powierzchnia kraju\nA: Indie\nB: Rosja",
+      "answer": "B",
+      "aliases": [
+        "Rosja"
+      ],
+      "explanation": "A: 3287 tys. km²; B: 17 098 tys. km².",
+      "id": "wiecej-04a3d5a35481a6bf8434"
+    },
+    {
+      "prompt": "Większa liczba\nA: Dni w roku\nB: Pola szachownicy",
+      "answer": "A",
+      "aliases": [
+        "Dni w roku"
+      ],
+      "explanation": "A: 365; B: 64.",
+      "id": "wiecej-5d459dec6ff8e54c01f0"
+    },
+    {
+      "prompt": "Wyższa budowla\nA: Statua Wolności (z cokołem)\nB: Shanghai Tower",
+      "answer": "B",
+      "aliases": [
+        "Shanghai Tower"
+      ],
+      "explanation": "A: 93 m; B: 632 m.",
+      "id": "wiecej-a07a6d55c6d2faceaeb8"
+    },
+    {
+      "prompt": "Większa prędkość maksymalna\nA: Sokół wędrowny w locie nurkowym\nB: Kot domowy",
+      "answer": "A",
+      "aliases": [
+        "Sokół wędrowny w locie nurkowym"
+      ],
+      "explanation": "A: 320 km/h (w przybliżeniu); B: 48 km/h (w przybliżeniu).",
+      "id": "wiecej-415afcb6b9cc4735091c"
+    },
+    {
+      "prompt": "Wyższa góra\nA: Kilimandżaro\nB: Mount Everest",
+      "answer": "B",
+      "aliases": [
+        "Mount Everest"
+      ],
+      "explanation": "A: 5895 m n.p.m.; B: 8849 m n.p.m.",
+      "id": "wiecej-1392331221efdecd3eea"
+    },
+    {
+      "prompt": "Większa powierzchnia kraju\nA: Australia\nB: Czechy",
+      "answer": "A",
+      "aliases": [
+        "Australia"
+      ],
+      "explanation": "A: 7692 tys. km²; B: 79 tys. km².",
+      "id": "wiecej-5d8f84baac7a1018b4ef"
+    },
+    {
+      "prompt": "Wyższa budowla\nA: Shanghai Tower\nB: Big Ben (wieża Elżbiety)",
+      "answer": "A",
+      "aliases": [
+        "Shanghai Tower"
+      ],
+      "explanation": "A: 632 m; B: 96 m.",
+      "id": "wiecej-96e8aef56bd047d491e6"
+    },
+    {
+      "prompt": "Większa prędkość maksymalna\nA: Struś\nB: Ślimak",
+      "answer": "A",
+      "aliases": [
+        "Struś"
+      ],
+      "explanation": "A: 70 km/h (w przybliżeniu); B: 0,05 km/h (w przybliżeniu).",
+      "id": "wiecej-429ff19eb95921bb29d6"
+    },
+    {
+      "prompt": "Większa masa dorosłego osobnika\nA: Wilk\nB: Koń",
+      "answer": "B",
+      "aliases": [
+        "Koń"
+      ],
+      "explanation": "A: 40 kg (typowo); B: 500 kg (typowo).",
+      "id": "wiecej-64b13ea2f78356c7e75d"
+    },
+    {
+      "prompt": "Dłuższa rzeka\nA: Bug\nB: Missisipi",
+      "answer": "B",
+      "aliases": [
+        "Missisipi"
+      ],
+      "explanation": "A: 772 km; B: 3730 km.",
+      "id": "wiecej-0dea259f32e3bdf67392"
+    },
+    {
+      "prompt": "Większa powierzchnia kraju\nA: Polska\nB: Kanada",
+      "answer": "B",
+      "aliases": [
+        "Kanada"
+      ],
+      "explanation": "A: 313 tys. km²; B: 9985 tys. km².",
+      "id": "wiecej-8c23530f2c3b22e60779"
+    },
+    {
+      "prompt": "Dłuższa rzeka\nA: Wołga\nB: Nil",
+      "answer": "B",
+      "aliases": [
+        "Nil"
+      ],
+      "explanation": "A: 3530 km; B: 6650 km.",
+      "id": "wiecej-6349556fc75dc61eeb36"
+    },
+    {
+      "prompt": "Dłuższa rzeka\nA: Bug\nB: Dunaj",
+      "answer": "B",
+      "aliases": [
+        "Dunaj"
+      ],
+      "explanation": "A: 772 km; B: 2850 km.",
+      "id": "wiecej-342edcabf47226bb9717"
+    },
+    {
+      "prompt": "Większa średnica\nA: Uran\nB: Saturn",
+      "answer": "B",
+      "aliases": [
+        "Saturn"
+      ],
+      "explanation": "A: 50 724 km; B: 116 460 km.",
+      "id": "wiecej-fe8258b4fcf4f3152f37"
+    },
+    {
+      "prompt": "Większa masa dorosłego osobnika\nA: Koń\nB: Szympans",
+      "answer": "A",
+      "aliases": [
+        "Koń"
+      ],
+      "explanation": "A: 500 kg (typowo); B: 50 kg (typowo).",
+      "id": "wiecej-ff7f0291329d39e52687"
+    },
+    {
+      "prompt": "Większa prędkość maksymalna\nA: Struś\nB: Człowiek (Usain Bolt)",
+      "answer": "A",
+      "aliases": [
+        "Struś"
+      ],
+      "explanation": "A: 70 km/h (w przybliżeniu); B: 44 km/h (w przybliżeniu).",
+      "id": "wiecej-56bf9ed7e71e3594f842"
+    },
+    {
+      "prompt": "Dłuższa rzeka\nA: Dunaj\nB: Wisła",
+      "answer": "A",
+      "aliases": [
+        "Dunaj"
+      ],
+      "explanation": "A: 2850 km; B: 1047 km.",
+      "id": "wiecej-2548b84c6f8ccf40df42"
+    },
+    {
+      "prompt": "Większa masa dorosłego osobnika\nA: Koń\nB: Żyrafa",
+      "answer": "B",
+      "aliases": [
+        "Żyrafa"
+      ],
+      "explanation": "A: 500 kg (typowo); B: 1200 kg (typowo).",
+      "id": "wiecej-c6f3b5f9e3a6d2e9e0ff"
+    },
+    {
+      "prompt": "Większa powierzchnia kraju\nA: Hiszpania\nB: Kanada",
+      "answer": "B",
+      "aliases": [
+        "Kanada"
+      ],
+      "explanation": "A: 506 tys. km²; B: 9985 tys. km².",
+      "id": "wiecej-257fb07f59d8cabe3b26"
+    },
+    {
+      "prompt": "Większa średnica\nA: Mars\nB: Księżyc",
+      "answer": "A",
+      "aliases": [
+        "Mars"
+      ],
+      "explanation": "A: 6779 km; B: 3474 km.",
+      "id": "wiecej-e802beff2074d822fc7c"
+    },
+    {
+      "prompt": "Wyższa góra\nA: K2\nB: Śnieżka",
+      "answer": "A",
+      "aliases": [
+        "K2"
+      ],
+      "explanation": "A: 8611 m n.p.m.; B: 1603 m n.p.m.",
+      "id": "wiecej-85ffeab4b708ad628407"
+    },
+    {
+      "prompt": "Większa powierzchnia kraju\nA: Egipt\nB: Australia",
+      "answer": "B",
+      "aliases": [
+        "Australia"
+      ],
+      "explanation": "A: 1010 tys. km²; B: 7692 tys. km².",
+      "id": "wiecej-74e7ec5518046b437e46"
+    },
+    {
+      "prompt": "Wyższa budowla\nA: Burdż Chalifa\nB: Pałac Kultury i Nauki",
+      "answer": "A",
+      "aliases": [
+        "Burdż Chalifa"
+      ],
+      "explanation": "A: 828 m; B: 237 m.",
+      "id": "wiecej-fe466cc16db5ee898c19"
+    },
+    {
+      "prompt": "Większa średnica\nA: Merkury\nB: Jowisz",
+      "answer": "B",
+      "aliases": [
+        "Jowisz"
+      ],
+      "explanation": "A: 4879 km; B: 139 820 km.",
+      "id": "wiecej-0cb7caa359e6afb66f1c"
+    },
+    {
+      "prompt": "Wyższa budowla\nA: Wieża Eiffla\nB: Pałac Kultury i Nauki",
+      "answer": "A",
+      "aliases": [
+        "Wieża Eiffla"
+      ],
+      "explanation": "A: 330 m; B: 237 m.",
+      "id": "wiecej-06e0f924ccfa4ee56cfc"
+    },
+    {
+      "prompt": "Wyższa góra\nA: Matterhorn\nB: Rysy",
+      "answer": "A",
+      "aliases": [
+        "Matterhorn"
+      ],
+      "explanation": "A: 4478 m n.p.m.; B: 2499 m n.p.m.",
+      "id": "wiecej-a11c9fc431d9fbfaf200"
+    },
+    {
+      "prompt": "Większa liczba\nA: Zęby stałe człowieka\nB: Dorosły człowiek – kości",
+      "answer": "B",
+      "aliases": [
+        "Dorosły człowiek – kości"
+      ],
+      "explanation": "A: 32; B: 206.",
+      "id": "wiecej-ba8ec52edf50474bff5a"
+    },
+    {
+      "prompt": "Większa liczba\nA: Dni w roku\nB: Klawisze fortepianu",
+      "answer": "A",
+      "aliases": [
+        "Dni w roku"
+      ],
+      "explanation": "A: 365; B: 88.",
+      "id": "wiecej-fa7070ae340a3249eded"
+    },
+    {
+      "prompt": "Większa masa dorosłego osobnika\nA: Struś\nB: Wilk",
+      "answer": "A",
+      "aliases": [
+        "Struś"
+      ],
+      "explanation": "A: 110 kg (typowo); B: 40 kg (typowo).",
+      "id": "wiecej-e79b2e9c8a2042cc34b1"
+    },
+    {
+      "prompt": "Dłuższa rzeka\nA: Ren\nB: Wołga",
+      "answer": "B",
+      "aliases": [
+        "Wołga"
+      ],
+      "explanation": "A: 1233 km; B: 3530 km.",
+      "id": "wiecej-048ebc74c42962233a51"
+    },
+    {
+      "prompt": "Większa masa dorosłego osobnika\nA: Płetwal błękitny\nB: Lew",
+      "answer": "A",
+      "aliases": [
+        "Płetwal błękitny"
+      ],
+      "explanation": "A: 150 000 kg (typowo); B: 190 kg (typowo).",
+      "id": "wiecej-39322ca705b9f65115bb"
+    },
+    {
+      "prompt": "Wyższa góra\nA: Elbrus\nB: Gerlach",
+      "answer": "A",
+      "aliases": [
+        "Elbrus"
+      ],
+      "explanation": "A: 5642 m n.p.m.; B: 2655 m n.p.m.",
+      "id": "wiecej-5c21f637cfac081d0686"
+    },
+    {
+      "prompt": "Większa masa dorosłego osobnika\nA: Struś\nB: Niedźwiedź brunatny",
+      "answer": "B",
+      "aliases": [
+        "Niedźwiedź brunatny"
+      ],
+      "explanation": "A: 110 kg (typowo); B: 300 kg (typowo).",
+      "id": "wiecej-ccacaa652e78a2fcb8b9"
+    },
+    {
+      "prompt": "Większa masa dorosłego osobnika\nA: Krowa\nB: Słoń afrykański",
+      "answer": "B",
+      "aliases": [
+        "Słoń afrykański"
+      ],
+      "explanation": "A: 700 kg (typowo); B: 6000 kg (typowo).",
+      "id": "wiecej-69421b1f44f0976b9733"
+    },
+    {
+      "prompt": "Większa prędkość maksymalna\nA: Struś\nB: Gepard",
+      "answer": "B",
+      "aliases": [
+        "Gepard"
+      ],
+      "explanation": "A: 70 km/h (w przybliżeniu); B: 110 km/h (w przybliżeniu).",
+      "id": "wiecej-36b341d572fc0d1e69c7"
+    },
+    {
+      "prompt": "Wyższa budowla\nA: Burdż Chalifa\nB: Krzywa Wieża w Pizie",
+      "answer": "A",
+      "aliases": [
+        "Burdż Chalifa"
+      ],
+      "explanation": "A: 828 m; B: 56 m.",
+      "id": "wiecej-c2e18a2f62a7b89d0a2d"
+    },
+    {
+      "prompt": "Większa masa dorosłego osobnika\nA: Niedźwiedź brunatny\nB: Pingwin cesarski",
+      "answer": "A",
+      "aliases": [
+        "Niedźwiedź brunatny"
+      ],
+      "explanation": "A: 300 kg (typowo); B: 30 kg (typowo).",
+      "id": "wiecej-90da249dbbb58d3ac812"
+    },
+    {
+      "prompt": "Większa masa dorosłego osobnika\nA: Słoń afrykański\nB: Szympans",
+      "answer": "A",
+      "aliases": [
+        "Słoń afrykański"
+      ],
+      "explanation": "A: 6000 kg (typowo); B: 50 kg (typowo).",
+      "id": "wiecej-48c5bbebeb8817a2721d"
+    },
+    {
+      "prompt": "Dłuższa rzeka\nA: Nil\nB: Sekwana",
+      "answer": "A",
+      "aliases": [
+        "Nil"
+      ],
+      "explanation": "A: 6650 km; B: 777 km.",
+      "id": "wiecej-07bb1796ef8e7a300af6"
+    },
+    {
+      "prompt": "Większa średnica\nA: Mars\nB: Wenus",
+      "answer": "B",
+      "aliases": [
+        "Wenus"
+      ],
+      "explanation": "A: 6779 km; B: 12 104 km.",
+      "id": "wiecej-731010d8a4a53c11d90e"
+    },
+    {
+      "prompt": "Większa prędkość maksymalna\nA: Gepard\nB: Słoń",
+      "answer": "A",
+      "aliases": [
+        "Gepard"
+      ],
+      "explanation": "A: 110 km/h (w przybliżeniu); B: 40 km/h (w przybliżeniu).",
+      "id": "wiecej-56bfd6bdd9db02dbe221"
+    },
+    {
+      "prompt": "Większa średnica\nA: Uran\nB: Wenus",
+      "answer": "A",
+      "aliases": [
+        "Uran"
+      ],
+      "explanation": "A: 50 724 km; B: 12 104 km.",
+      "id": "wiecej-12cdec562c5bf6e38261"
+    },
+    {
+      "prompt": "Wyższa budowla\nA: Wieża Eiffla\nB: Big Ben (wieża Elżbiety)",
+      "answer": "A",
+      "aliases": [
+        "Wieża Eiffla"
+      ],
+      "explanation": "A: 330 m; B: 96 m.",
+      "id": "wiecej-103e4aa0f954f5d250d6"
+    },
+    {
+      "prompt": "Większa prędkość maksymalna\nA: Kot domowy\nB: Żółw lądowy",
+      "answer": "A",
+      "aliases": [
+        "Kot domowy"
+      ],
+      "explanation": "A: 48 km/h (w przybliżeniu); B: 0,3 km/h (w przybliżeniu).",
+      "id": "wiecej-3afe5196e506633ac2d5"
+    },
+    {
+      "prompt": "Większa prędkość maksymalna\nA: Gepard\nB: Żółw lądowy",
+      "answer": "A",
+      "aliases": [
+        "Gepard"
+      ],
+      "explanation": "A: 110 km/h (w przybliżeniu); B: 0,3 km/h (w przybliżeniu).",
+      "id": "wiecej-f0548dc98a8976e7ace7"
+    },
+    {
+      "prompt": "Większa powierzchnia kraju\nA: Egipt\nB: Hiszpania",
+      "answer": "A",
+      "aliases": [
+        "Egipt"
+      ],
+      "explanation": "A: 1010 tys. km²; B: 506 tys. km².",
+      "id": "wiecej-bf0de4a6436611f5338d"
+    },
+    {
+      "prompt": "Większa powierzchnia kraju\nA: Hiszpania\nB: Polska",
+      "answer": "A",
+      "aliases": [
+        "Hiszpania"
+      ],
+      "explanation": "A: 506 tys. km²; B: 313 tys. km².",
+      "id": "wiecej-9441fafd341185a838b5"
+    },
+    {
+      "prompt": "Większa powierzchnia kraju\nA: Egipt\nB: Polska",
+      "answer": "A",
+      "aliases": [
+        "Egipt"
+      ],
+      "explanation": "A: 1010 tys. km²; B: 313 tys. km².",
+      "id": "wiecej-282e5e918ba15ad3f524"
+    },
+    {
+      "prompt": "Większa liczba\nA: Dorosły człowiek – kości\nB: Pola szachownicy",
+      "answer": "A",
+      "aliases": [
+        "Dorosły człowiek – kości"
+      ],
+      "explanation": "A: 206; B: 64.",
+      "id": "wiecej-4734e956e9455195bda9"
+    },
+    {
+      "prompt": "Dłuższa rzeka\nA: Wisła\nB: Nil",
+      "answer": "B",
+      "aliases": [
+        "Nil"
+      ],
+      "explanation": "A: 1047 km; B: 6650 km.",
+      "id": "wiecej-0671c32f2bf75315e084"
+    },
+    {
+      "prompt": "Dłuższa rzeka\nA: Ren\nB: Bug",
+      "answer": "A",
+      "aliases": [
+        "Ren"
+      ],
+      "explanation": "A: 1233 km; B: 772 km.",
+      "id": "wiecej-2749db31f52dbbc86c42"
+    },
+    {
+      "prompt": "Większa powierzchnia kraju\nA: Rosja\nB: Francja",
+      "answer": "A",
+      "aliases": [
+        "Rosja"
+      ],
+      "explanation": "A: 17 098 tys. km²; B: 552 tys. km².",
+      "id": "wiecej-6a8d29de11ab29c3ccb4"
+    },
+    {
+      "prompt": "Dłuższa rzeka\nA: Missisipi\nB: Dunaj",
+      "answer": "A",
+      "aliases": [
+        "Missisipi"
+      ],
+      "explanation": "A: 3730 km; B: 2850 km.",
+      "id": "wiecej-1eefc3b40823bc67698c"
+    },
+    {
+      "prompt": "Większa średnica\nA: Jowisz\nB: Mars",
+      "answer": "A",
+      "aliases": [
+        "Jowisz"
+      ],
+      "explanation": "A: 139 820 km; B: 6779 km.",
+      "id": "wiecej-061af806ef29edd6ed4c"
     }
   ],
   "Co było wcześniej?": [
@@ -24734,6 +32671,816 @@ export const bank = {
       ],
       "explanation": "A: 2005; B: 1997.",
       "id": "v20-dd2fcb56a9823e71d199"
+    },
+    {
+      "prompt": "A: Utworzenie Księstwa Warszawskiego\nB: Unia lubelska",
+      "answer": "B",
+      "aliases": [
+        "Unia lubelska"
+      ],
+      "explanation": "A: 1807; B: 1569.",
+      "id": "wczesniej-2fef450bab6c7ef1bab8"
+    },
+    {
+      "prompt": "A: Wydanie dzieła Kopernika „O obrotach sfer niebieskich”\nB: Wprowadzenie stanu wojennego w Polsce",
+      "answer": "A",
+      "aliases": [
+        "Wydanie dzieła Kopernika „O obrotach sfer niebieskich”"
+      ],
+      "explanation": "A: 1543; B: 1981.",
+      "id": "wczesniej-64606eb4a5d86eea1352"
+    },
+    {
+      "prompt": "A: Odkrycie penicyliny\nB: Premiera filmu „Król Lew”",
+      "answer": "A",
+      "aliases": [
+        "Odkrycie penicyliny"
+      ],
+      "explanation": "A: 1928; B: 1994.",
+      "id": "wczesniej-4009a796c0c49f4c96d8"
+    },
+    {
+      "prompt": "A: Odkrycie struktury DNA\nB: Wprowadzenie banknotów i monet euro",
+      "answer": "A",
+      "aliases": [
+        "Odkrycie struktury DNA"
+      ],
+      "explanation": "A: 1953; B: 2002.",
+      "id": "wczesniej-5fcc070bb4368cf4100a"
+    },
+    {
+      "prompt": "A: Założenie Apple\nB: Rozpad ZSRR",
+      "answer": "A",
+      "aliases": [
+        "Założenie Apple"
+      ],
+      "explanation": "A: 1976; B: 1991.",
+      "id": "wczesniej-597d05b3cd593e665ada"
+    },
+    {
+      "prompt": "A: Bitwa Warszawska\nB: Pierwszy finał WOŚP",
+      "answer": "A",
+      "aliases": [
+        "Bitwa Warszawska"
+      ],
+      "explanation": "A: 1920; B: 1993.",
+      "id": "wczesniej-0d92d093bcef098a4e7b"
+    },
+    {
+      "prompt": "A: Premiera gry „Wiedźmin 3: Dziki Gon”\nB: Pierwszy rozbiór Polski",
+      "answer": "B",
+      "aliases": [
+        "Pierwszy rozbiór Polski"
+      ],
+      "explanation": "A: 2015; B: 1772.",
+      "id": "wczesniej-37b853c505a0a62810c6"
+    },
+    {
+      "prompt": "A: Premiera pełnej wersji Minecrafta\nB: Wybuch I wojny światowej",
+      "answer": "B",
+      "aliases": [
+        "Wybuch I wojny światowej"
+      ],
+      "explanation": "A: 2011; B: 1914.",
+      "id": "wczesniej-786876034d445c61305c"
+    },
+    {
+      "prompt": "A: Wybuch II wojny światowej\nB: Unia lubelska",
+      "answer": "B",
+      "aliases": [
+        "Unia lubelska"
+      ],
+      "explanation": "A: 1939; B: 1569.",
+      "id": "wczesniej-02d41edee5f8d33f6ea4"
+    },
+    {
+      "prompt": "A: Pierwsze wydanie „Pana Tadeusza”\nB: Pierwsze nowożytne igrzyska olimpijskie",
+      "answer": "A",
+      "aliases": [
+        "Pierwsze wydanie „Pana Tadeusza”"
+      ],
+      "explanation": "A: 1834; B: 1896.",
+      "id": "wczesniej-6e5ae59ad2358394326d"
+    },
+    {
+      "prompt": "A: Upadek Konstantynopola\nB: Urodziny Fryderyka Chopina",
+      "answer": "A",
+      "aliases": [
+        "Upadek Konstantynopola"
+      ],
+      "explanation": "A: 1453; B: 1810.",
+      "id": "wczesniej-1f981a49d227f78cc257"
+    },
+    {
+      "prompt": "A: Urodziny Fryderyka Chopina\nB: Wejście Polski do Unii Europejskiej",
+      "answer": "A",
+      "aliases": [
+        "Urodziny Fryderyka Chopina"
+      ],
+      "explanation": "A: 1810; B: 2004.",
+      "id": "wczesniej-14f692481a5347172547"
+    },
+    {
+      "prompt": "A: Premiera filmu „Titanic”\nB: Bitwa pod Cedynią",
+      "answer": "B",
+      "aliases": [
+        "Bitwa pod Cedynią"
+      ],
+      "explanation": "A: 1997; B: 972.",
+      "id": "wczesniej-016bfc2c63942f459aae"
+    },
+    {
+      "prompt": "A: Bitwa Warszawska\nB: Upadek muru berlińskiego",
+      "answer": "A",
+      "aliases": [
+        "Bitwa Warszawska"
+      ],
+      "explanation": "A: 1920; B: 1989.",
+      "id": "wczesniej-4e5cd83cbe9698c673ea"
+    },
+    {
+      "prompt": "A: Lot Jurija Gagarina w kosmos\nB: Rozpad ZSRR",
+      "answer": "A",
+      "aliases": [
+        "Lot Jurija Gagarina w kosmos"
+      ],
+      "explanation": "A: 1961; B: 1991.",
+      "id": "wczesniej-9fd24cbd9738765c3615"
+    },
+    {
+      "prompt": "A: Nagroda Nobla z fizyki dla Marii Skłodowskiej-Curie\nB: Pierwszy rozbiór Polski",
+      "answer": "B",
+      "aliases": [
+        "Pierwszy rozbiór Polski"
+      ],
+      "explanation": "A: 1903; B: 1772.",
+      "id": "wczesniej-c29ff41fbe0c5a39e729"
+    },
+    {
+      "prompt": "A: Wydanie Wielkiej Karty Swobód (Magna Carta)\nB: Wybór Karola Wojtyły na papieża",
+      "answer": "A",
+      "aliases": [
+        "Wydanie Wielkiej Karty Swobód (Magna Carta)"
+      ],
+      "explanation": "A: 1215; B: 1978.",
+      "id": "wczesniej-18042c92f23d2a0d9b93"
+    },
+    {
+      "prompt": "A: Hołd pruski\nB: Założenie Facebooka",
+      "answer": "A",
+      "aliases": [
+        "Hołd pruski"
+      ],
+      "explanation": "A: 1525; B: 2004.",
+      "id": "wczesniej-cf18ea326ac924c7f24b"
+    },
+    {
+      "prompt": "A: Rozpad ZSRR\nB: Odkrycie Ameryki przez Kolumba",
+      "answer": "B",
+      "aliases": [
+        "Odkrycie Ameryki przez Kolumba"
+      ],
+      "explanation": "A: 1991; B: 1492.",
+      "id": "wczesniej-c8204ea61cb0cdf1478f"
+    },
+    {
+      "prompt": "A: Wybuch powstania warszawskiego\nB: Uchwalenie Konstytucji 3 Maja",
+      "answer": "B",
+      "aliases": [
+        "Uchwalenie Konstytucji 3 Maja"
+      ],
+      "explanation": "A: 1944; B: 1791.",
+      "id": "wczesniej-4c3e4d28d92020f35ef7"
+    },
+    {
+      "prompt": "A: Odzyskanie niepodległości przez Polskę\nB: Wybuch rewolucji francuskiej",
+      "answer": "B",
+      "aliases": [
+        "Wybuch rewolucji francuskiej"
+      ],
+      "explanation": "A: 1918; B: 1789.",
+      "id": "wczesniej-8dda0ae20a532fcf5384"
+    },
+    {
+      "prompt": "A: Odkrycie penicyliny\nB: Odkrycie struktury DNA",
+      "answer": "A",
+      "aliases": [
+        "Odkrycie penicyliny"
+      ],
+      "explanation": "A: 1928; B: 1953.",
+      "id": "wczesniej-bbd43c03bed9ef1aafe6"
+    },
+    {
+      "prompt": "A: Wprowadzenie stanu wojennego w Polsce\nB: Ogłoszenie szczególnej teorii względności",
+      "answer": "B",
+      "aliases": [
+        "Ogłoszenie szczególnej teorii względności"
+      ],
+      "explanation": "A: 1981; B: 1905.",
+      "id": "wczesniej-ed5c0af1d480373e9cf6"
+    },
+    {
+      "prompt": "A: Pierwsze wydanie „Pana Tadeusza”\nB: Patent na telefon Grahama Bella",
+      "answer": "A",
+      "aliases": [
+        "Pierwsze wydanie „Pana Tadeusza”"
+      ],
+      "explanation": "A: 1834; B: 1876.",
+      "id": "wczesniej-215c13c061b4766bb59b"
+    },
+    {
+      "prompt": "A: Uchwalenie Konstytucji 3 Maja\nB: Pierwszy lot braci Wright",
+      "answer": "A",
+      "aliases": [
+        "Uchwalenie Konstytucji 3 Maja"
+      ],
+      "explanation": "A: 1791; B: 1903.",
+      "id": "wczesniej-599f5eca83fb1354bca1"
+    },
+    {
+      "prompt": "A: Wybuch powstania styczniowego\nB: Trzeci rozbiór Polski",
+      "answer": "B",
+      "aliases": [
+        "Trzeci rozbiór Polski"
+      ],
+      "explanation": "A: 1863; B: 1795.",
+      "id": "wczesniej-d671548ea592cff24773"
+    },
+    {
+      "prompt": "A: Pierwszy rozbiór Polski\nB: Wybuch powstania warszawskiego",
+      "answer": "A",
+      "aliases": [
+        "Pierwszy rozbiór Polski"
+      ],
+      "explanation": "A: 1772; B: 1944.",
+      "id": "wczesniej-c1d76195d09eef393c51"
+    },
+    {
+      "prompt": "A: Odzyskanie niepodległości przez Polskę\nB: Pierwszy SMS w historii",
+      "answer": "A",
+      "aliases": [
+        "Odzyskanie niepodległości przez Polskę"
+      ],
+      "explanation": "A: 1918; B: 1992.",
+      "id": "wczesniej-ff171ad074a8c1c50170"
+    },
+    {
+      "prompt": "A: Odkrycie struktury DNA\nB: Premiera filmu „Titanic”",
+      "answer": "A",
+      "aliases": [
+        "Odkrycie struktury DNA"
+      ],
+      "explanation": "A: 1953; B: 1997.",
+      "id": "wczesniej-30e2f973b0116783b618"
+    },
+    {
+      "prompt": "A: Koniec II wojny światowej w Europie\nB: Utworzenie Księstwa Warszawskiego",
+      "answer": "B",
+      "aliases": [
+        "Utworzenie Księstwa Warszawskiego"
+      ],
+      "explanation": "A: 1945; B: 1807.",
+      "id": "wczesniej-4ec4d35f35fd8501126c"
+    },
+    {
+      "prompt": "A: Odzyskanie niepodległości przez Polskę\nB: Premiera gry „Wiedźmin 3: Dziki Gon”",
+      "answer": "A",
+      "aliases": [
+        "Odzyskanie niepodległości przez Polskę"
+      ],
+      "explanation": "A: 1918; B: 2015.",
+      "id": "wczesniej-8d3e9f581ced74858416"
+    },
+    {
+      "prompt": "A: Nagroda Nobla z fizyki dla Marii Skłodowskiej-Curie\nB: Wybuch powstania warszawskiego",
+      "answer": "A",
+      "aliases": [
+        "Nagroda Nobla z fizyki dla Marii Skłodowskiej-Curie"
+      ],
+      "explanation": "A: 1903; B: 1944.",
+      "id": "wczesniej-a60c2f3269e3e192f412"
+    },
+    {
+      "prompt": "A: Bitwa pod Hastings\nB: Premiera pełnej wersji Minecrafta",
+      "answer": "A",
+      "aliases": [
+        "Bitwa pod Hastings"
+      ],
+      "explanation": "A: 1066; B: 2011.",
+      "id": "wczesniej-dfb9b46665a11bdb89e2"
+    },
+    {
+      "prompt": "A: Premiera filmu „Titanic”\nB: Pierwszy lot braci Wright",
+      "answer": "B",
+      "aliases": [
+        "Pierwszy lot braci Wright"
+      ],
+      "explanation": "A: 1997; B: 1903.",
+      "id": "wczesniej-984f081e0b1507660dc0"
+    },
+    {
+      "prompt": "A: Wydanie Wielkiej Karty Swobód (Magna Carta)\nB: Powstanie „Solidarności”",
+      "answer": "A",
+      "aliases": [
+        "Wydanie Wielkiej Karty Swobód (Magna Carta)"
+      ],
+      "explanation": "A: 1215; B: 1980.",
+      "id": "wczesniej-324402ca8168f31a65ba"
+    },
+    {
+      "prompt": "A: Zatonięcie Titanica\nB: Wejście Polski do NATO",
+      "answer": "A",
+      "aliases": [
+        "Zatonięcie Titanica"
+      ],
+      "explanation": "A: 1912; B: 1999.",
+      "id": "wczesniej-925ca59075c99ec5e0ae"
+    },
+    {
+      "prompt": "A: Wybuch rewolucji francuskiej\nB: Pierwszy rozbiór Polski",
+      "answer": "B",
+      "aliases": [
+        "Pierwszy rozbiór Polski"
+      ],
+      "explanation": "A: 1789; B: 1772.",
+      "id": "wczesniej-fb521abfc793457547c3"
+    },
+    {
+      "prompt": "A: Patent na telefon Grahama Bella\nB: Powstanie „Solidarności”",
+      "answer": "A",
+      "aliases": [
+        "Patent na telefon Grahama Bella"
+      ],
+      "explanation": "A: 1876; B: 1980.",
+      "id": "wczesniej-d0609a1db18fad8733bd"
+    },
+    {
+      "prompt": "A: Premiera GTA V\nB: Wydanie Wielkiej Karty Swobód (Magna Carta)",
+      "answer": "B",
+      "aliases": [
+        "Wydanie Wielkiej Karty Swobód (Magna Carta)"
+      ],
+      "explanation": "A: 2013; B: 1215.",
+      "id": "wczesniej-dfb5dff8cd43bcf40a0d"
+    },
+    {
+      "prompt": "A: Odkrycie struktury DNA\nB: Koniec II wojny światowej w Europie",
+      "answer": "B",
+      "aliases": [
+        "Koniec II wojny światowej w Europie"
+      ],
+      "explanation": "A: 1953; B: 1945.",
+      "id": "wczesniej-102457a1743b59636c23"
+    },
+    {
+      "prompt": "A: Premiera filmu „Titanic”\nB: Odkrycie Ameryki przez Kolumba",
+      "answer": "B",
+      "aliases": [
+        "Odkrycie Ameryki przez Kolumba"
+      ],
+      "explanation": "A: 1997; B: 1492.",
+      "id": "wczesniej-4719d932cc4098ec843c"
+    },
+    {
+      "prompt": "A: Uruchomienie Wikipedii\nB: Nagroda Nobla dla Wisławy Szymborskiej",
+      "answer": "B",
+      "aliases": [
+        "Nagroda Nobla dla Wisławy Szymborskiej"
+      ],
+      "explanation": "A: 2001; B: 1996.",
+      "id": "wczesniej-6fa86f0cf171f162e1d3"
+    },
+    {
+      "prompt": "A: Premiera GTA V\nB: Ukończenie wieży Eiffla",
+      "answer": "B",
+      "aliases": [
+        "Ukończenie wieży Eiffla"
+      ],
+      "explanation": "A: 2013; B: 1889.",
+      "id": "wczesniej-ccfb81725fea1db96bc3"
+    },
+    {
+      "prompt": "A: Upadek Konstantynopola\nB: Bitwa Warszawska",
+      "answer": "A",
+      "aliases": [
+        "Upadek Konstantynopola"
+      ],
+      "explanation": "A: 1453; B: 1920.",
+      "id": "wczesniej-143c8edac069ac744766"
+    },
+    {
+      "prompt": "A: Uchwalenie Konstytucji 3 Maja\nB: Kongres wiedeński",
+      "answer": "A",
+      "aliases": [
+        "Uchwalenie Konstytucji 3 Maja"
+      ],
+      "explanation": "A: 1791; B: 1815.",
+      "id": "wczesniej-b7e0fef25df1a061b929"
+    },
+    {
+      "prompt": "A: Wydanie Wielkiej Karty Swobód (Magna Carta)\nB: Lądowanie ludzi na Księżycu",
+      "answer": "A",
+      "aliases": [
+        "Wydanie Wielkiej Karty Swobód (Magna Carta)"
+      ],
+      "explanation": "A: 1215; B: 1969.",
+      "id": "wczesniej-21828be7d41d21f9a1de"
+    },
+    {
+      "prompt": "A: Założenie Akademii Krakowskiej\nB: Wprowadzenie stanu wojennego w Polsce",
+      "answer": "A",
+      "aliases": [
+        "Założenie Akademii Krakowskiej"
+      ],
+      "explanation": "A: 1364; B: 1981.",
+      "id": "wczesniej-4b10aa164b0af3ca2aad"
+    },
+    {
+      "prompt": "A: Patent na telefon Grahama Bella\nB: Wprowadzenie stanu wojennego w Polsce",
+      "answer": "A",
+      "aliases": [
+        "Patent na telefon Grahama Bella"
+      ],
+      "explanation": "A: 1876; B: 1981.",
+      "id": "wczesniej-24560526c8f787519f95"
+    },
+    {
+      "prompt": "A: Założenie Microsoftu\nB: Pierwszy lot braci Wright",
+      "answer": "B",
+      "aliases": [
+        "Pierwszy lot braci Wright"
+      ],
+      "explanation": "A: 1975; B: 1903.",
+      "id": "wczesniej-794892527ce8e5ace9a9"
+    },
+    {
+      "prompt": "A: Ukończenie wieży Eiffla\nB: Wybuch I wojny światowej",
+      "answer": "A",
+      "aliases": [
+        "Ukończenie wieży Eiffla"
+      ],
+      "explanation": "A: 1889; B: 1914.",
+      "id": "wczesniej-7ba32a00e792b4cfbdf4"
+    },
+    {
+      "prompt": "A: Wejście Polski do Unii Europejskiej\nB: Otwarcie Kanału Sueskiego",
+      "answer": "B",
+      "aliases": [
+        "Otwarcie Kanału Sueskiego"
+      ],
+      "explanation": "A: 2004; B: 1869.",
+      "id": "wczesniej-c1b2a51c686eaeef3a77"
+    },
+    {
+      "prompt": "A: Premiera filmu „Titanic”\nB: Wprowadzenie banknotów i monet euro",
+      "answer": "A",
+      "aliases": [
+        "Premiera filmu „Titanic”"
+      ],
+      "explanation": "A: 1997; B: 2002.",
+      "id": "wczesniej-d8714eeac8f627e9e2a0"
+    },
+    {
+      "prompt": "A: Założenie Facebooka\nB: Nagroda Nobla z fizyki dla Marii Skłodowskiej-Curie",
+      "answer": "B",
+      "aliases": [
+        "Nagroda Nobla z fizyki dla Marii Skłodowskiej-Curie"
+      ],
+      "explanation": "A: 2004; B: 1903.",
+      "id": "wczesniej-107491489bd18ed91d3f"
+    },
+    {
+      "prompt": "A: Odzyskanie niepodległości przez Polskę\nB: Upadek Konstantynopola",
+      "answer": "B",
+      "aliases": [
+        "Upadek Konstantynopola"
+      ],
+      "explanation": "A: 1918; B: 1453.",
+      "id": "wczesniej-0e0d6bfb8ce3077908fa"
+    },
+    {
+      "prompt": "A: Powstanie „Solidarności”\nB: Bitwa pod Grunwaldem",
+      "answer": "B",
+      "aliases": [
+        "Bitwa pod Grunwaldem"
+      ],
+      "explanation": "A: 1980; B: 1410.",
+      "id": "wczesniej-2e2b40d81c6f15f9493f"
+    },
+    {
+      "prompt": "A: Ukończenie wieży Eiffla\nB: Patent na telefon Grahama Bella",
+      "answer": "B",
+      "aliases": [
+        "Patent na telefon Grahama Bella"
+      ],
+      "explanation": "A: 1889; B: 1876.",
+      "id": "wczesniej-e5d142c0972767246ac6"
+    },
+    {
+      "prompt": "A: Premiera pełnej wersji Minecrafta\nB: Żarówka Edisona",
+      "answer": "B",
+      "aliases": [
+        "Żarówka Edisona"
+      ],
+      "explanation": "A: 2011; B: 1879.",
+      "id": "wczesniej-851df0660da4ae027629"
+    },
+    {
+      "prompt": "A: Kongres wiedeński\nB: Premiera Fortnite",
+      "answer": "A",
+      "aliases": [
+        "Kongres wiedeński"
+      ],
+      "explanation": "A: 1815; B: 2017.",
+      "id": "wczesniej-105c3b75c07cf987a36d"
+    },
+    {
+      "prompt": "A: Założenie Akademii Krakowskiej\nB: Premiera pełnej wersji Minecrafta",
+      "answer": "A",
+      "aliases": [
+        "Założenie Akademii Krakowskiej"
+      ],
+      "explanation": "A: 1364; B: 2011.",
+      "id": "wczesniej-75f4f3bb839f88c7431d"
+    },
+    {
+      "prompt": "A: Odzyskanie niepodległości przez Polskę\nB: Koniec II wojny światowej w Europie",
+      "answer": "A",
+      "aliases": [
+        "Odzyskanie niepodległości przez Polskę"
+      ],
+      "explanation": "A: 1918; B: 1945.",
+      "id": "wczesniej-ad6b0d180a83df2af9e6"
+    },
+    {
+      "prompt": "A: Pierwsze nowożytne igrzyska olimpijskie\nB: Wprowadzenie banknotów i monet euro",
+      "answer": "A",
+      "aliases": [
+        "Pierwsze nowożytne igrzyska olimpijskie"
+      ],
+      "explanation": "A: 1896; B: 2002.",
+      "id": "wczesniej-7c0b14f66808f58b0a22"
+    },
+    {
+      "prompt": "A: Założenie Apple\nB: Wejście Polski do NATO",
+      "answer": "A",
+      "aliases": [
+        "Założenie Apple"
+      ],
+      "explanation": "A: 1976; B: 1999.",
+      "id": "wczesniej-c3993f817d9e98161c03"
+    },
+    {
+      "prompt": "A: Bitwa pod Cedynią\nB: Premiera GTA V",
+      "answer": "A",
+      "aliases": [
+        "Bitwa pod Cedynią"
+      ],
+      "explanation": "A: 972; B: 2013.",
+      "id": "wczesniej-b1e9dd9319e09055e306"
+    },
+    {
+      "prompt": "A: Pierwszy SMS w historii\nB: Potop szwedzki (najazd Szwecji na Polskę)",
+      "answer": "B",
+      "aliases": [
+        "Potop szwedzki (najazd Szwecji na Polskę)"
+      ],
+      "explanation": "A: 1992; B: 1655.",
+      "id": "wczesniej-bb40e1afee2d5252c5e1"
+    },
+    {
+      "prompt": "A: Odkrycie Ameryki przez Kolumba\nB: Potop szwedzki (najazd Szwecji na Polskę)",
+      "answer": "A",
+      "aliases": [
+        "Odkrycie Ameryki przez Kolumba"
+      ],
+      "explanation": "A: 1492; B: 1655.",
+      "id": "wczesniej-5aab187ba297dd9da43d"
+    },
+    {
+      "prompt": "A: Pierwszy finał WOŚP\nB: Wybuch I wojny światowej",
+      "answer": "B",
+      "aliases": [
+        "Wybuch I wojny światowej"
+      ],
+      "explanation": "A: 1993; B: 1914.",
+      "id": "wczesniej-d1545cdb0dfaa9e68708"
+    },
+    {
+      "prompt": "A: Koniec II wojny światowej w Europie\nB: Pierwszy finał WOŚP",
+      "answer": "A",
+      "aliases": [
+        "Koniec II wojny światowej w Europie"
+      ],
+      "explanation": "A: 1945; B: 1993.",
+      "id": "wczesniej-c6bb1e512986ce0d5824"
+    },
+    {
+      "prompt": "A: Katastrofa w Czarnobylu\nB: Koronacja Bolesława Chrobrego",
+      "answer": "B",
+      "aliases": [
+        "Koronacja Bolesława Chrobrego"
+      ],
+      "explanation": "A: 1986; B: 1025.",
+      "id": "wczesniej-1f314e2238df9c9d7eb0"
+    },
+    {
+      "prompt": "A: Pierwszy lot braci Wright\nB: Pierwsze nowożytne igrzyska olimpijskie",
+      "answer": "B",
+      "aliases": [
+        "Pierwsze nowożytne igrzyska olimpijskie"
+      ],
+      "explanation": "A: 1903; B: 1896.",
+      "id": "wczesniej-c9abaf1764ab8199af89"
+    },
+    {
+      "prompt": "A: Igrzyska olimpijskie w Paryżu\nB: Premiera gry „Wiedźmin 3: Dziki Gon”",
+      "answer": "B",
+      "aliases": [
+        "Premiera gry „Wiedźmin 3: Dziki Gon”"
+      ],
+      "explanation": "A: 2024; B: 2015.",
+      "id": "wczesniej-9d04cf2e3d45d6a0658f"
+    },
+    {
+      "prompt": "A: Mistrzostwo świata Polski w siatkówce mężczyzn w Katowicach\nB: Założenie Facebooka",
+      "answer": "B",
+      "aliases": [
+        "Założenie Facebooka"
+      ],
+      "explanation": "A: 2014; B: 2004.",
+      "id": "wczesniej-2234df32ac0e63c1aad0"
+    },
+    {
+      "prompt": "A: Pierwszy finał WOŚP\nB: Założenie Google",
+      "answer": "A",
+      "aliases": [
+        "Pierwszy finał WOŚP"
+      ],
+      "explanation": "A: 1993; B: 1998.",
+      "id": "wczesniej-68d4b9f22a1d0f35843b"
+    },
+    {
+      "prompt": "A: Odzyskanie niepodległości przez Polskę\nB: Premiera filmu „Król Lew”",
+      "answer": "A",
+      "aliases": [
+        "Odzyskanie niepodległości przez Polskę"
+      ],
+      "explanation": "A: 1918; B: 1994.",
+      "id": "wczesniej-b07028b7eff8f004e8e2"
+    },
+    {
+      "prompt": "A: Odzyskanie niepodległości przez Polskę\nB: Wprowadzenie banknotów i monet euro",
+      "answer": "A",
+      "aliases": [
+        "Odzyskanie niepodległości przez Polskę"
+      ],
+      "explanation": "A: 1918; B: 2002.",
+      "id": "wczesniej-94cecce0cbcb4451bf79"
+    },
+    {
+      "prompt": "A: Koronacja Bolesława Chrobrego\nB: Rozpad ZSRR",
+      "answer": "A",
+      "aliases": [
+        "Koronacja Bolesława Chrobrego"
+      ],
+      "explanation": "A: 1025; B: 1991.",
+      "id": "wczesniej-97b1ce135805b9785ebd"
+    },
+    {
+      "prompt": "A: Ukończenie wieży Eiffla\nB: Urodziny Adama Mickiewicza",
+      "answer": "B",
+      "aliases": [
+        "Urodziny Adama Mickiewicza"
+      ],
+      "explanation": "A: 1889; B: 1798.",
+      "id": "wczesniej-7d6521e20e2e9fcd4e2f"
+    },
+    {
+      "prompt": "A: Wybuch powstania warszawskiego\nB: Pierwszy finał WOŚP",
+      "answer": "A",
+      "aliases": [
+        "Wybuch powstania warszawskiego"
+      ],
+      "explanation": "A: 1944; B: 1993.",
+      "id": "wczesniej-87b8f410946bd02396d7"
+    },
+    {
+      "prompt": "A: Wejście Polski do NATO\nB: Unia lubelska",
+      "answer": "B",
+      "aliases": [
+        "Unia lubelska"
+      ],
+      "explanation": "A: 1999; B: 1569.",
+      "id": "wczesniej-c1b27cdc3356996e427b"
+    },
+    {
+      "prompt": "A: Zatonięcie Titanica\nB: Wprowadzenie banknotów i monet euro",
+      "answer": "A",
+      "aliases": [
+        "Zatonięcie Titanica"
+      ],
+      "explanation": "A: 1912; B: 2002.",
+      "id": "wczesniej-42a677d23909818d0f84"
+    },
+    {
+      "prompt": "A: Koniec II wojny światowej w Europie\nB: Pierwszy mundial w piłce nożnej",
+      "answer": "B",
+      "aliases": [
+        "Pierwszy mundial w piłce nożnej"
+      ],
+      "explanation": "A: 1945; B: 1930.",
+      "id": "wczesniej-ee4e8a1f396748170f50"
+    },
+    {
+      "prompt": "A: Lot Jurija Gagarina w kosmos\nB: Pierwszy lot braci Wright",
+      "answer": "B",
+      "aliases": [
+        "Pierwszy lot braci Wright"
+      ],
+      "explanation": "A: 1961; B: 1903.",
+      "id": "wczesniej-5766ff070ee2ab5e417c"
+    },
+    {
+      "prompt": "A: Odsiecz wiedeńska\nB: Pierwszy rozbiór Polski",
+      "answer": "A",
+      "aliases": [
+        "Odsiecz wiedeńska"
+      ],
+      "explanation": "A: 1683; B: 1772.",
+      "id": "wczesniej-9207f7a62f27fc75813d"
+    },
+    {
+      "prompt": "A: Bitwa pod Cedynią\nB: Koniec II wojny światowej w Europie",
+      "answer": "A",
+      "aliases": [
+        "Bitwa pod Cedynią"
+      ],
+      "explanation": "A: 972; B: 1945.",
+      "id": "wczesniej-871dc37d83230f3b7ed7"
+    },
+    {
+      "prompt": "A: Rozpad ZSRR\nB: Hołd pruski",
+      "answer": "B",
+      "aliases": [
+        "Hołd pruski"
+      ],
+      "explanation": "A: 1991; B: 1525.",
+      "id": "wczesniej-ca2d0312176b33970090"
+    },
+    {
+      "prompt": "A: Pierwszy mundial w piłce nożnej\nB: Wybuch powstania styczniowego",
+      "answer": "B",
+      "aliases": [
+        "Wybuch powstania styczniowego"
+      ],
+      "explanation": "A: 1930; B: 1863.",
+      "id": "wczesniej-8c11a62ec3e1ca3cc9d7"
+    },
+    {
+      "prompt": "A: Chrzest Polski\nB: Premiera pierwszego iPhone’a",
+      "answer": "A",
+      "aliases": [
+        "Chrzest Polski"
+      ],
+      "explanation": "A: 966; B: 2007.",
+      "id": "wczesniej-03d27ece1ed5dd33a003"
+    },
+    {
+      "prompt": "A: Założenie Microsoftu\nB: Bitwa pod Cedynią",
+      "answer": "B",
+      "aliases": [
+        "Bitwa pod Cedynią"
+      ],
+      "explanation": "A: 1975; B: 972.",
+      "id": "wczesniej-291dacce5b2fded894f7"
+    },
+    {
+      "prompt": "A: Wybuch powstania styczniowego\nB: Wybuch rewolucji francuskiej",
+      "answer": "B",
+      "aliases": [
+        "Wybuch rewolucji francuskiej"
+      ],
+      "explanation": "A: 1863; B: 1789.",
+      "id": "wczesniej-d480a14a666204acbc68"
+    },
+    {
+      "prompt": "A: Wydanie Wielkiej Karty Swobód (Magna Carta)\nB: Premiera Fortnite",
+      "answer": "A",
+      "aliases": [
+        "Wydanie Wielkiej Karty Swobód (Magna Carta)"
+      ],
+      "explanation": "A: 1215; B: 2017.",
+      "id": "wczesniej-4d5c63fcad278fa8d18d"
+    },
+    {
+      "prompt": "A: Uruchomienie Wikipedii\nB: Upadek Konstantynopola",
+      "answer": "B",
+      "aliases": [
+        "Upadek Konstantynopola"
+      ],
+      "explanation": "A: 2001; B: 1453.",
+      "id": "wczesniej-a75b17b30562cc3be08e"
     }
   ],
   "Brakujące litery": [
@@ -25521,6 +34268,676 @@ export const bank = {
       "id": "bl-20261024-dc7a1e9b1f01c8",
       "kind": "brakujące litery",
       "difficulty": "średnie"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ _ S Z E L _ A. Wskazówka: Znajdziemy ją na plaży.",
+      "answer": "Muszelka",
+      "aliases": [
+        "muszelka"
+      ],
+      "id": "brak-2cc0665b87ccdd6d7d9e"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: K I E R O _ _ _. Wskazówka: Prowadzi samochód.",
+      "answer": "Kierowca",
+      "aliases": [
+        "kierowca"
+      ],
+      "id": "brak-6e72b6426b933f9dff54"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ U T O B _ _. Wskazówka: Wozi wielu pasażerów.",
+      "answer": "Autobus",
+      "aliases": [
+        "autobus"
+      ],
+      "id": "brak-fac8bdd18d7451ddb90e"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: H E _ I K _ P _ E _. Wskazówka: Ma wirnik na dachu.",
+      "answer": "Helikopter",
+      "aliases": [
+        "helikopter"
+      ],
+      "id": "brak-022b08feafc6090bf72f"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ T A _ E K. Wskazówka: Pływa po morzu.",
+      "answer": "Statek",
+      "aliases": [
+        "statek"
+      ],
+      "id": "brak-b5befb71c85d45e51a2d"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: K I _ _ _ W N I C _. Wskazówka: Nią skręcamy.",
+      "answer": "Kierownica",
+      "aliases": [
+        "kierownica"
+      ],
+      "id": "brak-4a5dbc8aee10b68e424b"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ _ G A Ż N I _. Wskazówka: Tył samochodu na zakupy.",
+      "answer": "Bagażnik",
+      "aliases": [
+        "bagażnik",
+        "bagaznik"
+      ],
+      "id": "brak-bad8833d4d553f37a9ff"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: O P O _ _. Wskazówka: Gumowa część koła.",
+      "answer": "Opona",
+      "aliases": [
+        "opona"
+      ],
+      "id": "brak-3836db523222d3423f9a"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: S _ G _ A L _ Z A _ _ A. Wskazówka: Czerwone, żółte, zielone.",
+      "answer": "Sygnalizacja",
+      "aliases": [
+        "sygnalizacja"
+      ],
+      "id": "brak-324c599ddcd6185d1707"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ _ R K I N _. Wskazówka: Zostawiamy tam auto.",
+      "answer": "Parking",
+      "aliases": [
+        "parking"
+      ],
+      "id": "brak-33e4fc0bacff90507ae6"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: H _ _ B _ T A. Wskazówka: Pijemy ją z cytryną.",
+      "answer": "Herbata",
+      "aliases": [
+        "herbata"
+      ],
+      "id": "brak-7223de6f989b6aa1840f"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ _ Z A K. Wskazówka: Cukierek na patyku.",
+      "answer": "Lizak",
+      "aliases": [
+        "lizak"
+      ],
+      "id": "brak-e7e58d71ad7486a3905e"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ O _ C _ R N. Wskazówka: Jemy go w kinie.",
+      "answer": "Popcorn",
+      "aliases": [
+        "popcorn"
+      ],
+      "id": "brak-df886a55a4c072c34cff"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: F R _ _ K I. Wskazówka: Smażone paski ziemniaków.",
+      "answer": "Frytki",
+      "aliases": [
+        "frytki"
+      ],
+      "id": "brak-512475c5ad71414eefcd"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ G Ó R E _. Wskazówka: Zielone warzywo do kiszenia.",
+      "answer": "Ogórek",
+      "aliases": [
+        "ogórek",
+        "ogorek"
+      ],
+      "id": "brak-df34e41afb157e8d8d0e"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: M A R _ _ _ _ K A. Wskazówka: Pomarańczowe warzywo.",
+      "answer": "Marchewka",
+      "aliases": [
+        "marchewka"
+      ],
+      "id": "brak-a99eca40437d1f92f58f"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: Z I E M _ I _ _. Wskazówka: Rośnie pod ziemią, robi się z niego frytki.",
+      "answer": "Ziemniak",
+      "aliases": [
+        "ziemniak"
+      ],
+      "id": "brak-b7fd042ea9998bf664ad"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ E B _ L A. Wskazówka: Przy krojeniu wyciska łzy.",
+      "answer": "Cebula",
+      "aliases": [
+        "cebula"
+      ],
+      "id": "brak-b03380f9111c6bfdf5c7"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: C Z O _ _ _ K. Wskazówka: Odstrasza wampiry.",
+      "answer": "Czosnek",
+      "aliases": [
+        "czosnek"
+      ],
+      "id": "brak-719a4bb6da7a791e0b40"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ O S _ _ _ Ó W K A. Wskazówka: Rzucamy piłkę do kosza.",
+      "answer": "Koszykówka",
+      "aliases": [
+        "koszykówka",
+        "koszykowka"
+      ],
+      "id": "brak-3a52a1e64cd22a4acd6e"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: S _ A T K Ó _ _ _. Wskazówka: Przebijamy piłkę przez siatkę.",
+      "answer": "Siatkówka",
+      "aliases": [
+        "siatkówka",
+        "siatkowka"
+      ],
+      "id": "brak-be3cd67f5ff73d820869"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ Ł Y W _ N _ E. Wskazówka: Sport w basenie.",
+      "answer": "Pływanie",
+      "aliases": [
+        "pływanie",
+        "plywanie"
+      ],
+      "id": "brak-21b335b1d6a6621a124b"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ Z A _ H Y. Wskazówka: Gra z królem i hetmanem.",
+      "answer": "Szachy",
+      "aliases": [
+        "szachy"
+      ],
+      "id": "brak-fd7cb516d2af70912f83"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ _ Ę G L E. Wskazówka: Strącamy je kulą.",
+      "answer": "Kręgle",
+      "aliases": [
+        "kręgle",
+        "kregle"
+      ],
+      "id": "brak-1240756578b15dee2e3c"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: K _ _ _ U T E R. Wskazówka: Ma procesor i ekran.",
+      "answer": "Komputer",
+      "aliases": [
+        "komputer"
+      ],
+      "id": "brak-ab92f0a0b2c562e9285a"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: S M _ _ T F _ N. Wskazówka: Telefon z ekranem dotykowym.",
+      "answer": "Smartfon",
+      "aliases": [
+        "smartfon"
+      ],
+      "id": "brak-6345c7d2ae79fc8aab9d"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ N T E R _ E _. Wskazówka: Sieć łącząca komputery świata.",
+      "answer": "Internet",
+      "aliases": [
+        "internet"
+      ],
+      "id": "brak-6c3bfca22d95bf0f5a10"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ _ S Ł O. Wskazówka: Chroni konto przed obcymi.",
+      "answer": "Hasło",
+      "aliases": [
+        "hasło",
+        "haslo"
+      ],
+      "id": "brak-c70d6033086e6def850c"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ _ _ Ó W K A. Wskazówka: Chłodzi jedzenie.",
+      "answer": "Lodówka",
+      "aliases": [
+        "lodówka",
+        "lodowka"
+      ],
+      "id": "brak-97e55c486500614fd245"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: P R _ L _ A. Wskazówka: Pierze ubrania.",
+      "answer": "Pralka",
+      "aliases": [
+        "pralka"
+      ],
+      "id": "brak-a954ff3644a4bff09d94"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ U C _ E N K _. Wskazówka: Na niej gotujemy.",
+      "answer": "Kuchenka",
+      "aliases": [
+        "kuchenka"
+      ],
+      "id": "brak-2582c2db62fa223836cd"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: C _ _ _ N I K. Wskazówka: Gotuje wodę na herbatę.",
+      "answer": "Czajnik",
+      "aliases": [
+        "czajnik"
+      ],
+      "id": "brak-266d080ff8fa355d34f1"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: M I K _ E _. Wskazówka: Ubija śmietanę.",
+      "answer": "Mikser",
+      "aliases": [
+        "mikser"
+      ],
+      "id": "brak-1676a26e9eb58af4b8b3"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: O K U _ _ _ Y. Wskazówka: Pomagają lepiej widzieć.",
+      "answer": "Okulary",
+      "aliases": [
+        "okulary"
+      ],
+      "id": "brak-59b39b7b0bf0522936ff"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: Z _ _ _ R E K. Wskazówka: Nosimy go na nadgarstku.",
+      "answer": "Zegarek",
+      "aliases": [
+        "zegarek"
+      ],
+      "id": "brak-540776de29bffbb322b7"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: S _ A L _ K. Wskazówka: Owijamy nim szyję.",
+      "answer": "Szalik",
+      "aliases": [
+        "szalik"
+      ],
+      "id": "brak-e6f2b8cb8be1ff14b8dd"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: K A L _ _ Z _. Wskazówka: Gumowe buty na deszcz.",
+      "answer": "Kalosze",
+      "aliases": [
+        "kalosze"
+      ],
+      "id": "brak-b224d02ce892726a2136"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: N _ _ C Z Y C I _ _. Wskazówka: Uczy w szkole.",
+      "answer": "Nauczyciel",
+      "aliases": [
+        "nauczyciel"
+      ],
+      "id": "brak-f1f6252676cceec8255f"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ Y _ _ K T O R. Wskazówka: Kieruje szkołą.",
+      "answer": "Dyrektor",
+      "aliases": [
+        "dyrektor"
+      ],
+      "id": "brak-1bcf80553145c57c3210"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: L E K _ _ Z. Wskazówka: Leczy pacjentów.",
+      "answer": "Lekarz",
+      "aliases": [
+        "lekarz"
+      ],
+      "id": "brak-f184b32ff4e10ca2097b"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: P _ _ _ C _ A N T. Wskazówka: Pilnuje porządku.",
+      "answer": "Policjant",
+      "aliases": [
+        "policjant"
+      ],
+      "id": "brak-0eacd499190cd31d1897"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ _ L N I K. Wskazówka: Uprawia pole.",
+      "answer": "Rolnik",
+      "aliases": [
+        "rolnik"
+      ],
+      "id": "brak-2f30a334f1a843c61a4d"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: K _ R C _ _ K. Wskazówka: Mięso z drobiu.",
+      "answer": "Kurczak",
+      "aliases": [
+        "kurczak"
+      ],
+      "id": "brak-f0d6f5850870949c290c"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ A _ E C Z N I _ _. Wskazówka: Danie z jajek na patelni.",
+      "answer": "Jajecznica",
+      "aliases": [
+        "jajecznica"
+      ],
+      "id": "brak-c4f4d417493613706e6b"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: K I _ Ł _ A S _. Wskazówka: Pieczemy ją na ognisku.",
+      "answer": "Kiełbasa",
+      "aliases": [
+        "kiełbasa",
+        "kielbasa"
+      ],
+      "id": "brak-42665525a02796124790"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: B I _ _ S. Wskazówka: Danie z kapusty i mięsa.",
+      "answer": "Bigos",
+      "aliases": [
+        "bigos"
+      ],
+      "id": "brak-3eb0e62127a07b8357b5"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: Ż _ _ E K. Wskazówka: Zupa na zakwasie.",
+      "answer": "Żurek",
+      "aliases": [
+        "żurek",
+        "zurek"
+      ],
+      "id": "brak-acd6d5f19c8693890d56"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ _ N G U R _ _ C A. Wskazówka: Mama kangura.",
+      "answer": "Kangurzyca",
+      "aliases": [
+        "kangurzyca"
+      ],
+      "id": "brak-0213877f8c6efa3c1df8"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: S Ł _ _. Wskazówka: Ma trąbę.",
+      "answer": "Słoń",
+      "aliases": [
+        "słoń",
+        "slon"
+      ],
+      "id": "brak-2ed510d6134e9c52bf0e"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ _ _ O P O T _ M. Wskazówka: Duży ssak lubiący wodę.",
+      "answer": "Hipopotam",
+      "aliases": [
+        "hipopotam"
+      ],
+      "id": "brak-04c1e79dcb43a615247a"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ _ B R A. Wskazówka: Koń w paski.",
+      "answer": "Zebra",
+      "aliases": [
+        "zebra"
+      ],
+      "id": "brak-d8314ed4ee8c02de0fc0"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ _ E L B Ł Ą _. Wskazówka: Ma garby.",
+      "answer": "Wielbłąd",
+      "aliases": [
+        "wielbłąd",
+        "wielblad"
+      ],
+      "id": "brak-57618032c28a85b6d4c7"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: L U S _ _ O. Wskazówka: Widzimy w nim swoje odbicie.",
+      "answer": "Lustro",
+      "aliases": [
+        "lustro"
+      ],
+      "id": "brak-cd4cdf8597e8e3877006"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ _ A _ I N A. Wskazówka: Wchodzimy po niej wyżej.",
+      "answer": "Drabina",
+      "aliases": [
+        "drabina"
+      ],
+      "id": "brak-e5bd47e1884573213061"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ Ł _ T E K. Wskazówka: Wbija gwoździe.",
+      "answer": "Młotek",
+      "aliases": [
+        "młotek",
+        "mlotek"
+      ],
+      "id": "brak-5b39f4ea0110d8669043"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ _ Ż Y C _ K I. Wskazówka: Tną papier.",
+      "answer": "Nożyczki",
+      "aliases": [
+        "nożyczki",
+        "nozyczki"
+      ],
+      "id": "brak-b6e63132e1cec5c9d443"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ _ Ś M A. Wskazówka: Klei paczki.",
+      "answer": "Taśma",
+      "aliases": [
+        "taśma",
+        "tasma"
+      ],
+      "id": "brak-98ea55e61e9695dcdedb"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ _ E J. Wskazówka: Skleja papier.",
+      "answer": "Klej",
+      "aliases": [
+        "klej"
+      ],
+      "id": "brak-4756c031649c2c4341ff"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ _ Z _ J A C I _ L. Wskazówka: Ktoś bardzo bliski.",
+      "answer": "Przyjaciel",
+      "aliases": [
+        "przyjaciel"
+      ],
+      "id": "brak-a7a8d7388afc00bb12b3"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: R _ _ _ I N A. Wskazówka: Mama, tata, rodzeństwo.",
+      "answer": "Rodzina",
+      "aliases": [
+        "rodzina"
+      ],
+      "id": "brak-57f006cc4281b681fe33"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ A B _ I A. Wskazówka: Mama mamy lub taty.",
+      "answer": "Babcia",
+      "aliases": [
+        "babcia"
+      ],
+      "id": "brak-31a561576e31ffba1c56"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: K U Z _ _. Wskazówka: Syn wujka lub cioci.",
+      "answer": "Kuzyn",
+      "aliases": [
+        "kuzyn"
+      ],
+      "id": "brak-497639732b70e6b4e123"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: S _ _ I A D. Wskazówka: Mieszka obok.",
+      "answer": "Sąsiad",
+      "aliases": [
+        "sąsiad",
+        "sasiad"
+      ],
+      "id": "brak-e6286f8c869b27e3c160"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ _ N O. Wskazówka: Oglądamy w nim filmy.",
+      "answer": "Kino",
+      "aliases": [
+        "kino"
+      ],
+      "id": "brak-de1e6640c7abfae88a0d"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: T E _ T _. Wskazówka: Aktorzy grają na scenie.",
+      "answer": "Teatr",
+      "aliases": [
+        "teatr"
+      ],
+      "id": "brak-e244ca590472f9ce3892"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: M U Z _ U _. Wskazówka: Oglądamy w nim eksponaty.",
+      "answer": "Muzeum",
+      "aliases": [
+        "muzeum"
+      ],
+      "id": "brak-275a05723cc956b91018"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ _ R K. Wskazówka: Akrobaci i klauni.",
+      "answer": "Cyrk",
+      "aliases": [
+        "cyrk"
+      ],
+      "id": "brak-806ca57b33664e21c953"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: B A S _ _. Wskazówka: Pływamy w nim.",
+      "answer": "Basen",
+      "aliases": [
+        "basen"
+      ],
+      "id": "brak-72a3f1fc2b3da7d1cc1c"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: O G N _ _ _ O. Wskazówka: Palimy je w lesie lub na działce.",
+      "answer": "Ognisko",
+      "aliases": [
+        "ognisko"
+      ],
+      "id": "brak-846eeddc86951fd65dd5"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ _ T A W _ E C. Wskazówka: Puszczamy go na wietrze.",
+      "answer": "Latawiec",
+      "aliases": [
+        "latawiec"
+      ],
+      "id": "brak-d12381590e644ce1b018"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: P I A _ K O W _ I _ _. Wskazówka: Bawią się w niej dzieci.",
+      "answer": "Piaskownica",
+      "aliases": [
+        "piaskownica"
+      ],
+      "id": "brak-0227fcb738ef1124894a"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ J E Ż D Ż A _ _ _ A. Wskazówka: Na placu zabaw.",
+      "answer": "Zjeżdżalnia",
+      "aliases": [
+        "zjeżdżalnia",
+        "zjezdzalnia"
+      ],
+      "id": "brak-61f97455b03072fa87db"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: Ś N I _ _ K _. Wskazówka: Kula ulepiona ze śniegu.",
+      "answer": "Śnieżka",
+      "aliases": [
+        "śnieżka",
+        "sniezka"
+      ],
+      "id": "brak-81064330988648c1f815"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ _ N K I. Wskazówka: Zjeżdżamy na nich z górki.",
+      "answer": "Sanki",
+      "aliases": [
+        "sanki"
+      ],
+      "id": "brak-8568f48d305ffd186ffc"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: Ł Y Ż _ _. Wskazówka: Jeździmy na nich po lodzie.",
+      "answer": "Łyżwy",
+      "aliases": [
+        "łyżwy",
+        "lyzwy"
+      ],
+      "id": "brak-142d290f4dee24a34a9b"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: S Z R _ _. Wskazówka: Biały nalot w mroźny poranek.",
+      "answer": "Szron",
+      "aliases": [
+        "szron"
+      ],
+      "id": "brak-23c8e718b18ea5d4d42e"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ G Ł _. Wskazówka: Ogranicza widoczność.",
+      "answer": "Mgła",
+      "aliases": [
+        "mgła",
+        "mgla"
+      ],
+      "id": "brak-9924ce0415b08fb3e197"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: K A S _ _ A _. Wskazówka: Brązowy owoc jesienią.",
+      "answer": "Kasztan",
+      "aliases": [
+        "kasztan"
+      ],
+      "id": "brak-13c43a9d8a4ef66783e8"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: Ż O _ _ D Ź. Wskazówka: Owoc dębu.",
+      "answer": "Żołądź",
+      "aliases": [
+        "żołądź",
+        "zoladz"
+      ],
+      "id": "brak-dcba7704ad6b5527f122"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: _ I Ś _. Wskazówka: Spada z drzew jesienią.",
+      "answer": "Liść",
+      "aliases": [
+        "liść",
+        "lisc"
+      ],
+      "id": "brak-1f679d2b43e4c812b045"
+    },
+    {
+      "prompt": "Uzupełnij brakujące litery i podaj całe słowo: D Y _ I _. Wskazówka: Wydrążamy ją na Halloween.",
+      "answer": "Dynia",
+      "aliases": [
+        "dynia"
+      ],
+      "id": "brak-819cfac18116b7c97559"
     }
   ],
   "Herby piłkarskie": [
@@ -26842,6 +36259,680 @@ export const bank = {
       ],
       "explanation": "Z podanych liter powstaje słowo: huśtawka.",
       "id": "rozsypane-20261024-ec35c58fd704cf"
+    },
+    {
+      "prompt": "O · L · N · H · A · J · U · A · G\nPojazd na dwóch kółkach z kierownicą",
+      "answer": "Hulajnoga",
+      "aliases": [
+        "hulajnoga"
+      ],
+      "id": "litery-7fa9b9a0cac7e19f9271"
+    },
+    {
+      "prompt": "L · A · T · A · R · A · I · N\nStoi przy ulicy i świeci",
+      "answer": "Latarnia",
+      "aliases": [
+        "latarnia"
+      ],
+      "id": "litery-1707054017115f70f409"
+    },
+    {
+      "prompt": "E · L · R · A · R · O · F · K · Y\nGrzeje mieszkanie",
+      "answer": "Kaloryfer",
+      "aliases": [
+        "kaloryfer"
+      ],
+      "id": "litery-0d1392706ebc5c3b716d"
+    },
+    {
+      "prompt": "I · I · W · W · A · E · Ó · K · R\nRude zwierzę z puszystym ogonem",
+      "answer": "Wiewiórka",
+      "aliases": [
+        "wiewiórka",
+        "wiewiorka"
+      ],
+      "id": "litery-fc9dabb7d1bcdb9d7205"
+    },
+    {
+      "prompt": "R · Ż · A · A · Y · F\nZwierzę z bardzo długą szyją",
+      "answer": "Żyrafa",
+      "aliases": [
+        "żyrafa",
+        "zyrafa"
+      ],
+      "id": "litery-486b991459dea9684547"
+    },
+    {
+      "prompt": "A · O · C · M · A · Ń · R · Z · P · A\nOwoc cytrusowy",
+      "answer": "Pomarańcza",
+      "aliases": [
+        "pomarańcza",
+        "pomarancza"
+      ],
+      "id": "litery-3013ab173631c2837619"
+    },
+    {
+      "prompt": "K · A · A · W · U · R · S · T · K\nCzerwony owoc z pestkami na zewnątrz",
+      "answer": "Truskawka",
+      "aliases": [
+        "truskawka"
+      ],
+      "id": "litery-8b46618abc12a25507d6"
+    },
+    {
+      "prompt": "K · A · N · A · K · A · P\nSzybkie śniadanie z chleba",
+      "answer": "Kanapka",
+      "aliases": [
+        "kanapka"
+      ],
+      "id": "litery-a0c85409e13400be95b0"
+    },
+    {
+      "prompt": "P · I · O · R · I · E · G\nPolskie danie z farszem",
+      "answer": "Pierogi",
+      "aliases": [
+        "pierogi"
+      ],
+      "id": "litery-96f3ce4377a88da2c931"
+    },
+    {
+      "prompt": "Ł · Ó · O · R · S\nNiedzielna zupa",
+      "answer": "Rosół",
+      "aliases": [
+        "rosół",
+        "rosol"
+      ],
+      "id": "litery-67982a4ccf903cd6128d"
+    },
+    {
+      "prompt": "T · M · O · K · P · O\nNapój z gotowanych owoców",
+      "answer": "Kompot",
+      "aliases": [
+        "kompot"
+      ],
+      "id": "litery-2ff2ccb148b203d87236"
+    },
+    {
+      "prompt": "E · Z · O · A · K · T · C · Z · C · Z · S\nSłuży do mycia zębów",
+      "answer": "Szczoteczka",
+      "aliases": [
+        "szczoteczka"
+      ],
+      "id": "litery-5ba190724edcfbe794bb"
+    },
+    {
+      "prompt": "I · Z · R · C · K · N · Ę\nDo wycierania się po kąpieli",
+      "answer": "Ręcznik",
+      "aliases": [
+        "ręcznik",
+        "recznik"
+      ],
+      "id": "litery-525a9782e32844347d6b"
+    },
+    {
+      "prompt": "R · Ł · O · D · A · K\nPrzykrywamy się nią w nocy",
+      "answer": "Kołdra",
+      "aliases": [
+        "kołdra",
+        "koldra"
+      ],
+      "id": "litery-555c5d10ee442856a156"
+    },
+    {
+      "prompt": "K · B · D · U · I · Z\nDzwoni rano",
+      "answer": "Budzik",
+      "aliases": [
+        "budzik"
+      ],
+      "id": "litery-4665a6b61d4e99420871"
+    },
+    {
+      "prompt": "E · T · W · O · E · L · R · I · Z\nEkran w salonie",
+      "answer": "Telewizor",
+      "aliases": [
+        "telewizor"
+      ],
+      "id": "litery-64d179b94126017d19a3"
+    },
+    {
+      "prompt": "A · W · L · R · I · T · A · A · U · K\nMa klawisze do pisania",
+      "answer": "Klawiatura",
+      "aliases": [
+        "klawiatura"
+      ],
+      "id": "litery-7c769cc8e11bfd73dede"
+    },
+    {
+      "prompt": "O · I · T · L · P\nSteruje telewizorem",
+      "answer": "Pilot",
+      "aliases": [
+        "pilot"
+      ],
+      "id": "litery-661b6cc5e527b0fe8178"
+    },
+    {
+      "prompt": "T · K · A · A · E · P\nKupujemy w niej leki",
+      "answer": "Apteka",
+      "aliases": [
+        "apteka"
+      ],
+      "id": "litery-e6b868db67d4bc43ab75"
+    },
+    {
+      "prompt": "N · A · K · R · I · A · P · E · I\nTam powstaje chleb",
+      "answer": "Piekarnia",
+      "aliases": [
+        "piekarnia"
+      ],
+      "id": "litery-7a7baca8bbf8edf2fb24"
+    },
+    {
+      "prompt": "K · O · O · I · N · S · L · T\nStartują stamtąd samoloty",
+      "answer": "Lotnisko",
+      "aliases": [
+        "lotnisko"
+      ],
+      "id": "litery-7821347ec0d3fadb81ff"
+    },
+    {
+      "prompt": "W · O · R · E · C · D · Z\nOdjeżdżają stamtąd pociągi",
+      "answer": "Dworzec",
+      "aliases": [
+        "dworzec"
+      ],
+      "id": "litery-30cd8fd3f0685ded5910"
+    },
+    {
+      "prompt": "A · R · S · A · T · K · Ż\nGasi pożary",
+      "answer": "Strażak",
+      "aliases": [
+        "strażak",
+        "strazak"
+      ],
+      "id": "litery-4973fd9111c6fe0ad896"
+    },
+    {
+      "prompt": "S · O · L · S · N · Z · T · I · O\nPrzynosi listy",
+      "answer": "Listonosz",
+      "aliases": [
+        "listonosz"
+      ],
+      "id": "litery-794256febb56ca15158d"
+    },
+    {
+      "prompt": "R · Z · F · J · E · R · Y\nStrzyże włosy",
+      "answer": "Fryzjer",
+      "aliases": [
+        "fryzjer"
+      ],
+      "id": "litery-926014d5ccc13a5e3bc1"
+    },
+    {
+      "prompt": "A · K · Z · C · H · R · U\nGotuje w restauracji",
+      "answer": "Kucharz",
+      "aliases": [
+        "kucharz"
+      ],
+      "id": "litery-4233745550a03d9e8d50"
+    },
+    {
+      "prompt": "P · R · G · K · E · I · A · Ę · A · N · L · I\nPomaga chorym w szpitalu",
+      "answer": "Pielęgniarka",
+      "aliases": [
+        "pielęgniarka",
+        "pielegniarka"
+      ],
+      "id": "litery-9cf51ec2d9a34906992d"
+    },
+    {
+      "prompt": "T · A · R · A · G · I\nInstrument strunowy",
+      "answer": "Gitara",
+      "aliases": [
+        "gitara"
+      ],
+      "id": "litery-82889a834dd6a676409e"
+    },
+    {
+      "prompt": "E · R · A · U · K · J · S · P\nInstrument z bębnami",
+      "answer": "Perkusja",
+      "aliases": [
+        "perkusja"
+      ],
+      "id": "litery-3899ae5b3db042ebcf89"
+    },
+    {
+      "prompt": "R · A · B · K · T · Ą\nInstrument dęty blaszany",
+      "answer": "Trąbka",
+      "aliases": [
+        "trąbka",
+        "trabka"
+      ],
+      "id": "litery-094f44bd7204b517c133"
+    },
+    {
+      "prompt": "T · I · N · F · O · R · P · E · A\nDuży instrument z klawiszami",
+      "answer": "Fortepian",
+      "aliases": [
+        "fortepian"
+      ],
+      "id": "litery-d985a93196a0888d0b84"
+    },
+    {
+      "prompt": "I · A · Ł · R · K · P · Z\nGra w piłkę nożną",
+      "answer": "Piłkarz",
+      "aliases": [
+        "piłkarz",
+        "pilkarz"
+      ],
+      "id": "litery-62aee1bb5d9124a1dfd0"
+    },
+    {
+      "prompt": "R · A · M · R · Z · B · K · A\nBroni bramki",
+      "answer": "Bramkarz",
+      "aliases": [
+        "bramkarz"
+      ],
+      "id": "litery-f8c360e016b6688ead0e"
+    },
+    {
+      "prompt": "R · I · K · A · E · T · A\nDo tenisa albo w kosmos",
+      "answer": "Rakieta",
+      "aliases": [
+        "rakieta"
+      ],
+      "id": "litery-885bdfff9f50d637039a"
+    },
+    {
+      "prompt": "W · R · O · E · R\nDwa koła i pedały",
+      "answer": "Rower",
+      "aliases": [
+        "rower"
+      ],
+      "id": "litery-5f8428718158135eac10"
+    },
+    {
+      "prompt": "T · A · Y · N · R\nDo zjeżdżania po śniegu",
+      "answer": "Narty",
+      "aliases": [
+        "narty"
+      ],
+      "id": "litery-43aa6afd4a8d0e431929"
+    },
+    {
+      "prompt": "W · A · Ł · B · N · A\nUlepiony ze śniegu",
+      "answer": "Bałwan",
+      "aliases": [
+        "bałwan",
+        "balwan"
+      ],
+      "id": "litery-fa827506f91c159f9ce7"
+    },
+    {
+      "prompt": "S · P · L · O · E\nZwisa z dachu zimą",
+      "answer": "Sopel",
+      "aliases": [
+        "sopel"
+      ],
+      "id": "litery-341a5da2a5d4c5987b1d"
+    },
+    {
+      "prompt": "Z · Ę · C · A · T\nKolorowy łuk na niebie",
+      "answer": "Tęcza",
+      "aliases": [
+        "tęcza",
+        "tecza"
+      ],
+      "id": "litery-3800dcf93f26e459c75e"
+    },
+    {
+      "prompt": "A · B · U · Z · R\nGrzmoty i błyskawice",
+      "answer": "Burza",
+      "aliases": [
+        "burza"
+      ],
+      "id": "litery-a7072d811e758efabbd7"
+    },
+    {
+      "prompt": "T · R · W · A · A · I · K\nKręci się na wietrze",
+      "answer": "Wiatrak",
+      "aliases": [
+        "wiatrak"
+      ],
+      "id": "litery-309000e9d9b5b789369a"
+    },
+    {
+      "prompt": "L · O · Y · T · M\nOwad o kolorowych skrzydłach",
+      "answer": "Motyl",
+      "aliases": [
+        "motyl"
+      ],
+      "id": "litery-2d2cdaf8648f800f3938"
+    },
+    {
+      "prompt": "L · M · Ś · A · I · K\nNosi domek na plecach",
+      "answer": "Ślimak",
+      "aliases": [
+        "ślimak",
+        "slimak"
+      ],
+      "id": "litery-8eb2797a9657c644c419"
+    },
+    {
+      "prompt": "Ó · K · M · W · R · A\nMały, bardzo pracowity owad",
+      "answer": "Mrówka",
+      "aliases": [
+        "mrówka",
+        "mrowka"
+      ],
+      "id": "litery-29f0f6992049ed702d8c"
+    },
+    {
+      "prompt": "C · O · S · Z · A · P · Z · Ł\nRobi miód",
+      "answer": "Pszczoła",
+      "aliases": [
+        "pszczoła",
+        "pszczola"
+      ],
+      "id": "litery-09686e7f52eba133a133"
+    },
+    {
+      "prompt": "D · O · A · K · R · E · I · B · N\nCzerwona w kropki",
+      "answer": "Biedronka",
+      "aliases": [
+        "biedronka"
+      ],
+      "id": "litery-ace2583972551fa3654e"
+    },
+    {
+      "prompt": "N · F · D · E · L · I\nInteligentny ssak morski",
+      "answer": "Delfin",
+      "aliases": [
+        "delfin"
+      ],
+      "id": "litery-5996023561a2de875013"
+    },
+    {
+      "prompt": "I · O · B · L · E · W · R · Y\nNajwiększy ssak",
+      "answer": "Wieloryb",
+      "aliases": [
+        "wieloryb"
+      ],
+      "id": "litery-fdcd40f977a3e051338f"
+    },
+    {
+      "prompt": "A · R · G · N · U · K\nSkacze i ma torbę",
+      "answer": "Kangur",
+      "aliases": [
+        "kangur"
+      ],
+      "id": "litery-bac58430126af648bbee"
+    },
+    {
+      "prompt": "P · M · L · R · A · A · T\nCętkowany kot",
+      "answer": "Lampart",
+      "aliases": [
+        "lampart"
+      ],
+      "id": "litery-e7a8db952b73f06b62df"
+    },
+    {
+      "prompt": "S · T · A · U · K · K\nRoślina z kolcami",
+      "answer": "Kaktus",
+      "aliases": [
+        "kaktus"
+      ],
+      "id": "litery-56cb10b78fc108e59739"
+    },
+    {
+      "prompt": "N · I · C · Ł · E · O · Z · N · S · K\nWysoki kwiat z pestkami",
+      "answer": "Słonecznik",
+      "aliases": [
+        "słonecznik",
+        "slonecznik"
+      ],
+      "id": "litery-4b436d42133d0e36f3b9"
+    },
+    {
+      "prompt": "P · N · I · L · A · T · U\nWiosenny kwiat z cebulki",
+      "answer": "Tulipan",
+      "aliases": [
+        "tulipan"
+      ],
+      "id": "litery-f913feb2ad2c5b4bef7f"
+    },
+    {
+      "prompt": "B · Y · R · G · Z\nZbieramy go w lesie jesienią",
+      "answer": "Grzyb",
+      "aliases": [
+        "grzyb"
+      ],
+      "id": "litery-b63650788a06a42a60bd"
+    },
+    {
+      "prompt": "W · U · K · N · L · A\nGóra, która wybucha",
+      "answer": "Wulkan",
+      "aliases": [
+        "wulkan"
+      ],
+      "id": "litery-4e8c68d5abcda22d34c0"
+    },
+    {
+      "prompt": "I · A · Y · T · P · U · S · N\nBardzo sucho i dużo piasku",
+      "answer": "Pustynia",
+      "aliases": [
+        "pustynia"
+      ],
+      "id": "litery-bf259be519034518a263"
+    },
+    {
+      "prompt": "Z · E · O · I · O · R · J\nDuży zbiornik wody w głębi lądu",
+      "answer": "Jezioro",
+      "aliases": [
+        "jezioro"
+      ],
+      "id": "litery-ed7fe388b8dc59c010c9"
+    },
+    {
+      "prompt": "W · A · P · S · Y\nLąd otoczony wodą",
+      "answer": "Wyspa",
+      "aliases": [
+        "wyspa"
+      ],
+      "id": "litery-2a1ea8606849b3a21555"
+    },
+    {
+      "prompt": "E · Z · A · M · K\nMieszkał w nim król",
+      "answer": "Zamek",
+      "aliases": [
+        "zamek"
+      ],
+      "id": "litery-9c8b032995efcd6a18c7"
+    },
+    {
+      "prompt": "O · A · O · N · K · R\nNosi ją królowa",
+      "answer": "Korona",
+      "aliases": [
+        "korona"
+      ],
+      "id": "litery-9a137001edafaa813cfb"
+    },
+    {
+      "prompt": "O · K · S · M\nZieje ogniem w baśniach",
+      "answer": "Smok",
+      "aliases": [
+        "smok"
+      ],
+      "id": "litery-682a286d6a6360681f12"
+    },
+    {
+      "prompt": "Z · R · D · O · A · J · E · I · Z · C\nRzuca zaklęcia",
+      "answer": "Czarodziej",
+      "aliases": [
+        "czarodziej"
+      ],
+      "id": "litery-d9baf9d50ee5d7cb2472"
+    },
+    {
+      "prompt": "R · K · B · A · S\nSzukają go piraci",
+      "answer": "Skarb",
+      "aliases": [
+        "skarb"
+      ],
+      "id": "litery-af224cb09cfdd33a0068"
+    },
+    {
+      "prompt": "O · S · K · N · M · A · T · A · O · U\nLata w kosmos",
+      "answer": "Kosmonauta",
+      "aliases": [
+        "kosmonauta"
+      ],
+      "id": "litery-063e7035e73b466d1268"
+    },
+    {
+      "prompt": "A · L · E · P · N · T · A\nKrąży wokół gwiazdy",
+      "answer": "Planeta",
+      "aliases": [
+        "planeta"
+      ],
+      "id": "litery-3715ace46664a51b402c"
+    },
+    {
+      "prompt": "Ż · Y · K · I · S · C · Ę\nŚwieci w nocy na niebie",
+      "answer": "Księżyc",
+      "aliases": [
+        "księżyc",
+        "ksiezyc"
+      ],
+      "id": "litery-7e9570bb37444ce13cf6"
+    },
+    {
+      "prompt": "T · O · M · K · A · E\nMa świecący warkocz",
+      "answer": "Kometa",
+      "aliases": [
+        "kometa"
+      ],
+      "id": "litery-046e8ed6b4beee1f3994"
+    },
+    {
+      "prompt": "E · A · M · N · S · G\nPrzyciąga żelazo",
+      "answer": "Magnes",
+      "aliases": [
+        "magnes"
+      ],
+      "id": "litery-612b23450fc3cf9d5bc1"
+    },
+    {
+      "prompt": "A · L · U · P\nSzkło powiększające",
+      "answer": "Lupa",
+      "aliases": [
+        "lupa"
+      ],
+      "id": "litery-f5c24752660dde726b69"
+    },
+    {
+      "prompt": "Z · Y · E · S · T · Z\nPiszemy w nim w szkole",
+      "answer": "Zeszyt",
+      "aliases": [
+        "zeszyt"
+      ],
+      "id": "litery-7f3a66639b9257bda089"
+    },
+    {
+      "prompt": "A · P · K · L · E · C\nNosimy go na plecach",
+      "answer": "Plecak",
+      "aliases": [
+        "plecak"
+      ],
+      "id": "litery-557a19bf82ecbe62c3f9"
+    },
+    {
+      "prompt": "K · L · I · J · A · N · I\nDo rysowania prostych linii",
+      "answer": "Linijka",
+      "aliases": [
+        "linijka"
+      ],
+      "id": "litery-cf7bedd1ccad492e0cd2"
+    },
+    {
+      "prompt": "K · M · A · G · U\nWymazuje ołówek",
+      "answer": "Gumka",
+      "aliases": [
+        "gumka"
+      ],
+      "id": "litery-508d00704b2403d422e2"
+    },
+    {
+      "prompt": "E · D · K · K · R · A\nDo kolorowania",
+      "answer": "Kredka",
+      "aliases": [
+        "kredka"
+      ],
+      "id": "litery-2d96799250c96cb7268f"
+    },
+    {
+      "prompt": "I · K · C · A · H · O · N\nUbieramy ją w grudniu",
+      "answer": "Choinka",
+      "aliases": [
+        "choinka"
+      ],
+      "id": "litery-072ec0cc21881d0ac0e3"
+    },
+    {
+      "prompt": "E · R · Z · E · P · T · N\nDostajemy go na urodziny",
+      "answer": "Prezent",
+      "aliases": [
+        "prezent"
+      ],
+      "id": "litery-71dd86facb93b64ba21d"
+    },
+    {
+      "prompt": "A · L · B · O · N\nNadmuchujemy go na imprezę",
+      "answer": "Balon",
+      "aliases": [
+        "balon"
+      ],
+      "id": "litery-214389a45474d654c8aa"
+    },
+    {
+      "prompt": "T · R · O · T\nMa świeczki na urodzinach",
+      "answer": "Tort",
+      "aliases": [
+        "tort"
+      ],
+      "id": "litery-3d4975eac9aa6a9c3fb6"
+    },
+    {
+      "prompt": "K · I · E · W · R · J · F · A · R · E\nStrzelają w sylwestra",
+      "answer": "Fajerwerki",
+      "aliases": [
+        "fajerwerki"
+      ],
+      "id": "litery-4ff12fab731bc8391147"
+    },
+    {
+      "prompt": "J · A · A · E · K · W · C\nLetnia przerwa od szkoły",
+      "answer": "Wakacje",
+      "aliases": [
+        "wakacje"
+      ],
+      "id": "litery-0967844f4316759bf60c"
+    },
+    {
+      "prompt": "N · A · I · O · T · M\nŚpimy w nim na kempingu",
+      "answer": "Namiot",
+      "aliases": [
+        "namiot"
+      ],
+      "id": "litery-75b1f8ad497c636c479f"
+    },
+    {
+      "prompt": "A · P · A · L · Ż\nPiasek nad morzem",
+      "answer": "Plaża",
+      "aliases": [
+        "plaża",
+        "plaza"
+      ],
+      "id": "litery-77c9fcb6aedbe851eea7"
     }
   ],
   "Co to za piłkarz?": [
@@ -29728,436 +39819,506 @@ export const bank = {
   ],
   "Kontury państw": [
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Polska",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/pl/512.png",
-      "id": "kontur-f437cb078acc7c6d7987"
+      "image": "/outlines/map-9a2daa92b255.webp",
+      "id": "kontur-f437cb078acc7c6d7987",
+      "source": "https://commons.wikimedia.org/wiki/File:Poland_in_Europe.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Włochy",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/it/512.png",
-      "id": "kontur-6c5522ca8af86fc5069b"
+      "image": "/outlines/map-bc7f3ac6135d.webp",
+      "id": "kontur-6c5522ca8af86fc5069b",
+      "source": "https://commons.wikimedia.org/wiki/File:Italy_in_Europe.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Hiszpania",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/es/512.png",
-      "id": "kontur-09cd68a2a77b22a312dd"
+      "image": "/outlines/map-083487faaf7f.webp",
+      "id": "kontur-09cd68a2a77b22a312dd",
+      "source": "https://commons.wikimedia.org/wiki/File:Spain_in_Europe.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Francja",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/fr/512.png",
-      "id": "kontur-b858a87c07b04c4568f5"
+      "image": "/outlines/map-cb0c7e407123.webp",
+      "id": "kontur-b858a87c07b04c4568f5",
+      "source": "https://commons.wikimedia.org/wiki/File:France_in_Europe.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Niemcy",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/de/512.png",
-      "id": "kontur-600ccd1b71569232d01d"
+      "image": "/outlines/map-bb75ae04c9f6.webp",
+      "id": "kontur-600ccd1b71569232d01d",
+      "source": "https://commons.wikimedia.org/wiki/File:Germany_in_Europe.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Wielka Brytania",
       "aliases": [
         "Zjednoczone Królestwo"
       ],
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/gb/512.png",
-      "id": "kontur-61fc7bcf04ff146cac10"
+      "image": "/outlines/map-aa2b04c07be8.webp",
+      "id": "kontur-61fc7bcf04ff146cac10",
+      "source": "https://commons.wikimedia.org/wiki/File:Europe-United_Kingdom.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Irlandia",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ie/512.png",
-      "id": "kontur-46680a665d08484a2886"
+      "image": "/outlines/map-cdf975fe4781.webp",
+      "id": "kontur-46680a665d08484a2886",
+      "source": "https://commons.wikimedia.org/wiki/File:Ireland_in_Europe.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Norwegia",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/no/512.png",
-      "id": "kontur-fd1286353570c5703799"
+      "image": "/outlines/map-97cdb8c2eef2.webp",
+      "id": "kontur-fd1286353570c5703799",
+      "source": "https://commons.wikimedia.org/wiki/File:Europe-Norway.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Szwecja",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/se/512.png",
-      "id": "kontur-00762ccfa703393e0daf"
+      "image": "/outlines/map-c5cff43d56d4.webp",
+      "id": "kontur-00762ccfa703393e0daf",
+      "source": "https://commons.wikimedia.org/wiki/File:Sweden_in_Europe.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Finlandia",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/fi/512.png",
-      "id": "kontur-6b163fa3bad47a62474a"
+      "image": "/outlines/map-fcc1d5ebf773.webp",
+      "id": "kontur-6b163fa3bad47a62474a",
+      "source": "https://commons.wikimedia.org/wiki/File:Finland_in_Europe.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Islandia",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/is/512.png",
-      "id": "kontur-b47f363e2b430c0647f1"
+      "image": "/outlines/map-72be2e1c0700.webp",
+      "id": "kontur-b47f363e2b430c0647f1",
+      "source": "https://commons.wikimedia.org/wiki/File:Europe-Iceland.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Dania",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/dk/512.png",
-      "id": "kontur-d5658db4705ff5c6ad3f"
+      "image": "/outlines/map-628220d05a75.webp",
+      "id": "kontur-d5658db4705ff5c6ad3f",
+      "source": "https://commons.wikimedia.org/wiki/File:Denmark_in_Europe.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Grecja",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/gr/512.png",
-      "id": "kontur-de06109890d26a134f72"
+      "image": "/outlines/map-8e7b73fc33ed.webp",
+      "id": "kontur-de06109890d26a134f72",
+      "source": "https://commons.wikimedia.org/wiki/File:Greece_in_Europe.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Turcja",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/tr/512.png",
-      "id": "kontur-d9e83874d260f2f10d48"
+      "image": "/outlines/map-8f42ed1c1297.webp",
+      "id": "kontur-d9e83874d260f2f10d48",
+      "source": "https://commons.wikimedia.org/wiki/File:Turkey_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Ukraina",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ua/512.png",
-      "id": "kontur-1589fe079bb1b8fe3381"
+      "image": "/outlines/map-766956bea484.webp",
+      "id": "kontur-1589fe079bb1b8fe3381",
+      "source": "https://commons.wikimedia.org/wiki/File:Europe-Ukraine.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Rosja",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ru/512.png",
-      "id": "kontur-67b8b1c4fedb2e38e2eb"
+      "image": "/outlines/map-0c21e989577b.webp",
+      "id": "kontur-67b8b1c4fedb2e38e2eb",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_Federation_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Japonia",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/jp/512.png",
-      "id": "kontur-0f41a0b3b760b54df703"
+      "image": "/outlines/map-df64b51b08d1.webp",
+      "id": "kontur-0f41a0b3b760b54df703",
+      "source": "https://commons.wikimedia.org/wiki/File:Japan_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Chiny",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/cn/512.png",
-      "id": "kontur-b0bc9abd90e2f7b3bfd6"
+      "image": "/outlines/map-d80a68838802.webp",
+      "id": "kontur-b0bc9abd90e2f7b3bfd6",
+      "source": "https://commons.wikimedia.org/wiki/File:People%27s_Republic_of_China_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Indie",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/in/512.png",
-      "id": "kontur-af10ef20dd9060bbeead"
+      "image": "/outlines/map-d188cc89d955.webp",
+      "id": "kontur-af10ef20dd9060bbeead",
+      "source": "https://commons.wikimedia.org/wiki/File:India_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Australia",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/au/512.png",
-      "id": "kontur-f095160c09b366f6e7cf"
+      "image": "/outlines/map-828b2396ef95.webp",
+      "id": "kontur-f095160c09b366f6e7cf",
+      "source": "https://commons.wikimedia.org/wiki/File:Australia_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Nowa Zelandia",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/nz/512.png",
-      "id": "kontur-5cea5a51764110bef308"
+      "image": "/outlines/map-474018e835cc.webp",
+      "id": "kontur-5cea5a51764110bef308",
+      "source": "https://commons.wikimedia.org/wiki/File:New_Zealand_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Stany Zjednoczone",
       "aliases": [
         "USA"
       ],
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/us/512.png",
-      "id": "kontur-da2b128800d4e129def7"
+      "image": "/outlines/map-5e1ee2954421.webp",
+      "id": "kontur-da2b128800d4e129def7",
+      "source": "https://commons.wikimedia.org/wiki/File:United_States_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Kanada",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ca/512.png",
-      "id": "kontur-1c42c72cf95aa1b76609"
+      "image": "/outlines/map-699a2ca43767.webp",
+      "id": "kontur-1c42c72cf95aa1b76609",
+      "source": "https://commons.wikimedia.org/wiki/File:Canada_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Meksyk",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/mx/512.png",
-      "id": "kontur-3ab846d50e49eefc7276"
+      "image": "/outlines/map-363a3c52f8cb.webp",
+      "id": "kontur-3ab846d50e49eefc7276",
+      "source": "https://commons.wikimedia.org/wiki/File:Mexico_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Brazylia",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/br/512.png",
-      "id": "kontur-3eb65786145ecb71e9dc"
+      "image": "/outlines/map-c687c8ab4450.webp",
+      "id": "kontur-3eb65786145ecb71e9dc",
+      "source": "https://commons.wikimedia.org/wiki/File:Brazil_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Argentyna",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ar/512.png",
-      "id": "kontur-23d8e0156062165ca373"
+      "image": "/outlines/map-73c29572deaf.webp",
+      "id": "kontur-23d8e0156062165ca373",
+      "source": "https://commons.wikimedia.org/wiki/File:Argentina_(including_claimed_territories,_orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Chile",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/cl/512.png",
-      "id": "kontur-ef3ecccf258fa062c5c6"
+      "image": "/outlines/map-3d973a5beeac.webp",
+      "id": "kontur-ef3ecccf258fa062c5c6",
+      "source": "https://commons.wikimedia.org/wiki/File:Chile_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Peru",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/pe/512.png",
-      "id": "kontur-1db828bcd41de75377dc"
+      "image": "/outlines/map-b6bb642cfeba.webp",
+      "id": "kontur-1db828bcd41de75377dc",
+      "source": "https://commons.wikimedia.org/wiki/File:Peru_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Kolumbia",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/co/512.png",
-      "id": "kontur-87dda20416649f2a6a1b"
+      "image": "/outlines/map-b60186e0c7aa.webp",
+      "id": "kontur-87dda20416649f2a6a1b",
+      "source": "https://commons.wikimedia.org/wiki/File:Colombia_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Wenezuela",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ve/512.png",
-      "id": "kontur-934cff2debe78535b896"
+      "image": "/outlines/map-6c53b8905458.webp",
+      "id": "kontur-934cff2debe78535b896",
+      "source": "https://commons.wikimedia.org/wiki/File:Venezuela_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Boliwia",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/bo/512.png",
-      "id": "kontur-dc45fe023482b3b890b5"
+      "image": "/outlines/map-57869cd5b515.webp",
+      "id": "kontur-dc45fe023482b3b890b5",
+      "source": "https://commons.wikimedia.org/wiki/File:Bolivia_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Kuba",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/cu/512.png",
-      "id": "kontur-93c30b1a3b78a6cefc99"
+      "image": "/outlines/map-6be76c29518d.webp",
+      "id": "kontur-93c30b1a3b78a6cefc99",
+      "source": "https://commons.wikimedia.org/wiki/File:Cuba_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Egipt",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/eg/512.png",
-      "id": "kontur-3a1c21a559ed42d6ce17"
+      "image": "/outlines/map-ab3499991db7.webp",
+      "id": "kontur-3a1c21a559ed42d6ce17",
+      "source": "https://commons.wikimedia.org/wiki/File:Egypt_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Republika Południowej Afryki",
       "aliases": [
         "RPA"
       ],
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/za/512.png",
-      "id": "kontur-85c9baff15217366743d"
+      "image": "/outlines/map-1174bae73686.webp",
+      "id": "kontur-85c9baff15217366743d",
+      "source": "https://commons.wikimedia.org/wiki/File:South_Africa_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Madagaskar",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/mg/512.png",
-      "id": "kontur-191be3715bae070c2198"
+      "image": "/outlines/map-4d44f0e45cdb.webp",
+      "id": "kontur-191be3715bae070c2198",
+      "source": "https://commons.wikimedia.org/wiki/File:Madagascar_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Nigeria",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ng/512.png",
-      "id": "kontur-7d65c4e24b8e3736acf9"
+      "image": "/outlines/map-b5db66bb55ca.webp",
+      "id": "kontur-7d65c4e24b8e3736acf9",
+      "source": "https://commons.wikimedia.org/wiki/File:Nigeria_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Maroko",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ma/512.png",
-      "id": "kontur-1382244e1784be148fb7"
+      "image": "/outlines/map-a39618625cba.webp",
+      "id": "kontur-1382244e1784be148fb7",
+      "source": "https://commons.wikimedia.org/wiki/File:Morocco_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Kenia",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ke/512.png",
-      "id": "kontur-15d5e1d3b948fd5986aa"
+      "image": "/outlines/map-2d93e343bdd7.webp",
+      "id": "kontur-15d5e1d3b948fd5986aa",
+      "source": "https://commons.wikimedia.org/wiki/File:Kenya_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Etiopia",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/et/512.png",
-      "id": "kontur-a5bc1d9b2ae74e7a8a24"
+      "image": "/outlines/map-ce6d9c3dc85c.webp",
+      "id": "kontur-a5bc1d9b2ae74e7a8a24",
+      "source": "https://commons.wikimedia.org/wiki/File:Ethiopia_(Africa_orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Somalia",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/so/512.png",
-      "id": "kontur-cd1b646ebd1f6844c60d"
+      "image": "/outlines/map-9328641cf854.webp",
+      "id": "kontur-cd1b646ebd1f6844c60d",
+      "source": "https://commons.wikimedia.org/wiki/File:Somalia_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Arabia Saudyjska",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/sa/512.png",
-      "id": "kontur-3608a6d1a05aba23ea39"
+      "image": "/outlines/map-8c0268c75019.webp",
+      "id": "kontur-3608a6d1a05aba23ea39",
+      "source": "https://commons.wikimedia.org/wiki/File:Saudi_Arabia_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Iran",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ir/512.png",
-      "id": "kontur-aa1553beed5d8173d357"
+      "image": "/outlines/map-b5acbb99a2c7.webp",
+      "id": "kontur-aa1553beed5d8173d357",
+      "source": "https://commons.wikimedia.org/wiki/File:Iran_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Irak",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/iq/512.png",
-      "id": "kontur-a07d6616d8e8326ac64e"
+      "image": "/outlines/map-d7497dbea228.webp",
+      "id": "kontur-a07d6616d8e8326ac64e",
+      "source": "https://commons.wikimedia.org/wiki/File:Iraq_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Izrael",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/il/512.png",
-      "id": "kontur-53c1d6afa31aaad85a69"
+      "image": "/outlines/map-eae6178383cb.webp",
+      "id": "kontur-53c1d6afa31aaad85a69",
+      "source": "https://commons.wikimedia.org/wiki/File:Israel_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Pakistan",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/pk/512.png",
-      "id": "kontur-6924110cde4fa051bfdc"
+      "image": "/outlines/map-777ef202f520.webp",
+      "id": "kontur-6924110cde4fa051bfdc",
+      "source": "https://commons.wikimedia.org/wiki/File:Pakistan_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Afganistan",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/af/512.png",
-      "id": "kontur-d1e622507595486ee06d"
+      "image": "/outlines/map-2fbf10f09f30.webp",
+      "id": "kontur-d1e622507595486ee06d",
+      "source": "https://commons.wikimedia.org/wiki/File:Afghanistan_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Wietnam",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/vn/512.png",
-      "id": "kontur-3285442f49f202ac0bcb"
+      "image": "/outlines/map-8772b86d7139.webp",
+      "id": "kontur-3285442f49f202ac0bcb",
+      "source": "https://commons.wikimedia.org/wiki/File:Vietnam_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Tajlandia",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/th/512.png",
-      "id": "kontur-fa6af6e97d010a98b5bf"
+      "image": "/outlines/map-713444225f3c.webp",
+      "id": "kontur-fa6af6e97d010a98b5bf",
+      "source": "https://commons.wikimedia.org/wiki/File:Thailand_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Indonezja",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/id/512.png",
-      "id": "kontur-87ea5dfc8b8e384d8489"
+      "image": "/outlines/map-bfab5858a0f8.webp",
+      "id": "kontur-87ea5dfc8b8e384d8489",
+      "source": "https://commons.wikimedia.org/wiki/File:Indonesia_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Filipiny",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ph/512.png",
-      "id": "kontur-8df74dda184c19df19d4"
+      "image": "/outlines/map-826b99d38b6f.webp",
+      "id": "kontur-8df74dda184c19df19d4",
+      "source": "https://commons.wikimedia.org/wiki/File:Philippines_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Korea Południowa",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/kr/512.png",
-      "id": "kontur-faf8d203b3f952d1eba5"
+      "image": "/outlines/map-59c70a251163.webp",
+      "id": "kontur-faf8d203b3f952d1eba5",
+      "source": "https://commons.wikimedia.org/wiki/File:South_Korea_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Mongolia",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/mn/512.png",
-      "id": "kontur-78dc0cd3e7ef475d2c3e"
+      "image": "/outlines/map-1bd85a245660.webp",
+      "id": "kontur-78dc0cd3e7ef475d2c3e",
+      "source": "https://commons.wikimedia.org/wiki/File:Mongolia_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Kazachstan",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/kz/512.png",
-      "id": "kontur-efb215f8f79524f9503c"
+      "image": "/outlines/map-72aaf9fce356.webp",
+      "id": "kontur-efb215f8f79524f9503c",
+      "source": "https://commons.wikimedia.org/wiki/File:Kazakhstan_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Sri Lanka",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/lk/512.png",
-      "id": "kontur-9b20e9ff78b04ea36084"
+      "image": "/outlines/map-24b716cca0e4.webp",
+      "id": "kontur-9b20e9ff78b04ea36084",
+      "source": "https://commons.wikimedia.org/wiki/File:Sri_Lanka_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Nepal",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/np/512.png",
-      "id": "kontur-003fffd5649fc27c0fc0"
+      "image": "/outlines/map-4a476c47937d.webp",
+      "id": "kontur-003fffd5649fc27c0fc0",
+      "source": "https://commons.wikimedia.org/wiki/File:Nepal_(orthographic_projection).svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Czechy",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/cz/512.png",
-      "id": "kontur-763e59c2e07c2124503b"
+      "image": "/outlines/map-04d2c20882dd.webp",
+      "id": "kontur-763e59c2e07c2124503b",
+      "source": "https://commons.wikimedia.org/wiki/File:Czech_Republic_in_Europe.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Słowacja",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/sk/512.png",
-      "id": "kontur-766a6e8998aefe2117d6"
+      "image": "/outlines/map-07a25c0b04c1.webp",
+      "id": "kontur-766a6e8998aefe2117d6",
+      "source": "https://commons.wikimedia.org/wiki/File:Slovakia_in_Europe.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Węgry",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/hu/512.png",
-      "id": "kontur-06b08b32563194c5d89d"
+      "image": "/outlines/map-334f8a561439.webp",
+      "id": "kontur-06b08b32563194c5d89d",
+      "source": "https://commons.wikimedia.org/wiki/File:Hungary_in_Europe.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Austria",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/at/512.png",
-      "id": "kontur-27e90dfa57c358acfaf4"
+      "image": "/outlines/map-e2a046e94583.webp",
+      "id": "kontur-27e90dfa57c358acfaf4",
+      "source": "https://commons.wikimedia.org/wiki/File:Austria_in_Europe.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Szwajcaria",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ch/512.png",
-      "id": "kontur-482bd64c6c9f098c9ef8"
+      "image": "/outlines/map-8f611fcfab38.webp",
+      "id": "kontur-482bd64c6c9f098c9ef8",
+      "source": "https://commons.wikimedia.org/wiki/File:Europe-Switzerland.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Portugalia",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/pt/512.png",
-      "id": "kontur-bc811258ae9f9fcb0494"
+      "image": "/outlines/map-faeec52521b5.webp",
+      "id": "kontur-bc811258ae9f9fcb0494",
+      "source": "https://commons.wikimedia.org/wiki/File:Portugal_in_Europe.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Chorwacja",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/hr/512.png",
-      "id": "kontur-51bd95353aeda6615433"
+      "image": "/outlines/map-79233de1afd4.webp",
+      "id": "kontur-51bd95353aeda6615433",
+      "source": "https://commons.wikimedia.org/wiki/File:Europe-Croatia.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Rumunia",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ro/512.png",
-      "id": "kontur-eed1903a65fb51375c9a"
+      "image": "/outlines/map-9b4a3dd4afda.webp",
+      "id": "kontur-eed1903a65fb51375c9a",
+      "source": "https://commons.wikimedia.org/wiki/File:Romania_in_Europe.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Bułgaria",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/bg/512.png",
-      "id": "kontur-80f87c8847da6c872ce2"
+      "image": "/outlines/map-2f31b9b1add6.webp",
+      "id": "kontur-80f87c8847da6c872ce2",
+      "source": "https://commons.wikimedia.org/wiki/File:Bulgaria_in_Europe.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Białoruś",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/by/512.png",
-      "id": "kontur-408158643ed564c72fa0"
+      "image": "/outlines/map-1d05035ef7ed.webp",
+      "id": "kontur-408158643ed564c72fa0",
+      "source": "https://commons.wikimedia.org/wiki/File:Europe-Belarus.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Belgia",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/be/512.png",
-      "id": "kontur-986b1bc1eb8de89643c5"
+      "image": "/outlines/map-7c14c1bdcd46.webp",
+      "id": "kontur-986b1bc1eb8de89643c5",
+      "source": "https://commons.wikimedia.org/wiki/File:Belgium_in_Europe.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Holandia",
       "aliases": [
         "Niderlandy"
       ],
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/nl/512.png",
-      "id": "kontur-595477bd43c386b66363"
+      "image": "/outlines/map-5a4d4caa5b85.webp",
+      "id": "kontur-595477bd43c386b66363",
+      "source": "https://commons.wikimedia.org/wiki/File:Netherlands_in_Europe.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Litwa",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/lt/512.png",
-      "id": "kontur-5f3acfbeb4f6fa5007dd"
+      "image": "/outlines/map-d8465e65170d.webp",
+      "id": "kontur-5f3acfbeb4f6fa5007dd",
+      "source": "https://commons.wikimedia.org/wiki/File:Lithuania_in_Europe.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Estonia",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ee/512.png",
-      "id": "kontur-1f444844b1ca616009c2"
+      "image": "/outlines/map-611c308ea291.webp",
+      "id": "kontur-1f444844b1ca616009c2",
+      "source": "https://commons.wikimedia.org/wiki/File:Estonia_in_Europe.svg"
     },
     {
-      "prompt": "Jakie państwo ma taki kształt?",
+      "prompt": "Jakie państwo jest zaznaczone na mapie?",
       "answer": "Panama",
-      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/pa/512.png",
-      "id": "kontur-379fc0d5299a71ac0f17"
+      "image": "/outlines/map-257fc47bfe1c.webp",
+      "id": "kontur-379fc0d5299a71ac0f17",
+      "source": "https://commons.wikimedia.org/wiki/File:Panama_(orthographic_projection).svg"
     }
   ],
   "Kosmetyki": [
@@ -33171,6 +43332,432 @@ export const bank = {
       ],
       "visual": "LOL",
       "id": "skrot-8a30407962eeb19b309b"
+    },
+    {
+      "prompt": "Co oznacza skrót MSZ?",
+      "answer": "Ministerstwo Spraw Zagranicznych",
+      "visual": "MSZ",
+      "id": "skrot-51851b44300d101c76d0"
+    },
+    {
+      "prompt": "Co oznacza skrót MEN?",
+      "answer": "Ministerstwo Edukacji Narodowej",
+      "visual": "MEN",
+      "id": "skrot-d84df0f9045265b6fa28"
+    },
+    {
+      "prompt": "Co oznacza skrót KRUS?",
+      "answer": "Kasa Rolniczego Ubezpieczenia Społecznego",
+      "visual": "KRUS",
+      "id": "skrot-63539c7e17deb1764399"
+    },
+    {
+      "prompt": "Co oznacza skrót GOPR?",
+      "answer": "Górskie Ochotnicze Pogotowie Ratunkowe",
+      "visual": "GOPR",
+      "id": "skrot-a0bfd219a0f6a6656d43"
+    },
+    {
+      "prompt": "Co oznacza skrót TOPR?",
+      "answer": "Tatrzańskie Ochotnicze Pogotowie Ratunkowe",
+      "visual": "TOPR",
+      "id": "skrot-c815ee302060efb74a0a"
+    },
+    {
+      "prompt": "Co oznacza skrót WOPR?",
+      "answer": "Wodne Ochotnicze Pogotowie Ratunkowe",
+      "visual": "WOPR",
+      "id": "skrot-4ef3592c9643a3f21275"
+    },
+    {
+      "prompt": "Co oznacza skrót OSP?",
+      "answer": "Ochotnicza Straż Pożarna",
+      "visual": "OSP",
+      "id": "skrot-9b2b61cee35ba083ea8d"
+    },
+    {
+      "prompt": "Co oznacza skrót PSP?",
+      "answer": "Państwowa Straż Pożarna",
+      "visual": "PSP",
+      "id": "skrot-ec6c5f031aa9fbae2439"
+    },
+    {
+      "prompt": "Co oznacza skrót ABW?",
+      "answer": "Agencja Bezpieczeństwa Wewnętrznego",
+      "visual": "ABW",
+      "id": "skrot-4c32fc86e7418aefad2d"
+    },
+    {
+      "prompt": "Co oznacza skrót CBA?",
+      "answer": "Centralne Biuro Antykorupcyjne",
+      "visual": "CBA",
+      "id": "skrot-7e2932f784a9131a6c60"
+    },
+    {
+      "prompt": "Co oznacza skrót NIK?",
+      "answer": "Najwyższa Izba Kontroli",
+      "visual": "NIK",
+      "id": "skrot-6908c7f42bbcafa87f56"
+    },
+    {
+      "prompt": "Co oznacza skrót RPO?",
+      "answer": "Rzecznik Praw Obywatelskich",
+      "visual": "RPO",
+      "id": "skrot-08bb7eb037ee20d28203"
+    },
+    {
+      "prompt": "Co oznacza skrót TK?",
+      "answer": "Trybunał Konstytucyjny",
+      "visual": "TK",
+      "id": "skrot-88a286e07a0de405f3ce"
+    },
+    {
+      "prompt": "Co oznacza skrót SN?",
+      "answer": "Sąd Najwyższy",
+      "visual": "SN",
+      "id": "skrot-3d92ccd549a2f4af2650"
+    },
+    {
+      "prompt": "Co oznacza skrót UOKiK?",
+      "answer": "Urząd Ochrony Konkurencji i Konsumentów",
+      "visual": "UOKiK",
+      "id": "skrot-6ef9153915f062658dc7"
+    },
+    {
+      "prompt": "Co oznacza skrót GDDKiA?",
+      "answer": "Generalna Dyrekcja Dróg Krajowych i Autostrad",
+      "visual": "GDDKiA",
+      "id": "skrot-2d200577b639390463e9"
+    },
+    {
+      "prompt": "Co oznacza skrót WOŚP?",
+      "answer": "Wielka Orkiestra Świątecznej Pomocy",
+      "visual": "WOŚP",
+      "id": "skrot-23835b4a1bcaef75ee45"
+    },
+    {
+      "prompt": "Co oznacza skrót PTTK?",
+      "answer": "Polskie Towarzystwo Turystyczno-Krajoznawcze",
+      "visual": "PTTK",
+      "id": "skrot-18f9e998f03b6219e2f2"
+    },
+    {
+      "prompt": "Co oznacza skrót ZHP?",
+      "answer": "Związek Harcerstwa Polskiego",
+      "visual": "ZHP",
+      "id": "skrot-2c9e0d33d6f99bd37a45"
+    },
+    {
+      "prompt": "Co oznacza skrót PAN?",
+      "answer": "Polska Akademia Nauk",
+      "visual": "PAN",
+      "id": "skrot-27341edfb97490c0fba2"
+    },
+    {
+      "prompt": "Co oznacza skrót PWN?",
+      "answer": "Państwowe Wydawnictwo Naukowe",
+      "visual": "PWN",
+      "id": "skrot-113c19a3dffcbe90faf8"
+    },
+    {
+      "prompt": "Co oznacza skrót PAP?",
+      "answer": "Polska Agencja Prasowa",
+      "visual": "PAP",
+      "id": "skrot-b69a19847a96fc5cf6cd"
+    },
+    {
+      "prompt": "Co oznacza skrót PKOl?",
+      "answer": "Polski Komitet Olimpijski",
+      "visual": "PKOl",
+      "id": "skrot-2229c04fa8d5a4087a16"
+    },
+    {
+      "prompt": "Co oznacza skrót IMGW?",
+      "answer": "Instytut Meteorologii i Gospodarki Wodnej",
+      "visual": "IMGW",
+      "id": "skrot-decfa8ba43d039e0a9e5"
+    },
+    {
+      "prompt": "Co oznacza skrót SGH?",
+      "answer": "Szkoła Główna Handlowa",
+      "visual": "SGH",
+      "id": "skrot-5ca65cdea4a03cf92ca8"
+    },
+    {
+      "prompt": "Co oznacza skrót UW?",
+      "answer": "Uniwersytet Warszawski",
+      "visual": "UW",
+      "id": "skrot-d5b28247efdbaa9e017d"
+    },
+    {
+      "prompt": "Co oznacza skrót UAM?",
+      "answer": "Uniwersytet im. Adama Mickiewicza w Poznaniu",
+      "visual": "UAM",
+      "id": "skrot-c7e595715e414db8036e"
+    },
+    {
+      "prompt": "Co oznacza skrót KUL?",
+      "answer": "Katolicki Uniwersytet Lubelski",
+      "visual": "KUL",
+      "id": "skrot-ab7bc642f313bd18db34"
+    },
+    {
+      "prompt": "Co oznacza skrót ASP?",
+      "answer": "Akademia Sztuk Pięknych",
+      "visual": "ASP",
+      "id": "skrot-486651f3e8f1ddaabd79"
+    },
+    {
+      "prompt": "Co oznacza skrót OPEC?",
+      "answer": "Organizacja Krajów Eksportujących Ropę Naftową",
+      "visual": "OPEC",
+      "id": "skrot-9cf107d6b6dd1f4ee61e"
+    },
+    {
+      "prompt": "Co oznacza skrót WTO?",
+      "answer": "Światowa Organizacja Handlu",
+      "visual": "WTO",
+      "id": "skrot-99ec6c75c485dddf4715"
+    },
+    {
+      "prompt": "Co oznacza skrót MFW?",
+      "answer": "Międzynarodowy Fundusz Walutowy",
+      "visual": "MFW",
+      "id": "skrot-a3ff3e8811183113f4fc"
+    },
+    {
+      "prompt": "Co oznacza skrót UNICEF?",
+      "answer": "Fundusz Narodów Zjednoczonych na rzecz Dzieci",
+      "visual": "UNICEF",
+      "id": "skrot-ef06b8261d36c4287557"
+    },
+    {
+      "prompt": "Co oznacza skrót NBA?",
+      "answer": "National Basketball Association (liga koszykówki w USA)",
+      "visual": "NBA",
+      "id": "skrot-635edaf6949efaa44add"
+    },
+    {
+      "prompt": "Co oznacza skrót NHL?",
+      "answer": "National Hockey League (liga hokeja)",
+      "visual": "NHL",
+      "id": "skrot-86d09882976322499694"
+    },
+    {
+      "prompt": "Co oznacza skrót MMA?",
+      "answer": "Mieszane sztuki walki (Mixed Martial Arts)",
+      "visual": "MMA",
+      "id": "skrot-03c01c9824372aacfb5b"
+    },
+    {
+      "prompt": "Co oznacza skrót KO?",
+      "answer": "Nokaut (knock-out)",
+      "visual": "KO",
+      "id": "skrot-67f7dc84f68a97b8cfaa"
+    },
+    {
+      "prompt": "Co oznacza skrót MVP?",
+      "answer": "Najbardziej wartościowy zawodnik (Most Valuable Player)",
+      "visual": "MVP",
+      "id": "skrot-18612ce636e7d6cbae9f"
+    },
+    {
+      "prompt": "Co oznacza skrót GPS?",
+      "answer": "Globalny system pozycjonowania (Global Positioning System)",
+      "visual": "GPS",
+      "id": "skrot-be7638b467f1ac9cd6e3"
+    },
+    {
+      "prompt": "Co oznacza skrót USB?",
+      "answer": "Uniwersalna magistrala szeregowa (Universal Serial Bus)",
+      "visual": "USB",
+      "id": "skrot-164c541cffd3636b6146"
+    },
+    {
+      "prompt": "Co oznacza skrót CPU?",
+      "answer": "Procesor (Central Processing Unit)",
+      "visual": "CPU",
+      "id": "skrot-bc4376d6caa890ed1ee5"
+    },
+    {
+      "prompt": "Co oznacza skrót RAM?",
+      "answer": "Pamięć o dostępie swobodnym (Random Access Memory)",
+      "visual": "RAM",
+      "id": "skrot-0f3f5517a99cf5419089"
+    },
+    {
+      "prompt": "Co oznacza skrót PDF?",
+      "answer": "Format dokumentu (Portable Document Format)",
+      "visual": "PDF",
+      "id": "skrot-5fb24cc9aa2ba1fff4b6"
+    },
+    {
+      "prompt": "Co oznacza skrót AI?",
+      "answer": "Sztuczna inteligencja (Artificial Intelligence)",
+      "visual": "AI",
+      "id": "skrot-ee5dd3f0cb64f81d161f"
+    },
+    {
+      "prompt": "Co oznacza skrót VR?",
+      "answer": "Wirtualna rzeczywistość (Virtual Reality)",
+      "visual": "VR",
+      "id": "skrot-718bb602afc978e5f4a6"
+    },
+    {
+      "prompt": "Co oznacza skrót QR?",
+      "answer": "Szybka odpowiedź (Quick Response) – kod QR",
+      "visual": "QR",
+      "id": "skrot-aac27a077acbdfadfb58"
+    },
+    {
+      "prompt": "Co oznacza skrót Wi-Fi?",
+      "answer": "Bezprzewodowa sieć lokalna",
+      "visual": "Wi-Fi",
+      "id": "skrot-d1852e9bf21e0b3390b3"
+    },
+    {
+      "prompt": "Co oznacza skrót HTML?",
+      "answer": "Hipertekstowy język znaczników (HyperText Markup Language)",
+      "visual": "HTML",
+      "id": "skrot-502b3cca0c3a2649e820"
+    },
+    {
+      "prompt": "Co oznacza skrót BMI?",
+      "answer": "Wskaźnik masy ciała (Body Mass Index)",
+      "visual": "BMI",
+      "id": "skrot-333777134a4ffb0a9b98"
+    },
+    {
+      "prompt": "Co oznacza skrót OIOM?",
+      "answer": "Oddział Intensywnej Opieki Medycznej",
+      "visual": "OIOM",
+      "id": "skrot-906df9a83411e722167c"
+    },
+    {
+      "prompt": "Co oznacza skrót HIV?",
+      "answer": "Ludzki wirus niedoboru odporności",
+      "visual": "HIV",
+      "id": "skrot-91ab8c01c0c0db32d7bc"
+    },
+    {
+      "prompt": "Co oznacza skrót USG?",
+      "answer": "Ultrasonografia (badanie ultradźwiękowe)",
+      "visual": "USG",
+      "id": "skrot-235961ffa17366653bf2"
+    },
+    {
+      "prompt": "Co oznacza skrót ok.?",
+      "answer": "Około",
+      "visual": "ok.",
+      "id": "skrot-ec122e243b3e07343eba"
+    },
+    {
+      "prompt": "Co oznacza skrót np.?",
+      "answer": "Na przykład",
+      "visual": "np.",
+      "id": "skrot-14de33b7e7ac3c898ff9"
+    },
+    {
+      "prompt": "Co oznacza skrót itd.?",
+      "answer": "I tak dalej",
+      "visual": "itd.",
+      "id": "skrot-9ce79176a7700be7d94e"
+    },
+    {
+      "prompt": "Co oznacza skrót itp.?",
+      "answer": "I tym podobne",
+      "visual": "itp.",
+      "id": "skrot-bb39366bfe35e8b210dd"
+    },
+    {
+      "prompt": "Co oznacza skrót ds.?",
+      "answer": "Do spraw",
+      "visual": "ds.",
+      "id": "skrot-831b455345b6a46d0dce"
+    },
+    {
+      "prompt": "Co oznacza skrót ul.?",
+      "answer": "Ulica",
+      "visual": "ul.",
+      "id": "skrot-18df6f16c2dfdceb420f"
+    },
+    {
+      "prompt": "Co oznacza skrót al.?",
+      "answer": "Aleja",
+      "visual": "al.",
+      "id": "skrot-5815b4f0d48a9ca45c97"
+    },
+    {
+      "prompt": "Co oznacza skrót pl.?",
+      "answer": "Plac",
+      "visual": "pl.",
+      "id": "skrot-30fa0288c881e322ce04"
+    },
+    {
+      "prompt": "Co oznacza skrót woj.?",
+      "answer": "Województwo",
+      "visual": "woj.",
+      "id": "skrot-df4014d7af8765a0a19b"
+    },
+    {
+      "prompt": "Co oznacza skrót n.p.m.?",
+      "answer": "Nad poziomem morza",
+      "visual": "n.p.m.",
+      "id": "skrot-a7a6f80898c1e389b7f0"
+    },
+    {
+      "prompt": "Co oznacza skrót n.e.?",
+      "answer": "Naszej ery",
+      "visual": "n.e.",
+      "id": "skrot-3d4e08403aa63bc50f97"
+    },
+    {
+      "prompt": "Co oznacza skrót br.?",
+      "answer": "Bieżącego roku",
+      "visual": "br.",
+      "id": "skrot-bddb8deea9b5443520f3"
+    },
+    {
+      "prompt": "Co oznacza skrót tel.?",
+      "answer": "Telefon",
+      "visual": "tel.",
+      "id": "skrot-4c5b60f273a97f8e377a"
+    },
+    {
+      "prompt": "Co oznacza skrót godz.?",
+      "answer": "Godzina",
+      "visual": "godz.",
+      "id": "skrot-55c506933ee9cf51b9dd"
+    },
+    {
+      "prompt": "Co oznacza skrót IDK?",
+      "answer": "Nie wiem (I don’t know)",
+      "visual": "IDK",
+      "id": "skrot-4bad971b630a5a5968f4"
+    },
+    {
+      "prompt": "Co oznacza skrót BRB?",
+      "answer": "Zaraz wracam (Be right back)",
+      "visual": "BRB",
+      "id": "skrot-484a9df260ab8c0049c3"
+    },
+    {
+      "prompt": "Co oznacza skrót AFK?",
+      "answer": "Z dala od klawiatury (Away from keyboard)",
+      "visual": "AFK",
+      "id": "skrot-bd116547471dce976225"
+    },
+    {
+      "prompt": "Co oznacza skrót GG?",
+      "answer": "Dobra gra (Good game)",
+      "visual": "GG",
+      "id": "skrot-214fc06765a5035d3f88"
+    },
+    {
+      "prompt": "Co oznacza skrót XD?",
+      "answer": "Śmiejąca się buźka (emotikona)",
+      "visual": "XD",
+      "id": "skrot-2a388f3f06267b4690cd"
     }
   ],
   "Zabytki świata": [
