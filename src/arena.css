@@ -335,7 +335,7 @@ details[open] > summary { margin-bottom: 10px; }
 /* Dark silhouettes (country outlines) and photos read best on a light card in dark mode. */
 /* Przybliżenie: the photo zooms out from a detail at a steady perceived speed (4.5× → 1× over 15 s, geometric steps). */
 .zoom-frame { position: relative; width: min(100%, calc(480px * var(--image-scale, 1))); aspect-ratio: 4 / 3; overflow: hidden; border-radius: 20px; background: var(--raised); box-shadow: var(--shadow-lg); }
-.zoom-frame__img { display: block; width: 100%; height: 100%; object-fit: cover; transform-origin: var(--zx, 50%) var(--zy, 50%); animation: zoom-out 15s linear forwards; }
+.zoom-frame__img { will-change: transform; display: block; width: 100%; height: 100%; object-fit: cover; transform-origin: var(--zx, 50%) var(--zy, 50%); animation: zoom-out 15s linear forwards; }
 .zoom-frame.is-held .zoom-frame__img { animation-play-state: paused; }
 .zoom-frame.is-pixel .zoom-frame__img { image-rendering: pixelated; object-fit: contain; background: #fff; }
 @keyframes zoom-out { 0% { transform: scale(4.5); } 20% { transform: scale(3.33); } 40% { transform: scale(2.46); } 60% { transform: scale(1.83); } 80% { transform: scale(1.35); } 100% { transform: scale(1); } }
@@ -414,6 +414,11 @@ details[open] > summary { margin-bottom: 10px; }
 .lobby-rules__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
 .lobby-rules__hints { margin: 12px 0 0; padding-left: 18px; color: var(--muted); font-size: 13px; line-height: 1.5; }
 .duel-head__pills { display: inline-flex; flex-wrap: wrap; gap: 6px; justify-content: flex-end; }
+.answer-flash { position: fixed; inset: 0; z-index: 70; pointer-events: none; opacity: 0; animation: answer-blink 450ms ease-out; }
+.answer-flash--good { background: rgb(52 199 89 / 38%); box-shadow: inset 0 0 0 10px rgb(52 199 89 / 70%); }
+.answer-flash--bad { background: rgb(255 59 48 / 38%); box-shadow: inset 0 0 0 10px rgb(255 59 48 / 70%); }
+.answer-flash--next { background: rgb(255 149 0 / 30%); box-shadow: inset 0 0 0 10px rgb(255 149 0 / 60%); }
+@keyframes answer-blink { 0% { opacity: 0; } 20% { opacity: 1; } 100% { opacity: 0; } }
 .ready-bar { position: fixed; z-index: 50; left: 50%; bottom: max(16px, env(safe-area-inset-bottom)); transform: translateX(-50%); display: flex; align-items: center; gap: 16px; width: max-content; max-width: calc(100% - 32px); padding: 10px 10px 10px 20px; border-radius: 999px; background: var(--panel); box-shadow: var(--shadow-lg); font-size: 14px; font-weight: 500; animation: sheet 300ms var(--ease); }
 .ready-bar span { color: var(--muted); }
 @media (max-width: 560px) { .ready-bar { flex-direction: column; gap: 8px; padding: 12px; border-radius: 22px; } .ready-bar .btn { width: 100%; } }

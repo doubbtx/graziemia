@@ -7,7 +7,9 @@ const ok=(x,m)=>{if(!x)throw Error(m);};
 const mediaReadyTimeout=6000;
 const current=r=>r.duel?bank[r.duel.category]?.[r.duel.index]:null;
 // Players report once every image is preloaded; then an image question starts at once instead of waiting for IMAGE_READY round trips.
-function skipPreloadedMedia(r,now){const d=r.duel,q=current(r);if(d?.status!=='media'||!q?.image)return false;const ready=[...d.ids,d.adminId].every(id=>{const failed=r.mediaPreload?.[id];return Array.isArray(failed)&&!failed.includes(q.image)});if(!ready)return false;d.status='running';d.lastAt=now;d.mediaReady=[...d.ids,d.adminId];d.mediaDeadline=null;return true;}
+// A report is either a list of failed images (whole bank preloaded) or {categories, failed} for category-scoped preloading.
+const hasPreloaded=(report,d,q)=>Array.isArray(report)?!report.includes(q.image):!!report&&report.categories.includes(d.category)&&!report.failed.includes(q.image);
+function skipPreloadedMedia(r,now){const d=r.duel,q=current(r);if(d?.status!=='media'||!q?.image)return false;const ready=[...d.ids,d.adminId].every(id=>hasPreloaded(r.mediaPreload?.[id],d,q));if(!ready)return false;d.status='running';d.lastAt=now;d.mediaReady=[...d.ids,d.adminId];d.mediaDeadline=null;return true;}
 function observe(r,now){r.questionRulesVersion=13;r.questionReports=r.questionReports||[];const d=r.duel;if(!d)return;skipPreloadedMedia(r,now);if(d.status==='media'){if(!Number.isFinite(d.mediaDeadline))d.mediaDeadline=now+mediaReadyTimeout;}else d.mediaDeadline=null;if(d.v12Key!==d.key){d.v12Key=d.key;d.v12Since=d.status==='running'?now:null;d.v12Level=0;d.v12Seen=d.v12Seen||[];if(!d.v12Seen.includes(d.index))d.v12Seen.push(d.index);}else if(d.status==='running'&&!Number.isFinite(d.v12Since))d.v12Since=now;else if(d.status!=='running')d.v12Since=null;}
 function awardNoSkip(r,duel,logLength){
  if(!duel||r.duel===duel||(r.log?.length||0)<=logLength)return;
@@ -45,7 +47,7 @@ function baseTick(r,now=Date.now()){const frozen=applyFreeze(r,now);if(frozen){r
 function baseCommand(r,id,a,now=Date.now()){
  baseTick(r,now);
  // Idempotent status report, accepted regardless of revision so a busy room cannot starve it.
- if(a.type==='MEDIA_PRELOADED'){ok(r.players.some(p=>p.id===id),'Brak sesji.');ok(Array.isArray(a.failed)&&a.failed.length<=1000&&a.failed.every(x=>typeof x==='string'&&x.length<=500),'Nieprawidłowa lista obrazków.');r.mediaPreload={...r.mediaPreload,[id]:a.failed};observe(r,now);r.rev++;r.updated=now;return r;}ok(a.rev===r.rev,'Stan gry zmienił się.');const p=r.players.find(p=>p.id===id);ok(p?.connected,'Brak sesji.');const d=r.duel,q=current(r);
+ if(a.type==='MEDIA_PRELOADED'){ok(r.players.some(p=>p.id===id),'Brak sesji.');ok(Array.isArray(a.failed)&&a.failed.length<=1000&&a.failed.every(x=>typeof x==='string'&&x.length<=500),'Nieprawidłowa lista obrazków.');ok(a.categories===undefined||Array.isArray(a.categories)&&a.categories.length<=200&&a.categories.every(x=>typeof x==='string'&&x.length<=100),'Nieprawidłowa lista kategorii.');r.mediaPreload={...r.mediaPreload,[id]:a.categories?{categories:a.categories,failed:a.failed}:a.failed};observe(r,now);r.rev++;r.updated=now;return r;}ok(a.rev===r.rev,'Stan gry zmienił się.');const p=r.players.find(p=>p.id===id);ok(p?.connected,'Brak sesji.');const d=r.duel,q=current(r);
  // The answering player may skip their own question; it is applied exactly like the judge's skip (−3 s, new question).
  if(a.type==='PLAYER_SKIP'){ok(d&&d.status==='running'&&d.turn===id&&a.questionKey===d.key,'Pominąć możesz tylko własne, aktywne pytanie.');return baseCommand(r,d.adminId,{type:'ANSWER',kind:'skip',questionKey:d.key,rev:r.rev},now);}
  if(a.type==='CARD'&&newCards[p.card])return playNewCard(r,id,p,now);
@@ -92,6 +94,8 @@ function baseCommand(r,id,a,now=Date.now()){
  if(finishing)awardNoSkip(r,finishing.duel,finishing.logLength);
  // Deal the new cards too: every regular card is redrawn from the full deck (Moja kategoria and Ostatnia szansa stay as dealt).
  if(a.type==='START'&&solo(r)){const deck=[...Object.keys(old.cards).filter(type=>type!=='homecategory'),...Object.keys(newCards)];for(const x of r.players)if(x.card&&!['homecategory','laststand'].includes(x.card))x.card=deck[randomInt(deck.length)];}
+ // Every judged answer is announced to all screens (good / skip flash), including the one that ends the duel.
+ if(answer&&r.duel?.key!==answer.key||answer&&!r.duel)r.lastAnswer={n:(r.lastAnswer?.n||0)+1,kind:answer.kind,playerId:answer.turn,category:d.category,prompt:q?.prompt??q?.[0]??''};
  observe(r,now);return result;
 }
 // Lobby rules (solo mode): how players get categories, how duel pairs are formed and which category a duel uses.
@@ -168,10 +172,10 @@ export function command(r,id,a,now=Date.now()){
  return result;
 }
 export function publicState(r,id,now=Date.now()){
- const s=old.publicState(r,id,now),d=r.duel,q=current(r);s.questionRulesVersion=13;s.mediaPreloaded=Array.isArray(r.mediaPreload?.[id]);delete s.mediaPreload;if(s.duel&&s.duel.prompt&&q?.footballer)s.duel.footballer=q.footballer;
+ const s=old.publicState(r,id,now),d=r.duel,q=current(r);s.questionRulesVersion=13;s.mediaPreloaded=!!r.mediaPreload?.[id];s.mediaCategories=r.mediaPreload?.[id]?.categories||null;delete s.mediaPreload;if(s.duel&&s.duel.prompt&&q?.footballer)s.duel.footballer=q.footballer;
  if(d&&q&&s.duel&&d.status==='running'){delete s.duel.clues;delete s.duel.v12Seen;const level=d.v12Level||0;if(q.format==='clues')s.duel.prompt=q.prompt+'\n'+q.clues.slice(0,level+1).map((x,i)=>(i+1)+'. '+x).join('\n');s.questionPanel={key:d.key,format:q.format||'standard',judge:d.adminId===id,canHint:d.adminId===id&&q.format==='clues'&&level<q.clues.length-1&&d.status==='running',canSkip:d.adminId===id&&d.status==='running'&&Number.isFinite(d.expire),reported:(r.questionReports||[]).some(x=>x.key===d.key&&x.by===id)};}
  // Only host/judge receive full reports; no answer keys included.
- s.settings={...s.settings,rules:rulesOf(r)};if(s.duel&&d?.randomCategory&&rulesOf(r).duelCategory==='random')s.duel.randomCategory=true;
+ s.settings={...s.settings,rules:rulesOf(r)};s.lastAnswer=r.lastAnswer||null;if(s.duel&&d?.randomCategory&&rulesOf(r).duelCategory==='random')s.duel.randomCategory=true;
  s.cardTypes={...s.cardTypes,...newCards};if(solo(r)&&s.cardTypes.homecategory)s.cardTypes.homecategory={...s.cardTypes.homecategory,text:'Przed rozpoczęciem własnego pojedynku zmień jego kategorię na swoją (jeśli nie była jeszcze rozgrywana).'};const p=r.players.find(x=>x.id===id);
  // Soundtrack questions play on every device, not only the judge's.
  if(s.duel&&s.duel.prompt&&q?.audio)s.duel.audio=q.audio;

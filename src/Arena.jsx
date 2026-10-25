@@ -7,12 +7,13 @@ import './arena.css';
 function saved() { try { return JSON.parse(sessionStorage.getItem('arena-v6') || 'null'); } catch { return null; } }
 const loadedImageUrls = new Set();
 // Decoded images are kept referenced so the browser can paint them instantly when a question shows up.
-const decodedImages = [];
+// Preloaded images stay in the browser's HTTP cache only. Keeping ~1000 decoded bitmaps alive cost hundreds of MB of RAM
+// and slowed the game down; decoding one cached image when its question appears takes milliseconds.
 function preloadImage(url, signal) {
   return new Promise(resolve => {
     const image = new Image();
     let timeout, settled = false;
-    const finish = loaded => { if (settled) return; settled = true; clearTimeout(timeout); signal.removeEventListener('abort', abort); image.onload = image.onerror = image.onabort = null; if (loaded) { loadedImageUrls.add(url); decodedImages.push(image); } resolve(loaded); };
+    const finish = loaded => { if (settled) return; settled = true; clearTimeout(timeout); signal.removeEventListener('abort', abort); image.onload = image.onerror = image.onabort = null; if (loaded) loadedImageUrls.add(url); image.src = ''; resolve(loaded); };
     const abort = () => { image.src = ''; finish(false); };
     image.decoding = 'async'; image.fetchPriority = 'low'; image.referrerPolicy = 'no-referrer';
     image.onload = () => image.decode().catch(() => {}).then(() => finish(true)); image.onerror = image.onabort = () => finish(false);
@@ -35,6 +36,7 @@ export default function Arena() {
   const [endpoint] = useState(() => params.get('backend') || import.meta.env.VITE_API_BASE_URL || '');
   const [infoCategory, setInfoCategory] = useState(null), [tab, setTab] = useState('arena'), [search, setSearch] = useState('');
   const [loaded, setLoaded] = useState(null), [imageError, setImageError] = useState(null), [imagePreload, setImagePreload] = useState(null);
+  const [flash, setFlash] = useState(null), seenAnswer = useRef(null);
   const ref = useRef(null), sref = useRef(session), conn = useRef(false), lock = useRef(false);
   sref.current = session;
 
@@ -48,6 +50,18 @@ export default function Arena() {
     root.setProperty('--text-scale', settings.textScale); root.setProperty('--image-scale', settings.imageScale); root.setProperty('--ui-scale', settings.uiScale);
     try { localStorage.setItem('arena-settings', JSON.stringify(settings)); } catch {}
   }, [settings]);
+  // The counter seen with the first loaded state is the baseline, so reloading the page does not replay an old flash.
+  const lastAnswerN = room ? room.lastAnswer?.n ?? 0 : null;
+  useEffect(() => {
+    if (lastAnswerN === null) return;
+    if (seenAnswer.current === null || lastAnswerN <= seenAnswer.current) { seenAnswer.current = lastAnswerN; return; }
+    seenAnswer.current = lastAnswerN;
+    const last = room.lastAnswer;
+    const choice = isChoiceQuestion(last.category, last.prompt), good = last.kind === 'good';
+    setFlash({n: last.n, tone: good ? 'good' : choice ? 'bad' : 'next', text: good ? 'Dobrze' : choice ? 'Źle' : 'Pominięte – kolejne pytanie'});
+    const t = setTimeout(() => setFlash(f => f?.n === last.n ? null : f), 500);
+    return () => clearTimeout(t);
+  }, [lastAnswerN]);
   useEffect(() => { if (!notice) return; const t = setTimeout(() => setNotice(''), 4000); return () => clearTimeout(t); }, [notice]);
 
   function accept(r) {
@@ -102,39 +116,57 @@ export default function Arena() {
     return () => { active = false; es.close(); conn.current = false; };
   }, [session]);
 
+  // Images are preloaded per category: only categories in play (current duel first), not the whole bank.
+  // The server learns which categories are ready, so their image questions start without a loading pause.
+  const [manifest, setManifest] = useState(null);
+  const preloadQueue = useRef(null), neededRef = useRef([]);
+  const neededCategories = !room ? [] : [...new Set([room.duel?.category, ...room.players.filter(p => p.lives > 0 || room.phase === 'lobby').map(p => p.category)].filter(Boolean))];
+  neededRef.current = neededCategories;
   useEffect(() => {
-    if (!session) { setImagePreload(null); return; }
+    setManifest(null); setImagePreload(null);
+    if (!session) return;
     const controller = new AbortController();
-    let cancelled = false;
-    setImagePreload({status: 'loading', done: 0, total: null, failed: 0});
-    (async () => {
-      try {
-        const response = await fetch((session.base || '') + '/api/rooms/' + session.code + '/media', {headers: {Authorization: 'Bearer ' + session.token}, signal: controller.signal});
-        if (!response.ok) throw Error('Nie udało się pobrać listy obrazków (' + response.status + ').');
-        const images = [...new Set((await response.json()).images.filter(url => typeof url === 'string' && url))];
-        if (cancelled) return;
-        let next = 0, done = 0, failed = 0;
-        const failedUrls = [];
-        setImagePreload({status: 'loading', done, total: images.length, failed});
-        const worker = async () => {
-          while (!cancelled) {
-            const url = images[next++]; if (!url) return;
-            const ok = await preloadImage(url.startsWith('/media/') ? (session.base || '') + url : url, controller.signal); if (cancelled) return;
-            done++; if (!ok) { failed++; failedUrls.push(url); }
-            if (done % 8 === 0 || done === images.length) setImagePreload({status: 'loading', done, total: images.length, failed});
-          }
-        };
-        await Promise.all(Array.from({length: Math.min(6, images.length)}, worker));
-        for (const url of failedUrls.splice(0)) {
-          if (cancelled) return;
-          await new Promise(resolve => setTimeout(resolve, 400));
-          if (await preloadImage(url.startsWith('/media/') ? (session.base || '') + url : url, controller.signal)) failed--; else failedUrls.push(url);
-        }
-        if (!cancelled) setImagePreload({status: 'complete', done, total: images.length, failed, failedUrls});
-      } catch (e) { if (!cancelled && e.name !== 'AbortError') setImagePreload({status: 'error', message: e.message, done: 0, total: 0, failed: 0}); }
-    })();
-    return () => { cancelled = true; controller.abort(); };
+    preloadQueue.current = {running: false, done: [], failed: [], controller};
+    fetch((session.base || '') + '/api/rooms/' + session.code + '/media', {headers: {Authorization: 'Bearer ' + session.token}, signal: controller.signal})
+      .then(response => { if (!response.ok) throw Error('Nie udało się pobrać listy obrazków (' + response.status + ').'); return response.json(); })
+      .then(json => setManifest(json.byCategory || {}))
+      .catch(e => { if (e.name !== 'AbortError') setImagePreload({status: 'error', message: e.message}); });
+    return () => controller.abort();
   }, [session]);
+  useEffect(() => {
+    const queue = preloadQueue.current;
+    if (!manifest || !queue || queue.running) return;
+    const full = url => url.startsWith('/media/') ? (sref.current?.base || '') + url : url;
+    const pending = () => neededRef.current.find(category => !queue.done.includes(category));
+    const run = async () => {
+      queue.running = true;
+      try {
+        for (let category = pending(); category && !queue.controller.signal.aborted; category = pending()) {
+          const urls = (manifest[category] || []).filter(url => !loadedImageUrls.has(full(url)));
+          let next = 0, done = 0;
+          setImagePreload({status: 'loading', category, done, total: urls.length});
+          const worker = async () => {
+            for (let url = urls[next++]; url && !queue.controller.signal.aborted; url = urls[next++]) {
+              if (!await preloadImage(full(url), queue.controller.signal)) {
+                await new Promise(resolve => setTimeout(resolve, 400));
+                if (!await preloadImage(full(url), queue.controller.signal) && !queue.failed.includes(url)) queue.failed.push(url);
+              }
+              done++;
+              if (done % 8 === 0) setImagePreload({status: 'loading', category, done, total: urls.length});
+            }
+          };
+          await Promise.all(Array.from({length: Math.min(6, urls.length)}, worker));
+          if (queue.controller.signal.aborted) return;
+          queue.done = [...queue.done, category];
+          setImagePreload({status: 'complete', categories: queue.done, failed: queue.failed.slice(0, 1000)});
+        }
+      } finally {
+        queue.running = false;
+        if (!queue.controller.signal.aborted && pending()) run();
+      }
+    };
+    run();
+  }, [manifest, neededCategories.join('|')]);
 
   // Images cached by the game server are served from the backend, which may live on another origin than this page.
   const mediaUrl = src => src?.startsWith('/media/') ? (session?.base || '') + src : src;
@@ -152,10 +184,11 @@ export default function Arena() {
     if (d?.status === 'media' && (loaded === d.questionKey || loadedImageUrls.has(mediaUrl(d.image))) && (judge || participant) && !d.mediaReady.includes(room.you) && !busy && online) send('IMAGE_READY', {questionKey: d.questionKey});
   }, [room?.rev, d?.status, d?.questionKey, d?.image, loaded, imagePreload?.done, busy, online]);
 
-  // Tell the server once every image is ready, so image questions start without a loading pause.
+  // Tell the server which categories have all images ready, so their questions start without a loading pause.
   useEffect(() => {
-    if (imagePreload?.status === 'complete' && room && !room.mediaPreloaded && online && !busy) send('MEDIA_PRELOADED', {failed: imagePreload.failedUrls || []});
-  }, [imagePreload?.status, room?.mediaPreloaded, room?.rev, online, busy]);
+    if (imagePreload?.status !== 'complete' || !room || !online || busy) return;
+    if ((room.mediaCategories || []).join('|') !== imagePreload.categories.join('|')) send('MEDIA_PRELOADED', {failed: imagePreload.failed, categories: imagePreload.categories});
+  }, [imagePreload, room?.mediaCategories?.join('|'), online, busy]);
 
   useEffect(() => {
     const fn = e => {
@@ -285,7 +318,7 @@ export default function Arena() {
               {host && !p.connected && <button className="btn btn--ghost btn--sm" aria-label={`Usuń nieobecnego gracza ${p.name}`} disabled={disabled} onClick={() => send('REMOVE_OFFLINE', {playerId: p.id})}>Usuń</button>}
             </article>)}</div>
           </section>
-          {imagePreload && imagePreload.status !== 'complete' && <p className="muted small">{imagePreload.status === 'error' ? imagePreload.message + ' Obrazki będą pobierane w trakcie gry.' : `Wczytywanie obrazków: ${imagePreload.done}${imagePreload.total === null ? '' : ' / ' + imagePreload.total}`}</p>}
+          {imagePreload && imagePreload.status !== 'complete' && <p className="muted small">{imagePreload.status === 'error' ? imagePreload.message + ' Obrazki będą pobierane w trakcie gry.' : `Wczytywanie obrazków (${imagePreload.category}): ${imagePreload.done} / ${imagePreload.total}`}</p>}
         </aside>
       </div>
     </div>;
@@ -412,6 +445,9 @@ export default function Arena() {
     <p><kbd>→</kbd> zalicza · <kbd>P</kbd> pomija · <kbd>Spacja</kbd> pauza · <kbd>Z</kbd> cofnij</p>
   </section>;
 
+  // Short full-screen blink after each judged answer: green = correct, red = wrong choice, orange = skipped.
+  const answerFlash = flash && <div className={'answer-flash answer-flash--' + flash.tone} key={flash.n} role="status" aria-label={flash.text}/>;
+
   // Readiness is confirmed from a bar pinned to the bottom of the screen, so nobody has to scroll to it.
   const readyBar = (() => {
     if (!room || !me) return null;
@@ -433,6 +469,7 @@ export default function Arena() {
       </div>
     </header>
     <div className="wrap">
+      {answerFlash}
       {readyBar}
       {error && <div role="alert" className="notice notice--error"><span>{error}</span><button className="btn btn--ghost btn--sm" onClick={() => setError('')}>Zamknij</button></div>}
       {notice && <div role="status" className="toast">{notice}</div>}

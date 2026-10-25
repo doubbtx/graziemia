@@ -262,3 +262,12 @@ test('Random pair with random category plays one of the duelists\' categories an
  assert.equal(room.phase,'duel');
  assert.notDeepEqual([...room.duel.ids].sort(),[...first].sort());
 });
+
+test('Every judged answer is announced with its kind for the screen flash',()=>{
+ const room=startDuel(readyDuel()),turn=room.duel.turn;
+ answer(room,'skip',5000);
+ assert.deepEqual([room.lastAnswer.n,room.lastAnswer.kind,room.lastAnswer.playerId],[1,'skip',turn]);
+ answer(room,'good',6000);
+ assert.deepEqual([room.lastAnswer.n,room.lastAnswer.kind],[2,'good']);
+ assert.equal(publicState(room,room.players[0].id,6000).lastAnswer.n,2);
+});
