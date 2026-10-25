@@ -1,6 +1,7 @@
 import * as old from './engine-before-v12.mjs';
 export * from './engine-before-v12.mjs';
 import {bank} from './bank.mjs';
+import {available, eligible} from './engine-v6-core.mjs';
 import {randomInt,randomUUID} from 'node:crypto';
 const ok=(x,m)=>{if(!x)throw Error(m);};
 const mediaReadyTimeout=6000;
@@ -40,13 +41,13 @@ function buyCard(r,id,p,type,now){
  r.lastDecision={text:p.name+' kupuje kartę: '+cardName(type)+(replaced?' (w miejsce: '+replaced+')':'')+'.'};r.rev++;r.updated=now;return r;
 }
 export function createRoom(...args){const r=old.createRoom(...args);observe(r,Date.now());return r;}
-export function tick(r,now=Date.now()){const frozen=applyFreeze(r,now);if(frozen){r.rev++;r.updated=now;}const duel=r.duel,logLength=r.log?.length||0,x=old.tick(r,now)||frozen,skipped=skipPreloadedMedia(r,now),mediaTimedOut=!!r.duel&&r.duel.status==='media'&&Number.isFinite(r.duel.mediaDeadline)&&now>=r.duel.mediaDeadline;if(mediaTimedOut){r.duel.status='running';r.duel.lastAt=now;r.rev++;r.updated=now;}if(skipped){r.rev++;r.updated=now;}awardNoSkip(r,duel,logLength);observe(r,now);return x||mediaTimedOut||skipped;}
-export function command(r,id,a,now=Date.now()){
- tick(r,now);
+function baseTick(r,now=Date.now()){const frozen=applyFreeze(r,now);if(frozen){r.rev++;r.updated=now;}const duel=r.duel,logLength=r.log?.length||0,x=old.tick(r,now)||frozen,skipped=skipPreloadedMedia(r,now),mediaTimedOut=!!r.duel&&r.duel.status==='media'&&Number.isFinite(r.duel.mediaDeadline)&&now>=r.duel.mediaDeadline;if(mediaTimedOut){r.duel.status='running';r.duel.lastAt=now;r.rev++;r.updated=now;}if(skipped){r.rev++;r.updated=now;}awardNoSkip(r,duel,logLength);observe(r,now);return x||mediaTimedOut||skipped;}
+function baseCommand(r,id,a,now=Date.now()){
+ baseTick(r,now);
  // Idempotent status report, accepted regardless of revision so a busy room cannot starve it.
  if(a.type==='MEDIA_PRELOADED'){ok(r.players.some(p=>p.id===id),'Brak sesji.');ok(Array.isArray(a.failed)&&a.failed.length<=1000&&a.failed.every(x=>typeof x==='string'&&x.length<=500),'Nieprawidłowa lista obrazków.');r.mediaPreload={...r.mediaPreload,[id]:a.failed};observe(r,now);r.rev++;r.updated=now;return r;}ok(a.rev===r.rev,'Stan gry zmienił się.');const p=r.players.find(p=>p.id===id);ok(p?.connected,'Brak sesji.');const d=r.duel,q=current(r);
  // The answering player may skip their own question; it is applied exactly like the judge's skip (−3 s, new question).
- if(a.type==='PLAYER_SKIP'){ok(d&&d.status==='running'&&d.turn===id&&a.questionKey===d.key,'Pominąć możesz tylko własne, aktywne pytanie.');return command(r,d.adminId,{type:'ANSWER',kind:'skip',questionKey:d.key,rev:r.rev},now);}
+ if(a.type==='PLAYER_SKIP'){ok(d&&d.status==='running'&&d.turn===id&&a.questionKey===d.key,'Pominąć możesz tylko własne, aktywne pytanie.');return baseCommand(r,d.adminId,{type:'ANSWER',kind:'skip',questionKey:d.key,rev:r.rev},now);}
  if(a.type==='CARD'&&newCards[p.card])return playNewCard(r,id,p,now);
  if(a.type==='V11_BUY'&&a.item==='card')return buyCard(r,id,p,a.card,now);
  if(['Q12_REPORT','Q12_HINT','Q12_SKIP'].includes(a.type)){
@@ -93,10 +94,84 @@ export function command(r,id,a,now=Date.now()){
  if(a.type==='START'&&solo(r)){const deck=[...Object.keys(old.cards).filter(type=>type!=='homecategory'),...Object.keys(newCards)];for(const x of r.players)if(x.card&&!['homecategory','laststand'].includes(x.card))x.card=deck[randomInt(deck.length)];}
  observe(r,now);return result;
 }
+// Lobby rules (solo mode): how players get categories, how duel pairs are formed and which category a duel uses.
+// Automatic steps are issued as the same commands players send, so cards, economy and history keep working.
+export const defaultRules={categoryPick:'choose',opponentPick:'choose',duelCategory:'opponent'};
+const ruleValues={categoryPick:['choose','random'],opponentPick:['choose','random','pair'],duelCategory:['opponent','random']};
+const rulesOf=r=>({...defaultRules,...r.settings?.rules});
+const playable=(r,p)=>p&&p.lives>0&&p.connected;
+// Weighted draw: players with fewer duels played are preferred; ties are broken at random.
+function fairPick(list,weight){if(!list.length)return null;const best=Math.min(...list.map(weight));const top=list.filter(x=>weight(x)===best);return top[randomInt(top.length)];}
+function lastPair(r){const e=r.log?.at(-1);return e?[e.winner,e.loser]:[];}
+function streakOf(r,id){let n=0;for(const e of [...(r.log||[])].reverse()){if(e.winner===id||e.loser===id)n++;else break;}return n;}
+// Moves a freshly created duel to another category, returning its drawn question to the pool.
+function switchDuelCategory(r,category){const d=r.duel;r.used[d.category]=(r.used[d.category]||[]).filter(i=>i!==d.index);d.category=category;let used=r.used[category]||[];const qs=bank[category];if(used.length>=qs.length){used=[];d.cycle++;}const free=qs.map((_,i)=>i).filter(i=>!used.includes(i));d.index=free[randomInt(free.length)];used.push(d.index);r.used[category]=used;d.key=randomUUID();d.hints={};d.mediaReady=[];d.randomCategory=true;}
+// Coin flip between the two duelists' own categories.
+function drawCategoryForDuel(r){const d=r.duel;if(!d||d.status!=='ready'||d.randomCategory)return;const own=d.ids.map(id=>r.players.find(p=>p.id===id)?.category).filter(c=>c&&!r.retired.includes(c)&&bank[c]?.length);const category=own[randomInt(own.length||1)];if(category&&category!==d.category)switchDuelCategory(r,category);d.randomCategory=true;}
+let flowing=false;
+function autoFlow(r,now){
+ if(flowing||r.settings?.mode==='teams'||r.duel&&r.phase!=='duel')return false;
+ const rules=rulesOf(r);if(rules.categoryPick==='choose'&&rules.opponentPick==='choose')return false;
+ flowing=true;let changed=false;
+ try{
+  for(let step=0;step<12;step++){
+   if(r.phase==='lobby'){
+    if(rules.categoryPick!=='random')break;
+    for(const p of r.players){if(p.category)continue;const free=available(r,p.id).filter(c=>!r.players.some(x=>x.category===c));if(!free.length)break;p.category=free[randomInt(free.length)];changed=true;}
+    if(changed){r.rev++;r.updated=now;}break;
+   }
+   if(r.phase==='category'&&rules.categoryPick==='random'){
+    const id=r.pending?.[0],p=r.players.find(x=>x.id===id),free=available(r,id);if(!p?.connected||!free.length)break;
+    baseCommand(r,id,{type:'CATEGORY',category:free[randomInt(free.length)],rev:r.rev},now);changed=true;continue;
+   }
+   if(r.phase==='v11_winner'&&rules.opponentPick==='pair'){
+    const id=r.economy?.winner;if(!r.players.find(x=>x.id===id)?.connected)break;
+    try{baseCommand(r,id,{type:'V11_CHOICE',choice:'rest',rev:r.rev},now);}catch{baseCommand(r,id,{type:'V11_CHOICE',choice:'continue',rev:r.rev},now);}
+    changed=true;continue;
+   }
+   if(r.phase==='choose'&&rules.opponentPick!=='choose'){
+    const recent=lastPair(r);
+    if(rules.opponentPick==='pair'){
+     // Safeguards: fewest duels first, nobody plays a third duel in a row, never the same pair twice in a row.
+     const pool=r.players.filter(p=>playable(r,p)&&p.category&&!r.retired.includes(p.category));
+     const rested=pool.filter(p=>streakOf(r,p.id)<2),first=fairPick(rested.length>=2?rested:pool,p=>p.played);if(!first)break;
+     const rest=(rested.length>=2?rested:pool).filter(p=>p.id!==first.id),fresh=rest.filter(p=>!(recent.includes(first.id)&&recent.includes(p.id)));
+     const second=fairPick(fresh.length?fresh:rest,p=>p.played);if(!second)break;
+     r.challengerId=first.id;r.protectedId=null;
+     baseCommand(r,first.id,{type:'CHALLENGE',opponent:second.id,rev:r.rev},now);
+    }else{
+     const challenger=r.players.find(p=>p.id===r.challengerId);if(!playable(r,challenger))break;
+     const options=eligible(r),fresh=options.filter(p=>!recent.includes(p.id));
+     const target=fairPick(fresh.length?fresh:options,p=>p.played);if(!target)break;
+     baseCommand(r,challenger.id,{type:'CHALLENGE',opponent:target.id,rev:r.rev},now);
+    }
+    changed=true;continue;
+   }
+   break;
+  }
+  if(r.duel&&rules.duelCategory==='random'&&r.duel.status==='ready'&&!r.duel.randomCategory){drawCategoryForDuel(r);r.rev++;r.updated=now;changed=true;}
+ }catch(e){/* An automatic step that is not allowed right now (e.g. no judge online) waits for the next change. */}
+ finally{flowing=false;}
+ return changed;
+}
+export function tick(r,now=Date.now()){const x=baseTick(r,now);return autoFlow(r,now)||x;}
+export function command(r,id,a,now=Date.now()){
+ if(a.type==='LOBBY_RULES'){
+  baseTick(r,now);ok(a.rev===r.rev,'Stan gry zmienił się.');ok(r.hostId===id,'Tylko właściciel.');ok(r.phase==='lobby','Zasady zmienisz tylko w lobby.');ok(r.settings.mode!=='teams','Te zasady dotyczą trybu „Każdy na każdego”.');
+  const next={...rulesOf(r)};for(const key of Object.keys(ruleValues))if(a[key]!==undefined){ok(ruleValues[key].includes(a[key]),'Nieprawidłowe ustawienie.');next[key]=a[key];}
+  r.settings.rules=next;r.players.forEach(p=>p.ready=false);r.rev++;r.updated=now;autoFlow(r,now);return r;
+ }
+ if(a.type==='CATEGORY'&&r.phase==='lobby'&&rulesOf(r).categoryPick==='random'&&r.settings.mode!=='teams')throw Error('Kategorie są losowane – zmienić to może gospodarz w ustawieniach lobby.');
+ const result=baseCommand(r,id,a,now);
+ if(a.type==='CHALLENGE'&&r.duel&&rulesOf(r).duelCategory==='random'&&r.settings.mode!=='teams'){drawCategoryForDuel(r);r.rev++;}
+ autoFlow(r,now);
+ return result;
+}
 export function publicState(r,id,now=Date.now()){
  const s=old.publicState(r,id,now),d=r.duel,q=current(r);s.questionRulesVersion=13;s.mediaPreloaded=Array.isArray(r.mediaPreload?.[id]);delete s.mediaPreload;if(s.duel&&s.duel.prompt&&q?.footballer)s.duel.footballer=q.footballer;
  if(d&&q&&s.duel&&d.status==='running'){delete s.duel.clues;delete s.duel.v12Seen;const level=d.v12Level||0;if(q.format==='clues')s.duel.prompt=q.prompt+'\n'+q.clues.slice(0,level+1).map((x,i)=>(i+1)+'. '+x).join('\n');s.questionPanel={key:d.key,format:q.format||'standard',judge:d.adminId===id,canHint:d.adminId===id&&q.format==='clues'&&level<q.clues.length-1&&d.status==='running',canSkip:d.adminId===id&&d.status==='running'&&Number.isFinite(d.expire),reported:(r.questionReports||[]).some(x=>x.key===d.key&&x.by===id)};}
  // Only host/judge receive full reports; no answer keys included.
+ s.settings={...s.settings,rules:rulesOf(r)};if(s.duel&&d?.randomCategory&&rulesOf(r).duelCategory==='random')s.duel.randomCategory=true;
  s.cardTypes={...s.cardTypes,...newCards};if(solo(r)&&s.cardTypes.homecategory)s.cardTypes.homecategory={...s.cardTypes.homecategory,text:'Przed rozpoczęciem własnego pojedynku zmień jego kategorię na swoją (jeśli nie była jeszcze rozgrywana).'};const p=r.players.find(x=>x.id===id);
  // Soundtrack questions play on every device, not only the judge's.
  if(s.duel&&s.duel.prompt&&q?.audio)s.duel.audio=q.audio;

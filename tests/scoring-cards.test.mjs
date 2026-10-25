@@ -224,3 +224,41 @@ test('Unused freeze time survives a correct answer and continues on the next own
  assert.equal(room.duel.remaining[id],mine-2000);
  assert.equal(room.duel.freeze,null);
 });
+
+function lobbyWithRules(rules,players=4){
+ const room=createRoom('777777','Gracz A','token-a',1000);
+ for(let i=1;i<players;i++)addPlayer(room,'Gracz '+'BCDE'[i-1],'token-'+i);
+ action(room,room.hostId,'LOBBY_RULES',rules);
+ tick(room,1100);
+ return room;
+}
+
+test('Random categories are drawn in the lobby and cannot be picked by hand',()=>{
+ const room=lobbyWithRules({categoryPick:'random'});
+ const picked=room.players.map(player=>player.category);
+ assert.ok(picked.every(Boolean));
+ assert.equal(new Set(picked).size,picked.length);
+ assert.throws(()=>action(room,room.players[1].id,'CATEGORY',{category:categories.find(c=>!picked.includes(c))}),/losowane/);
+});
+
+test('Random opponent mode starts the duel without a manual challenge',()=>{
+ const room=lobbyWithRules({opponentPick:'random'});
+ for(const player of room.players){player.category??=categories[room.players.indexOf(player)];player.ready=true;}
+ action(room,room.hostId,'START',{},1200);
+ assert.equal(room.phase,'duel');
+ assert.ok(room.duel.ids.includes(room.challengerId));
+});
+
+test('Random pair with random category plays one of the duelists\' categories and never the same pair twice',()=>{
+ const room=lobbyWithRules({opponentPick:'pair',duelCategory:'random',categoryPick:'random'});
+ assert.equal(room.settings.rules.categoryPick,'random');
+ for(const player of room.players)player.ready=true;
+ action(room,room.hostId,'START',{},1200);
+ assert.equal(room.phase,'duel');
+ const first=[...room.duel.ids],own=room.players.filter(p=>first.includes(p.id)).map(p=>p.category);
+ assert.ok(own.includes(room.duel.category));
+ action(room,room.duel.adminId,'AWARD',{winner:first[0]},1300);
+ tick(room,1400);
+ assert.equal(room.phase,'duel');
+ assert.notDeepEqual([...room.duel.ids].sort(),[...first].sort());
+});

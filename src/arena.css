@@ -411,6 +411,9 @@ details[open] > summary { margin-bottom: 10px; }
 .shop__item div { display: grid; }
 .shop__item small { color: var(--muted); font-size: 12px; }
 .shop-title { margin-top: 6px; }
+.lobby-rules__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+.lobby-rules__hints { margin: 12px 0 0; padding-left: 18px; color: var(--muted); font-size: 13px; line-height: 1.5; }
+.duel-head__pills { display: inline-flex; flex-wrap: wrap; gap: 6px; justify-content: flex-end; }
 .shop__group { margin: 8px 2px 0; color: var(--muted); font-size: 12px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; }
 .shop__item.is-held { box-shadow: inset 0 0 0 1.5px var(--accent); }
 .mini-ranking { display: grid; gap: 4px; margin: 0; padding-left: 20px; font-size: 13px; }

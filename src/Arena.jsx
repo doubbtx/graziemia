@@ -229,6 +229,28 @@ export default function Arena() {
     </section>}
   </aside>;
 
+  const RULES = [
+    ['categoryPick', 'Kategorie graczy', [['choose', 'Każdy wybiera swoją'], ['random', 'Losowane']]],
+    ['opponentPick', 'Dobór rywala', [['choose', 'Wyzywający wybiera'], ['random', 'Losowy rywal'], ['pair', 'Losowa para graczy']]],
+    ['duelCategory', 'Kategoria pojedynku', [['opponent', 'Kategoria rywala'], ['random', 'Losowo: jednego z dwóch graczy']]],
+  ];
+  const RULE_HINTS = {
+    random: 'Każdy dostaje losową, inną kategorię – także po przegranej.',
+    pair: 'Losujemy dwie osoby: pierwszeństwo mają ci, którzy grali najmniej; nikt nie gra trzeci raz z rzędu i ta sama para nie trafia na siebie dwa razy pod rząd.',
+    opponent: 'Losowy rywal: pierwszeństwo mają gracze z najmniejszą liczbą pojedynków, bez powtórki poprzedniego rywala.',
+    duelCategory: 'Kategoria pojedynku jest losowana 50/50 spośród kategorii dwóch graczy, którzy grają – wyzywający też może zagrać u siebie.',
+  };
+  const lobbyRules = () => {
+    const rules = room.settings.rules || {};
+    const hints = [rules.categoryPick === 'random' && RULE_HINTS.random, rules.opponentPick === 'pair' && RULE_HINTS.pair, rules.opponentPick === 'random' && RULE_HINTS.opponent, rules.duelCategory === 'random' && RULE_HINTS.duelCategory].filter(Boolean);
+    return <section className="panel lobby-rules">
+      <div className="panel__head"><div><span className="eyebrow">Zasady lobby</span><h3>Jak gramy?</h3></div>{!host && <span className="pill">ustawia gospodarz</span>}</div>
+      <div className="lobby-rules__grid">{RULES.map(([key, label, options]) => <label className="field" key={key}>{label}
+        <select value={rules[key]} disabled={!host || disabled} onChange={e => send('LOBBY_RULES', {[key]: e.target.value})}>{options.map(([value, text]) => <option key={value} value={value}>{text}</option>)}</select>
+      </label>)}</div>
+      {hints.length > 0 && <ul className="lobby-rules__hints">{hints.map(text => <li key={text}>{text}</li>)}</ul>}
+    </section>;
+  };
   const lobby = () => {
     const readyCount = room.players.filter(p => p.ready && p.connected && (teams || p.category)).length, needed = teams ? 4 : 3;
     const canStart = room.players.length >= needed && room.players.every(p => p.ready && p.connected && (teams || p.category));
@@ -236,7 +258,7 @@ export default function Arena() {
       <section className="panel action-bar">
         <div>
           <span className="eyebrow">Przygotowanie · {readyCount}/{room.players.length} gotowych</span>
-          <h2>{!me.category ? 'Wybierz swoją kategorię' : me.ready ? 'Czekamy na pozostałych' : 'Potwierdź gotowość'}</h2>
+          <h2>{!me.category ? (room.settings.rules?.categoryPick === 'random' ? 'Losujemy kategorie…' : 'Wybierz swoją kategorię') : me.ready ? 'Czekamy na pozostałych' : 'Potwierdź gotowość'}</h2>
           <p className="muted small">Start wymaga co najmniej {needed} graczy online z wybraną kategorią.{!host && ' Mecz uruchamia gospodarz.'}</p>
         </div>
         <div className="action-bar__actions">
@@ -248,10 +270,11 @@ export default function Arena() {
           </>}
         </div>
       </section>
+      {!teams && lobbyRules()}
       <div className="lobby-grid">
         <section className="panel">
           <div className="panel__head"><div><span className="eyebrow">Twój obszar</span><h3>{me.category ? <>{getCategoryEmoji(me.category)} {me.category}</> : 'Kategorie'}</h3></div><span className="pill">{room.totalQuestions} pytań</span></div>
-          {categoryPicker()}
+          {room.settings.rules?.categoryPick === 'random' && !teams ? <p className="muted">🎲 Kategorie są losowane. Twoja kategoria jest widoczna powyżej i na liście graczy.</p> : categoryPicker()}
         </section>
         <aside className="arena-side">
           <section className="panel">
@@ -271,7 +294,7 @@ export default function Arena() {
   const duel = () => <div className="stack">
     <div className="duel-head">
       <div><span className="eyebrow">Pojedynek · runda {room.round + 1}</span><h2 className="duel-head__title" title={categoryDescription(d.category)}>{getCategoryEmoji(d.category)} {d.category} <InfoButton category={d.category} onClick={() => setInfoCategory(d.category)}/></h2></div>
-      <span className="pill">⚖ Sędzia: {pname(d.adminId)}</span>
+      <span className="duel-head__pills">{d.randomCategory && <span className="pill">🎲 Wylosowana kategoria: {pname(d.ids.find(id => person(id)?.category === d.category)) || 'gracza'}</span>}<span className="pill">⚖ Sędzia: {pname(d.adminId)}</span></span>
     </div>
     <div className="duel-players">{d.ids.map((id, index) => {
       const player = person(id), active = d.turn === id;
@@ -351,9 +374,9 @@ export default function Arena() {
           {room.pending[0] === me.id ? <><p className="muted">Wolne, nierozegrane kategorie są znowu dostępne. Rozegrane pozostają zamknięte.</p>{categoryPicker()}</> : <p className="muted">Czekamy na wybór gracza {pname(room.pending[0])}.</p>}
         </section>}
         {room.phase === 'choose' && <section className="panel spotlight">
-          <span className="eyebrow">{room.round === 0 ? 'Pierwsze losowanie' : 'Zwycięzca wybiera'}</span>
-          <h1>{pname(room.challengerId)}</h1>
-          <p>{room.challengerId === me.id ? 'Wybierz rywala – przycisk „Wyzwij” przy graczu na liście.' : 'Wybiera kolejnego rywala.'}</p>
+          <span className="eyebrow">{room.settings.rules?.opponentPick && room.settings.rules.opponentPick !== 'choose' ? 'Losowanie pojedynku' : room.round === 0 ? 'Pierwsze losowanie' : 'Zwycięzca wybiera'}</span>
+          <h1>{room.settings.rules?.opponentPick === 'pair' ? '🎲' : pname(room.challengerId)}</h1>
+          <p>{room.settings.rules?.opponentPick && room.settings.rules.opponentPick !== 'choose' ? 'Losujemy kolejny pojedynek… Jeśli to trwa, sprawdź, czy wszyscy są online – potrzebny jest też sędzia.' : room.challengerId === me.id ? 'Wybierz rywala – przycisk „Wyzwij” przy graczu na liście.' : 'Wybiera kolejnego rywala.'}</p>
           {room.protectedId && alive.length > 2 && <p className="muted">{pname(room.protectedId)} ma ochronę w tym pojedynku.</p>}
           {host && !person(room.challengerId)?.connected && <button className="btn btn--warning" disabled={disabled} onClick={() => send('REPLACE_CHOOSER')}>Wybierający offline · zastąp</button>}
         </section>}
@@ -406,7 +429,7 @@ export default function Arena() {
       {notice && <div role="status" className="toast">{notice}</div>}
       {settingsOpen && <SettingsSheet settings={settings} onChange={setSettings} onClose={() => setSettingsOpen(false)}/>}
       {infoCategory && room && (() => {
-        const canPick = room.phase === 'lobby' && !teams && room.availableCategories.includes(infoCategory) && me?.category !== infoCategory || room.phase === 'category' && room.pending?.[0] === me?.id && room.availableCategories.includes(infoCategory);
+        const canPick = room.phase === 'lobby' && !teams && room.settings.rules?.categoryPick !== 'random' && room.availableCategories.includes(infoCategory) && me?.category !== infoCategory || room.phase === 'category' && room.pending?.[0] === me?.id && room.availableCategories.includes(infoCategory);
         const status = room.retired.includes(infoCategory) ? 'rozegrana' : me?.category === infoCategory ? 'Twoja kategoria' : room.availableCategories.includes(infoCategory) ? 'wolna' : 'zajęta';
         return <CategorySheet category={infoCategory} count={room.categoryCounts[infoCategory]} status={status} onPick={canPick && !disabled ? () => send('CATEGORY', {category: infoCategory}) : null} onClose={() => setInfoCategory(null)}/>;
       })()}
