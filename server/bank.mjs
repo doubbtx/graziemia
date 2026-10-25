@@ -26440,687 +26440,2884 @@ export const bank = {
   ],
   "Co to za piłkarz?": [
     {
-      "prompt": "Co to za piłkarz?\nNarodowość: Szwecja\nOstatnie kluby (od najstarszego): AC Milan → Paris Saint-Germain → Manchester United → LA Galaxy → AC Milan",
+      "prompt": "Co to za piłkarz?\nNarodowość: Szwecja\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): AC Milan → Paris Saint-Germain → Manchester United → LA Galaxy → AC Milan",
       "answer": "Zlatan Ibrahimović",
-      "id": "pilkarz-2066b676ca29ee620bf6",
       "aliases": [
         "Ibrahimović",
         "Zlatan"
-      ]
+      ],
+      "id": "pilkarz-2066b676ca29ee620bf6",
+      "footballer": {
+        "nationality": "Szwecja",
+        "flag": "https://flagcdn.com/w160/se.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "AC Milan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png"
+          },
+          {
+            "name": "Paris Saint-Germain",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Paris%20Saint-Germain.png"
+          },
+          {
+            "name": "Manchester United",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20United.png"
+          },
+          {
+            "name": "LA Galaxy",
+            "logo": null
+          },
+          {
+            "name": "AC Milan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png"
+          }
+        ]
+      }
     },
     {
-      "prompt": "Co to za piłkarz?\nNarodowość: Francja\nOstatnie kluby (od najstarszego): Arsenal → FC Barcelona → New York Red Bulls → Arsenal → New York Red Bulls",
+      "prompt": "Co to za piłkarz?\nNarodowość: Francja\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Arsenal → FC Barcelona → New York Red Bulls → Arsenal → New York Red Bulls",
       "answer": "Thierry Henry",
-      "id": "pilkarz-a02b6d89f8bb88fbf138",
       "aliases": [
         "Henry"
-      ]
+      ],
+      "id": "pilkarz-a02b6d89f8bb88fbf138",
+      "footballer": {
+        "nationality": "Francja",
+        "flag": "https://flagcdn.com/w160/fr.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Arsenal",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Arsenal%20FC.png"
+          },
+          {
+            "name": "FC Barcelona",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png"
+          },
+          {
+            "name": "New York Red Bulls",
+            "logo": null
+          },
+          {
+            "name": "Arsenal",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Arsenal%20FC.png"
+          },
+          {
+            "name": "New York Red Bulls",
+            "logo": null
+          }
+        ]
+      }
     },
     {
-      "prompt": "Co to za piłkarz?\nNarodowość: Anglia\nOstatnie kluby (od najstarszego): Swansea City → West Ham United → Chelsea → Manchester City → New York City FC",
+      "prompt": "Co to za piłkarz?\nNarodowość: Anglia\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): Swansea City → West Ham United → Chelsea → Manchester City → New York City FC",
       "answer": "Frank Lampard",
-      "id": "pilkarz-104b8e9dd8b7aa9d1e9f",
       "aliases": [
         "Lampard"
-      ]
+      ],
+      "id": "pilkarz-104b8e9dd8b7aa9d1e9f",
+      "footballer": {
+        "nationality": "Anglia",
+        "flag": "https://flagcdn.com/w160/gb-eng.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "Swansea City",
+            "logo": null
+          },
+          {
+            "name": "West Ham United",
+            "logo": null
+          },
+          {
+            "name": "Chelsea",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png"
+          },
+          {
+            "name": "Manchester City",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20City.png"
+          },
+          {
+            "name": "New York City FC",
+            "logo": null
+          }
+        ]
+      }
     },
     {
-      "prompt": "Co to za piłkarz?\nNarodowość: Brazylia\nOstatnie kluby (od najstarszego): AC Milan → Flamengo → Atlético Mineiro → Querétaro → Fluminense",
+      "prompt": "Co to za piłkarz?\nNarodowość: Anglia\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Everton → Manchester United → Everton → DC United → Derby County",
+      "answer": "Wayne Rooney",
+      "aliases": [
+        "Rooney"
+      ],
+      "id": "pilkarz-bb7a93a3faad68311c8c",
+      "footballer": {
+        "nationality": "Anglia",
+        "flag": "https://flagcdn.com/w160/gb-eng.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Everton",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Everton%20FC.png"
+          },
+          {
+            "name": "Manchester United",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20United.png"
+          },
+          {
+            "name": "Everton",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Everton%20FC.png"
+          },
+          {
+            "name": "DC United",
+            "logo": null
+          },
+          {
+            "name": "Derby County",
+            "logo": null
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Brazylia\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): AC Milan → Flamengo → Atlético Mineiro → Querétaro → Fluminense",
       "answer": "Ronaldinho",
-      "id": "pilkarz-8f7791f6642342042906"
+      "id": "pilkarz-8f7791f6642342042906",
+      "footballer": {
+        "nationality": "Brazylia",
+        "flag": "https://flagcdn.com/w160/br.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "AC Milan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png"
+          },
+          {
+            "name": "Flamengo",
+            "logo": null
+          },
+          {
+            "name": "Atlético Mineiro",
+            "logo": null
+          },
+          {
+            "name": "Querétaro",
+            "logo": null
+          },
+          {
+            "name": "Fluminense",
+            "logo": null
+          }
+        ]
+      }
     },
     {
-      "prompt": "Co to za piłkarz?\nNarodowość: Brazylia\nOstatnie kluby (od najstarszego): FC Barcelona → Inter Mediolan → Real Madryt → AC Milan → Corinthians",
+      "prompt": "Co to za piłkarz?\nNarodowość: Brazylia\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): FC Barcelona → Inter Mediolan → Real Madryt → AC Milan → Corinthians",
       "answer": "Ronaldo Nazário",
-      "id": "pilkarz-58d1233d563a7f78c4c5",
       "aliases": [
         "Ronaldo"
-      ]
+      ],
+      "id": "pilkarz-58d1233d563a7f78c4c5",
+      "footballer": {
+        "nationality": "Brazylia",
+        "flag": "https://flagcdn.com/w160/br.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "FC Barcelona",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png"
+          },
+          {
+            "name": "Inter Mediolan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Inter%20Milan.png"
+          },
+          {
+            "name": "Real Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png"
+          },
+          {
+            "name": "AC Milan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png"
+          },
+          {
+            "name": "Corinthians",
+            "logo": null
+          }
+        ]
+      }
     },
     {
-      "prompt": "Co to za piłkarz?\nNarodowość: Kamerun\nOstatnie kluby (od najstarszego): Everton → Sampdoria → Antalyaspor → Konyaspor → Qatar SC",
+      "prompt": "Co to za piłkarz?\nNarodowość: Brazylia\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): AC Milan → Real Madryt → AC Milan → São Paulo → Orlando City",
+      "answer": "Kaká",
+      "aliases": [
+        "Kaka"
+      ],
+      "id": "pilkarz-63433414611262d92d4b",
+      "footballer": {
+        "nationality": "Brazylia",
+        "flag": "https://flagcdn.com/w160/br.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "AC Milan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png"
+          },
+          {
+            "name": "Real Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png"
+          },
+          {
+            "name": "AC Milan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png"
+          },
+          {
+            "name": "São Paulo",
+            "logo": null
+          },
+          {
+            "name": "Orlando City",
+            "logo": null
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Brazylia\nPozycja: Obrońca\nOstatnie kluby (od najstarszego): Real Zaragoza → Juventude → Palmeiras → AS Roma → AC Milan",
+      "answer": "Cafu",
+      "id": "pilkarz-723b2f53f2543519ed1e",
+      "footballer": {
+        "nationality": "Brazylia",
+        "flag": "https://flagcdn.com/w160/br.png",
+        "position": "Obrońca",
+        "clubs": [
+          {
+            "name": "Real Zaragoza",
+            "logo": null
+          },
+          {
+            "name": "Juventude",
+            "logo": null
+          },
+          {
+            "name": "Palmeiras",
+            "logo": null
+          },
+          {
+            "name": "AS Roma",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AS%20Roma.png"
+          },
+          {
+            "name": "AC Milan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Brazylia\nPozycja: Obrońca\nOstatnie kluby (od najstarszego): Real Madryt → Fenerbahçe → Corinthians → Anży Machaczkała → Delhi Dynamos",
+      "answer": "Roberto Carlos",
+      "id": "pilkarz-91f425cebc73a62b0587",
+      "footballer": {
+        "nationality": "Brazylia",
+        "flag": "https://flagcdn.com/w160/br.png",
+        "position": "Obrońca",
+        "clubs": [
+          {
+            "name": "Real Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png"
+          },
+          {
+            "name": "Fenerbahçe",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Fenerbahce.png"
+          },
+          {
+            "name": "Corinthians",
+            "logo": null
+          },
+          {
+            "name": "Anży Machaczkała",
+            "logo": null
+          },
+          {
+            "name": "Delhi Dynamos",
+            "logo": null
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Brazylia\nPozycja: Obrońca\nOstatnie kluby (od najstarszego): Juventus → Paris Saint-Germain → São Paulo → FC Barcelona → Pumas UNAM",
+      "answer": "Dani Alves",
+      "aliases": [
+        "Alves"
+      ],
+      "id": "pilkarz-c9d7277b962518aa1b1f",
+      "footballer": {
+        "nationality": "Brazylia",
+        "flag": "https://flagcdn.com/w160/br.png",
+        "position": "Obrońca",
+        "clubs": [
+          {
+            "name": "Juventus",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Juventus%20FC.png"
+          },
+          {
+            "name": "Paris Saint-Germain",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Paris%20Saint-Germain.png"
+          },
+          {
+            "name": "São Paulo",
+            "logo": null
+          },
+          {
+            "name": "FC Barcelona",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png"
+          },
+          {
+            "name": "Pumas UNAM",
+            "logo": null
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Kamerun\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Everton → Sampdoria → Antalyaspor → Konyaspor → Qatar SC",
       "answer": "Samuel Eto'o",
-      "id": "pilkarz-e9fc6d6a9a2d9643d3f7",
       "aliases": [
         "Eto'o"
-      ]
+      ],
+      "id": "pilkarz-e9fc6d6a9a2d9643d3f7",
+      "footballer": {
+        "nationality": "Kamerun",
+        "flag": "https://flagcdn.com/w160/cm.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Everton",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Everton%20FC.png"
+          },
+          {
+            "name": "Sampdoria",
+            "logo": null
+          },
+          {
+            "name": "Antalyaspor",
+            "logo": null
+          },
+          {
+            "name": "Konyaspor",
+            "logo": null
+          },
+          {
+            "name": "Qatar SC",
+            "logo": null
+          }
+        ]
+      }
     },
     {
-      "prompt": "Co to za piłkarz?\nNarodowość: Wybrzeże Kości Słoniowej\nOstatnie kluby (od najstarszego): Shanghai Shenhua → Galatasaray → Chelsea → Montreal Impact → Phoenix Rising",
+      "prompt": "Co to za piłkarz?\nNarodowość: Wybrzeże Kości Słoniowej\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Shanghai Shenhua → Galatasaray → Chelsea → Montreal Impact → Phoenix Rising",
       "answer": "Didier Drogba",
-      "id": "pilkarz-d7790e919c421508175f",
       "aliases": [
         "Drogba"
-      ]
+      ],
+      "id": "pilkarz-d7790e919c421508175f",
+      "footballer": {
+        "nationality": "Wybrzeże Kości Słoniowej",
+        "flag": "https://flagcdn.com/w160/ci.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Shanghai Shenhua",
+            "logo": null
+          },
+          {
+            "name": "Galatasaray",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Galatasaray.png"
+          },
+          {
+            "name": "Chelsea",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png"
+          },
+          {
+            "name": "Montreal Impact",
+            "logo": null
+          },
+          {
+            "name": "Phoenix Rising",
+            "logo": null
+          }
+        ]
+      }
     },
     {
-      "prompt": "Co to za piłkarz?\nNarodowość: Hiszpania\nOstatnie kluby (od najstarszego): FC Barcelona → Atlético Madryt → Melbourne City → New York City FC → Vissel Kobe",
-      "answer": "David Villa",
-      "id": "pilkarz-0dc0f595619c2052b1e3",
-      "aliases": [
-        "Villa"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Hiszpania\nOstatnie kluby (od najstarszego): Liverpool → Chelsea → AC Milan → Atlético Madryt → Sagan Tosu",
-      "answer": "Fernando Torres",
-      "id": "pilkarz-4b889d9cf77860fe1d14",
-      "aliases": [
-        "Torres"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Holandia\nOstatnie kluby (od najstarszego): Real Madryt → Inter Mediolan → Galatasaray → OGC Nice → Al-Gharafa",
-      "answer": "Wesley Sneijder",
-      "id": "pilkarz-b1ed7a79151bf86e18d6",
-      "aliases": [
-        "Sneijder"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Holandia\nOstatnie kluby (od najstarszego): PSV Eindhoven → Chelsea → Real Madryt → Bayern Monachium → FC Groningen",
-      "answer": "Arjen Robben",
-      "id": "pilkarz-dc4b54d4a15083c83b16",
-      "aliases": [
-        "Robben"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Urugwaj\nOstatnie kluby (od najstarszego): Internacional → Cerezo Osaka → Peñarol → Mumbai City → Kitchee",
-      "answer": "Diego Forlán",
-      "id": "pilkarz-f946ecb1f89f3a5d0848",
-      "aliases": [
-        "Forlán",
-        "Forlan"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Urugwaj\nOstatnie kluby (od najstarszego): FC Barcelona → Atlético Madryt → Nacional → Grêmio → Inter Miami",
-      "answer": "Luis Suárez",
-      "id": "pilkarz-ef9e1efa99b00e0e48d5",
-      "aliases": [
-        "Suárez",
-        "Suarez"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Portugalia\nOstatnie kluby (od najstarszego): Manchester United → Real Madryt → Juventus → Manchester United → Al-Nassr",
-      "answer": "Cristiano Ronaldo",
-      "id": "pilkarz-fefb0286624adae8ada9",
-      "aliases": [
-        "Ronaldo",
-        "CR7"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Polska\nOstatnie kluby (od najstarszego): Znicz Pruszków → Lech Poznań → Borussia Dortmund → Bayern Monachium → FC Barcelona",
-      "answer": "Robert Lewandowski",
-      "id": "pilkarz-dc21d6b78ffe4823369c",
-      "aliases": [
-        "Lewandowski"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Polska\nOstatnie kluby (od najstarszego): Brentford → Arsenal → AS Roma → Juventus → FC Barcelona",
-      "answer": "Wojciech Szczęsny",
-      "id": "pilkarz-e78e53857ca40921e8f5",
-      "aliases": [
-        "Szczęsny"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Polska\nOstatnie kluby (od najstarszego): Borussia Dortmund → Fiorentina → Borussia Dortmund → VfL Wolfsburg → Wisła Kraków",
-      "answer": "Jakub Błaszczykowski",
-      "id": "pilkarz-efaca4623606c1e2f373",
-      "aliases": [
-        "Błaszczykowski",
-        "Kuba"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Polska\nOstatnie kluby (od najstarszego): Concordia Knurów → Sokół Tychy → Feyenoord → Liverpool → Real Madryt",
-      "answer": "Jerzy Dudek",
-      "id": "pilkarz-757e0fced4f39001461c",
-      "aliases": [
-        "Dudek"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Polska\nOstatnie kluby (od najstarszego): AS Bari → Torino → AS Monaco → Benevento → Cracovia",
-      "answer": "Kamil Glik",
-      "id": "pilkarz-4f72a67f534d4fcc9ab8",
-      "aliases": [
-        "Glik"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Polska\nOstatnie kluby (od najstarszego): Lokomotiw Moskwa → FK Krasnodar → AEK Ateny → Al-Shabab → Abha Club",
-      "answer": "Grzegorz Krychowiak",
-      "id": "pilkarz-82b478bae12afcf649cf",
-      "aliases": [
-        "Krychowiak"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Polska\nOstatnie kluby (od najstarszego): FC Augsburg → Ajax Amsterdam → Napoli → Olympique Marsylia → Juventus",
-      "answer": "Arkadiusz Milik",
-      "id": "pilkarz-67db2ecdc88a530e7a45",
-      "aliases": [
-        "Milik"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Polska\nOstatnie kluby (od najstarszego): Hertha Berlin → Fiorentina → Salernitana → İstanbul Başakşehir → Al-Duhail",
-      "answer": "Krzysztof Piątek",
-      "id": "pilkarz-772bef44f349f60bc8fa",
-      "aliases": [
-        "Piątek"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Polska\nOstatnie kluby (od najstarszego): Lech Poznań → Legia Warszawa → Arsenal → Swansea City → West Ham United",
-      "answer": "Łukasz Fabiański",
-      "id": "pilkarz-31fb456896a746f374b9",
-      "aliases": [
-        "Fabiański"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Polska\nOstatnie kluby (od najstarszego): Sivasspor → Stade Rennais → Hull City → West Bromwich Albion → Pogoń Szczecin",
-      "answer": "Kamil Grosicki",
-      "id": "pilkarz-232c5d293df50d724fde",
-      "aliases": [
-        "Grosicki"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Niemcy\nOstatnie kluby (od najstarszego): Inter Mediolan → Galatasaray → Vissel Kobe → Antalyaspor → Górnik Zabrze",
-      "answer": "Lukas Podolski",
-      "id": "pilkarz-42aa54cedb4a15018b99",
-      "aliases": [
-        "Podolski"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Argentyna\nOstatnie kluby (od najstarszego): AC Milan → Chelsea → Inter Mediolan → Genoa → Parma",
-      "answer": "Hernán Crespo",
-      "id": "pilkarz-1a7da0936ffd27ae0453",
-      "aliases": [
-        "Crespo"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Argentyna\nOstatnie kluby (od najstarszego): Boca Juniors → Fiorentina → AS Roma → Inter Mediolan → Al-Arabi",
-      "answer": "Gabriel Batistuta",
-      "id": "pilkarz-51598f3c36a3ce07c18f",
-      "aliases": [
-        "Batistuta"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Argentyna\nOstatnie kluby (od najstarszego): Manchester City → Juventus → Boca Juniors → Shanghai Shenhua → Boca Juniors",
-      "answer": "Carlos Tevez",
-      "id": "pilkarz-d587b071f376892c5581",
-      "aliases": [
-        "Tevez"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Argentyna\nOstatnie kluby (od najstarszego): Manchester United → Paris Saint-Germain → Juventus → Benfica → Rosario Central",
-      "answer": "Ángel Di María",
-      "id": "pilkarz-443a681c625d613d0e85",
-      "aliases": [
-        "Di María",
-        "Di Maria"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Argentyna\nOstatnie kluby (od najstarszego): West Ham United → Liverpool → FC Barcelona → Hebei China Fortune → Estudiantes",
-      "answer": "Javier Mascherano",
-      "id": "pilkarz-98f6600d0dd0f96a1902",
-      "aliases": [
-        "Mascherano"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Argentyna\nOstatnie kluby (od najstarszego): Juventus → AC Milan → Chelsea → Juventus → Inter Miami",
-      "answer": "Gonzalo Higuaín",
-      "id": "pilkarz-1e479e187dfa8ace2387",
-      "aliases": [
-        "Higuaín",
-        "Higuain"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Urugwaj\nOstatnie kluby (od najstarszego): Napoli → Paris Saint-Germain → Manchester United → Valencia → Boca Juniors",
-      "answer": "Edinson Cavani",
-      "id": "pilkarz-4aae96658d6dcf724e41",
-      "aliases": [
-        "Cavani"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Francja\nOstatnie kluby (od najstarszego): Galatasaray → Olympique Marsylia → Bayern Monachium → Fiorentina → Salernitana",
-      "answer": "Franck Ribéry",
-      "id": "pilkarz-710cf5e5c43a423b0ddf",
-      "aliases": [
-        "Ribéry",
-        "Ribery"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Francja\nOstatnie kluby (od najstarszego): Chelsea → Shanghai Shenhua → Juventus → West Bromwich Albion → Mumbai City",
-      "answer": "Nicolas Anelka",
-      "id": "pilkarz-b3c5a422fa98289c4cd6",
-      "aliases": [
-        "Anelka"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Francja\nOstatnie kluby (od najstarszego): AC Milan → Arsenal → Juventus → Inter Mediolan → Manchester City",
-      "answer": "Patrick Vieira",
-      "id": "pilkarz-899757e7712ba48e4eb2",
-      "aliases": [
-        "Vieira"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Francja\nOstatnie kluby (od najstarszego): Olympique Marsylia → Celta Vigo → Real Madryt → Chelsea → Paris Saint-Germain",
-      "answer": "Claude Makélélé",
-      "id": "pilkarz-ceb0c3bd157515198b08",
-      "aliases": [
-        "Makélélé",
-        "Makelele"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Francja\nOstatnie kluby (od najstarszego): Olympique Marsylia → Arsenal → Villarreal → Aston Villa → FC Goa",
-      "answer": "Robert Pirès",
-      "id": "pilkarz-9dccbc1430c638fb9233",
-      "aliases": [
-        "Pirès",
-        "Pires"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Francja\nOstatnie kluby (od najstarszego): Arsenal → Chelsea → AC Milan → Los Angeles FC → LOSC Lille",
-      "answer": "Olivier Giroud",
-      "id": "pilkarz-12e56c3ca9285bc866e5",
-      "aliases": [
-        "Giroud"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Anglia\nOstatnie kluby (od najstarszego): Liverpool → Real Madryt → Newcastle United → Manchester United → Stoke City",
-      "answer": "Michael Owen",
-      "id": "pilkarz-69311d31619545f619bc",
-      "aliases": [
-        "Owen"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Anglia\nOstatnie kluby (od najstarszego): Liverpool → Portsmouth → Tottenham Hotspur → Stoke City → Burnley",
-      "answer": "Peter Crouch",
-      "id": "pilkarz-213b4c1f659bce4a2a14",
-      "aliases": [
-        "Crouch"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Anglia\nOstatnie kluby (od najstarszego): Toronto FC → Sunderland → AFC Bournemouth → Rangers → Sunderland",
-      "answer": "Jermain Defoe",
-      "id": "pilkarz-ff0f5b095913bd2f19d5",
-      "aliases": [
-        "Defoe"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Anglia\nOstatnie kluby (od najstarszego): AFC Bournemouth → West Ham United → Leeds United → Manchester United → Queens Park Rangers",
-      "answer": "Rio Ferdinand",
-      "id": "pilkarz-d1fa764438ac39e6ceff",
-      "aliases": [
-        "Ferdinand"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Anglia\nOstatnie kluby (od najstarszego): Arsenal → Chelsea → AS Roma → LA Galaxy → Derby County",
-      "answer": "Ashley Cole",
-      "id": "pilkarz-76af6c48add0dc253b55",
-      "aliases": [
-        "Cole"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Anglia\nOstatnie kluby (od najstarszego): Stocksbridge Park Steels → FC Halifax Town → Fleetwood Town → Leicester City → Cremonese",
-      "answer": "Jamie Vardy",
-      "id": "pilkarz-4089872d98d019219df4",
-      "aliases": [
-        "Vardy"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Chorwacja\nOstatnie kluby (od najstarszego): Inter Zaprešić → Dinamo Zagrzeb → Tottenham Hotspur → Real Madryt → AC Milan",
-      "answer": "Luka Modrić",
-      "id": "pilkarz-041ad2c373c51ea16f0d",
-      "aliases": [
-        "Modrić",
-        "Modric"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Chorwacja\nOstatnie kluby (od najstarszego): Sevilla → FC Barcelona → Sevilla → Al-Shabab → Hajduk Split",
-      "answer": "Ivan Rakitić",
-      "id": "pilkarz-c82bf45398fd9bff2f16",
-      "aliases": [
-        "Rakitić",
-        "Rakitic"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Chorwacja\nOstatnie kluby (od najstarszego): Bayern Monachium → Atlético Madryt → Juventus → Al-Duhail → AC Milan",
-      "answer": "Mario Mandžukić",
-      "id": "pilkarz-93fe0848db8d47d1924e",
-      "aliases": [
-        "Mandžukić",
-        "Mandzukic"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Bułgaria\nOstatnie kluby (od najstarszego): Manchester United → Fulham → AS Monaco → PAOK → Kerala Blasters",
-      "answer": "Dimitar Berbatow",
-      "id": "pilkarz-07991b062d755fd2a34d",
-      "aliases": [
-        "Berbatow",
-        "Berbatov"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Bułgaria\nOstatnie kluby (od najstarszego): CSKA Sofia → Al-Nassr → Kashiwa Reysol → Chicago Fire → DC United",
-      "answer": "Christo Stoiczkow",
-      "id": "pilkarz-380890b4ba2d631c43b4",
-      "aliases": [
-        "Stoiczkow",
-        "Stoichkov"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Czechy\nOstatnie kluby (od najstarszego): Chmel Blšany → Sparta Praga → Stade Rennais → Chelsea → Arsenal",
-      "answer": "Petr Čech",
-      "id": "pilkarz-43bafbe12d9b000ed555",
-      "aliases": [
-        "Čech",
-        "Cech"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Holandia\nOstatnie kluby (od najstarszego): Sampdoria → Real Madryt → Inter Mediolan → AC Milan → Botafogo",
-      "answer": "Clarence Seedorf",
-      "id": "pilkarz-de5ad3bba0c235c2a781",
-      "aliases": [
-        "Seedorf"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Holandia\nOstatnie kluby (od najstarszego): FC Barcelona → Newcastle United → Valencia → PSV Eindhoven → LOSC Lille",
-      "answer": "Patrick Kluivert",
-      "id": "pilkarz-eeba400517f4e8032f3f",
-      "aliases": [
-        "Kluivert"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Holandia\nOstatnie kluby (od najstarszego): PSV Eindhoven → Manchester United → Real Madryt → Hamburger SV → Málaga",
-      "answer": "Ruud van Nistelrooy",
-      "id": "pilkarz-a429a6d8768d61e2e1bb",
-      "aliases": [
-        "van Nistelrooy",
-        "Van Nistelrooy"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Niemcy\nOstatnie kluby (od najstarszego): 1. FC Kaiserslautern → Bayer Leverkusen → Bayern Monachium → Chelsea → Bayer Leverkusen",
-      "answer": "Michael Ballack",
-      "id": "pilkarz-a2a1ed507329ab6ecc3c",
-      "aliases": [
-        "Ballack"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Niemcy\nOstatnie kluby (od najstarszego): FC 08 Homburg → 1. FC Kaiserslautern → Werder Brema → Bayern Monachium → Lazio",
-      "answer": "Miroslav Klose",
-      "id": "pilkarz-314e717dad20dce4c593",
-      "aliases": [
-        "Klose"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Niemcy\nOstatnie kluby (od najstarszego): Werder Brema → Real Madryt → Arsenal → Fenerbahçe → İstanbul Başakşehir",
-      "answer": "Mesut Özil",
-      "id": "pilkarz-c4a79fe33763307c3ccc",
-      "aliases": [
-        "Özil",
-        "Ozil"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Hiszpania\nOstatnie kluby (od najstarszego): Arsenal → FC Barcelona → Chelsea → AS Monaco → Como",
-      "answer": "Cesc Fàbregas",
-      "id": "pilkarz-9209889fdd11394d6aea",
-      "aliases": [
-        "Fàbregas",
-        "Fabregas"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Hiszpania\nOstatnie kluby (od najstarszego): SD Eibar → Real Sociedad → Liverpool → Real Madryt → Bayern Monachium",
-      "answer": "Xabi Alonso",
-      "id": "pilkarz-e5d623d5fd810ec5486d",
-      "aliases": [
-        "Alonso"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Hiszpania\nOstatnie kluby (od najstarszego): AC Milan → Aston Villa → Lazio → Villarreal → Como",
-      "answer": "Pepe Reina",
-      "id": "pilkarz-b99496b516ba254c90d2",
-      "aliases": [
-        "Reina"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Hiszpania\nOstatnie kluby (od najstarszego): Atlético Madryt → Atlético Mineiro → Wolverhampton Wanderers → Botafogo → Grêmio",
-      "answer": "Diego Costa",
-      "id": "pilkarz-631c60aa86368e99e2fe",
-      "aliases": [
-        "Costa"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Wybrzeże Kości Słoniowej\nOstatnie kluby (od najstarszego): AS Monaco → FC Barcelona → Manchester City → Olympiakos Pireus → Qingdao Huanghai",
+      "prompt": "Co to za piłkarz?\nNarodowość: Wybrzeże Kości Słoniowej\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): AS Monaco → FC Barcelona → Manchester City → Olympiakos → Qingdao Huanghai",
       "answer": "Yaya Touré",
-      "id": "pilkarz-ac2baad989d30dcb4654",
       "aliases": [
         "Touré",
         "Toure"
-      ]
+      ],
+      "id": "pilkarz-ac2baad989d30dcb4654",
+      "footballer": {
+        "nationality": "Wybrzeże Kości Słoniowej",
+        "flag": "https://flagcdn.com/w160/ci.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "AS Monaco",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/AS%20Monaco.png"
+          },
+          {
+            "name": "FC Barcelona",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png"
+          },
+          {
+            "name": "Manchester City",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20City.png"
+          },
+          {
+            "name": "Olympiakos",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Greece%20-%20Super%20League%201/Olympiacos%20Piraeus.png"
+          },
+          {
+            "name": "Qingdao Huanghai",
+            "logo": null
+          }
+        ]
+      }
     },
     {
-      "prompt": "Co to za piłkarz?\nNarodowość: Ghana\nOstatnie kluby (od najstarszego): Chelsea → AC Milan → Panathinaikos → Persib Bandung → Sabail",
-      "answer": "Michael Essien",
-      "id": "pilkarz-d17efbb225e76c851471",
-      "aliases": [
-        "Essien"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Egipt\nOstatnie kluby (od najstarszego): FC Basel → Chelsea → Fiorentina → AS Roma → Liverpool",
-      "answer": "Mohamed Salah",
-      "id": "pilkarz-f042e1c7daf8bda14733",
-      "aliases": [
-        "Salah"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Senegal\nOstatnie kluby (od najstarszego): Red Bull Salzburg → Southampton → Liverpool → Bayern Monachium → Al-Nassr",
-      "answer": "Sadio Mané",
-      "id": "pilkarz-1aa9b2a6c333ab26b5b3",
-      "aliases": [
-        "Mané",
-        "Mane"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Gabon\nOstatnie kluby (od najstarszego): FC Barcelona → Chelsea → Olympique Marsylia → Al-Qadsiah → Olympique Marsylia",
-      "answer": "Pierre-Emerick Aubameyang",
-      "id": "pilkarz-08fb232c72f69f26be79",
-      "aliases": [
-        "Aubameyang"
-      ]
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Liberia\nOstatnie kluby (od najstarszego): AC Milan → Chelsea → Manchester City → Olympique Marsylia → Al-Jazira",
+      "prompt": "Co to za piłkarz?\nNarodowość: Liberia\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): AC Milan → Chelsea → Manchester City → Olympique Marsylia → Al-Jazira",
       "answer": "George Weah",
-      "id": "pilkarz-8199c2e7cf43f5e907b1",
       "aliases": [
         "Weah"
-      ]
+      ],
+      "id": "pilkarz-8199c2e7cf43f5e907b1",
+      "footballer": {
+        "nationality": "Liberia",
+        "flag": "https://flagcdn.com/w160/lr.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "AC Milan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png"
+          },
+          {
+            "name": "Chelsea",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png"
+          },
+          {
+            "name": "Manchester City",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20City.png"
+          },
+          {
+            "name": "Olympique Marsylia",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Olympique%20Marseille.png"
+          },
+          {
+            "name": "Al-Jazira",
+            "logo": null
+          }
+        ]
+      }
     },
     {
-      "prompt": "Co to za piłkarz?\nNarodowość: Włochy\nOstatnie kluby (od najstarszego): Perugia → Rangers → Salernitana → AC Milan → FC Sion",
-      "answer": "Gennaro Gattuso",
-      "id": "pilkarz-de34b8938e9b358f6eaf",
+      "prompt": "Co to za piłkarz?\nNarodowość: Hiszpania\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): FC Barcelona → Atlético Madryt → Melbourne City → New York City FC → Vissel Kobe",
+      "answer": "David Villa",
       "aliases": [
-        "Gattuso"
-      ]
+        "Villa"
+      ],
+      "id": "pilkarz-0dc0f595619c2052b1e3",
+      "footballer": {
+        "nationality": "Hiszpania",
+        "flag": "https://flagcdn.com/w160/es.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "FC Barcelona",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png"
+          },
+          {
+            "name": "Atlético Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Atl%C3%A9tico%20de%20Madrid.png"
+          },
+          {
+            "name": "Melbourne City",
+            "logo": null
+          },
+          {
+            "name": "New York City FC",
+            "logo": null
+          },
+          {
+            "name": "Vissel Kobe",
+            "logo": null
+          }
+        ]
+      }
     },
     {
-      "prompt": "Co to za piłkarz?\nNarodowość: Włochy\nOstatnie kluby (od najstarszego): Piacenza → Parma → Atalanta → Juventus → AC Milan",
+      "prompt": "Co to za piłkarz?\nNarodowość: Hiszpania\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Liverpool → Chelsea → AC Milan → Atlético Madryt → Sagan Tosu",
+      "answer": "Fernando Torres",
+      "aliases": [
+        "Torres"
+      ],
+      "id": "pilkarz-4b889d9cf77860fe1d14",
+      "footballer": {
+        "nationality": "Hiszpania",
+        "flag": "https://flagcdn.com/w160/es.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Liverpool",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Liverpool%20FC.png"
+          },
+          {
+            "name": "Chelsea",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png"
+          },
+          {
+            "name": "AC Milan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png"
+          },
+          {
+            "name": "Atlético Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Atl%C3%A9tico%20de%20Madrid.png"
+          },
+          {
+            "name": "Sagan Tosu",
+            "logo": null
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Hiszpania\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): FC Barcelona → Vissel Kobe → Emirates Club",
+      "answer": "Andrés Iniesta",
+      "aliases": [
+        "Iniesta"
+      ],
+      "id": "pilkarz-9a76b311788448ceace0",
+      "footballer": {
+        "nationality": "Hiszpania",
+        "flag": "https://flagcdn.com/w160/es.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "FC Barcelona",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png"
+          },
+          {
+            "name": "Vissel Kobe",
+            "logo": null
+          },
+          {
+            "name": "Emirates Club",
+            "logo": null
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Hiszpania\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): Arsenal → FC Barcelona → Chelsea → AS Monaco → Como",
+      "answer": "Cesc Fàbregas",
+      "aliases": [
+        "Fàbregas",
+        "Fabregas"
+      ],
+      "id": "pilkarz-9209889fdd11394d6aea",
+      "footballer": {
+        "nationality": "Hiszpania",
+        "flag": "https://flagcdn.com/w160/es.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "Arsenal",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Arsenal%20FC.png"
+          },
+          {
+            "name": "FC Barcelona",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png"
+          },
+          {
+            "name": "Chelsea",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png"
+          },
+          {
+            "name": "AS Monaco",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/AS%20Monaco.png"
+          },
+          {
+            "name": "Como",
+            "logo": null
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Hiszpania\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): SD Eibar → Real Sociedad → Liverpool → Real Madryt → Bayern Monachium",
+      "answer": "Xabi Alonso",
+      "aliases": [
+        "Alonso"
+      ],
+      "id": "pilkarz-e5d623d5fd810ec5486d",
+      "footballer": {
+        "nationality": "Hiszpania",
+        "flag": "https://flagcdn.com/w160/es.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "SD Eibar",
+            "logo": null
+          },
+          {
+            "name": "Real Sociedad",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Sociedad.png"
+          },
+          {
+            "name": "Liverpool",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Liverpool%20FC.png"
+          },
+          {
+            "name": "Real Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png"
+          },
+          {
+            "name": "Bayern Monachium",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Bayern%20Munich.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Holandia\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): Real Madryt → Inter Mediolan → Galatasaray → OGC Nice → Al-Gharafa",
+      "answer": "Wesley Sneijder",
+      "aliases": [
+        "Sneijder"
+      ],
+      "id": "pilkarz-b1ed7a79151bf86e18d6",
+      "footballer": {
+        "nationality": "Holandia",
+        "flag": "https://flagcdn.com/w160/nl.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "Real Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png"
+          },
+          {
+            "name": "Inter Mediolan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Inter%20Milan.png"
+          },
+          {
+            "name": "Galatasaray",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Galatasaray.png"
+          },
+          {
+            "name": "OGC Nice",
+            "logo": null
+          },
+          {
+            "name": "Al-Gharafa",
+            "logo": null
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Holandia\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): PSV Eindhoven → Chelsea → Real Madryt → Bayern Monachium → FC Groningen",
+      "answer": "Arjen Robben",
+      "aliases": [
+        "Robben"
+      ],
+      "id": "pilkarz-dc4b54d4a15083c83b16",
+      "footballer": {
+        "nationality": "Holandia",
+        "flag": "https://flagcdn.com/w160/nl.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "PSV Eindhoven",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Netherlands%20-%20Eredivisie/PSV%20Eindhoven.png"
+          },
+          {
+            "name": "Chelsea",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png"
+          },
+          {
+            "name": "Real Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png"
+          },
+          {
+            "name": "Bayern Monachium",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Bayern%20Munich.png"
+          },
+          {
+            "name": "FC Groningen",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Netherlands%20-%20Eredivisie/FC%20Groningen.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Holandia\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): Sampdoria → Real Madryt → Inter Mediolan → AC Milan → Botafogo",
+      "answer": "Clarence Seedorf",
+      "aliases": [
+        "Seedorf"
+      ],
+      "id": "pilkarz-de5ad3bba0c235c2a781",
+      "footballer": {
+        "nationality": "Holandia",
+        "flag": "https://flagcdn.com/w160/nl.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "Sampdoria",
+            "logo": null
+          },
+          {
+            "name": "Real Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png"
+          },
+          {
+            "name": "Inter Mediolan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Inter%20Milan.png"
+          },
+          {
+            "name": "AC Milan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png"
+          },
+          {
+            "name": "Botafogo",
+            "logo": null
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Holandia\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): PSV Eindhoven → Manchester United → Real Madryt → Hamburger SV → Málaga",
+      "answer": "Ruud van Nistelrooy",
+      "aliases": [
+        "van Nistelrooy",
+        "Van Nistelrooy"
+      ],
+      "id": "pilkarz-a429a6d8768d61e2e1bb",
+      "footballer": {
+        "nationality": "Holandia",
+        "flag": "https://flagcdn.com/w160/nl.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "PSV Eindhoven",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Netherlands%20-%20Eredivisie/PSV%20Eindhoven.png"
+          },
+          {
+            "name": "Manchester United",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20United.png"
+          },
+          {
+            "name": "Real Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png"
+          },
+          {
+            "name": "Hamburger SV",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Hamburger%20SV.png"
+          },
+          {
+            "name": "Málaga",
+            "logo": null
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Włochy\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): Inter Mediolan → Brescia → AC Milan → Juventus → New York City FC",
+      "answer": "Andrea Pirlo",
+      "aliases": [
+        "Pirlo"
+      ],
+      "id": "pilkarz-a10b711e9fa3f9206aa9",
+      "footballer": {
+        "nationality": "Włochy",
+        "flag": "https://flagcdn.com/w160/it.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "Inter Mediolan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Inter%20Milan.png"
+          },
+          {
+            "name": "Brescia",
+            "logo": null
+          },
+          {
+            "name": "AC Milan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png"
+          },
+          {
+            "name": "Juventus",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Juventus%20FC.png"
+          },
+          {
+            "name": "New York City FC",
+            "logo": null
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Włochy\nPozycja: Bramkarz\nOstatnie kluby (od najstarszego): Parma → Juventus → Paris Saint-Germain → Juventus → Parma",
+      "answer": "Gianluigi Buffon",
+      "aliases": [
+        "Buffon"
+      ],
+      "id": "pilkarz-f3050be3e184d8d62ddc",
+      "footballer": {
+        "nationality": "Włochy",
+        "flag": "https://flagcdn.com/w160/it.png",
+        "position": "Bramkarz",
+        "clubs": [
+          {
+            "name": "Parma",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Parma%20Calcio%201913.png"
+          },
+          {
+            "name": "Juventus",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Juventus%20FC.png"
+          },
+          {
+            "name": "Paris Saint-Germain",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Paris%20Saint-Germain.png"
+          },
+          {
+            "name": "Juventus",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Juventus%20FC.png"
+          },
+          {
+            "name": "Parma",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Parma%20Calcio%201913.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Włochy\nPozycja: Obrońca\nOstatnie kluby (od najstarszego): Inter Mediolan → Juventus → Real Madryt → Juventus → Al-Ahli Dubaj",
+      "answer": "Fabio Cannavaro",
+      "aliases": [
+        "Cannavaro"
+      ],
+      "id": "pilkarz-09ef23f7eb370a6e63ba",
+      "footballer": {
+        "nationality": "Włochy",
+        "flag": "https://flagcdn.com/w160/it.png",
+        "position": "Obrońca",
+        "clubs": [
+          {
+            "name": "Inter Mediolan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Inter%20Milan.png"
+          },
+          {
+            "name": "Juventus",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Juventus%20FC.png"
+          },
+          {
+            "name": "Real Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png"
+          },
+          {
+            "name": "Juventus",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Juventus%20FC.png"
+          },
+          {
+            "name": "Al-Ahli Dubaj",
+            "logo": null
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Włochy\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Juventus → AC Milan → Bologna → Inter Mediolan → Brescia",
+      "answer": "Roberto Baggio",
+      "aliases": [
+        "Baggio"
+      ],
+      "id": "pilkarz-c0acc3308a9e5e852fd7",
+      "footballer": {
+        "nationality": "Włochy",
+        "flag": "https://flagcdn.com/w160/it.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Juventus",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Juventus%20FC.png"
+          },
+          {
+            "name": "AC Milan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png"
+          },
+          {
+            "name": "Bologna",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Bologna%20FC%201909.png"
+          },
+          {
+            "name": "Inter Mediolan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Inter%20Milan.png"
+          },
+          {
+            "name": "Brescia",
+            "logo": null
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Włochy\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Piacenza → Parma → Atalanta → Juventus → AC Milan",
       "answer": "Filippo Inzaghi",
-      "id": "pilkarz-e4cb5b6aadd8ec98acf4",
       "aliases": [
         "Inzaghi",
         "Pippo Inzaghi"
-      ]
+      ],
+      "id": "pilkarz-e4cb5b6aadd8ec98acf4",
+      "footballer": {
+        "nationality": "Włochy",
+        "flag": "https://flagcdn.com/w160/it.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Piacenza",
+            "logo": null
+          },
+          {
+            "name": "Parma",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Parma%20Calcio%201913.png"
+          },
+          {
+            "name": "Atalanta",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Atalanta%20BC.png"
+          },
+          {
+            "name": "Juventus",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Juventus%20FC.png"
+          },
+          {
+            "name": "AC Milan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png"
+          }
+        ]
+      }
     },
     {
-      "prompt": "Co to za piłkarz?\nNarodowość: Włochy\nOstatnie kluby (od najstarszego): Juventus → AC Milan → Bologna → Inter Mediolan → Brescia",
-      "answer": "Roberto Baggio",
-      "id": "pilkarz-c0acc3308a9e5e852fd7",
+      "prompt": "Co to za piłkarz?\nNarodowość: Włochy\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): Perugia → Rangers → Salernitana → AC Milan → FC Sion",
+      "answer": "Gennaro Gattuso",
       "aliases": [
-        "Baggio"
-      ]
+        "Gattuso"
+      ],
+      "id": "pilkarz-de34b8938e9b358f6eaf",
+      "footballer": {
+        "nationality": "Włochy",
+        "flag": "https://flagcdn.com/w160/it.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "Perugia",
+            "logo": null
+          },
+          {
+            "name": "Rangers",
+            "logo": null
+          },
+          {
+            "name": "Salernitana",
+            "logo": null
+          },
+          {
+            "name": "AC Milan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png"
+          },
+          {
+            "name": "FC Sion",
+            "logo": null
+          }
+        ]
+      }
     },
     {
-      "prompt": "Co to za piłkarz?\nNarodowość: Włochy\nOstatnie kluby (od najstarszego): Inter Mediolan → Juventus → Real Madryt → Juventus → Al-Ahli Dubaj",
-      "answer": "Fabio Cannavaro",
-      "id": "pilkarz-09ef23f7eb370a6e63ba",
+      "prompt": "Co to za piłkarz?\nNarodowość: Niemcy\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): FC 08 Homburg → 1. FC Kaiserslautern → Werder Brema → Bayern Monachium → Lazio",
+      "answer": "Miroslav Klose",
       "aliases": [
-        "Cannavaro"
-      ]
+        "Klose"
+      ],
+      "id": "pilkarz-314e717dad20dce4c593",
+      "footballer": {
+        "nationality": "Niemcy",
+        "flag": "https://flagcdn.com/w160/de.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "FC 08 Homburg",
+            "logo": null
+          },
+          {
+            "name": "1. FC Kaiserslautern",
+            "logo": null
+          },
+          {
+            "name": "Werder Brema",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/SV%20Werder%20Bremen.png"
+          },
+          {
+            "name": "Bayern Monachium",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Bayern%20Munich.png"
+          },
+          {
+            "name": "Lazio",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/SS%20Lazio.png"
+          }
+        ]
+      }
     },
     {
-      "prompt": "Co to za piłkarz?\nNarodowość: Włochy\nOstatnie kluby (od najstarszego): Inter Mediolan → Brescia → AC Milan → Juventus → New York City FC",
-      "answer": "Andrea Pirlo",
-      "id": "pilkarz-a10b711e9fa3f9206aa9",
+      "prompt": "Co to za piłkarz?\nNarodowość: Niemcy\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): 1. FC Kaiserslautern → Bayer Leverkusen → Bayern Monachium → Chelsea → Bayer Leverkusen",
+      "answer": "Michael Ballack",
       "aliases": [
-        "Pirlo"
-      ]
+        "Ballack"
+      ],
+      "id": "pilkarz-a2a1ed507329ab6ecc3c",
+      "footballer": {
+        "nationality": "Niemcy",
+        "flag": "https://flagcdn.com/w160/de.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "1. FC Kaiserslautern",
+            "logo": null
+          },
+          {
+            "name": "Bayer Leverkusen",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Bayer%2004%20Leverkusen.png"
+          },
+          {
+            "name": "Bayern Monachium",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Bayern%20Munich.png"
+          },
+          {
+            "name": "Chelsea",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png"
+          },
+          {
+            "name": "Bayer Leverkusen",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Bayer%2004%20Leverkusen.png"
+          }
+        ]
+      }
     },
     {
-      "prompt": "Co to za piłkarz?\nNarodowość: Brazylia\nOstatnie kluby (od najstarszego): Real Madryt → Fenerbahçe → Corinthians → Anży Machaczkała → Delhi Dynamos",
-      "answer": "Roberto Carlos",
-      "id": "pilkarz-91f425cebc73a62b0587"
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Brazylia\nOstatnie kluby (od najstarszego): Real Zaragoza → Juventude → Palmeiras → AS Roma → AC Milan",
-      "answer": "Cafu",
-      "id": "pilkarz-723b2f53f2543519ed1e"
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Brazylia\nOstatnie kluby (od najstarszego): Juventus → Paris Saint-Germain → São Paulo → FC Barcelona → Pumas UNAM",
-      "answer": "Dani Alves",
-      "id": "pilkarz-c9d7277b962518aa1b1f",
+      "prompt": "Co to za piłkarz?\nNarodowość: Niemcy\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): Werder Brema → Real Madryt → Arsenal → Fenerbahçe → İstanbul Başakşehir",
+      "answer": "Mesut Özil",
       "aliases": [
-        "Alves"
-      ]
+        "Özil",
+        "Ozil"
+      ],
+      "id": "pilkarz-c4a79fe33763307c3ccc",
+      "footballer": {
+        "nationality": "Niemcy",
+        "flag": "https://flagcdn.com/w160/de.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "Werder Brema",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/SV%20Werder%20Bremen.png"
+          },
+          {
+            "name": "Real Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png"
+          },
+          {
+            "name": "Arsenal",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Arsenal%20FC.png"
+          },
+          {
+            "name": "Fenerbahçe",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Fenerbahce.png"
+          },
+          {
+            "name": "İstanbul Başakşehir",
+            "logo": null
+          }
+        ]
+      }
     },
     {
-      "prompt": "Co to za piłkarz?\nNarodowość: Brazylia\nOstatnie kluby (od najstarszego): AC Milan → Real Madryt → AC Milan → São Paulo → Orlando City",
-      "answer": "Kaká",
-      "id": "pilkarz-63433414611262d92d4b",
+      "prompt": "Co to za piłkarz?\nNarodowość: Francja\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): Galatasaray → Olympique Marsylia → Bayern Monachium → Fiorentina → Salernitana",
+      "answer": "Franck Ribéry",
       "aliases": [
-        "Kaka"
-      ]
+        "Ribéry",
+        "Ribery"
+      ],
+      "id": "pilkarz-710cf5e5c43a423b0ddf",
+      "footballer": {
+        "nationality": "Francja",
+        "flag": "https://flagcdn.com/w160/fr.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "Galatasaray",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Galatasaray.png"
+          },
+          {
+            "name": "Olympique Marsylia",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Olympique%20Marseille.png"
+          },
+          {
+            "name": "Bayern Monachium",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Bayern%20Munich.png"
+          },
+          {
+            "name": "Fiorentina",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/ACF%20Fiorentina.png"
+          },
+          {
+            "name": "Salernitana",
+            "logo": null
+          }
+        ]
+      }
     },
     {
-      "prompt": "Co to za piłkarz?\nNarodowość: Portugalia\nOstatnie kluby (od najstarszego): Salgueiros → FC Porto → FC Barcelona → Chelsea → Fluminense",
-      "answer": "Deco",
-      "id": "pilkarz-cd4ecb10b7d07bbf0847"
-    },
-    {
-      "prompt": "Co to za piłkarz?\nNarodowość: Portugalia\nOstatnie kluby (od najstarszego): Al-Ahli Dubaj → FC Porto → Beşiktaş → Kasımpaşa → Vitória Guimarães",
-      "answer": "Ricardo Quaresma",
-      "id": "pilkarz-ca113edb174aaed5366b",
+      "prompt": "Co to za piłkarz?\nNarodowość: Francja\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): AC Milan → Arsenal → Juventus → Inter Mediolan → Manchester City",
+      "answer": "Patrick Vieira",
       "aliases": [
-        "Quaresma"
-      ]
+        "Vieira"
+      ],
+      "id": "pilkarz-899757e7712ba48e4eb2",
+      "footballer": {
+        "nationality": "Francja",
+        "flag": "https://flagcdn.com/w160/fr.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "AC Milan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png"
+          },
+          {
+            "name": "Arsenal",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Arsenal%20FC.png"
+          },
+          {
+            "name": "Juventus",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Juventus%20FC.png"
+          },
+          {
+            "name": "Inter Mediolan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Inter%20Milan.png"
+          },
+          {
+            "name": "Manchester City",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20City.png"
+          }
+        ]
+      }
     },
     {
-      "prompt": "Co to za piłkarz?\nNarodowość: Belgia\nOstatnie kluby (od najstarszego): Werder Brema → Chelsea → VfL Wolfsburg → Manchester City → Napoli",
-      "answer": "Kevin De Bruyne",
-      "id": "pilkarz-2a336ce97313579163bc",
+      "prompt": "Co to za piłkarz?\nNarodowość: Anglia\nPozycja: Obrońca\nOstatnie kluby (od najstarszego): AFC Bournemouth → West Ham United → Leeds United → Manchester United → Queens Park Rangers",
+      "answer": "Rio Ferdinand",
       "aliases": [
-        "De Bruyne"
-      ]
+        "Ferdinand"
+      ],
+      "id": "pilkarz-d1fa764438ac39e6ceff",
+      "footballer": {
+        "nationality": "Anglia",
+        "flag": "https://flagcdn.com/w160/gb-eng.png",
+        "position": "Obrońca",
+        "clubs": [
+          {
+            "name": "AFC Bournemouth",
+            "logo": null
+          },
+          {
+            "name": "West Ham United",
+            "logo": null
+          },
+          {
+            "name": "Leeds United",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Leeds%20United.png"
+          },
+          {
+            "name": "Manchester United",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20United.png"
+          },
+          {
+            "name": "Queens Park Rangers",
+            "logo": null
+          }
+        ]
+      }
     },
     {
-      "prompt": "Co to za piłkarz?\nNarodowość: Belgia\nOstatnie kluby (od najstarszego): Inter Mediolan → Chelsea → Inter Mediolan → AS Roma → Napoli",
-      "answer": "Romelu Lukaku",
-      "id": "pilkarz-4833225795a112406501",
+      "prompt": "Co to za piłkarz?\nNarodowość: Anglia\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Liverpool → Real Madryt → Newcastle United → Manchester United → Stoke City",
+      "answer": "Michael Owen",
       "aliases": [
-        "Lukaku"
-      ]
+        "Owen"
+      ],
+      "id": "pilkarz-69311d31619545f619bc",
+      "footballer": {
+        "nationality": "Anglia",
+        "flag": "https://flagcdn.com/w160/gb-eng.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Liverpool",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Liverpool%20FC.png"
+          },
+          {
+            "name": "Real Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png"
+          },
+          {
+            "name": "Newcastle United",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Newcastle%20United.png"
+          },
+          {
+            "name": "Manchester United",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20United.png"
+          },
+          {
+            "name": "Stoke City",
+            "logo": null
+          }
+        ]
+      }
     },
     {
-      "prompt": "Co to za piłkarz?\nNarodowość: Kolumbia\nOstatnie kluby (od najstarszego): Chelsea → AS Monaco → Galatasaray → Rayo Vallecano → Millonarios",
-      "answer": "Radamel Falcao",
-      "id": "pilkarz-8ec2b52510984f8b6fff",
+      "prompt": "Co to za piłkarz?\nNarodowość: Argentyna\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Boca Juniors → Fiorentina → AS Roma → Inter Mediolan → Al-Arabi",
+      "answer": "Gabriel Batistuta",
       "aliases": [
-        "Falcao"
-      ]
+        "Batistuta"
+      ],
+      "id": "pilkarz-51598f3c36a3ce07c18f",
+      "footballer": {
+        "nationality": "Argentyna",
+        "flag": "https://flagcdn.com/w160/ar.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Boca Juniors",
+            "logo": null
+          },
+          {
+            "name": "Fiorentina",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/ACF%20Fiorentina.png"
+          },
+          {
+            "name": "AS Roma",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AS%20Roma.png"
+          },
+          {
+            "name": "Inter Mediolan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Inter%20Milan.png"
+          },
+          {
+            "name": "Al-Arabi",
+            "logo": null
+          }
+        ]
+      }
     },
     {
-      "prompt": "Co to za piłkarz?\nNarodowość: Chile\nOstatnie kluby (od najstarszego): FC Barcelona → Inter Mediolan → Flamengo → Athletico Paranaense → Colo-Colo",
-      "answer": "Arturo Vidal",
-      "id": "pilkarz-ca69b8f0abfd8d27e34d",
+      "prompt": "Co to za piłkarz?\nNarodowość: Argentyna\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Manchester City → Juventus → Boca Juniors → Shanghai Shenhua → Boca Juniors",
+      "answer": "Carlos Tevez",
       "aliases": [
-        "Vidal"
-      ]
+        "Tevez"
+      ],
+      "id": "pilkarz-d587b071f376892c5581",
+      "footballer": {
+        "nationality": "Argentyna",
+        "flag": "https://flagcdn.com/w160/ar.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Manchester City",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20City.png"
+          },
+          {
+            "name": "Juventus",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Juventus%20FC.png"
+          },
+          {
+            "name": "Boca Juniors",
+            "logo": null
+          },
+          {
+            "name": "Shanghai Shenhua",
+            "logo": null
+          },
+          {
+            "name": "Boca Juniors",
+            "logo": null
+          }
+        ]
+      }
     },
     {
-      "prompt": "Co to za piłkarz?\nNarodowość: Japonia\nOstatnie kluby (od najstarszego): Beşiktaş → Real Zaragoza → PAOK → Sint-Truiden → Cerezo Osaka",
-      "answer": "Shinji Kagawa",
-      "id": "pilkarz-d9a9bdab6b02cc698a28",
+      "prompt": "Co to za piłkarz?\nNarodowość: Czechy\nPozycja: Bramkarz\nOstatnie kluby (od najstarszego): Chmel Blšany → Sparta Praga → Stade Rennais → Chelsea → Arsenal",
+      "answer": "Petr Čech",
       "aliases": [
-        "Kagawa"
-      ]
+        "Čech",
+        "Cech"
+      ],
+      "id": "pilkarz-43bafbe12d9b000ed555",
+      "footballer": {
+        "nationality": "Czechy",
+        "flag": "https://flagcdn.com/w160/cz.png",
+        "position": "Bramkarz",
+        "clubs": [
+          {
+            "name": "Chmel Blšany",
+            "logo": null
+          },
+          {
+            "name": "Sparta Praga",
+            "logo": null
+          },
+          {
+            "name": "Stade Rennais",
+            "logo": null
+          },
+          {
+            "name": "Chelsea",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png"
+          },
+          {
+            "name": "Arsenal",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Arsenal%20FC.png"
+          }
+        ]
+      }
     },
     {
-      "prompt": "Co to za piłkarz?\nNarodowość: Meksyk\nOstatnie kluby (od najstarszego): Bayer Leverkusen → West Ham United → Sevilla → LA Galaxy → Chivas Guadalajara",
-      "answer": "Javier Hernández",
-      "id": "pilkarz-3487c4f49ade5dfa24fd",
+      "prompt": "Co to za piłkarz?\nNarodowość: Polska\nPozycja: Bramkarz\nOstatnie kluby (od najstarszego): Concordia Knurów → Sokół Tychy → Feyenoord → Liverpool → Real Madryt",
+      "answer": "Jerzy Dudek",
       "aliases": [
-        "Chicharito",
-        "Hernández"
-      ]
+        "Dudek"
+      ],
+      "id": "pilkarz-757e0fced4f39001461c",
+      "footballer": {
+        "nationality": "Polska",
+        "flag": "https://flagcdn.com/w160/pl.png",
+        "position": "Bramkarz",
+        "clubs": [
+          {
+            "name": "Concordia Knurów",
+            "logo": null
+          },
+          {
+            "name": "Sokół Tychy",
+            "logo": null
+          },
+          {
+            "name": "Feyenoord",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Netherlands%20-%20Eredivisie/Feyenoord%20Rotterdam.png"
+          },
+          {
+            "name": "Liverpool",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Liverpool%20FC.png"
+          },
+          {
+            "name": "Real Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png"
+          }
+        ]
+      }
     },
     {
-      "prompt": "Co to za piłkarz?\nNarodowość: Norwegia\nOstatnie kluby (od najstarszego): Bryne → Molde → Red Bull Salzburg → Borussia Dortmund → Manchester City",
+      "prompt": "Co to za piłkarz?\nNarodowość: Polska\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): Borussia Dortmund → Fiorentina → Borussia Dortmund → VfL Wolfsburg → Wisła Kraków",
+      "answer": "Jakub Błaszczykowski",
+      "aliases": [
+        "Błaszczykowski",
+        "Kuba"
+      ],
+      "id": "pilkarz-efaca4623606c1e2f373",
+      "footballer": {
+        "nationality": "Polska",
+        "flag": "https://flagcdn.com/w160/pl.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "Borussia Dortmund",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Borussia%20Dortmund.png"
+          },
+          {
+            "name": "Fiorentina",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/ACF%20Fiorentina.png"
+          },
+          {
+            "name": "Borussia Dortmund",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Borussia%20Dortmund.png"
+          },
+          {
+            "name": "VfL Wolfsburg",
+            "logo": null
+          },
+          {
+            "name": "Wisła Kraków",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Wisla%20Krak%C3%B3w.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Chorwacja\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): Sevilla → FC Barcelona → Sevilla → Al-Shabab → Hajduk Split",
+      "answer": "Ivan Rakitić",
+      "aliases": [
+        "Rakitić",
+        "Rakitic"
+      ],
+      "id": "pilkarz-c82bf45398fd9bff2f16",
+      "footballer": {
+        "nationality": "Chorwacja",
+        "flag": "https://flagcdn.com/w160/hr.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "Sevilla",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Sevilla%20FC.png"
+          },
+          {
+            "name": "FC Barcelona",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png"
+          },
+          {
+            "name": "Sevilla",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Sevilla%20FC.png"
+          },
+          {
+            "name": "Al-Shabab",
+            "logo": null
+          },
+          {
+            "name": "Hajduk Split",
+            "logo": null
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Polska\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Lech Poznań → Borussia Dortmund → Bayern Monachium → FC Barcelona → Chicago Fire",
+      "answer": "Robert Lewandowski",
+      "aliases": [
+        "Lewandowski"
+      ],
+      "id": "pilkarz-dc21d6b78ffe4823369c",
+      "footballer": {
+        "nationality": "Polska",
+        "flag": "https://flagcdn.com/w160/pl.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Lech Poznań",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Poland%20-%20PKO%20BP%20Ekstraklasa/Lech%20Poznan.png"
+          },
+          {
+            "name": "Borussia Dortmund",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Borussia%20Dortmund.png"
+          },
+          {
+            "name": "Bayern Monachium",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Bayern%20Munich.png"
+          },
+          {
+            "name": "FC Barcelona",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png"
+          },
+          {
+            "name": "Chicago Fire",
+            "logo": null
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Polska\nPozycja: Bramkarz\nOstatnie kluby (od najstarszego): Brentford → Arsenal → AS Roma → Juventus → FC Barcelona",
+      "answer": "Wojciech Szczęsny",
+      "aliases": [
+        "Szczęsny"
+      ],
+      "id": "pilkarz-e78e53857ca40921e8f5",
+      "footballer": {
+        "nationality": "Polska",
+        "flag": "https://flagcdn.com/w160/pl.png",
+        "position": "Bramkarz",
+        "clubs": [
+          {
+            "name": "Brentford",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Brentford%20FC.png"
+          },
+          {
+            "name": "Arsenal",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Arsenal%20FC.png"
+          },
+          {
+            "name": "AS Roma",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AS%20Roma.png"
+          },
+          {
+            "name": "Juventus",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Juventus%20FC.png"
+          },
+          {
+            "name": "FC Barcelona",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Polska\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): Udinese → Empoli → Napoli → Inter Mediolan",
+      "answer": "Piotr Zieliński",
+      "aliases": [
+        "Zieliński"
+      ],
+      "id": "pilkarz-2557a24a1ca629585f7d",
+      "footballer": {
+        "nationality": "Polska",
+        "flag": "https://flagcdn.com/w160/pl.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "Udinese",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Udinese%20Calcio.png"
+          },
+          {
+            "name": "Empoli",
+            "logo": null
+          },
+          {
+            "name": "Napoli",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/SSC%20Napoli.png"
+          },
+          {
+            "name": "Inter Mediolan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Inter%20Milan.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Portugalia\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Manchester United → Real Madryt → Juventus → Manchester United → Al-Nassr",
+      "answer": "Cristiano Ronaldo",
+      "aliases": [
+        "Ronaldo",
+        "CR7"
+      ],
+      "id": "pilkarz-fefb0286624adae8ada9",
+      "footballer": {
+        "nationality": "Portugalia",
+        "flag": "https://flagcdn.com/w160/pt.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Manchester United",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20United.png"
+          },
+          {
+            "name": "Real Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png"
+          },
+          {
+            "name": "Juventus",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Juventus%20FC.png"
+          },
+          {
+            "name": "Manchester United",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20United.png"
+          },
+          {
+            "name": "Al-Nassr",
+            "logo": null
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Portugalia\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): Novara → Udinese → Sampdoria → Sporting → Manchester United",
+      "answer": "Bruno Fernandes",
+      "aliases": [
+        "Fernandes"
+      ],
+      "id": "pilkarz-df8f3f5f2cd01c8e073a",
+      "footballer": {
+        "nationality": "Portugalia",
+        "flag": "https://flagcdn.com/w160/pt.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "Novara",
+            "logo": null
+          },
+          {
+            "name": "Udinese",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Udinese%20Calcio.png"
+          },
+          {
+            "name": "Sampdoria",
+            "logo": null
+          },
+          {
+            "name": "Sporting",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Portugal%20-%20Liga%20Portugal/Sporting%20CP.png"
+          },
+          {
+            "name": "Manchester United",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20United.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Portugalia\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): Benfica → AS Monaco → Manchester City → Real Madryt",
+      "answer": "Bernardo Silva",
+      "aliases": [
+        "Silva"
+      ],
+      "id": "pilkarz-1d9d19967be48d642716",
+      "footballer": {
+        "nationality": "Portugalia",
+        "flag": "https://flagcdn.com/w160/pt.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "Benfica",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Portugal%20-%20Liga%20Portugal/SL%20Benfica.png"
+          },
+          {
+            "name": "AS Monaco",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/AS%20Monaco.png"
+          },
+          {
+            "name": "Manchester City",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20City.png"
+          },
+          {
+            "name": "Real Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Portugalia\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Atlético Madryt → FC Barcelona → Chelsea → AC Milan → Al-Nassr",
+      "answer": "João Félix",
+      "aliases": [
+        "Félix",
+        "Joao Felix"
+      ],
+      "id": "pilkarz-1da154cdd8120be9d282",
+      "footballer": {
+        "nationality": "Portugalia",
+        "flag": "https://flagcdn.com/w160/pt.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Atlético Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Atl%C3%A9tico%20de%20Madrid.png"
+          },
+          {
+            "name": "FC Barcelona",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png"
+          },
+          {
+            "name": "Chelsea",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png"
+          },
+          {
+            "name": "AC Milan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png"
+          },
+          {
+            "name": "Al-Nassr",
+            "logo": null
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Argentyna\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): FC Barcelona → Paris Saint-Germain → Inter Miami",
+      "answer": "Lionel Messi",
+      "aliases": [
+        "Messi"
+      ],
+      "id": "pilkarz-5f433912a6c0b2cb21c9",
+      "footballer": {
+        "nationality": "Argentyna",
+        "flag": "https://flagcdn.com/w160/ar.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "FC Barcelona",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png"
+          },
+          {
+            "name": "Paris Saint-Germain",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Paris%20Saint-Germain.png"
+          },
+          {
+            "name": "Inter Miami",
+            "logo": null
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Argentyna\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): Manchester United → Paris Saint-Germain → Juventus → Benfica → Rosario Central",
+      "answer": "Ángel Di María",
+      "aliases": [
+        "Di María",
+        "Di Maria"
+      ],
+      "id": "pilkarz-443a681c625d613d0e85",
+      "footballer": {
+        "nationality": "Argentyna",
+        "flag": "https://flagcdn.com/w160/ar.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "Manchester United",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20United.png"
+          },
+          {
+            "name": "Paris Saint-Germain",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Paris%20Saint-Germain.png"
+          },
+          {
+            "name": "Juventus",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Juventus%20FC.png"
+          },
+          {
+            "name": "Benfica",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Portugal%20-%20Liga%20Portugal/SL%20Benfica.png"
+          },
+          {
+            "name": "Rosario Central",
+            "logo": null
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Argentyna\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Instituto → Palermo → Juventus → AS Roma",
+      "answer": "Paulo Dybala",
+      "aliases": [
+        "Dybala"
+      ],
+      "id": "pilkarz-77e9ab9b0b35f6a376df",
+      "footballer": {
+        "nationality": "Argentyna",
+        "flag": "https://flagcdn.com/w160/ar.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Instituto",
+            "logo": null
+          },
+          {
+            "name": "Palermo",
+            "logo": null
+          },
+          {
+            "name": "Juventus",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Juventus%20FC.png"
+          },
+          {
+            "name": "AS Roma",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AS%20Roma.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Argentyna\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): River Plate → Manchester City → Atlético Madryt",
+      "answer": "Julián Álvarez",
+      "aliases": [
+        "Álvarez",
+        "Alvarez"
+      ],
+      "id": "pilkarz-67fe6eb2c176af4ab962",
+      "footballer": {
+        "nationality": "Argentyna",
+        "flag": "https://flagcdn.com/w160/ar.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "River Plate",
+            "logo": null
+          },
+          {
+            "name": "Manchester City",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20City.png"
+          },
+          {
+            "name": "Atlético Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Atl%C3%A9tico%20de%20Madrid.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Argentyna\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): Defensa y Justicia → River Plate → Benfica → Chelsea → Manchester City",
+      "answer": "Enzo Fernández",
+      "aliases": [
+        "Enzo"
+      ],
+      "id": "pilkarz-1858437e8fd5036e209a",
+      "footballer": {
+        "nationality": "Argentyna",
+        "flag": "https://flagcdn.com/w160/ar.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "Defensa y Justicia",
+            "logo": null
+          },
+          {
+            "name": "River Plate",
+            "logo": null
+          },
+          {
+            "name": "Benfica",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Portugal%20-%20Liga%20Portugal/SL%20Benfica.png"
+          },
+          {
+            "name": "Chelsea",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png"
+          },
+          {
+            "name": "Manchester City",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20City.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Brazylia\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Santos → FC Barcelona → Paris Saint-Germain → Al-Hilal → Santos",
+      "answer": "Neymar",
+      "id": "pilkarz-e9cd910e6f5415fb28bb",
+      "footballer": {
+        "nationality": "Brazylia",
+        "flag": "https://flagcdn.com/w160/br.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Santos",
+            "logo": null
+          },
+          {
+            "name": "FC Barcelona",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png"
+          },
+          {
+            "name": "Paris Saint-Germain",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Paris%20Saint-Germain.png"
+          },
+          {
+            "name": "Al-Hilal",
+            "logo": null
+          },
+          {
+            "name": "Santos",
+            "logo": null
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Brazylia\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Vitória Guimarães → Sporting → Stade Rennais → Leeds United → FC Barcelona",
+      "answer": "Raphinha",
+      "id": "pilkarz-61cccefa0d46b3497ac1",
+      "footballer": {
+        "nationality": "Brazylia",
+        "flag": "https://flagcdn.com/w160/br.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Vitória Guimarães",
+            "logo": null
+          },
+          {
+            "name": "Sporting",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Portugal%20-%20Liga%20Portugal/Sporting%20CP.png"
+          },
+          {
+            "name": "Stade Rennais",
+            "logo": null
+          },
+          {
+            "name": "Leeds United",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Leeds%20United.png"
+          },
+          {
+            "name": "FC Barcelona",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Brazylia\nPozycja: Bramkarz\nOstatnie kluby (od najstarszego): Internacional → AS Roma → Liverpool",
+      "answer": "Alisson Becker",
+      "aliases": [
+        "Alisson"
+      ],
+      "id": "pilkarz-e98d22af26b98b9e0302",
+      "footballer": {
+        "nationality": "Brazylia",
+        "flag": "https://flagcdn.com/w160/br.png",
+        "position": "Bramkarz",
+        "clubs": [
+          {
+            "name": "Internacional",
+            "logo": null
+          },
+          {
+            "name": "AS Roma",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AS%20Roma.png"
+          },
+          {
+            "name": "Liverpool",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Liverpool%20FC.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Brazylia\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): Audax → Athletico Paranaense → Olympique Lyon → Newcastle United → Arsenal",
+      "answer": "Bruno Guimarães",
+      "aliases": [
+        "Guimarães",
+        "Guimaraes"
+      ],
+      "id": "pilkarz-3c7d848583bdebc30e03",
+      "footballer": {
+        "nationality": "Brazylia",
+        "flag": "https://flagcdn.com/w160/br.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "Audax",
+            "logo": null
+          },
+          {
+            "name": "Athletico Paranaense",
+            "logo": null
+          },
+          {
+            "name": "Olympique Lyon",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Olympique%20Lyon.png"
+          },
+          {
+            "name": "Newcastle United",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Newcastle%20United.png"
+          },
+          {
+            "name": "Arsenal",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Arsenal%20FC.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Francja\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): AS Monaco → Paris Saint-Germain → Real Madryt",
+      "answer": "Kylian Mbappé",
+      "aliases": [
+        "Mbappé",
+        "Mbappe"
+      ],
+      "id": "pilkarz-b1c8cd7a756db000e06a",
+      "footballer": {
+        "nationality": "Francja",
+        "flag": "https://flagcdn.com/w160/fr.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "AS Monaco",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/AS%20Monaco.png"
+          },
+          {
+            "name": "Paris Saint-Germain",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Paris%20Saint-Germain.png"
+          },
+          {
+            "name": "Real Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Francja\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Stade Rennais → Borussia Dortmund → FC Barcelona → Paris Saint-Germain",
+      "answer": "Ousmane Dembélé",
+      "aliases": [
+        "Dembélé",
+        "Dembele"
+      ],
+      "id": "pilkarz-888daf89cf05181823e8",
+      "footballer": {
+        "nationality": "Francja",
+        "flag": "https://flagcdn.com/w160/fr.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Stade Rennais",
+            "logo": null
+          },
+          {
+            "name": "Borussia Dortmund",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Borussia%20Dortmund.png"
+          },
+          {
+            "name": "FC Barcelona",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png"
+          },
+          {
+            "name": "Paris Saint-Germain",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Paris%20Saint-Germain.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Francja\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Real Sociedad → Atlético Madryt → FC Barcelona → Atlético Madryt → Orlando City",
+      "answer": "Antoine Griezmann",
+      "aliases": [
+        "Griezmann"
+      ],
+      "id": "pilkarz-1dded0ebf94cdc18d427",
+      "footballer": {
+        "nationality": "Francja",
+        "flag": "https://flagcdn.com/w160/fr.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Real Sociedad",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Sociedad.png"
+          },
+          {
+            "name": "Atlético Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Atl%C3%A9tico%20de%20Madrid.png"
+          },
+          {
+            "name": "FC Barcelona",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png"
+          },
+          {
+            "name": "Atlético Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Atl%C3%A9tico%20de%20Madrid.png"
+          },
+          {
+            "name": "Orlando City",
+            "logo": null
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Francja\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Olympique Lyon → Real Madryt → Al-Ittihad → Al-Hilal",
+      "answer": "Karim Benzema",
+      "aliases": [
+        "Benzema"
+      ],
+      "id": "pilkarz-418328d9819b598f6316",
+      "footballer": {
+        "nationality": "Francja",
+        "flag": "https://flagcdn.com/w160/fr.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Olympique Lyon",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Olympique%20Lyon.png"
+          },
+          {
+            "name": "Real Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png"
+          },
+          {
+            "name": "Al-Ittihad",
+            "logo": null
+          },
+          {
+            "name": "Al-Hilal",
+            "logo": null
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Anglia\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Norwich City → Tottenham Hotspur → Leicester City → Tottenham Hotspur → Bayern Monachium",
+      "answer": "Harry Kane",
+      "aliases": [
+        "Kane"
+      ],
+      "id": "pilkarz-1b023979dfe8919a79c2",
+      "footballer": {
+        "nationality": "Anglia",
+        "flag": "https://flagcdn.com/w160/gb-eng.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Norwich City",
+            "logo": null
+          },
+          {
+            "name": "Tottenham Hotspur",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Tottenham%20Hotspur.png"
+          },
+          {
+            "name": "Leicester City",
+            "logo": null
+          },
+          {
+            "name": "Tottenham Hotspur",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Tottenham%20Hotspur.png"
+          },
+          {
+            "name": "Bayern Monachium",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Bayern%20Munich.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Anglia\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): Birmingham City → Borussia Dortmund → Real Madryt",
+      "answer": "Jude Bellingham",
+      "aliases": [
+        "Bellingham"
+      ],
+      "id": "pilkarz-a69e496c6cc151205041",
+      "footballer": {
+        "nationality": "Anglia",
+        "flag": "https://flagcdn.com/w160/gb-eng.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "Birmingham City",
+            "logo": null
+          },
+          {
+            "name": "Borussia Dortmund",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Borussia%20Dortmund.png"
+          },
+          {
+            "name": "Real Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Anglia\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Manchester United → Aston Villa → FC Barcelona → Manchester United",
+      "answer": "Marcus Rashford",
+      "aliases": [
+        "Rashford"
+      ],
+      "id": "pilkarz-226f1f50ad5b693462a6",
+      "footballer": {
+        "nationality": "Anglia",
+        "flag": "https://flagcdn.com/w160/gb-eng.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Manchester United",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20United.png"
+          },
+          {
+            "name": "Aston Villa",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Aston%20Villa.png"
+          },
+          {
+            "name": "FC Barcelona",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png"
+          },
+          {
+            "name": "Manchester United",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20United.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Anglia\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): Aston Villa → Notts County → Aston Villa → Manchester City → Everton",
+      "answer": "Jack Grealish",
+      "aliases": [
+        "Grealish"
+      ],
+      "id": "pilkarz-f07f48cedb5f5139313f",
+      "footballer": {
+        "nationality": "Anglia",
+        "flag": "https://flagcdn.com/w160/gb-eng.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "Aston Villa",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Aston%20Villa.png"
+          },
+          {
+            "name": "Notts County",
+            "logo": null
+          },
+          {
+            "name": "Aston Villa",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Aston%20Villa.png"
+          },
+          {
+            "name": "Manchester City",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20City.png"
+          },
+          {
+            "name": "Everton",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Everton%20FC.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Norwegia\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Bryne → Molde → Red Bull Salzburg → Borussia Dortmund → Manchester City",
       "answer": "Erling Haaland",
-      "id": "pilkarz-acaf2f994d745344468b",
       "aliases": [
         "Haaland"
-      ]
+      ],
+      "id": "pilkarz-acaf2f994d745344468b",
+      "footballer": {
+        "nationality": "Norwegia",
+        "flag": "https://flagcdn.com/w160/no.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Bryne",
+            "logo": null
+          },
+          {
+            "name": "Molde",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Norway%20-%20Eliteserien/Molde%20FK.png"
+          },
+          {
+            "name": "Red Bull Salzburg",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Austria%20-%20Bundesliga/Red%20Bull%20Salzburg.png"
+          },
+          {
+            "name": "Borussia Dortmund",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Borussia%20Dortmund.png"
+          },
+          {
+            "name": "Manchester City",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20City.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Norwegia\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): Heerenveen → Vitesse → Real Sociedad → Real Madryt → Arsenal",
+      "answer": "Martin Ødegaard",
+      "aliases": [
+        "Ødegaard",
+        "Odegaard"
+      ],
+      "id": "pilkarz-59cacf69886aa5401b82",
+      "footballer": {
+        "nationality": "Norwegia",
+        "flag": "https://flagcdn.com/w160/no.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "Heerenveen",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Netherlands%20-%20Eredivisie/SC%20Heerenveen.png"
+          },
+          {
+            "name": "Vitesse",
+            "logo": null
+          },
+          {
+            "name": "Real Sociedad",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Sociedad.png"
+          },
+          {
+            "name": "Real Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png"
+          },
+          {
+            "name": "Arsenal",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Arsenal%20FC.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Egipt\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Chelsea → Fiorentina → AS Roma → Liverpool → Trabzonspor",
+      "answer": "Mohamed Salah",
+      "aliases": [
+        "Salah"
+      ],
+      "id": "pilkarz-f042e1c7daf8bda14733",
+      "footballer": {
+        "nationality": "Egipt",
+        "flag": "https://flagcdn.com/w160/eg.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Chelsea",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png"
+          },
+          {
+            "name": "Fiorentina",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/ACF%20Fiorentina.png"
+          },
+          {
+            "name": "AS Roma",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AS%20Roma.png"
+          },
+          {
+            "name": "Liverpool",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Liverpool%20FC.png"
+          },
+          {
+            "name": "Trabzonspor",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Trabzonspor.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Belgia\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): Werder Brema → Chelsea → VfL Wolfsburg → Manchester City → Napoli",
+      "answer": "Kevin De Bruyne",
+      "aliases": [
+        "De Bruyne"
+      ],
+      "id": "pilkarz-2a336ce97313579163bc",
+      "footballer": {
+        "nationality": "Belgia",
+        "flag": "https://flagcdn.com/w160/be.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "Werder Brema",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/SV%20Werder%20Bremen.png"
+          },
+          {
+            "name": "Chelsea",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png"
+          },
+          {
+            "name": "VfL Wolfsburg",
+            "logo": null
+          },
+          {
+            "name": "Manchester City",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20City.png"
+          },
+          {
+            "name": "Napoli",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/SSC%20Napoli.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Belgia\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Chelsea → Inter Mediolan → AS Roma → Napoli → Fenerbahçe",
+      "answer": "Romelu Lukaku",
+      "aliases": [
+        "Lukaku"
+      ],
+      "id": "pilkarz-4833225795a112406501",
+      "footballer": {
+        "nationality": "Belgia",
+        "flag": "https://flagcdn.com/w160/be.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Chelsea",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png"
+          },
+          {
+            "name": "Inter Mediolan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Inter%20Milan.png"
+          },
+          {
+            "name": "AS Roma",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AS%20Roma.png"
+          },
+          {
+            "name": "Napoli",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/SSC%20Napoli.png"
+          },
+          {
+            "name": "Fenerbahçe",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Fenerbahce.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Belgia\nPozycja: Bramkarz\nOstatnie kluby (od najstarszego): KRC Genk → Atlético Madryt → Chelsea → Real Madryt",
+      "answer": "Thibaut Courtois",
+      "aliases": [
+        "Courtois"
+      ],
+      "id": "pilkarz-e952dd0cb68cb0bdfcff",
+      "footballer": {
+        "nationality": "Belgia",
+        "flag": "https://flagcdn.com/w160/be.png",
+        "position": "Bramkarz",
+        "clubs": [
+          {
+            "name": "KRC Genk",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Belgium%20-%20Jupiler%20Pro%20League/KRC%20Genk.png"
+          },
+          {
+            "name": "Atlético Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Atl%C3%A9tico%20de%20Madrid.png"
+          },
+          {
+            "name": "Chelsea",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png"
+          },
+          {
+            "name": "Real Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Chorwacja\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): Inter Zaprešić → Dinamo Zagrzeb → Tottenham Hotspur → Real Madryt → AC Milan",
+      "answer": "Luka Modrić",
+      "aliases": [
+        "Modrić",
+        "Modric"
+      ],
+      "id": "pilkarz-041ad2c373c51ea16f0d",
+      "footballer": {
+        "nationality": "Chorwacja",
+        "flag": "https://flagcdn.com/w160/hr.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "Inter Zaprešić",
+            "logo": null
+          },
+          {
+            "name": "Dinamo Zagrzeb",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Croatia%20-%20SuperSport%20HNL/GNK%20Dinamo%20Zagreb.png"
+          },
+          {
+            "name": "Tottenham Hotspur",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Tottenham%20Hotspur.png"
+          },
+          {
+            "name": "Real Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png"
+          },
+          {
+            "name": "AC Milan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Urugwaj\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): FC Barcelona → Atlético Madryt → Nacional → Grêmio → Inter Miami",
+      "answer": "Luis Suárez",
+      "aliases": [
+        "Suárez",
+        "Suarez"
+      ],
+      "id": "pilkarz-ef9e1efa99b00e0e48d5",
+      "footballer": {
+        "nationality": "Urugwaj",
+        "flag": "https://flagcdn.com/w160/uy.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "FC Barcelona",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png"
+          },
+          {
+            "name": "Atlético Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Atl%C3%A9tico%20de%20Madrid.png"
+          },
+          {
+            "name": "Nacional",
+            "logo": null
+          },
+          {
+            "name": "Grêmio",
+            "logo": null
+          },
+          {
+            "name": "Inter Miami",
+            "logo": null
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Korea Południowa\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Hamburger SV → Bayer Leverkusen → Tottenham Hotspur → Los Angeles FC",
+      "answer": "Son Heung-min",
+      "aliases": [
+        "Son"
+      ],
+      "id": "pilkarz-217a8b2e2ef4c428921c",
+      "footballer": {
+        "nationality": "Korea Południowa",
+        "flag": "https://flagcdn.com/w160/kr.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Hamburger SV",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Hamburger%20SV.png"
+          },
+          {
+            "name": "Bayer Leverkusen",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Bayer%2004%20Leverkusen.png"
+          },
+          {
+            "name": "Tottenham Hotspur",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Tottenham%20Hotspur.png"
+          },
+          {
+            "name": "Los Angeles FC",
+            "logo": null
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Holandia\nPozycja: Obrońca\nOstatnie kluby (od najstarszego): FC Groningen → Celtic → Southampton → Liverpool",
+      "answer": "Virgil van Dijk",
+      "aliases": [
+        "van Dijk",
+        "Van Dijk"
+      ],
+      "id": "pilkarz-48ca8706830aeb311c38",
+      "footballer": {
+        "nationality": "Holandia",
+        "flag": "https://flagcdn.com/w160/nl.png",
+        "position": "Obrońca",
+        "clubs": [
+          {
+            "name": "FC Groningen",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Netherlands%20-%20Eredivisie/FC%20Groningen.png"
+          },
+          {
+            "name": "Celtic",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Scotland%20-%20Scottish%20Premiership/Celtic%20FC.png"
+          },
+          {
+            "name": "Southampton",
+            "logo": null
+          },
+          {
+            "name": "Liverpool",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Liverpool%20FC.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Hiszpania\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): Villarreal → Atlético Madryt → Manchester City → FC Barcelona",
+      "answer": "Rodri",
+      "aliases": [
+        "Rodrigo Hernández"
+      ],
+      "id": "pilkarz-545c429c6ea380b801f8",
+      "footballer": {
+        "nationality": "Hiszpania",
+        "flag": "https://flagcdn.com/w160/es.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "Villarreal",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Villarreal%20CF.png"
+          },
+          {
+            "name": "Atlético Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Atl%C3%A9tico%20de%20Madrid.png"
+          },
+          {
+            "name": "Manchester City",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20City.png"
+          },
+          {
+            "name": "FC Barcelona",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/FC%20Barcelona.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Maroko\nPozycja: Obrońca\nOstatnie kluby (od najstarszego): Real Madryt → Borussia Dortmund → Inter Mediolan → Paris Saint-Germain",
+      "answer": "Achraf Hakimi",
+      "aliases": [
+        "Hakimi"
+      ],
+      "id": "pilkarz-e2e59b63216f170267dc",
+      "footballer": {
+        "nationality": "Maroko",
+        "flag": "https://flagcdn.com/w160/ma.png",
+        "position": "Obrońca",
+        "clubs": [
+          {
+            "name": "Real Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png"
+          },
+          {
+            "name": "Borussia Dortmund",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Borussia%20Dortmund.png"
+          },
+          {
+            "name": "Inter Mediolan",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Inter%20Milan.png"
+          },
+          {
+            "name": "Paris Saint-Germain",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Paris%20Saint-Germain.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Nigeria\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): VfL Wolfsburg → Charleroi → LOSC Lille → Napoli → Galatasaray",
+      "answer": "Victor Osimhen",
+      "aliases": [
+        "Osimhen"
+      ],
+      "id": "pilkarz-f8ce360c330dd84dd53d",
+      "footballer": {
+        "nationality": "Nigeria",
+        "flag": "https://flagcdn.com/w160/ng.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "VfL Wolfsburg",
+            "logo": null
+          },
+          {
+            "name": "Charleroi",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Belgium%20-%20Jupiler%20Pro%20League/Royal%20Charleroi%20SC.png"
+          },
+          {
+            "name": "LOSC Lille",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/LOSC%20Lille.png"
+          },
+          {
+            "name": "Napoli",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/SSC%20Napoli.png"
+          },
+          {
+            "name": "Galatasaray",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Galatasaray.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Niemcy\nPozycja: Obrońca\nOstatnie kluby (od najstarszego): VfB Stuttgart → AS Roma → Chelsea → Real Madryt",
+      "answer": "Antonio Rüdiger",
+      "aliases": [
+        "Rüdiger",
+        "Rudiger"
+      ],
+      "id": "pilkarz-bced3c5a539a32938491",
+      "footballer": {
+        "nationality": "Niemcy",
+        "flag": "https://flagcdn.com/w160/de.png",
+        "position": "Obrońca",
+        "clubs": [
+          {
+            "name": "VfB Stuttgart",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/VfB%20Stuttgart.png"
+          },
+          {
+            "name": "AS Roma",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AS%20Roma.png"
+          },
+          {
+            "name": "Chelsea",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png"
+          },
+          {
+            "name": "Real Madryt",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Madrid.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Niemcy\nPozycja: Pomocnik\nOstatnie kluby (od najstarszego): Bayer Leverkusen → Chelsea → Arsenal",
+      "answer": "Kai Havertz",
+      "aliases": [
+        "Havertz"
+      ],
+      "id": "pilkarz-1407d4efc21412c50ff2",
+      "footballer": {
+        "nationality": "Niemcy",
+        "flag": "https://flagcdn.com/w160/de.png",
+        "position": "Pomocnik",
+        "clubs": [
+          {
+            "name": "Bayer Leverkusen",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Bayer%2004%20Leverkusen.png"
+          },
+          {
+            "name": "Chelsea",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png"
+          },
+          {
+            "name": "Arsenal",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Arsenal%20FC.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Szwecja\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Borussia Dortmund → Willem II → Real Sociedad → Newcastle United → Liverpool",
+      "answer": "Alexander Isak",
+      "aliases": [
+        "Isak"
+      ],
+      "id": "pilkarz-ef09ce48620f3cd976f3",
+      "footballer": {
+        "nationality": "Szwecja",
+        "flag": "https://flagcdn.com/w160/se.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Borussia Dortmund",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Borussia%20Dortmund.png"
+          },
+          {
+            "name": "Willem II",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Netherlands%20-%20Eredivisie/Willem%20II%20Tilburg.png"
+          },
+          {
+            "name": "Real Sociedad",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Sociedad.png"
+          },
+          {
+            "name": "Newcastle United",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Newcastle%20United.png"
+          },
+          {
+            "name": "Liverpool",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Liverpool%20FC.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Szwecja\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): St. Pauli → Swansea City → Coventry City → Sporting → Arsenal",
+      "answer": "Viktor Gyökeres",
+      "aliases": [
+        "Gyökeres",
+        "Gyokeres"
+      ],
+      "id": "pilkarz-e344439261819eb0a859",
+      "footballer": {
+        "nationality": "Szwecja",
+        "flag": "https://flagcdn.com/w160/se.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "St. Pauli",
+            "logo": null
+          },
+          {
+            "name": "Swansea City",
+            "logo": null
+          },
+          {
+            "name": "Coventry City",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Coventry%20City.png"
+          },
+          {
+            "name": "Sporting",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Portugal%20-%20Liga%20Portugal/Sporting%20CP.png"
+          },
+          {
+            "name": "Arsenal",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Arsenal%20FC.png"
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Senegal\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Red Bull Salzburg → Southampton → Liverpool → Bayern Monachium → Al-Nassr",
+      "answer": "Sadio Mané",
+      "aliases": [
+        "Mané",
+        "Mane"
+      ],
+      "id": "pilkarz-1aa9b2a6c333ab26b5b3",
+      "footballer": {
+        "nationality": "Senegal",
+        "flag": "https://flagcdn.com/w160/sn.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Red Bull Salzburg",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Austria%20-%20Bundesliga/Red%20Bull%20Salzburg.png"
+          },
+          {
+            "name": "Southampton",
+            "logo": null
+          },
+          {
+            "name": "Liverpool",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Liverpool%20FC.png"
+          },
+          {
+            "name": "Bayern Monachium",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Bayern%20Munich.png"
+          },
+          {
+            "name": "Al-Nassr",
+            "logo": null
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Co to za piłkarz?\nNarodowość: Gabon\nPozycja: Napastnik\nOstatnie kluby (od najstarszego): Chelsea → Olympique Marsylia → Al-Qadsiah → Olympique Marsylia → Deportivo La Coruña",
+      "answer": "Pierre-Emerick Aubameyang",
+      "aliases": [
+        "Aubameyang"
+      ],
+      "id": "pilkarz-08fb232c72f69f26be79",
+      "footballer": {
+        "nationality": "Gabon",
+        "flag": "https://flagcdn.com/w160/ga.png",
+        "position": "Napastnik",
+        "clubs": [
+          {
+            "name": "Chelsea",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png"
+          },
+          {
+            "name": "Olympique Marsylia",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Olympique%20Marseille.png"
+          },
+          {
+            "name": "Al-Qadsiah",
+            "logo": null
+          },
+          {
+            "name": "Olympique Marsylia",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/France%20-%20Ligue%201/Olympique%20Marseille.png"
+          },
+          {
+            "name": "Deportivo La Coruña",
+            "logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Deportivo%20A%20Coru%C3%B1a.png"
+          }
+        ]
+      }
     }
   ]
 };

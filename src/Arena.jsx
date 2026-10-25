@@ -1,5 +1,5 @@
 import React, {useEffect, useRef, useState} from 'react';
-import {getCategoryEmoji, PixelTimer, PlayerAvatar, TerritoryTile} from './components.jsx';
+import {FootballerCard, getCategoryEmoji, PixelTimer, PlayerAvatar, TerritoryTile} from './components.jsx';
 import {AudiencePanel, CardPanel, EconomyDialog, QuestionReports, ShopPanel, TeamScreen, plural} from './panels.jsx';
 import './arena.css';
 
@@ -275,7 +275,7 @@ export default function Arena() {
         {(judge || participant) && <button className="btn btn--primary btn--lg" disabled={disabled || d.ready.includes(me.id)} onClick={() => send('DUEL_READY')}>{d.ready.includes(me.id) ? '✓ Gotowe' : 'Jestem gotowy'}</button>}
       </> : d.status === 'countdown' ? <><span className="eyebrow">Zaczynamy za</span><div className="countdown">{d.countdown}</div></> : <>
         <span className="eyebrow">{d.status === 'paused' ? '⏸ Pauza' : d.status === 'media' ? 'Wczytywanie obrazka · limit 6 s' : 'Odpowiedz na głos'}</span>
-        <h2 className="question__prompt">{d.prompt}</h2>
+        {d.footballer ? <FootballerCard footballer={d.footballer}/> : <h2 className="question__prompt">{d.prompt}</h2>}
         {q?.format === 'clues' && <p className="muted small">Sędzia odsłania kolejne wskazówki. Szybka odpowiedź (do 1,5 s) daje dodatkowy punkt.</p>}
         {d.visual && <div className="visual-riddle" role="img" aria-label="Rebus do rozpoznania">{d.visual}</div>}
         {d.privateHint && !publicView && <div className="notice notice--hint">{d.privateHint}</div>}
@@ -372,6 +372,7 @@ export default function Arena() {
     {d?.laststand && <div className="banner banner--danger" role="status">⚠ Ostatnia szansa: przegrany traci wszystkie życia.</div>}
     <header className="topbar">
       <div className="brand"><span className="brand__mark" aria-hidden="true">▣</span><span>Pixel Arena</span></div>
+      {room && <nav className="topnav" aria-label="Widoki">{TABS.map(([key, label]) => <button key={key} className={tab === key ? 'is-active' : ''} aria-current={tab === key ? 'page' : undefined} onClick={() => setTab(key)}>{label}</button>)}</nav>}
       <div className="topbar__actions">
         {session && <span className={`pill ${online ? 'pill--ok' : 'pill--warn'}`}>{online ? '● Online' : '○ Łączenie…'}</span>}
         {room && <button className={`btn btn--ghost btn--sm${publicView ? ' is-on' : ''}`} aria-pressed={publicView} onClick={() => setPublicView(v => !v)} title="Widok publiczny ukrywa prywatne informacje (H)">{publicView ? '👁 Publiczny' : '👁 Mój widok'}</button>}
@@ -387,7 +388,6 @@ export default function Arena() {
           <span className="eyebrow">Quiz na żywo ze znajomymi</span>
           <h1>Wybierz kategorię.<br/><span className="accent">Podejmij wyzwanie.</span></h1>
           <p className="lead">Pojedynki na czas, w których odpowiadacie na głos, a sędzia z waszego grona ocenia odpowiedzi. Zbierajcie punkty, używajcie kart i brońcie swoich kategorii.</p>
-          <div className="stats"><div><b>3</b><span>życia na start</span></div><div><b>+1</b><span>za dobrą odpowiedź</span></div><div><b>+3</b><span>za wygraną</span></div><div><b>45+</b><span>kategorii</span></div></div>
         </section>
         <form className="panel home__login" onSubmit={e => { e.preventDefault(); enter(code.length !== 6); }}>
           <h2>{params.get('room') ? 'Dołącz do gry' : 'Wejdź do gry'}</h2>
@@ -397,6 +397,7 @@ export default function Arena() {
           <label className="field">Kod lobby<input aria-label="Kod lobby" inputMode="numeric" autoComplete="off" maxLength={6} value={code} onChange={e => setCode(e.target.value.replace(/\D/g, ''))} placeholder="6 cyfr" className="code-input"/></label>
           <button className={`btn btn--block btn--lg${params.get('room') ? ' btn--primary' : ''}`} type="button" disabled={busy || !name.trim() || code.length !== 6} onClick={() => enter(false)}>{busy ? 'Łączenie…' : 'Dołącz do lobby'}</button>
         </form>
+        <div className="stats"><div><b>45</b><span>kategorii</span></div><div><b>3600+</b><span>pytań</span></div><div><b>3</b><span>życia na start</span></div><div><b>+3</b><span>za wygraną</span></div></div>
       </div> : !room ? <section className="panel center"><h2>Łączenie z lobby {session.code}…</h2><button className="btn" onClick={() => store(null)}>Wróć do ekranu startowego</button></section> : <>
         <div className="roombar">
           <button className="roombar__code" onClick={invite} title="Kliknij, aby skopiować zaproszenie"><span className="eyebrow">Kod lobby</span><strong>{room.code}</strong></button>
@@ -406,7 +407,6 @@ export default function Arena() {
         {!online && <div className="notice notice--warn">Brak synchronizacji. Sterowanie zablokowane, zegary mogą być nieaktualne.</div>}
         {room.teams?.length > 0 && room.phase !== 'lobby' && <div className="team-score">{room.teams.map(t => <div className="team-score__item" data-team={t.team} key={t.team}><span>Drużyna {t.team}</span><b>{t.points} pkt</b></div>)}</div>}
         {room.lastDecision && room.phase !== 'lobby' && <div className="notice" role="status">{room.lastDecision.text}</div>}
-        <nav className="tabs" aria-label="Widoki">{TABS.map(([key, label]) => <button key={key} className={tab === key ? 'is-active' : ''} aria-current={tab === key ? 'page' : undefined} onClick={() => setTab(key)}>{label}</button>)}</nav>
         {tab === 'arena' && arena()}
         {tab === 'kategorie' && <section className="panel">
           <div className="panel__head"><h2>Wszystkie kategorie</h2><span className="pill">{room.categories.length} kategorii · {room.totalQuestions} pytań</span></div>

@@ -38,7 +38,11 @@ test('Footballer category has at least 60 unique players with nationality and fi
  assert.equal(new Set(questions.map(question=>question.id)).size,questions.length);
  for(const question of questions){
   assert.match(question.prompt,/\nNarodowość: .+\n/);
-  assert.equal(question.prompt.split('Ostatnie kluby')[1].split(' → ').length,5);
+  const clubs=question.footballer.clubs;
+  assert.ok(clubs.length>=3&&clubs.length<=5);
+  assert.ok(['Bramkarz','Obrońca','Pomocnik','Napastnik'].includes(question.footballer.position));
+  assert.ok(question.footballer.flag.startsWith('https://flagcdn.com/'));
+  assert.equal(question.prompt.split('Ostatnie kluby')[1].split(' → ').length,clubs.length);
  }
 });
 

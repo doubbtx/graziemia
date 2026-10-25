@@ -63,7 +63,7 @@ export function command(r,id,a,now=Date.now()){
  observe(r,now);return result;
 }
 export function publicState(r,id,now=Date.now()){
- const s=old.publicState(r,id,now),d=r.duel,q=current(r);s.questionRulesVersion=13;s.mediaPreloaded=Array.isArray(r.mediaPreload?.[id]);delete s.mediaPreload;
+ const s=old.publicState(r,id,now),d=r.duel,q=current(r);s.questionRulesVersion=13;s.mediaPreloaded=Array.isArray(r.mediaPreload?.[id]);delete s.mediaPreload;if(s.duel&&s.duel.prompt&&q?.footballer)s.duel.footballer=q.footballer;
  if(d&&q&&s.duel&&d.status==='running'){delete s.duel.clues;delete s.duel.v12Seen;const level=d.v12Level||0;if(q.format==='clues')s.duel.prompt=q.prompt+'\n'+q.clues.slice(0,level+1).map((x,i)=>(i+1)+'. '+x).join('\n');s.questionPanel={key:d.key,format:q.format||'standard',judge:d.adminId===id,canHint:d.adminId===id&&q.format==='clues'&&level<q.clues.length-1&&d.status==='running',canSkip:d.adminId===id&&d.status==='running'&&Number.isFinite(d.expire),reported:(r.questionReports||[]).some(x=>x.key===d.key&&x.by===id)};}
  // Only host/judge receive full reports; no answer keys included.
  s.questionReports=(r.hostId===id||d?.adminId===id)?structuredClone(r.questionReports||[]):(r.questionReports||[]).filter(x=>x.by===id).map(x=>({...x}));return s;
