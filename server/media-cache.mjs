@@ -5,12 +5,12 @@ import {createHash} from 'node:crypto';
 import {mkdir, readdir, writeFile} from 'node:fs/promises';
 import {extname, resolve} from 'node:path';
 
-const HOST = 'https://upload.wikimedia.org/';
+const HOSTS = ['https://upload.wikimedia.org/', 'https://thumb.wikimedia.org/'];
 const USER_AGENT = 'PixelArenaQuiz/1.0 (https://github.com/doubbtx/graziemia; image cache for a party quiz)';
 
 export function createMediaCache(bank, dataDir) {
   const dir = resolve(dataDir, 'media');
-  const questions = Object.values(bank).flat().filter(q => typeof q?.image === 'string' && q.image.startsWith(HOST));
+  const questions = Object.values(bank).flat().filter(q => typeof q?.image === 'string' && HOSTS.some(host => q.image.startsWith(host)));
   const nameOf = url => createHash('sha1').update(url).digest('hex').slice(0, 24) + (extname(new URL(url).pathname).toLowerCase() || '.img');
   const byUrl = new Map();
   for (const q of questions) { q.remoteImage ??= q.image; (byUrl.get(q.remoteImage) || byUrl.set(q.remoteImage, []).get(q.remoteImage)).push(q); }

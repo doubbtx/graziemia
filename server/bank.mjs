@@ -30168,7 +30168,7 @@ export const bank = {
         "Tusz do rzęs",
         "Maskara"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Mascara_de_pesta%C3%B1as.jpg/330px-Mascara_de_pesta%C3%B1as.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Mascara_de_pesta%C3%B1as.jpg/330px-Mascara_de_pesta%C3%B1as.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Mascara_de_pesta%C3%B1as.jpg",
       "id": "kosmetyk-d7f35abeceb53fdf3ecc"
     },
@@ -30178,7 +30178,7 @@ export const bank = {
       "aliases": [
         "Eyeliner"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Liquid_eye_liner.jpg/330px-Liquid_eye_liner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Liquid_eye_liner.jpg/330px-Liquid_eye_liner.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Liquid_eye_liner.jpg",
       "id": "kosmetyk-abffedd3f3cfad22f554"
     },
@@ -30188,7 +30188,7 @@ export const bank = {
       "aliases": [
         "Cienie do powiek"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Be_a_natural_Eyeshadow_nude_palette_%28HEMA%29%2C_Hillegersberg%2C_Rotterdam_%282023%29_03.jpg/330px-Be_a_natural_Eyeshadow_nude_palette_%28HEMA%29%2C_Hillegersberg%2C_Rotterdam_%282023%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Be_a_natural_Eyeshadow_nude_palette_%28HEMA%29%2C_Hillegersberg%2C_Rotterdam_%282023%29_03.jpg/330px-Be_a_natural_Eyeshadow_nude_palette_%28HEMA%29%2C_Hillegersberg%2C_Rotterdam_%282023%29_03.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Be_a_natural_Eyeshadow_nude_palette_(HEMA),_Hillegersberg,_Rotterdam_(2023)_03.jpg",
       "id": "kosmetyk-12258626884b5d12319f"
     },
@@ -30199,7 +30199,7 @@ export const bank = {
         "Pomadka",
         "Szminka"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/MAC_pink_lipstick_%281%29.jpg/330px-MAC_pink_lipstick_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/MAC_pink_lipstick_%281%29.jpg/330px-MAC_pink_lipstick_%281%29.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:MAC_pink_lipstick_(1).jpg",
       "id": "kosmetyk-0b17b7de02fb20ada9a4"
     },
@@ -30209,7 +30209,7 @@ export const bank = {
       "aliases": [
         "Błyszczyk"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Lip_Gloss.JPG/330px-Lip_Gloss.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Lip_Gloss.JPG/330px-Lip_Gloss.JPG",
       "source": "https://commons.wikimedia.org/wiki/File:Lip_Gloss.JPG",
       "id": "kosmetyk-a39b230ee95b4e243000"
     },
@@ -30220,7 +30220,7 @@ export const bank = {
         "Balsam do ust",
         "Pomadka ochronna"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Labello-Pflegestift.JPG/330px-Labello-Pflegestift.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Labello-Pflegestift.JPG/330px-Labello-Pflegestift.JPG",
       "source": "https://commons.wikimedia.org/wiki/File:Labello-Pflegestift.JPG",
       "id": "kosmetyk-f52667a1ba85066177aa"
     },
@@ -30230,7 +30230,7 @@ export const bank = {
       "aliases": [
         "Korektor"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/FitMeConcealer.jpg/330px-FitMeConcealer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/FitMeConcealer.jpg/330px-FitMeConcealer.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:FitMeConcealer.jpg",
       "id": "kosmetyk-79c7cca7b53fbd4a1402"
     },
@@ -30240,7 +30240,7 @@ export const bank = {
       "aliases": [
         "Puder"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Compact%2C_powder_%28AM_1995.202.34-2%29.jpg/330px-Compact%2C_powder_%28AM_1995.202.34-2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Compact%2C_powder_%28AM_1995.202.34-2%29.jpg/330px-Compact%2C_powder_%28AM_1995.202.34-2%29.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Compact,_powder_(AM_1995.202.34-2).jpg",
       "id": "kosmetyk-284df15d050e2f944b4d"
     },
@@ -30251,7 +30251,7 @@ export const bank = {
         "Gąbka do makijażu",
         "Beauty blender"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Beauty_sponge.jpg/330px-Beauty_sponge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Beauty_sponge.jpg/330px-Beauty_sponge.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Beauty_sponge.jpg",
       "id": "kosmetyk-ef0925ac853c762e9062"
     },
@@ -30261,7 +30261,7 @@ export const bank = {
       "aliases": [
         "Pędzle do makijażu"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Makeup_weapons_Brushes_.jpg/330px-Makeup_weapons_Brushes_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Makeup_weapons_Brushes_.jpg/330px-Makeup_weapons_Brushes_.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Makeup_weapons_Brushes_.jpg",
       "id": "kosmetyk-f05061c25bcf10fcf4be"
     },
@@ -30271,7 +30271,7 @@ export const bank = {
       "aliases": [
         "Zalotka"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Klieste_na_mihalnice.jpg/330px-Klieste_na_mihalnice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Klieste_na_mihalnice.jpg/330px-Klieste_na_mihalnice.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Klieste_na_mihalnice.jpg",
       "id": "kosmetyk-ab38cb1be983d5c3f77a"
     },
@@ -30281,7 +30281,7 @@ export const bank = {
       "aliases": [
         "Sztuczne rzęsy"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fake_Eyelashes.jpg/330px-Fake_Eyelashes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fake_Eyelashes.jpg/330px-Fake_Eyelashes.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Fake_Eyelashes.jpg",
       "id": "kosmetyk-b059950e19ca877c7da6"
     },
@@ -30291,7 +30291,7 @@ export const bank = {
       "aliases": [
         "Lakier do paznokci"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Creme_nail_polish_in_pink.jpg/330px-Creme_nail_polish_in_pink.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Creme_nail_polish_in_pink.jpg/330px-Creme_nail_polish_in_pink.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Creme_nail_polish_in_pink.jpg",
       "id": "kosmetyk-3dc93f9567bd9efbca8f"
     },
@@ -30301,7 +30301,7 @@ export const bank = {
       "aliases": [
         "Pilnik do paznokci"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Nagelfeile_%28fcm%29.jpg/330px-Nagelfeile_%28fcm%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Nagelfeile_%28fcm%29.jpg/330px-Nagelfeile_%28fcm%29.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Nagelfeile_(fcm).jpg",
       "id": "kosmetyk-b9aa240a133cacf26255"
     },
@@ -30311,7 +30311,7 @@ export const bank = {
       "aliases": [
         "Krem do rąk"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Eucerin_hand_cream.jpg/330px-Eucerin_hand_cream.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Eucerin_hand_cream.jpg/330px-Eucerin_hand_cream.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Eucerin_hand_cream.jpg",
       "id": "kosmetyk-0de1e82bdb647f750689"
     },
@@ -30322,7 +30322,7 @@ export const bank = {
         "Krem z filtrem",
         "Filtr przeciwsłoneczny"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/LRP_sunscreen_bottle.jpg/330px-LRP_sunscreen_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/LRP_sunscreen_bottle.jpg/330px-LRP_sunscreen_bottle.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:LRP_sunscreen_bottle.jpg",
       "id": "kosmetyk-dae9d91092159c443e2f"
     },
@@ -30332,7 +30332,7 @@ export const bank = {
       "aliases": [
         "Waciki kosmetyczne"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Cotton_pads_-_%CE%94%CE%AF%CF%83%CE%BA%CE%BF%CE%B9_%CE%BD%CF%84%CE%B5%CE%BC%CE%B1%CE%BA%CE%B9%CE%B3%CE%B9%CE%AC%CE%B6.JPG/330px-Cotton_pads_-_%CE%94%CE%AF%CF%83%CE%BA%CE%BF%CE%B9_%CE%BD%CF%84%CE%B5%CE%BC%CE%B1%CE%BA%CE%B9%CE%B3%CE%B9%CE%AC%CE%B6.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Cotton_pads_-_%CE%94%CE%AF%CF%83%CE%BA%CE%BF%CE%B9_%CE%BD%CF%84%CE%B5%CE%BC%CE%B1%CE%BA%CE%B9%CE%B3%CE%B9%CE%AC%CE%B6.JPG/330px-Cotton_pads_-_%CE%94%CE%AF%CF%83%CE%BA%CE%BF%CE%B9_%CE%BD%CF%84%CE%B5%CE%BC%CE%B1%CE%BA%CE%B9%CE%B3%CE%B9%CE%AC%CE%B6.JPG",
       "source": "https://commons.wikimedia.org/wiki/File:Cotton_pads_-_%CE%94%CE%AF%CF%83%CE%BA%CE%BF%CE%B9_%CE%BD%CF%84%CE%B5%CE%BC%CE%B1%CE%BA%CE%B9%CE%B3%CE%B9%CE%AC%CE%B6.JPG",
       "id": "kosmetyk-2eedcba0409bcda52dbe"
     },
@@ -30343,7 +30343,7 @@ export const bank = {
         "Dezodorant w sztyfcie",
         "Dezodorant"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Deodorant_stick_%28front_label%29.jpg/330px-Deodorant_stick_%28front_label%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Deodorant_stick_%28front_label%29.jpg/330px-Deodorant_stick_%28front_label%29.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Deodorant_stick_(front_label).jpg",
       "id": "kosmetyk-aa3d573eb12f623eeedc"
     },
@@ -30354,7 +30354,7 @@ export const bank = {
         "Antyperspirant w sprayu",
         "Antyperspirant"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Dove_antiperspirant.jpg/330px-Dove_antiperspirant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Dove_antiperspirant.jpg/330px-Dove_antiperspirant.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Dove_antiperspirant.jpg",
       "id": "kosmetyk-2f2f8dd3a7bdd911499e"
     },
@@ -30365,7 +30365,7 @@ export const bank = {
         "Perfumy",
         "Atomizer"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Perfume_set_from_Sovjetunio_cca_1965.jpg/330px-Perfume_set_from_Sovjetunio_cca_1965.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Perfume_set_from_Sovjetunio_cca_1965.jpg/330px-Perfume_set_from_Sovjetunio_cca_1965.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Perfume_set_from_Sovjetunio_cca_1965.jpg",
       "id": "kosmetyk-17e6b122bee532f13973"
     },
@@ -30375,7 +30375,7 @@ export const bank = {
       "aliases": [
         "Szampon"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Dove_shampoo_bottle.jpg/330px-Dove_shampoo_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Dove_shampoo_bottle.jpg/330px-Dove_shampoo_bottle.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Dove_shampoo_bottle.jpg",
       "id": "kosmetyk-a428767885e81501509a"
     },
@@ -30385,7 +30385,7 @@ export const bank = {
       "aliases": [
         "Lakier do włosów"
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Aqua_net_can.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Aqua_net_can.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Aqua_net_can.jpg",
       "id": "kosmetyk-63b244ffaf15fab66e1a"
     },
@@ -30395,7 +30395,7 @@ export const bank = {
       "aliases": [
         "Pianka do golenia"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Shaving_Cream_-_Gillette_%2851013604097%29.jpg/330px-Shaving_Cream_-_Gillette_%2851013604097%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Shaving_Cream_-_Gillette_%2851013604097%29.jpg/330px-Shaving_Cream_-_Gillette_%2851013604097%29.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Shaving_Cream_-_Gillette_(51013604097).jpg",
       "id": "kosmetyk-c45d188d9334ccd18c28"
     },
@@ -30405,7 +30405,7 @@ export const bank = {
       "aliases": [
         "Woda po goleniu"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Pitralon_Pre-Shave_Aftershave_2017.jpg/330px-Pitralon_Pre-Shave_Aftershave_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Pitralon_Pre-Shave_Aftershave_2017.jpg/330px-Pitralon_Pre-Shave_Aftershave_2017.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Pitralon_Pre-Shave_Aftershave_2017.jpg",
       "id": "kosmetyk-69f4b97ce497af3a104d"
     },
@@ -30416,7 +30416,7 @@ export const bank = {
         "Maszynka do golenia",
         "Żyletka"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Parker-76R_Safety_Razor.jpg/330px-Parker-76R_Safety_Razor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Parker-76R_Safety_Razor.jpg/330px-Parker-76R_Safety_Razor.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Parker-76R_Safety_Razor.jpg",
       "id": "kosmetyk-eac27e697df0b1016d93"
     },
@@ -30426,7 +30426,7 @@ export const bank = {
       "aliases": [
         "Mydło"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Bars_of_pure_Marseille_and_Aleppo_soap%2C_2024.jpg/330px-Bars_of_pure_Marseille_and_Aleppo_soap%2C_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Bars_of_pure_Marseille_and_Aleppo_soap%2C_2024.jpg/330px-Bars_of_pure_Marseille_and_Aleppo_soap%2C_2024.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Bars_of_pure_Marseille_and_Aleppo_soap,_2024.jpg",
       "id": "kosmetyk-3d92ea98c3c5e2153ce9"
     },
@@ -30436,7 +30436,7 @@ export const bank = {
       "aliases": [
         "Kula do kąpieli"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Bath_Bombs_-_Lush_Cosmetics_%2851333340003%29.jpg/330px-Bath_Bombs_-_Lush_Cosmetics_%2851333340003%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Bath_Bombs_-_Lush_Cosmetics_%2851333340003%29.jpg/330px-Bath_Bombs_-_Lush_Cosmetics_%2851333340003%29.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Bath_Bombs_-_Lush_Cosmetics_(51333340003).jpg",
       "id": "kosmetyk-8cda38162ede19b0ad36"
     },
@@ -30446,7 +30446,7 @@ export const bank = {
       "aliases": [
         "Pasta do zębów"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Vitis_Dentaid_toothpaste_tube%2C_Hillegersberg%2C_Rotterdam_%282021%29_01.jpg/330px-Vitis_Dentaid_toothpaste_tube%2C_Hillegersberg%2C_Rotterdam_%282021%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Vitis_Dentaid_toothpaste_tube%2C_Hillegersberg%2C_Rotterdam_%282021%29_01.jpg/330px-Vitis_Dentaid_toothpaste_tube%2C_Hillegersberg%2C_Rotterdam_%282021%29_01.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Vitis_Dentaid_toothpaste_tube,_Hillegersberg,_Rotterdam_(2021)_01.jpg",
       "id": "kosmetyk-a392116b15c17e9292a6"
     },
@@ -30456,7 +30456,7 @@ export const bank = {
       "aliases": [
         "Płyn do płukania jamy ustnej"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Mouthwash_R.O.C.S._2023_Russia.png/330px-Mouthwash_R.O.C.S._2023_Russia.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Mouthwash_R.O.C.S._2023_Russia.png/330px-Mouthwash_R.O.C.S._2023_Russia.png",
       "source": "https://commons.wikimedia.org/wiki/File:Mouthwash_R.O.C.S._2023_Russia.png",
       "id": "kosmetyk-45cee5c69d52e12f0d6c"
     },
@@ -30467,7 +30467,7 @@ export const bank = {
         "Gąbka luffa",
         "Luffa"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Luffa_sponges_spelled_loofah.jpg/330px-Luffa_sponges_spelled_loofah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Luffa_sponges_spelled_loofah.jpg/330px-Luffa_sponges_spelled_loofah.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Luffa_sponges_spelled_loofah.jpg",
       "id": "kosmetyk-ef935ac81031258c5769"
     },
@@ -30477,7 +30477,7 @@ export const bank = {
       "aliases": [
         "Pumeks"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Pumice_Stone.jpg/330px-Pumice_Stone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Pumice_Stone.jpg/330px-Pumice_Stone.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Pumice_Stone.jpg",
       "id": "kosmetyk-7d0e0c20ea8677411a79"
     },
@@ -30487,7 +30487,7 @@ export const bank = {
       "aliases": [
         "Szczotka do włosów"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Hairbrush_with_metal_bristles.jpg/330px-Hairbrush_with_metal_bristles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Hairbrush_with_metal_bristles.jpg/330px-Hairbrush_with_metal_bristles.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Hairbrush_with_metal_bristles.jpg",
       "id": "kosmetyk-c86778da3900e9dce113"
     },
@@ -30497,7 +30497,7 @@ export const bank = {
       "aliases": [
         "Pęseta"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Eyebrow_twissers_-_%CE%A4%CF%83%CE%B9%CE%BC%CF%80%CE%B9%CE%B4%CE%AC%CE%BA%CE%B9_%CF%86%CF%81%CF%85%CE%B4%CE%B9%CF%8E%CE%BD.JPG/330px-Eyebrow_twissers_-_%CE%A4%CF%83%CE%B9%CE%BC%CF%80%CE%B9%CE%B4%CE%AC%CE%BA%CE%B9_%CF%86%CF%81%CF%85%CE%B4%CE%B9%CF%8E%CE%BD.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Eyebrow_twissers_-_%CE%A4%CF%83%CE%B9%CE%BC%CF%80%CE%B9%CE%B4%CE%AC%CE%BA%CE%B9_%CF%86%CF%81%CF%85%CE%B4%CE%B9%CF%8E%CE%BD.JPG/330px-Eyebrow_twissers_-_%CE%A4%CF%83%CE%B9%CE%BC%CF%80%CE%B9%CE%B4%CE%AC%CE%BA%CE%B9_%CF%86%CF%81%CF%85%CE%B4%CE%B9%CF%8E%CE%BD.JPG",
       "source": "https://commons.wikimedia.org/wiki/File:Eyebrow_twissers_-_%CE%A4%CF%83%CE%B9%CE%BC%CF%80%CE%B9%CE%B4%CE%AC%CE%BA%CE%B9_%CF%86%CF%81%CF%85%CE%B4%CE%B9%CF%8E%CE%BD.JPG",
       "id": "kosmetyk-90db1070b0c551156875"
     },
@@ -30508,7 +30508,7 @@ export const bank = {
         "Cążki do paznokci",
         "Obcinacz do paznokci"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Nail_Clippers_%2848008082723%29.jpg/330px-Nail_Clippers_%2848008082723%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Nail_Clippers_%2848008082723%29.jpg/330px-Nail_Clippers_%2848008082723%29.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Nail_Clippers_(48008082723).jpg",
       "id": "kosmetyk-9a4bbd54ac556606828c"
     },
@@ -30518,7 +30518,7 @@ export const bank = {
       "aliases": [
         "Podkład"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/%EC%8B%9C%EA%B7%B8%EB%84%88%EC%B2%98_%ED%8C%8C%EC%9A%B4%EB%8D%B0%EC%9D%B4%EC%85%98.jpg/330px-%EC%8B%9C%EA%B7%B8%EB%84%88%EC%B2%98_%ED%8C%8C%EC%9A%B4%EB%8D%B0%EC%9D%B4%EC%85%98.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/%EC%8B%9C%EA%B7%B8%EB%84%88%EC%B2%98_%ED%8C%8C%EC%9A%B4%EB%8D%B0%EC%9D%B4%EC%85%98.jpg/330px-%EC%8B%9C%EA%B7%B8%EB%84%88%EC%B2%98_%ED%8C%8C%EC%9A%B4%EB%8D%B0%EC%9D%B4%EC%85%98.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:%EC%8B%9C%EA%B7%B8%EB%84%88%EC%B2%98_%ED%8C%8C%EC%9A%B4%EB%8D%B0%EC%9D%B4%EC%85%98.jpg",
       "id": "kosmetyk-37652784dfcb222b4a0a"
     },
@@ -30529,7 +30529,7 @@ export const bank = {
         "Róż do policzków",
         "Róż"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/MAC_sheertone_blush_dollymix_2014-02-22_00-44.jpg/330px-MAC_sheertone_blush_dollymix_2014-02-22_00-44.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/MAC_sheertone_blush_dollymix_2014-02-22_00-44.jpg/330px-MAC_sheertone_blush_dollymix_2014-02-22_00-44.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:MAC_sheertone_blush_dollymix_2014-02-22_00-44.jpg",
       "id": "kosmetyk-97ff981ca833d25b005d"
     },
@@ -30539,7 +30539,7 @@ export const bank = {
       "aliases": [
         "Grzebień"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Plastic_comb%2C_2015-06-07.jpg/330px-Plastic_comb%2C_2015-06-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Plastic_comb%2C_2015-06-07.jpg/330px-Plastic_comb%2C_2015-06-07.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Plastic_comb,_2015-06-07.jpg",
       "id": "kosmetyk-56334960a214a17e8b8c"
     },
@@ -30549,7 +30549,7 @@ export const bank = {
       "aliases": [
         "Suszarka do włosów"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/HITACHI_HAIR_DRYER_HD-1650.jpg/330px-HITACHI_HAIR_DRYER_HD-1650.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/HITACHI_HAIR_DRYER_HD-1650.jpg/330px-HITACHI_HAIR_DRYER_HD-1650.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:HITACHI_HAIR_DRYER_HD-1650.jpg",
       "id": "kosmetyk-0deee29757396d2d7a44"
     },
@@ -30559,7 +30559,7 @@ export const bank = {
       "aliases": [
         "Prostownica"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Hair_straightener_TTH2510_by_Tescom_%282015-09-19%29.JPG/330px-Hair_straightener_TTH2510_by_Tescom_%282015-09-19%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Hair_straightener_TTH2510_by_Tescom_%282015-09-19%29.JPG/330px-Hair_straightener_TTH2510_by_Tescom_%282015-09-19%29.JPG",
       "source": "https://commons.wikimedia.org/wiki/File:Hair_straightener_TTH2510_by_Tescom_(2015-09-19).JPG",
       "id": "kosmetyk-8df81ca537f251408d3f"
     },
@@ -30569,7 +30569,7 @@ export const bank = {
       "aliases": [
         "Lokówka"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Curling_iron_unbranded.jpg/330px-Curling_iron_unbranded.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Curling_iron_unbranded.jpg/330px-Curling_iron_unbranded.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Curling_iron_unbranded.jpg",
       "id": "kosmetyk-33a32eecb6481568222a"
     },
@@ -30580,7 +30580,7 @@ export const bank = {
         "Patyczki kosmetyczne",
         "Patyczki higieniczne"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Cotton_swab%2C_package_and_swabs.jpg/330px-Cotton_swab%2C_package_and_swabs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Cotton_swab%2C_package_and_swabs.jpg/330px-Cotton_swab%2C_package_and_swabs.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Cotton_swab,_package_and_swabs.jpg",
       "id": "kosmetyk-c79e70eed9aecf344444"
     },
@@ -30590,7 +30590,7 @@ export const bank = {
       "aliases": [
         "Nożyczki do paznokci"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Nagelschere.jpg/330px-Nagelschere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Nagelschere.jpg/330px-Nagelschere.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Nagelschere.jpg",
       "id": "kosmetyk-c829b21cbcfddab14901"
     },
@@ -30600,7 +30600,7 @@ export const bank = {
       "aliases": [
         "Szczoteczka do zębów"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Toothbrush_x3_20050716_002.jpg/330px-Toothbrush_x3_20050716_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Toothbrush_x3_20050716_002.jpg/330px-Toothbrush_x3_20050716_002.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Toothbrush_x3_20050716_002.jpg",
       "id": "kosmetyk-8f63bc73269249a8d14a"
     },
@@ -30610,7 +30610,7 @@ export const bank = {
       "aliases": [
         "Nić dentystyczna"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Dental_floss_%28whole%29.jpg/330px-Dental_floss_%28whole%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Dental_floss_%28whole%29.jpg/330px-Dental_floss_%28whole%29.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Dental_floss_(whole).jpg",
       "id": "kosmetyk-dd41c68f1eb1cafb4317"
     },
@@ -30620,7 +30620,7 @@ export const bank = {
       "aliases": [
         "Pędzel do golenia"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Shaving-Brush.jpg/330px-Shaving-Brush.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Shaving-Brush.jpg/330px-Shaving-Brush.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Shaving-Brush.jpg",
       "id": "kosmetyk-41f4be2d9af861817609"
     },
@@ -30630,7 +30630,7 @@ export const bank = {
       "aliases": [
         "Golarka elektryczna"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/2023_Golarka_Philips.jpg/330px-2023_Golarka_Philips.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/2023_Golarka_Philips.jpg/330px-2023_Golarka_Philips.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:2023_Golarka_Philips.jpg",
       "id": "kosmetyk-00b2975a86b38c92108d"
     },
@@ -30641,7 +30641,7 @@ export const bank = {
         "Maszynka do strzyżenia",
         "Trymer"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/HITACHI_CL-8300.jpg/330px-HITACHI_CL-8300.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/HITACHI_CL-8300.jpg/330px-HITACHI_CL-8300.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:HITACHI_CL-8300.jpg",
       "id": "kosmetyk-844399d637f8a6d27c17"
     },
@@ -30651,7 +30651,7 @@ export const bank = {
       "aliases": [
         "Depilator"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Epileertoestel.JPG/330px-Epileertoestel.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Epileertoestel.JPG/330px-Epileertoestel.JPG",
       "source": "https://commons.wikimedia.org/wiki/File:Epileertoestel.JPG",
       "id": "kosmetyk-e02c08d8a11f4f7d7023"
     },
@@ -30662,7 +30662,7 @@ export const bank = {
         "Wałki do włosów",
         "Wałki"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Curler_2005.jpg/330px-Curler_2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Curler_2005.jpg/330px-Curler_2005.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Curler_2005.jpg",
       "id": "kosmetyk-411e4a01c6356ced3811"
     },
@@ -30674,7 +30674,7 @@ export const bank = {
         "Scrunchie",
         "Frotka"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Chouchou.jpg/330px-Chouchou.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Chouchou.jpg/330px-Chouchou.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Chouchou.jpg",
       "id": "kosmetyk-0f748c5195a2741e7c22"
     },
@@ -30685,7 +30685,7 @@ export const bank = {
         "Wsuwka",
         "Spinka"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Bobby_pin.jpg/330px-Bobby_pin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Bobby_pin.jpg/330px-Bobby_pin.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Bobby_pin.jpg",
       "id": "kosmetyk-c99650e0ac99de0a0401"
     },
@@ -30695,7 +30695,7 @@ export const bank = {
       "aliases": [
         "Żel pod prysznic"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Care_lime_shower_gel_%282019%29_01.jpg/330px-Care_lime_shower_gel_%282019%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Care_lime_shower_gel_%282019%29_01.jpg/330px-Care_lime_shower_gel_%282019%29_01.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Care_lime_shower_gel_(2019)_01.jpg",
       "id": "kosmetyk-7b4d46f67ef5a4f2c180"
     },
@@ -30706,7 +30706,7 @@ export const bank = {
         "Talk",
         "Zasypka"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/4711_Talcum_Puder_BW_2025-07-05_17-49-38.jpg/330px-4711_Talcum_Puder_BW_2025-07-05_17-49-38.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/4711_Talcum_Puder_BW_2025-07-05_17-49-38.jpg/330px-4711_Talcum_Puder_BW_2025-07-05_17-49-38.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:4711_Talcum_Puder_BW_2025-07-05_17-49-38.jpg",
       "id": "kosmetyk-4e6a710d7f8571d8af57"
     },
@@ -30716,7 +30716,7 @@ export const bank = {
       "aliases": [
         "Wazelina"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Bo%C3%AEte_de_vaseline_britannique%2C_1996.180%283%29.jpg/330px-Bo%C3%AEte_de_vaseline_britannique%2C_1996.180%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Bo%C3%AEte_de_vaseline_britannique%2C_1996.180%283%29.jpg/330px-Bo%C3%AEte_de_vaseline_britannique%2C_1996.180%283%29.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Bo%C3%AEte_de_vaseline_britannique,_1996.180(3).jpg",
       "id": "kosmetyk-f2d602e8d0ea5786704b"
     },
@@ -30726,7 +30726,7 @@ export const bank = {
       "aliases": [
         "Polerka do paznokci"
       ],
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Nail_Buffer.jpg/330px-Nail_Buffer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Nail_Buffer.jpg/330px-Nail_Buffer.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Nail_Buffer.jpg",
       "id": "kosmetyk-accd9e74d4f81a5a5930"
     },
