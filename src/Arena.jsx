@@ -1,6 +1,6 @@
 import React, {useEffect, useRef, useState} from 'react';
 import {CategorySheet, DEFAULT_SETTINGS, FootballerCard, getCategoryEmoji, InfoButton, PixelTimer, PlayerAvatar, SettingsSheet, SoundtrackPlayer, TerritoryTile} from './components.jsx';
-import {AudiencePanel, CardPanel, EconomyDialog, QuestionReports, ShopPanel, TeamScreen, plural} from './panels.jsx';
+import {AudiencePanel, CardPanel, EconomyDialog, QuestionReports, ShopPanel, ShopSheet, TeamScreen, plural} from './panels.jsx';
 import {CHOICE_RULE, categoryDescription, isChoiceQuestion} from './categoryInfo.js';
 import './arena.css';
 
@@ -27,7 +27,7 @@ const STATUS = {running: 'Na żywo', paused: 'Pauza', media: 'Obrazek', countdow
 
 export default function Arena() {
   const [theme, setTheme] = useState(() => { try { return localStorage.getItem('arena-theme') === 'dark' ? 'dark' : 'light'; } catch { return 'light'; } });
-  const [settings, setSettings] = useState(() => { try { return {...DEFAULT_SETTINGS, ...JSON.parse(localStorage.getItem('arena-settings') || '{}')}; } catch { return DEFAULT_SETTINGS; } }), [settingsOpen, setSettingsOpen] = useState(false);
+  const [settings, setSettings] = useState(() => { try { return {...DEFAULT_SETTINGS, ...JSON.parse(localStorage.getItem('arena-settings') || '{}')}; } catch { return DEFAULT_SETTINGS; } }), [settingsOpen, setSettingsOpen] = useState(false), [shopOpen, setShopOpen] = useState(false);
   const [session, setSession] = useState(saved), [room, setRoom] = useState(null), [online, setOnline] = useState(false);
   const [busy, setBusy] = useState(false), [error, setError] = useState(''), [notice, setNotice] = useState('');
   const params = new URLSearchParams(location.search);
@@ -412,6 +412,14 @@ export default function Arena() {
     <p><kbd>→</kbd> zalicza · <kbd>P</kbd> pomija · <kbd>Spacja</kbd> pauza · <kbd>Z</kbd> cofnij</p>
   </section>;
 
+  // Readiness is confirmed from a bar pinned to the bottom of the screen, so nobody has to scroll to it.
+  const readyBar = (() => {
+    if (!room || !me) return null;
+    if (d?.status === 'ready' && (judge || participant) && !d.ready.includes(me.id)) return <div className="ready-bar" role="region" aria-label="Gotowość"><span>{judge ? '⚖ Sędziujesz ten pojedynek' : '⚔ Twój pojedynek'} · {d.ready.length}/3 gotowych</span><button className="btn btn--primary btn--lg" disabled={disabled} onClick={() => send('DUEL_READY')}>Jestem gotowy</button></div>;
+    if (room.phase === 'lobby' && (teams || me.category)) return <div className="ready-bar" role="region" aria-label="Gotowość"><span>{room.players.filter(p => p.ready).length}/{room.players.length} gotowych</span><button className={`btn btn--lg ${me.ready ? 'btn--success' : 'btn--primary'}`} disabled={disabled} onClick={() => send('READY')}>{me.ready ? '✓ Gotowy · cofnij' : 'Jestem gotowy'}</button></div>;
+    return null;
+  })();
+
   return <main className={`app${d ? ' is-duel' : ''}`}>
     {d?.laststand && <div className="banner banner--danger" role="status">⚠ Ostatnia szansa: przegrany traci wszystkie życia.</div>}
     <header className="topbar">
@@ -425,8 +433,10 @@ export default function Arena() {
       </div>
     </header>
     <div className="wrap">
+      {readyBar}
       {error && <div role="alert" className="notice notice--error"><span>{error}</span><button className="btn btn--ghost btn--sm" onClick={() => setError('')}>Zamknij</button></div>}
       {notice && <div role="status" className="toast">{notice}</div>}
+      {shopOpen && room?.economyPanel && <ShopSheet room={room} send={send} disabled={disabled} onClose={() => setShopOpen(false)}/>}
       {settingsOpen && <SettingsSheet settings={settings} onChange={setSettings} onClose={() => setSettingsOpen(false)}/>}
       {infoCategory && room && (() => {
         const canPick = room.phase === 'lobby' && !teams && room.settings.rules?.categoryPick !== 'random' && room.availableCategories.includes(infoCategory) && me?.category !== infoCategory || room.phase === 'category' && room.pending?.[0] === me?.id && room.availableCategories.includes(infoCategory);
@@ -452,7 +462,7 @@ export default function Arena() {
         <div className="roombar">
           <button className="roombar__code" onClick={invite} title="Kliknij, aby skopiować zaproszenie"><span className="eyebrow">Kod lobby</span><strong>{room.code}</strong></button>
           <div className="roombar__me"><PlayerAvatar name={me.name} color={avatarColor(me)}/><div><strong>{me.name}</strong><small>{judge ? '⚖ Sędzia' : participant ? '⚔ W pojedynku' : me.lives === 0 && !teams ? 'Widz' : 'Gracz'}{teams && me.team ? ` · drużyna ${me.team}` : ''}</small></div>{!teams && room.phase !== 'lobby' && hearts(me)}<b className="roombar__points">{me.points} pkt</b></div>
-          <div className="roombar__actions"><button className="btn btn--sm" onClick={invite}>Zaproś</button><button className="btn btn--ghost btn--sm" onClick={leave}>Opuść</button></div>
+          <div className="roombar__actions">{room.economyPanel && room.phase !== 'lobby' && <button className="btn btn--primary btn--sm" onClick={() => setShopOpen(true)}>🛒 Sklep · {room.economyPanel.wallet.toFixed(0)} pkt</button>}<button className="btn btn--sm" onClick={invite}>Zaproś</button><button className="btn btn--ghost btn--sm" onClick={leave}>Opuść</button></div>
         </div>
         {!online && <div className="notice notice--warn">Brak synchronizacji. Sterowanie zablokowane, zegary mogą być nieaktualne.</div>}
         {room.teams?.length > 0 && room.phase !== 'lobby' && <div className="team-score">{room.teams.map(t => <div className="team-score__item" data-team={t.team} key={t.team}><span>Drużyna {t.team}</span><b>{t.points} pkt</b></div>)}</div>}

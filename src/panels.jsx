@@ -37,16 +37,34 @@ function ShopItems({room, send, disabled}) {
   return <div className="shop">
     <div className="shop__item">
       <div><strong>❤ Powrót do gry</strong><small>{e.reviveBought ? 'Zakupiony powrót został już wykorzystany.' : 'Po odpadnięciu wracasz z 1 życiem. Jeden zakup na grę.'}</small></div>
-      <button className="btn btn--sm" disabled={disabled || !e.canRevive} onClick={() => send('V11_BUY', {item: 'revive'})}>{e.prices.revive} pkt</button>
+      <button className="btn btn--sm" disabled={disabled || !e.canRevive} onClick={() => send('V11_BUY', {item: 'revive'})}>Kup · {e.prices.revive} pkt</button>
     </div>
     {room.settings.mode !== 'teams' && e.cards?.length > 0 && <>
       <p className="shop__group">Karty jednorazowe{holding ? ` · w ręku: ${room.cardTypes?.[holding]?.name || holding}` : ''}</p>
       {e.cards.map(card => <div className={`shop__item${holding === card.type ? ' is-held' : ''}`} key={card.type}>
         <div><strong>🃏 {card.name}</strong><small>{card.text}</small></div>
-        <button className="btn btn--sm" disabled={disabled || !card.canBuy} title={holding && holding !== card.type ? 'Zastąpi kartę, którą masz w ręku' : undefined} onClick={() => send('V11_BUY', {item: 'card', card: card.type})}>{holding === card.type ? 'W ręku' : `${card.price} pkt`}</button>
+        <button className="btn btn--sm" disabled={disabled || !card.canBuy} title={holding && holding !== card.type ? 'Zastąpi kartę, którą masz w ręku' : undefined} onClick={() => send('V11_BUY', {item: 'card', card: card.type})}>{holding === card.type ? 'W ręku' : `Kup · ${card.price} pkt`}</button>
       </div>)}
     </>}
     <p className="muted small">Portfel rośnie razem z punktami. Zakupy nie obniżają wyniku w rankingu. Masz jedną kartę naraz – kupiona zastępuje niewykorzystaną.</p>
+  </div>;
+}
+
+/** Shop opened from the room bar: always reachable, buying works between duels. */
+export function ShopSheet({room, send, disabled, onClose}) {
+  const e = room.economyPanel;
+  useEffect(() => {
+    const onKey = event => { if (event.key === 'Escape') onClose(); };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [onClose]);
+  return <div className="modal" role="dialog" aria-modal="true" aria-labelledby="shop-title" onClick={event => { if (event.target === event.currentTarget) onClose(); }}>
+    <div className="modal__box">
+      <div className="panel__head"><h2 id="shop-title">🛒 Sklep</h2><b className="shop-wallet">{e.wallet.toFixed(2)} pkt</b></div>
+      {!e.shopOpen && <p className="notice">Kupować można między pojedynkami{room.settings.mode === 'teams' ? ' i tylko w trybie „Każdy na każdego”' : ''}. Teraz możesz przejrzeć ofertę.</p>}
+      <ShopItems room={room} send={send} disabled={disabled}/>
+      <button type="button" className="btn btn--lg" onClick={onClose} autoFocus>Zamknij</button>
+    </div>
   </div>;
 }
 

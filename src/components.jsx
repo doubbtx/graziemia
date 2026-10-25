@@ -55,7 +55,7 @@ const categoryEmojis = {
   'co to za dzien?': '📅',
   'co to za skrot?': '🔠',
   'zabytki swiata': '🏰',
-  'co kosztuje wiecej?': '💰', 'siatkowka': '🏐', 'slang mlodziezowy': '💬', 'valorant': '🎯', 'minecraft': '⛏️', 'rasy psow': '🐶', 'soundtrack': '🎵', 'przyblizenie': '🔍',
+  'co kosztuje wiecej?': '💰', 'siatkowka': '🏐', 'slang mlodziezowy': '💬', 'valorant': '🎯', 'minecraft': '⛏️', 'rasy psow': '🐶', 'soundtrack': '🎵', 'przyblizenie': '🔍', 'popularne piosenki': '🎤',
 };
 
 export function getCategoryEmoji(category) {

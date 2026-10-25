@@ -31704,24 +31704,461 @@ export const bank = {
   ],
   "Znane sklepy": [
     {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Biedronka",
+      "image": "/shops/logo-biedronka.webp",
+      "zoom": {
+        "x": 22,
+        "y": 45
+      },
+      "source": "https://en.wikipedia.org/wiki/Biedronka_(sie%C4%87_handlowa)",
+      "id": "sklep-a3228e96c333a91f6129"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Dino",
+      "image": "/shops/logo-dino.webp",
+      "zoom": {
+        "x": 20,
+        "y": 45
+      },
+      "source": "https://en.wikipedia.org/wiki/Dino_Polska",
+      "id": "sklep-975394cda12705066697"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Netto",
+      "image": "/shops/logo-netto.webp",
+      "zoom": {
+        "x": 60,
+        "y": 50
+      },
+      "source": "https://en.wikipedia.org/wiki/Netto_(Denmark)",
+      "id": "sklep-0676d1bec651ec93d691"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Lidl",
+      "image": "/shops/logo-lidl.webp",
+      "zoom": {
+        "x": 48,
+        "y": 48
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Lidl-Logo.svg",
+      "id": "sklep-c13976f91a2a494881a5"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Kaufland",
+      "image": "/shops/logo-kaufland.webp",
+      "zoom": {
+        "x": 12,
+        "y": 45
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_Kaufland.svg",
+      "id": "sklep-8a3efb75007c21ba4ba4"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Carrefour",
+      "image": "/shops/logo-carrefour.webp",
+      "zoom": {
+        "x": 30,
+        "y": 50
+      },
+      "source": "https://en.wikipedia.org/wiki/Carrefour",
+      "id": "sklep-46057c74e3bc8e631ce6"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Auchan",
+      "image": "/shops/logo-auchan.webp",
+      "zoom": {
+        "x": 78,
+        "y": 48
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Auchan_Retail_logo.svg",
+      "id": "sklep-e4fc66fe757c6824bd83"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "E.Leclerc",
+      "aliases": [
+        "Leclerc"
+      ],
+      "image": "/shops/logo-e-leclerc.webp",
+      "zoom": {
+        "x": 88,
+        "y": 45
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:E.Leclerc_logo.svg",
+      "id": "sklep-c6bbd02ce0cfa314e6bf"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Stokrotka",
+      "image": "/shops/logo-stokrotka.webp",
+      "zoom": {
+        "x": 50,
+        "y": 25
+      },
+      "source": "https://en.wikipedia.org/wiki/Stokrotka",
+      "id": "sklep-f205eeae907bcdb9d523"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Aldi",
+      "image": "/shops/logo-aldi.webp",
+      "zoom": {
+        "x": 45,
+        "y": 30
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Aldi_S%C3%BCd_2017_logo.svg",
+      "id": "sklep-955171b500851a90731f"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Tesco",
+      "image": "/shops/logo-tesco.webp",
+      "zoom": {
+        "x": 50,
+        "y": 65
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Tesco_1995_logo.svg",
+      "id": "sklep-b234eff2806f304821bb"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Intermarché",
+      "image": "/shops/logo-intermarche.webp",
+      "zoom": {
+        "x": 55,
+        "y": 48
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Intermarch%C3%A9_logo_2009_classic.svg",
+      "id": "sklep-0e1d71f103f91835ce5d"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "IKEA",
+      "image": "/shops/logo-ikea.webp",
+      "zoom": {
+        "x": 42,
+        "y": 45
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Ikea_logo.svg",
+      "id": "sklep-edebd606a09d9cda0f15"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Rossmann",
+      "image": "/shops/logo-rossmann.webp",
+      "zoom": {
+        "x": 24,
+        "y": 48
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Rossmann_Logo.svg",
+      "id": "sklep-9c72e824dc5bde422992"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Sephora",
+      "image": "/shops/logo-sephora.webp",
+      "zoom": {
+        "x": 45,
+        "y": 48
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Sephora_logo.svg",
+      "id": "sklep-8265a88556ae5e211e14"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Pepco",
+      "image": "/shops/logo-pepco.webp",
+      "zoom": {
+        "x": 85,
+        "y": 40
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Pepco_logo.svg",
+      "id": "sklep-7f616067f8df9dc740bd"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Primark",
+      "image": "/shops/logo-primark.webp",
+      "zoom": {
+        "x": 65,
+        "y": 48
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Primark_Logo_2024.svg",
+      "id": "sklep-68f92f17b3d9e5f19a24"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "H&M",
+      "image": "/shops/logo-h-m.webp",
+      "zoom": {
+        "x": 52,
+        "y": 65
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:H%26M-Logo.svg",
+      "id": "sklep-6d5a3bda95d06b7fca05"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Zara",
+      "image": "/shops/logo-zara.webp",
+      "zoom": {
+        "x": 68,
+        "y": 48
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Zara_2008_Logo.svg",
+      "id": "sklep-cb4640eeb7f3ff8da60e"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Sinsay",
+      "image": "/shops/logo-sinsay.webp",
+      "zoom": {
+        "x": 45,
+        "y": 50
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Sinsay_logo.svg",
+      "id": "sklep-4244c70c28a29c018321"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Decathlon",
+      "image": "/shops/logo-decathlon.webp",
+      "zoom": {
+        "x": 10,
+        "y": 45
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Decathlon_-_logo_(France,_2024).svg",
+      "id": "sklep-d80479b029c6722fbe64"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "4F",
+      "image": "/shops/logo-4f.webp",
+      "zoom": {
+        "x": 55,
+        "y": 45
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:4F_(company)_logo.svg",
+      "id": "sklep-d26dae439690f592bd3c"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "OBI",
+      "image": "/shops/logo-obi.webp",
+      "zoom": {
+        "x": 52,
+        "y": 48
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:OBI-Logo-2026.svg",
+      "id": "sklep-3d1a8e37e4b77f209b13"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Leroy Merlin",
+      "image": "/shops/logo-leroy-merlin.webp",
+      "zoom": {
+        "x": 50,
+        "y": 45
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Leroy_Merlin_-_logo_(France,_1995-).svg",
+      "id": "sklep-1db0348df487add2c925"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Castorama",
+      "image": "/shops/logo-castorama.webp",
+      "zoom": {
+        "x": 60,
+        "y": 48
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Castorama_-_logo_(France,_2014-).svg",
+      "id": "sklep-0024dd3ff4c76f8ed944"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Allegro",
+      "image": "/shops/logo-allegro.webp",
+      "zoom": {
+        "x": 55,
+        "y": 50
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Allegro-logo.svg",
+      "id": "sklep-94de5d62bec50ced6bf6"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Amazon",
+      "image": "/shops/logo-amazon.webp",
+      "zoom": {
+        "x": 60,
+        "y": 72
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Amazon_logo.svg",
+      "id": "sklep-44d625c31ae1b15bcbff"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Vinted",
+      "image": "/shops/logo-vinted.webp",
+      "zoom": {
+        "x": 50,
+        "y": 48
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Vinted_Logo_2022.svg",
+      "id": "sklep-b28a3c6ab7bf5510c3fa"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "AliExpress",
+      "image": "/shops/logo-aliexpress.webp",
+      "zoom": {
+        "x": 64,
+        "y": 48
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Aliexpress_logo.svg",
+      "id": "sklep-1870ba18539a9dfe3318"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Temu",
+      "image": "/shops/logo-temu.webp",
+      "zoom": {
+        "x": 40,
+        "y": 48
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Temu_logo.svg",
+      "id": "sklep-8dbc2b1c6bbb783560b4"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Zalando",
+      "image": "/shops/logo-zalando.webp",
+      "zoom": {
+        "x": 12,
+        "y": 48
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Zalando_Logo_2024.svg",
+      "id": "sklep-77694e2bc2fbcb1928c7"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Black Red White",
+      "aliases": [
+        "BRW"
+      ],
+      "image": "/shops/logo-black-red-white.webp",
+      "zoom": {
+        "x": 30,
+        "y": 50
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Black_Red_White_logo.svg",
+      "id": "sklep-6a89a000212a5d14f0c3"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Jysk",
+      "image": "/shops/logo-jysk.webp",
+      "zoom": {
+        "x": 15,
+        "y": 40
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Jysk_logo.svg",
+      "id": "sklep-807c73c03e5e14f4f49c"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Orlen",
+      "image": "/shops/logo-orlen.webp",
+      "zoom": {
+        "x": 40,
+        "y": 48
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Orlen_wordmark_logo.svg",
+      "id": "sklep-1577a7fd8b6a8b6e1af1"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "LEGO",
+      "aliases": [
+        "Lego"
+      ],
+      "image": "/shops/logo-lego.webp",
+      "zoom": {
+        "x": 45,
+        "y": 50
+      },
+      "source": "https://en.wikipedia.org/wiki/The_Lego_Group",
+      "id": "sklep-637777fb89b39406818e"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Shein",
+      "image": "/shops/logo-shein.webp",
+      "zoom": {
+        "x": 40,
+        "y": 48
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Shein_Logo_2017.svg",
+      "id": "sklep-3da3c6986ebcd97ebd71"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Apple",
+      "aliases": [
+        "Apple Store"
+      ],
+      "image": "/shops/logo-apple.webp",
+      "zoom": {
+        "x": 63,
+        "y": 18
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg",
+      "id": "sklep-d05c97ce70f3ae83f07c"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Nike",
+      "image": "/shops/logo-nike.webp",
+      "zoom": {
+        "x": 70,
+        "y": 25
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_NIKE.svg",
+      "id": "sklep-c2f29bc2d877ccb6ad57"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Adidas",
+      "image": "/shops/logo-adidas.webp",
+      "zoom": {
+        "x": 55,
+        "y": 35
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Adidas_Logo.svg",
+      "id": "sklep-9d83418406b7c44dfb07"
+    },
+    {
+      "prompt": "Jaki to sklep lub marka? Logo cały czas się oddala.",
+      "answer": "Shell",
+      "image": "/shops/logo-shell.webp",
+      "zoom": {
+        "x": 50,
+        "y": 45
+      },
+      "source": "https://en.wikipedia.org/wiki/Shell_plc",
+      "id": "sklep-bac96c045db159ff3fa7"
+    },
+    {
       "prompt": "Do jakiej portugalskiej grupy należy sieć Biedronka?",
       "answer": "Jerónimo Martins",
       "id": "sklep-073a15e6b23bb3335d50"
-    },
-    {
-      "prompt": "W którym roku otwarto w Poznaniu pierwszy sklep Biedronka?",
-      "answer": "1995",
-      "id": "sklep-53ed8652feac8a1ac669"
-    },
-    {
-      "prompt": "Hasło której sieci dyskontów brzmi „Codziennie niskie ceny”?",
-      "answer": "Biedronka",
-      "id": "sklep-1eb9a1bd0428c8be9bee"
-    },
-    {
-      "prompt": "Jak nazywa się program lojalnościowy Biedronki?",
-      "answer": "Moja Biedronka",
-      "id": "sklep-97303f04c607378a39f4"
     },
     {
       "prompt": "Jak nazywa się aplikacja lojalnościowa sieci Żabka?",
@@ -31734,28 +32171,9 @@ export const bank = {
       "id": "sklep-74656098dad2c3f020b0"
     },
     {
-      "prompt": "Jaka sieć sklepów ma w logo zielonego dinozaura?",
-      "answer": "Dino",
-      "id": "sklep-69fe65438a9e30bd6060"
-    },
-    {
       "prompt": "Z jakiego wielkopolskiego miasta pochodzi sieć Dino?",
       "answer": "Krotoszyn",
       "id": "sklep-bea0b81313feee464dca"
-    },
-    {
-      "prompt": "Jakie zwierzę jest w logo sieci Netto?",
-      "answer": "Pies",
-      "aliases": [
-        "Szkocki terier",
-        "Terier"
-      ],
-      "id": "sklep-8ccd0def65e8f2e8de22"
-    },
-    {
-      "prompt": "Z jakiego kraju pochodzi sieć Netto?",
-      "answer": "Dania",
-      "id": "sklep-8ba44f9927582add0eed"
     },
     {
       "prompt": "Jaka niemiecka grupa jest właścicielem Lidla i Kauflandu?",
@@ -31767,57 +32185,14 @@ export const bank = {
       "id": "sklep-5706974a2e0b45c502e9"
     },
     {
-      "prompt": "Z jakiego kraju pochodzi Lidl?",
-      "answer": "Niemcy",
-      "id": "sklep-a8cc4f10f2d60deefea7"
-    },
-    {
       "prompt": "Jak nazywa się aplikacja lojalnościowa Lidla?",
       "answer": "Lidl Plus",
       "id": "sklep-a0c34bd3336ae0c78a9a"
     },
     {
-      "prompt": "Z jakiego kraju pochodzi sieć hipermarketów Carrefour?",
-      "answer": "Francja",
-      "id": "sklep-0b869a267679ab83c88f"
-    },
-    {
-      "prompt": "Z jakiego kraju pochodzi sieć Auchan?",
-      "answer": "Francja",
-      "id": "sklep-291f6b2a2fe6f5b45799"
-    },
-    {
-      "prompt": "Jak nazywa się francuska sieć hipermarketów założona przez Édouarda Leclerca?",
-      "answer": "E.Leclerc",
-      "aliases": [
-        "Leclerc"
-      ],
-      "id": "sklep-6b99cd26e6dc501d4e40"
-    },
-    {
-      "prompt": "Jaka polska sieć supermarketów z Lublina ma w nazwie kwiat?",
-      "answer": "Stokrotka",
-      "id": "sklep-6ee317185947c92147c4"
-    },
-    {
-      "prompt": "Która brytyjska sieć hipermarketów wycofała się z Polski w 2021 roku?",
-      "answer": "Tesco",
-      "id": "sklep-e28c1ca845c8c40084d4"
-    },
-    {
       "prompt": "Jak nazywa się polska sieć franczyzowa sklepów nazwana od biblijnego morskiego potwora?",
       "answer": "Lewiatan",
       "id": "sklep-04f7f8ee1b10aab68a9e"
-    },
-    {
-      "prompt": "Jak nazywa się sieć delikatesów franczyzowych należąca do grupy Eurocash?",
-      "answer": "Delikatesy Centrum",
-      "id": "sklep-40c999f7ea60545bfb2c"
-    },
-    {
-      "prompt": "Z jakiego kraju pochodzi IKEA?",
-      "answer": "Szwecja",
-      "id": "sklep-974a99465cc58bdeaf4d"
     },
     {
       "prompt": "Kto założył IKEA?",
@@ -31836,30 +32211,12 @@ export const bank = {
       "id": "sklep-5ffe22e66e43c9b3af44"
     },
     {
-      "prompt": "Od czego pochodzi litera „I” w nazwie IKEA?",
-      "answer": "Od imienia Ingvar",
-      "aliases": [
-        "Ingvar"
-      ],
-      "id": "sklep-79151c14ebd6bcb034de"
-    },
-    {
-      "prompt": "Która sieć sprzedaje meble do samodzielnego montażu w płaskich paczkach i ma w sklepach jednokierunkową trasę?",
-      "answer": "IKEA",
-      "id": "sklep-c410957ebe8ff729c6f7"
-    },
-    {
       "prompt": "Która sieć elektromarketów reklamowała się hasłem „Nie dla idiotów”?",
       "answer": "Media Markt",
       "aliases": [
         "MediaMarkt"
       ],
       "id": "sklep-8912ebf3e5e1fc85635b"
-    },
-    {
-      "prompt": "Z jakiego kraju pochodzi Media Markt?",
-      "answer": "Niemcy",
-      "id": "sklep-906d6b044df867a509c3"
     },
     {
       "prompt": "Jak nazywa się polska sieć elektromarketów z siedzibą w Złotowie?",
@@ -31872,64 +32229,14 @@ export const bank = {
       "id": "sklep-2659e16afdb5f2da5e17"
     },
     {
-      "prompt": "Z jakiego kraju pochodzi drogeria Rossmann?",
-      "answer": "Niemcy",
-      "id": "sklep-24baa7243456c05d6e14"
-    },
-    {
       "prompt": "Jak nazywa się sieć drogerii należąca do właściciela Biedronki?",
       "answer": "Hebe",
       "id": "sklep-4da7d0b6682380623f0f"
     },
     {
-      "prompt": "Z jakiego kraju pochodzi sieć perfumerii Sephora?",
-      "answer": "Francja",
-      "id": "sklep-94b14dd344b9e31cf413"
-    },
-    {
-      "prompt": "Z jakiego kraju pochodzi sieć perfumerii Douglas?",
-      "answer": "Niemcy",
-      "id": "sklep-e71f696a5360979c955c"
-    },
-    {
-      "prompt": "Jak nazywa się holenderska sieć tanich sklepów „wszystkiego po trochu”?",
-      "answer": "Action",
-      "id": "sklep-bef69c29ed891bba1581"
-    },
-    {
-      "prompt": "Jak nazywa się sieć tanich sklepów odzieżowo-domowych z siedzibą w Poznaniu, obecna w całej Europie?",
-      "answer": "Pepco",
-      "id": "sklep-e9d06f13bf256c511a47"
-    },
-    {
-      "prompt": "Z jakiego kraju pochodzi sieć odzieżowa Primark?",
-      "answer": "Irlandia",
-      "id": "sklep-77dc1f319f575105bed4"
-    },
-    {
-      "prompt": "Z jakiego kraju pochodzi sieć odzieżowa H&M?",
-      "answer": "Szwecja",
-      "id": "sklep-0ce3f727789a0b7c4b30"
-    },
-    {
-      "prompt": "Do jakiej hiszpańskiej grupy należy Zara?",
-      "answer": "Inditex",
-      "id": "sklep-403f878a855e5464ad60"
-    },
-    {
       "prompt": "Jak nazywa się polska firma z Gdańska, właściciel marek Reserved, Cropp, House, Mohito i Sinsay?",
       "answer": "LPP",
       "id": "sklep-4c0b7bd6d9a19f6a93f3"
-    },
-    {
-      "prompt": "Która marka LPP, założona w 1999 roku, jest jej flagową siecią salonów odzieżowych?",
-      "answer": "Reserved",
-      "id": "sklep-193b6bbab757ce49646c"
-    },
-    {
-      "prompt": "Jak nazywa się polska sieć sklepów obuwniczych z Polkowic?",
-      "answer": "CCC",
-      "id": "sklep-d92ec95b1865e135b49a"
     },
     {
       "prompt": "Od jakiego skrótu pochodzi nazwa sieci Empik?",
@@ -31938,31 +32245,6 @@ export const bank = {
         "Klub Międzynarodowej Prasy i Książki"
       ],
       "id": "sklep-9829bafe96716ab2f257"
-    },
-    {
-      "prompt": "Z jakiego kraju pochodzi sieć sklepów sportowych Decathlon?",
-      "answer": "Francja",
-      "id": "sklep-43dda983fcf0befe9ac1"
-    },
-    {
-      "prompt": "Jak nazywa się polska marka odzieży sportowej, która ubiera polskich olimpijczyków?",
-      "answer": "4F",
-      "id": "sklep-d61bc180ab689d422a78"
-    },
-    {
-      "prompt": "Z jakiego kraju pochodzi market budowlany OBI?",
-      "answer": "Niemcy",
-      "id": "sklep-0bc8a636692cddedd96a"
-    },
-    {
-      "prompt": "Z jakiego kraju pochodzi market budowlany Leroy Merlin?",
-      "answer": "Francja",
-      "id": "sklep-ceae3249236f798958e8"
-    },
-    {
-      "prompt": "Jak nazywa się polska platforma zakupowa założona w 1999 roku w Poznaniu?",
-      "answer": "Allegro",
-      "id": "sklep-bc3fd38a404a4c3c57ea"
     },
     {
       "prompt": "Kto założył Amazona?",
@@ -31978,26 +32260,6 @@ export const bank = {
       "id": "sklep-2abeb516d9464889fda3"
     },
     {
-      "prompt": "Jak nazywa się litewska platforma do sprzedaży używanych ubrań?",
-      "answer": "Vinted",
-      "id": "sklep-996b0c06844f0446b1f2"
-    },
-    {
-      "prompt": "Jak nazywa się chiński sklep internetowy z grupy Alibaba, popularny w Polsce?",
-      "answer": "AliExpress",
-      "id": "sklep-591baf6696cddbb0faec"
-    },
-    {
-      "prompt": "Jak nazywa się chińska platforma zakupowa z hasłem „Shop like a billionaire”?",
-      "answer": "Temu",
-      "id": "sklep-1f7d2c100ceee1ac82a9"
-    },
-    {
-      "prompt": "Z jakiego kraju pochodzi sklep internetowy Zalando?",
-      "answer": "Niemcy",
-      "id": "sklep-5bee0680cb551b0d49ea"
-    },
-    {
       "prompt": "Jak nazywa się polska sieć sklepów z zabawkami i artykułami dla dzieci?",
       "answer": "Smyk",
       "id": "sklep-6eb600c9ac75d005981c"
@@ -32011,32 +32273,9 @@ export const bank = {
       "id": "sklep-7083fa259401284a5cb5"
     },
     {
-      "prompt": "Jak nazywa się polski producent i sieć sklepów meblowych z Biłgoraja?",
-      "answer": "Black Red White",
-      "aliases": [
-        "BRW"
-      ],
-      "id": "sklep-5ecc0db815a2437fdbc4"
-    },
-    {
-      "prompt": "Z jakiego kraju pochodzi sieć sklepów Jysk?",
-      "answer": "Dania",
-      "id": "sklep-7d7580803dc92c41ecdb"
-    },
-    {
       "prompt": "Jak nazywa się największa sieć stacji paliw w Polsce, dawniej CPN?",
       "answer": "Orlen",
       "id": "sklep-2393e730e49caacd6d04"
-    },
-    {
-      "prompt": "Jak nazywa się duński producent klocków, który ma w Polsce własne sklepy firmowe?",
-      "answer": "LEGO",
-      "id": "sklep-81b407cf907b40a6774b"
-    },
-    {
-      "prompt": "Z jakiego kraju pochodzi sieć dyskontów Aldi?",
-      "answer": "Niemcy",
-      "id": "sklep-e86b8b9d74ca0758193a"
     }
   ],
   "Co to za dzień?": [
@@ -36047,6 +36286,266 @@ export const bank = {
         "Lotus"
       ],
       "id": "valorant-77bcecfb50bf53affe0c"
+    },
+    {
+      "prompt": "Valorant, mapa Ascent: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "A Lobby",
+      "aliases": [
+        "Lobby A"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-ascent-a-lobby.webp",
+      "id": "valorant-3bfadb123436f9d4ccd1"
+    },
+    {
+      "prompt": "Valorant, mapa Ascent: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "A Main",
+      "aliases": [
+        "Main A"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-ascent-a-main.webp",
+      "id": "valorant-f7e5048a895182148c23"
+    },
+    {
+      "prompt": "Valorant, mapa Split: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "A Screens",
+      "aliases": [
+        "Screens A"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-split-a-screens.webp",
+      "id": "valorant-994de17c339b028fd3e7"
+    },
+    {
+      "prompt": "Valorant, mapa Split: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "B Garage",
+      "aliases": [
+        "Garage B"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-split-b-garage.webp",
+      "id": "valorant-ea11ff53750e1050307e"
+    },
+    {
+      "prompt": "Valorant, mapa Fracture: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "A Drop",
+      "aliases": [
+        "Drop A"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-fracture-a-drop.webp",
+      "id": "valorant-29b888dcd1fc276bdfa0"
+    },
+    {
+      "prompt": "Valorant, mapa Fracture: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "A Hall",
+      "aliases": [
+        "Hall A"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-fracture-a-hall.webp",
+      "id": "valorant-1a604ca8179ae1511f46"
+    },
+    {
+      "prompt": "Valorant, mapa Bind: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "B Hall",
+      "aliases": [
+        "Hall B"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-bind-b-hall.webp",
+      "id": "valorant-83a41e16a1077329a27a"
+    },
+    {
+      "prompt": "Valorant, mapa Bind: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "A Exit",
+      "aliases": [
+        "Exit A"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-bind-a-exit.webp",
+      "id": "valorant-dca22995f47bb2f9df36"
+    },
+    {
+      "prompt": "Valorant, mapa Breeze: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "A Shop",
+      "aliases": [
+        "Shop A"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-breeze-a-shop.webp",
+      "id": "valorant-1aca968d768049ea0e9f"
+    },
+    {
+      "prompt": "Valorant, mapa Breeze: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "Mid Top",
+      "aliases": [
+        "Top Mid"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-breeze-mid-top.webp",
+      "id": "valorant-cd3fae59de1768dda9dd"
+    },
+    {
+      "prompt": "Valorant, mapa Abyss: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "A Lobby",
+      "aliases": [
+        "Lobby A"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-abyss-a-lobby.webp",
+      "id": "valorant-e4303811517d77e76e0a"
+    },
+    {
+      "prompt": "Valorant, mapa Abyss: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "A Vent",
+      "aliases": [
+        "Vent A"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-abyss-a-vent.webp",
+      "id": "valorant-e9a61a3ba859d4a213e8"
+    },
+    {
+      "prompt": "Valorant, mapa Lotus: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "B Main",
+      "aliases": [
+        "Main B"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-lotus-b-main.webp",
+      "id": "valorant-e01b944e6a2549a85d62"
+    },
+    {
+      "prompt": "Valorant, mapa Lotus: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "A Tree",
+      "aliases": [
+        "Tree A"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-lotus-a-tree.webp",
+      "id": "valorant-d4412ca5c61933d13188"
+    },
+    {
+      "prompt": "Valorant, mapa Sunset: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "A Main",
+      "aliases": [
+        "Main A"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-sunset-a-main.webp",
+      "id": "valorant-0dcd79fa9af3f15e558e"
+    },
+    {
+      "prompt": "Valorant, mapa Sunset: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "Mid Bottom",
+      "aliases": [
+        "Bottom Mid"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-sunset-mid-bottom.webp",
+      "id": "valorant-6ae1f70361b3380af086"
+    },
+    {
+      "prompt": "Valorant, mapa Pearl: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "A Flowers",
+      "aliases": [
+        "Flowers A"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-pearl-a-flowers.webp",
+      "id": "valorant-f7da696e52d92ab66169"
+    },
+    {
+      "prompt": "Valorant, mapa Pearl: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "B Screen",
+      "aliases": [
+        "Screen B"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-pearl-b-screen.webp",
+      "id": "valorant-989252559891b850cf34"
+    },
+    {
+      "prompt": "Valorant, mapa Icebox: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "B Cubby",
+      "aliases": [
+        "Cubby B"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-icebox-b-cubby.webp",
+      "id": "valorant-c01ae944fae550e85b9e"
+    },
+    {
+      "prompt": "Valorant, mapa Icebox: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "B Hut",
+      "aliases": [
+        "Hut B"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-icebox-b-hut.webp",
+      "id": "valorant-e8209a49034b4194931a"
+    },
+    {
+      "prompt": "Valorant, mapa Corrode: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "Mid Top",
+      "aliases": [
+        "Top Mid"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-corrode-mid-top.webp",
+      "id": "valorant-246c853001c95b1d2967"
+    },
+    {
+      "prompt": "Valorant, mapa Corrode: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "B Lobby",
+      "aliases": [
+        "Lobby B"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-corrode-b-lobby.webp",
+      "id": "valorant-409a4d81dcb97727ce47"
+    },
+    {
+      "prompt": "Valorant, mapa Haven: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "Mid Courtyard",
+      "aliases": [
+        "Courtyard Mid"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-haven-mid-courtyard.webp",
+      "id": "valorant-36d2c498b781bf407e60"
+    },
+    {
+      "prompt": "Valorant, mapa Haven: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "Mid Doors",
+      "aliases": [
+        "Doors Mid"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-haven-mid-doors.webp",
+      "id": "valorant-cab86195017b0495247e"
+    },
+    {
+      "prompt": "Valorant, mapa Summit: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "B Main",
+      "aliases": [
+        "Main B"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-summit-b-main.webp",
+      "id": "valorant-e321a7b6038ab70fe10f"
+    },
+    {
+      "prompt": "Valorant, mapa Summit: jak nazywa się zaznaczone miejsce (callout)?",
+      "answer": "Mid Top",
+      "aliases": [
+        "Top Mid"
+      ],
+      "explanation": "Nazwa z oficjalnych calloutów gry (minimapa). Zalicz też odwróconą kolejność, np. „Main A”.",
+      "image": "/valorant/callout-summit-mid-top.webp",
+      "id": "valorant-6ea144c54e1f3b210391"
     }
   ],
   "Minecraft": [
@@ -38702,6 +39201,1013 @@ export const bank = {
         "pixel": true
       },
       "id": "zoom-3b8e49b6aeb645bf1d0f"
+    }
+  ],
+  "Popularne piosenki": [
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "730 Huncho, Malik Montana, Wiktor & CrackHouse – Mami",
+      "aliases": [
+        "Mami",
+        "730 Huncho",
+        "Malik Montana",
+        "Wiktor",
+        "CrackHouse"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cf/83/58/cf8358db-7a8e-2a84-c83c-8516ba9d7500/mzaf_16962674937371327388.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop (Polska). Apple Music Polska: miejsce 1 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/mami/6814768751",
+      "id": "hit-8cb37cf3dc714efbc40e"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Otsochodzi & lohleq – NIENAWIDZĘ WARSZAWY",
+      "aliases": [
+        "NIENAWIDZĘ WARSZAWY",
+        "Otsochodzi",
+        "lohleq"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e1/2a/e9/e12ae9ad-c204-75a5-8564-94d92991298f/mzaf_15793704469308351073.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop (Polska). Apple Music Polska: miejsce 3 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/nienawidz%C4%99-warszawy/6812310434",
+      "id": "hit-94683318000d975e933c"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Tax Free, Malik Montana, Kazior, Maja Janowska, CUZCO$ & YEEGOR – WAVY (LEJ MI BBY)",
+      "aliases": [
+        "WAVY (LEJ MI BBY)",
+        "Tax Free",
+        "Malik Montana",
+        "Kazior",
+        "Maja Janowska",
+        "CUZCO$",
+        "YEEGOR"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/76/f7/56/76f75635-2a95-a2de-a71a-baf417a5b6a2/mzaf_8248631930153960811.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop (Polska). Apple Music Polska: miejsce 6 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/wavy-lej-mi-bby/6822045616",
+      "id": "hit-bea1031036ad7bb18cf0"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "OG ENZO, Malik Montana & CUZCO$ – 3K (KRESKA KROPKA KRESKA)",
+      "aliases": [
+        "3K (KRESKA KROPKA KRESKA)",
+        "OG ENZO",
+        "Malik Montana",
+        "CUZCO$"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/87/9f/6d/879f6dec-fd8c-d556-b3f1-be67b71a98ee/mzaf_767453448871666592.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop (Polska). Apple Music Polska: miejsce 7 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/3k-kreska-kropka-kreska/6819265271",
+      "id": "hit-f8349c6f03462184f44d"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "bambi & Bedoes 2115 – CYRK",
+      "aliases": [
+        "CYRK",
+        "bambi",
+        "Bedoes 2115"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b7/42/b2/b742b209-1596-6662-e85a-48162a6288b3/mzaf_13347013736318242755.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop (Polska). Apple Music Polska: miejsce 12 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/cyrk/6820128813",
+      "id": "hit-13012a4042b6ec252f6e"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Otsochodzi, OKI & lohleq – WIĘCEJ NIEBA",
+      "aliases": [
+        "WIĘCEJ NIEBA",
+        "Otsochodzi",
+        "OKI",
+        "lohleq"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6f/5f/80/6f5f801a-e513-a283-0d28-e85c5c8ca3f5/mzaf_8797686847437854671.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop (Polska). Apple Music Polska: miejsce 13 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/wi%C4%99cej-nieba/6795483322",
+      "id": "hit-f56fc1a6db000d372f2e"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Quebonafide, Duit & Daria Zawiałow – BUBBLETEA",
+      "aliases": [
+        "BUBBLETEA",
+        "Quebonafide",
+        "Duit",
+        "Daria Zawiałow"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/27/13/66/2713663d-04cb-1080-d8e6-f64078f0eb2e/mzaf_2681581205871546354.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop (Polska). Apple Music Polska: miejsce 15 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/bubbletea/1633288384",
+      "id": "hit-c365a44eccdf2c3897a4"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "bambi – VIS A VIS",
+      "aliases": [
+        "VIS A VIS",
+        "bambi"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e1/7c/0f/e17c0f63-2af3-3fe0-b83f-6b77478e671e/mzaf_8567034338435813746.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop (Polska). Apple Music Polska: miejsce 17 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/vis-a-vis/6823346756",
+      "id": "hit-6b0f3b77b0759396c6cb"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Tax Free, Malik Montana, Kazior & CUZCO$ – After",
+      "aliases": [
+        "After",
+        "Tax Free",
+        "Malik Montana",
+        "Kazior",
+        "CUZCO$"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/af/8c/5e/af8c5e26-034b-a893-2180-1da04d6e01ab/mzaf_1855701094099367548.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop (Polska). Apple Music Polska: miejsce 19 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/after/1867178513",
+      "id": "hit-3d8b3fd26267b8265bb7"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Tede, Sir Mich & Abel – Michael Kors",
+      "aliases": [
+        "Michael Kors",
+        "Tede",
+        "Sir Mich",
+        "Abel"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/44/8a/53/448a53f3-3f1e-6e16-734e-e32b52212dbe/mzaf_4024512054061850637.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop (Polska). Apple Music Polska: miejsce 20 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/michael-kors/1658596771",
+      "id": "hit-1596986dcc4d39853845"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "PRO8L3M – Molly",
+      "aliases": [
+        "Molly",
+        "PRO8L3M"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b0/68/d2/b068d24b-f25b-2079-d53f-ef3f51feba17/mzaf_15780230571560288721.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop (Polska). Apple Music Polska: miejsce 34 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/molly/1678486522",
+      "id": "hit-4a4d1cb9fc34cc940eb8"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Białas – ANDRZEJ GOATa",
+      "aliases": [
+        "ANDRZEJ GOATa",
+        "Białas"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/2b/ef/c32befd9-ccf5-91b7-c79f-8a5bd8b06246/mzaf_5487439430730428873.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop (Polska). Apple Music Polska: miejsce 36 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/andrzej-goata/6822756563",
+      "id": "hit-25b9a13a249f731051f2"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "MJ Deli – DELI SUPREME",
+      "aliases": [
+        "DELI SUPREME",
+        "MJ Deli"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bc/d3/9b/bcd39bb6-4baa-375c-8b61-fa0d85d49653/mzaf_570559887529561934.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop (Polska). Apple Music Polska: miejsce 37 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/deli-supreme/6792724992",
+      "id": "hit-adb5b07a874361a3a1a7"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Maja & Young Leosia – LEJ MI BBY",
+      "aliases": [
+        "LEJ MI BBY",
+        "Maja",
+        "Young Leosia"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ce/78/ac/ce78ac97-33fb-746e-5003-d9f6ca333141/mzaf_18298242366190804264.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop (Polska). Apple Music Polska: miejsce 41 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/lej-mi-bby/6817398929",
+      "id": "hit-324b757049bd8076dfde"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Michael Jackson – Billie Jean",
+      "aliases": [
+        "Billie Jean",
+        "Michael Jackson"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3d/b9/2f/3db92f75-7a79-ed5b-a91b-e6241f7f8323/mzaf_15946139656230752323.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop (Polska). Apple Music Polska: miejsce 43 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/billie-jean-long-version/1641780996",
+      "id": "hit-254d2e71079701c12777"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "MIÜ, Pezet & Bedoes 2115 – fantazje",
+      "aliases": [
+        "fantazje",
+        "MIÜ",
+        "Pezet",
+        "Bedoes 2115"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a2/20/1f/a2201fcf-0e5c-3933-b882-4ca4ee2372ee/mzaf_3393829800607294050.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop (Polska). Apple Music Polska: miejsce 45 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/fantazje/1883059574",
+      "id": "hit-060f799f4ca61d35a513"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Sequento, Cypis & Balanga – Stan Deweloperski",
+      "aliases": [
+        "Stan Deweloperski",
+        "Sequento",
+        "Cypis",
+        "Balanga"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/df/41/cf/df41cff2-b71f-d842-525d-469b9652a346/mzaf_9032808256889984423.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop (Polska). Apple Music Polska: miejsce 48 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/stan-deweloperski/1894999698",
+      "id": "hit-7afc6adad60a247da5ad"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Malik Montana – Jungle Boyz",
+      "aliases": [
+        "Jungle Boyz",
+        "Malik Montana"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/42/1c/78/421c7832-7207-7cba-5239-cd227d7354ab/mzaf_13917065059358614449.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop (Polska). Apple Music Polska: miejsce 51 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/jungle-boyz/1536801069",
+      "id": "hit-b316364d4ecf22043da3"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Kizo – Czempion",
+      "aliases": [
+        "Czempion",
+        "Kizo"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4b/83/02/4b8302ee-4584-e2eb-ac91-7c42785d419d/mzaf_3475250561298232602.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop (Polska). Apple Music Polska: miejsce 52 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/czempion-feat-malik-montana/1694537902",
+      "id": "hit-00c0b2d6031a07725d66"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Malik Montana, CUZCO$ & Szamz – Kto ile jest wart",
+      "aliases": [
+        "Kto ile jest wart",
+        "Malik Montana",
+        "CUZCO$",
+        "Szamz"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b0/dc/4c/b0dc4c87-7323-fc04-9efc-4a91c538333c/mzaf_16927240642173631716.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop (Polska). Apple Music Polska: miejsce 54 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/kto-ile-jest-wart/6825260423",
+      "id": "hit-40f03c4e0a03c0f4918f"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Drake & Don Toliver – Solar Eclipse",
+      "aliases": [
+        "Solar Eclipse",
+        "Drake",
+        "Don Toliver"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1e/b2/bc/1eb2bc0d-28e0-cc09-e24f-85b47358a773/mzaf_13880485937262246167.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop / R&B (świat). Apple Music USA: miejsce 4 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/solar-eclipse/6818209777",
+      "id": "hit-c948d32dbd0e754f4aba"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Drake – Janice STFU",
+      "aliases": [
+        "Janice STFU",
+        "Drake"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a2/a3/18/a2a31893-76db-627e-0985-6c720be140b4/mzaf_4732841734320991384.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop / R&B (świat). Apple Music USA: miejsce 6 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/janice-stfu/6769568449",
+      "id": "hit-eb767bfebae1c3133053"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Lil Baby – In A Minute",
+      "aliases": [
+        "In A Minute",
+        "Lil Baby"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bb/f6/56/bbf6566c-7137-0484-be0b-8bc05283e99f/mzaf_1914219810054297365.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop / R&B (świat). Apple Music USA: miejsce 10 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/in-a-minute/1648587138",
+      "id": "hit-b74d67d2ee082d874094"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Lil Baby – Freestyle",
+      "aliases": [
+        "Freestyle",
+        "Lil Baby"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e5/2e/9b/e52e9bd5-761a-8665-542b-c7391e5c0f6c/mzaf_17420079795001025422.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop / R&B (świat). Apple Music USA: miejsce 11 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/freestyle/1440928174",
+      "id": "hit-550f8704576a56937b52"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Future – WAIT FOR U",
+      "aliases": [
+        "WAIT FOR U",
+        "Future"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/77/67/90/77679025-8a80-42a2-bbcd-335dd083295b/mzaf_11646896799515737302.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop / R&B (świat). Apple Music USA: miejsce 13 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/wait-for-u-feat-drake-tems/1621119097",
+      "id": "hit-cf58136ae29d35c145c5"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Future – LIKE ME",
+      "aliases": [
+        "LIKE ME",
+        "Future"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1b/57/98/1b579826-1c65-4b2a-70ff-bd9cc3f38a0e/mzaf_9370811424277154394.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop / R&B (świat). Apple Music USA: miejsce 14 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/like-me-feat-42-dugg-lil-baby/1621803882",
+      "id": "hit-6b6989e13bc3c525760a"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "The Weeknd – Wicked Games",
+      "aliases": [
+        "Wicked Games",
+        "The Weeknd"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2f/a8/be/2fa8be8c-4dd8-5b72-a100-855acf921275/mzaf_9274276073018723273.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop / R&B (świat). Apple Music USA: miejsce 18 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/wicked-games/1550877895",
+      "id": "hit-93d5eee31c9170a79190"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "YoungBoy Never Broke Again – Kacey Talk",
+      "aliases": [
+        "Kacey Talk",
+        "YoungBoy Never Broke Again"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9e/9d/2a/9e9d2ae0-a720-03a9-1112-9faf6a6b768d/mzaf_10303305683958586111.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop / R&B (świat). Apple Music USA: miejsce 28 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/kacey-talk/1530122403",
+      "id": "hit-eaee0e56c8809921e867"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "SZA – Snooze",
+      "aliases": [
+        "Snooze",
+        "SZA"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5c/a7/8e/5ca78e4e-245f-5021-858c-45a8057eb296/mzaf_4277583948632043282.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop / R&B (świat). Apple Music USA: miejsce 39 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/snooze/1657869377",
+      "id": "hit-e44d4437f4910f882bf7"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Summer Walker – Girls Need Love",
+      "aliases": [
+        "Girls Need Love",
+        "Summer Walker"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3e/83/21/3e83212b-2aef-8c91-05f1-3b05e9881c67/mzaf_6605689109113980646.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop / R&B (świat). Apple Music USA: miejsce 40 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/girls-need-love/1438765128",
+      "id": "hit-61268c14b1b7f902863d"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "YoungBoy Never Broke Again – Now Who",
+      "aliases": [
+        "Now Who",
+        "YoungBoy Never Broke Again"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9c/4c/a5/9c4ca51e-747a-8c1f-96c7-1925da3c9d8d/mzaf_9149194016825860010.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop / R&B (świat). Apple Music USA: miejsce 42 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/now-who/1713814104",
+      "id": "hit-677b412ed052fc5f6150"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Jhené Aiko – So Good",
+      "aliases": [
+        "So Good",
+        "Jhené Aiko"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/20/78/dd/2078ddf0-de7d-f534-a4fd-476382ae012b/mzaf_13935165721871139669.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop / R&B (świat). Apple Music USA: miejsce 43 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/so-good-feat-kendrick-lamar/6810715695",
+      "id": "hit-0003620c598beb2aa076"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "J. Cole – Power Trip",
+      "aliases": [
+        "Power Trip",
+        "J. Cole"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f8/6d/a9/f86da907-9098-9342-d8cf-1b48f9fb3bf7/mzaf_388327576314698540.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop / R&B (świat). Apple Music USA: miejsce 44 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/power-trip-feat-miguel/1529668443",
+      "id": "hit-c62df8bc966682c84aa4"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Belly Gang Kushington & 21 Savage – WTF GOIN",
+      "aliases": [
+        "WTF GOIN",
+        "Belly Gang Kushington",
+        "21 Savage"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e8/ba/6b/e8ba6b93-410e-86ab-9e60-fec68da95702/mzaf_13004185619102517044.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop / R&B (świat). Apple Music USA: miejsce 48 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/wtf-goin/6779378647",
+      "id": "hit-e9b58030fbdce539137e"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Bryson Tiller – Don't",
+      "aliases": [
+        "Don't",
+        "Bryson Tiller"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/be/6d/4d/be6d4d93-bc89-5eba-18c3-df6503681dac/mzaf_7760373023838939914.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop / R&B (świat). Apple Music USA: miejsce 49 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/dont/1031354875",
+      "id": "hit-23c3d9000360641a69c1"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "SZA – 30 For 30",
+      "aliases": [
+        "30 For 30",
+        "SZA"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3d/c4/93/3dc4933b-0606-71f7-77c4-cffb45133d93/mzaf_10877822582411390422.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop / R&B (świat). Apple Music USA: miejsce 52 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/30-for-30-with-kendrick-lamar/1796270264",
+      "id": "hit-10913633b4a9c5659ca4"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Rod Wave – Dope Girl",
+      "aliases": [
+        "Dope Girl",
+        "Rod Wave"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/73/da/da73daee-35f4-c598-cc70-a41ce3a75c9f/mzaf_14872459948267454135.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop / R&B (świat). Apple Music USA: miejsce 58 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/dope-girl/6807069399",
+      "id": "hit-cec35ec32632ace2d367"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Kendrick Lamar – Not Like Us",
+      "aliases": [
+        "Not Like Us",
+        "Kendrick Lamar"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2d/e0/e8/2de0e874-cd0b-e9a9-e876-76be13a86662/mzaf_12385336780649591409.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop / R&B (świat). Apple Music USA: miejsce 61 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/not-like-us/1781353928",
+      "id": "hit-87d8bdc861029cafe541"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Mac Miller – Cinderella",
+      "aliases": [
+        "Cinderella",
+        "Mac Miller"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/66/22/09/66220922-80bd-7758-f9ab-601dcfae9077/mzaf_17552938916380030049.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop / R&B (świat). Apple Music USA: miejsce 68 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/cinderella-feat-ty-dolla-%24ign/1137965822",
+      "id": "hit-c6180595d3413b9b6a35"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Summer Walker – Body",
+      "aliases": [
+        "Body",
+        "Summer Walker"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0a/b3/24/0ab32463-e7b9-135c-267f-3f4725e6410b/mzaf_17710797820950066481.plus.aac.p.m4a",
+      "explanation": "Rap / hip-hop / R&B (świat). Apple Music USA: miejsce 71 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/body/1481606156",
+      "id": "hit-ef30b8347edc92936c11"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Tate McRae – Housewife",
+      "aliases": [
+        "Housewife",
+        "Tate McRae"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/05/27/d4/0527d4f3-f6af-1ef8-6a32-25477b7b00ba/mzaf_18270786579537755861.plus.aac.p.m4a",
+      "explanation": "Pop. Apple Music Polska: miejsce 2 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/housewife/6822497770",
+      "id": "hit-a21d0be5e35d18235ec2"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "ADÉLA – Nicole Kidman",
+      "aliases": [
+        "Nicole Kidman",
+        "ADÉLA"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ba/11/5d/ba115d19-8dea-ad88-2a55-4b541693d50d/mzaf_6631461584091838072.plus.aac.p.m4a",
+      "explanation": "Pop. Apple Music Polska: miejsce 4 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/nicole-kidman/6807192580",
+      "id": "hit-22873af1e27935eec83d"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Męskie Granie Orkiestra, Igor Herbut, Zalia & Vito Bambino – Nareszcie",
+      "aliases": [
+        "Nareszcie",
+        "Męskie Granie Orkiestra",
+        "Igor Herbut",
+        "Zalia",
+        "Vito Bambino"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e8/75/c5/e875c516-ff0f-e045-3adf-e1de4c3d4799/mzaf_12935909863947553453.plus.aac.p.m4a",
+      "explanation": "Pop. Apple Music Polska: miejsce 8 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/nareszcie/1893020731",
+      "id": "hit-3de9b4539dfe2c9fc90f"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "ADÉLA – Ain't In LA",
+      "aliases": [
+        "Ain't In LA",
+        "ADÉLA"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a5/1c/db/a51cdb2c-4d28-3aea-feb2-44b7d0f1c05b/mzaf_11945853055580460496.plus.aac.p.m4a",
+      "explanation": "Pop. Apple Music Polska: miejsce 9 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/aint-in-la/6792883860",
+      "id": "hit-64a08961df180a7b8021"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Męskie Granie Orkiestra – I Ciebie też, bardzo",
+      "aliases": [
+        "I Ciebie też, bardzo",
+        "Męskie Granie Orkiestra"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/41/13/66/411366e1-e1f8-ee46-6154-ef790bb61bb4/mzaf_17535704245086473633.plus.aac.p.m4a",
+      "explanation": "Pop. Apple Music Polska: miejsce 11 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/i-ciebie-te%C5%BC-bardzo-feat-daria-zawia%C5%82ow-dawid-podsiad%C5%82o/1574525552",
+      "id": "hit-5888189d25cc49b732a4"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Olivia Rodrigo & Chappell Roan – expectations",
+      "aliases": [
+        "expectations",
+        "Olivia Rodrigo",
+        "Chappell Roan"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/c7/d9/dac7d988-f12e-1d34-d4c4-7dd4f4845609/mzaf_17539801478792412522.plus.aac.p.m4a",
+      "explanation": "Pop. Apple Music Polska: miejsce 18 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/expectations/6822390423",
+      "id": "hit-671324d8fdc41d388085"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Ashe – Stop The Wedding!",
+      "aliases": [
+        "Stop The Wedding!",
+        "Ashe"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2e/bd/dd/2ebddd89-0643-b878-e449-f080657203e2/mzaf_4845279736230853120.plus.aac.p.m4a",
+      "explanation": "Pop. Apple Music Polska: miejsce 21 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/stop-the-wedding/6805240956",
+      "id": "hit-0178b71327f382c605ee"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Tate McRae – Just Keep Watching",
+      "aliases": [
+        "Just Keep Watching",
+        "Tate McRae"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f1/29/27/f129275c-b8e8-e313-f3cd-a93ae234a6b5/mzaf_9933112702187355547.plus.aac.p.m4a",
+      "explanation": "Pop. Apple Music Polska: miejsce 22 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/just-keep-watching/1810796698",
+      "id": "hit-60b596e97b04596621d7"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Dua Lipa – Training Season",
+      "aliases": [
+        "Training Season",
+        "Dua Lipa"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/85/7f/0b857ff3-8e32-34ef-b376-4818a2f5acd6/mzaf_11699593524310767250.plus.aac.p.m4a",
+      "explanation": "Pop. Apple Music Polska: miejsce 24 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/training-season/1778065468",
+      "id": "hit-b6da95ea5d147ac0a004"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Shakira & Burna Boy – Dai Dai",
+      "aliases": [
+        "Dai Dai",
+        "Shakira",
+        "Burna Boy"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/56/7a/bc/567abc01-853d-946a-a47d-e75cb69b5b13/mzaf_345300859410957179.plus.aac.p.m4a",
+      "explanation": "Pop. Apple Music Polska: miejsce 28 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/dai-dai/6768469975",
+      "id": "hit-e7b3b859bb1fb4609028"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Ariana Grande – Into You",
+      "aliases": [
+        "Into You",
+        "Ariana Grande"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/af/eb/3d/afeb3dfa-4409-fa70-fc60-45aa76dd1b56/mzaf_13008636163254708650.plus.aac.p.m4a",
+      "explanation": "Pop. Apple Music Polska: miejsce 29 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/into-you/1568020268",
+      "id": "hit-9bc1b0e58f7de81b36fb"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Olivia Rodrigo – the cure",
+      "aliases": [
+        "the cure",
+        "Olivia Rodrigo"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/bc/1e/a5bc1e73-55d7-3835-4020-cb005f8a3b3d/mzaf_15167349291907334066.plus.aac.p.m4a",
+      "explanation": "Pop. Apple Music Polska: miejsce 33 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/the-cure/1889992111",
+      "id": "hit-50fa01bf299d9f568df8"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Taylor Swift – Patient Zero",
+      "aliases": [
+        "Patient Zero",
+        "Taylor Swift"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ec/c8/21/ecc821bd-1252-51fe-08f0-f3d548dcc91b/mzaf_18965391367399255.plus.aac.p.m4a",
+      "explanation": "Pop. Apple Music Polska: miejsce 40 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/patient-zero/6814997249",
+      "id": "hit-9eaa065c8e86e4644f38"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Dua Lipa – New Rules",
+      "aliases": [
+        "New Rules",
+        "Dua Lipa"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/92/1a/48/921a48e3-0be1-0e8c-fd8b-088e168b3a7b/mzaf_14558636020945441414.plus.aac.p.m4a",
+      "explanation": "Pop. Apple Music Polska: miejsce 46 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/new-rules/6772178540",
+      "id": "hit-4ae6af462b41319ccbc6"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Justin Bieber – Beauty and a Beat",
+      "aliases": [
+        "Beauty and a Beat",
+        "Justin Bieber"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ea/b4/da/eab4da01-c422-c640-1ac3-97d746c5871c/mzaf_12363686639555987211.plus.aac.p.m4a",
+      "explanation": "Pop. Apple Music Polska: miejsce 53 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/beauty-and-a-beat-feat-nicki-minaj/1440650852",
+      "id": "hit-8a46a4631c80d0131f9d"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Myslovitz – Dlugość dźwięku samotności",
+      "aliases": [
+        "Dlugość dźwięku samotności",
+        "Myslovitz"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8c/53/90/8c5390c9-60c2-9134-db24-4645763152cb/mzaf_10556248178220820886.plus.aac.p.m4a",
+      "explanation": "Pop. Apple Music Polska: miejsce 56 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/dlugo%C5%9B%C4%87-d%C5%BAwi%C4%99ku-samotno%C5%9Bci/1511556411",
+      "id": "hit-60b232b8f219df6fda64"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "K/DA, League of Legends Music, i-dle & Mimi Webb – FIRESTARTER",
+      "aliases": [
+        "FIRESTARTER",
+        "K/DA",
+        "League of Legends Music",
+        "i-dle",
+        "Mimi Webb"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/62/c7/56/62c7569d-7be0-9c4c-a9b8-a9c3b51514d3/mzaf_5477360032229389851.plus.aac.p.m4a",
+      "explanation": "Pop. Apple Music Polska: miejsce 62 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/firestarter-feat-sophie-powers-miyeon-soyeon/6813196868",
+      "id": "hit-6097ccf817fefed331e7"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "sanah – Cicho sza",
+      "aliases": [
+        "Cicho sza",
+        "sanah"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/aa/d8/e7/aad8e71a-8b22-b7c3-c5fa-59502a6496e8/mzaf_10361748955669504608.plus.aac.p.m4a",
+      "explanation": "Pop. Apple Music Polska: miejsce 63 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/cicho-sza/6806387818",
+      "id": "hit-592b1ff4b9819165d508"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Ed Sheeran – Shape of You",
+      "aliases": [
+        "Shape of You",
+        "Ed Sheeran"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/44/c7/4f/44c74f0d-72dc-6143-d4d0-ba14d661ca0d/mzaf_9566898362556366703.plus.aac.p.m4a",
+      "explanation": "Pop. Apple Music Polska: miejsce 64 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/shape-of-you/1193701079",
+      "id": "hit-8643e6c7650c5eac0d93"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Ariana Grande – no tears left to cry",
+      "aliases": [
+        "no tears left to cry",
+        "Ariana Grande"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/08/c7/f508c718-1958-46de-1092-5ff9dab86bdf/mzaf_2451337165221190709.plus.aac.p.m4a",
+      "explanation": "Pop. Apple Music Polska: miejsce 68 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/no-tears-left-to-cry/1399202539",
+      "id": "hit-ef01e7686d4501dadf3b"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Vito Bambino – Mimo najlepszych chęci",
+      "aliases": [
+        "Mimo najlepszych chęci",
+        "Vito Bambino"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7c/32/01/7c32017c-a660-c57e-b508-88dcc98714e4/mzaf_12569115816853563071.plus.aac.p.m4a",
+      "explanation": "Dance, alternatywa, rock i inne. Apple Music Polska: miejsce 5 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/mimo-najlepszych-ch%C4%99ci/6820073380",
+      "id": "hit-9baae5c688f89bd37754"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "HUGEL, Imael Angel & Ultra Naté – Movin' To The Sun",
+      "aliases": [
+        "Movin' To The Sun",
+        "HUGEL",
+        "Imael Angel",
+        "Ultra Naté"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a9/d2/09/a9d209b4-55a5-67e8-2e15-949cb00e716d/mzaf_11935934741751979581.plus.aac.p.m4a",
+      "explanation": "Dance, alternatywa, rock i inne. Apple Music Polska: miejsce 10 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/movin-to-the-sun/6769069923",
+      "id": "hit-408d16270a760e2abd87"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Tame Impala – Loser",
+      "aliases": [
+        "Loser",
+        "Tame Impala"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4c/fd/bc/4cfdbc05-8385-dcca-13d7-c15b0b81d644/mzaf_343675252092765252.plus.aac.p.m4a",
+      "explanation": "Dance, alternatywa, rock i inne. Apple Music Polska: miejsce 14 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/loser/1842957385",
+      "id": "hit-935f874a5779527e002f"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Fukaj & Vito Bambino – Zabiore Cię Tam",
+      "aliases": [
+        "Zabiore Cię Tam",
+        "Fukaj",
+        "Vito Bambino"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/dc/be/1b/dcbe1b90-6600-d99e-69f3-34fc0e759d9d/mzaf_3463384816389892291.plus.aac.p.m4a",
+      "explanation": "Dance, alternatywa, rock i inne. Apple Music Polska: miejsce 25 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/zabiore-ci%C4%99-tam/1832474326",
+      "id": "hit-663bae92776f2dedc60b"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Stynu – BALETY",
+      "aliases": [
+        "BALETY",
+        "Stynu"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/20/8f/f9/208ff9de-96fc-71da-4e5e-e6ffe68ab86e/mzaf_17028182394199371869.plus.aac.p.m4a",
+      "explanation": "Dance, alternatywa, rock i inne. Apple Music Polska: miejsce 26 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/balety/6822577863",
+      "id": "hit-3d730b6aa584a9018bcf"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "The Neighbourhood – Sweater Weather",
+      "aliases": [
+        "Sweater Weather",
+        "The Neighbourhood"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/42/53/4a/42534ad1-465f-2e5c-882b-51b3460f829e/mzaf_2625936130660551028.plus.aac.p.m4a",
+      "explanation": "Dance, alternatywa, rock i inne. Apple Music Polska: miejsce 27 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/sweater-weather/548656698",
+      "id": "hit-9f94a584c8c7d2562d6f"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Temper City – Self Aware",
+      "aliases": [
+        "Self Aware",
+        "Temper City"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/48/89/4d/48894def-36b6-0085-9184-b28a200cf47a/mzaf_6109765307626823795.plus.aac.p.m4a",
+      "explanation": "Dance, alternatywa, rock i inne. Apple Music Polska: miejsce 31 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/self-aware/1877803357",
+      "id": "hit-c0102796e0576220067a"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Imael Angel – BAD TIMES",
+      "aliases": [
+        "BAD TIMES",
+        "Imael Angel"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/79/6c/e9/796ce961-9c5b-8f48-dd6d-9ee1ff38dc58/mzaf_3288254996312096641.plus.aac.p.m4a",
+      "explanation": "Dance, alternatywa, rock i inne. Apple Music Polska: miejsce 38 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/bad-times/1894224408",
+      "id": "hit-f3aca90ef54e66b6b96f"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Lady Pank – Kryzysowa narzeczona",
+      "aliases": [
+        "Kryzysowa narzeczona",
+        "Lady Pank"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/51/d0/42/51d0420c-ae21-8d8b-39ef-487c0e9ebaae/mzaf_13914294814941036637.plus.aac.p.m4a",
+      "explanation": "Dance, alternatywa, rock i inne. Apple Music Polska: miejsce 39 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/kryzysowa-narzeczona/1484081246",
+      "id": "hit-46078b153c9228eefcc8"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "KAROL G, Judeline & rusowsky – BbY WOW",
+      "aliases": [
+        "BbY WOW",
+        "KAROL G",
+        "Judeline",
+        "rusowsky"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f3/08/da/f308da3d-00cc-7682-7be9-87cb882f4ea5/mzaf_129115212197250565.plus.aac.p.m4a",
+      "explanation": "Dance, alternatywa, rock i inne. Apple Music Polska: miejsce 44 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/bby-wow/6796864741",
+      "id": "hit-a38054d146b338fc7019"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Arctic Monkeys – Do I Wanna Know?",
+      "aliases": [
+        "Do I Wanna Know?",
+        "Arctic Monkeys"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/41/23/4941238e-dc54-478f-83dc-7a420d260a03/mzaf_11372306092386087277.plus.aac.p.m4a",
+      "explanation": "Dance, alternatywa, rock i inne. Apple Music Polska: miejsce 47 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/do-i-wanna-know/675833115",
+      "id": "hit-de613f24b1eb21620f67"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Nirvana – Smells Like Teen Spirit",
+      "aliases": [
+        "Smells Like Teen Spirit",
+        "Nirvana"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/65/49/4e/65494e02-b6d3-26d8-6b0c-9bd98dcf4d5d/mzaf_7665413316386155700.plus.aac.p.m4a",
+      "explanation": "Dance, alternatywa, rock i inne. Apple Music Polska: miejsce 57 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/smells-like-teen-spirit/1440783617",
+      "id": "hit-ee90c639e3767fc2091f"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Lady Pank – Zamki na piasku",
+      "aliases": [
+        "Zamki na piasku",
+        "Lady Pank"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d6/8b/64/d68b6451-0680-6617-dc16-4b17fcd43526/mzaf_16035923198516864460.plus.aac.p.m4a",
+      "explanation": "Dance, alternatywa, rock i inne. Apple Music Polska: miejsce 61 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/zamki-na-piasku/1484081246",
+      "id": "hit-cebdcc14fa7fd81c5809"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "LINKIN PARK – In the End",
+      "aliases": [
+        "In the End",
+        "LINKIN PARK"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/33/34/d933341d-ba95-dc3b-11a3-34d6632dd62e/mzaf_10942671303595386057.plus.aac.p.m4a",
+      "explanation": "Dance, alternatywa, rock i inne. Apple Music Polska: miejsce 78 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/in-the-end/590431776",
+      "id": "hit-80d890be20ec7566bd06"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Billie Eilish – ocean eyes",
+      "aliases": [
+        "ocean eyes",
+        "Billie Eilish"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d6/59/2b/d6592b0b-1e7e-4743-b2e4-f2af038fd783/mzaf_7697277787797935735.plus.aac.p.m4a",
+      "explanation": "Dance, alternatywa, rock i inne. Apple Music Polska: miejsce 80 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/ocean-eyes/1440898929",
+      "id": "hit-314a4fa5ac0de8b72a99"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Billie Eilish – WILDFLOWER",
+      "aliases": [
+        "WILDFLOWER",
+        "Billie Eilish"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/de/c3/e8/dec3e884-7237-9622-718a-12c5f48c5ca2/mzaf_3134455671785145822.plus.aac.p.m4a",
+      "explanation": "Dance, alternatywa, rock i inne. Apple Music Polska: miejsce 87 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/wildflower/1739659134",
+      "id": "hit-5bc35bb40eb14491c509"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "David Guetta – Sexy Bitch",
+      "aliases": [
+        "Sexy Bitch",
+        "David Guetta"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4b/f0/51/4bf051af-897a-b4b6-3f19-f0e43fd2de8a/mzaf_616369687264694612.plus.aac.p.m4a",
+      "explanation": "Dance, alternatywa, rock i inne. Apple Music Polska: miejsce 88 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/sexy-bitch-feat-akon/1688194103",
+      "id": "hit-6540be4b88cdf499a894"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Calvin Harris & Disciples – How Deep Is Your Love",
+      "aliases": [
+        "How Deep Is Your Love",
+        "Calvin Harris",
+        "Disciples"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/44/4f/37/444f373a-a551-6b20-9523-e9e9ec5a0e03/mzaf_17642090873719393687.plus.aac.p.m4a",
+      "explanation": "Dance, alternatywa, rock i inne. Apple Music Polska: miejsce 94 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/how-deep-is-your-love/1760348185",
+      "id": "hit-8172cb14bb8580680476"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Kaśka Sochacka & Kortez – Jak my - z filmu „Nasza rewolucja”",
+      "aliases": [
+        "Jak my - z filmu „Nasza rewolucja”",
+        "Kaśka Sochacka",
+        "Kortez"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/be/5b/08/be5b0870-6f00-bcc6-7c3d-4662e9215c84/mzaf_16554326151390488203.plus.aac.p.m4a",
+      "explanation": "Dance, alternatywa, rock i inne. Apple Music Polska: miejsce 96 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/jak-my-z-filmu-nasza-rewolucja/6810615631",
+      "id": "hit-90c8146aa30b5ae08bfe"
+    },
+    {
+      "prompt": "Jaka to piosenka? Podaj wykonawcę lub tytuł.",
+      "answer": "Ella Langley – Choosin' Texas",
+      "aliases": [
+        "Choosin' Texas",
+        "Ella Langley"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/38/49/4c/38494cb4-f9e0-1db4-0b84-8c478cb55390/mzaf_4251933786704889664.plus.aac.p.m4a",
+      "explanation": "Dance, alternatywa, rock i inne. Apple Music USA: miejsce 3 (25.10.2026). Zalicz wykonawcę albo tytuł.",
+      "source": "https://music.apple.com/pl/album/choosin-texas/1844932149",
+      "id": "hit-1e96a6706e6bf36f30db"
     }
   ]
 };

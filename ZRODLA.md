@@ -41,6 +41,9 @@ Listy klubów obejmują pięć ostatnich etapów kariery seniorskiej (z wypożyc
 - Rasy psów: zdjęcia z artykułów polskiej i angielskiej Wikipedii (Wikimedia Commons, wolne licencje – autorzy na stronach plików); link do artykułu w polu source.
 - Soundtrack: 30-sekundowe fragmenty (podglądy) utworów odtwarzane bezpośrednio z serwerów Apple przez iTunes Search API; pliki nie są przechowywane w projekcie. Prawa do muzyki należą do jej twórców i wydawców; link do utworu w Apple Music w polu source.
 - Przybliżenie: zdjęcia i obrazy (domena publiczna) z artykułów angielskiej Wikipedii (Wikimedia Commons, wolne licencje – autorzy na stronach plików), przycięte do 960×720 w public/zoom; link do artykułu w polu source. Kilka obrazków pochodzi z kategorii Minecraft.
+- Znane sklepy: logotypy z Wikimedia Commons i Wikipedii (znaki towarowe należą do ich właścicieli; użyte w celu rozpoznawania marek), umieszczone na białym tle w public/shops.
+- Popularne piosenki: 30-sekundowe fragmenty z serwerów Apple (iTunes) dla utworów z list Apple Music „Most Played” Polska i USA z 25.10.2026; pliki nie są przechowywane w projekcie.
+- Valorant – callouty: nazwy i położenie miejsc z valorant-api.com, zaznaczone na minimapach (public/valorant).
 
 ## Zdjęcia kosmetyków
 - Tusz do rzęs: [Mascara de pestañas.jpg](https://commons.wikimedia.org/wiki/File:Mascara_de_pesta%C3%B1as.jpg)
