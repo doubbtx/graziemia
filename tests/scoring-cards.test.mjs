@@ -205,3 +205,22 @@ test('Zoom questions send the focus point once the question is visible',()=>{
  room.duel.category='Przybliżenie';room.duel.index=0;
  for(const id of [...room.duel.ids,room.duel.adminId])assert.deepEqual(publicState(room,id,4000).duel.zoom,questions[0].zoom);
 });
+
+test('Unused freeze time survives a correct answer and continues on the next own turn',()=>{
+ const room=startDuel(readyDuel()),d=room.duel,id=d.turn,rival=d.ids.find(x=>x!==id),player=room.players.find(player=>player.id===id);
+ player.card='freeze';player.cardUsed=false;
+ action(room,id,'CARD',{questionKey:d.key},4000);
+ tick(room,6000);
+ const mine=room.duel.remaining[id];
+ answer(room,'good',6000);
+ assert.equal(room.duel.turn,rival);
+ assert.equal(room.duel.freeze.left,3000);
+ tick(room,9000);
+ answer(room,'good',9000);
+ assert.equal(room.duel.turn,id);
+ tick(room,11000);
+ assert.equal(room.duel.remaining[id],mine);
+ tick(room,14000);
+ assert.equal(room.duel.remaining[id],mine-2000);
+ assert.equal(room.duel.freeze,null);
+});

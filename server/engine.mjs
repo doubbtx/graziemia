@@ -15,7 +15,7 @@ function awardNoSkip(r,duel,logLength){
  if(noSkip.length&&r.lastDecision)r.lastDecision.text+=' Bez pominięć: +5 pkt dla '+noSkip.map(playerId=>r.players.find(player=>player.id===playerId)?.name||'gracza').join(' i ')+'.';
 }
 // Cards added on top of v12 (fog, freeze, time theft) and a shop that sells every card.
-const newCards={fog:{name:'Mgła',text:'Na cały pojedynek: każde pytanie rywala pojawia się mocno rozmyte i wyostrza się przez 2,5 sekundy. Aktywuj przed lub w trakcie własnego pojedynku.'},freeze:{name:'Zamrożenie',text:'We własnej turze zatrzymaj swój zegar na 5 sekund. Niewykorzystana część przepada, gdy tura przejdzie na rywala.'},steal:{name:'Złodziej czasu',text:'W trakcie własnego pojedynku zabierz rywalowi 5 sekund i dodaj je sobie. Rywalowi zostaje co najmniej 1 sekunda.'}};
+const newCards={fog:{name:'Mgła',text:'Na cały pojedynek: każde pytanie rywala pojawia się mocno rozmyte i wyostrza się przez 2,5 sekundy. Aktywuj przed lub w trakcie własnego pojedynku.'},freeze:{name:'Zamrożenie',text:'We własnej turze zatrzymaj swój zegar na 5 sekund. Jeśli tura przejdzie na rywala, pozostałe sekundy zadziałają w Twojej następnej turze.'},steal:{name:'Złodziej czasu',text:'W trakcie własnego pojedynku zabierz rywalowi 5 sekund i dodaj je sobie. Rywalowi zostaje co najmniej 1 sekunda.'}};
 // Prices in wallet points; a won duel usually brings 10–20.
 const cardPrices={length:12,freeze:14,letter:15,homecategory:15,time:18,skip5:20,allin:20,fog:22,steal:25,revive:25,heal:30,shield:30,laststand:35};
 const freezeMs=5000,stealMs=5000;
@@ -24,7 +24,8 @@ const shopOpen=r=>solo(r)&&!r.duel&&['choose','category','team_category','team_d
 const inDuel=(r,id)=>!!r.duel?.ids.includes(id)&&['ready','countdown','media','running'].includes(r.duel.status);
 const cardName=type=>newCards[type]?.name||old.cards[type]?.name||(type==='laststand'?'Ostatnia szansa':type);
 // A frozen clock consumes freeze time first; core tick then only counts what is left of the elapsed time.
-function applyFreeze(r,now){const d=r.duel,f=d?.freeze;if(!f)return false;if(d.turn!==f.playerId){d.freeze=null;return true;}if(d.status!=='running'||!Number.isFinite(d.lastAt))return false;const used=Math.min(f.left,Math.max(0,now-d.lastAt));f.left-=used;d.lastAt+=used;if(f.left>0)return false;d.freeze=null;return true;}
+// Unused freeze time waits through the rival's turns and continues on the owner's next turn.
+function applyFreeze(r,now){const d=r.duel,f=d?.freeze;if(!f||d.turn!==f.playerId)return false;if(d.status!=='running'||!Number.isFinite(d.lastAt))return false;const used=Math.min(f.left,Math.max(0,now-d.lastAt));f.left-=used;d.lastAt+=used;if(f.left>0)return false;d.freeze=null;return true;}
 function playNewCard(r,id,p,now){
  ok(solo(r),'Karty są wyłączone w trybie drużynowym.');ok(!p.cardUsed&&p.lives>0,'Karta niedostępna.');const d=r.duel,rival=d?.ids.find(x=>x!==id);
  if(p.card==='fog'){ok(inDuel(r,id),'Mgłę aktywujesz podczas własnego pojedynku.');ok(!d.fog,'W tym pojedynku działa już mgła.');d.fog={by:id,target:rival};p.v10CardNotice='Mgła działa do końca pojedynku.';}

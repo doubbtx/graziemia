@@ -278,7 +278,7 @@ export default function Arena() {
       return <section className={`panel duel-player${active ? ' is-active' : ''}`} data-side={index} key={id}>
         <div className="duel-player__who"><PlayerAvatar name={pname(id)} color={avatarColor(player, index)}/><strong>{pname(id)}</strong>{!teams && hearts(player)}</div>
         <PixelTimer milliseconds={d.remaining[id]} active={active && d.status === 'running' && d.freeze?.playerId !== id} label={pname(id)}/>
-        <small className="duel-player__state">{active ? '● Odpowiada' : 'Czeka'}{player.armed ? ' · ' + room.cardTypes[player.armed].name : ''}{d.freeze?.playerId === id ? ' · ❄ Zegar zamrożony' : ''}{d.fog?.target === id ? ' · 🌫 Mgła' : ''}</small>
+        <small className="duel-player__state">{active ? '● Odpowiada' : 'Czeka'}{player.armed ? ' · ' + room.cardTypes[player.armed].name : ''}{d.freeze?.playerId === id ? (active ? ' · ❄ Zegar zamrożony' : ` · ❄ Zamrożenie czeka (${Math.ceil(d.freeze.left / 1000)} s)`) : ''}{d.fog?.target === id ? ' · 🌫 Mgła' : ''}</small>
       </section>;
     })}</div>
     <section className={`panel question${d.status === 'paused' ? ' is-paused' : ''}`}>
