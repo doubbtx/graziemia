@@ -423,7 +423,7 @@ export default function Arena() {
         </section>}
         {tab === 'zasady' && rules()}
       </>}
-      <footer className="footer"><span>Pixel Arena · głos przez własny komunikator</span><span>Grafiki: <a href="https://github.com/jdecked/twemoji" target="_blank" rel="noreferrer">Twemoji</a> (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">CC BY 4.0</a>) · flagi: <a href="https://flagcdn.com/" target="_blank" rel="noreferrer">Flagcdn</a></span></footer>
+      <footer className="footer"><span>Pixel Arena · głos przez własny komunikator</span><span>Grafiki: <a href="https://github.com/jdecked/twemoji" target="_blank" rel="noreferrer">Twemoji</a> (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">CC BY 4.0</a>) · flagi: <a href="https://flagcdn.com/" target="_blank" rel="noreferrer">Flagcdn</a> · kontury: <a href="https://github.com/djaiss/mapsicon" target="_blank" rel="noreferrer">mapsicon (djaiss)</a> · zdjęcia: <a href="https://commons.wikimedia.org/" target="_blank" rel="noreferrer">Wikimedia Commons</a></span></footer>
     </div>
   </main>;
 }

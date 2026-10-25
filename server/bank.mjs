@@ -29319,5 +29319,1422 @@ export const bank = {
         ]
       }
     }
+  ],
+  "Kontury państw": [
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Polska",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/pl/512.png",
+      "id": "kontur-f437cb078acc7c6d7987"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Włochy",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/it/512.png",
+      "id": "kontur-6c5522ca8af86fc5069b"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Hiszpania",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/es/512.png",
+      "id": "kontur-09cd68a2a77b22a312dd"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Francja",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/fr/512.png",
+      "id": "kontur-b858a87c07b04c4568f5"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Niemcy",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/de/512.png",
+      "id": "kontur-600ccd1b71569232d01d"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Wielka Brytania",
+      "aliases": [
+        "Zjednoczone Królestwo"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/gb/512.png",
+      "id": "kontur-61fc7bcf04ff146cac10"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Irlandia",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ie/512.png",
+      "id": "kontur-46680a665d08484a2886"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Norwegia",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/no/512.png",
+      "id": "kontur-fd1286353570c5703799"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Szwecja",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/se/512.png",
+      "id": "kontur-00762ccfa703393e0daf"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Finlandia",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/fi/512.png",
+      "id": "kontur-6b163fa3bad47a62474a"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Islandia",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/is/512.png",
+      "id": "kontur-b47f363e2b430c0647f1"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Dania",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/dk/512.png",
+      "id": "kontur-d5658db4705ff5c6ad3f"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Grecja",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/gr/512.png",
+      "id": "kontur-de06109890d26a134f72"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Turcja",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/tr/512.png",
+      "id": "kontur-d9e83874d260f2f10d48"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Ukraina",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ua/512.png",
+      "id": "kontur-1589fe079bb1b8fe3381"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Rosja",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ru/512.png",
+      "id": "kontur-67b8b1c4fedb2e38e2eb"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Japonia",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/jp/512.png",
+      "id": "kontur-0f41a0b3b760b54df703"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Chiny",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/cn/512.png",
+      "id": "kontur-b0bc9abd90e2f7b3bfd6"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Indie",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/in/512.png",
+      "id": "kontur-af10ef20dd9060bbeead"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Australia",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/au/512.png",
+      "id": "kontur-f095160c09b366f6e7cf"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Nowa Zelandia",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/nz/512.png",
+      "id": "kontur-5cea5a51764110bef308"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Stany Zjednoczone",
+      "aliases": [
+        "USA"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/us/512.png",
+      "id": "kontur-da2b128800d4e129def7"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Kanada",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ca/512.png",
+      "id": "kontur-1c42c72cf95aa1b76609"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Meksyk",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/mx/512.png",
+      "id": "kontur-3ab846d50e49eefc7276"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Brazylia",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/br/512.png",
+      "id": "kontur-3eb65786145ecb71e9dc"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Argentyna",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ar/512.png",
+      "id": "kontur-23d8e0156062165ca373"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Chile",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/cl/512.png",
+      "id": "kontur-ef3ecccf258fa062c5c6"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Peru",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/pe/512.png",
+      "id": "kontur-1db828bcd41de75377dc"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Kolumbia",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/co/512.png",
+      "id": "kontur-87dda20416649f2a6a1b"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Wenezuela",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ve/512.png",
+      "id": "kontur-934cff2debe78535b896"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Boliwia",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/bo/512.png",
+      "id": "kontur-dc45fe023482b3b890b5"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Kuba",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/cu/512.png",
+      "id": "kontur-93c30b1a3b78a6cefc99"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Egipt",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/eg/512.png",
+      "id": "kontur-3a1c21a559ed42d6ce17"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Republika Południowej Afryki",
+      "aliases": [
+        "RPA"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/za/512.png",
+      "id": "kontur-85c9baff15217366743d"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Madagaskar",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/mg/512.png",
+      "id": "kontur-191be3715bae070c2198"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Nigeria",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ng/512.png",
+      "id": "kontur-7d65c4e24b8e3736acf9"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Maroko",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ma/512.png",
+      "id": "kontur-1382244e1784be148fb7"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Kenia",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ke/512.png",
+      "id": "kontur-15d5e1d3b948fd5986aa"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Etiopia",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/et/512.png",
+      "id": "kontur-a5bc1d9b2ae74e7a8a24"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Somalia",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/so/512.png",
+      "id": "kontur-cd1b646ebd1f6844c60d"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Arabia Saudyjska",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/sa/512.png",
+      "id": "kontur-3608a6d1a05aba23ea39"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Iran",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ir/512.png",
+      "id": "kontur-aa1553beed5d8173d357"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Irak",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/iq/512.png",
+      "id": "kontur-a07d6616d8e8326ac64e"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Izrael",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/il/512.png",
+      "id": "kontur-53c1d6afa31aaad85a69"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Pakistan",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/pk/512.png",
+      "id": "kontur-6924110cde4fa051bfdc"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Afganistan",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/af/512.png",
+      "id": "kontur-d1e622507595486ee06d"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Wietnam",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/vn/512.png",
+      "id": "kontur-3285442f49f202ac0bcb"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Tajlandia",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/th/512.png",
+      "id": "kontur-fa6af6e97d010a98b5bf"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Indonezja",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/id/512.png",
+      "id": "kontur-87ea5dfc8b8e384d8489"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Filipiny",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ph/512.png",
+      "id": "kontur-8df74dda184c19df19d4"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Korea Południowa",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/kr/512.png",
+      "id": "kontur-faf8d203b3f952d1eba5"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Mongolia",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/mn/512.png",
+      "id": "kontur-78dc0cd3e7ef475d2c3e"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Kazachstan",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/kz/512.png",
+      "id": "kontur-efb215f8f79524f9503c"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Sri Lanka",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/lk/512.png",
+      "id": "kontur-9b20e9ff78b04ea36084"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Nepal",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/np/512.png",
+      "id": "kontur-003fffd5649fc27c0fc0"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Czechy",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/cz/512.png",
+      "id": "kontur-763e59c2e07c2124503b"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Słowacja",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/sk/512.png",
+      "id": "kontur-766a6e8998aefe2117d6"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Węgry",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/hu/512.png",
+      "id": "kontur-06b08b32563194c5d89d"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Austria",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/at/512.png",
+      "id": "kontur-27e90dfa57c358acfaf4"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Szwajcaria",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ch/512.png",
+      "id": "kontur-482bd64c6c9f098c9ef8"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Portugalia",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/pt/512.png",
+      "id": "kontur-bc811258ae9f9fcb0494"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Chorwacja",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/hr/512.png",
+      "id": "kontur-51bd95353aeda6615433"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Rumunia",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ro/512.png",
+      "id": "kontur-eed1903a65fb51375c9a"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Bułgaria",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/bg/512.png",
+      "id": "kontur-80f87c8847da6c872ce2"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Białoruś",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/by/512.png",
+      "id": "kontur-408158643ed564c72fa0"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Belgia",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/be/512.png",
+      "id": "kontur-986b1bc1eb8de89643c5"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Holandia",
+      "aliases": [
+        "Niderlandy"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/nl/512.png",
+      "id": "kontur-595477bd43c386b66363"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Litwa",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/lt/512.png",
+      "id": "kontur-5f3acfbeb4f6fa5007dd"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Estonia",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/ee/512.png",
+      "id": "kontur-1f444844b1ca616009c2"
+    },
+    {
+      "prompt": "Jakie państwo ma taki kształt?",
+      "answer": "Panama",
+      "image": "https://cdn.jsdelivr.net/gh/djaiss/mapsicon@33ba28808f8d32b5bae0ffada9cadd07073852e1/all/pa/512.png",
+      "id": "kontur-379fc0d5299a71ac0f17"
+    }
+  ],
+  "Kosmetyki": [
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Tusz do rzęs – podkreśla, wydłuża i pogrubia rzęsy",
+      "aliases": [
+        "Tusz do rzęs",
+        "Maskara"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Mascara_de_pesta%C3%B1as.jpg/330px-Mascara_de_pesta%C3%B1as.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Mascara_de_pesta%C3%B1as.jpg",
+      "id": "kosmetyk-d7f35abeceb53fdf3ecc"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Eyeliner – rysuje się nim kreskę wzdłuż linii rzęs",
+      "aliases": [
+        "Eyeliner"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Liquid_eye_liner.jpg/330px-Liquid_eye_liner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Liquid_eye_liner.jpg",
+      "id": "kosmetyk-abffedd3f3cfad22f554"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Cienie do powiek – nadają kolor i głębię powiekom",
+      "aliases": [
+        "Cienie do powiek"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Be_a_natural_Eyeshadow_nude_palette_%28HEMA%29%2C_Hillegersberg%2C_Rotterdam_%282023%29_03.jpg/330px-Be_a_natural_Eyeshadow_nude_palette_%28HEMA%29%2C_Hillegersberg%2C_Rotterdam_%282023%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Be_a_natural_Eyeshadow_nude_palette_(HEMA),_Hillegersberg,_Rotterdam_(2023)_03.jpg",
+      "id": "kosmetyk-12258626884b5d12319f"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Pomadka – nadaje ustom kolor",
+      "aliases": [
+        "Pomadka",
+        "Szminka"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/MAC_pink_lipstick_%281%29.jpg/330px-MAC_pink_lipstick_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:MAC_pink_lipstick_(1).jpg",
+      "id": "kosmetyk-0b17b7de02fb20ada9a4"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Błyszczyk – nadaje ustom połysk i lekki kolor",
+      "aliases": [
+        "Błyszczyk"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Lip_Gloss.JPG/330px-Lip_Gloss.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Lip_Gloss.JPG",
+      "id": "kosmetyk-a39b230ee95b4e243000"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Balsam do ust – nawilża i chroni usta przed pękaniem",
+      "aliases": [
+        "Balsam do ust",
+        "Pomadka ochronna"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Labello-Pflegestift.JPG/330px-Labello-Pflegestift.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Labello-Pflegestift.JPG",
+      "id": "kosmetyk-f52667a1ba85066177aa"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Korektor – ukrywa cienie pod oczami i drobne niedoskonałości",
+      "aliases": [
+        "Korektor"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/FitMeConcealer.jpg/330px-FitMeConcealer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:FitMeConcealer.jpg",
+      "id": "kosmetyk-79c7cca7b53fbd4a1402"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Puder – matuje skórę i utrwala makijaż",
+      "aliases": [
+        "Puder"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Compact%2C_powder_%28AM_1995.202.34-2%29.jpg/330px-Compact%2C_powder_%28AM_1995.202.34-2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Compact,_powder_(AM_1995.202.34-2).jpg",
+      "id": "kosmetyk-284df15d050e2f944b4d"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Gąbka do makijażu – służy do rozprowadzania podkładu i korektora",
+      "aliases": [
+        "Gąbka do makijażu",
+        "Beauty blender"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Beauty_sponge.jpg/330px-Beauty_sponge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Beauty_sponge.jpg",
+      "id": "kosmetyk-ef0925ac853c762e9062"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Pędzle do makijażu – służą do nakładania pudru, różu, cieni i innych kosmetyków",
+      "aliases": [
+        "Pędzle do makijażu"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Makeup_weapons_Brushes_.jpg/330px-Makeup_weapons_Brushes_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Makeup_weapons_Brushes_.jpg",
+      "id": "kosmetyk-f05061c25bcf10fcf4be"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Zalotka – podkręca rzęsy",
+      "aliases": [
+        "Zalotka"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Klieste_na_mihalnice.jpg/330px-Klieste_na_mihalnice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Klieste_na_mihalnice.jpg",
+      "id": "kosmetyk-ab38cb1be983d5c3f77a"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Sztuczne rzęsy – przykleja się je, by rzęsy wyglądały na dłuższe i gęstsze",
+      "aliases": [
+        "Sztuczne rzęsy"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fake_Eyelashes.jpg/330px-Fake_Eyelashes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Fake_Eyelashes.jpg",
+      "id": "kosmetyk-b059950e19ca877c7da6"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Lakier do paznokci – nadaje paznokciom kolor i połysk",
+      "aliases": [
+        "Lakier do paznokci"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Creme_nail_polish_in_pink.jpg/330px-Creme_nail_polish_in_pink.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Creme_nail_polish_in_pink.jpg",
+      "id": "kosmetyk-3dc93f9567bd9efbca8f"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Pilnik do paznokci – skraca i wyrównuje krawędź paznokci",
+      "aliases": [
+        "Pilnik do paznokci"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Nagelfeile_%28fcm%29.jpg/330px-Nagelfeile_%28fcm%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Nagelfeile_(fcm).jpg",
+      "id": "kosmetyk-b9aa240a133cacf26255"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Krem do rąk – nawilża i regeneruje skórę dłoni",
+      "aliases": [
+        "Krem do rąk"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Eucerin_hand_cream.jpg/330px-Eucerin_hand_cream.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Eucerin_hand_cream.jpg",
+      "id": "kosmetyk-0de1e82bdb647f750689"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Krem z filtrem – chroni skórę przed promieniowaniem UV",
+      "aliases": [
+        "Krem z filtrem",
+        "Filtr przeciwsłoneczny"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/LRP_sunscreen_bottle.jpg/330px-LRP_sunscreen_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:LRP_sunscreen_bottle.jpg",
+      "id": "kosmetyk-dae9d91092159c443e2f"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Waciki kosmetyczne – służą do demakijażu i nakładania toniku",
+      "aliases": [
+        "Waciki kosmetyczne"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Cotton_pads_-_%CE%94%CE%AF%CF%83%CE%BA%CE%BF%CE%B9_%CE%BD%CF%84%CE%B5%CE%BC%CE%B1%CE%BA%CE%B9%CE%B3%CE%B9%CE%AC%CE%B6.JPG/330px-Cotton_pads_-_%CE%94%CE%AF%CF%83%CE%BA%CE%BF%CE%B9_%CE%BD%CF%84%CE%B5%CE%BC%CE%B1%CE%BA%CE%B9%CE%B3%CE%B9%CE%AC%CE%B6.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Cotton_pads_-_%CE%94%CE%AF%CF%83%CE%BA%CE%BF%CE%B9_%CE%BD%CF%84%CE%B5%CE%BC%CE%B1%CE%BA%CE%B9%CE%B3%CE%B9%CE%AC%CE%B6.JPG",
+      "id": "kosmetyk-2eedcba0409bcda52dbe"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Dezodorant w sztyfcie – neutralizuje zapach potu",
+      "aliases": [
+        "Dezodorant w sztyfcie",
+        "Dezodorant"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Deodorant_stick_%28front_label%29.jpg/330px-Deodorant_stick_%28front_label%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Deodorant_stick_(front_label).jpg",
+      "id": "kosmetyk-aa3d573eb12f623eeedc"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Antyperspirant w sprayu – ogranicza pocenie się",
+      "aliases": [
+        "Antyperspirant w sprayu",
+        "Antyperspirant"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Dove_antiperspirant.jpg/330px-Dove_antiperspirant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Dove_antiperspirant.jpg",
+      "id": "kosmetyk-2f2f8dd3a7bdd911499e"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Perfumy – nadają ciału trwały zapach",
+      "aliases": [
+        "Perfumy",
+        "Atomizer"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Perfume_set_from_Sovjetunio_cca_1965.jpg/330px-Perfume_set_from_Sovjetunio_cca_1965.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Perfume_set_from_Sovjetunio_cca_1965.jpg",
+      "id": "kosmetyk-17e6b122bee532f13973"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Szampon – myje włosy i skórę głowy",
+      "aliases": [
+        "Szampon"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Dove_shampoo_bottle.jpg/330px-Dove_shampoo_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Dove_shampoo_bottle.jpg",
+      "id": "kosmetyk-a428767885e81501509a"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Lakier do włosów – utrwala fryzurę",
+      "aliases": [
+        "Lakier do włosów"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Aqua_net_can.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "https://commons.wikimedia.org/wiki/File:Aqua_net_can.jpg",
+      "id": "kosmetyk-63b244ffaf15fab66e1a"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Pianka do golenia – zmiękcza zarost i ułatwia golenie",
+      "aliases": [
+        "Pianka do golenia"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Shaving_Cream_-_Gillette_%2851013604097%29.jpg/330px-Shaving_Cream_-_Gillette_%2851013604097%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Shaving_Cream_-_Gillette_(51013604097).jpg",
+      "id": "kosmetyk-c45d188d9334ccd18c28"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Woda po goleniu – łagodzi podrażnienia i odkaża skórę po goleniu",
+      "aliases": [
+        "Woda po goleniu"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Pitralon_Pre-Shave_Aftershave_2017.jpg/330px-Pitralon_Pre-Shave_Aftershave_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Pitralon_Pre-Shave_Aftershave_2017.jpg",
+      "id": "kosmetyk-69f4b97ce497af3a104d"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Maszynka do golenia – służy do golenia zarostu",
+      "aliases": [
+        "Maszynka do golenia",
+        "Żyletka"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Parker-76R_Safety_Razor.jpg/330px-Parker-76R_Safety_Razor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Parker-76R_Safety_Razor.jpg",
+      "id": "kosmetyk-eac27e697df0b1016d93"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Mydło – myje skórę",
+      "aliases": [
+        "Mydło"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Bars_of_pure_Marseille_and_Aleppo_soap%2C_2024.jpg/330px-Bars_of_pure_Marseille_and_Aleppo_soap%2C_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Bars_of_pure_Marseille_and_Aleppo_soap,_2024.jpg",
+      "id": "kosmetyk-3d92ea98c3c5e2153ce9"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Kula do kąpieli – rozpuszcza się w wannie, barwiąc i perfumując wodę",
+      "aliases": [
+        "Kula do kąpieli"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Bath_Bombs_-_Lush_Cosmetics_%2851333340003%29.jpg/330px-Bath_Bombs_-_Lush_Cosmetics_%2851333340003%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Bath_Bombs_-_Lush_Cosmetics_(51333340003).jpg",
+      "id": "kosmetyk-8cda38162ede19b0ad36"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Pasta do zębów – czyści zęby i chroni je przed próchnicą",
+      "aliases": [
+        "Pasta do zębów"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Vitis_Dentaid_toothpaste_tube%2C_Hillegersberg%2C_Rotterdam_%282021%29_01.jpg/330px-Vitis_Dentaid_toothpaste_tube%2C_Hillegersberg%2C_Rotterdam_%282021%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Vitis_Dentaid_toothpaste_tube,_Hillegersberg,_Rotterdam_(2021)_01.jpg",
+      "id": "kosmetyk-a392116b15c17e9292a6"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Płyn do płukania jamy ustnej – odświeża oddech i ogranicza bakterie w jamie ustnej",
+      "aliases": [
+        "Płyn do płukania jamy ustnej"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Mouthwash_R.O.C.S._2023_Russia.png/330px-Mouthwash_R.O.C.S._2023_Russia.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Mouthwash_R.O.C.S._2023_Russia.png",
+      "id": "kosmetyk-45cee5c69d52e12f0d6c"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Gąbka luffa – złuszcza i masuje skórę podczas kąpieli",
+      "aliases": [
+        "Gąbka luffa",
+        "Luffa"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Luffa_sponges_spelled_loofah.jpg/330px-Luffa_sponges_spelled_loofah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Luffa_sponges_spelled_loofah.jpg",
+      "id": "kosmetyk-ef935ac81031258c5769"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Pumeks – ściera zrogowaciały naskórek, np. na piętach",
+      "aliases": [
+        "Pumeks"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Pumice_Stone.jpg/330px-Pumice_Stone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Pumice_Stone.jpg",
+      "id": "kosmetyk-7d0e0c20ea8677411a79"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Szczotka do włosów – rozczesuje i układa włosy",
+      "aliases": [
+        "Szczotka do włosów"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Hairbrush_with_metal_bristles.jpg/330px-Hairbrush_with_metal_bristles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Hairbrush_with_metal_bristles.jpg",
+      "id": "kosmetyk-c86778da3900e9dce113"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Pęseta – wyskubuje się nią włoski, np. z brwi",
+      "aliases": [
+        "Pęseta"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Eyebrow_twissers_-_%CE%A4%CF%83%CE%B9%CE%BC%CF%80%CE%B9%CE%B4%CE%AC%CE%BA%CE%B9_%CF%86%CF%81%CF%85%CE%B4%CE%B9%CF%8E%CE%BD.JPG/330px-Eyebrow_twissers_-_%CE%A4%CF%83%CE%B9%CE%BC%CF%80%CE%B9%CE%B4%CE%AC%CE%BA%CE%B9_%CF%86%CF%81%CF%85%CE%B4%CE%B9%CF%8E%CE%BD.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Eyebrow_twissers_-_%CE%A4%CF%83%CE%B9%CE%BC%CF%80%CE%B9%CE%B4%CE%AC%CE%BA%CE%B9_%CF%86%CF%81%CF%85%CE%B4%CE%B9%CF%8E%CE%BD.JPG",
+      "id": "kosmetyk-90db1070b0c551156875"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Cążki do paznokci – obcina się nimi paznokcie",
+      "aliases": [
+        "Cążki do paznokci",
+        "Obcinacz do paznokci"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Nail_Clippers_%2848008082723%29.jpg/330px-Nail_Clippers_%2848008082723%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Nail_Clippers_(48008082723).jpg",
+      "id": "kosmetyk-9a4bbd54ac556606828c"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Podkład – wyrównuje koloryt skóry twarzy",
+      "aliases": [
+        "Podkład"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/%EC%8B%9C%EA%B7%B8%EB%84%88%EC%B2%98_%ED%8C%8C%EC%9A%B4%EB%8D%B0%EC%9D%B4%EC%85%98.jpg/330px-%EC%8B%9C%EA%B7%B8%EB%84%88%EC%B2%98_%ED%8C%8C%EC%9A%B4%EB%8D%B0%EC%9D%B4%EC%85%98.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:%EC%8B%9C%EA%B7%B8%EB%84%88%EC%B2%98_%ED%8C%8C%EC%9A%B4%EB%8D%B0%EC%9D%B4%EC%85%98.jpg",
+      "id": "kosmetyk-37652784dfcb222b4a0a"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Róż do policzków – dodaje policzkom koloru",
+      "aliases": [
+        "Róż do policzków",
+        "Róż"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/MAC_sheertone_blush_dollymix_2014-02-22_00-44.jpg/330px-MAC_sheertone_blush_dollymix_2014-02-22_00-44.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:MAC_sheertone_blush_dollymix_2014-02-22_00-44.jpg",
+      "id": "kosmetyk-97ff981ca833d25b005d"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Grzebień – rozczesuje i rozdziela włosy",
+      "aliases": [
+        "Grzebień"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Plastic_comb%2C_2015-06-07.jpg/330px-Plastic_comb%2C_2015-06-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Plastic_comb,_2015-06-07.jpg",
+      "id": "kosmetyk-56334960a214a17e8b8c"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Suszarka do włosów – suszy włosy ciepłym powietrzem",
+      "aliases": [
+        "Suszarka do włosów"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/HITACHI_HAIR_DRYER_HD-1650.jpg/330px-HITACHI_HAIR_DRYER_HD-1650.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:HITACHI_HAIR_DRYER_HD-1650.jpg",
+      "id": "kosmetyk-0deee29757396d2d7a44"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Prostownica – prostuje włosy rozgrzanymi płytkami",
+      "aliases": [
+        "Prostownica"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Hair_straightener_TTH2510_by_Tescom_%282015-09-19%29.JPG/330px-Hair_straightener_TTH2510_by_Tescom_%282015-09-19%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Hair_straightener_TTH2510_by_Tescom_(2015-09-19).JPG",
+      "id": "kosmetyk-8df81ca537f251408d3f"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Lokówka – kręci włosy w loki",
+      "aliases": [
+        "Lokówka"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Curling_iron_unbranded.jpg/330px-Curling_iron_unbranded.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Curling_iron_unbranded.jpg",
+      "id": "kosmetyk-33a32eecb6481568222a"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Patyczki kosmetyczne – służą do precyzyjnych poprawek makijażu i higieny",
+      "aliases": [
+        "Patyczki kosmetyczne",
+        "Patyczki higieniczne"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Cotton_swab%2C_package_and_swabs.jpg/330px-Cotton_swab%2C_package_and_swabs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Cotton_swab,_package_and_swabs.jpg",
+      "id": "kosmetyk-c79e70eed9aecf344444"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Nożyczki do paznokci – obcina się nimi paznokcie i skórki",
+      "aliases": [
+        "Nożyczki do paznokci"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Nagelschere.jpg/330px-Nagelschere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Nagelschere.jpg",
+      "id": "kosmetyk-c829b21cbcfddab14901"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Szczoteczka do zębów – służy do mycia zębów",
+      "aliases": [
+        "Szczoteczka do zębów"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Toothbrush_x3_20050716_002.jpg/330px-Toothbrush_x3_20050716_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Toothbrush_x3_20050716_002.jpg",
+      "id": "kosmetyk-8f63bc73269249a8d14a"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Nić dentystyczna – czyści przestrzenie między zębami",
+      "aliases": [
+        "Nić dentystyczna"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Dental_floss_%28whole%29.jpg/330px-Dental_floss_%28whole%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Dental_floss_(whole).jpg",
+      "id": "kosmetyk-dd41c68f1eb1cafb4317"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Pędzel do golenia – spienia krem do golenia i nakłada go na zarost",
+      "aliases": [
+        "Pędzel do golenia"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Shaving-Brush.jpg/330px-Shaving-Brush.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Shaving-Brush.jpg",
+      "id": "kosmetyk-41f4be2d9af861817609"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Golarka elektryczna – goli zarost bez wody i pianki",
+      "aliases": [
+        "Golarka elektryczna"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/2023_Golarka_Philips.jpg/330px-2023_Golarka_Philips.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:2023_Golarka_Philips.jpg",
+      "id": "kosmetyk-00b2975a86b38c92108d"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Maszynka do strzyżenia – strzyże włosy na krótko",
+      "aliases": [
+        "Maszynka do strzyżenia",
+        "Trymer"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/HITACHI_CL-8300.jpg/330px-HITACHI_CL-8300.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:HITACHI_CL-8300.jpg",
+      "id": "kosmetyk-844399d637f8a6d27c17"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Depilator – usuwa włoski razem z cebulkami",
+      "aliases": [
+        "Depilator"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Epileertoestel.JPG/330px-Epileertoestel.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Epileertoestel.JPG",
+      "id": "kosmetyk-e02c08d8a11f4f7d7023"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Wałki do włosów – nadają włosom skręt i objętość",
+      "aliases": [
+        "Wałki do włosów",
+        "Wałki"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Curler_2005.jpg/330px-Curler_2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Curler_2005.jpg",
+      "id": "kosmetyk-411e4a01c6356ced3811"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Gumka do włosów – związuje włosy",
+      "aliases": [
+        "Gumka do włosów",
+        "Scrunchie",
+        "Frotka"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Chouchou.jpg/330px-Chouchou.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Chouchou.jpg",
+      "id": "kosmetyk-0f748c5195a2741e7c22"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Wsuwka – przypina kosmyki włosów",
+      "aliases": [
+        "Wsuwka",
+        "Spinka"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Bobby_pin.jpg/330px-Bobby_pin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Bobby_pin.jpg",
+      "id": "kosmetyk-c99650e0ac99de0a0401"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Żel pod prysznic – myje ciało pod prysznicem",
+      "aliases": [
+        "Żel pod prysznic"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Care_lime_shower_gel_%282019%29_01.jpg/330px-Care_lime_shower_gel_%282019%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Care_lime_shower_gel_(2019)_01.jpg",
+      "id": "kosmetyk-7b4d46f67ef5a4f2c180"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Talk – osusza skórę i zapobiega otarciom",
+      "aliases": [
+        "Talk",
+        "Zasypka"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/4711_Talcum_Puder_BW_2025-07-05_17-49-38.jpg/330px-4711_Talcum_Puder_BW_2025-07-05_17-49-38.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:4711_Talcum_Puder_BW_2025-07-05_17-49-38.jpg",
+      "id": "kosmetyk-4e6a710d7f8571d8af57"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Wazelina – natłuszcza i chroni suchą skórę",
+      "aliases": [
+        "Wazelina"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Bo%C3%AEte_de_vaseline_britannique%2C_1996.180%283%29.jpg/330px-Bo%C3%AEte_de_vaseline_britannique%2C_1996.180%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Bo%C3%AEte_de_vaseline_britannique,_1996.180(3).jpg",
+      "id": "kosmetyk-f2d602e8d0ea5786704b"
+    },
+    {
+      "prompt": "Co to jest i do czego służy?",
+      "answer": "Polerka do paznokci – wygładza i nabłyszcza płytkę paznokcia",
+      "aliases": [
+        "Polerka do paznokci"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Nail_Buffer.jpg/330px-Nail_Buffer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://commons.wikimedia.org/wiki/File:Nail_Buffer.jpg",
+      "id": "kosmetyk-accd9e74d4f81a5a5930"
+    },
+    {
+      "prompt": "Co oznacza skrót SPF na kosmetykach?",
+      "answer": "Współczynnik ochrony przed promieniowaniem UVB",
+      "aliases": [
+        "Sun Protection Factor",
+        "Filtr przeciwsłoneczny"
+      ],
+      "id": "kosmetyk-7744e7f7fcce2c5ff216"
+    },
+    {
+      "prompt": "Czym różni się antyperspirant od dezodorantu?",
+      "answer": "Antyperspirant ogranicza pocenie się, dezodorant tylko neutralizuje zapach",
+      "id": "kosmetyk-93650d1101c8ae28945a"
+    },
+    {
+      "prompt": "Jak nazywa się kosmetyk nakładany przed podkładem, który wygładza skórę i przedłuża trwałość makijażu?",
+      "answer": "Baza pod makijaż",
+      "aliases": [
+        "Primer"
+      ],
+      "id": "kosmetyk-2a3c6f677b8c023f537d"
+    },
+    {
+      "prompt": "Jak nazywa się płyn do demakijażu, którego cząsteczki „przyciągają” brud jak magnes?",
+      "answer": "Płyn micelarny",
+      "id": "kosmetyk-8eae4615db30589b9062"
+    },
+    {
+      "prompt": "Jaka roślina daje naturalny rudobrązowy barwnik do włosów i brwi?",
+      "answer": "Henna",
+      "aliases": [
+        "Lawsonia"
+      ],
+      "id": "kosmetyk-e5d1b675c0f0a741af51"
+    }
+  ],
+  "Polskie memy": [
+    {
+      "prompt": "Z jakiego filmu pochodzi cytat „Nie mamy pańskiego płaszcza i co nam pan zrobi?”",
+      "answer": "Miś",
+      "id": "mem-06f4faf6950d6aaeee7a"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi przyśpiewka „Łubu dubu, łubu dubu, niech żyje nam prezes naszego klubu!”?",
+      "answer": "Miś",
+      "id": "mem-c8b8f90adeecdd229b07"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi okrzyk „Ciemność, widzę ciemność!”?",
+      "answer": "Seksmisja",
+      "id": "mem-fa9173fca72c9d1e2021"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi zdanie „Kopernik była kobietą!”?",
+      "answer": "Seksmisja",
+      "id": "mem-cdc37b363604ddc0f2ec"
+    },
+    {
+      "prompt": "Który bohater „Dnia świra” mówi: „Moja racja jest najmojsza”?",
+      "answer": "Adaś Miauczyński",
+      "aliases": [
+        "Miauczyński"
+      ],
+      "id": "mem-c7f011017fa010507e9c"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi cytat „Bo to zła kobieta była”?",
+      "answer": "Psy",
+      "id": "mem-42ca6d4883b2d75a9d24"
+    },
+    {
+      "prompt": "Z którego filmu pochodzi kultowy w polskim dubbingu monolog „Jak to jest być skrybą, dobrze?”",
+      "answer": "Asterix i Obelix: Misja Kleopatra",
+      "aliases": [
+        "Misja Kleopatra"
+      ],
+      "id": "mem-2c32cadde65b35bcbc98"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi pytanie „Co ty wiesz o zabijaniu?”",
+      "answer": "Chłopaki nie płaczą",
+      "id": "mem-907a550013c92c40cc36"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi zdanie „Podobają mi się melodie, które już raz słyszałem”?",
+      "answer": "Rejs",
+      "id": "mem-4bc952175f8ba1b5a383"
+    },
+    {
+      "prompt": "Kto w 2014 roku powiedział „Sorry, taki mamy klimat”?",
+      "answer": "Elżbieta Bieńkowska",
+      "aliases": [
+        "Bieńkowska"
+      ],
+      "id": "mem-a6d1b81aad47b08ad2ee"
+    },
+    {
+      "prompt": "Który polityk jest autorem powiedzenia „Nie chcem, ale muszem”?",
+      "answer": "Lech Wałęsa",
+      "aliases": [
+        "Wałęsa"
+      ],
+      "id": "mem-66a1c97f46b0957d0bd8"
+    },
+    {
+      "prompt": "Do którego premiera skierowano w 2011 roku słynne pytanie „Jak żyć, panie premierze?”?",
+      "answer": "Donald Tusk",
+      "aliases": [
+        "Tusk"
+      ],
+      "id": "mem-76b569942c957f3ae286"
+    },
+    {
+      "prompt": "Jakie zwierzę – małpa z wielkim nosem – w memach uosabia „typowego Janusza”?",
+      "answer": "Nosacz sundajski",
+      "aliases": [
+        "Nosacz"
+      ],
+      "id": "mem-916ca20e47d97c75e627"
+    },
+    {
+      "prompt": "Jakie imię nosi w memach typowy wąsaty Polak w sandałach i skarpetach?",
+      "answer": "Janusz",
+      "id": "mem-0453deec7f094014431c"
+    },
+    {
+      "prompt": "Jak w memach ma na imię żona Janusza?",
+      "answer": "Grażyna",
+      "id": "mem-f0edde8c5080b1ed8d40"
+    },
+    {
+      "prompt": "Jak nazywa się szef-wyzyskiwacz z memów, który mówi „Panie Areczku, nie ma «nie da się»”?",
+      "answer": "Janusz biznesu",
+      "id": "mem-64bdce7ad80ffd32aea5"
+    },
+    {
+      "prompt": "Jak ma na imię pracownik, któremu Janusz biznesu mówi „nie płaczemy, pracujemy”?",
+      "answer": "Areczek",
+      "id": "mem-fc747d2a597d49c5f7a4"
+    },
+    {
+      "prompt": "Która godzina jest w polskim internecie memiczną „godziną papieską”?",
+      "answer": "21:37",
+      "aliases": [
+        "2137"
+      ],
+      "id": "mem-2b9aa601a54f5b9fa38d"
+    },
+    {
+      "prompt": "Jakie ciastko z Wadowic stało się bohaterem memów o papieżu?",
+      "answer": "Kremówka",
+      "aliases": [
+        "Kremówka papieska"
+      ],
+      "id": "mem-73938995ef65ce025859"
+    },
+    {
+      "prompt": "Z jakiego komiksowego memu z kulistymi państwami pochodzi hasło „Poland cannot into space”?",
+      "answer": "Polandball",
+      "aliases": [
+        "Countryballs"
+      ],
+      "id": "mem-f60080b658d7dc786420"
+    },
+    {
+      "prompt": "Jakie zwierzę jest bohaterem polskiego memu, w którym zaskoczony mężczyzna krzyczy na jego widok w lesie?",
+      "answer": "Bóbr",
+      "id": "mem-53d82e90f5dd1fb3247e"
+    },
+    {
+      "prompt": "Czego dotyczy mem „Niemiec płakał, jak sprzedawał”?",
+      "answer": "Używanych samochodów sprowadzanych z Niemiec",
+      "aliases": [
+        "Samochodu",
+        "Auta"
+      ],
+      "id": "mem-2a1ea10544a548001f5f"
+    },
+    {
+      "prompt": "Jakie warzywo symbolizuje w memach skąpstwo i kombinatorstwo?",
+      "answer": "Cebula",
+      "id": "mem-1776ef7945e6570a52c2"
+    },
+    {
+      "prompt": "Majonez którego producenta toczy w polskim internecie odwieczny spór z Winiary?",
+      "answer": "Kielecki",
+      "aliases": [
+        "Majonez Kielecki"
+      ],
+      "id": "mem-cb9d549b1d4db115bfdf"
+    },
+    {
+      "prompt": "Jak w memach nazywa się typowy chłopak w dresie?",
+      "answer": "Seba",
+      "aliases": [
+        "Sebix"
+      ],
+      "id": "mem-732e7764e95020652fae"
+    },
+    {
+      "prompt": "Jak w memach nazywa się dziewczyna Seby?",
+      "answer": "Karyna",
+      "id": "mem-74b77b2fd7ccc74139c8"
+    },
+    {
+      "prompt": "Z jakiego serialu pochodzi Ferdynand Kiepski?",
+      "answer": "Świat według Kiepskich",
+      "aliases": [
+        "Kiepscy"
+      ],
+      "id": "mem-448d92e7cd164931469e"
+    },
+    {
+      "prompt": "Jak nazywa się sąsiad Kiepskich, który handluje na bazarze?",
+      "answer": "Marian Paździoch",
+      "aliases": [
+        "Paździoch"
+      ],
+      "id": "mem-8080a7c64a24ea2858bf"
+    },
+    {
+      "prompt": "Jak ma na imię żona Ferdka Kiepskiego?",
+      "answer": "Halina",
+      "aliases": [
+        "Halinka"
+      ],
+      "id": "mem-3fa10477433659d1753a"
+    },
+    {
+      "prompt": "Jak ma na imię tytułowy bohater „Kilera” – taksówkarz wzięty za płatnego zabójcę?",
+      "answer": "Jurek",
+      "aliases": [
+        "Jerzy",
+        "Jerzy Kiler"
+      ],
+      "id": "mem-8b3d8b58248b55f19398"
+    },
+    {
+      "prompt": "Jak nazywa się polski serial animowany dla dorosłych o kosmicznym kapitanie i jego załodze?",
+      "answer": "Kapitan Bomba",
+      "id": "mem-4149112993e1d2495d61"
+    },
+    {
+      "prompt": "Jakie słowo wygrało plebiscyt Młodzieżowe Słowo Roku 2016? Oznacza coś świetnego.",
+      "answer": "Sztos",
+      "id": "mem-adff9fdb61e6c5b6093c"
+    },
+    {
+      "prompt": "Jakie dwuliterowe „słowo” śmiechu wygrało Młodzieżowe Słowo Roku 2017?",
+      "answer": "XD",
+      "id": "mem-fdf26d69111e7cc37ac9"
+    },
+    {
+      "prompt": "Jakie słowo, oznaczające głupka, wygrało Młodzieżowe Słowo Roku 2018?",
+      "answer": "Dzban",
+      "id": "mem-34a6df5f1c6959447910"
+    },
+    {
+      "prompt": "Jakie słowo, oznaczające dziewczynę o alternatywnym stylu, wygrało Młodzieżowe Słowo Roku 2019?",
+      "answer": "Alternatywka",
+      "id": "mem-f78ff1d484de39318e25"
+    },
+    {
+      "prompt": "Jakie słowo wygrało Młodzieżowe Słowo Roku 2021?",
+      "answer": "Śpiulkolot",
+      "id": "mem-1ce309a1fcd72888e2af"
+    },
+    {
+      "prompt": "Jaki okrzyk zadowolenia wygrał Młodzieżowe Słowo Roku 2022?",
+      "answer": "Essa",
+      "id": "mem-97ccbb63b4226556e7be"
+    },
+    {
+      "prompt": "Jakie słowo, oznaczające „utożsamiam się z tym”, wygrało Młodzieżowe Słowo Roku 2023?",
+      "answer": "Rel",
+      "id": "mem-b37aa058c2808fa708e8"
+    },
+    {
+      "prompt": "Jakie słowo wygrało Młodzieżowe Słowo Roku 2024?",
+      "answer": "Sigma",
+      "id": "mem-e6fefdec56b275050e3b"
+    },
+    {
+      "prompt": "Czyja piosenka „Ale to już było” stała się nieśmiertelnym memem?",
+      "answer": "Maryla Rodowicz",
+      "aliases": [
+        "Rodowicz"
+      ],
+      "id": "mem-a076bdad4509489a4555"
+    },
+    {
+      "prompt": "Jaki zespół disco polo nagrał w 2012 roku przebój „Ona tańczy dla mnie”?",
+      "answer": "Weekend",
+      "id": "mem-0c41a7609251ab705550"
+    },
+    {
+      "prompt": "Z polskiej wersji jakiego filmu pochodzi piosenka „Mam tę moc”?",
+      "answer": "Kraina lodu",
+      "id": "mem-36f76b452b6be098d9af"
+    },
+    {
+      "prompt": "Który prezenter jest w memach „człowiekiem, który się nie starzeje”?",
+      "answer": "Krzysztof Ibisz",
+      "aliases": [
+        "Ibisz"
+      ],
+      "id": "mem-7a9bb46be5e91c505eeb"
+    },
+    {
+      "prompt": "Jakie słowo Geralt wykrzykuje w polskim dubbingu „Wiedźmina”, często używane jako mem?",
+      "answer": "Zaraza",
+      "id": "mem-a1b178db1706ae67ec53"
+    },
+    {
+      "prompt": "Który kucharz-podróżnik słynie w memach z erudycyjnych opowieści o czasach Austro-Węgier?",
+      "answer": "Robert Makłowicz",
+      "aliases": [
+        "Makłowicz"
+      ],
+      "id": "mem-99db4dec472f4eebd246"
+    },
+    {
+      "prompt": "Jakiej sieci sklepów z zielonym logo żaby dotyczą memy o hot-dogach na każdym rogu?",
+      "answer": "Żabka",
+      "id": "mem-99546e5b7a5a426c2f43"
+    },
+    {
+      "prompt": "Jak nazywa się ksiądz-detektyw jeżdżący na rowerze po Sandomierzu w serialu TVP?",
+      "answer": "Ojciec Mateusz",
+      "id": "mem-248d7419a4fd136beb29"
+    },
+    {
+      "prompt": "Jakim słowem pogardliwie określano w internecie ucznia gimnazjum?",
+      "answer": "Gimbus",
+      "aliases": [
+        "Gimbaza"
+      ],
+      "id": "mem-23f8a073fb3eab23a501"
+    },
+    {
+      "prompt": "Jak nazywa się polski serwis z obrazkami-memami z czarną ramką i ironicznym podpisem?",
+      "answer": "Demotywatory",
+      "id": "mem-533742e360345647f0ad"
+    },
+    {
+      "prompt": "Jak nazywa się popularny polski serwis z memami, którego nazwa brzmi jak odgłos kaczki?",
+      "answer": "Kwejk",
+      "id": "mem-b2a67dc6562ddc786b99"
+    },
+    {
+      "prompt": "Jak nazywał się pies z serialu „Czterej pancerni i pies”?",
+      "answer": "Szarik",
+      "id": "mem-030cf11e95880fd19153"
+    },
+    {
+      "prompt": "Z utworu którego zespołu pochodzi wers „Jestem Bogiem, uświadom to sobie”?",
+      "answer": "Paktofonika",
+      "id": "mem-c9c608ae985e61e75488"
+    },
+    {
+      "prompt": "W jakim serialu bohaterowie mieszkają we wsi Wilkowyje?",
+      "answer": "Ranczo",
+      "id": "mem-eab6276292797800afa3"
+    },
+    {
+      "prompt": "Jak w memach nazywa się osobę, która przeprowadziła się do Warszawy i wozi jedzenie od mamy?",
+      "answer": "Słoik",
+      "id": "mem-b45cf62431eb14492b21"
+    },
+    {
+      "prompt": "Jak żartobliwie nazywa się warszawską dzielnicę biurowców wokół ulicy Domaniewskiej?",
+      "answer": "Mordor",
+      "aliases": [
+        "Mordor na Domaniewskiej"
+      ],
+      "id": "mem-d838b37030093c6e9f25"
+    },
+    {
+      "prompt": "Jak żartobliwie nazywa się Pałac Kultury i Nauki od jego skrótu PKiN?",
+      "answer": "Pekin",
+      "id": "mem-d6badaa6b19fb7abe126"
+    },
+    {
+      "prompt": "Jak nazywa się w internecie długi tekst kopiowany i wklejany jako żart?",
+      "answer": "Pasta",
+      "aliases": [
+        "Copypasta"
+      ],
+      "id": "mem-6ff710db9acb8eed2262"
+    },
+    {
+      "prompt": "Jak kończy się początek słynnej internetowej pasty: „Mój stary to fanatyk…”?",
+      "answer": "wędkarstwa",
+      "aliases": [
+        "Wędkarstwa"
+      ],
+      "id": "mem-46f24300997d6394713b"
+    },
+    {
+      "prompt": "Który zespół disco polo śpiewa „Przez twe oczy zielone”?",
+      "answer": "Akcent",
+      "id": "mem-95949073b2929be49013"
+    },
+    {
+      "prompt": "Jak ma na imię lider zespołu Akcent, zwany królem disco polo?",
+      "answer": "Zenek",
+      "aliases": [
+        "Zenon",
+        "Zenek Martyniuk"
+      ],
+      "id": "mem-6472eda89f0694ed92f6"
+    }
   ]
 };

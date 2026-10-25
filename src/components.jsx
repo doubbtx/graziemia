@@ -46,6 +46,9 @@ const categoryEmojis = {
   'herby pilkarskie': '🛡️',
   'rozsypane litery': '🔀',
   'co to za pilkarz?': '⚽',
+  'kontury panstw': '🗺️',
+  kosmetyki: '💄',
+  'polskie memy': '😂',
 };
 
 export function getCategoryEmoji(category) {
