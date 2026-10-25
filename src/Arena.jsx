@@ -446,6 +446,16 @@ export default function Arena() {
     <p><kbd>→</kbd> zalicza · <kbd>P</kbd> pomija · <kbd>Spacja</kbd> pauza · <kbd>Z</kbd> cofnij</p>
   </section>;
 
+  // Decode the pre-drawn next question's image in the background; only this one bitmap is kept alive.
+  const nextImage = useRef(null);
+  useEffect(() => {
+    if (!d?.nextImage) return;
+    const image = new Image();
+    image.decoding = 'async'; image.referrerPolicy = 'no-referrer'; image.src = mediaUrl(d.nextImage);
+    image.decode().catch(() => {});
+    nextImage.current = image;
+  }, [d?.nextImage]);
+
   // The question panel keeps the tallest height reached in the current duel, so the page does not jump up
   // when a question with an image is followed by one without (or an image is still loading).
   const duelId = d ? d.ids.join('|') + ':' + room.round : '';

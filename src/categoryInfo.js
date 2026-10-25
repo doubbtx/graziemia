@@ -61,7 +61,7 @@ const info = {
   'Soundtrack': 'Leci muzyka z serialu, filmu albo gry – zgadnij, skąd pochodzi. Zegar rusza razem z muzyką.',
   'Przybliżenie': 'Zdjęcie startuje mocno przybliżone i cały czas się oddala – zgadnij, co to jest, zanim zobaczysz całość.',
   'Popularne piosenki': 'Leci fragment aktualnego hitu z list Apple Music (rap, pop, dance, rock) – wystarczy wykonawca albo tytuł.',
-  'Dokończ tekst': 'Podany jest początek znanej polskiej piosenki – dokończ kolejne słowa. Przeboje, biesiadne, ludowe, dziecięce i kolędy.',
+  'Dokończ tekst': 'Leci znana polska piosenka, a na ekranie jest początek jej tekstu – dokończ kolejne słowa. Przeboje, biesiadne, ludowe, dziecięce i kolędy.',
   'Co to za dzień?': 'Podana jest data – powiedz, jakie święto lub dzień obchodzimy. Gdy tego dnia jest kilka świąt, wystarczy jedno z nich.',
 };
 // Categories where every question offers a fixed set of options.

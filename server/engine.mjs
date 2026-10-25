@@ -10,7 +10,11 @@ const current=r=>r.duel?bank[r.duel.category]?.[r.duel.index]:null;
 // A report is either a list of failed images (whole bank preloaded) or {categories, failed} for category-scoped preloading.
 const hasPreloaded=(report,d,q)=>Array.isArray(report)?!report.includes(q.image):!!report&&report.categories.includes(d.category)&&!report.failed.includes(q.image);
 function skipPreloadedMedia(r,now){const d=r.duel,q=current(r);if(d?.status!=='media'||!q?.image)return false;const ready=[...d.ids,d.adminId].every(id=>hasPreloaded(r.mediaPreload?.[id],d,q));if(!ready)return false;d.status='running';d.lastAt=now;d.mediaReady=[...d.ids,d.adminId];d.mediaDeadline=null;return true;}
-function observe(r,now){r.questionRulesVersion=13;r.questionReports=r.questionReports||[];const d=r.duel;if(!d)return;skipPreloadedMedia(r,now);if(d.status==='media'){if(!Number.isFinite(d.mediaDeadline))d.mediaDeadline=now+mediaReadyTimeout;}else d.mediaDeadline=null;if(d.v12Key!==d.key){d.v12Key=d.key;d.v12Since=d.status==='running'?now:null;d.v12Level=0;d.v12Seen=d.v12Seen||[];if(!d.v12Seen.includes(d.index))d.v12Seen.push(d.index);}else if(d.status==='running'&&!Number.isFinite(d.v12Since))d.v12Since=now;else if(d.status!=='running')d.v12Since=null;}
+// The next question of a duel is drawn in advance, so clients can decode its image before the judge's decision.
+function pickUpcoming(r){const d=r.duel;if(!d||d.index<0)return;const used=r.used?.[d.category]||[];if(Number.isInteger(d.upcoming)&&d.upcomingCategory===d.category&&d.upcoming!==d.index&&!used.includes(d.upcoming))return;const free=(bank[d.category]||[]).map((_,i)=>i).filter(i=>i!==d.index&&!used.includes(i));d.upcoming=free.length?free[randomInt(free.length)]:null;d.upcomingCategory=d.category;}
+// Replaces the question the core just drew with the pre-drawn one (same category, still unused).
+function applyUpcoming(r,now){const d=r.duel,up=d?.upcoming;if(!Number.isInteger(up)||d.upcomingCategory!==d.category||up===d.index)return;const used=r.used[d.category]||[];if(used.includes(up))return;r.used[d.category]=used.filter(i=>i!==d.index).concat(up);d.index=up;d.status=bank[d.category][up].image?'media':'running';d.lastAt=d.status==='running'?now:null;d.mediaReady=[];d.upcoming=null;}
+function observe(r,now){pickUpcoming(r);r.questionRulesVersion=13;r.questionReports=r.questionReports||[];const d=r.duel;if(!d)return;skipPreloadedMedia(r,now);if(d.status==='media'){if(!Number.isFinite(d.mediaDeadline))d.mediaDeadline=now+mediaReadyTimeout;}else d.mediaDeadline=null;if(d.v12Key!==d.key){d.v12Key=d.key;d.v12Since=d.status==='running'?now:null;d.v12Level=0;d.v12Seen=d.v12Seen||[];if(!d.v12Seen.includes(d.index))d.v12Seen.push(d.index);}else if(d.status==='running'&&!Number.isFinite(d.v12Since))d.v12Since=now;else if(d.status!=='running')d.v12Since=null;}
 function awardNoSkip(r,duel,logLength){
  if(!duel||r.duel===duel||(r.log?.length||0)<=logLength)return;
  const noSkip=duel.ids.filter(playerId=>(duel.skipCounts?.[playerId]||0)===0);
@@ -86,7 +90,7 @@ function baseCommand(r,id,a,now=Date.now()){
   if(d.skip5?.playerId===d.turn&&d.skip5.remaining>0){freeSkip=true;remainingBefore=d.remaining[answer.turn];freeSkipsBefore=d.skip5.remaining;d.remaining[answer.turn]+=3000;d.skip5.remaining--;}
  }
  let result;
- try{result=old.command(r,id,a,now);}
+ try{result=old.command(r,id,a,now);if(answer&&r.duel&&r.duel.key!==answer.key)applyUpcoming(r,now);}
  catch(error){if(answer?.kind==='skip'){d.skipCounts[answer.turn]=skipsBefore;if(freeSkip){d.remaining[answer.turn]=remainingBefore;d.skip5.remaining=freeSkipsBefore;}}throw error;}
  if(answer?.kind==='good'&&r.duel?.key!==answer.key){
   const x=r.players.find(x=>x.id===answer.turn);
@@ -182,6 +186,7 @@ export function publicState(r,id,now=Date.now()){
  // Soundtrack questions play on every device, not only the judge's.
  if(s.duel&&s.duel.prompt&&q?.audio)s.duel.audio=q.audio;
  if(s.duel&&s.duel.prompt&&q?.zoom)s.duel.zoom=q.zoom;
+ if(s.duel&&d&&Number.isInteger(d.upcoming)&&d.upcomingCategory===d.category)s.duel.nextImage=bank[d.category][d.upcoming]?.image||null;
  if(s.duel&&d){s.duel.fog=d.fog?{target:d.fog.target}:null;s.duel.fogged=d.fog?.target===id;s.duel.freeze=d.freeze?{playerId:d.freeze.playerId,left:d.freeze.left}:null;}
  if(s.cardPanel?.visible&&newCards[p?.card]){const running=d?.status==='running',allowed=p.card==='fog'?inDuel(r,id)&&!d.fog:p.card==='freeze'?running&&d.turn===id&&!d.freeze:running&&d.ids.includes(id);s.cardPanel={...s.cardPanel,allowed,reason:{fog:'Aktywuj podczas własnego pojedynku – działa do jego końca.',freeze:'Użyj we własnej turze, gdy biegnie Twój zegar.',steal:'Użyj w trakcie własnego pojedynku.'}[p.card]};}
  if(s.economyPanel)s.economyPanel.cards=Object.entries(cardPrices).map(([type,price])=>({type,price,name:cardName(type),text:s.cardTypes[type]?.text||'',canBuy:shopOpen(r)&&!!p&&p.lives>0&&!(p.card===type&&!p.cardUsed)&&(p.walletCents||0)>=price*100})),s.economyPanel.holding=p?.card&&!p.cardUsed?p.card:null;

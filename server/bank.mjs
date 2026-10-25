@@ -40052,58 +40052,76 @@ export const bank = {
   ],
   "Dokończ tekst": [
     {
-      "prompt": "Dokończ tekst piosenki:\n„Tu na razie jest ściernisko, ale będzie…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Tu na razie jest ściernisko, ale będzie…”",
       "answer": "San Francisco",
-      "explanation": "Golec uOrkiestra – „Ściernisko”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-6e82a7ddab39e7f2fe13"
+      "explanation": "Golec uOrkiestra – „Ściernisko” (nagranie: GOLEC UORKIESTRA & Deemz – Ściernisko - Remix). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-6e82a7ddab39e7f2fe13",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e8/b2/8c/e8b28c18-eb1d-9203-102d-34a13a11fe48/mzaf_16048482500303899939.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/%C5%9Bciernisko-remix/1765565822"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Jolka, Jolka, pamiętasz…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Jolka, Jolka, pamiętasz…”",
       "answer": "lato ze snu",
-      "explanation": "Budka Suflera – „Jolka, Jolka pamiętasz”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-c76909c3b8aeb75f8899"
+      "explanation": "Budka Suflera – „Jolka, Jolka pamiętasz” (nagranie: Budka Suflera – Jolka Jolka pamiętasz (Live)). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-c76909c3b8aeb75f8899",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ee/f1/e1/eef1e1dd-e501-878c-aff2-83a1fdee760e/mzaf_9547115117961860813.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/jolka-jolka-pami%C4%99tasz-live/1455501595"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Whisky, moja żono…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Whisky, moja żono…”",
       "answer": "jednak tyś najlepszą z dam",
-      "explanation": "Dżem – „Whisky”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-d159570a5c0d82840c80"
+      "explanation": "Dżem – „Whisky” (nagranie: Dzem – Whisky (2003 Remaster)). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-d159570a5c0d82840c80",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/96/d2/d596d2cd-5cab-e436-0ba9-acac10a0d174/mzaf_15269506029818767613.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/whisky-2003-remaster/888840006"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Wehikuł czasu…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Wehikuł czasu…”",
       "answer": "to byłby cud",
-      "explanation": "Dżem – „Wehikuł czasu”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-71ec7fb8e4e857165ef7"
+      "explanation": "Dżem – „Wehikuł czasu” (nagranie: Dzem – Wehikuł Czasu / To byłby cud). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-71ec7fb8e4e857165ef7",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/14/92/28/149228ad-92c9-8eac-2f2b-52cb12164ca6/mzaf_13467110384694061654.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/wehiku%C5%82-czasu-to-by%C5%82by-cud/1453669312"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Chcemy być sobą…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Chcemy być sobą…”",
       "answer": "chcemy być sobą jeszcze",
-      "explanation": "Perfect – „Chcemy być sobą”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-ba2e23cc81d23401505c"
+      "explanation": "Perfect – „Chcemy być sobą” (nagranie: Perfect – Chcemy Być Sobą). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-ba2e23cc81d23401505c",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/91/ef/7c/91ef7c00-02e9-1f70-a9d4-24cf275868ba/mzaf_4098310469139561021.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/chcemy-by%C4%87-sob%C4%85/988439006"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Baśka miała…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Baśka miała…”",
       "answer": "fajny biust",
-      "explanation": "Wilki – „Baśka”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-c4d796218d04293a2775"
+      "explanation": "Wilki – „Baśka” (nagranie: Wilki – Baśka). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-c4d796218d04293a2775",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/de/10/18/de101849-5fbf-e23a-e306-64dff457008d/mzaf_1638354590529963100.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/ba%C5%9Bka/692594463"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Niech żyje bal, bo to życie to bal jest…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Niech żyje bal, bo to życie to bal jest…”",
       "answer": "nad bale",
-      "explanation": "Maryla Rodowicz – „Niech żyje bal”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-411385c31d8fc2646443"
+      "explanation": "Maryla Rodowicz – „Niech żyje bal” (nagranie: Maryla Rodowicz, Błażej Król, Igor Herbut & Misia Furtak – Niech żyje bal). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-411385c31d8fc2646443",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/57/65/fb/5765fb83-c090-619c-40ac-265c223c64fc/mzaf_13970573689187781778.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/niech-%C5%BCyje-bal/1846668966"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Wsiąść do pociągu byle jakiego, nie dbać o bagaż…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Wsiąść do pociągu byle jakiego, nie dbać o bagaż…”",
       "answer": "nie dbać o bilet",
-      "explanation": "Maryla Rodowicz – „Wsiąść do pociągu”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-b5179becec799b8fccda"
+      "explanation": "Maryla Rodowicz – „Wsiąść do pociągu” (nagranie: Maryla Rodowicz & Krzysztof Zalewski – Remedium (Wsiąść do pociągu)). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-b5179becec799b8fccda",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/77/70/20/77702003-3917-a0c1-d572-7ace30748299/mzaf_9442161571514022798.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/remedium-wsi%C4%85%C5%9B%C4%87-do-poci%C4%85gu/1846668966"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Małgośka, mówią mi, on nie jest wart…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Małgośka, mówią mi, on nie jest wart…”",
       "answer": "jednej łzy",
-      "explanation": "Maryla Rodowicz – „Małgośka”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-c15bf56736af32ee5f3d"
+      "explanation": "Maryla Rodowicz – „Małgośka” (nagranie: Maryla Rodowicz – Małgośka, szkoda łez). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-c15bf56736af32ee5f3d",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/39/a7/fd/39a7fd78-7037-44f2-4142-c29235264bb5/mzaf_7958591570538168091.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/ma%C5%82go%C5%9Bka-szkoda-%C5%82ez/1500464224"
     },
     {
       "prompt": "Dokończ tekst piosenki:\n„Kolorowe jarmarki…”",
@@ -40112,136 +40130,180 @@ export const bank = {
       "id": "tekst-99eaeeb7f217d22b1260"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Ale to już było i nie…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Ale to już było i nie…”",
       "answer": "wróci więcej",
-      "explanation": "Maryla Rodowicz – „Ale to już było”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-326b486c44957ecfb2e6"
+      "explanation": "Maryla Rodowicz – „Ale to już było” (nagranie: Tribbs & Maryla Rodowicz – Ale to już było). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-326b486c44957ecfb2e6",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/ce/95/19ce95ea-b85f-7295-ce10-9606bb79920f/mzaf_7990250779673205298.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/ale-to-ju%C5%BC-by%C5%82o/1834162135"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Dziwny jest ten świat, gdzie jeszcze wciąż mieści się…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Dziwny jest ten świat, gdzie jeszcze wciąż mieści się…”",
       "answer": "wiele zła",
-      "explanation": "Czesław Niemen – „Dziwny jest ten świat”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-041d5f96df9bdb82da35"
+      "explanation": "Czesław Niemen – „Dziwny jest ten świat” (nagranie: Czesław Niemen – Dziwny jest ten świat (1967)). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-041d5f96df9bdb82da35",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/61/f6/b2/61f6b21e-6790-b690-5221-37a96d793fc2/mzaf_3507631440753697909.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/dziwny-jest-ten-%C5%9Bwiat-1967/1858893007"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Gdzie ci mężczyźni, prawdziwi tacy…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Gdzie ci mężczyźni, prawdziwi tacy…”",
       "answer": "orły, sokoły, herosy",
-      "explanation": "Danuta Rinn – „Gdzie ci mężczyźni”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-ed68e4b009f62a1901ce"
+      "explanation": "Danuta Rinn – „Gdzie ci mężczyźni” (nagranie: Danuta Rinn – Gdzie ci Mężczyźni). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-ed68e4b009f62a1901ce",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/cf/66/f4/cf66f4cf-46eb-af10-abb4-5591cee4f811/mzaf_278796819670926208.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/gdzie-ci-m%C4%99%C5%BCczy%C5%BAni/1453669312"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Jestem z miasta, to widać…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Jestem z miasta, to widać…”",
       "answer": "słychać i czuć",
-      "explanation": "Elektryczne Gitary – „Jestem z miasta”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-0df02de507587b9877fc"
+      "explanation": "Elektryczne Gitary – „Jestem z miasta” (nagranie: Elektryczne Gitary – Jestem Z Miasta). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-0df02de507587b9877fc",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ed/26/55/ed265516-8ceb-0a8a-3e3b-be99ff566af9/mzaf_16153702185400186577.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/jestem-z-miasta/881449197"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Przez twe oczy, oczy zielone…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Przez twe oczy, oczy zielone…”",
       "answer": "oszalałem",
-      "explanation": "Akcent – „Przez twe oczy zielone”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-a5b6926dc9a85322091b"
+      "explanation": "Akcent – „Przez twe oczy zielone” (nagranie: Akcent – Przez Twe Oczy Zielone). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-a5b6926dc9a85322091b",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/09/02/d8/0902d84e-bb66-e828-b101-ed74287c1709/mzaf_3475373060065396788.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/przez-twe-oczy-zielone/923973043"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Jesteś szalona…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Jesteś szalona…”",
       "answer": "mówię ci",
-      "explanation": "Boys – „Jesteś szalona”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-15f6543c6dc9b16928e4"
+      "explanation": "Boys – „Jesteś szalona” (nagranie: Boys – Jesteś Szalona (Bonus Track)). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-15f6543c6dc9b16928e4",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/94/74/ff/9474ff8e-1d92-9ec6-ca88-967096f624c5/mzaf_13390803975592414662.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/jeste%C5%9B-szalona-bonus-track/1324334485"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„To nie ja byłam…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„To nie ja byłam…”",
       "answer": "Ewą",
-      "explanation": "Edyta Górniak – „To nie ja”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-c98c8a532fbf6ab15a77"
+      "explanation": "Edyta Górniak – „To nie ja” (nagranie: Edyta Gorniak – To nie ja (2020 Remaster)). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-c98c8a532fbf6ab15a77",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1c/6f/5f/1c6f5f7c-7f18-2593-f50a-2ce01fa3bcfb/mzaf_10101949798293713794.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/to-nie-ja-2020-remaster/1511028566"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Józek, nie daruję ci…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Józek, nie daruję ci…”",
       "answer": "tej nocy",
-      "explanation": "Bajm – „Józek, nie daruję ci tej nocy”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-83a606e0fa0b222fa9ae"
+      "explanation": "Bajm – „Józek, nie daruję ci tej nocy” (nagranie: Bajm – Józek, Nie Daruje Ci Tej Nocy). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-83a606e0fa0b222fa9ae",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/95/9a/e1/959ae151-fc1e-52f0-923c-075e7a8bae9f/mzaf_5139128784768569038.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/j%C3%B3zek-nie-daruje-ci-tej-nocy/1433949185"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Chciałem być marynarzem, chciałem mieć…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Chciałem być marynarzem, chciałem mieć…”",
       "answer": "tatuaże",
-      "explanation": "Krzysztof Krawczyk – „Chciałem być”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-f7f495ef4213508e19f4"
+      "explanation": "Krzysztof Krawczyk – „Chciałem być” (nagranie: Krzysztof Krawczyk – Chciałem być). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-f7f495ef4213508e19f4",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9f/de/30/9fde3000-6952-b29e-1c3e-7ecc36de2c26/mzaf_10718868416069824908.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/chcia%C5%82em-by%C4%87/1712453695"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Parostatkiem w piękny…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Parostatkiem w piękny…”",
       "answer": "rejs",
-      "explanation": "Krzysztof Krawczyk – „Parostatek”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-52a2876c8476c2b92801"
+      "explanation": "Krzysztof Krawczyk – „Parostatek” (nagranie: Krzysztof Krawczyk – Parostatek). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-52a2876c8476c2b92801",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3b/dc/fc/3bdcfcb6-482f-094f-d6fd-134385596e16/mzaf_14733840423058557780.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/parostatek/1622631650"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Za tobą pójdę jak…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Za tobą pójdę jak…”",
       "answer": "na bal",
-      "explanation": "Krzysztof Krawczyk – „Za tobą pójdę jak na bal”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-95da1e683ca10a74ad4d"
+      "explanation": "Krzysztof Krawczyk – „Za tobą pójdę jak na bal” (nagranie: Krzysztof Krawczyk – Za tobą pójdę jak na bal). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-95da1e683ca10a74ad4d",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3c/2f/e3/3c2fe3bc-a2ef-fbf9-f968-0d0c1e5858b7/mzaf_18325003685755416126.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/za-tob%C4%85-p%C3%B3jd%C4%99-jak-na-bal/1622631650"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Bo jesteś…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Bo jesteś…”",
       "answer": "ty",
-      "explanation": "Krzysztof Krawczyk – „Bo jesteś ty”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-fa5cf1b7c1c65430bf33"
+      "explanation": "Krzysztof Krawczyk – „Bo jesteś ty” (nagranie: Krzysztof Krawczyk – Bo Jesteś Ty). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-fa5cf1b7c1c65430bf33",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f1/4e/b5/f14eb5be-ba14-e261-d344-95a8720d92bd/mzaf_5185593984801201576.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/bo-jeste%C5%9B-ty/1712453695"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Tyle słońca w…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Tyle słońca w…”",
       "answer": "całym mieście",
-      "explanation": "Anna Jantar – „Tyle słońca w całym mieście”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-7f96ec781eb2bb009ea3"
+      "explanation": "Anna Jantar – „Tyle słońca w całym mieście” (nagranie: Anna Jantar – Tyle Słońca W Całym Mieście). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-7f96ec781eb2bb009ea3",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/77/97/bb/7797bbfe-8fe8-c151-f8c3-d9bb68c3e2b1/mzaf_13452038194508061065.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/tyle-s%C5%82o%C5%84ca-w-ca%C5%82ym-mie%C5%9Bcie/1439259685"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Boskie Buenos…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Boskie Buenos…”",
       "answer": "Buenos Aires",
-      "explanation": "Maanam – „Boskie Buenos”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-e4ce442a4d698cc272f6"
+      "explanation": "Maanam – „Boskie Buenos” (nagranie: Maanam – Boskie Buenos (Remastered)). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-e4ce442a4d698cc272f6",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/0c/ea/a7/0ceaa721-8bd2-a35a-7a32-6edec45f1c60/mzaf_10074477916727068598.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/boskie-buenos-remastered/693088751"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Takie ładne…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Takie ładne…”",
       "answer": "oczy",
-      "explanation": "Czerwone Gitary – „Takie ładne oczy”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-079079f506bc03717844"
+      "explanation": "Czerwone Gitary – „Takie ładne oczy” (nagranie: Czerwone Gitary – Takie Ladne Oczy). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-079079f506bc03717844",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1b/ba/e0/1bbae079-fcc9-68f0-025e-5c233d013977/mzaf_4071886854428990617.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/takie-ladne-oczy/1062834584"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Słodkiego, miłego…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Słodkiego, miłego…”",
       "answer": "życia",
-      "explanation": "Kombi – „Słodkiego, miłego życia”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-fc681c07198dd85d1502"
+      "explanation": "Kombi – „Słodkiego, miłego życia” (nagranie: Kombi – Słodkiego, miłego życia). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-fc681c07198dd85d1502",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bc/75/da/bc75dacd-f05c-92ed-f09a-3d7a7e623ed2/mzaf_5590914262583826286.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/s%C5%82odkiego-mi%C5%82ego-%C5%BCycia/1485458735"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Tańcz, głupia…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Tańcz, głupia…”",
       "answer": "tańcz",
-      "explanation": "Lady Pank – „Tańcz głupia, tańcz”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-5a7056000477ffde6873"
+      "explanation": "Lady Pank – „Tańcz głupia, tańcz” (nagranie: Lady Pank – Tańcz głupia tańcz). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-5a7056000477ffde6873",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/27/90/d0/2790d054-fa8f-07c2-cb8c-8b0c6b5abdfd/mzaf_17879061125609080891.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/ta%C5%84cz-g%C5%82upia-ta%C5%84cz/1484084937"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Zawsze tam…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Zawsze tam…”",
       "answer": "gdzie ty",
-      "explanation": "Lady Pank – „Zawsze tam, gdzie ty”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-3e83f5bcad9705ac7071"
+      "explanation": "Lady Pank – „Zawsze tam, gdzie ty” (nagranie: Lady Pank – Zawsze tam gdzie Ty). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-3e83f5bcad9705ac7071",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/97/ed/e1/97ede171-68c3-289e-70f2-71f110678830/mzaf_9701930798336858097.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/zawsze-tam-gdzie-ty/1484081508"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Mniej niż…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Mniej niż…”",
       "answer": "zero",
-      "explanation": "Lady Pank – „Mniej niż zero”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-18ede48d3e25606d8781"
+      "explanation": "Lady Pank – „Mniej niż zero” (nagranie: Lady Pank – Mniej niż zero). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-18ede48d3e25606d8781",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/84/c3/0c/84c30c57-a474-d71d-718f-6f18e22945c4/mzaf_141812458003795960.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/mniej-ni%C5%BC-zero/1484081246"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Kryzysowa…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Kryzysowa…”",
       "answer": "narzeczona",
-      "explanation": "Lady Pank – „Kryzysowa narzeczona”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-45e54554ece4feeb87e4"
+      "explanation": "Lady Pank – „Kryzysowa narzeczona” (nagranie: Lady Pank – Kryzysowa narzeczona). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-45e54554ece4feeb87e4",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e7/df/41/e7df4182-36df-64fb-b1d8-c22c8d55c2aa/mzaf_7691297282364138045.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/kryzysowa-narzeczona/1484084937"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Przeżyj to…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Przeżyj to…”",
       "answer": "sam",
-      "explanation": "Lombard – „Przeżyj to sam”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-17d2c4d03e63470824dd"
+      "explanation": "Lombard – „Przeżyj to sam” (nagranie: Lombard – Przeżyj To Sam). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-17d2c4d03e63470824dd",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/43/0d/53/430d53d8-9699-ea68-d473-aed7fbc24814/mzaf_1860734951625233905.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/prze%C5%BCyj-to-sam/1093781468"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Orła…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Orła…”",
       "answer": "cień",
-      "explanation": "Varius Manx – „Orła cień”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-e949a88a14d84d21afea"
+      "explanation": "Varius Manx – „Orła cień” (nagranie: Kasia Stankiewicz & Varius Manx – Orła Cień (Live)). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-e949a88a14d84d21afea",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3a/ed/1e/3aed1e5a-d5d9-094f-9d9c-85916650c165/mzaf_4363069604241543747.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/or%C5%82a-cie%C5%84-live/1163807043"
     },
     {
       "prompt": "Dokończ tekst piosenki:\n„Chciałbym umrzeć…”",
@@ -40250,196 +40312,260 @@ export const bank = {
       "id": "tekst-f5403473d5eec037d962"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Długość dźwięku…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Długość dźwięku…”",
       "answer": "samotności",
-      "explanation": "Myslovitz – „Długość dźwięku samotności”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-3d85e17db7ee7fbd1f09"
+      "explanation": "Myslovitz – „Długość dźwięku samotności” (nagranie: Myslovitz – Dlugość dźwięku samotności). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-3d85e17db7ee7fbd1f09",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0a/0a/66/0a0a6676-47ec-39be-d295-7a8377df6a13/mzaf_2712456521477068807.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/dlugo%C5%9B%C4%87-d%C5%BAwi%C4%99ku-samotno%C5%9Bci/1729126964"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Uciekaj, moje…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Uciekaj, moje…”",
       "answer": "serce",
-      "explanation": "Seweryn Krajewski – „Uciekaj, moje serce”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-362b862c63553722247c"
+      "explanation": "Seweryn Krajewski – „Uciekaj, moje serce” (nagranie: Seweryn Krajewski – Uciekaj Moje Serce). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-362b862c63553722247c",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/62/c7/db/62c7dbef-4793-e136-d7f3-4d1b0e1f0a91/mzaf_9243823407548302619.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/uciekaj-moje-serce/6814658605"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Z kopyta kulig…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Z kopyta kulig…”",
       "answer": "rwie",
-      "explanation": "Skaldowie – „Z kopyta kulig rwie”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-f4bc4dd582e3a0c7ef4e"
+      "explanation": "Skaldowie – „Z kopyta kulig rwie” (nagranie: Skaldowie – Z Kopyta Kulig Rwie). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-f4bc4dd582e3a0c7ef4e",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/65/63/d5/6563d531-fb1b-3545-cac9-7beb71634e1c/mzaf_5452744923921167339.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/z-kopyta-kulig-rwie/1066512310"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Byłaś serca…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Byłaś serca…”",
       "answer": "biciem",
-      "explanation": "Andrzej Zaucha – „Byłaś serca biciem”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-38a28f7d683777e9b71e"
+      "explanation": "Andrzej Zaucha – „Byłaś serca biciem” (nagranie: Andrzej Zaucha – Byłaś Serca Biciem). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-38a28f7d683777e9b71e",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/af/76/4e/af764eac-64cc-77db-746b-6564d8b42b14/mzaf_865165489561534454.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/by%C5%82a%C5%9B-serca-biciem/1542580581"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Twój ból jest lepszy…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Twój ból jest lepszy…”",
       "answer": "niż mój",
-      "explanation": "Kazik – „Twój ból jest lepszy niż mój”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-18777d355feb310ffedb"
+      "explanation": "Kazik – „Twój ból jest lepszy niż mój” (nagranie: Kazik – Twój Ból Jest Lepszy Niż Mój). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-18777d355feb310ffedb",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/22/f4/b7/22f4b7fe-efc8-5a6d-ee40-469ea6c2a0c8/mzaf_4802275453666318684.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/tw%C3%B3j-b%C3%B3l-jest-lepszy-ni%C5%BC-m%C3%B3j/1515296103"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Ona tańczy…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Ona tańczy…”",
       "answer": "dla mnie",
-      "explanation": "Weekend – „Ona tańczy dla mnie”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-10da84ed8f353ebc37a6"
+      "explanation": "Weekend – „Ona tańczy dla mnie” (nagranie: Weekend – Ona Tańczy Dla Mnie). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-10da84ed8f353ebc37a6",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/63/cd/1c/63cd1cfd-4d12-71ad-e224-faa46d1c241d/mzaf_4725905380890627438.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/ona-ta%C5%84czy-dla-mnie/596348007"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Czerwone…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Czerwone…”",
       "answer": "korale",
-      "explanation": "Brathanki – „Czerwone korale”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-6b026e0dc0739e225aee"
+      "explanation": "Brathanki – „Czerwone korale” (nagranie: Brathanki – Czerwone Korale). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-6b026e0dc0739e225aee",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/77/02/fa/7702fa04-16b0-c870-bf75-58a196d50612/mzaf_13115323914360764810.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/czerwone-korale/456542838"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Czerwony jak…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Czerwony jak…”",
       "answer": "cegła",
-      "explanation": "Dżem – „Czerwony jak cegła”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-5a5c5730a8889c7b1a4f"
+      "explanation": "Dżem – „Czerwony jak cegła” (nagranie: Dzem – Czerwony Jak Cegła). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-5a5c5730a8889c7b1a4f",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f6/1f/48/f61f48d8-ed70-80c1-fb36-07779fd0e780/mzaf_13097059749531000801.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/czerwony-jak-ceg%C5%82a/1421780955"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Ale wkoło jest…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Ale wkoło jest…”",
       "answer": "wesoło",
-      "explanation": "Perfect – „Ale wkoło jest wesoło”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-d167721d8957c767ed27"
+      "explanation": "Perfect – „Ale wkoło jest wesoło” (nagranie: Perfect – Ale Wkoło Jest Wesoło). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-d167721d8957c767ed27",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ce/7c/8a/ce7c8aa9-8239-92ed-dec1-351411b634c0/mzaf_8748833759786430480.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/ale-wko%C5%82o-jest-weso%C5%82o/988439006"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Nie płacz…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Nie płacz…”",
       "answer": "Ewka",
-      "explanation": "Perfect – „Nie płacz Ewka”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-33738f7a3988733b551a"
+      "explanation": "Perfect – „Nie płacz Ewka” (nagranie: Perfect – Nie Płacz Ewka). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-33738f7a3988733b551a",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/ff/80/24ff800d-7bca-eaf8-2bc7-e454b0185396/mzaf_7888878630920748110.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/nie-p%C5%82acz-ewka/988439006"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Co mi, panie…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Co mi, panie…”",
       "answer": "dasz",
-      "explanation": "Bajm – „Co mi, panie, dasz”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-d85805f29d544444d25d"
+      "explanation": "Bajm – „Co mi, panie, dasz” (nagranie: Bajm – Co Mi Panie Dasz). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-d85805f29d544444d25d",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/60/28/da60282c-2c98-9d82-28bc-00ce476b12f4/mzaf_8891532086978126710.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/co-mi-panie-dasz/1433949185"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Nie ma…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Nie ma…”",
       "answer": "fal",
-      "explanation": "Dawid Podsiadło – „Nie ma fal”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-9af04aeb6042c1f84a22"
+      "explanation": "Dawid Podsiadło – „Nie ma fal” (nagranie: Dawid Podsiadło – Nie Ma Fal). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-9af04aeb6042c1f84a22",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/38/90/19/38901930-c637-563b-cce2-44acdba2527a/mzaf_11291530797741801114.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/nie-ma-fal/1437010987"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Tak smakuje…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Tak smakuje…”",
       "answer": "życie",
-      "explanation": "Enej – „Tak smakuje życie”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-f0300ad7dc5531aec986"
+      "explanation": "Enej – „Tak smakuje życie” (nagranie: Enej – Tak Smakuje Życie). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-f0300ad7dc5531aec986",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/62/32/30/623230f6-a613-e318-1d3e-a9cf29322d1c/mzaf_1746998345286142217.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/tak-smakuje-%C5%BCycie/1764943486"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Sto lat, sto lat, niech żyje, żyje…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Sto lat, sto lat, niech żyje, żyje…”",
       "answer": "nam",
-      "explanation": "„Sto lat”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-18996d38f81a5b48f8a3"
+      "explanation": "„Sto lat” (nagranie: Kapela Biesiadna – Sto Lat). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-18996d38f81a5b48f8a3",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/03/68/c9/0368c97a-387c-c108-5f58-6579167bd282/mzaf_6960993161056272350.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/sto-lat/1712104163"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Hej, hej, hej, sokoły, omijajcie…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Hej, hej, hej, sokoły, omijajcie…”",
       "answer": "góry, lasy, doły",
-      "explanation": "„Hej, sokoły”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-caf03f065075ea1e0c17"
+      "explanation": "„Hej, sokoły” (nagranie: Looks – Hej Sokoły). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-caf03f065075ea1e0c17",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/61/18/f7/6118f76e-f67b-69bf-102c-ed937f95240f/mzaf_5035827043506805924.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/hej-soko%C5%82y/1449697245"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Szła dzieweczka do laseczka, do…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Szła dzieweczka do laseczka, do…”",
       "answer": "zielonego",
-      "explanation": "„Szła dzieweczka”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-a2f15c22d2452cb66e48"
+      "explanation": "„Szła dzieweczka” (nagranie: Agbe – Szła dzieweczka). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-a2f15c22d2452cb66e48",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0e/c2/37/0ec23733-5c04-437c-26c9-6b7c3977c6d8/mzaf_2850790449620464449.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/sz%C5%82a-dzieweczka/6820555154"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Gdybym ja była słoneczkiem…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Gdybym ja była słoneczkiem…”",
       "answer": "na niebie",
-      "explanation": "„Gdybym ja była słoneczkiem”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-6e0a794c0beae34837eb"
+      "explanation": "„Gdybym ja była słoneczkiem” (nagranie: The folk dice – Gdybym Ja Była Słoneczkiem – The Polish Lounge). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-6e0a794c0beae34837eb",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/31/e4/d931e4d1-9829-3b16-1acb-8504efd14dd9/mzaf_2476325262493916361.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/gdybym-ja-by%C5%82a-s%C5%82oneczkiem-the-polish-lounge/1856453390"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„U prząśniczki siedzą jak anioł…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„U prząśniczki siedzą jak anioł…”",
       "answer": "dzieweczki",
-      "explanation": "Stanisław Moniuszko – „Prząśniczka”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-d5a60316a9f7aad0236d"
+      "explanation": "Stanisław Moniuszko – „Prząśniczka” (nagranie: Irena Santor – Przasniczka). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-d5a60316a9f7aad0236d",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4c/03/5e/4c035e82-4942-9f0e-af28-75e9de23917b/mzaf_4080216034710984378.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/przasniczka/1437412045"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Płonie ognisko i szumią…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Płonie ognisko i szumią…”",
       "answer": "knieje",
-      "explanation": "„Płonie ognisko”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-7c170f4277db2a1367f7"
+      "explanation": "„Płonie ognisko” (nagranie: Wszyscy Byliśmy Harcerzami – Płonie Ognisko). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-7c170f4277db2a1367f7",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f8/55/97/f8559729-e138-8be5-10a2-6fa65d10c405/mzaf_2736484293741295972.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/p%C5%82onie-ognisko/1359659758"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Wlazł kotek na płotek i…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Wlazł kotek na płotek i…”",
       "answer": "mruga",
-      "explanation": "„Wlazł kotek na płotek”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-ddf2de313374f96aca99"
+      "explanation": "„Wlazł kotek na płotek” (nagranie: Piosenki Dla Dzieci Po Polsku – Wlazł Kotek Na Płotek). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-ddf2de313374f96aca99",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8b/e7/4e/8be74e7a-417e-cb06-8af6-80ef5d2ce01e/mzaf_5353098210935285991.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/wlaz%C5%82-kotek-na-p%C5%82otek/978090761"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Pije Kuba do…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Pije Kuba do…”",
       "answer": "Jakuba",
-      "explanation": "„Pije Kuba do Jakuba”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-d1649c0ef2dda1d98b78"
+      "explanation": "„Pije Kuba do Jakuba” (nagranie: Krzysztof Krawczyk – Pije Kuba do Jakuba). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-d1649c0ef2dda1d98b78",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/7c/b5/33/7cb53360-6a66-b85a-6d00-80d50572bb0d/mzaf_3862090162944391392.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/pije-kuba-do-jakuba/1620571586"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Jedzie pociąg z daleka, na nikogo nie…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Jedzie pociąg z daleka, na nikogo nie…”",
       "answer": "czeka",
-      "explanation": "„Jedzie pociąg z daleka”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-5c4afca5caf5137b9837"
+      "explanation": "„Jedzie pociąg z daleka” (nagranie: Piosenki Dla Dzieci Po Polsku – Jedzie Pociąg Z Daleka). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-5c4afca5caf5137b9837",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/75/f9/cc/75f9cc95-deaa-ab97-dfc0-cb480b3d218b/mzaf_14998543453706488770.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/jedzie-poci%C4%85g-z-daleka/978090761"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Panie Janie, panie Janie, rano…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Panie Janie, panie Janie, rano…”",
       "answer": "wstań",
-      "explanation": "„Panie Janie”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-f4d9463fc4baa86afcb0"
+      "explanation": "„Panie Janie” (nagranie: Śpiewanki – Panie Janie). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-f4d9463fc4baa86afcb0",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/65/08/36/65083633-17a3-6de3-b3c7-6ac68df8ee58/mzaf_2642953248616804249.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/panie-janie/1792003871"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Głowa, ramiona, kolana…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Głowa, ramiona, kolana…”",
       "answer": "pięty",
-      "explanation": "„Głowa, ramiona, kolana, pięty”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-f9df52a9c0d356576723"
+      "explanation": "„Głowa, ramiona, kolana, pięty” (nagranie: Piosenki Dla Dzieci Po Polsku – Głowa, Ramiona, Kolana, Pięty). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-f9df52a9c0d356576723",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0e/15/c2/0e15c2d4-0473-d677-9e29-5032bef312a3/mzaf_1566125798105139663.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/g%C5%82owa-ramiona-kolana-pi%C4%99ty/978090761"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Jeszcze Polska nie zginęła, kiedy my…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Jeszcze Polska nie zginęła, kiedy my…”",
       "answer": "żyjemy",
-      "explanation": "Hymn Polski – „Mazurek Dąbrowskiego”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-20d15c537d6d1f4dda73"
+      "explanation": "Hymn Polski – „Mazurek Dąbrowskiego” (nagranie: Krakowski Chór Kameralny – Mazurek Dąbrowskiego (Hymn Polski)). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-20d15c537d6d1f4dda73",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3f/33/07/3f33073a-1f2c-a820-9aed-3112f7054cb8/mzaf_9650663411134572889.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/mazurek-d%C4%85browskiego-hymn-polski/758480357"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Nie rzucim ziemi, skąd nasz…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Nie rzucim ziemi, skąd nasz…”",
       "answer": "ród",
-      "explanation": "Maria Konopnicka – „Rota”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-e90f38a07da3fea948c7"
+      "explanation": "Maria Konopnicka – „Rota” (nagranie: Polish Patriotic Songs – Rota). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-e90f38a07da3fea948c7",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/16/d9/e3/16d9e3ad-877d-66ad-34ba-e8769a8dc699/mzaf_416309386036629633.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/rota/669888943"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Hej, hej, ułani, malowane…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Hej, hej, ułani, malowane…”",
       "answer": "dzieci",
-      "explanation": "„Hej, hej, ułani”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-8b728ffcefbeaac46a9b"
+      "explanation": "„Hej, hej, ułani” (nagranie: Chór Polskiego Radia & Orkiestra Polskiego Radia – Hej, Hej, Ułani). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-8b728ffcefbeaac46a9b",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/bc/5e/4d/bc5e4d33-fcb4-d84d-86ef-01281711b57e/mzaf_9301771662225213897.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/hej-hej-u%C5%82ani/1495897826"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Legiony to żołnierska nuta, legiony to…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Legiony to żołnierska nuta, legiony to…”",
       "answer": "straceńców los",
-      "explanation": "„My, Pierwsza Brygada”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-f9801c459e1e151fb2e1"
+      "explanation": "„My, Pierwsza Brygada” (nagranie: Cantores Veiherovienses – My Pierwsza Brygada). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-f9801c459e1e151fb2e1",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/84/25/6d/84256d89-d92e-c29e-fa15-5b7a853680a4/mzaf_16596708881387966256.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/my-pierwsza-brygada/449627153"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Czerwone maki na…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Czerwone maki na…”",
       "answer": "Monte Cassino",
-      "explanation": "„Czerwone maki na Monte Cassino”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-52535b93f9eedb238266"
+      "explanation": "„Czerwone maki na Monte Cassino” (nagranie: Chór Czejanda – Czerwone maki na Monte Cassino). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-52535b93f9eedb238266",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/35/9d/d9/359dd993-bc94-3598-1a1d-ffd6f81585a9/mzaf_16542527905485513586.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/czerwone-maki-na-monte-cassino/1437846454"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Wśród nocnej ciszy głos się…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Wśród nocnej ciszy głos się…”",
       "answer": "rozchodzi",
-      "explanation": "Kolęda „Wśród nocnej ciszy”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-e5561d4b4fcb71916dd2"
+      "explanation": "Kolęda „Wśród nocnej ciszy” (nagranie: Studio Accantus – Wśród Nocnej Ciszy). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-e5561d4b4fcb71916dd2",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/49/d3/45/49d3453c-325c-a24d-f966-fdd2bd46a9c8/mzaf_8687616808432507773.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/w%C5%9Br%C3%B3d-nocnej-ciszy/1544047565"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Bóg się rodzi, moc…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Bóg się rodzi, moc…”",
       "answer": "truchleje",
-      "explanation": "Kolęda „Bóg się rodzi”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-0051c14f6f6ca74bf846"
+      "explanation": "Kolęda „Bóg się rodzi” (nagranie: GOLEC UORKIESTRA – Bóg Się Rodzi). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-0051c14f6f6ca74bf846",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/be/63/5f/be635fcd-cb0d-94cb-40ca-966d247326f8/mzaf_1314325068350628855.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/b%C3%B3g-si%C4%99-rodzi/945303764"
     },
     {
-      "prompt": "Dokończ tekst piosenki:\n„Lulajże, Jezuniu, moja…”",
+      "prompt": "🎵 Leci piosenka – dokończ tekst:\n„Lulajże, Jezuniu, moja…”",
       "answer": "perełko",
-      "explanation": "Kolęda „Lulajże, Jezuniu”. Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
-      "id": "tekst-2c4282d81b0c1269bfb8"
+      "explanation": "Kolęda „Lulajże, Jezuniu” (nagranie: Martyna Jakubowicz – Lulajże Jezuniu). Wystarczy sens dalszych słów – drobne różnice w wersji tekstu są w porządku.",
+      "id": "tekst-2c4282d81b0c1269bfb8",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/04/78/58/04785894-b8da-a604-42b5-1b465ffe4fac/mzaf_1202954328198226337.plus.aac.p.m4a",
+      "source": "https://music.apple.com/pl/album/lulaj%C5%BCe-jezuniu/488064877"
     }
   ]
 };

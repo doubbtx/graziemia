@@ -271,3 +271,16 @@ test('Every judged answer is announced with its kind for the screen flash',()=>{
  assert.deepEqual([room.lastAnswer.n,room.lastAnswer.kind],[2,'good']);
  assert.equal(publicState(room,room.players[0].id,6000).lastAnswer.n,2);
 });
+
+test('The next question is drawn in advance and its image is announced before the answer',()=>{
+ const room=startDuel(readyDuel());
+ room.duel.category='Flagi na obrazkach';room.duel.index=0;room.used['Flagi na obrazkach']=[0];room.duel.upcoming=null;
+ tick(room,4100);
+ const upcoming=room.duel.upcoming;
+ assert.ok(Number.isInteger(upcoming)&&upcoming!==0);
+ assert.equal(publicState(room,room.duel.adminId,4100).duel.nextImage,bank['Flagi na obrazkach'][upcoming].image);
+ answer(room,'good',5000);
+ assert.equal(room.duel.index,upcoming);
+ assert.ok(room.used['Flagi na obrazkach'].includes(upcoming));
+ assert.equal(new Set(room.used['Flagi na obrazkach']).size,room.used['Flagi na obrazkach'].length);
+});

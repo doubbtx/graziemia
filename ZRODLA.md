@@ -43,6 +43,7 @@ Listy klubów obejmują pięć ostatnich etapów kariery seniorskiej (z wypożyc
 - Przybliżenie: zdjęcia i obrazy (domena publiczna) z artykułów angielskiej Wikipedii (Wikimedia Commons, wolne licencje – autorzy na stronach plików), przycięte do 960×720 w public/zoom; link do artykułu w polu source. Kilka obrazków pochodzi z kategorii Minecraft.
 - Znane sklepy: logotypy z Wikimedia Commons i Wikipedii (znaki towarowe należą do ich właścicieli; użyte w celu rozpoznawania marek), umieszczone na białym tle w public/shops.
 - Popularne piosenki: 30-sekundowe fragmenty z serwerów Apple (iTunes) dla utworów z list Apple Music „Most Played” Polska i USA z 25.10.2026; pliki nie są przechowywane w projekcie.
+- Dokończ tekst: krótkie fragmenty tekstów znanych polskich piosenek (cytaty do zabawy) oraz 30-sekundowe podglądy nagrań z serwerów Apple (iTunes); pliki nie są przechowywane w projekcie.
 - Valorant – callouty: nazwy i położenie miejsc z valorant-api.com, zaznaczone na minimapach (public/valorant).
 
 ## Zdjęcia kosmetyków
