@@ -34,6 +34,9 @@ Listy klubów obejmują pięć ostatnich etapów kariery seniorskiej (z wypożyc
 
 - Postacie z gier, filmów i seriali: grafiki z artykułów Wikipedii (głównie ilustracje promocyjne objęte prawem autorskim właścicieli marek), wyświetlane jako odnośniki do serwerów Wikimedia, bez kopiowania do repozytorium. Wybrano postacie animowane, z gier, CGI i w kostiumach – bez zdjęć twarzy aktorów.
 
+- Zabytki świata: zdjęcia z artykułów Wikipedii (w większości z Wikimedia Commons na wolnych licencjach – autorzy na stronach plików); serwer gry przechowuje ich kopie w pamięci podręcznej.
+- Co kosztuje więcej?: ceny orientacyjne z lat 2025–2026; pary dobrano tak, by różnica była wyraźna niezależnie od sklepu.
+
 ## Zdjęcia kosmetyków
 - Tusz do rzęs: [Mascara de pestañas.jpg](https://commons.wikimedia.org/wiki/File:Mascara_de_pesta%C3%B1as.jpg)
 - Eyeliner: [Liquid eye liner.jpg](https://commons.wikimedia.org/wiki/File:Liquid_eye_liner.jpg)

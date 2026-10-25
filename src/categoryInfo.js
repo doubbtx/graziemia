@@ -50,10 +50,13 @@ const info = {
   'Co to za postać?': 'Rozpoznaj postać z gry, filmu albo serialu po obrazku.',
   'Bajki z dzieciństwa': 'Po obrazku postaci podaj tytuł bajki, z której pochodzi.',
   'Znane sklepy': 'Sieci sklepów: logotypy, maskotki, hasła i skąd pochodzą.',
+  'Co to za skrót?': 'Rozwiń skrót – instytucje, organizacje, medycyna, internet i skróty z języka polskiego.',
+  'Zabytki świata': 'Po zdjęciu rozpoznaj zabytek i powiedz, gdzie się znajduje.',
+  'Co kosztuje więcej?': 'Z dwóch rzeczy (A lub B) wskaż droższą – ceny orientacyjne z lat 2025–2026.',
   'Co to za dzień?': 'Podana jest data – powiedz, jakie święto lub dzień obchodzimy. Gdy tego dnia jest kilka świąt, wystarczy jedno z nich.',
 };
 // Categories where every question offers a fixed set of options.
-const choiceCategories = new Set(['Prawda/Fałsz', 'Więcej czy mniej?', 'Co było wcześniej?', 'Co tu nie pasuje?']);
+const choiceCategories = new Set(['Prawda/Fałsz', 'Więcej czy mniej?', 'Co było wcześniej?', 'Co tu nie pasuje?', 'Co kosztuje więcej?']);
 
 export const CHOICE_RULE = 'Pytanie z wyborem: zła odpowiedź oznacza pominięcie (−3 s) – nie można zgadywać drugi raz.';
 export const categoryDescription = category => info[category] || '';

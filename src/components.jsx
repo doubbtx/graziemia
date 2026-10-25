@@ -53,6 +53,9 @@ const categoryEmojis = {
   'bajki z dziecinstwa': '🧸',
   'znane sklepy': '🛒',
   'co to za dzien?': '📅',
+  'co to za skrot?': '🔠',
+  'zabytki swiata': '🏰',
+  'co kosztuje wiecej?': '💰',
 };
 
 export function getCategoryEmoji(category) {

@@ -32649,5 +32649,1697 @@ export const bank = {
       "visual": "📅 31 grudnia",
       "id": "dzien-ab7603c35364961e58fb"
     }
+  ],
+  "Co to za skrót?": [
+    {
+      "prompt": "Co oznacza skrót NATO?",
+      "answer": "Organizacja Traktatu Północnoatlantyckiego",
+      "visual": "NATO",
+      "id": "skrot-64eab117b3f946aaf3c6"
+    },
+    {
+      "prompt": "Co oznacza skrót ONZ?",
+      "answer": "Organizacja Narodów Zjednoczonych",
+      "visual": "ONZ",
+      "id": "skrot-35688776eebcf9d589b5"
+    },
+    {
+      "prompt": "Co oznacza skrót UE?",
+      "answer": "Unia Europejska",
+      "visual": "UE",
+      "id": "skrot-05012c709b290b804b62"
+    },
+    {
+      "prompt": "Co oznacza skrót USA?",
+      "answer": "Stany Zjednoczone Ameryki",
+      "visual": "USA",
+      "id": "skrot-18bc5956dbf1cc6c9a5b"
+    },
+    {
+      "prompt": "Co oznacza skrót PKP?",
+      "answer": "Polskie Koleje Państwowe",
+      "visual": "PKP",
+      "id": "skrot-9fc1cb4441e32e01701c"
+    },
+    {
+      "prompt": "Co oznacza skrót PKO?",
+      "answer": "Powszechna Kasa Oszczędności",
+      "visual": "PKO",
+      "id": "skrot-4ea4cc7ac684630aeff0"
+    },
+    {
+      "prompt": "Co oznacza skrót ZUS?",
+      "answer": "Zakład Ubezpieczeń Społecznych",
+      "visual": "ZUS",
+      "id": "skrot-2fb9208788a3e82f2781"
+    },
+    {
+      "prompt": "Co oznacza skrót NFZ?",
+      "answer": "Narodowy Fundusz Zdrowia",
+      "visual": "NFZ",
+      "id": "skrot-9a36db80b25b8b369294"
+    },
+    {
+      "prompt": "Co oznacza skrót PESEL?",
+      "answer": "Powszechny Elektroniczny System Ewidencji Ludności",
+      "visual": "PESEL",
+      "id": "skrot-6924654a7c3c8746dfdd"
+    },
+    {
+      "prompt": "Co oznacza skrót NIP?",
+      "answer": "Numer Identyfikacji Podatkowej",
+      "visual": "NIP",
+      "id": "skrot-0dc9b4b7b93c3b20c832"
+    },
+    {
+      "prompt": "Co oznacza skrót VAT?",
+      "answer": "Podatek od towarów i usług",
+      "visual": "VAT",
+      "id": "skrot-5f54ad7bf78bfc644706"
+    },
+    {
+      "prompt": "Co oznacza skrót PIT?",
+      "answer": "Podatek dochodowy od osób fizycznych",
+      "visual": "PIT",
+      "id": "skrot-21725587b1e7ba069dbe"
+    },
+    {
+      "prompt": "Co oznacza skrót PRL?",
+      "answer": "Polska Rzeczpospolita Ludowa",
+      "visual": "PRL",
+      "id": "skrot-842f01185ffcd6ba79ad"
+    },
+    {
+      "prompt": "Co oznacza skrót IPN?",
+      "answer": "Instytut Pamięci Narodowej",
+      "visual": "IPN",
+      "id": "skrot-66cf8c2b6a47558834d1"
+    },
+    {
+      "prompt": "Co oznacza skrót NBP?",
+      "answer": "Narodowy Bank Polski",
+      "visual": "NBP",
+      "id": "skrot-72e7703bcc54ced070f3"
+    },
+    {
+      "prompt": "Co oznacza skrót GUS?",
+      "answer": "Główny Urząd Statystyczny",
+      "visual": "GUS",
+      "id": "skrot-4257416b098faa54b42c"
+    },
+    {
+      "prompt": "Co oznacza skrót TVP?",
+      "answer": "Telewizja Polska",
+      "visual": "TVP",
+      "id": "skrot-f8a60b3a30da94d620df"
+    },
+    {
+      "prompt": "Co oznacza skrót PZPN?",
+      "answer": "Polski Związek Piłki Nożnej",
+      "visual": "PZPN",
+      "id": "skrot-1ded5fb941b652cbd876"
+    },
+    {
+      "prompt": "Co oznacza skrót SOR?",
+      "answer": "Szpitalny Oddział Ratunkowy",
+      "visual": "SOR",
+      "id": "skrot-bc0a43118775863fad90"
+    },
+    {
+      "prompt": "Co oznacza skrót EKG?",
+      "answer": "Elektrokardiogram",
+      "aliases": [
+        "Elektrokardiografia"
+      ],
+      "visual": "EKG",
+      "id": "skrot-da3260f0a8433b51c332"
+    },
+    {
+      "prompt": "Co oznacza skrót RTG?",
+      "answer": "Rentgen",
+      "aliases": [
+        "Zdjęcie rentgenowskie"
+      ],
+      "visual": "RTG",
+      "id": "skrot-07cec62d4a956162698e"
+    },
+    {
+      "prompt": "Co oznacza skrót DNA?",
+      "answer": "Kwas deoksyrybonukleinowy",
+      "visual": "DNA",
+      "id": "skrot-ecbf02604648fa0bba6b"
+    },
+    {
+      "prompt": "Co oznacza skrót WWW?",
+      "answer": "World Wide Web",
+      "aliases": [
+        "Ogólnoświatowa sieć"
+      ],
+      "visual": "WWW",
+      "id": "skrot-fa116350fe099a35d005"
+    },
+    {
+      "prompt": "Co oznacza skrót SMS?",
+      "answer": "Short Message Service",
+      "aliases": [
+        "Krótka wiadomość tekstowa"
+      ],
+      "visual": "SMS",
+      "id": "skrot-9e10d4517d5a2f4e8e56"
+    },
+    {
+      "prompt": "Co oznacza skrót LED?",
+      "answer": "Dioda elektroluminescencyjna",
+      "aliases": [
+        "Light-Emitting Diode"
+      ],
+      "visual": "LED",
+      "id": "skrot-ff13c9e7f8618ddae38a"
+    },
+    {
+      "prompt": "Co oznacza skrót LCD?",
+      "answer": "Wyświetlacz ciekłokrystaliczny",
+      "aliases": [
+        "Liquid Crystal Display"
+      ],
+      "visual": "LCD",
+      "id": "skrot-70704c6c487cae4233a5"
+    },
+    {
+      "prompt": "Co oznacza skrót FAQ?",
+      "answer": "Najczęściej zadawane pytania",
+      "aliases": [
+        "Frequently Asked Questions"
+      ],
+      "visual": "FAQ",
+      "id": "skrot-03688ba6aa340b875490"
+    },
+    {
+      "prompt": "Co oznacza skrót ASAP?",
+      "answer": "Tak szybko, jak to możliwe",
+      "aliases": [
+        "As soon as possible"
+      ],
+      "visual": "ASAP",
+      "id": "skrot-a32fa9d8beaf755624b6"
+    },
+    {
+      "prompt": "Co oznacza skrót DIY?",
+      "answer": "Zrób to sam",
+      "aliases": [
+        "Do it yourself"
+      ],
+      "visual": "DIY",
+      "id": "skrot-f7a50aeed6da7dad06b0"
+    },
+    {
+      "prompt": "Co oznacza skrót CEO?",
+      "answer": "Prezes zarządu",
+      "aliases": [
+        "Chief Executive Officer",
+        "Dyrektor generalny"
+      ],
+      "visual": "CEO",
+      "id": "skrot-7a9fec60195477c930a0"
+    },
+    {
+      "prompt": "Co oznacza skrót VIP?",
+      "answer": "Bardzo ważna osoba",
+      "aliases": [
+        "Very Important Person"
+      ],
+      "visual": "VIP",
+      "id": "skrot-944b88d06011c7c4cc9a"
+    },
+    {
+      "prompt": "Co oznacza skrót BTW?",
+      "answer": "Przy okazji",
+      "aliases": [
+        "By the way"
+      ],
+      "visual": "BTW",
+      "id": "skrot-803f385541476869eab1"
+    },
+    {
+      "prompt": "Co oznacza skrót UFO?",
+      "answer": "Niezidentyfikowany obiekt latający",
+      "aliases": [
+        "Unidentified Flying Object"
+      ],
+      "visual": "UFO",
+      "id": "skrot-52c47f4e700e5e53dadc"
+    },
+    {
+      "prompt": "Co oznacza skrót FBI?",
+      "answer": "Federalne Biuro Śledcze",
+      "visual": "FBI",
+      "id": "skrot-aa91214ab6cca295fb3f"
+    },
+    {
+      "prompt": "Co oznacza skrót NASA?",
+      "answer": "Narodowa Agencja Aeronautyki i Przestrzeni Kosmicznej",
+      "visual": "NASA",
+      "id": "skrot-61b9ba44a2241957f2fa"
+    },
+    {
+      "prompt": "Co oznacza skrót WHO?",
+      "answer": "Światowa Organizacja Zdrowia",
+      "visual": "WHO",
+      "id": "skrot-66be473b782f7d2832b0"
+    },
+    {
+      "prompt": "Co oznacza skrót UNESCO?",
+      "answer": "Organizacja Narodów Zjednoczonych do spraw Oświaty, Nauki i Kultury",
+      "visual": "UNESCO",
+      "id": "skrot-c8d3a5cf0c4a31fe7c2e"
+    },
+    {
+      "prompt": "Co oznacza skrót UEFA?",
+      "answer": "Unia Europejskich Związków Piłkarskich",
+      "visual": "UEFA",
+      "id": "skrot-bb9bc219dcedaabc0c66"
+    },
+    {
+      "prompt": "Co oznacza skrót FIFA?",
+      "answer": "Międzynarodowa Federacja Piłki Nożnej",
+      "visual": "FIFA",
+      "id": "skrot-9bc616caa108e3f968d7"
+    },
+    {
+      "prompt": "Co oznacza skrót MKOl?",
+      "answer": "Międzynarodowy Komitet Olimpijski",
+      "visual": "MKOl",
+      "id": "skrot-3e3254fd968ef32b10bf"
+    },
+    {
+      "prompt": "Co oznacza skrót SUV?",
+      "answer": "Samochód sportowo-użytkowy",
+      "aliases": [
+        "Sport Utility Vehicle"
+      ],
+      "visual": "SUV",
+      "id": "skrot-5194df627d4d83bae969"
+    },
+    {
+      "prompt": "Co oznacza skrót PIN?",
+      "answer": "Osobisty numer identyfikacyjny",
+      "aliases": [
+        "Personal Identification Number"
+      ],
+      "visual": "PIN",
+      "id": "skrot-3adadd31e712c2e9a892"
+    },
+    {
+      "prompt": "Co oznacza skrót p.n.e.?",
+      "answer": "Przed naszą erą",
+      "visual": "p.n.e.",
+      "id": "skrot-4c5f8d240f7b3afb3786"
+    },
+    {
+      "prompt": "Co oznacza skrót m.in.?",
+      "answer": "Między innymi",
+      "visual": "m.in.",
+      "id": "skrot-6487999febeb51508e9b"
+    },
+    {
+      "prompt": "Co oznacza skrót tzw.?",
+      "answer": "Tak zwany",
+      "visual": "tzw.",
+      "id": "skrot-09722a499ee6a14b174d"
+    },
+    {
+      "prompt": "Co oznacza skrót tj.?",
+      "answer": "To jest",
+      "visual": "tj.",
+      "id": "skrot-e6e8a48276d10754a7d9"
+    },
+    {
+      "prompt": "Co oznacza skrót wg?",
+      "answer": "Według",
+      "visual": "wg",
+      "id": "skrot-5aa1976eca1fee4e35c7"
+    },
+    {
+      "prompt": "Co oznacza skrót p.o.?",
+      "answer": "Pełniący obowiązki",
+      "visual": "p.o.",
+      "id": "skrot-eee8693c4f6d2e4b7475"
+    },
+    {
+      "prompt": "Co oznacza skrót PS?",
+      "answer": "Postscriptum",
+      "visual": "PS",
+      "id": "skrot-02543e7a69d67a10d877"
+    },
+    {
+      "prompt": "Co oznacza skrót RSVP?",
+      "answer": "Proszę o odpowiedź",
+      "aliases": [
+        "Répondez s’il vous plaît"
+      ],
+      "visual": "RSVP",
+      "id": "skrot-9e2ff6c5483cb39d97a4"
+    },
+    {
+      "prompt": "Co oznacza skrót AWF?",
+      "answer": "Akademia Wychowania Fizycznego",
+      "visual": "AWF",
+      "id": "skrot-3131ebef7c57d41f92e3"
+    },
+    {
+      "prompt": "Co oznacza skrót AGH?",
+      "answer": "Akademia Górniczo-Hutnicza",
+      "visual": "AGH",
+      "id": "skrot-154ad9980274b8501f94"
+    },
+    {
+      "prompt": "Co oznacza skrót UJ?",
+      "answer": "Uniwersytet Jagielloński",
+      "visual": "UJ",
+      "id": "skrot-1c10c344dc6e71ad09ff"
+    },
+    {
+      "prompt": "Co oznacza skrót ZOO?",
+      "answer": "Ogród zoologiczny",
+      "visual": "ZOO",
+      "id": "skrot-90886f6c0c43089b288b"
+    },
+    {
+      "prompt": "Co oznacza skrót MPK?",
+      "answer": "Miejskie Przedsiębiorstwo Komunikacyjne",
+      "visual": "MPK",
+      "id": "skrot-0401e151a47e4ca35b21"
+    },
+    {
+      "prompt": "Co oznacza skrót PKS?",
+      "answer": "Państwowa Komunikacja Samochodowa",
+      "visual": "PKS",
+      "id": "skrot-fc9a9eb99ed0e4fedb27"
+    },
+    {
+      "prompt": "Co oznacza skrót CPN?",
+      "answer": "Centrala Produktów Naftowych",
+      "visual": "CPN",
+      "id": "skrot-311cc4214fe03f551eb2"
+    },
+    {
+      "prompt": "Co oznacza skrót OC?",
+      "answer": "Odpowiedzialność cywilna",
+      "aliases": [
+        "Ubezpieczenie OC"
+      ],
+      "visual": "OC",
+      "id": "skrot-029f7aa30f4b11bf6808"
+    },
+    {
+      "prompt": "Co oznacza skrót AC?",
+      "answer": "Autocasco",
+      "visual": "AC",
+      "id": "skrot-b1fb3bec6fdb22e19a94"
+    },
+    {
+      "prompt": "Co oznacza skrót BHP?",
+      "answer": "Bezpieczeństwo i higiena pracy",
+      "visual": "BHP",
+      "id": "skrot-8edd42f4df055829d7cc"
+    },
+    {
+      "prompt": "Co oznacza skrót KRS?",
+      "answer": "Krajowy Rejestr Sądowy",
+      "visual": "KRS",
+      "id": "skrot-e05ec9c863a7d2881edc"
+    },
+    {
+      "prompt": "Co oznacza skrót CIA?",
+      "answer": "Centralna Agencja Wywiadowcza",
+      "visual": "CIA",
+      "id": "skrot-d5b519f94ca6097e2af7"
+    },
+    {
+      "prompt": "Co oznacza skrót OMG?",
+      "answer": "O mój Boże",
+      "aliases": [
+        "Oh my God"
+      ],
+      "visual": "OMG",
+      "id": "skrot-7982013e6d3b7ed14082"
+    },
+    {
+      "prompt": "Co oznacza skrót LOL?",
+      "answer": "Głośny śmiech",
+      "aliases": [
+        "Laughing out loud"
+      ],
+      "visual": "LOL",
+      "id": "skrot-8a30407962eeb19b309b"
+    }
+  ],
+  "Zabytki świata": [
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Koloseum (Rzym)",
+      "aliases": [
+        "Koloseum",
+        "Rzym"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/500px-Colosseo_2020.jpg",
+      "source": "https://en.wikipedia.org/wiki/Colosseum",
+      "id": "zabytek-173b1bdece5910a51171"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Krzywa Wieża w Pizie (Piza)",
+      "aliases": [
+        "Krzywa Wieża w Pizie",
+        "Piza"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Italy_-_Pisa_-_Leaning_Tower.jpg/500px-Italy_-_Pisa_-_Leaning_Tower.jpg",
+      "source": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa",
+      "id": "zabytek-60b8f5340a1b977c1ce8"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Sagrada Família (Barcelona)",
+      "aliases": [
+        "Sagrada Família",
+        "Barcelona"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/SF_maig_2_cropped.jpg/500px-SF_maig_2_cropped.jpg",
+      "source": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
+      "id": "zabytek-fe91e2ee3bc89487d022"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Big Ben (Londyn)",
+      "aliases": [
+        "Big Ben",
+        "Londyn"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Elizabeth_Tower_and_the_north_front_of_the_Palace_of_Westminster%2C_London.jpg/500px-Elizabeth_Tower_and_the_north_front_of_the_Palace_of_Westminster%2C_London.jpg",
+      "source": "https://en.wikipedia.org/wiki/Big_Ben",
+      "id": "zabytek-88e57436f9e7c0b7d35f"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Tower Bridge (Londyn)",
+      "aliases": [
+        "Tower Bridge",
+        "Londyn"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Tower_Bridge_at_Dawn.jpg/500px-Tower_Bridge_at_Dawn.jpg",
+      "source": "https://en.wikipedia.org/wiki/Tower_Bridge",
+      "id": "zabytek-47dcae0b4c8f3ef642b2"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Stonehenge (Wielka Brytania)",
+      "aliases": [
+        "Stonehenge",
+        "Wielka Brytania"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Stonehenge2007_07_30.jpg/500px-Stonehenge2007_07_30.jpg",
+      "source": "https://en.wikipedia.org/wiki/Stonehenge",
+      "id": "zabytek-33b0861c0ea2bb6f653d"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Partenon (Ateny)",
+      "aliases": [
+        "Partenon",
+        "Ateny"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/The_Parthenon_in_Athens.jpg/500px-The_Parthenon_in_Athens.jpg",
+      "source": "https://en.wikipedia.org/wiki/Parthenon",
+      "id": "zabytek-3fffa89228eb07c5b11a"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Statua Wolności (Nowy Jork)",
+      "aliases": [
+        "Statua Wolności",
+        "Nowy Jork"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Front_view_of_Statue_of_Liberty_%28cropped%29.jpg/500px-Front_view_of_Statue_of_Liberty_%28cropped%29.jpg",
+      "source": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+      "id": "zabytek-75494226bd5736d8fe85"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Most Golden Gate (San Francisco)",
+      "aliases": [
+        "Most Golden Gate",
+        "San Francisco"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Golden_Gate_Bridge_as_seen_from_Battery_East.jpg/500px-Golden_Gate_Bridge_as_seen_from_Battery_East.jpg",
+      "source": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge",
+      "id": "zabytek-85ce78a7d611c1da2762"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Opera w Sydney (Sydney)",
+      "aliases": [
+        "Opera w Sydney",
+        "Sydney"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Sydney_Opera_House_2026.jpg/500px-Sydney_Opera_House_2026.jpg",
+      "source": "https://en.wikipedia.org/wiki/Sydney_Opera_House",
+      "id": "zabytek-8db6265ac51fa3edca0c"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Tadż Mahal (Indie)",
+      "aliases": [
+        "Tadż Mahal",
+        "Indie"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/500px-Taj_Mahal_%28Edited%29.jpeg",
+      "source": "https://en.wikipedia.org/wiki/Taj_Mahal",
+      "id": "zabytek-1fed9be5dd7f5a8cf40a"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Wielki Mur Chiński (Chiny)",
+      "aliases": [
+        "Wielki Mur Chiński",
+        "Chiny"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/500px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
+      "source": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
+      "id": "zabytek-aa319526454636f177ba"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Machu Picchu (Peru)",
+      "aliases": [
+        "Machu Picchu",
+        "Peru"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Machu_Picchu%2C_2023_%28012%29.jpg/500px-Machu_Picchu%2C_2023_%28012%29.jpg",
+      "source": "https://en.wikipedia.org/wiki/Machu_Picchu",
+      "id": "zabytek-8d8e606563cb60ff87cc"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Chichén Itzá (Meksyk)",
+      "aliases": [
+        "Chichén Itzá",
+        "Meksyk"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Chichen_Itza_3.jpg/500px-Chichen_Itza_3.jpg",
+      "source": "https://en.wikipedia.org/wiki/Chichen_Itza",
+      "id": "zabytek-61c64c63af3e41564c38"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Chrystus Odkupiciel (Rio de Janeiro)",
+      "aliases": [
+        "Chrystus Odkupiciel",
+        "Rio de Janeiro"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Christ_the_Redeemer_-_Cristo_Redentor.jpg/500px-Christ_the_Redeemer_-_Cristo_Redentor.jpg",
+      "source": "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)",
+      "id": "zabytek-38d0b4e0da54fc634363"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Piramidy w Gizie (Egipt)",
+      "aliases": [
+        "Piramidy w Gizie",
+        "Egipt"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Pyramids_of_the_Giza_Necropolis.jpg/500px-Pyramids_of_the_Giza_Necropolis.jpg",
+      "source": "https://en.wikipedia.org/wiki/Giza_pyramid_complex",
+      "id": "zabytek-5284410ba9c4cbc23eb6"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Sfinks (Giza)",
+      "aliases": [
+        "Sfinks",
+        "Giza"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Sphinx_with_the_third_pyramid.jpg/500px-Sphinx_with_the_third_pyramid.jpg",
+      "source": "https://en.wikipedia.org/wiki/Great_Sphinx_of_Giza",
+      "id": "zabytek-b807a8a1b7cda4010c45"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Petra (Jordania)",
+      "aliases": [
+        "Petra",
+        "Jordania"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Al_Deir_Petra.JPG/500px-Al_Deir_Petra.JPG",
+      "source": "https://en.wikipedia.org/wiki/Petra",
+      "id": "zabytek-c963a6ac24844c7d7c20"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Zamek Neuschwanstein (Bawaria)",
+      "aliases": [
+        "Zamek Neuschwanstein",
+        "Bawaria"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Schloss_Neuschwanstein_2013.jpg/500px-Schloss_Neuschwanstein_2013.jpg",
+      "source": "https://en.wikipedia.org/wiki/Neuschwanstein_Castle",
+      "id": "zabytek-b3a96d8acf74408fc7a3"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Łuk Triumfalny (Paryż)",
+      "aliases": [
+        "Łuk Triumfalny",
+        "Paryż"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Arc_de_Triomphe_-_Ao%C3%BBt_2026.jpg/500px-Arc_de_Triomphe_-_Ao%C3%BBt_2026.jpg",
+      "source": "https://en.wikipedia.org/wiki/Arc_de_Triomphe",
+      "id": "zabytek-9e1ca9b432cad9a4a2b2"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Katedra Notre-Dame (Paryż)",
+      "aliases": [
+        "Katedra Notre-Dame",
+        "Paryż"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Notre-Dame_de_Paris%2C_4_October_2017.jpg/500px-Notre-Dame_de_Paris%2C_4_October_2017.jpg",
+      "source": "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris",
+      "id": "zabytek-e23f096a4d4868d64262"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Mont-Saint-Michel (Francja)",
+      "aliases": [
+        "Mont-Saint-Michel",
+        "Francja"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Mont-Saint-Michel_vu_du_ciel.jpg/500px-Mont-Saint-Michel_vu_du_ciel.jpg",
+      "source": "https://en.wikipedia.org/wiki/Mont-Saint-Michel",
+      "id": "zabytek-d11354acfbdbb8080025"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Piramida Luwru (Paryż)",
+      "aliases": [
+        "Piramida Luwru",
+        "Paryż"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/42/Louvre_Pyramid.jpg/500px-Louvre_Pyramid.jpg",
+      "source": "https://en.wikipedia.org/wiki/Louvre_Pyramid",
+      "id": "zabytek-c8a1f09450e9664ccffc"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Bazylika Świętego Piotra (Watykan)",
+      "aliases": [
+        "Bazylika Świętego Piotra",
+        "Watykan"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg/500px-Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg",
+      "source": "https://en.wikipedia.org/wiki/St._Peter's_Basilica",
+      "id": "zabytek-475c611ef735a6eed82b"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Fontanna di Trevi (Rzym)",
+      "aliases": [
+        "Fontanna di Trevi",
+        "Rzym"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Trevi_Fountain_-_Roma.jpg/500px-Trevi_Fountain_-_Roma.jpg",
+      "source": "https://en.wikipedia.org/wiki/Trevi_Fountain",
+      "id": "zabytek-df355f0df0ef05aa5f09"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Most Karola (Praga)",
+      "aliases": [
+        "Most Karola",
+        "Praga"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Prague_07-2016_view_from_Lesser_Town_Tower_of_Charles_Bridge_img3.jpg/500px-Prague_07-2016_view_from_Lesser_Town_Tower_of_Charles_Bridge_img3.jpg",
+      "source": "https://en.wikipedia.org/wiki/Charles_Bridge",
+      "id": "zabytek-c018808535f42005cf00"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Atomium (Bruksela)",
+      "aliases": [
+        "Atomium",
+        "Bruksela"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/The_Atomium_during_civil_twilight_%28DSCF1135%29.jpg/500px-The_Atomium_during_civil_twilight_%28DSCF1135%29.jpg",
+      "source": "https://en.wikipedia.org/wiki/Atomium",
+      "id": "zabytek-e929d6e5200cf3fe71a3"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Alhambra (Grenada)",
+      "aliases": [
+        "Alhambra",
+        "Grenada"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg/500px-Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg",
+      "source": "https://en.wikipedia.org/wiki/Alhambra",
+      "id": "zabytek-96873ea2f98c95e0f43e"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Pałac Buckingham (Londyn)",
+      "aliases": [
+        "Pałac Buckingham",
+        "Londyn"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Buckingham_Palace_London_Morning_2020_01_%28cropped%29.jpg/500px-Buckingham_Palace_London_Morning_2020_01_%28cropped%29.jpg",
+      "source": "https://en.wikipedia.org/wiki/Buckingham_Palace",
+      "id": "zabytek-7049f32f86c860741425"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Panteon (Rzym)",
+      "aliases": [
+        "Panteon",
+        "Rzym"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Pantheon_%28Rome%29_-_Right_side_and_front.jpg/500px-Pantheon_%28Rome%29_-_Right_side_and_front.jpg",
+      "source": "https://en.wikipedia.org/wiki/Pantheon%2C_Rome",
+      "id": "zabytek-2aea3980bab59af063b3"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Posągi Moai (Wyspa Wielkanocna)",
+      "aliases": [
+        "Posągi Moai",
+        "Wyspa Wielkanocna"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/AhuTongariki.JPG/500px-AhuTongariki.JPG",
+      "source": "https://en.wikipedia.org/wiki/Moai",
+      "id": "zabytek-79a1139f3c5c423fa3ce"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Pałac w Wersalu (Wersal)",
+      "aliases": [
+        "Pałac w Wersalu",
+        "Wersal"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Vue_a%C3%A9rienne_du_domaine_de_Versailles_par_ToucanWings_-_Creative_Commons_By_Sa_3.0_-_081_%28cropped%29.jpg/500px-Vue_a%C3%A9rienne_du_domaine_de_Versailles_par_ToucanWings_-_Creative_Commons_By_Sa_3.0_-_081_%28cropped%29.jpg",
+      "source": "https://en.wikipedia.org/wiki/Palace_of_Versailles",
+      "id": "zabytek-48feefbe989aea96feaf"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Burdż al-Arab (Dubaj)",
+      "aliases": [
+        "Burdż al-Arab",
+        "Dubaj"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/2/2a/Burj_Al_Arab%2C_Dubai%2C_by_Joi_Ito_Dec2007.jpg/500px-Burj_Al_Arab%2C_Dubai%2C_by_Joi_Ito_Dec2007.jpg",
+      "source": "https://en.wikipedia.org/wiki/Burj_Al_Arab",
+      "id": "zabytek-0c815d1dc9bb9b7f27db"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Marina Bay Sands (Singapur)",
+      "aliases": [
+        "Marina Bay Sands",
+        "Singapur"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Marina_Bay_Sands_%28I%29.jpg/500px-Marina_Bay_Sands_%28I%29.jpg",
+      "source": "https://en.wikipedia.org/wiki/Marina_Bay_Sands",
+      "id": "zabytek-9a469278ff801fe119b5"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Borobudur (Indonezja)",
+      "aliases": [
+        "Borobudur",
+        "Indonezja"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Pradaksina.jpg/500px-Pradaksina.jpg",
+      "source": "https://en.wikipedia.org/wiki/Borobudur",
+      "id": "zabytek-a4ecfdc3ed21dc828de3"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Pałac Potala (Lhasa)",
+      "aliases": [
+        "Pałac Potala",
+        "Lhasa"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Potala_Palace_HQ.jpg/500px-Potala_Palace_HQ.jpg",
+      "source": "https://en.wikipedia.org/wiki/Potala_Palace",
+      "id": "zabytek-db8eda8f8540f6ec1ef8"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Brama Indii (Mumbaj)",
+      "aliases": [
+        "Brama Indii",
+        "Mumbaj"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/500px-Mumbai_03-2016_30_Gateway_of_India.jpg",
+      "source": "https://en.wikipedia.org/wiki/Gateway_of_India",
+      "id": "zabytek-0f536d4583bad25dd0d5"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Kapitol (Waszyngton)",
+      "aliases": [
+        "Kapitol",
+        "Waszyngton"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/US_Capitol_east_side.JPG/500px-US_Capitol_east_side.JPG",
+      "source": "https://en.wikipedia.org/wiki/United_States_Capitol",
+      "id": "zabytek-41f852caee7a673a4894"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Biały Dom (Waszyngton)",
+      "aliases": [
+        "Biały Dom",
+        "Waszyngton"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/White_House_north_and_south_sides.jpg/500px-White_House_north_and_south_sides.jpg",
+      "source": "https://en.wikipedia.org/wiki/White_House",
+      "id": "zabytek-2b534b0c4bd795ab201b"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Zamek Królewski na Wawelu (Kraków)",
+      "aliases": [
+        "Zamek Królewski na Wawelu",
+        "Kraków"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Wawel_%284%29.jpg/500px-Wawel_%284%29.jpg",
+      "source": "https://en.wikipedia.org/wiki/Wawel_Castle",
+      "id": "zabytek-f377485cf3fbec1f0bd9"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Zamek w Malborku (Malbork)",
+      "aliases": [
+        "Zamek w Malborku",
+        "Malbork"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Zesp%C3%B3%C5%82_Zamku_Krzy%C5%BCackiego_MALBORK_01.jpg/500px-Zesp%C3%B3%C5%82_Zamku_Krzy%C5%BCackiego_MALBORK_01.jpg",
+      "source": "https://en.wikipedia.org/wiki/Malbork_Castle",
+      "id": "zabytek-61e94e1ecb6ddbf05528"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Pałac Kultury i Nauki (Warszawa)",
+      "aliases": [
+        "Pałac Kultury i Nauki",
+        "Warszawa"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Pa%C5%82ac_Kultury_i_Nauki_24-05-2026.jpg/500px-Pa%C5%82ac_Kultury_i_Nauki_24-05-2026.jpg",
+      "source": "https://en.wikipedia.org/wiki/Palace_of_Culture_and_Science",
+      "id": "zabytek-79336bc3d28297f06788"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Sukiennice (Kraków)",
+      "aliases": [
+        "Sukiennice",
+        "Kraków"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/20200516_Sukiennice_w_Krakowie_0909_9963.jpg/500px-20200516_Sukiennice_w_Krakowie_0909_9963.jpg",
+      "source": "https://en.wikipedia.org/wiki/Cloth_Hall%2C_Krak%C3%B3w",
+      "id": "zabytek-6b64726588bca7603119"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Kopalnia Soli w Wieliczce (Wieliczka)",
+      "aliases": [
+        "Kopalnia Soli w Wieliczce",
+        "Wieliczka"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/%CE%91%CE%BB%CE%B1%CF%84%CF%89%CF%81%CF%85%CF%87%CE%B5%CE%AF%CE%B1_%CE%92%CE%B9%CE%B5%CE%BB%CE%AF%CF%84%CF%83%CE%BA%CE%B1_5021.jpg/500px-%CE%91%CE%BB%CE%B1%CF%84%CF%89%CF%81%CF%85%CF%87%CE%B5%CE%AF%CE%B1_%CE%92%CE%B9%CE%B5%CE%BB%CE%AF%CF%84%CF%83%CE%BA%CE%B1_5021.jpg",
+      "source": "https://en.wikipedia.org/wiki/Wieliczka_Salt_Mine",
+      "id": "zabytek-024a35ee807b293b6974"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Space Needle (Seattle)",
+      "aliases": [
+        "Space Needle",
+        "Seattle"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Space_Needle_2011-07-04.jpg/500px-Space_Needle_2011-07-04.jpg",
+      "source": "https://en.wikipedia.org/wiki/Space_Needle",
+      "id": "zabytek-16c7112ac2f6a4dfb883"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Bazylika Sacré-Cœur (Paryż)",
+      "aliases": [
+        "Bazylika Sacré-Cœur",
+        "Paryż"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Le_sacre_coeur.jpg/500px-Le_sacre_coeur.jpg",
+      "source": "https://en.wikipedia.org/wiki/Sacr%C3%A9-C%C5%93ur%2C_Paris",
+      "id": "zabytek-ef281a889d61cf8d619f"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Most Rialto (Wenecja)",
+      "aliases": [
+        "Most Rialto",
+        "Wenecja"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Rialto_2025_4.jpg/500px-Rialto_2025_4.jpg",
+      "source": "https://en.wikipedia.org/wiki/Rialto_Bridge",
+      "id": "zabytek-bc06eb1a9bb7e906e845"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Bazylika Świętego Marka (Wenecja)",
+      "aliases": [
+        "Bazylika Świętego Marka",
+        "Wenecja"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Venezia_Basilica_di_San_Marco_Fassade_2.jpg/500px-Venezia_Basilica_di_San_Marco_Fassade_2.jpg",
+      "source": "https://en.wikipedia.org/wiki/St._Mark's_Basilica",
+      "id": "zabytek-4e6a386566597fc5b4cb"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Tower of London (Londyn)",
+      "aliases": [
+        "Tower of London",
+        "Londyn"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Tower_of_London_from_the_Shard_%288515883950%29.jpg/500px-Tower_of_London_from_the_Shard_%288515883950%29.jpg",
+      "source": "https://en.wikipedia.org/wiki/Tower_of_London",
+      "id": "zabytek-d56d8e0dfb78ca2961b4"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Zamek w Edynburgu (Edynburg)",
+      "aliases": [
+        "Zamek w Edynburgu",
+        "Edynburg"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/City_of_Edinburgh_-_Edinburgh_Castle_-_20140421004403.jpg/500px-City_of_Edinburgh_-_Edinburgh_Castle_-_20140421004403.jpg",
+      "source": "https://en.wikipedia.org/wiki/Edinburgh_Castle",
+      "id": "zabytek-f4331b65cb60d3ccaa3f"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Zamek na Hradczanach (Praga)",
+      "aliases": [
+        "Zamek na Hradczanach",
+        "Praga"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Karl%C5%AFv_most_Praha%2C_Star%C3%A9_M%C4%9Bsto_20170810_007.jpg/500px-Karl%C5%AFv_most_Praha%2C_Star%C3%A9_M%C4%9Bsto_20170810_007.jpg",
+      "source": "https://en.wikipedia.org/wiki/Prague_Castle",
+      "id": "zabytek-e14ffe591a8b4ea93ec2"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Parlament w Budapeszcie (Budapeszt)",
+      "aliases": [
+        "Parlament w Budapeszcie",
+        "Budapeszt"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Hungarian_Parliament_Building_from_across_the_Danube%2C_2025-01-11.jpg/500px-Hungarian_Parliament_Building_from_across_the_Danube%2C_2025-01-11.jpg",
+      "source": "https://en.wikipedia.org/wiki/Hungarian_Parliament_Building",
+      "id": "zabytek-435bb7f526b9ae67042a"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Świątynia Lotosu (Nowe Delhi)",
+      "aliases": [
+        "Świątynia Lotosu",
+        "Nowe Delhi"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/LotusDelhi.jpg/500px-LotusDelhi.jpg",
+      "source": "https://en.wikipedia.org/wiki/Lotus_Temple",
+      "id": "zabytek-438505f0b488e3bce917"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Abu Simbel (Egipt)",
+      "aliases": [
+        "Abu Simbel",
+        "Egipt"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Ramsis%2C_Aswan_Governorate%2C_Egypt_-_panoramio.jpg/500px-Ramsis%2C_Aswan_Governorate%2C_Egypt_-_panoramio.jpg",
+      "source": "https://en.wikipedia.org/wiki/Abu_Simbel",
+      "id": "zabytek-1cbcd1777685156e7263"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Wielki Meczet w Dżenne (Mali)",
+      "aliases": [
+        "Wielki Meczet w Dżenne",
+        "Mali"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Djenne_great_mud_mosque.jpg/500px-Djenne_great_mud_mosque.jpg",
+      "source": "https://en.wikipedia.org/wiki/Great_Mosque_of_Djenn%C3%A9",
+      "id": "zabytek-6a2e1a185678b117b8aa"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Burdż Chalifa (Dubaj)",
+      "aliases": [
+        "Burdż Chalifa",
+        "Dubaj"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Burj_Khalifa_%28worlds_tallest_building%29_and_the_Dubai_skyline_%2825781049892%29.jpg/500px-Burj_Khalifa_%28worlds_tallest_building%29_and_the_Dubai_skyline_%2825781049892%29.jpg",
+      "source": "https://en.wikipedia.org/wiki/Burj_Khalifa",
+      "id": "zabytek-1878a7e298d61fcdfdec"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Brama Brandenburska (Berlin)",
+      "aliases": [
+        "Brama Brandenburska",
+        "Berlin"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Brandenburger_Tor_abends.jpg/500px-Brandenburger_Tor_abends.jpg",
+      "source": "https://en.wikipedia.org/wiki/Brandenburg_Gate",
+      "id": "zabytek-ab103863f8de40aff931"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Hagia Sophia (Stambuł)",
+      "aliases": [
+        "Hagia Sophia",
+        "Stambuł"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Hagia_Sophia_%28228968325%29.jpeg/500px-Hagia_Sophia_%28228968325%29.jpeg",
+      "source": "https://en.wikipedia.org/wiki/Hagia_Sophia",
+      "id": "zabytek-c645218f13c109e858d2"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Sobór Wasyla Błogosławionego (Moskwa)",
+      "aliases": [
+        "Sobór Wasyla Błogosławionego",
+        "Moskwa"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Saint_Basil%27s_Cathedral_in_Moscow.jpg/500px-Saint_Basil%27s_Cathedral_in_Moscow.jpg",
+      "source": "https://en.wikipedia.org/wiki/Saint_Basil's_Cathedral",
+      "id": "zabytek-e9107e100ca79075eb19"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Angkor Wat (Kambodża)",
+      "aliases": [
+        "Angkor Wat",
+        "Kambodża"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Angkor_Wat.jpg/500px-Angkor_Wat.jpg",
+      "source": "https://en.wikipedia.org/wiki/Angkor_Wat",
+      "id": "zabytek-ad9250a6fc890f11e220"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Mount Rushmore (USA)",
+      "aliases": [
+        "Mount Rushmore",
+        "USA"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Mount_Rushmore_detail_view_%28100MP%29.jpg/500px-Mount_Rushmore_detail_view_%28100MP%29.jpg",
+      "source": "https://en.wikipedia.org/wiki/Mount_Rushmore",
+      "id": "zabytek-85cef45e6ec858d59895"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Katedra w Kolonii (Kolonia)",
+      "aliases": [
+        "Katedra w Kolonii",
+        "Kolonia"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/K%C3%B6lner_Dom_-_Westfassade_2022_ohne_Ger%C3%BCst-0968_b.jpg/500px-K%C3%B6lner_Dom_-_Westfassade_2022_ohne_Ger%C3%BCst-0968_b.jpg",
+      "source": "https://en.wikipedia.org/wiki/Cologne_Cathedral",
+      "id": "zabytek-9f78b23b499a36dc3bf5"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Opactwo Westminsterskie (Londyn)",
+      "aliases": [
+        "Opactwo Westminsterskie",
+        "Londyn"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Westminster_Abbey%2C_Westminster.jpg/500px-Westminster_Abbey%2C_Westminster.jpg",
+      "source": "https://en.wikipedia.org/wiki/Westminster_Abbey",
+      "id": "zabytek-d90b4f32454adaf821c3"
+    },
+    {
+      "prompt": "Co to za zabytek i gdzie się znajduje?",
+      "answer": "Złoty Pawilon (Kinkaku-ji) (Kioto)",
+      "aliases": [
+        "Złoty Pawilon (Kinkaku-ji)",
+        "Kioto"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Golden_Pavilion_Kinkaku-ji_water_mirror_2024.jpg/500px-Golden_Pavilion_Kinkaku-ji_water_mirror_2024.jpg",
+      "source": "https://en.wikipedia.org/wiki/Kinkaku-ji",
+      "id": "zabytek-b573098188c6aec22c69"
+    }
+  ],
+  "Co kosztuje więcej?": [
+    {
+      "prompt": "Co kosztuje więcej?\nA: Kilogram kawy ziarnistej\nB: Kilogram cukru",
+      "answer": "A",
+      "aliases": [
+        "Kilogram kawy ziarnistej"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 80–150 zł; B – ok. 4 zł.",
+      "id": "cena-b12b2b455c79c2af8e88"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Litr benzyny\nB: Litr mleka",
+      "answer": "A",
+      "aliases": [
+        "Litr benzyny"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 6 zł; B – ok. 3,5 zł.",
+      "id": "cena-2078e6acb6f506b46c80"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Nowy podstawowy iPhone\nB: Konsola PlayStation 5",
+      "answer": "A",
+      "aliases": [
+        "Nowy podstawowy iPhone"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 4000 zł; B – ok. 2300 zł.",
+      "id": "cena-634ea3948b32f3472a66"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Kilogram masła\nB: Kilogram ziemniaków",
+      "answer": "A",
+      "aliases": [
+        "Kilogram masła"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 40 zł; B – ok. 3 zł.",
+      "id": "cena-8bf1ff6bf53c62612400"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Gram złota\nB: Gram srebra",
+      "answer": "A",
+      "aliases": [
+        "Gram złota"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – kilkaset zł; B – kilka zł.",
+      "id": "cena-ac663cb637948de97962"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Kilogram łososia\nB: Kilogram filetu z kurczaka",
+      "answer": "A",
+      "aliases": [
+        "Kilogram łososia"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 80 zł; B – ok. 25 zł.",
+      "id": "cena-97e5ea86275073ab44ac"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Kilogram szafranu\nB: Kilogram srebra",
+      "answer": "A",
+      "aliases": [
+        "Kilogram szafranu"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – kilkadziesiąt tys. zł; B – kilka tys. zł.",
+      "id": "cena-6579cf2c6c737cc75188"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Kilogram białych trufli\nB: Kilogram złota",
+      "answer": "B",
+      "aliases": [
+        "Kilogram złota"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – kilkanaście tys. zł; B – kilkaset tys. zł.",
+      "id": "cena-56591d147946489cd97a"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Nowy Fiat 500\nB: Nowa Tesla Model 3",
+      "answer": "B",
+      "aliases": [
+        "Nowa Tesla Model 3"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 80–100 tys. zł; B – ok. 180 tys. zł.",
+      "id": "cena-c05211b49df111554987"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Zegarek Rolex Submariner\nB: Najnowszy iPhone Pro",
+      "answer": "A",
+      "aliases": [
+        "Zegarek Rolex Submariner"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – kilkadziesiąt tys. zł; B – ok. 6 tys. zł.",
+      "id": "cena-a40dec13deb945112877"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Kilogram truskawek w styczniu\nB: Kilogram truskawek w czerwcu",
+      "answer": "A",
+      "aliases": [
+        "Kilogram truskawek w styczniu"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – drogie z importu; B – tanie w sezonie.",
+      "id": "cena-5ae1f28dbc1122afa2fa"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Litr wody mineralnej\nB: Litr oleju silnikowego",
+      "answer": "B",
+      "aliases": [
+        "Litr oleju silnikowego"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 2 zł; B – ok. 40 zł.",
+      "id": "cena-20d810909b334e7b652e"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Kilogram kawioru\nB: Kilogram łososia",
+      "answer": "A",
+      "aliases": [
+        "Kilogram kawioru"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – kilka–kilkanaście tys. zł; B – ok. 80 zł.",
+      "id": "cena-4407fcebe0c41463f36a"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Budowa Stadionu Narodowego\nB: Budowa Burdż Chalifa",
+      "answer": "B",
+      "aliases": [
+        "Budowa Burdż Chalifa"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 2 mld zł; B – ok. 1,5 mld USD (ok. 6 mld zł).",
+      "id": "cena-3d4bdc1c43c806569dfa"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Najdroższy obraz świata („Salvator Mundi”)\nB: Transfer Neymara do PSG",
+      "answer": "A",
+      "aliases": [
+        "Najdroższy obraz świata („Salvator Mundi”)"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 450 mln USD; B – ok. 222 mln euro.",
+      "id": "cena-61e8fed5b7dc6f07bafb"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Transfer Neymara do PSG\nB: Przejście Mbappé do Realu Madryt",
+      "answer": "A",
+      "aliases": [
+        "Transfer Neymara do PSG"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – 222 mln euro; B – bez kwoty odstępnego – był wolnym zawodnikiem.",
+      "id": "cena-cd6c15eaca80d88c06d9"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Roczny abonament Netflix Standard\nB: Konsola PlayStation 5",
+      "answer": "B",
+      "aliases": [
+        "Konsola PlayStation 5"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 600 zł; B – ok. 2300 zł.",
+      "id": "cena-2ce81a872426101efaa0"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Kilogram polędwicy wołowej\nB: Kilogram schabu",
+      "answer": "A",
+      "aliases": [
+        "Kilogram polędwicy wołowej"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 150 zł; B – ok. 25 zł.",
+      "id": "cena-eb14dae1b1a9466563b5"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Kilogram pistacji\nB: Kilogram orzeszków ziemnych",
+      "answer": "A",
+      "aliases": [
+        "Kilogram pistacji"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 100 zł; B – ok. 20 zł.",
+      "id": "cena-19d950ccc1a6bf39f287"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Litr perfum Chanel N°5\nB: Litr szampana Dom Pérignon",
+      "answer": "A",
+      "aliases": [
+        "Litr perfum Chanel N°5"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 7 tys. zł; B – ok. 1,3 tys. zł.",
+      "id": "cena-ce8aa9129b963804fb07"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Litr tuszu do drukarki (w nabojach)\nB: Litr szampana Dom Pérignon",
+      "answer": "A",
+      "aliases": [
+        "Litr tuszu do drukarki (w nabojach)"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – kilka–kilkanaście tys. zł; B – ok. 1,3 tys. zł.",
+      "id": "cena-ac428d55f686306039b0"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Kilogram herbaty matcha\nB: Kilogram zwykłej kawy",
+      "answer": "A",
+      "aliases": [
+        "Kilogram herbaty matcha"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 400–1000 zł; B – ok. 80 zł.",
+      "id": "cena-d0c46a7b307c42d63821"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Kilogram lasek wanilii\nB: Kilogram kakao w proszku",
+      "answer": "A",
+      "aliases": [
+        "Kilogram lasek wanilii"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – kilka tys. zł; B – ok. 60 zł.",
+      "id": "cena-fc2e61b1c52f16ac174e"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Kurs prawa jazdy kategorii B\nB: Smartfon ze średniej półki",
+      "answer": "A",
+      "aliases": [
+        "Kurs prawa jazdy kategorii B"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 3–4 tys. zł; B – ok. 1,5 tys. zł.",
+      "id": "cena-13e248684c59b58b7f50"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Rok studiów na Harvardzie\nB: Nowa Toyota Corolla",
+      "answer": "A",
+      "aliases": [
+        "Rok studiów na Harvardzie"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 55 tys. USD; B – ok. 110 tys. zł (ok. 28 tys. USD).",
+      "id": "cena-a6df25943b375735a2ca"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Uncja złota\nB: Najnowszy iPhone Pro",
+      "answer": "A",
+      "aliases": [
+        "Uncja złota"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ponad 3 tys. USD; B – ok. 1,2 tys. USD.",
+      "id": "cena-fe62c200d7f30d2874ad"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Roczny abonament Spotify Premium\nB: Słuchawki AirPods Pro",
+      "answer": "B",
+      "aliases": [
+        "Słuchawki AirPods Pro"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 300 zł; B – ok. 1,1 tys. zł.",
+      "id": "cena-56305c337307c54e28eb"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Plomba u dentysty\nB: Strzyżenie męskie",
+      "answer": "A",
+      "aliases": [
+        "Plomba u dentysty"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 250 zł; B – ok. 60 zł.",
+      "id": "cena-487d2d43eda87c2e7c4e"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Kilogram awokado\nB: Kilogram ziemniaków",
+      "answer": "A",
+      "aliases": [
+        "Kilogram awokado"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 25 zł; B – ok. 3 zł.",
+      "id": "cena-fabef17892a665e5a2df"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Kilogram krewetek\nB: Kilogram mięsa mielonego",
+      "answer": "A",
+      "aliases": [
+        "Kilogram krewetek"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 80 zł; B – ok. 25 zł.",
+      "id": "cena-f96fc0cf18e82ae927cd"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Nowy Rolls-Royce Phantom\nB: Mieszkanie 50 m² w Krakowie",
+      "answer": "A",
+      "aliases": [
+        "Nowy Rolls-Royce Phantom"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 2,5 mln zł; B – ok. 0,8 mln zł.",
+      "id": "cena-df617576127a4b45c307"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Kilogram miodu manuka\nB: Kilogram miodu wielokwiatowego",
+      "answer": "A",
+      "aliases": [
+        "Kilogram miodu manuka"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – kilkaset zł; B – ok. 50 zł.",
+      "id": "cena-566ab35886de8d75412a"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Diament 1 karat\nB: Złoty łańcuszek 5 g",
+      "answer": "A",
+      "aliases": [
+        "Diament 1 karat"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – kilkanaście–kilkadziesiąt tys. zł; B – ok. 2–3 tys. zł.",
+      "id": "cena-eb29d46486534314df99"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: LEGO Millennium Falcon (edycja kolekcjonerska)\nB: Konsola PlayStation 5",
+      "answer": "A",
+      "aliases": [
+        "LEGO Millennium Falcon (edycja kolekcjonerska)"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 3,5 tys. zł; B – ok. 2,3 tys. zł.",
+      "id": "cena-9d3b208a55f3c169096e"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Karta graficzna RTX 5090\nB: Konsola PlayStation 5",
+      "answer": "A",
+      "aliases": [
+        "Karta graficzna RTX 5090"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 10–12 tys. zł; B – ok. 2,3 tys. zł.",
+      "id": "cena-66a5b8a085ed2ba34dc0"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Kilogram kawy kopi luwak\nB: Kilogram zwykłej kawy",
+      "answer": "A",
+      "aliases": [
+        "Kilogram kawy kopi luwak"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – kilka tys. zł; B – ok. 80 zł.",
+      "id": "cena-1ba6e784b020cb4799c9"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Butelka wody na lotnisku\nB: Butelka wody w osiedlowym sklepie",
+      "answer": "A",
+      "aliases": [
+        "Butelka wody na lotnisku"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – kilkanaście zł; B – ok. 2 zł.",
+      "id": "cena-ba594c07c7d3ffee99c9"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Big Mac w Szwajcarii\nB: Big Mac w Polsce",
+      "answer": "A",
+      "aliases": [
+        "Big Mac w Szwajcarii"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 30 zł; B – ok. 20 zł.",
+      "id": "cena-b927f5b7a7cf2f34bd0b"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Piwo w barze w Norwegii\nB: Piwo w barze w Polsce",
+      "answer": "A",
+      "aliases": [
+        "Piwo w barze w Norwegii"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 50 zł; B – ok. 15 zł.",
+      "id": "cena-b600b7359ab004560ad4"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Bilet do kina IMAX\nB: Bilet do zwykłego kina",
+      "answer": "A",
+      "aliases": [
+        "Bilet do kina IMAX"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 40 zł; B – ok. 25 zł.",
+      "id": "cena-f09bb5c445b83c925426"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Zegarek Casio F-91W\nB: Apple Watch",
+      "answer": "B",
+      "aliases": [
+        "Apple Watch"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 100 zł; B – ok. 2 tys. zł.",
+      "id": "cena-1f629b8d87018e72e2c0"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: OC samochodu 20-letniego kierowcy\nB: OC samochodu 40-letniego kierowcy",
+      "answer": "A",
+      "aliases": [
+        "OC samochodu 20-letniego kierowcy"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – młodzi płacą wielokrotnie więcej; B – zwykle znacznie mniej.",
+      "id": "cena-341d0dfd1f11d6ab5dd4"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Lot z Warszawy do Nowego Jorku\nB: Lot z Warszawy do Berlina",
+      "answer": "A",
+      "aliases": [
+        "Lot z Warszawy do Nowego Jorku"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – kilka tys. zł; B – kilkaset zł.",
+      "id": "cena-7ac0b2c2653cbbecb28a"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Metr kwadratowy mieszkania w Warszawie\nB: Metr kwadratowy mieszkania w Łodzi",
+      "answer": "A",
+      "aliases": [
+        "Metr kwadratowy mieszkania w Warszawie"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 17 tys. zł; B – ok. 9 tys. zł.",
+      "id": "cena-ee8e44be04c93451d4e8"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Metr kwadratowy mieszkania w Londynie\nB: Metr kwadratowy mieszkania w Warszawie",
+      "answer": "A",
+      "aliases": [
+        "Metr kwadratowy mieszkania w Londynie"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 50 tys. zł; B – ok. 17 tys. zł.",
+      "id": "cena-9e98fb98772fb242e1c2"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Kawa w Starbucks\nB: Kawa z automatu",
+      "answer": "A",
+      "aliases": [
+        "Kawa w Starbucks"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 20 zł; B – ok. 5 zł.",
+      "id": "cena-a65d4f3f9ca01e6a7b9c"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Bilet normalny do kina w Londynie\nB: Bilet normalny do kina w Polsce",
+      "answer": "A",
+      "aliases": [
+        "Bilet normalny do kina w Londynie"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 70 zł; B – ok. 25 zł.",
+      "id": "cena-bd5addd6c5edeeb72629"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Kilogram jagód goji\nB: Kilogram jabłek",
+      "answer": "A",
+      "aliases": [
+        "Kilogram jagód goji"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 60 zł; B – ok. 4 zł.",
+      "id": "cena-c4d910bc9c9ab6f64f22"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Butelka szampana Dom Pérignon\nB: Butelka zwykłego wina musującego",
+      "answer": "A",
+      "aliases": [
+        "Butelka szampana Dom Pérignon"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 1000 zł; B – ok. 30 zł.",
+      "id": "cena-751a31cd4ff903fd7e07"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Kilogram czekolady pralinowej z butiku\nB: Kilogram czekolady z dyskontu",
+      "answer": "A",
+      "aliases": [
+        "Kilogram czekolady pralinowej z butiku"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 300 zł; B – ok. 30 zł.",
+      "id": "cena-a3e663e02d7f2cb8e92d"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Bilet na finał Ligi Mistrzów\nB: Bilet na mecz Ekstraklasy",
+      "answer": "A",
+      "aliases": [
+        "Bilet na finał Ligi Mistrzów"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – od kilkuset do kilku tys. euro; B – ok. 50 zł.",
+      "id": "cena-58fcb7428ed9326fe603"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Rower szosowy z najwyższej półki\nB: Skuter 50 cm³",
+      "answer": "A",
+      "aliases": [
+        "Rower szosowy z najwyższej półki"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – kilkadziesiąt tys. zł; B – ok. 6–8 tys. zł.",
+      "id": "cena-c871df6af0c058fd06f7"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Wymiana ekranu w iPhonie Pro\nB: Wymiana baterii w iPhonie",
+      "answer": "A",
+      "aliases": [
+        "Wymiana ekranu w iPhonie Pro"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 1,5 tys. zł; B – ok. 500 zł.",
+      "id": "cena-042c4c3690d0451bb1e2"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Kilogram suszonych grzybów borowików\nB: Kilogram pieczarek",
+      "answer": "A",
+      "aliases": [
+        "Kilogram suszonych grzybów borowików"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – kilkaset zł; B – ok. 12 zł.",
+      "id": "cena-6cd1aef900eeb739c94f"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Złota sztabka 100 g\nB: Nowy Fiat 500",
+      "answer": "B",
+      "aliases": [
+        "Nowy Fiat 500"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 45–50 tys. zł; B – ok. 80–100 tys. zł.",
+      "id": "cena-b2004d6b9fe296156756"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Tydzień all inclusive w Egipcie (2 osoby)\nB: Weekend nad Bałtykiem (2 osoby)",
+      "answer": "A",
+      "aliases": [
+        "Tydzień all inclusive w Egipcie (2 osoby)"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 6–8 tys. zł; B – ok. 1–1,5 tys. zł.",
+      "id": "cena-4e5659256be8a1af150e"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Konsola Nintendo Switch 2\nB: Pad do konsoli",
+      "answer": "A",
+      "aliases": [
+        "Konsola Nintendo Switch 2"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 2 tys. zł; B – ok. 300 zł.",
+      "id": "cena-58502206e9c21fdf9c19"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Kilogram ostryg\nB: Kilogram śledzi",
+      "answer": "A",
+      "aliases": [
+        "Kilogram ostryg"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 150 zł; B – ok. 20 zł.",
+      "id": "cena-5932416300e3fd2bdd1b"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Hulajnoga elektryczna\nB: Rower miejski z dyskontu",
+      "answer": "A",
+      "aliases": [
+        "Hulajnoga elektryczna"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 1,5–2,5 tys. zł; B – ok. 600 zł.",
+      "id": "cena-e2794de11708867ba288"
+    },
+    {
+      "prompt": "Co kosztuje więcej?\nA: Bilet miesięczny ZTM w Warszawie\nB: Bilet jednorazowy 20-minutowy w Warszawie",
+      "answer": "A",
+      "aliases": [
+        "Bilet miesięczny ZTM w Warszawie"
+      ],
+      "explanation": "Orientacyjnie (2025/26): A – ok. 110 zł; B – ok. 3,40 zł.",
+      "id": "cena-65cdf3e9d8eda0d23d3a"
+    }
   ]
 };
