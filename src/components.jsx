@@ -55,7 +55,7 @@ const categoryEmojis = {
   'co to za dzien?': '📅',
   'co to za skrot?': '🔠',
   'zabytki swiata': '🏰',
-  'co kosztuje wiecej?': '💰',
+  'co kosztuje wiecej?': '💰', 'siatkowka': '🏐', 'slang mlodziezowy': '💬', 'valorant': '🎯',
 };
 
 export function getCategoryEmoji(category) {

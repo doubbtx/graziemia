@@ -53,6 +53,9 @@ const info = {
   'Co to za skrót?': 'Rozwiń skrót – instytucje, organizacje, medycyna, internet i skróty z języka polskiego.',
   'Zabytki świata': 'Po zdjęciu rozpoznaj zabytek i powiedz, gdzie się znajduje.',
   'Co kosztuje więcej?': 'Z dwóch rzeczy (A lub B) wskaż droższą – ceny orientacyjne z lat 2025–2026.',
+  'Siatkówka': 'Przepisy, pozycje, zagrania oraz sukcesy polskich siatkarzy i siatkarek.',
+  'Slang młodzieżowy': 'Wyjaśnij, co znaczy słowo ze slangu – polskiego albo angielskiego.',
+  'Valorant': 'Rozpoznaj mapę po widoku lub fragmencie minimapy, agenta po portrecie (i jego ulta) oraz to, kto ma daną umiejętność.',
   'Co to za dzień?': 'Podana jest data – powiedz, jakie święto lub dzień obchodzimy. Gdy tego dnia jest kilka świąt, wystarczy jedno z nich.',
 };
 // Categories where every question offers a fixed set of options.

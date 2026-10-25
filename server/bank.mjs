@@ -34341,5 +34341,1712 @@ export const bank = {
       "explanation": "Orientacyjnie (2025/26): A – ok. 110 zł; B – ok. 3,40 zł.",
       "id": "cena-65cdf3e9d8eda0d23d3a"
     }
+  ],
+  "Siatkówka": [
+    {
+      "prompt": "Ilu zawodników jednej drużyny jest jednocześnie na boisku w siatkówce halowej?",
+      "answer": "6",
+      "aliases": [
+        "Sześciu"
+      ],
+      "id": "siatkowka-59a7663ff95d115caabc"
+    },
+    {
+      "prompt": "Do ilu punktów gra się zwykłego seta (poza tie-breakiem)?",
+      "answer": "25",
+      "id": "siatkowka-0a9c9c5ec3332a3bedbe"
+    },
+    {
+      "prompt": "Do ilu punktów gra się tie-break, czyli piątego seta?",
+      "answer": "15",
+      "id": "siatkowka-2b685cf04dcaace552bf"
+    },
+    {
+      "prompt": "Iloma punktami przewagi trzeba wygrać seta?",
+      "answer": "2",
+      "aliases": [
+        "Dwoma"
+      ],
+      "id": "siatkowka-914a7653b06e7ba61ba0"
+    },
+    {
+      "prompt": "Ile setów trzeba wygrać, żeby wygrać mecz siatkówki halowej?",
+      "answer": "3",
+      "aliases": [
+        "Trzy"
+      ],
+      "id": "siatkowka-d9e0f589e44d18790602"
+    },
+    {
+      "prompt": "Ile odbić może wykonać drużyna po swojej stronie siatki (nie licząc bloku)?",
+      "answer": "3",
+      "aliases": [
+        "Trzy"
+      ],
+      "id": "siatkowka-8ccd26920dca32f3a14b"
+    },
+    {
+      "prompt": "Jak nazywa się zawodnik w koszulce innego koloru, specjalista od przyjęcia i obrony?",
+      "answer": "Libero",
+      "id": "siatkowka-108bb8ee6172c2a5853f"
+    },
+    {
+      "prompt": "Jak nazywa się zawodnik, który zwykle wykonuje drugie odbicie i wystawia piłkę atakującym?",
+      "answer": "Rozgrywający",
+      "aliases": [
+        "Rozgrywająca"
+      ],
+      "id": "siatkowka-9b493bede6f52fa3a122"
+    },
+    {
+      "prompt": "Jak nazywa się pozycja zawodnika, który atakuje głównie z prawego skrzydła i zwykle nie przyjmuje zagrywki?",
+      "answer": "Atakujący",
+      "aliases": [
+        "Atakująca"
+      ],
+      "id": "siatkowka-f1adb8aa0ac11d2f8897"
+    },
+    {
+      "prompt": "Jak nazywa się pozycja zawodnika, który przyjmuje zagrywkę i atakuje głównie z lewego skrzydła?",
+      "answer": "Przyjmujący",
+      "aliases": [
+        "Przyjmująca"
+      ],
+      "id": "siatkowka-79ad8c8e3c534836ea50"
+    },
+    {
+      "prompt": "Jak nazywa się pozycja zawodnika, który przede wszystkim blokuje i atakuje „krótką” piłkę?",
+      "answer": "Środkowy",
+      "aliases": [
+        "Środkowa",
+        "Środkowy bloku"
+      ],
+      "id": "siatkowka-aebf2eb69d7b83e1a82b"
+    },
+    {
+      "prompt": "Jak nazywa się zagranie, w którym zawodnicy przy siatce zatrzymują rękami atak rywala?",
+      "answer": "Blok",
+      "id": "siatkowka-ad478802bb81673d8b46"
+    },
+    {
+      "prompt": "Jak nazywa się zagrywka, po której rywal nie zdoła odebrać piłki i od razu traci punkt?",
+      "answer": "As serwisowy",
+      "aliases": [
+        "As"
+      ],
+      "id": "siatkowka-5a3528f54cdcc8c144cf"
+    },
+    {
+      "prompt": "Jak nazywa się delikatne przerzucenie piłki palcami nad blokiem zamiast mocnego ataku?",
+      "answer": "Kiwka",
+      "aliases": [
+        "Kiwnięcie"
+      ],
+      "id": "siatkowka-dd5cd996ff482451b836"
+    },
+    {
+      "prompt": "Jak nazywa się zagrywka bez rotacji piłki, której lot jest trudny do przewidzenia?",
+      "answer": "Zagrywka szybująca",
+      "aliases": [
+        "Float",
+        "Flot",
+        "Zagrywka flotowa"
+      ],
+      "id": "siatkowka-81d0366dd18397c22608"
+    },
+    {
+      "prompt": "Jak nazywa się zmiana ustawienia zawodników zgodnie z ruchem wskazówek zegara po odzyskaniu zagrywki?",
+      "answer": "Rotacja",
+      "aliases": [
+        "Przejście"
+      ],
+      "id": "siatkowka-2a09d28874dcdc8394df"
+    },
+    {
+      "prompt": "Jak nazywa się odbicie piłki przedramionami, używane najczęściej przy przyjęciu?",
+      "answer": "Odbicie sposobem dolnym",
+      "aliases": [
+        "Dolne",
+        "Odbicie dolne"
+      ],
+      "id": "siatkowka-4bb35bcf0ef4e678030b"
+    },
+    {
+      "prompt": "Jaka jest wysokość siatki w siatkówce mężczyzn?",
+      "answer": "2,43 m",
+      "aliases": [
+        "243 cm",
+        "2.43"
+      ],
+      "id": "siatkowka-43115d3988da1ceec94c"
+    },
+    {
+      "prompt": "Jaka jest wysokość siatki w siatkówce kobiet?",
+      "answer": "2,24 m",
+      "aliases": [
+        "224 cm",
+        "2.24"
+      ],
+      "id": "siatkowka-2ddb76e1b6b6cff8382b"
+    },
+    {
+      "prompt": "Jakie wymiary ma boisko do siatkówki halowej?",
+      "answer": "18 × 9 m",
+      "aliases": [
+        "18 na 9",
+        "9 na 18"
+      ],
+      "id": "siatkowka-c369b46961d88ab0613f"
+    },
+    {
+      "prompt": "Jak nazywa się linia wyznaczona 3 m od siatki?",
+      "answer": "Linia ataku",
+      "aliases": [
+        "Linia trzech metrów"
+      ],
+      "id": "siatkowka-31b9b5b30a9dd67c5190"
+    },
+    {
+      "prompt": "Z której strefy (numer) wykonuje się zagrywkę?",
+      "answer": "Ze strefy 1",
+      "aliases": [
+        "1",
+        "Jedynka"
+      ],
+      "id": "siatkowka-61c86e3bdec306ef8295"
+    },
+    {
+      "prompt": "Na ile stref podzielona jest jedna połowa boiska?",
+      "answer": "6",
+      "aliases": [
+        "Sześć"
+      ],
+      "id": "siatkowka-69f3d09c95393744b3c5"
+    },
+    {
+      "prompt": "Ile przerw na żądanie (czasów) przysługuje drużynie w jednym secie?",
+      "answer": "2",
+      "aliases": [
+        "Dwie"
+      ],
+      "id": "siatkowka-3675a0ff0e02a6703c2d"
+    },
+    {
+      "prompt": "Ile zmian zawodników może wykonać drużyna w jednym secie według przepisów FIVB?",
+      "answer": "6",
+      "aliases": [
+        "Sześć"
+      ],
+      "id": "siatkowka-4e763449b1b6c2a89e6b"
+    },
+    {
+      "prompt": "Ile sekund ma zawodnik na wykonanie zagrywki po gwizdku sędziego?",
+      "answer": "8 sekund",
+      "aliases": [
+        "8"
+      ],
+      "id": "siatkowka-ee7cac3caac0235cdbf2"
+    },
+    {
+      "prompt": "Ilu zawodników liczy drużyna w siatkówce plażowej?",
+      "answer": "2",
+      "aliases": [
+        "Dwóch",
+        "Para"
+      ],
+      "id": "siatkowka-3e944c7d44cdc4cce223"
+    },
+    {
+      "prompt": "Do ilu punktów gra się seta w siatkówce plażowej (poza trzecim setem)?",
+      "answer": "21",
+      "id": "siatkowka-5c3f96b2f373ca0b5866"
+    },
+    {
+      "prompt": "Ile setów trzeba wygrać, żeby wygrać mecz siatkówki plażowej?",
+      "answer": "2",
+      "aliases": [
+        "Dwa"
+      ],
+      "id": "siatkowka-ebe11056ae383a64f739"
+    },
+    {
+      "prompt": "Jak nazywa się odmiana siatkówki dla osób z niepełnosprawnościami, rozgrywana na niskiej siatce?",
+      "answer": "Siatkówka na siedząco",
+      "id": "siatkowka-1fb1841c6e9e0ee84adc"
+    },
+    {
+      "prompt": "Kto wymyślił siatkówkę w 1895 roku?",
+      "answer": "William G. Morgan",
+      "aliases": [
+        "William Morgan",
+        "Morgan"
+      ],
+      "id": "siatkowka-ce01b187d45791e4b005"
+    },
+    {
+      "prompt": "W jakim kraju wymyślono siatkówkę?",
+      "answer": "W Stanach Zjednoczonych",
+      "aliases": [
+        "USA",
+        "Stany Zjednoczone"
+      ],
+      "id": "siatkowka-5e5c232a767c0b6f4ee2"
+    },
+    {
+      "prompt": "Jak pierwotnie nazywała się siatkówka?",
+      "answer": "Mintonette",
+      "id": "siatkowka-db3fdf98e68e1815cbb8"
+    },
+    {
+      "prompt": "W którym roku siatkówka halowa po raz pierwszy znalazła się na igrzyskach olimpijskich?",
+      "answer": "1964",
+      "aliases": [
+        "Tokio 1964"
+      ],
+      "id": "siatkowka-d712252f018c1145178d"
+    },
+    {
+      "prompt": "Na których igrzyskach siatkówka plażowa zadebiutowała jako dyscyplina olimpijska?",
+      "answer": "Atlanta 1996",
+      "aliases": [
+        "1996",
+        "Atlanta"
+      ],
+      "id": "siatkowka-13927e04b0e885a551a3"
+    },
+    {
+      "prompt": "W którym roku reprezentacja Polski mężczyzn zdobyła złoto olimpijskie w Montrealu?",
+      "answer": "1976",
+      "id": "siatkowka-9dab855c56561990959c"
+    },
+    {
+      "prompt": "Jak nazywał się trener, który poprowadził Polskę do złota olimpijskiego w 1976 roku?",
+      "answer": "Hubert Wagner",
+      "aliases": [
+        "Wagner"
+      ],
+      "id": "siatkowka-02a9d2c3800d641e9e4c"
+    },
+    {
+      "prompt": "W którym roku Polska po raz pierwszy została mistrzem świata w siatkówce mężczyzn?",
+      "answer": "1974",
+      "id": "siatkowka-e417eb4a2ec04842dbf2"
+    },
+    {
+      "prompt": "Ile razy reprezentacja Polski mężczyzn została mistrzem świata w siatkówce?",
+      "answer": "3",
+      "aliases": [
+        "Trzy",
+        "Trzy razy"
+      ],
+      "explanation": "1974, 2014 i 2018.",
+      "id": "siatkowka-cf5d22570cbfca7f85ab"
+    },
+    {
+      "prompt": "Polska zdobyła mistrzostwo świata jako gospodarz turnieju. W którym roku?",
+      "answer": "2014",
+      "id": "siatkowka-38dc63422075018c39ec"
+    },
+    {
+      "prompt": "W której hali rozegrano finał mistrzostw świata 2014?",
+      "answer": "Spodek w Katowicach",
+      "aliases": [
+        "Spodek",
+        "Katowice"
+      ],
+      "id": "siatkowka-6ac627e3d7d1e2060311"
+    },
+    {
+      "prompt": "Na jakim obiekcie rozegrano mecz otwarcia MŚ 2014 przy rekordowej publiczności?",
+      "answer": "Stadion Narodowy w Warszawie",
+      "aliases": [
+        "Stadion Narodowy",
+        "PGE Narodowy"
+      ],
+      "id": "siatkowka-8df51e31aaeed1cfc712"
+    },
+    {
+      "prompt": "Francuz, który jako trener poprowadził Polskę do mistrzostwa świata w 2014 roku?",
+      "answer": "Stéphane Antiga",
+      "aliases": [
+        "Antiga"
+      ],
+      "id": "siatkowka-4a3374b86011164d68ad"
+    },
+    {
+      "prompt": "Belg, który jako trener poprowadził Polskę do mistrzostwa świata w 2018 roku?",
+      "answer": "Vital Heynen",
+      "aliases": [
+        "Heynen"
+      ],
+      "id": "siatkowka-82a9f4dafc49adf07b4f"
+    },
+    {
+      "prompt": "Kto został MVP mistrzostw świata 2014?",
+      "answer": "Mariusz Wlazły",
+      "aliases": [
+        "Wlazły"
+      ],
+      "id": "siatkowka-8b7e95aec926b512d747"
+    },
+    {
+      "prompt": "Kto został MVP mistrzostw świata 2018?",
+      "answer": "Bartosz Kurek",
+      "aliases": [
+        "Kurek"
+      ],
+      "id": "siatkowka-5b737ad853404d499fa4"
+    },
+    {
+      "prompt": "Kto był kapitanem reprezentacji Polski podczas zwycięskich MŚ 2018?",
+      "answer": "Michał Kubiak",
+      "aliases": [
+        "Kubiak"
+      ],
+      "id": "siatkowka-93660785b838cd3fef0a"
+    },
+    {
+      "prompt": "Jakiej narodowości jest Nikola Grbić, selekcjoner reprezentacji Polski mężczyzn od 2022 roku?",
+      "answer": "Serb",
+      "aliases": [
+        "Serbia",
+        "Serbska"
+      ],
+      "id": "siatkowka-056b4358803e5a2a882c"
+    },
+    {
+      "prompt": "Z jakiego kraju pochodzi Wilfredo Leon, przyjmujący reprezentacji Polski?",
+      "answer": "Z Kuby",
+      "aliases": [
+        "Kuba"
+      ],
+      "id": "siatkowka-d30525fd633ebb8cf9ec"
+    },
+    {
+      "prompt": "Na jakiej pozycji gra Bartosz Kurek?",
+      "answer": "Atakujący",
+      "id": "siatkowka-d41b65876756df827f19"
+    },
+    {
+      "prompt": "Na jakiej pozycji grał Paweł Zatorski, mistrz świata 2014 i 2018?",
+      "answer": "Libero",
+      "id": "siatkowka-ae7a90f9abe079480757"
+    },
+    {
+      "prompt": "Z kim Polska przegrała finał igrzysk olimpijskich w Paryżu 2024?",
+      "answer": "Z Francją",
+      "aliases": [
+        "Francja"
+      ],
+      "id": "siatkowka-ed334fa04be872de8ac2"
+    },
+    {
+      "prompt": "W którym roku Polska po raz pierwszy wygrała Ligę Narodów mężczyzn?",
+      "answer": "2023",
+      "id": "siatkowka-45985b1040bee2cd7eb1"
+    },
+    {
+      "prompt": "W którym roku reprezentacja Polski mężczyzn wygrała mistrzostwa Europy, pokonując w finale Włochy w Rzymie?",
+      "answer": "2023",
+      "id": "siatkowka-ae5a185b23cb0a59b89c"
+    },
+    {
+      "prompt": "Jak nazywano reprezentację Polski kobiet, która zdobyła mistrzostwo Europy w 2003 i 2005 roku?",
+      "answer": "Złotka",
+      "id": "siatkowka-8583ec7ca6c7b67d082d"
+    },
+    {
+      "prompt": "Kto był trenerem „Złotek”, mistrzyń Europy 2003 i 2005?",
+      "answer": "Andrzej Niemczyk",
+      "aliases": [
+        "Niemczyk"
+      ],
+      "id": "siatkowka-c25b57e70c3ce145aa41"
+    },
+    {
+      "prompt": "Która reprezentacja kobiet zdobyła złoto olimpijskie w Paryżu 2024?",
+      "answer": "Włochy",
+      "aliases": [
+        "Włoszki"
+      ],
+      "id": "siatkowka-1bb4e75d9ede0fa4c165"
+    },
+    {
+      "prompt": "Jak nazywa się najwyższa liga siatkówki mężczyzn w Polsce?",
+      "answer": "PlusLiga",
+      "id": "siatkowka-1e1059e9b4057d56130a"
+    },
+    {
+      "prompt": "Jak nazywa się najwyższa liga siatkówki kobiet w Polsce?",
+      "answer": "Tauron Liga",
+      "aliases": [
+        "Liga Siatkówki Kobiet"
+      ],
+      "id": "siatkowka-77ff08491296e9901f35"
+    },
+    {
+      "prompt": "Który polski klub wygrał siatkarską Ligę Mistrzów trzy razy z rzędu (2021–2023)?",
+      "answer": "ZAKSA Kędzierzyn-Koźle",
+      "aliases": [
+        "ZAKSA"
+      ],
+      "id": "siatkowka-01be875fb36cb2ab82fe"
+    },
+    {
+      "prompt": "Z jakiego miasta pochodzi klub Resovia?",
+      "answer": "Z Rzeszowa",
+      "aliases": [
+        "Rzeszów"
+      ],
+      "id": "siatkowka-cc7140b732b842ae50f5"
+    },
+    {
+      "prompt": "Z jakiego miasta pochodzi klub Skra, wielokrotny mistrz Polski?",
+      "answer": "Z Bełchatowa",
+      "aliases": [
+        "Bełchatów"
+      ],
+      "id": "siatkowka-78280a92c99f658ed087"
+    },
+    {
+      "prompt": "Z jakiego miasta pochodzi klub Węgiel, mistrz Polski z lat 2021, 2023 i 2024?",
+      "answer": "Z Jastrzębia-Zdroju",
+      "aliases": [
+        "Jastrzębie-Zdrój",
+        "Jastrzębie"
+      ],
+      "id": "siatkowka-dc4658d77661813fa52c"
+    },
+    {
+      "prompt": "Ile punktów dostaje drużyna za wygranie meczu 3:0 lub 3:1 w PlusLidze?",
+      "answer": "3",
+      "aliases": [
+        "Trzy"
+      ],
+      "id": "siatkowka-02afa5baa7912e073802"
+    }
+  ],
+  "Slang młodzieżowy": [
+    {
+      "prompt": "Co oznacza młodzieżowe słowo „sztos”?",
+      "answer": "Coś świetnego, rewelacyjnego",
+      "aliases": [
+        "Super",
+        "Świetne"
+      ],
+      "id": "slang-a34e9f6559940347ec40"
+    },
+    {
+      "prompt": "Co oznacza młodzieżowe słowo „essa”?",
+      "answer": "Luz, wyraz radości – „jest super”",
+      "aliases": [
+        "Luz",
+        "Super",
+        "Radość"
+      ],
+      "id": "slang-72cb9e5e80873085fecf"
+    },
+    {
+      "prompt": "Co oznacza młodzieżowe słowo „rel”?",
+      "answer": "Utożsamiam się, mam tak samo",
+      "aliases": [
+        "Zgadzam się",
+        "Relatable"
+      ],
+      "id": "slang-0229acc76f44f92b1ce0"
+    },
+    {
+      "prompt": "Co oznacza młodzieżowe słowo „dzban”?",
+      "answer": "Głupek, osoba mało rozgarnięta",
+      "aliases": [
+        "Głupek"
+      ],
+      "id": "slang-f7c129578312b132e3b2"
+    },
+    {
+      "prompt": "Co oznacza młodzieżowe słowo „krindż” (cringe)?",
+      "answer": "Zażenowanie, coś żenującego",
+      "aliases": [
+        "Żenada",
+        "Wstyd"
+      ],
+      "id": "slang-6adfb9bd5fbf6eccb982"
+    },
+    {
+      "prompt": "Co oznacza młodzieżowe słowo „odklejka”?",
+      "answer": "Oderwanie od rzeczywistości, dziwne zachowanie",
+      "aliases": [
+        "Odlot"
+      ],
+      "id": "slang-618ad74c2c1389577325"
+    },
+    {
+      "prompt": "Co oznacza słowo „bambik” w grach?",
+      "answer": "Nowicjusz, dzieciak grający słabo",
+      "aliases": [
+        "Noob",
+        "Dzieciak",
+        "Początkujący"
+      ],
+      "id": "slang-9d5e13c2cb5842daad08"
+    },
+    {
+      "prompt": "Co oznacza określenie „NPC” użyte wobec człowieka?",
+      "answer": "Osoba bez własnego zdania, działająca schematycznie",
+      "aliases": [
+        "Bezmyślny",
+        "Bez własnego zdania"
+      ],
+      "id": "slang-50ded4da518b53ca11b3"
+    },
+    {
+      "prompt": "Co oznacza młodzieżowe słowo „beka”?",
+      "answer": "Śmiech, kpina („mieć z kogoś bekę”)",
+      "aliases": [
+        "Śmiech",
+        "Kpina"
+      ],
+      "id": "slang-dbcf0c91918bc3fb58c5"
+    },
+    {
+      "prompt": "Co oznacza młodzieżowe słowo „siara”?",
+      "answer": "Wstyd, obciach",
+      "aliases": [
+        "Wstyd",
+        "Obciach"
+      ],
+      "id": "slang-5566b35252d8606ee806"
+    },
+    {
+      "prompt": "Co oznacza młodzieżowe słowo „lamus”?",
+      "answer": "Frajer, osoba niemodna",
+      "aliases": [
+        "Frajer"
+      ],
+      "id": "slang-6a2c0d14e2b6ceef6e26"
+    },
+    {
+      "prompt": "Co oznacza słowo „hajs”?",
+      "answer": "Pieniądze",
+      "aliases": [
+        "Kasa"
+      ],
+      "id": "slang-dfe3565083dbcdc80d13"
+    },
+    {
+      "prompt": "Co oznacza słowo „fura”?",
+      "answer": "Samochód",
+      "aliases": [
+        "Auto"
+      ],
+      "id": "slang-743edb31e818cb87f057"
+    },
+    {
+      "prompt": "Co oznacza słowo „kminić”?",
+      "answer": "Myśleć, kombinować",
+      "aliases": [
+        "Kombinować",
+        "Myśleć"
+      ],
+      "id": "slang-9fff2c8fcb1a5b0c9ce4"
+    },
+    {
+      "prompt": "Co oznacza słowo „czaić”?",
+      "answer": "Rozumieć",
+      "aliases": [
+        "Kumać",
+        "Rozumieć"
+      ],
+      "id": "slang-4da12a972b73466950d1"
+    },
+    {
+      "prompt": "Co oznacza słowo „ogarniać”?",
+      "answer": "Rozumieć, radzić sobie z czymś",
+      "aliases": [
+        "Rozumieć",
+        "Radzić sobie"
+      ],
+      "id": "slang-880e0f34e654ac24e068"
+    },
+    {
+      "prompt": "Co oznacza słowo „zamulać”?",
+      "answer": "Być powolnym, nierozgarniętym",
+      "aliases": [
+        "Wolno myśleć",
+        "Spowalniać"
+      ],
+      "id": "slang-e16e29e241b3f0ceb8c5"
+    },
+    {
+      "prompt": "Co oznacza wyrażenie „spinać się”?",
+      "answer": "Denerwować się, stresować",
+      "aliases": [
+        "Denerwować się",
+        "Stresować się"
+      ],
+      "id": "slang-21828a2a91f52f2bfc8d"
+    },
+    {
+      "prompt": "Co oznacza słowo „masny” (np. „masny wóz”)?",
+      "answer": "Świetny, wypasiony",
+      "aliases": [
+        "Świetny",
+        "Fajny"
+      ],
+      "id": "slang-ff8305ddc57af65fb3a8"
+    },
+    {
+      "prompt": "Co oznacza słowo „zgon” w młodzieżowym znaczeniu?",
+      "answer": "Skrajne zmęczenie lub odpadnięcie z imprezy",
+      "aliases": [
+        "Zmęczenie",
+        "Padnięcie"
+      ],
+      "id": "slang-b83e5a8edff5306548d1"
+    },
+    {
+      "prompt": "Co oznacza słowo „ghostować”?",
+      "answer": "Nagle zerwać kontakt, przestać odpisywać",
+      "aliases": [
+        "Ignorować",
+        "Zniknąć"
+      ],
+      "id": "slang-b7041eaed5d7f8a95ff9"
+    },
+    {
+      "prompt": "Co oznacza słowo „shipować”?",
+      "answer": "Kibicować związkowi dwóch osób lub postaci",
+      "aliases": [
+        "Parować",
+        "Swatać"
+      ],
+      "id": "slang-f19843662e90cea79150"
+    },
+    {
+      "prompt": "Co oznacza słowo „flexować”?",
+      "answer": "Chwalić się, popisywać",
+      "aliases": [
+        "Chwalić się",
+        "Popisywać się"
+      ],
+      "id": "slang-2b1f88a32d7df152affb"
+    },
+    {
+      "prompt": "Co oznacza słowo „tryhard”?",
+      "answer": "Ktoś, kto przesadnie się stara (zwłaszcza w grach)",
+      "aliases": [
+        "Spinający się gracz"
+      ],
+      "id": "slang-e474d6ab517c7dd7e9a9"
+    },
+    {
+      "prompt": "Co oznacza słowo „random”?",
+      "answer": "Przypadkowa, nieznajoma osoba",
+      "aliases": [
+        "Przypadkowy",
+        "Nieznajomy"
+      ],
+      "id": "slang-4aef40b354634efe4bed"
+    },
+    {
+      "prompt": "Co oznacza słowo „toksyczny” w odniesieniu do osoby lub związku?",
+      "answer": "Szkodliwy, niszczący innych",
+      "aliases": [
+        "Szkodliwy"
+      ],
+      "id": "slang-b42bd9df7ca4be1b9a92"
+    },
+    {
+      "prompt": "Co oznacza zwrot „mordo” w rozmowie?",
+      "answer": "Kolego, przyjacielu (zwrot do kumpla)",
+      "aliases": [
+        "Kolego",
+        "Ziomek"
+      ],
+      "id": "slang-1168e27d0221556424a8"
+    },
+    {
+      "prompt": "Co oznacza słowo „giga” przed przymiotnikiem (np. „giga dobre”)?",
+      "answer": "Bardzo, ogromnie",
+      "aliases": [
+        "Bardzo"
+      ],
+      "id": "slang-0f370b59fd10ff9a991f"
+    },
+    {
+      "prompt": "Co oznacza słowo „sigma” (np. „zachowanie sigmy”)?",
+      "answer": "Niezależny, pewny siebie samotnik",
+      "aliases": [
+        "Pewny siebie",
+        "Niezależny"
+      ],
+      "id": "slang-c656dba6fce73479bb67"
+    },
+    {
+      "prompt": "Co oznacza słowo „delulu”?",
+      "answer": "Ktoś żyjący złudzeniami, oderwany od rzeczywistości",
+      "aliases": [
+        "Złudzenia",
+        "Urojenia"
+      ],
+      "id": "slang-e9c7738d998ff7f45e4f"
+    },
+    {
+      "prompt": "Co oznacza słowo „skibidi” w mowie młodzieży?",
+      "answer": "Coś absurdalnego, bez sensu (z memów)",
+      "aliases": [
+        "Bez sensu",
+        "Absurdalne"
+      ],
+      "id": "slang-c3c0a5bcf265fbcbbb12"
+    },
+    {
+      "prompt": "Co oznacza angielskie słowo slangowe „rizz”?",
+      "answer": "Urok, umiejętność podrywania",
+      "aliases": [
+        "Urok",
+        "Charyzma",
+        "Podryw"
+      ],
+      "id": "slang-81d9b4ed97e8839b2938"
+    },
+    {
+      "prompt": "Co oznacza angielskie słowo slangowe „sus”?",
+      "answer": "Podejrzany",
+      "aliases": [
+        "Suspicious",
+        "Podejrzane"
+      ],
+      "id": "slang-5dcc95f9506d64ef328c"
+    },
+    {
+      "prompt": "Co oznacza angielskie słowo slangowe „cap”?",
+      "answer": "Kłamstwo, ściema",
+      "aliases": [
+        "Kłamstwo",
+        "Ściema"
+      ],
+      "id": "slang-61c9e2fffc90c0677993"
+    },
+    {
+      "prompt": "Co oznacza angielski zwrot „no cap”?",
+      "answer": "Bez ściemy, serio",
+      "aliases": [
+        "Serio",
+        "Na serio",
+        "Bez kłamstwa"
+      ],
+      "id": "slang-14e51caa0aed135a6bec"
+    },
+    {
+      "prompt": "Co oznacza angielskie słowo slangowe „bussin”?",
+      "answer": "Bardzo dobre (zwykle o jedzeniu)",
+      "aliases": [
+        "Pyszne",
+        "Bardzo dobre"
+      ],
+      "id": "slang-db95b33b451052d70fa4"
+    },
+    {
+      "prompt": "Co oznacza angielskie słowo slangowe „slay”?",
+      "answer": "Świetnie się zaprezentować, dać czadu",
+      "aliases": [
+        "Dać czadu",
+        "Wymiatać"
+      ],
+      "id": "slang-7da1d87c9aa6da2a5ee5"
+    },
+    {
+      "prompt": "Co oznacza angielskie słowo slangowe „vibe”?",
+      "answer": "Klimat, nastrój",
+      "aliases": [
+        "Klimat",
+        "Nastrój"
+      ],
+      "id": "slang-599f7bf03b75103a79bb"
+    },
+    {
+      "prompt": "Co oznacza angielskie słowo slangowe „sheesh”?",
+      "answer": "Wyraz podziwu lub niedowierzania – „ale mocne!”",
+      "aliases": [
+        "Wow",
+        "Podziw"
+      ],
+      "id": "slang-ec4aeeb06750ad807204"
+    },
+    {
+      "prompt": "Co oznacza angielskie słowo slangowe „salty”?",
+      "answer": "Obrażony, rozgoryczony",
+      "aliases": [
+        "Obrażony",
+        "Zły",
+        "Wkurzony"
+      ],
+      "id": "slang-02b7386bf0e36de7429c"
+    },
+    {
+      "prompt": "Co oznacza angielskie słowo slangowe „simp”?",
+      "answer": "Ktoś przesadnie zabiegający o czyjąś uwagę",
+      "aliases": [
+        "Podlizuch"
+      ],
+      "id": "slang-b823759d215089fd59a6"
+    },
+    {
+      "prompt": "Co oznacza angielskie słowo slangowe „stan” (np. „I stan Taylor Swift”)?",
+      "answer": "Być zagorzałym fanem",
+      "aliases": [
+        "Zagorzały fan",
+        "Fan"
+      ],
+      "id": "slang-2c371338d52329cfbd52"
+    },
+    {
+      "prompt": "Co oznacza angielskie słowo slangowe „mid”?",
+      "answer": "Przeciętny, średni",
+      "aliases": [
+        "Przeciętny",
+        "Średni"
+      ],
+      "id": "slang-de2bdfac8622b64db235"
+    },
+    {
+      "prompt": "Co oznacza skrót „GOAT”?",
+      "answer": "Najlepszy w historii (Greatest Of All Time)",
+      "aliases": [
+        "Greatest of all time",
+        "Najlepszy w historii"
+      ],
+      "id": "slang-e9adab6470e9e4c8a354"
+    },
+    {
+      "prompt": "Co oznacza skrót „POV”?",
+      "answer": "Punkt widzenia (point of view)",
+      "aliases": [
+        "Point of view",
+        "Punkt widzenia"
+      ],
+      "id": "slang-f5bcb488d36603db3685"
+    },
+    {
+      "prompt": "Co oznacza skrót „FOMO”?",
+      "answer": "Lęk, że coś nas omija (fear of missing out)",
+      "aliases": [
+        "Fear of missing out",
+        "Strach przed pominięciem"
+      ],
+      "id": "slang-91c0c91734fb38aa2592"
+    },
+    {
+      "prompt": "Co oznacza skrót „IYKYK”?",
+      "answer": "Zrozumieją tylko wtajemniczeni (if you know, you know)",
+      "aliases": [
+        "If you know you know"
+      ],
+      "id": "slang-e955bf062123f4c65ba2"
+    },
+    {
+      "prompt": "Co oznacza skrót „TBH”?",
+      "answer": "Szczerze mówiąc (to be honest)",
+      "aliases": [
+        "To be honest",
+        "Szczerze"
+      ],
+      "id": "slang-5a8a4ab6c6bad1464ca6"
+    },
+    {
+      "prompt": "Co oznacza skrót „fr”?",
+      "answer": "Serio, naprawdę (for real)",
+      "aliases": [
+        "For real",
+        "Serio"
+      ],
+      "id": "slang-1e4613f8b40f6a97b24e"
+    },
+    {
+      "prompt": "Co oznacza angielskie słowo slangowe „lowkey”?",
+      "answer": "Trochę, po cichu, nie przyznając się otwarcie",
+      "aliases": [
+        "Trochę",
+        "Po cichu"
+      ],
+      "id": "slang-390332d150d1771f2cd8"
+    },
+    {
+      "prompt": "Co oznacza angielskie słowo slangowe „highkey”?",
+      "answer": "Zdecydowanie, otwarcie",
+      "aliases": [
+        "Zdecydowanie",
+        "Otwarcie"
+      ],
+      "id": "slang-940453620aec6f279870"
+    },
+    {
+      "prompt": "Co oznacza angielskie słowo slangowe „bet”?",
+      "answer": "Jasne, zgoda, wchodzę w to",
+      "aliases": [
+        "Jasne",
+        "Zgoda",
+        "OK"
+      ],
+      "id": "slang-e89d1108e022b08817bb"
+    },
+    {
+      "prompt": "Co oznacza angielski zwrot „touch grass”?",
+      "answer": "Wyjdź z internetu, zejdź na ziemię",
+      "aliases": [
+        "Wyjdź na dwór",
+        "Odłóż telefon"
+      ],
+      "id": "slang-80db65cd3ed046353b46"
+    },
+    {
+      "prompt": "Co oznacza angielskie wyrażenie „red flag” w relacjach?",
+      "answer": "Sygnał ostrzegawczy w czyimś zachowaniu",
+      "aliases": [
+        "Sygnał ostrzegawczy",
+        "Ostrzeżenie"
+      ],
+      "id": "slang-c3a4ba11a12fe5881b9e"
+    },
+    {
+      "prompt": "Co oznacza angielskie słowo slangowe „ick”?",
+      "answer": "Nagła niechęć, odrzucenie wobec kogoś",
+      "aliases": [
+        "Obrzydzenie",
+        "Niechęć"
+      ],
+      "id": "slang-a5aca76969ee2f82ae0d"
+    },
+    {
+      "prompt": "Co oznacza angielskie słowo slangowe „crush”?",
+      "answer": "Osoba, w której ktoś się podkochuje",
+      "aliases": [
+        "Zauroczenie",
+        "Sympatia"
+      ],
+      "id": "slang-63e0f69acb6a9019da6e"
+    },
+    {
+      "prompt": "Co oznacza angielskie słowo „brainrot”?",
+      "answer": "Ogłupienie od nadmiaru bezwartościowych treści w sieci",
+      "aliases": [
+        "Ogłupienie",
+        "Gnicie mózgu"
+      ],
+      "id": "slang-7f4c81409609d308aa09"
+    },
+    {
+      "prompt": "Co oznacza „aura” w slangu (np. „−1000 aury”)?",
+      "answer": "Prestiż, charyzma, „fajność” danej osoby",
+      "aliases": [
+        "Charyzma",
+        "Prestiż"
+      ],
+      "id": "slang-06b6a0d05a8aa0703ef3"
+    },
+    {
+      "prompt": "Co oznacza angielskie wyrażenie „glow up”?",
+      "answer": "Metamorfoza na lepsze",
+      "aliases": [
+        "Metamorfoza",
+        "Przemiana"
+      ],
+      "id": "slang-517298ad6b494f6d92d1"
+    },
+    {
+      "prompt": "Co oznacza „ratio” w mediach społecznościowych?",
+      "answer": "Odpowiedź z większą liczbą polubień niż oryginalny wpis",
+      "aliases": [
+        "Więcej lajków niż oryginał"
+      ],
+      "id": "slang-978b66ac4e00d3f9620e"
+    },
+    {
+      "prompt": "Co oznacza „W” i „L” w slangu (np. „to jest W”)?",
+      "answer": "Wygrana i porażka (win / loss)",
+      "aliases": [
+        "Win i loss",
+        "Wygrana / przegrana"
+      ],
+      "id": "slang-b1df8bc452bca2a1ba35"
+    },
+    {
+      "prompt": "Co oznacza angielskie wyrażenie „main character energy”?",
+      "answer": "Zachowywać się jak główny bohater, być pewnym siebie",
+      "aliases": [
+        "Pewność siebie"
+      ],
+      "id": "slang-05fded266166ca8e633f"
+    },
+    {
+      "prompt": "Co oznacza angielskie słowo slangowe „yapping”?",
+      "answer": "Gadanie bez przerwy i bez sensu",
+      "aliases": [
+        "Gadanie",
+        "Paplanie"
+      ],
+      "id": "slang-47151d44345edeea08d6"
+    }
+  ],
+  "Valorant": [
+    {
+      "prompt": "Z jakiej mapy Valoranta pochodzi ten widok?",
+      "answer": "Ascent",
+      "image": "/valorant/map-ascent.webp",
+      "id": "valorant-db8747b92d881d84ebdd"
+    },
+    {
+      "prompt": "Z jakiej mapy pochodzi ten fragment minimapy?",
+      "answer": "Ascent",
+      "image": "/valorant/minimap-ascent.webp",
+      "id": "valorant-486675dd6f345dae797b"
+    },
+    {
+      "prompt": "Z jakiej mapy Valoranta pochodzi ten widok?",
+      "answer": "Split",
+      "image": "/valorant/map-split.webp",
+      "id": "valorant-5142b0f8a6007d8ba2c0"
+    },
+    {
+      "prompt": "Z jakiej mapy pochodzi ten fragment minimapy?",
+      "answer": "Split",
+      "image": "/valorant/minimap-split.webp",
+      "id": "valorant-04bfd62f0a923daa7554"
+    },
+    {
+      "prompt": "Z jakiej mapy Valoranta pochodzi ten widok?",
+      "answer": "Fracture",
+      "image": "/valorant/map-fracture.webp",
+      "id": "valorant-251f986f9b0f472a9070"
+    },
+    {
+      "prompt": "Z jakiej mapy pochodzi ten fragment minimapy?",
+      "answer": "Fracture",
+      "image": "/valorant/minimap-fracture.webp",
+      "id": "valorant-d19793ae68fc0353781e"
+    },
+    {
+      "prompt": "Z jakiej mapy Valoranta pochodzi ten widok?",
+      "answer": "Bind",
+      "image": "/valorant/map-bind.webp",
+      "id": "valorant-1288bc44c40e56b2b933"
+    },
+    {
+      "prompt": "Z jakiej mapy pochodzi ten fragment minimapy?",
+      "answer": "Bind",
+      "image": "/valorant/minimap-bind.webp",
+      "id": "valorant-a688f7cc903f00021e4b"
+    },
+    {
+      "prompt": "Z jakiej mapy Valoranta pochodzi ten widok?",
+      "answer": "Breeze",
+      "image": "/valorant/map-breeze.webp",
+      "id": "valorant-e61dc2cea79c6d37facb"
+    },
+    {
+      "prompt": "Z jakiej mapy pochodzi ten fragment minimapy?",
+      "answer": "Breeze",
+      "image": "/valorant/minimap-breeze.webp",
+      "id": "valorant-147910cb2b85586b1966"
+    },
+    {
+      "prompt": "Z jakiej mapy Valoranta pochodzi ten widok?",
+      "answer": "Abyss",
+      "image": "/valorant/map-abyss.webp",
+      "id": "valorant-dfe15e4b76950b0433b6"
+    },
+    {
+      "prompt": "Z jakiej mapy pochodzi ten fragment minimapy?",
+      "answer": "Abyss",
+      "image": "/valorant/minimap-abyss.webp",
+      "id": "valorant-1cf8446ac069db775cdd"
+    },
+    {
+      "prompt": "Z jakiej mapy Valoranta pochodzi ten widok?",
+      "answer": "Lotus",
+      "image": "/valorant/map-lotus.webp",
+      "id": "valorant-7b66d05b07544cce2363"
+    },
+    {
+      "prompt": "Z jakiej mapy pochodzi ten fragment minimapy?",
+      "answer": "Lotus",
+      "image": "/valorant/minimap-lotus.webp",
+      "id": "valorant-7ecd205895367492d779"
+    },
+    {
+      "prompt": "Z jakiej mapy Valoranta pochodzi ten widok?",
+      "answer": "Sunset",
+      "image": "/valorant/map-sunset.webp",
+      "id": "valorant-96667c3a165c9a122767"
+    },
+    {
+      "prompt": "Z jakiej mapy pochodzi ten fragment minimapy?",
+      "answer": "Sunset",
+      "image": "/valorant/minimap-sunset.webp",
+      "id": "valorant-3d7e26ced55413d58e2d"
+    },
+    {
+      "prompt": "Z jakiej mapy Valoranta pochodzi ten widok?",
+      "answer": "Pearl",
+      "image": "/valorant/map-pearl.webp",
+      "id": "valorant-13b916094002fc74d60b"
+    },
+    {
+      "prompt": "Z jakiej mapy pochodzi ten fragment minimapy?",
+      "answer": "Pearl",
+      "image": "/valorant/minimap-pearl.webp",
+      "id": "valorant-c490bf7c9dfae4bc2503"
+    },
+    {
+      "prompt": "Z jakiej mapy Valoranta pochodzi ten widok?",
+      "answer": "Icebox",
+      "image": "/valorant/map-icebox.webp",
+      "id": "valorant-0f7b5c1f1803752356b1"
+    },
+    {
+      "prompt": "Z jakiej mapy pochodzi ten fragment minimapy?",
+      "answer": "Icebox",
+      "image": "/valorant/minimap-icebox.webp",
+      "id": "valorant-eb66a5ea6f3e55d3bbdf"
+    },
+    {
+      "prompt": "Z jakiej mapy Valoranta pochodzi ten widok?",
+      "answer": "Corrode",
+      "image": "/valorant/map-corrode.webp",
+      "id": "valorant-44ede2a03060067e13cb"
+    },
+    {
+      "prompt": "Z jakiej mapy pochodzi ten fragment minimapy?",
+      "answer": "Corrode",
+      "image": "/valorant/minimap-corrode.webp",
+      "id": "valorant-8640d6a5776910970ac4"
+    },
+    {
+      "prompt": "Z jakiej mapy Valoranta pochodzi ten widok?",
+      "answer": "Haven",
+      "image": "/valorant/map-haven.webp",
+      "id": "valorant-a616bd2f3d9a9c6f66fe"
+    },
+    {
+      "prompt": "Z jakiej mapy pochodzi ten fragment minimapy?",
+      "answer": "Haven",
+      "image": "/valorant/minimap-haven.webp",
+      "id": "valorant-1122db76c4fd44684fad"
+    },
+    {
+      "prompt": "Z jakiej mapy Valoranta pochodzi ten widok?",
+      "answer": "Summit",
+      "image": "/valorant/map-summit.webp",
+      "id": "valorant-f1cc6aec9b6c5004e21d"
+    },
+    {
+      "prompt": "Z jakiej mapy pochodzi ten fragment minimapy?",
+      "answer": "Summit",
+      "image": "/valorant/minimap-summit.webp",
+      "id": "valorant-34e3d322aa742ef6667d"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Gekko – ult: Thrash",
+      "aliases": [
+        "Gekko",
+        "Thrash"
+      ],
+      "explanation": "Rola: Inicjator. Umiejętności: Wingman, Dizzy, Mosh Pit, Thrash. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-gekko.webp",
+      "id": "valorant-93fa3e6845a7b0f68761"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Fade – ult: Nightfall",
+      "aliases": [
+        "Fade",
+        "Nightfall",
+        "Zmrok"
+      ],
+      "explanation": "Rola: Inicjator. Umiejętności: Seize, Haunt, Prowler, Nightfall. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-fade.webp",
+      "id": "valorant-a1799f35b978ed097ecc"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Breach – ult: Rolling Thunder",
+      "aliases": [
+        "Breach",
+        "Rolling Thunder",
+        "Kaskadowe Tąpnięcie"
+      ],
+      "explanation": "Rola: Inicjator. Umiejętności: Flashpoint, Fault Line, Aftershock, Rolling Thunder. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-breach.webp",
+      "id": "valorant-10760ce3ed78b40d96a8"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Deadlock – ult: Annihilation",
+      "aliases": [
+        "Deadlock",
+        "Annihilation",
+        "Anihilacja"
+      ],
+      "explanation": "Rola: Strażnik. Umiejętności: Sonic Sensor, Barrier Mesh, GravNet, Annihilation. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-deadlock.webp",
+      "id": "valorant-418616ba1ea509cc10fe"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Tejo – ult: Armageddon",
+      "aliases": [
+        "Tejo",
+        "Armageddon",
+        "Armagedon"
+      ],
+      "explanation": "Rola: Inicjator. Umiejętności: Guided Salvo, Special Delivery, Armageddon, Stealth Drone. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-tejo.webp",
+      "id": "valorant-adde6bcb54832f3a37cf"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Raze – ult: Showstopper",
+      "aliases": [
+        "Raze",
+        "Showstopper",
+        "Gwóźdź Programu"
+      ],
+      "explanation": "Rola: Pojedynkowicz. Umiejętności: Blast Pack, Paint Shells, Boom Bot, Showstopper. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-raze.webp",
+      "id": "valorant-832fa4f2509d2b226470"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Chamber – ult: Tour De Force",
+      "aliases": [
+        "Chamber",
+        "Tour De Force",
+        "Majstersztyk"
+      ],
+      "explanation": "Rola: Strażnik. Umiejętności: Rendezvous, Trademark, Headhunter, Tour De Force. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-chamber.webp",
+      "id": "valorant-b8f90ca36148f0a08916"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "KAY/O – ult: NULL/cmd",
+      "aliases": [
+        "KAY/O",
+        "NULL/cmd"
+      ],
+      "explanation": "Rola: Inicjator. Umiejętności: FRAG/ment, FLASH/drive, ZERO/point, NULL/cmd. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-kay-o.webp",
+      "id": "valorant-5325e8745bc641524d9d"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Skye – ult: Seekers",
+      "aliases": [
+        "Skye",
+        "Seekers",
+        "Szperacze"
+      ],
+      "explanation": "Rola: Inicjator. Umiejętności: Trailblazer, Guiding Light, Regrowth, Seekers. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-skye.webp",
+      "id": "valorant-331d1b0106165956a45d"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Cypher – ult: Neural Theft",
+      "aliases": [
+        "Cypher",
+        "Neural Theft",
+        "Kradzież Neuronów"
+      ],
+      "explanation": "Rola: Strażnik. Umiejętności: Cyber Cage, Spycam, Trapwire, Neural Theft. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-cypher.webp",
+      "id": "valorant-0329f40f6cecd298e907"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Sova – ult: Hunter's Fury",
+      "aliases": [
+        "Sova",
+        "Hunter's Fury",
+        "Furia Łowcy"
+      ],
+      "explanation": "Rola: Inicjator. Umiejętności: Shock Bolt, Recon Bolt, Owl Drone, Hunter's Fury. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-sova.webp",
+      "id": "valorant-c5e4983eb4eea7c91cc9"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Miks – ult: Bassquake",
+      "aliases": [
+        "Miks",
+        "Bassquake",
+        "Basowstrząs"
+      ],
+      "explanation": "Rola: Kontroler. Umiejętności: M-pulse, Waveform, Harmonize, Bassquake. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-miks.webp",
+      "id": "valorant-3b4db1674f61cf86a214"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Killjoy – ult: Lockdown",
+      "aliases": [
+        "Killjoy",
+        "Lockdown",
+        "Blokada"
+      ],
+      "explanation": "Rola: Strażnik. Umiejętności: Nanoswarm, ALARMBOT, TURRET, Lockdown. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-killjoy.webp",
+      "id": "valorant-3c5d0d508b30c3641339"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Harbor – ult: Reckoning",
+      "aliases": [
+        "Harbor",
+        "Reckoning",
+        "Rozrachunek"
+      ],
+      "explanation": "Rola: Kontroler. Umiejętności: High Tide, Storm Surge, Cove, Reckoning. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-harbor.webp",
+      "id": "valorant-6a9a1d74312df85d74d8"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Vyse – ult: Steel Garden",
+      "aliases": [
+        "Vyse",
+        "Steel Garden",
+        "Stalowy Ogród"
+      ],
+      "explanation": "Rola: Strażnik. Umiejętności: Shear, Arc Rose, Razorvine, Steel Garden. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-vyse.webp",
+      "id": "valorant-5dfc535a2f3275baf923"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Viper – ult: Viper's Pit",
+      "aliases": [
+        "Viper",
+        "Viper's Pit",
+        "Gniazdo Żmij"
+      ],
+      "explanation": "Rola: Kontroler. Umiejętności: Poison Cloud, Toxic Screen, Snake Bite, Viper's Pit. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-viper.webp",
+      "id": "valorant-6944898562e35e45e95c"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Phoenix – ult: Run it Back",
+      "aliases": [
+        "Phoenix",
+        "Run it Back",
+        "Drugie Podejście"
+      ],
+      "explanation": "Rola: Pojedynkowicz. Umiejętności: Blaze, Hot Hands, Curveball, Run it Back. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-phoenix.webp",
+      "id": "valorant-5ad3460375abb7f8f509"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Veto – ult: Evolution",
+      "aliases": [
+        "Veto",
+        "Evolution",
+        "Ewolucja"
+      ],
+      "explanation": "Rola: Strażnik. Umiejętności: Interceptor, Crosscut, Evolution, Chokehold. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-veto.webp",
+      "id": "valorant-784ff94f3a75c4ce4858"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Astra – ult: Astral Form / Cosmic Divide",
+      "aliases": [
+        "Astra",
+        "Astral Form / Cosmic Divide",
+        "Postać Astral/Gwiezdna Rysa"
+      ],
+      "explanation": "Rola: Kontroler. Umiejętności: Nova Pulse, Nebula / Dissipate, Gravity Well, Astral Form / Cosmic Divide. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-astra.webp",
+      "id": "valorant-60a02739ceeab8294ce8"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Brimstone – ult: Orbital Strike",
+      "aliases": [
+        "Brimstone",
+        "Orbital Strike",
+        "Ostrzał Orbitalny"
+      ],
+      "explanation": "Rola: Kontroler. Umiejętności: Stim Beacon, Incendiary, Sky Smoke, Orbital Strike. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-brimstone.webp",
+      "id": "valorant-7b67c27e6c3e534f84ed"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Iso – ult: Kill Contract",
+      "aliases": [
+        "Iso",
+        "Kill Contract",
+        "Zlecenie Zabójcy"
+      ],
+      "explanation": "Rola: Pojedynkowicz. Umiejętności: Undercut, Kill Contract, Double Tap, Contingency. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-iso.webp",
+      "id": "valorant-ebb68bdac49e80a2b0e1"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Clove – ult: Not Dead Yet",
+      "aliases": [
+        "Clove",
+        "Not Dead Yet",
+        "Jeszcze Żyję"
+      ],
+      "explanation": "Rola: Kontroler. Umiejętności: Pick-me-up, Ruse, Not Dead Yet, Meddle. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-clove.webp",
+      "id": "valorant-6a54bb031c915adbbd75"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Neon – ult: Overdrive",
+      "aliases": [
+        "Neon",
+        "Overdrive",
+        "Nadbieg"
+      ],
+      "explanation": "Rola: Pojedynkowicz. Umiejętności: High Gear, Relay Bolt, Fast Lane, Overdrive. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-neon.webp",
+      "id": "valorant-88ec4468388a0ab823c2"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Yoru – ult: DIMENSIONAL DRIFT",
+      "aliases": [
+        "Yoru",
+        "DIMENSIONAL DRIFT",
+        "Drift Przez Wymiary"
+      ],
+      "explanation": "Rola: Pojedynkowicz. Umiejętności: FAKEOUT, BLINDSIDE, GATECRASH, DIMENSIONAL DRIFT. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-yoru.webp",
+      "id": "valorant-cfdb7b752710adb470e6"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Waylay – ult: Convergent Paths",
+      "aliases": [
+        "Waylay",
+        "Convergent Paths",
+        "Zbieżne Ścieżki"
+      ],
+      "explanation": "Rola: Pojedynkowicz. Umiejętności: Refract, Saturate, Lightspeed, Convergent Paths. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-waylay.webp",
+      "id": "valorant-56a6a9894fa2704e9156"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Sage – ult: Resurrection",
+      "aliases": [
+        "Sage",
+        "Resurrection",
+        "Wskrzeszenie"
+      ],
+      "explanation": "Rola: Strażnik. Umiejętności: Slow Orb, Healing Orb, Barrier Orb, Resurrection. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-sage.webp",
+      "id": "valorant-fcf42a08917ebf196a15"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Reyna – ult: Empress",
+      "aliases": [
+        "Reyna",
+        "Empress",
+        "Cesarzowa"
+      ],
+      "explanation": "Rola: Pojedynkowicz. Umiejętności: Devour, Dismiss, Leer, Empress. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-reyna.webp",
+      "id": "valorant-96cb31190847bc1c09fb"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Omen – ult: From the Shadows",
+      "aliases": [
+        "Omen",
+        "From the Shadows",
+        "Z Cieni"
+      ],
+      "explanation": "Rola: Kontroler. Umiejętności: Paranoia, Dark Cover, Shrouded Step, From the Shadows. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-omen.webp",
+      "id": "valorant-64b4baa61cf8292ec386"
+    },
+    {
+      "prompt": "Co to za agent i jak nazywa się jego umiejętność ostateczna (ult)?",
+      "answer": "Jett – ult: Blade Storm",
+      "aliases": [
+        "Jett",
+        "Blade Storm",
+        "Burza Ostrzy"
+      ],
+      "explanation": "Rola: Pojedynkowicz. Umiejętności: Updraft, Tailwind, Cloudburst, Blade Storm. Pełna odpowiedź to agent i nazwa ulta.",
+      "image": "/valorant/agent-jett.webp",
+      "id": "valorant-db2e8fc589261e1bc82c"
+    },
+    {
+      "prompt": "Który agent ma umiejętność „Healing Orb” (pl. „Lecząca Kula”)?",
+      "answer": "Sage",
+      "id": "valorant-a3d2c9273ec31c5fadba"
+    },
+    {
+      "prompt": "Który agent ma umiejętność „Recon Bolt” (pl. „Strzała Zwiadowcza”)?",
+      "answer": "Sova",
+      "id": "valorant-47562bf1eab649ce42e9"
+    },
+    {
+      "prompt": "Który agent ma umiejętność „Trapwire” (pl. „Potykacz”)?",
+      "answer": "Cypher",
+      "id": "valorant-104fd4cbd944862da853"
+    },
+    {
+      "prompt": "Który agent ma umiejętność „TURRET” (pl. „Działko”)?",
+      "answer": "Killjoy",
+      "id": "valorant-8c1ad5a260716a796e0c"
+    },
+    {
+      "prompt": "Który agent ma umiejętność „Boom Bot” (pl. „Bum Bot”)?",
+      "answer": "Raze",
+      "id": "valorant-435ef6ad1e4f18f74371"
+    },
+    {
+      "prompt": "Który agent ma umiejętność „Curveball” (pl. „Podkręcona Piłka”)?",
+      "answer": "Phoenix",
+      "id": "valorant-16677d3d2283accbf041"
+    },
+    {
+      "prompt": "Który agent ma umiejętność „Leer” (pl. „Rzut Okiem”)?",
+      "answer": "Reyna",
+      "id": "valorant-ab8eb6aa54ef4f048883"
+    },
+    {
+      "prompt": "Który agent ma umiejętność „Paranoia” (pl. „Paranoja”)?",
+      "answer": "Omen",
+      "id": "valorant-ed8d2ee4ebb047df139d"
+    },
+    {
+      "prompt": "Który agent ma umiejętność „Toxic Screen” (pl. „Toksyczna Zasłona”)?",
+      "answer": "Viper",
+      "id": "valorant-ec319c039a3ae5f24110"
+    },
+    {
+      "prompt": "Który agent ma umiejętność „Stim Beacon” (pl. „Nadajnik Stymulujący”)?",
+      "answer": "Brimstone",
+      "id": "valorant-0477bc2487f1d5047fd7"
+    },
+    {
+      "prompt": "Który agent ma umiejętność „Fault Line” (pl. „Uskok”)?",
+      "answer": "Breach",
+      "id": "valorant-82146c9723f64e89ee57"
+    },
+    {
+      "prompt": "Który agent ma umiejętność „Guiding Light” (pl. „Przewodnie Światło”)?",
+      "answer": "Skye",
+      "id": "valorant-99238ecb6fe18943fae4"
+    },
+    {
+      "prompt": "Który agent ma umiejętność „GATECRASH” (pl. „Wtargnięcie”)?",
+      "answer": "Yoru",
+      "id": "valorant-01b0c74d1c576e6e68f6"
+    },
+    {
+      "prompt": "Który agent ma umiejętność „High Gear” (pl. „Wysoki Bieg”)?",
+      "answer": "Neon",
+      "id": "valorant-eee678c6422ce4a13484"
+    },
+    {
+      "prompt": "Który agent ma umiejętność „ZERO/point” (pl. „punkt/ZERO”)?",
+      "answer": "KAY/O",
+      "id": "valorant-bdbfd38ab44bad0e1386"
+    },
+    {
+      "prompt": "Który agent ma umiejętność „Haunt” (pl. „Prześladowca”)?",
+      "answer": "Fade",
+      "id": "valorant-30a8dd54e5b2264b4b70"
+    },
+    {
+      "prompt": "Który agent ma umiejętność „Headhunter” (pl. „Łowca Głów”)?",
+      "answer": "Chamber",
+      "id": "valorant-f9f331fe752174e932d4"
+    },
+    {
+      "prompt": "Który agent ma umiejętność „Wingman”?",
+      "answer": "Gekko",
+      "id": "valorant-0c75f369ba6a64657bea"
+    },
+    {
+      "prompt": "Jak nazywa się ładunek, który atakujący podkładają w Valorancie?",
+      "answer": "Spike",
+      "aliases": [
+        "Kolec"
+      ],
+      "id": "valorant-eeabfabb48a14172ed05"
+    },
+    {
+      "prompt": "Ile rund trzeba wygrać, żeby wygrać mecz rankingowy w Valorancie (bez dogrywki)?",
+      "answer": "13",
+      "id": "valorant-a4de0329297938b76ce3"
+    },
+    {
+      "prompt": "Jak nazywa się podstawowy, darmowy pistolet w Valorancie?",
+      "answer": "Classic",
+      "id": "valorant-0ffa384a3569b7cc7bb5"
+    },
+    {
+      "prompt": "Jak nazywa się najdroższy karabin snajperski w Valorancie?",
+      "answer": "Operator",
+      "aliases": [
+        "Op"
+      ],
+      "id": "valorant-d9ed054db4ffe12a18d6"
+    },
+    {
+      "prompt": "Jak nazywa się karabin, który razem z Vandalem kosztuje 2900 kredytów?",
+      "answer": "Phantom",
+      "id": "valorant-cca4904e1cc76e2929dd"
+    },
+    {
+      "prompt": "Która firma stworzyła Valoranta?",
+      "answer": "Riot Games",
+      "aliases": [
+        "Riot"
+      ],
+      "id": "valorant-2833130c850d72ac320d"
+    },
+    {
+      "prompt": "Jak nazywa się rola agentów, którzy stawiają dymy i odcinają widoczność?",
+      "answer": "Kontroler",
+      "aliases": [
+        "Controller",
+        "Kontrolerzy"
+      ],
+      "id": "valorant-5e97cc8799c33beb4f79"
+    },
+    {
+      "prompt": "Jak nazywa się rola agentów, którzy pilnują flanki i bronią punktu pułapkami?",
+      "answer": "Strażnik",
+      "aliases": [
+        "Sentinel",
+        "Strażnicy"
+      ],
+      "id": "valorant-38038f7247b9a4732409"
+    },
+    {
+      "prompt": "Które dwie mapy Valoranta mają trzy punkty podkładania spike’a? Podaj jedną.",
+      "answer": "Haven lub Lotus",
+      "aliases": [
+        "Haven",
+        "Lotus"
+      ],
+      "id": "valorant-77bcecfb50bf53affe0c"
+    }
   ]
 };

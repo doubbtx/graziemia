@@ -144,3 +144,43 @@ test('The answering player can skip their own question like the judge (−3 s, n
  assert.ok(room.duel.remaining[turn]<=before-3000);
  assert.equal(room.duel.skipCounts[turn],1);
 });
+
+test('Freeze stops the own clock for 5 seconds, then time runs again',()=>{
+ const room=startDuel(readyDuel()),d=room.duel,id=d.turn,player=room.players.find(player=>player.id===id);
+ player.card='freeze';player.cardUsed=false;
+ const before=d.remaining[id];
+ action(room,id,'CARD',{questionKey:d.key},4000);
+ tick(room,8000);
+ assert.equal(room.duel.remaining[id],before);
+ assert.equal(publicState(room,id,8000).duel.freeze.playerId,id);
+ tick(room,11000);
+ assert.equal(room.duel.remaining[id],before-2000);
+ assert.equal(room.duel.freeze,null);
+});
+
+test('Time thief moves 5 seconds from the rival and fog targets the rival for the whole duel',()=>{
+ const room=startDuel(readyDuel()),d=room.duel,[id,rival]=d.ids,player=room.players.find(player=>player.id===id);
+ player.card='steal';player.cardUsed=false;
+ const mine=d.remaining[id],theirs=d.remaining[rival];
+ action(room,id,'CARD',{},4000);
+ assert.equal(room.duel.remaining[rival],theirs-5000);
+ assert.ok(room.duel.remaining[id]>=mine+5000-1);
+ player.card='fog';player.cardUsed=false;
+ action(room,id,'CARD',{},4000);
+ assert.equal(room.duel.fog.target,rival);
+ assert.equal(publicState(room,rival,4000).duel.fogged,true);
+ assert.equal(publicState(room,id,4000).duel.fogged,false);
+});
+
+test('Shop sells every card between duels and replaces the unused card',()=>{
+ const room=readyDuel(),challenger=room.duel.ids[0];
+ room.duel=null;room.phase='choose';
+ const player=room.players.find(player=>player.id===challenger);
+ player.walletCents=3000;player.card='letter';player.cardUsed=false;
+ const shop=publicState(room,challenger).economyPanel;
+ assert.ok(['fog','freeze','steal','laststand','shield','heal'].every(type=>shop.cards.some(card=>card.type===type)));
+ action(room,challenger,'V11_BUY',{item:'card',card:'steal'});
+ assert.equal(player.card,'steal');
+ assert.equal(player.walletCents,500);
+ assert.throws(()=>action(room,challenger,'V11_BUY',{item:'card',card:'shield'}),/Za mało punktów/);
+});

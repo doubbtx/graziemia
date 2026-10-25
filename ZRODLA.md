@@ -36,6 +36,7 @@ Listy klubów obejmują pięć ostatnich etapów kariery seniorskiej (z wypożyc
 
 - Zabytki świata: zdjęcia z artykułów Wikipedii (w większości z Wikimedia Commons na wolnych licencjach – autorzy na stronach plików); serwer gry przechowuje ich kopie w pamięci podręcznej.
 - Co kosztuje więcej?: ceny orientacyjne z lat 2025–2026; pary dobrano tak, by różnica była wyraźna niezależnie od sklepu.
+- Valorant: grafiki map, minimap i portrety agentów oraz nazwy umiejętności pochodzą z gry Valorant (© Riot Games), pobrane przez społecznościowe API valorant-api.com. Kadry map i minimap zostały przycięte i zmniejszone (public/valorant). Użycie w niekomercyjnym projekcie zgodnie z zasadami Riot Games dla twórczości fanów („Legal Jibber Jabber”); projekt nie jest wspierany ani sponsorowany przez Riot Games.
 
 ## Zdjęcia kosmetyków
 - Tusz do rzęs: [Mascara de pestañas.jpg](https://commons.wikimedia.org/wiki/File:Mascara_de_pesta%C3%B1as.jpg)

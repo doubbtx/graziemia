@@ -32,7 +32,7 @@ export default function Arena() {
   const params = new URLSearchParams(location.search);
   const [name, setName] = useState(''), [code, setCode] = useState(() => params.get('room') || '');
   const [endpoint] = useState(() => params.get('backend') || import.meta.env.VITE_API_BASE_URL || '');
-  const [infoCategory, setInfoCategory] = useState(null), [tab, setTab] = useState('arena'), [search, setSearch] = useState(''), [publicView, setPublicView] = useState(false);
+  const [infoCategory, setInfoCategory] = useState(null), [tab, setTab] = useState('arena'), [search, setSearch] = useState('');
   const [loaded, setLoaded] = useState(null), [imageError, setImageError] = useState(null), [imagePreload, setImagePreload] = useState(null);
   const ref = useRef(null), sref = useRef(session), conn = useRef(false), lock = useRef(false);
   sref.current = session;
@@ -154,7 +154,6 @@ export default function Arena() {
   useEffect(() => {
     const fn = e => {
       if (e.repeat || e.ctrlKey || e.metaKey || e.altKey || e.target.isContentEditable || ['INPUT', 'SELECT', 'TEXTAREA', 'BUTTON'].includes(e.target.tagName)) return;
-      if (e.key.toLowerCase() === 'h') { setPublicView(v => !v); return; }
       const r = ref.current, duel = r?.duel;
       if (!duel || duel.adminId !== r.you) return;
       if (e.code === 'Space') { e.preventDefault(); send(duel.status === 'paused' ? 'RESUME' : 'PAUSE'); }
@@ -214,9 +213,9 @@ export default function Arena() {
   </section>;
 
   const sidebar = () => <aside className="arena-side">
-    {!publicView && <CardPanel room={room} send={send} disabled={disabled}/>}
-    {!publicView && <AudiencePanel room={room} send={send} disabled={disabled}/>}
-    {!publicView && <ShopPanel room={room} send={send} disabled={disabled}/>}
+    <CardPanel room={room} send={send} disabled={disabled}/>
+    <AudiencePanel room={room} send={send} disabled={disabled}/>
+    <ShopPanel room={room} send={send} disabled={disabled}/>
     {roster()}
     {(room.lastDecision || room.log.length > 0) && <section className="panel">
       <h3>Ostatnie wydarzenia</h3>
@@ -234,14 +233,14 @@ export default function Arena() {
           <h2>{!me.category ? 'Wybierz swoją kategorię' : me.ready ? 'Czekamy na pozostałych' : 'Potwierdź gotowość'}</h2>
           <p className="muted small">Start wymaga co najmniej {needed} graczy online z wybraną kategorią.{!host && ' Mecz uruchamia gospodarz.'}</p>
         </div>
-        {!publicView && <div className="action-bar__actions">
+        <div className="action-bar__actions">
           <button className={`btn ${me.ready ? 'btn--success' : 'btn--primary'}`} disabled={disabled || !me.category} onClick={() => send('READY')}>{me.ready ? '✓ Gotowy · cofnij' : 'Jestem gotowy'}</button>
           {host && <>
             <label className="field field--inline">Tryb<select value={room.settings.mode || 'solo'} disabled={disabled} onChange={e => send('MODE', {mode: e.target.value})}><option value="solo">Każdy na każdego</option><option value="teams">Drużyny (min. 4)</option></select></label>
             <label className="field field--inline">Czas<select value={room.settings.seconds} disabled={disabled} onChange={e => send('SETTINGS', {seconds: +e.target.value})}>{[30, 45, 60, 90].map(n => <option key={n} value={n}>{n} s</option>)}</select></label>
             <button className="btn btn--primary" disabled={disabled || !canStart} onClick={() => send('START')}>▶ Rozpocznij mecz</button>
           </>}
-        </div>}
+        </div>
       </section>
       <div className="lobby-grid">
         <section className="panel">
@@ -272,8 +271,8 @@ export default function Arena() {
       const player = person(id), active = d.turn === id;
       return <section className={`panel duel-player${active ? ' is-active' : ''}`} data-side={index} key={id}>
         <div className="duel-player__who"><PlayerAvatar name={pname(id)} color={avatarColor(player, index)}/><strong>{pname(id)}</strong>{!teams && hearts(player)}</div>
-        <PixelTimer milliseconds={d.remaining[id]} active={active && d.status === 'running'} label={pname(id)}/>
-        <small className="duel-player__state">{active ? '● Odpowiada' : 'Czeka'}{player.armed ? ' · ' + room.cardTypes[player.armed].name : ''}</small>
+        <PixelTimer milliseconds={d.remaining[id]} active={active && d.status === 'running' && d.freeze?.playerId !== id} label={pname(id)}/>
+        <small className="duel-player__state">{active ? '● Odpowiada' : 'Czeka'}{player.armed ? ' · ' + room.cardTypes[player.armed].name : ''}{d.freeze?.playerId === id ? ' · ❄ Zegar zamrożony' : ''}{d.fog?.target === id ? ' · 🌫 Mgła' : ''}</small>
       </section>;
     })}</div>
     <section className={`panel question${d.status === 'paused' ? ' is-paused' : ''}`}>
@@ -283,21 +282,23 @@ export default function Arena() {
         {(judge || participant) && <button className="btn btn--primary btn--lg" disabled={disabled || d.ready.includes(me.id)} onClick={() => send('DUEL_READY')}>{d.ready.includes(me.id) ? '✓ Gotowe' : 'Jestem gotowy'}</button>}
       </> : d.status === 'countdown' ? <><span className="eyebrow">Zaczynamy za</span><div className="countdown">{d.countdown}</div></> : <>
         <span className="eyebrow">{d.status === 'paused' ? '⏸ Pauza' : d.status === 'media' ? 'Wczytywanie obrazka · limit 6 s' : 'Odpowiedz na głos'}</span>
+        <div className={'question__body' + (d.fogged && d.turn === me.id && d.status === 'running' ? ' is-fogged' : '')} key={d.questionKey}>
         {d.footballer ? <FootballerCard footballer={d.footballer}/> : <h2 className="question__prompt">{d.prompt}</h2>}
         {q?.format === 'clues' && <p className="muted small">Sędzia odsłania kolejne wskazówki. Szybka odpowiedź (do 1,5 s) daje dodatkowy punkt.</p>}
         {d.visual && (d.visual.startsWith('📅 ') ? (() => { const [day, ...month] = d.visual.slice(3).split(' '); return <div className="calendar-card" role="img" aria-label={d.visual.slice(3)}><span>{month.join(' ')}</span><b>{day}</b></div>; })() : <div className="visual-riddle" role="img" aria-label="Rebus do rozpoznania">{d.visual}</div>)}
-        {d.privateHint && !publicView && <div className="notice notice--hint">{d.privateHint}</div>}
-        {d.audio && judge && !publicView && <div><p className="muted small">Odtwórz przez wspólny kanał głosowy. Na czas odsłuchu włącz pauzę.</p><audio controls preload="none" src={d.audio}/></div>}
+        {d.privateHint && <div className="notice notice--hint">{d.privateHint}</div>}
+        {d.audio && judge && <div><p className="muted small">Odtwórz przez wspólny kanał głosowy. Na czas odsłuchu włącz pauzę.</p><audio controls preload="none" src={d.audio}/></div>}
         {d.image && imageError !== d.questionKey && <img className="quiz-image" decoding="sync" key={d.questionKey} src={mediaUrl(d.image)} alt="Obrazek do rozpoznania" referrerPolicy="no-referrer" onLoad={() => setLoaded(d.questionKey)} onError={() => { setImageError(d.questionKey); setLoaded(d.questionKey); }}/>}
         {imageError === d.questionKey && (d.emoji ? <div className="emoji-fallback" role="img" aria-label="Ilustracja do rozpoznania">{d.emoji}</div> : <p>Grafika niedostępna. Sędzia może unieważnić pytanie bez kary.</p>)}
+        </div>
         {d.status === 'running' && isChoiceQuestion(d.category, d.prompt) && <p className="rule-note">{CHOICE_RULE}</p>}
         <p className="muted">{d.status === 'media' ? `Wczytano u ${d.mediaReady.length}/3 osób.` : `Odpowiada ${pname(d.turn)}.`}</p>
-        {d.turn === me.id && !judge && !publicView && d.status === 'running' && <button className="btn" disabled={disabled} onClick={() => send('PLAYER_SKIP', {questionKey: d.questionKey})}>↷ Pomiń pytanie · {d.skip5?.playerId === me.id && d.skip5.remaining > 0 ? 'bez kary' : '−3 s'}</button>}
+        {d.turn === me.id && !judge && d.status === 'running' && <button className="btn" disabled={disabled} onClick={() => send('PLAYER_SKIP', {questionKey: d.questionKey})}>↷ Pomiń pytanie · {d.skip5?.playerId === me.id && d.skip5.remaining > 0 ? 'bez kary' : '−3 s'}</button>}
       </>}
       {previous()}
-      {!publicView && <QuestionReports room={room} send={send} disabled={disabled}/>}
+      <QuestionReports room={room} send={send} disabled={disabled}/>
     </section>
-    {judge && !publicView && <section className="panel judge-panel">
+    {judge && <section className="panel judge-panel">
       <div className="panel__head"><span className="eyebrow">Panel sędziego · tylko dla Ciebie</span><span className={`status status--${d.status}`}>{STATUS[d.status] || d.status}</span></div>
       {d.answer && <div className="judge-answer" role="status" aria-live="polite"><span>Odpowiedź</span><strong>{d.answer}</strong></div>}
       <div className="judge-panel__main">
@@ -351,7 +352,7 @@ export default function Arena() {
         {d && duel()}
         {!d && room.previous && room.phase !== 'finished' && <section className="panel">{previous()}</section>}
         {room.phase === 'finished' && finished()}
-        {room.canUndo && !publicView && !judge && <button className="btn" disabled={disabled} onClick={() => send('UNDO')}>↶ Cofnij ostatnią decyzję (sędzia)</button>}
+        {room.canUndo && !judge && <button className="btn" disabled={disabled} onClick={() => send('UNDO')}>↶ Cofnij ostatnią decyzję (sędzia)</button>}
       </div>
       {sidebar()}
     </div>;
@@ -377,17 +378,16 @@ export default function Arena() {
     <ul><li>Poprawna odpowiedź: <b>+1</b> (do 1,5 s: <b>+2</b>)</li><li>Wygrany pojedynek: <b>+3</b></li><li>Pojedynek bez pominięć: <b>+5</b></li><li>Punkty trafiają też do portfela sklepu. Zakupy nie obniżają wyniku w rankingu.</li></ul>
     {!teams && room.cardTypes && <><h3>Karty jednorazowe</h3><dl className="card-list">{Object.entries(room.cardTypes).map(([key, c]) => <div key={key}><dt>{c.name}</dt><dd>{c.text}</dd></div>)}</dl></>}
     <h3>Skróty sędziego</h3>
-    <p><kbd>→</kbd> zalicza · <kbd>P</kbd> pomija · <kbd>Spacja</kbd> pauza · <kbd>Z</kbd> cofnij · <kbd>H</kbd> widok publiczny</p>
+    <p><kbd>→</kbd> zalicza · <kbd>P</kbd> pomija · <kbd>Spacja</kbd> pauza · <kbd>Z</kbd> cofnij</p>
   </section>;
 
-  return <main className={`app${d ? ' is-duel' : ''}${publicView ? ' is-public' : ''}`}>
+  return <main className={`app${d ? ' is-duel' : ''}`}>
     {d?.laststand && <div className="banner banner--danger" role="status">⚠ Ostatnia szansa: przegrany traci wszystkie życia.</div>}
     <header className="topbar">
       <div className="brand"><span className="brand__mark" aria-hidden="true">▣</span><span>Pixel Arena</span></div>
       {room && <nav className="topnav" aria-label="Widoki">{TABS.map(([key, label]) => <button key={key} className={tab === key ? 'is-active' : ''} aria-current={tab === key ? 'page' : undefined} onClick={() => setTab(key)}>{label}</button>)}</nav>}
       <div className="topbar__actions">
         {session && <span className={`pill ${online ? 'pill--ok' : 'pill--warn'}`}>{online ? '● Online' : '○ Łączenie…'}</span>}
-        {room && <button className={`btn btn--ghost btn--sm${publicView ? ' is-on' : ''}`} aria-pressed={publicView} onClick={() => setPublicView(v => !v)} title="Widok publiczny ukrywa prywatne informacje (H)">{publicView ? '👁 Publiczny' : '👁 Mój widok'}</button>}
         <button className="btn btn--ghost btn--icon" aria-label={theme === 'dark' ? 'Włącz jasny motyw' : 'Włącz ciemny motyw'} title="Motyw" onClick={() => setTheme(t => t === 'dark' ? 'light' : 'dark')}>{theme === 'dark' ? '☀' : '☾'}</button>
         <button className="btn btn--ghost btn--icon" aria-label="Pełny ekran" title="Pełny ekran" onClick={toggleFullscreen}>⛶</button>
       </div>
@@ -396,7 +396,7 @@ export default function Arena() {
       {error && <div role="alert" className="notice notice--error"><span>{error}</span><button className="btn btn--ghost btn--sm" onClick={() => setError('')}>Zamknij</button></div>}
       {notice && <div role="status" className="toast">{notice}</div>}
       {infoCategory && room && (() => {
-        const canPick = room.phase === 'lobby' && !teams && room.availableCategories.includes(infoCategory) && me?.category !== infoCategory && !publicView || room.phase === 'category' && room.pending?.[0] === me?.id && room.availableCategories.includes(infoCategory);
+        const canPick = room.phase === 'lobby' && !teams && room.availableCategories.includes(infoCategory) && me?.category !== infoCategory || room.phase === 'category' && room.pending?.[0] === me?.id && room.availableCategories.includes(infoCategory);
         const status = room.retired.includes(infoCategory) ? 'rozegrana' : me?.category === infoCategory ? 'Twoja kategoria' : room.availableCategories.includes(infoCategory) ? 'wolna' : 'zajęta';
         return <CategorySheet category={infoCategory} count={room.categoryCounts[infoCategory]} status={status} onPick={canPick && !disabled ? () => send('CATEGORY', {category: infoCategory}) : null} onClose={() => setInfoCategory(null)}/>;
       })()}

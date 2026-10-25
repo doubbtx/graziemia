@@ -33,17 +33,20 @@ export function CardPanel({room, send, disabled}) {
 }
 
 function ShopItems({room, send, disabled}) {
-  const e = room.economyPanel;
+  const e = room.economyPanel, holding = e.holding;
   return <div className="shop">
     <div className="shop__item">
-      <div><strong>Wskrzeszenie</strong><small>{e.reviveBought ? 'Zakupione wskrzeszenie zostało już wykorzystane.' : 'Po odpadnięciu wracasz z 1 życiem. Jeden zakup na grę.'}</small></div>
+      <div><strong>❤ Powrót do gry</strong><small>{e.reviveBought ? 'Zakupiony powrót został już wykorzystany.' : 'Po odpadnięciu wracasz z 1 życiem. Jeden zakup na grę.'}</small></div>
       <button className="btn btn--sm" disabled={disabled || !e.canRevive} onClick={() => send('V11_BUY', {item: 'revive'})}>{e.prices.revive} pkt</button>
     </div>
-    {room.settings.mode !== 'teams' && <div className="shop__item">
-      <div><strong>Ostatnia szansa</strong><small>Zastępuje niewykorzystaną kartę.</small></div>
-      <button className="btn btn--sm" disabled={disabled || !e.canBuyCard} onClick={() => send('V11_BUY', {item: 'laststand'})}>{e.prices.laststand} pkt</button>
-    </div>}
-    <p className="muted small">Portfel rośnie razem z punktami. Zakupy nie obniżają wyniku w rankingu.</p>
+    {room.settings.mode !== 'teams' && e.cards?.length > 0 && <>
+      <p className="shop__group">Karty jednorazowe{holding ? ` · w ręku: ${room.cardTypes?.[holding]?.name || holding}` : ''}</p>
+      {e.cards.map(card => <div className={`shop__item${holding === card.type ? ' is-held' : ''}`} key={card.type}>
+        <div><strong>🃏 {card.name}</strong><small>{card.text}</small></div>
+        <button className="btn btn--sm" disabled={disabled || !card.canBuy} title={holding && holding !== card.type ? 'Zastąpi kartę, którą masz w ręku' : undefined} onClick={() => send('V11_BUY', {item: 'card', card: card.type})}>{holding === card.type ? 'W ręku' : `${card.price} pkt`}</button>
+      </div>)}
+    </>}
+    <p className="muted small">Portfel rośnie razem z punktami. Zakupy nie obniżają wyniku w rankingu. Masz jedną kartę naraz – kupiona zastępuje niewykorzystaną.</p>
   </div>;
 }
 
