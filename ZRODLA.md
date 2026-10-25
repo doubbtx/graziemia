@@ -32,6 +32,8 @@ Listy klubów obejmują pięć ostatnich etapów kariery seniorskiej (z wypożyc
 - Kontury państw: [mapsicon](https://github.com/djaiss/mapsicon), autor djaiss – użyte z podaniem autora, zgodnie z warunkami projektu.
 - Zdjęcia kosmetyków: [Wikimedia Commons](https://commons.wikimedia.org/), wolne licencje; autorzy i licencje na stronach plików poniżej.
 
+- Postacie z gier, filmów i seriali: grafiki z artykułów Wikipedii (głównie ilustracje promocyjne objęte prawem autorskim właścicieli marek), wyświetlane jako odnośniki do serwerów Wikimedia, bez kopiowania do repozytorium. Wybrano postacie animowane, z gier, CGI i w kostiumach – bez zdjęć twarzy aktorów.
+
 ## Zdjęcia kosmetyków
 - Tusz do rzęs: [Mascara de pestañas.jpg](https://commons.wikimedia.org/wiki/File:Mascara_de_pesta%C3%B1as.jpg)
 - Eyeliner: [Liquid eye liner.jpg](https://commons.wikimedia.org/wiki/File:Liquid_eye_liner.jpg)

@@ -118,6 +118,11 @@ export default function Arena() {
           }
         };
         await Promise.all(Array.from({length: Math.min(6, images.length)}, worker));
+        for (const url of failedUrls.splice(0)) {
+          if (cancelled) return;
+          await new Promise(resolve => setTimeout(resolve, 400));
+          if (await preloadImage(url, controller.signal)) failed--; else failedUrls.push(url);
+        }
         if (!cancelled) setImagePreload({status: 'complete', done, total: images.length, failed, failedUrls});
       } catch (e) { if (!cancelled && e.name !== 'AbortError') setImagePreload({status: 'error', message: e.message, done: 0, total: 0, failed: 0}); }
     })();
@@ -423,7 +428,7 @@ export default function Arena() {
         </section>}
         {tab === 'zasady' && rules()}
       </>}
-      <footer className="footer"><span>Pixel Arena · głos przez własny komunikator</span><span>Grafiki: <a href="https://github.com/jdecked/twemoji" target="_blank" rel="noreferrer">Twemoji</a> (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">CC BY 4.0</a>) · flagi: <a href="https://flagcdn.com/" target="_blank" rel="noreferrer">Flagcdn</a> · kontury: <a href="https://github.com/djaiss/mapsicon" target="_blank" rel="noreferrer">mapsicon (djaiss)</a> · zdjęcia: <a href="https://commons.wikimedia.org/" target="_blank" rel="noreferrer">Wikimedia Commons</a></span></footer>
+      <footer className="footer"><span>Pixel Arena · głos przez własny komunikator</span><span>Grafiki: <a href="https://github.com/jdecked/twemoji" target="_blank" rel="noreferrer">Twemoji</a> (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">CC BY 4.0</a>) · flagi: <a href="https://flagcdn.com/" target="_blank" rel="noreferrer">Flagcdn</a> · kontury: <a href="https://github.com/djaiss/mapsicon" target="_blank" rel="noreferrer">mapsicon (djaiss)</a> · zdjęcia: <a href="https://commons.wikimedia.org/" target="_blank" rel="noreferrer">Wikimedia Commons</a> · postacie: ilustracje z <a href="https://en.wikipedia.org/" target="_blank" rel="noreferrer">Wikipedii</a>, prawa należą do właścicieli</span></footer>
     </div>
   </main>;
 }

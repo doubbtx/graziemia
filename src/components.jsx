@@ -48,7 +48,7 @@ const categoryEmojis = {
   'co to za pilkarz?': '⚽',
   'kontury panstw': '🗺️',
   kosmetyki: '💄',
-  'polskie memy': '😂',
+  'co to za postac?': '🎭',
 };
 
 export function getCategoryEmoji(category) {

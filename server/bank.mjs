@@ -30360,381 +30360,500 @@ export const bank = {
       "id": "kosmetyk-e5d1b675c0f0a741af51"
     }
   ],
-  "Polskie memy": [
+  "Co to za postać?": [
     {
-      "prompt": "Z jakiego filmu pochodzi cytat „Nie mamy pańskiego płaszcza i co nam pan zrobi?”",
-      "answer": "Miś",
-      "id": "mem-06f4faf6950d6aaeee7a"
+      "prompt": "Co to za postać z gry?",
+      "answer": "Mario",
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5c/Mario_by_Shigehisa_Nakaue.png",
+      "source": "https://en.wikipedia.org/wiki/Mario",
+      "id": "postac-8e7d820ad9d3323edb54"
     },
     {
-      "prompt": "Z jakiego filmu pochodzi przyśpiewka „Łubu dubu, łubu dubu, niech żyje nam prezes naszego klubu!”?",
-      "answer": "Miś",
-      "id": "mem-c8b8f90adeecdd229b07"
+      "prompt": "Co to za postać z gry?",
+      "answer": "Bowser",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d1/Bowser_by_Shigehisa_Nakaue.png",
+      "source": "https://en.wikipedia.org/wiki/Bowser_(character)",
+      "id": "postac-667ab5f802a1fde56a7e"
     },
     {
-      "prompt": "Z jakiego filmu pochodzi okrzyk „Ciemność, widzę ciemność!”?",
-      "answer": "Seksmisja",
-      "id": "mem-fa9173fca72c9d1e2021"
-    },
-    {
-      "prompt": "Z jakiego filmu pochodzi zdanie „Kopernik była kobietą!”?",
-      "answer": "Seksmisja",
-      "id": "mem-cdc37b363604ddc0f2ec"
-    },
-    {
-      "prompt": "Który bohater „Dnia świra” mówi: „Moja racja jest najmojsza”?",
-      "answer": "Adaś Miauczyński",
+      "prompt": "Co to za postać z gry?",
+      "answer": "Księżniczka Peach",
       "aliases": [
-        "Miauczyński"
+        "Peach"
       ],
-      "id": "mem-c7f011017fa010507e9c"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/16/Princess_Peach_Stock_Art.png",
+      "source": "https://en.wikipedia.org/wiki/Princess_Peach",
+      "id": "postac-a808b391d9e2c9a7d997"
     },
     {
-      "prompt": "Z jakiego filmu pochodzi cytat „Bo to zła kobieta była”?",
-      "answer": "Psy",
-      "id": "mem-42ca6d4883b2d75a9d24"
+      "prompt": "Co to za postać z gry?",
+      "answer": "Yoshi",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/db/Yoshi_%28Nintendo_character%29.png",
+      "source": "https://en.wikipedia.org/wiki/Yoshi",
+      "id": "postac-485665196742a4aa245d"
     },
     {
-      "prompt": "Z którego filmu pochodzi kultowy w polskim dubbingu monolog „Jak to jest być skrybą, dobrze?”",
-      "answer": "Asterix i Obelix: Misja Kleopatra",
+      "prompt": "Co to za postać z gry?",
+      "answer": "Donkey Kong",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d4/Donkey_Kong_character.png",
+      "source": "https://en.wikipedia.org/wiki/Donkey_Kong_(character)",
+      "id": "postac-9470bc927b05176fe5a9"
+    },
+    {
+      "prompt": "Co to za postać z gry?",
+      "answer": "Kirby",
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4e/Kirby_Nintendo.png",
+      "source": "https://en.wikipedia.org/wiki/Kirby_(character)",
+      "id": "postac-841935e1ecb1a09aa7c0"
+    },
+    {
+      "prompt": "Co to za postać z gry?",
+      "answer": "Pikachu",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a6/Pok%C3%A9mon_Pikachu_art.png",
+      "source": "https://en.wikipedia.org/wiki/Pikachu",
+      "id": "postac-2259bde28392b8f8382b"
+    },
+    {
+      "prompt": "Co to za postać z gry?",
+      "answer": "Sonic",
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f4/Sonic_modern_and_classic_designs.png",
+      "source": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(character)",
+      "id": "postac-7abcd534bcf543d76e53"
+    },
+    {
+      "prompt": "Co to za postać z gry?",
+      "answer": "Master Chief",
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/42/Master_chief_halo_infinite.png",
+      "source": "https://en.wikipedia.org/wiki/Master_Chief_(Halo)",
+      "id": "postac-e0282a32e7c745a13588"
+    },
+    {
+      "prompt": "Co to za postać z gry?",
+      "answer": "Kratos",
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/2f/Kratos_PS4.png",
+      "source": "https://en.wikipedia.org/wiki/Kratos_(God_of_War)",
+      "id": "postac-dc9988540b09f9132c39"
+    },
+    {
+      "prompt": "Co to za postać z gry?",
+      "answer": "Geralt z Rivii",
       "aliases": [
-        "Misja Kleopatra"
+        "Geralt",
+        "Wiedźmin"
       ],
-      "id": "mem-2c32cadde65b35bcbc98"
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Geralt.jpg/500px-Geralt.jpg",
+      "source": "https://en.wikipedia.org/wiki/Geralt_of_Rivia",
+      "id": "postac-09007feef26848d2bc68"
     },
     {
-      "prompt": "Z jakiego filmu pochodzi pytanie „Co ty wiesz o zabijaniu?”",
-      "answer": "Chłopaki nie płaczą",
-      "id": "mem-907a550013c92c40cc36"
+      "prompt": "Co to za postać z gry?",
+      "answer": "Creeper",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Minecraft_Creeper_%28Crop%29.png",
+      "source": "https://en.wikipedia.org/wiki/Creeper_(Minecraft)",
+      "id": "postac-34ee14301c378e6a4e60"
     },
     {
-      "prompt": "Z jakiego filmu pochodzi zdanie „Podobają mi się melodie, które już raz słyszałem”?",
-      "answer": "Rejs",
-      "id": "mem-4bc952175f8ba1b5a383"
-    },
-    {
-      "prompt": "Kto w 2014 roku powiedział „Sorry, taki mamy klimat”?",
-      "answer": "Elżbieta Bieńkowska",
+      "prompt": "Co to za postać z gry?",
+      "answer": "Crash Bandicoot",
       "aliases": [
-        "Bieńkowska"
+        "Crash"
       ],
-      "id": "mem-a6d1b81aad47b08ad2ee"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a3/IAT_Crash_Bandicoot.png",
+      "source": "https://en.wikipedia.org/wiki/Crash_Bandicoot_(character)",
+      "id": "postac-e43ca22f366349aa3f7d"
     },
     {
-      "prompt": "Który polityk jest autorem powiedzenia „Nie chcem, ale muszem”?",
-      "answer": "Lech Wałęsa",
+      "prompt": "Co to za postać z gry?",
+      "answer": "Spyro",
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/53/Spyro.png",
+      "source": "https://en.wikipedia.org/wiki/Spyro_(character)",
+      "id": "postac-5fbdb34bd0fb9099655a"
+    },
+    {
+      "prompt": "Co to za postać z gry?",
+      "answer": "Rayman",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/19/Rayman_Legends_Title_Character_Art.png",
+      "source": "https://en.wikipedia.org/wiki/Rayman_(character)",
+      "id": "postac-b62a62e236c187086bdf"
+    },
+    {
+      "prompt": "Co to za postać z gry?",
+      "answer": "Solid Snake",
       "aliases": [
-        "Wałęsa"
+        "Snake"
       ],
-      "id": "mem-66a1c97f46b0957d0bd8"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/80/SolidSnakerendercollection1.png",
+      "source": "https://en.wikipedia.org/wiki/Solid_Snake",
+      "id": "postac-a251515adb76f2f156e4"
     },
     {
-      "prompt": "Do którego premiera skierowano w 2011 roku słynne pytanie „Jak żyć, panie premierze?”?",
-      "answer": "Donald Tusk",
+      "prompt": "Co to za postać z gry?",
+      "answer": "Samus Aran",
       "aliases": [
-        "Tusk"
+        "Samus"
       ],
-      "id": "mem-76b569942c957f3ae286"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d6/Samus_Aran.png",
+      "source": "https://en.wikipedia.org/wiki/Samus_Aran",
+      "id": "postac-d25c80289c3d7dd87bf6"
     },
     {
-      "prompt": "Jakie zwierzę – małpa z wielkim nosem – w memach uosabia „typowego Janusza”?",
-      "answer": "Nosacz sundajski",
+      "prompt": "Co to za postać z gry?",
+      "answer": "Cloud Strife",
       "aliases": [
-        "Nosacz"
+        "Cloud"
       ],
-      "id": "mem-916ca20e47d97c75e627"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9e/Cloud_Strife.png",
+      "source": "https://en.wikipedia.org/wiki/Cloud_Strife",
+      "id": "postac-5367d8966623a04c3fe7"
     },
     {
-      "prompt": "Jakie imię nosi w memach typowy wąsaty Polak w sandałach i skarpetach?",
-      "answer": "Janusz",
-      "id": "mem-0453deec7f094014431c"
-    },
-    {
-      "prompt": "Jak w memach ma na imię żona Janusza?",
-      "answer": "Grażyna",
-      "id": "mem-f0edde8c5080b1ed8d40"
-    },
-    {
-      "prompt": "Jak nazywa się szef-wyzyskiwacz z memów, który mówi „Panie Areczku, nie ma «nie da się»”?",
-      "answer": "Janusz biznesu",
-      "id": "mem-64bdce7ad80ffd32aea5"
-    },
-    {
-      "prompt": "Jak ma na imię pracownik, któremu Janusz biznesu mówi „nie płaczemy, pracujemy”?",
-      "answer": "Areczek",
-      "id": "mem-fc747d2a597d49c5f7a4"
-    },
-    {
-      "prompt": "Która godzina jest w polskim internecie memiczną „godziną papieską”?",
-      "answer": "21:37",
+      "prompt": "Co to za postać z gry?",
+      "answer": "Doom Slayer",
       "aliases": [
-        "2137"
+        "Doomguy"
       ],
-      "id": "mem-2b9aa601a54f5b9fa38d"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fc/Doom_Slayer.png",
+      "source": "https://en.wikipedia.org/wiki/Doomguy",
+      "id": "postac-b7847fe5c28c86f094ce"
     },
     {
-      "prompt": "Jakie ciastko z Wadowic stało się bohaterem memów o papieżu?",
-      "answer": "Kremówka",
+      "prompt": "Co to za postać z gry?",
+      "answer": "GLaDOS",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bf/Glados.png",
+      "source": "https://en.wikipedia.org/wiki/GLaDOS",
+      "id": "postac-d2a110b1c61822158c8a"
+    },
+    {
+      "prompt": "Co to za postać z gry?",
+      "answer": "Gordon Freeman",
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/20/Gordon_Freeman.png",
+      "source": "https://en.wikipedia.org/wiki/Gordon_Freeman",
+      "id": "postac-275d6da5116f82187517"
+    },
+    {
+      "prompt": "Co to za postać z gry?",
+      "answer": "Steve",
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e7/Steve_%28Minecraft%29.png",
+      "source": "https://en.wikipedia.org/wiki/Steve_(Minecraft)",
+      "id": "postac-2121f63fa2843c8a5ce4"
+    },
+    {
+      "prompt": "Co to za postać z gry?",
+      "answer": "Jinx",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ad/Jinx-artwork-lol.png",
+      "source": "https://en.wikipedia.org/wiki/Jinx_(League_of_Legends)",
+      "id": "postac-b3c74c593ad257234e4b"
+    },
+    {
+      "prompt": "Co to za postać z gry?",
+      "answer": "Agent 47",
       "aliases": [
-        "Kremówka papieska"
+        "47"
       ],
-      "id": "mem-73938995ef65ce025859"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/62/Agent_47_in_Hitman_Absolution.png",
+      "source": "https://en.wikipedia.org/wiki/Agent_47",
+      "id": "postac-52f48f94d258846dbf79"
     },
     {
-      "prompt": "Z jakiego komiksowego memu z kulistymi państwami pochodzi hasło „Poland cannot into space”?",
-      "answer": "Polandball",
+      "prompt": "Co to za postać z filmu?",
+      "answer": "Shrek",
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4d/Shrek_%28character%29.png",
+      "source": "https://en.wikipedia.org/wiki/Shrek_(character)",
+      "id": "postac-75e664deb05daad1f6f6"
+    },
+    {
+      "prompt": "Co to za postać z filmu?",
+      "answer": "Osioł",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6c/Donkey_%28Shrek%29.png",
+      "source": "https://en.wikipedia.org/wiki/Donkey_(Shrek)",
+      "id": "postac-7e13e23c42b35471e98e"
+    },
+    {
+      "prompt": "Co to za postać z filmu?",
+      "answer": "Kot w butach",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8a/Puss_in_Boots_from_Shrek.png",
+      "source": "https://en.wikipedia.org/wiki/Puss_in_Boots_(Shrek)",
+      "id": "postac-166fa8518e8ff063e0e0"
+    },
+    {
+      "prompt": "Co to za postać z filmu?",
+      "answer": "Olaf",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6d/Olaf_from_Disney%27s_Frozen.png",
+      "source": "https://en.wikipedia.org/wiki/Olaf_(Frozen)",
+      "id": "postac-23e8d05245b552ba7c71"
+    },
+    {
+      "prompt": "Co to za postać z filmu?",
+      "answer": "Simba",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/94/Simba_%28_Disney_character_-_adult%29.png",
+      "source": "https://en.wikipedia.org/wiki/Simba",
+      "id": "postac-ce999b85f542a79656b2"
+    },
+    {
+      "prompt": "Co to za postać z filmu?",
+      "answer": "Stitch",
+      "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/d2/Stitch_%28Lilo_%26_Stitch%29.svg/500px-Stitch_%28Lilo_%26_Stitch%29.svg.png",
+      "source": "https://en.wikipedia.org/wiki/Stitch_(Lilo_%26_Stitch)",
+      "id": "postac-0bb861d614818a8ea16a"
+    },
+    {
+      "prompt": "Co to za postać z filmu?",
+      "answer": "Myszka Miki",
       "aliases": [
-        "Countryballs"
+        "Miki"
       ],
-      "id": "mem-f60080b658d7dc786420"
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Mickey_Mouse_%28poster_version%29.svg/500px-Mickey_Mouse_%28poster_version%29.svg.png",
+      "source": "https://en.wikipedia.org/wiki/Mickey_Mouse",
+      "id": "postac-538ba74f57d9acc15b5f"
     },
     {
-      "prompt": "Jakie zwierzę jest bohaterem polskiego memu, w którym zaskoczony mężczyzna krzyczy na jego widok w lesie?",
-      "answer": "Bóbr",
-      "id": "mem-53d82e90f5dd1fb3247e"
-    },
-    {
-      "prompt": "Czego dotyczy mem „Niemiec płakał, jak sprzedawał”?",
-      "answer": "Używanych samochodów sprowadzanych z Niemiec",
+      "prompt": "Co to za postać z filmu?",
+      "answer": "Kaczor Donald",
       "aliases": [
-        "Samochodu",
-        "Auta"
+        "Donald"
       ],
-      "id": "mem-2a1ea10544a548001f5f"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a5/Donald_Duck_angry_transparent_background.png",
+      "source": "https://en.wikipedia.org/wiki/Donald_Duck",
+      "id": "postac-9ba96c7c61d822f5e825"
     },
     {
-      "prompt": "Jakie warzywo symbolizuje w memach skąpstwo i kombinatorstwo?",
-      "answer": "Cebula",
-      "id": "mem-1776ef7945e6570a52c2"
-    },
-    {
-      "prompt": "Majonez którego producenta toczy w polskim internecie odwieczny spór z Winiary?",
-      "answer": "Kielecki",
+      "prompt": "Co to za postać z filmu?",
+      "answer": "Minionki",
       "aliases": [
-        "Majonez Kielecki"
+        "Minionek"
       ],
-      "id": "mem-cb9d549b1d4db115bfdf"
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Minion_sculpture_in_Brisbane%2C_2024.jpg/500px-Minion_sculpture_in_Brisbane%2C_2024.jpg",
+      "source": "https://en.wikipedia.org/wiki/Minions_(Despicable_Me)",
+      "id": "postac-75bf44cc7701036ae63f"
     },
     {
-      "prompt": "Jak w memach nazywa się typowy chłopak w dresie?",
-      "answer": "Seba",
+      "prompt": "Co to za postać z filmu?",
+      "answer": "Gru",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/09/Gru_from_DM4.png",
+      "source": "https://en.wikipedia.org/wiki/Gru_(Despicable_Me)",
+      "id": "postac-49b1c812339f4184f3e5"
+    },
+    {
+      "prompt": "Co to za postać z filmu?",
+      "answer": "Darth Vader",
       "aliases": [
-        "Sebix"
+        "Vader"
       ],
-      "id": "mem-732e7764e95020652fae"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0b/Darth_Vader_in_The_Empire_Strikes_Back.jpg",
+      "source": "https://en.wikipedia.org/wiki/Darth_Vader",
+      "id": "postac-34dda16ee6d525812f13"
     },
     {
-      "prompt": "Jak w memach nazywa się dziewczyna Seby?",
-      "answer": "Karyna",
-      "id": "mem-74b77b2fd7ccc74139c8"
+      "prompt": "Co to za postać z filmu?",
+      "answer": "Yoda",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Yoda_Empire_Strikes_Back.png",
+      "source": "https://en.wikipedia.org/wiki/Yoda",
+      "id": "postac-77c2e499cdf2e13683e8"
     },
     {
-      "prompt": "Z jakiego serialu pochodzi Ferdynand Kiepski?",
-      "answer": "Świat według Kiepskich",
+      "prompt": "Co to za postać z serialu?",
+      "answer": "Grogu",
       "aliases": [
-        "Kiepscy"
+        "Baby Yoda"
       ],
-      "id": "mem-448d92e7cd164931469e"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a0/Grogu_%28Star_Wars%29.jpg",
+      "source": "https://en.wikipedia.org/wiki/Grogu",
+      "id": "postac-34366145230ad247013d"
     },
     {
-      "prompt": "Jak nazywa się sąsiad Kiepskich, który handluje na bazarze?",
-      "answer": "Marian Paździoch",
+      "prompt": "Co to za postać z filmu?",
+      "answer": "Gollum",
       "aliases": [
-        "Paździoch"
+        "Smeagol",
+        "Sméagol"
       ],
-      "id": "mem-8080a7c64a24ea2858bf"
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Gollum_at_Wellington_Airport.jpg/500px-Gollum_at_Wellington_Airport.jpg",
+      "source": "https://en.wikipedia.org/wiki/Gollum",
+      "id": "postac-fe42829a38a4134aa1c2"
     },
     {
-      "prompt": "Jak ma na imię żona Ferdka Kiepskiego?",
-      "answer": "Halina",
+      "prompt": "Co to za postać z filmu?",
+      "answer": "Hulk",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/aa/Hulk_%28circa_2019%29.png",
+      "source": "https://en.wikipedia.org/wiki/Hulk",
+      "id": "postac-ddbf80ac948f769e6f00"
+    },
+    {
+      "prompt": "Co to za postać z filmu?",
+      "answer": "Groot",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3b/Groot.png",
+      "source": "https://en.wikipedia.org/wiki/Groot",
+      "id": "postac-de96143e037269f8b104"
+    },
+    {
+      "prompt": "Co to za postać z filmu?",
+      "answer": "Thanos",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b7/Thanos_%28Infobox_image%29.png",
+      "source": "https://en.wikipedia.org/wiki/Thanos",
+      "id": "postac-07a2626921546fdee0fa"
+    },
+    {
+      "prompt": "Co to za postać z filmu?",
+      "answer": "Spider-Man",
       "aliases": [
-        "Halinka"
+        "Człowiek-Pająk"
       ],
-      "id": "mem-3fa10477433659d1753a"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/21/Web_of_Spider-Man_Vol_1_129-1.png",
+      "source": "https://en.wikipedia.org/wiki/Spider-Man",
+      "id": "postac-9fb7483243eebcd6f3cb"
     },
     {
-      "prompt": "Jak ma na imię tytułowy bohater „Kilera” – taksówkarz wzięty za płatnego zabójcę?",
-      "answer": "Jurek",
+      "prompt": "Co to za postać z filmu?",
+      "answer": "Godzilla",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Godzilla_%281954%29_%28cropped%29.jpg/500px-Godzilla_%281954%29_%28cropped%29.jpg",
+      "source": "https://en.wikipedia.org/wiki/Godzilla",
+      "id": "postac-f52ba2f1bf3240e39df9"
+    },
+    {
+      "prompt": "Co to za postać z filmu?",
+      "answer": "Optimus Prime",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b2/Optimusprime-originaltoy.jpg",
+      "source": "https://en.wikipedia.org/wiki/Optimus_Prime",
+      "id": "postac-ce849aa1ad82ca19b224"
+    },
+    {
+      "prompt": "Co to za postać z filmu?",
+      "answer": "WALL-E",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/68/WALL-E_%28character%29.png",
+      "source": "https://en.wikipedia.org/wiki/WALL-E_(character)",
+      "id": "postac-5fbf47d2a3695801aee9"
+    },
+    {
+      "prompt": "Co to za postać z serialu?",
+      "answer": "Homer Simpson",
       "aliases": [
-        "Jerzy",
-        "Jerzy Kiler"
+        "Homer"
       ],
-      "id": "mem-8b3d8b58248b55f19398"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png",
+      "source": "https://en.wikipedia.org/wiki/Homer_Simpson",
+      "id": "postac-003d4bb892927f458447"
     },
     {
-      "prompt": "Jak nazywa się polski serial animowany dla dorosłych o kosmicznym kapitanie i jego załodze?",
-      "answer": "Kapitan Bomba",
-      "id": "mem-4149112993e1d2495d61"
-    },
-    {
-      "prompt": "Jakie słowo wygrało plebiscyt Młodzieżowe Słowo Roku 2016? Oznacza coś świetnego.",
-      "answer": "Sztos",
-      "id": "mem-adff9fdb61e6c5b6093c"
-    },
-    {
-      "prompt": "Jakie dwuliterowe „słowo” śmiechu wygrało Młodzieżowe Słowo Roku 2017?",
-      "answer": "XD",
-      "id": "mem-fdf26d69111e7cc37ac9"
-    },
-    {
-      "prompt": "Jakie słowo, oznaczające głupka, wygrało Młodzieżowe Słowo Roku 2018?",
-      "answer": "Dzban",
-      "id": "mem-34a6df5f1c6959447910"
-    },
-    {
-      "prompt": "Jakie słowo, oznaczające dziewczynę o alternatywnym stylu, wygrało Młodzieżowe Słowo Roku 2019?",
-      "answer": "Alternatywka",
-      "id": "mem-f78ff1d484de39318e25"
-    },
-    {
-      "prompt": "Jakie słowo wygrało Młodzieżowe Słowo Roku 2021?",
-      "answer": "Śpiulkolot",
-      "id": "mem-1ce309a1fcd72888e2af"
-    },
-    {
-      "prompt": "Jaki okrzyk zadowolenia wygrał Młodzieżowe Słowo Roku 2022?",
-      "answer": "Essa",
-      "id": "mem-97ccbb63b4226556e7be"
-    },
-    {
-      "prompt": "Jakie słowo, oznaczające „utożsamiam się z tym”, wygrało Młodzieżowe Słowo Roku 2023?",
-      "answer": "Rel",
-      "id": "mem-b37aa058c2808fa708e8"
-    },
-    {
-      "prompt": "Jakie słowo wygrało Młodzieżowe Słowo Roku 2024?",
-      "answer": "Sigma",
-      "id": "mem-e6fefdec56b275050e3b"
-    },
-    {
-      "prompt": "Czyja piosenka „Ale to już było” stała się nieśmiertelnym memem?",
-      "answer": "Maryla Rodowicz",
+      "prompt": "Co to za postać z serialu?",
+      "answer": "Bart Simpson",
       "aliases": [
-        "Rodowicz"
+        "Bart"
       ],
-      "id": "mem-a076bdad4509489a4555"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png",
+      "source": "https://en.wikipedia.org/wiki/Bart_Simpson",
+      "id": "postac-87cf664ca0c943fb7164"
     },
     {
-      "prompt": "Jaki zespół disco polo nagrał w 2012 roku przebój „Ona tańczy dla mnie”?",
-      "answer": "Weekend",
-      "id": "mem-0c41a7609251ab705550"
-    },
-    {
-      "prompt": "Z polskiej wersji jakiego filmu pochodzi piosenka „Mam tę moc”?",
-      "answer": "Kraina lodu",
-      "id": "mem-36f76b452b6be098d9af"
-    },
-    {
-      "prompt": "Który prezenter jest w memach „człowiekiem, który się nie starzeje”?",
-      "answer": "Krzysztof Ibisz",
+      "prompt": "Co to za postać z serialu?",
+      "answer": "SpongeBob",
       "aliases": [
-        "Ibisz"
+        "Spongebob Kanciastoporty"
       ],
-      "id": "mem-7a9bb46be5e91c505eeb"
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/SpongeBob_character.svg/500px-SpongeBob_character.svg.png",
+      "source": "https://en.wikipedia.org/wiki/SpongeBob_SquarePants_(character)",
+      "id": "postac-d42e472a1ab4a5dd282a"
     },
     {
-      "prompt": "Jakie słowo Geralt wykrzykuje w polskim dubbingu „Wiedźmina”, często używane jako mem?",
-      "answer": "Zaraza",
-      "id": "mem-a1b178db1706ae67ec53"
-    },
-    {
-      "prompt": "Który kucharz-podróżnik słynie w memach z erudycyjnych opowieści o czasach Austro-Węgier?",
-      "answer": "Robert Makłowicz",
+      "prompt": "Co to za postać z serialu?",
+      "answer": "Patryk",
       "aliases": [
-        "Makłowicz"
+        "Patrick"
       ],
-      "id": "mem-99db4dec472f4eebd246"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/Patrick_Star_character.png",
+      "source": "https://en.wikipedia.org/wiki/Patrick_Star",
+      "id": "postac-8b11fdc7c0b6bec506b8"
     },
     {
-      "prompt": "Jakiej sieci sklepów z zielonym logo żaby dotyczą memy o hot-dogach na każdym rogu?",
-      "answer": "Żabka",
-      "id": "mem-99546e5b7a5a426c2f43"
-    },
-    {
-      "prompt": "Jak nazywa się ksiądz-detektyw jeżdżący na rowerze po Sandomierzu w serialu TVP?",
-      "answer": "Ojciec Mateusz",
-      "id": "mem-248d7419a4fd136beb29"
-    },
-    {
-      "prompt": "Jakim słowem pogardliwie określano w internecie ucznia gimnazjum?",
-      "answer": "Gimbus",
+      "prompt": "Co to za postać z serialu?",
+      "answer": "Rick Sanchez",
       "aliases": [
-        "Gimbaza"
+        "Rick"
       ],
-      "id": "mem-23f8a073fb3eab23a501"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a6/Rick_Sanchez.png",
+      "source": "https://en.wikipedia.org/wiki/Rick_Sanchez",
+      "id": "postac-b028577cd9594c0c8d7a"
     },
     {
-      "prompt": "Jak nazywa się polski serwis z obrazkami-memami z czarną ramką i ironicznym podpisem?",
-      "answer": "Demotywatory",
-      "id": "mem-533742e360345647f0ad"
-    },
-    {
-      "prompt": "Jak nazywa się popularny polski serwis z memami, którego nazwa brzmi jak odgłos kaczki?",
-      "answer": "Kwejk",
-      "id": "mem-b2a67dc6562ddc786b99"
-    },
-    {
-      "prompt": "Jak nazywał się pies z serialu „Czterej pancerni i pies”?",
-      "answer": "Szarik",
-      "id": "mem-030cf11e95880fd19153"
-    },
-    {
-      "prompt": "Z utworu którego zespołu pochodzi wers „Jestem Bogiem, uświadom to sobie”?",
-      "answer": "Paktofonika",
-      "id": "mem-c9c608ae985e61e75488"
-    },
-    {
-      "prompt": "W jakim serialu bohaterowie mieszkają we wsi Wilkowyje?",
-      "answer": "Ranczo",
-      "id": "mem-eab6276292797800afa3"
-    },
-    {
-      "prompt": "Jak w memach nazywa się osobę, która przeprowadziła się do Warszawy i wozi jedzenie od mamy?",
-      "answer": "Słoik",
-      "id": "mem-b45cf62431eb14492b21"
-    },
-    {
-      "prompt": "Jak żartobliwie nazywa się warszawską dzielnicę biurowców wokół ulicy Domaniewskiej?",
-      "answer": "Mordor",
+      "prompt": "Co to za postać z serialu?",
+      "answer": "Peter Griffin",
       "aliases": [
-        "Mordor na Domaniewskiej"
+        "Peter"
       ],
-      "id": "mem-d838b37030093c6e9f25"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c2/Peter_Griffin.png",
+      "source": "https://en.wikipedia.org/wiki/Peter_Griffin",
+      "id": "postac-907bc006b64e37010eb6"
     },
     {
-      "prompt": "Jak żartobliwie nazywa się Pałac Kultury i Nauki od jego skrótu PKiN?",
-      "answer": "Pekin",
-      "id": "mem-d6badaa6b19fb7abe126"
-    },
-    {
-      "prompt": "Jak nazywa się w internecie długi tekst kopiowany i wklejany jako żart?",
-      "answer": "Pasta",
+      "prompt": "Co to za postać z serialu?",
+      "answer": "Scooby-Doo",
       "aliases": [
-        "Copypasta"
+        "Scooby"
       ],
-      "id": "mem-6ff710db9acb8eed2262"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/53/Scooby-Doo.png",
+      "source": "https://en.wikipedia.org/wiki/Scooby-Doo_(character)",
+      "id": "postac-635076efd8fd0b4c3503"
     },
     {
-      "prompt": "Jak kończy się początek słynnej internetowej pasty: „Mój stary to fanatyk…”?",
-      "answer": "wędkarstwa",
+      "prompt": "Co to za postać z serialu?",
+      "answer": "Tom (Tom i Jerry)",
       "aliases": [
-        "Wędkarstwa"
+        "Tom"
       ],
-      "id": "mem-46f24300997d6394713b"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f6/Tom_Tom_and_Jerry.png",
+      "source": "https://en.wikipedia.org/wiki/Tom_Cat",
+      "id": "postac-d27d55324b5c6d1c3544"
     },
     {
-      "prompt": "Który zespół disco polo śpiewa „Przez twe oczy zielone”?",
-      "answer": "Akcent",
-      "id": "mem-95949073b2929be49013"
-    },
-    {
-      "prompt": "Jak ma na imię lider zespołu Akcent, zwany królem disco polo?",
-      "answer": "Zenek",
+      "prompt": "Co to za postać z serialu?",
+      "answer": "Królik Bugs",
       "aliases": [
-        "Zenon",
-        "Zenek Martyniuk"
+        "Bugs"
       ],
-      "id": "mem-6472eda89f0694ed92f6"
+      "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/1/17/Bugs_Bunny.svg/500px-Bugs_Bunny.svg.png",
+      "source": "https://en.wikipedia.org/wiki/Bugs_Bunny",
+      "id": "postac-e443589573402723cdc9"
+    },
+    {
+      "prompt": "Co to za postać z serialu?",
+      "answer": "Garfield",
+      "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/bc/Garfield_the_Cat.svg/500px-Garfield_the_Cat.svg.png",
+      "source": "https://en.wikipedia.org/wiki/Garfield_(character)",
+      "id": "postac-893e7def798598757a9e"
+    },
+    {
+      "prompt": "Co to za postać z serialu?",
+      "answer": "Papa Smerf",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/79/Papa_smurf-comics_version.png",
+      "source": "https://en.wikipedia.org/wiki/Papa_Smurf",
+      "id": "postac-c5a85fae1b2946dbddc6"
+    },
+    {
+      "prompt": "Co to za postać z gry?",
+      "answer": "Luigi",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/be/Luigi_by_Shigehisa_Nakaue.png",
+      "source": "https://en.wikipedia.org/wiki/Luigi_(Nintendo)",
+      "id": "postac-3b5c0d27598c855bf09e"
+    },
+    {
+      "prompt": "Co to za postać z filmu?",
+      "answer": "Chewbacca",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/SWC4_-_Costume_Pageant-_Chewbacca_%28518145361%29.jpg/500px-SWC4_-_Costume_Pageant-_Chewbacca_%28518145361%29.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Chewbacca",
+      "id": "postac-83ee05a1f1428e2d0d09"
+    },
+    {
+      "prompt": "Co to za postać z filmu?",
+      "answer": "R2-D2",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Parents_of_Earth%2C_are_your_children_fully_immunized_%284647268251%29_%28cropped%29_auto_color_%28cropped_to_R2-D2%29.jpg/500px-Parents_of_Earth%2C_are_your_children_fully_immunized_%284647268251%29_%28cropped%29_auto_color_%28cropped_to_R2-D2%29.jpg",
+      "source": "https://pl.wikipedia.org/wiki/R2-D2",
+      "id": "postac-7415b33a8c7c161002f6"
+    },
+    {
+      "prompt": "Co to za postać z serialu?",
+      "answer": "Reksio",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Reksio_pomnik_02.jpg/500px-Reksio_pomnik_02.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Reksio_(serial_animowany)",
+      "id": "postac-89c45d48735752deffb9"
     }
   ]
 };
