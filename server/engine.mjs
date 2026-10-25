@@ -15,7 +15,7 @@ function awardNoSkip(r,duel,logLength){
  if(noSkip.length&&r.lastDecision)r.lastDecision.text+=' Bez pominięć: +5 pkt dla '+noSkip.map(playerId=>r.players.find(player=>player.id===playerId)?.name||'gracza').join(' i ')+'.';
 }
 // Cards added on top of v12 (fog, freeze, time theft) and a shop that sells every card.
-const newCards={fog:{name:'Mgła',text:'Na cały pojedynek: każde pytanie rywala pojawia się mocno rozmyte i wyostrza się dopiero po 4 sekundach. Aktywuj przed lub w trakcie własnego pojedynku.'},freeze:{name:'Zamrożenie',text:'We własnej turze zatrzymaj swój zegar na 5 sekund. Niewykorzystana część przepada, gdy tura przejdzie na rywala.'},steal:{name:'Złodziej czasu',text:'W trakcie własnego pojedynku zabierz rywalowi 5 sekund i dodaj je sobie. Rywalowi zostaje co najmniej 1 sekunda.'}};
+const newCards={fog:{name:'Mgła',text:'Na cały pojedynek: każde pytanie rywala pojawia się mocno rozmyte i wyostrza się przez 2,5 sekundy. Aktywuj przed lub w trakcie własnego pojedynku.'},freeze:{name:'Zamrożenie',text:'We własnej turze zatrzymaj swój zegar na 5 sekund. Niewykorzystana część przepada, gdy tura przejdzie na rywala.'},steal:{name:'Złodziej czasu',text:'W trakcie własnego pojedynku zabierz rywalowi 5 sekund i dodaj je sobie. Rywalowi zostaje co najmniej 1 sekunda.'}};
 // Prices in wallet points; a won duel usually brings 10–20.
 const cardPrices={length:12,freeze:14,letter:15,homecategory:15,time:18,skip5:20,allin:20,fog:22,steal:25,revive:25,heal:30,shield:30,laststand:35};
 const freezeMs=5000,stealMs=5000;
@@ -97,6 +97,8 @@ export function publicState(r,id,now=Date.now()){
  if(d&&q&&s.duel&&d.status==='running'){delete s.duel.clues;delete s.duel.v12Seen;const level=d.v12Level||0;if(q.format==='clues')s.duel.prompt=q.prompt+'\n'+q.clues.slice(0,level+1).map((x,i)=>(i+1)+'. '+x).join('\n');s.questionPanel={key:d.key,format:q.format||'standard',judge:d.adminId===id,canHint:d.adminId===id&&q.format==='clues'&&level<q.clues.length-1&&d.status==='running',canSkip:d.adminId===id&&d.status==='running'&&Number.isFinite(d.expire),reported:(r.questionReports||[]).some(x=>x.key===d.key&&x.by===id)};}
  // Only host/judge receive full reports; no answer keys included.
  s.cardTypes={...s.cardTypes,...newCards};if(solo(r)&&s.cardTypes.homecategory)s.cardTypes.homecategory={...s.cardTypes.homecategory,text:'Przed rozpoczęciem własnego pojedynku zmień jego kategorię na swoją (jeśli nie była jeszcze rozgrywana).'};const p=r.players.find(x=>x.id===id);
+ // Soundtrack questions play on every device, not only the judge's.
+ if(s.duel&&s.duel.prompt&&q?.audio)s.duel.audio=q.audio;
  if(s.duel&&d){s.duel.fog=d.fog?{target:d.fog.target}:null;s.duel.fogged=d.fog?.target===id;s.duel.freeze=d.freeze?{playerId:d.freeze.playerId,left:d.freeze.left}:null;}
  if(s.cardPanel?.visible&&newCards[p?.card]){const running=d?.status==='running',allowed=p.card==='fog'?inDuel(r,id)&&!d.fog:p.card==='freeze'?running&&d.turn===id&&!d.freeze:running&&d.ids.includes(id);s.cardPanel={...s.cardPanel,allowed,reason:{fog:'Aktywuj podczas własnego pojedynku – działa do jego końca.',freeze:'Użyj we własnej turze, gdy biegnie Twój zegar.',steal:'Użyj w trakcie własnego pojedynku.'}[p.card]};}
  if(s.economyPanel)s.economyPanel.cards=Object.entries(cardPrices).map(([type,price])=>({type,price,name:cardName(type),text:s.cardTypes[type]?.text||'',canBuy:shopOpen(r)&&!!p&&p.lives>0&&!(p.card===type&&!p.cardUsed)&&(p.walletCents||0)>=price*100})),s.economyPanel.holding=p?.card&&!p.cardUsed?p.card:null;

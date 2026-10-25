@@ -56,6 +56,9 @@ const info = {
   'Siatkówka': 'Przepisy, pozycje, zagrania oraz sukcesy polskich siatkarzy i siatkarek.',
   'Slang młodzieżowy': 'Wyjaśnij, co znaczy słowo ze slangu – polskiego albo angielskiego.',
   'Valorant': 'Rozpoznaj mapę po widoku lub fragmencie minimapy, agenta po portrecie (i jego ulta) oraz to, kto ma daną umiejętność.',
+  'Minecraft': 'Rozpoznaj moba, blok albo przedmiot po obrazku; do tego pytania o zasady gry.',
+  'Rasy psów': 'Po zdjęciu rozpoznaj rasę psa.',
+  'Soundtrack': 'Leci muzyka z serialu, filmu albo gry – zgadnij, skąd pochodzi. Zegar rusza razem z muzyką.',
   'Co to za dzień?': 'Podana jest data – powiedz, jakie święto lub dzień obchodzimy. Gdy tego dnia jest kilka świąt, wystarczy jedno z nich.',
 };
 // Categories where every question offers a fixed set of options.

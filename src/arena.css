@@ -297,10 +297,20 @@ details[open] > summary { margin-bottom: 10px; }
 @keyframes pulse { 50% { opacity: 0.55; } }
 .question { justify-items: center; text-align: center; padding: 36px 28px; gap: 16px; }
 .question.is-paused { opacity: 0.6; }
+.soundtrack { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px; }
+.soundtrack__wave { display: inline-flex; align-items: flex-end; gap: 3px; height: 28px; }
+.soundtrack__wave i { width: 4px; height: 30%; border-radius: 2px; background: var(--accent); }
+.soundtrack__wave.is-playing i { animation: wave 900ms ease-in-out infinite alternate; }
+.soundtrack__wave.is-playing i:nth-child(2) { animation-delay: -300ms; }
+.soundtrack__wave.is-playing i:nth-child(3) { animation-delay: -600ms; }
+.soundtrack__wave.is-playing i:nth-child(4) { animation-delay: -150ms; }
+.soundtrack__wave.is-playing i:nth-child(5) { animation-delay: -450ms; }
+@keyframes wave { from { height: 20%; } to { height: 100%; } }
 .question__body { display: grid; justify-items: center; gap: 16px; width: 100%; }
-/* Mgła card: the rival's question starts blurred and clears over 4 seconds. */
-.question__body.is-fogged { animation: fog-clear 4s ease-in forwards; }
-@keyframes fog-clear { from { filter: blur(18px); opacity: 0.55; } 70% { filter: blur(6px); opacity: 0.85; } to { filter: none; opacity: 1; } }
+/* Mgła card: the rival's question starts blurred and clears over 2.5 seconds; the clock-stopped states (image loading, pause) hold the blur. */
+.question__body.is-fogged { animation: fog-clear 2.5s ease-out forwards; }
+.question__body.is-fogged.is-held { animation-play-state: paused; }
+@keyframes fog-clear { from { filter: blur(7px); opacity: 0.7; } to { filter: none; opacity: 1; } }
 @media (prefers-reduced-motion: reduce) { .question__body.is-fogged { animation-timing-function: steps(4); } }
 .question__prompt { font-size: clamp(24px, 3vw, 34px); font-weight: 600; letter-spacing: -0.025em; line-height: 1.2; max-width: 26em; white-space: pre-line; }
 .ready-list { display: flex; gap: 6px; flex-wrap: wrap; justify-content: center; }

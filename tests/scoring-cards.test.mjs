@@ -184,3 +184,15 @@ test('Shop sells every card between duels and replaces the unused card',()=>{
  assert.equal(player.walletCents,500);
  assert.throws(()=>action(room,challenger,'V11_BUY',{item:'card',card:'shield'}),/Za mało punktów/);
 });
+
+test('Soundtrack questions send the audio to both players and the judge once the question is visible',()=>{
+ const questions=bank['Soundtrack'];
+ assert.ok(questions.length>=60);
+ assert.ok(questions.every(question=>question.audio.startsWith('https://audio-ssl.itunes.apple.com/')&&question.explanation));
+ const room=readyDuel();
+ room.duel.category='Soundtrack';room.duel.index=0;
+ for(const id of [...room.duel.ids,room.duel.adminId])assert.ok(!publicState(room,id,1000).duel.audio);
+ startDuel(room);
+ room.duel.category='Soundtrack';room.duel.index=0;
+ for(const id of [...room.duel.ids,room.duel.adminId])assert.equal(publicState(room,id,4000).duel.audio,questions[0].audio);
+});

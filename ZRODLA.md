@@ -37,6 +37,9 @@ Listy klubów obejmują pięć ostatnich etapów kariery seniorskiej (z wypożyc
 - Zabytki świata: zdjęcia z artykułów Wikipedii (w większości z Wikimedia Commons na wolnych licencjach – autorzy na stronach plików); serwer gry przechowuje ich kopie w pamięci podręcznej.
 - Co kosztuje więcej?: ceny orientacyjne z lat 2025–2026; pary dobrano tak, by różnica była wyraźna niezależnie od sklepu.
 - Valorant: grafiki map, minimap i portrety agentów oraz nazwy umiejętności pochodzą z gry Valorant (© Riot Games), pobrane przez społecznościowe API valorant-api.com. Kadry map i minimap zostały przycięte i zmniejszone (public/valorant). Użycie w niekomercyjnym projekcie zgodnie z zasadami Riot Games dla twórczości fanów („Legal Jibber Jabber”); projekt nie jest wspierany ani sponsorowany przez Riot Games.
+- Minecraft: obrazki mobów, bloków i przedmiotów z Minecraft Wiki (minecraft.wiki), zmniejszone do public/minecraft. Minecraft © Mojang Studios / Microsoft; użycie niekomercyjne zgodnie z wytycznymi Minecrafta dotyczącymi użycia marki i zasobów; projekt nie jest powiązany z Mojang ani Microsoftem.
+- Rasy psów: zdjęcia z artykułów polskiej i angielskiej Wikipedii (Wikimedia Commons, wolne licencje – autorzy na stronach plików); link do artykułu w polu source.
+- Soundtrack: 30-sekundowe fragmenty (podglądy) utworów odtwarzane bezpośrednio z serwerów Apple przez iTunes Search API; pliki nie są przechowywane w projekcie. Prawa do muzyki należą do jej twórców i wydawców; link do utworu w Apple Music w polu source.
 
 ## Zdjęcia kosmetyków
 - Tusz do rzęs: [Mascara de pestañas.jpg](https://commons.wikimedia.org/wiki/File:Mascara_de_pesta%C3%B1as.jpg)

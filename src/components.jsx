@@ -1,4 +1,4 @@
-import React, {memo, useEffect, useState} from 'react';
+import React, {memo, useEffect, useRef, useState} from 'react';
 import {CHOICE_RULE, categoryDescription, isChoiceCategory} from './categoryInfo.js';
 
 const categoryEmojis = {
@@ -55,7 +55,7 @@ const categoryEmojis = {
   'co to za dzien?': '📅',
   'co to za skrot?': '🔠',
   'zabytki swiata': '🏰',
-  'co kosztuje wiecej?': '💰', 'siatkowka': '🏐', 'slang mlodziezowy': '💬', 'valorant': '🎯',
+  'co kosztuje wiecej?': '💰', 'siatkowka': '🏐', 'slang mlodziezowy': '💬', 'valorant': '🎯', 'minecraft': '⛏️', 'rasy psow': '🐶', 'soundtrack': '🎵',
 };
 
 export function getCategoryEmoji(category) {
@@ -141,5 +141,27 @@ export function FootballerCard({footballer}) {
       {footballer.clubs.map((club, index) => <ClubCrest club={club} key={`${index}-${club.name}`}/>)}
     </ol>
     <span className="muted small">Ostatnie kluby, od najstarszego</span>
+  </div>;
+}
+
+/** Plays a question's music on every device as soon as the question starts; pauses with the duel. */
+export function SoundtrackPlayer({src, playKey, running}) {
+  const audio = useRef(null), [blocked, setBlocked] = useState(false);
+  const [muted, setMuted] = useState(() => { try { return localStorage.getItem('arena-muted') === '1'; } catch { return false; } });
+  useEffect(() => {
+    const a = new Audio(src); a.preload = 'auto'; audio.current = a;
+    return () => { a.pause(); a.removeAttribute('src'); a.load(); };
+  }, [src, playKey]);
+  useEffect(() => {
+    const a = audio.current; if (!a) return;
+    a.muted = muted;
+    if (running) a.play().then(() => setBlocked(false), () => setBlocked(true)); else a.pause();
+  }, [running, muted, src, playKey]);
+  function replay() { const a = audio.current; if (!a) return; a.currentTime = 0; a.play().then(() => setBlocked(false), () => setBlocked(true)); }
+  function toggleMute() { setMuted(m => { try { localStorage.setItem('arena-muted', m ? '0' : '1'); } catch {} return !m; }); }
+  return <div className="soundtrack">
+    <span className={`soundtrack__wave${running && !blocked && !muted ? ' is-playing' : ''}`} aria-hidden="true"><i/><i/><i/><i/><i/></span>
+    {blocked ? <button className="btn btn--primary btn--sm" onClick={replay}>▶ Kliknij, aby włączyć muzykę</button> : <button className="btn btn--sm" onClick={replay} disabled={!running}>↺ Od początku</button>}
+    <button className="btn btn--ghost btn--sm" onClick={toggleMute} aria-pressed={muted}>{muted ? '🔇 Wyciszone' : '🔊 Dźwięk'}</button>
   </div>;
 }

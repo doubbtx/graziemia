@@ -36048,5 +36048,1930 @@ export const bank = {
       ],
       "id": "valorant-77bcecfb50bf53affe0c"
     }
+  ],
+  "Minecraft": [
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Creeper",
+      "image": "/minecraft/creeper.webp",
+      "id": "minecraft-34ee14301c378e6a4e60"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Enderman",
+      "image": "/minecraft/enderman.webp",
+      "id": "minecraft-bcfff88ea3ad2a68fca7"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Zombie",
+      "aliases": [
+        "Zombi"
+      ],
+      "image": "/minecraft/zombie.webp",
+      "id": "minecraft-490b32463c2e3d6e0f9b"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Szkielet",
+      "aliases": [
+        "Skeleton"
+      ],
+      "image": "/minecraft/skeleton.webp",
+      "id": "minecraft-4337ef337ecbae01528e"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Pająk",
+      "aliases": [
+        "Spider"
+      ],
+      "image": "/minecraft/spider.webp",
+      "id": "minecraft-7d09d488b5d724ce60a9"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Wiedźma",
+      "aliases": [
+        "Witch",
+        "Czarownica"
+      ],
+      "image": "/minecraft/witch.webp",
+      "id": "minecraft-f4b9dd7d1ec8179e5a75"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Osadnik",
+      "aliases": [
+        "Villager",
+        "Wieśniak"
+      ],
+      "image": "/minecraft/villager.webp",
+      "id": "minecraft-b4c5b528b3ef050d62dc"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Żelazny golem",
+      "aliases": [
+        "Iron Golem"
+      ],
+      "image": "/minecraft/iron-golem.webp",
+      "id": "minecraft-baa4025efb7a7e8475e4"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Śnieżny golem",
+      "aliases": [
+        "Snow Golem",
+        "Bałwan"
+      ],
+      "image": "/minecraft/snow-golem.webp",
+      "id": "minecraft-001cb6b8d9c6f88dca00"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Smok Kresu",
+      "aliases": [
+        "Ender Dragon",
+        "Smok Endu"
+      ],
+      "image": "/minecraft/ender-dragon.webp",
+      "id": "minecraft-46799a0e72d447aadd62"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Wither",
+      "image": "/minecraft/wither.webp",
+      "id": "minecraft-cbff5bd8ce83d2cf2d87"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Ghast",
+      "image": "/minecraft/ghast.webp",
+      "id": "minecraft-768ad987d1c9612284e2"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Płomyk",
+      "aliases": [
+        "Blaze"
+      ],
+      "image": "/minecraft/blaze.webp",
+      "id": "minecraft-7ff440de8d23dfe66574"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Piglin",
+      "image": "/minecraft/piglin.webp",
+      "id": "minecraft-02fd1d26e498d7c16919"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Aksolotl",
+      "aliases": [
+        "Axolotl"
+      ],
+      "image": "/minecraft/axolotl.webp",
+      "id": "minecraft-7b7d2d4bae7c41d26ab3"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Allay",
+      "image": "/minecraft/allay.webp",
+      "id": "minecraft-5d2617c3ae3d7127e391"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Warden",
+      "image": "/minecraft/warden.webp",
+      "id": "minecraft-d0b96381ec2a1f2fbccb"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Szlam",
+      "aliases": [
+        "Slime"
+      ],
+      "image": "/minecraft/slime.webp",
+      "id": "minecraft-1d4b2499dc55fdfa274c"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Fantom",
+      "aliases": [
+        "Phantom"
+      ],
+      "image": "/minecraft/phantom.webp",
+      "id": "minecraft-023f16c08cac4b78e60d"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Wilk",
+      "aliases": [
+        "Wolf",
+        "Pies"
+      ],
+      "image": "/minecraft/wolf.webp",
+      "id": "minecraft-5b7c6cb41497b133dfac"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Papuga",
+      "aliases": [
+        "Parrot"
+      ],
+      "image": "/minecraft/parrot.webp",
+      "id": "minecraft-0fcb11d8c3d4312636cc"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Pszczoła",
+      "aliases": [
+        "Bee"
+      ],
+      "image": "/minecraft/bee.webp",
+      "id": "minecraft-6304f0d269c8ce83b8ad"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Panda",
+      "image": "/minecraft/panda.webp",
+      "id": "minecraft-65c91fe4e3e72018680a"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Lis",
+      "aliases": [
+        "Fox"
+      ],
+      "image": "/minecraft/fox.webp",
+      "id": "minecraft-dfcd3454bbea788a751a"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Shulker",
+      "image": "/minecraft/shulker.webp",
+      "id": "minecraft-f3995d4fb0ffedeecaab"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Hoglin",
+      "image": "/minecraft/hoglin.webp",
+      "id": "minecraft-8dd386049d72955725d7"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Pancernik",
+      "aliases": [
+        "Armadillo"
+      ],
+      "image": "/minecraft/armadillo.webp",
+      "id": "minecraft-407456ef7853760f49d5"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Wielbłąd",
+      "aliases": [
+        "Camel"
+      ],
+      "image": "/minecraft/camel.webp",
+      "id": "minecraft-4151715f8ef766d2ebb1"
+    },
+    {
+      "prompt": "Jak nazywa się ten mob z Minecrafta?",
+      "answer": "Żaba",
+      "aliases": [
+        "Frog"
+      ],
+      "image": "/minecraft/frog.webp",
+      "id": "minecraft-075e4feb426bf015748f"
+    },
+    {
+      "prompt": "Jak nazywa się ten blok z Minecrafta?",
+      "answer": "Stół rzemieślniczy",
+      "aliases": [
+        "Crafting Table",
+        "Warsztat"
+      ],
+      "image": "/minecraft/crafting-table.webp",
+      "id": "minecraft-eb5004f6d9c29823a159"
+    },
+    {
+      "prompt": "Jak nazywa się ten blok z Minecrafta?",
+      "answer": "Piec",
+      "aliases": [
+        "Furnace"
+      ],
+      "image": "/minecraft/furnace.webp",
+      "id": "minecraft-63ec0e858d54582409f2"
+    },
+    {
+      "prompt": "Jak nazywa się ten blok z Minecrafta?",
+      "answer": "Ruda diamentu",
+      "aliases": [
+        "Diamond Ore"
+      ],
+      "image": "/minecraft/diamond-ore.webp",
+      "id": "minecraft-2450c39ab3e1f9030b99"
+    },
+    {
+      "prompt": "Jak nazywa się ten blok z Minecrafta?",
+      "answer": "Obsydian",
+      "aliases": [
+        "Obsidian"
+      ],
+      "image": "/minecraft/obsidian.webp",
+      "id": "minecraft-24c869802c3e242e2858"
+    },
+    {
+      "prompt": "Jak nazywa się ten blok z Minecrafta?",
+      "answer": "Skała macierzysta",
+      "aliases": [
+        "Bedrock"
+      ],
+      "image": "/minecraft/bedrock.webp",
+      "id": "minecraft-85dbe993952f0ba22bcb"
+    },
+    {
+      "prompt": "Jak nazywa się ten blok z Minecrafta?",
+      "answer": "Skała Netheru",
+      "aliases": [
+        "Netherrack"
+      ],
+      "image": "/minecraft/netherrack.webp",
+      "id": "minecraft-c919131a11381e6fead1"
+    },
+    {
+      "prompt": "Jak nazywa się ten blok z Minecrafta?",
+      "answer": "Stół do zaklinania",
+      "aliases": [
+        "Enchanting Table",
+        "Stół zaklęć"
+      ],
+      "image": "/minecraft/enchanting-table.webp",
+      "id": "minecraft-3daf8a7ad36cfcdcdedb"
+    },
+    {
+      "prompt": "Jak nazywa się ten blok z Minecrafta?",
+      "answer": "Kowadło",
+      "aliases": [
+        "Anvil"
+      ],
+      "image": "/minecraft/anvil.webp",
+      "id": "minecraft-f0537d9559f308b727ca"
+    },
+    {
+      "prompt": "Jak nazywa się ten blok z Minecrafta?",
+      "answer": "Skrzynia",
+      "aliases": [
+        "Chest"
+      ],
+      "image": "/minecraft/chest.webp",
+      "id": "minecraft-d8bfbca86c7d128605bc"
+    },
+    {
+      "prompt": "Jak nazywa się ten blok z Minecrafta?",
+      "answer": "Magiczna latarnia",
+      "aliases": [
+        "Beacon",
+        "Latarnia"
+      ],
+      "image": "/minecraft/beacon.webp",
+      "id": "minecraft-e7dbd758ebc2b36bcc9c"
+    },
+    {
+      "prompt": "Jak nazywa się ten blok z Minecrafta?",
+      "answer": "Szafa grająca",
+      "aliases": [
+        "Jukebox"
+      ],
+      "image": "/minecraft/jukebox.webp",
+      "id": "minecraft-f5401e40a747827fefdd"
+    },
+    {
+      "prompt": "Jak nazywa się ten blok z Minecrafta?",
+      "answer": "Lej",
+      "aliases": [
+        "Hopper"
+      ],
+      "image": "/minecraft/hopper.webp",
+      "id": "minecraft-1eb8e6de5d9f95079b02"
+    },
+    {
+      "prompt": "Jak nazywa się ten blok z Minecrafta?",
+      "answer": "Tłok",
+      "aliases": [
+        "Piston"
+      ],
+      "image": "/minecraft/piston.webp",
+      "id": "minecraft-2dddd64cd29db6df920c"
+    },
+    {
+      "prompt": "Jak nazywa się ten blok z Minecrafta?",
+      "answer": "Blok trawy",
+      "aliases": [
+        "Grass Block",
+        "Trawa"
+      ],
+      "image": "/minecraft/grass-block.webp",
+      "id": "minecraft-9274c7be8e7e82f3ee3c"
+    },
+    {
+      "prompt": "Jak nazywa się ten blok z Minecrafta?",
+      "answer": "Jasnogłaz",
+      "aliases": [
+        "Glowstone"
+      ],
+      "image": "/minecraft/glowstone.webp",
+      "id": "minecraft-f8bc1e20720d040d3a54"
+    },
+    {
+      "prompt": "Jak nazywa się ten blok z Minecrafta?",
+      "answer": "Biblioteczka",
+      "aliases": [
+        "Bookshelf",
+        "Regał"
+      ],
+      "image": "/minecraft/bookshelf.webp",
+      "id": "minecraft-0d88689cdf329b1eacc7"
+    },
+    {
+      "prompt": "Jak nazywa się ten blok z Minecrafta?",
+      "answer": "Gąbka",
+      "aliases": [
+        "Sponge"
+      ],
+      "image": "/minecraft/sponge.webp",
+      "id": "minecraft-0fdc449a338defe74fcf"
+    },
+    {
+      "prompt": "Jak nazywa się ten blok z Minecrafta?",
+      "answer": "Kotwica odrodzenia",
+      "aliases": [
+        "Respawn Anchor"
+      ],
+      "image": "/minecraft/respawn-anchor.webp",
+      "id": "minecraft-ddb243b70ff3b6ebb7a1"
+    },
+    {
+      "prompt": "Jak nazywa się ten blok z Minecrafta?",
+      "answer": "Ciasto",
+      "aliases": [
+        "Cake",
+        "Tort"
+      ],
+      "image": "/minecraft/cake.webp",
+      "id": "minecraft-9c6e5a3f44fc5506aa58"
+    },
+    {
+      "prompt": "Jak nazywa się ten przedmiot z Minecrafta?",
+      "answer": "Diamentowy miecz",
+      "aliases": [
+        "Diamond Sword"
+      ],
+      "image": "/minecraft/diamond-sword.webp",
+      "id": "minecraft-faabb83e2360ac96450d"
+    },
+    {
+      "prompt": "Jak nazywa się ten przedmiot z Minecrafta?",
+      "answer": "Elytra",
+      "aliases": [
+        "Skrzydła"
+      ],
+      "image": "/minecraft/elytra.webp",
+      "id": "minecraft-58e9ca6db84c4a3eb465"
+    },
+    {
+      "prompt": "Jak nazywa się ten przedmiot z Minecrafta?",
+      "answer": "Totem nieśmiertelności",
+      "aliases": [
+        "Totem of Undying",
+        "Totem"
+      ],
+      "image": "/minecraft/totem-of-undying.webp",
+      "id": "minecraft-55ea6ab8c3fdf48a2fc6"
+    },
+    {
+      "prompt": "Jak nazywa się ten przedmiot z Minecrafta?",
+      "answer": "Perła Kresu",
+      "aliases": [
+        "Ender Pearl",
+        "Perła Endu"
+      ],
+      "image": "/minecraft/ender-pearl.webp",
+      "id": "minecraft-e3ea009137a04bf81d89"
+    },
+    {
+      "prompt": "Jak nazywa się ten przedmiot z Minecrafta?",
+      "answer": "Sztabka netherytu",
+      "aliases": [
+        "Netherite Ingot",
+        "Netheryt"
+      ],
+      "image": "/minecraft/netherite-ingot.webp",
+      "id": "minecraft-15b2af36b244ec977fb2"
+    },
+    {
+      "prompt": "Jak nazywa się ten przedmiot z Minecrafta?",
+      "answer": "Trójząb",
+      "aliases": [
+        "Trident"
+      ],
+      "image": "/minecraft/trident.webp",
+      "id": "minecraft-323f99b9a56b4b45411c"
+    },
+    {
+      "prompt": "Jak nazywa się ten przedmiot z Minecrafta?",
+      "answer": "Złote jabłko",
+      "aliases": [
+        "Golden Apple"
+      ],
+      "image": "/minecraft/golden-apple.webp",
+      "id": "minecraft-7117c8869f735f2580e4"
+    },
+    {
+      "prompt": "Jak nazywa się ten przedmiot z Minecrafta?",
+      "answer": "Kompas",
+      "aliases": [
+        "Compass"
+      ],
+      "image": "/minecraft/compass.webp",
+      "id": "minecraft-9d5c8e519d85d8c89e8f"
+    },
+    {
+      "prompt": "Jak nazywa się ten przedmiot z Minecrafta?",
+      "answer": "Oko Kresu",
+      "aliases": [
+        "Eye of Ender",
+        "Oko Endu"
+      ],
+      "image": "/minecraft/eye-of-ender.webp",
+      "id": "minecraft-2e816f56270c8c6b1e35"
+    },
+    {
+      "prompt": "Jak nazywa się ten przedmiot z Minecrafta?",
+      "answer": "Krzesiwo",
+      "aliases": [
+        "Flint and Steel"
+      ],
+      "image": "/minecraft/flint-and-steel.webp",
+      "id": "minecraft-cfe3cf9559b5b7ce15e0"
+    },
+    {
+      "prompt": "Jak nazywa się ten przedmiot z Minecrafta?",
+      "answer": "Buława",
+      "aliases": [
+        "Mace"
+      ],
+      "image": "/minecraft/mace.webp",
+      "id": "minecraft-b2efd3606c37475723e8"
+    },
+    {
+      "prompt": "Jak nazywa się ten przedmiot z Minecrafta?",
+      "answer": "Wędka",
+      "aliases": [
+        "Fishing Rod"
+      ],
+      "image": "/minecraft/fishing-rod.webp",
+      "id": "minecraft-c905e6d96c2b285fab74"
+    },
+    {
+      "prompt": "Kto stworzył Minecrafta?",
+      "answer": "Markus „Notch” Persson",
+      "aliases": [
+        "Notch",
+        "Markus Persson"
+      ],
+      "id": "minecraft-d16154d009881de74e7d"
+    },
+    {
+      "prompt": "Jakie studio rozwija Minecrafta?",
+      "answer": "Mojang Studios",
+      "aliases": [
+        "Mojang"
+      ],
+      "id": "minecraft-c22d3c24d63deaf7f7f8"
+    },
+    {
+      "prompt": "Jaka firma kupiła Mojang w 2014 roku?",
+      "answer": "Microsoft",
+      "id": "minecraft-2cc0626043a68d48994b"
+    },
+    {
+      "prompt": "Z jakiego bloku buduje się portal do Netheru?",
+      "answer": "Z obsydianu",
+      "aliases": [
+        "Obsydian"
+      ],
+      "id": "minecraft-ea50434d6e112a51b2f7"
+    },
+    {
+      "prompt": "Ile minimalnie bloków obsydianu potrzeba na portal do Netheru (bez narożników)?",
+      "answer": "10",
+      "aliases": [
+        "Dziesięć"
+      ],
+      "id": "minecraft-2119ad54ebbbf57bc811"
+    },
+    {
+      "prompt": "Co trzeba umieścić w ramie portalu, żeby otworzyć przejście do Kresu (Endu)?",
+      "answer": "Oczy Kresu",
+      "aliases": [
+        "Oko Kresu",
+        "Eye of Ender",
+        "Oczy Endu"
+      ],
+      "id": "minecraft-7f195416b585f1d77732"
+    },
+    {
+      "prompt": "Ile minut trwa pełna doba (dzień i noc) w Minecrafcie?",
+      "answer": "20 minut",
+      "aliases": [
+        "20"
+      ],
+      "id": "minecraft-6ec69b8b587cccfba447"
+    },
+    {
+      "prompt": "Jakiego najsłabszego kilofa potrzeba, żeby wydobyć diament?",
+      "answer": "Żelaznego",
+      "aliases": [
+        "Żelazny kilof",
+        "Żelazny"
+      ],
+      "id": "minecraft-b9ab5005fbd93db2178b"
+    },
+    {
+      "prompt": "Jaki materiał jest lepszy od diamentu i powstaje ze starożytnych zgliszczy?",
+      "answer": "Netheryt",
+      "aliases": [
+        "Netherite"
+      ],
+      "id": "minecraft-392a16343cca6658a313"
+    },
+    {
+      "prompt": "Co wypada z Withera po jego pokonaniu?",
+      "answer": "Gwiazda Netheru",
+      "aliases": [
+        "Nether Star"
+      ],
+      "id": "minecraft-5178a7f97ca400eb3d0d"
+    },
+    {
+      "prompt": "Z czego (oprócz trzech czaszek) buduje się ciało Withera?",
+      "answer": "Z piasku dusz",
+      "aliases": [
+        "Piasek dusz",
+        "Ziemia dusz",
+        "Soul Sand"
+      ],
+      "id": "minecraft-79a6a67a2ac4752ffe10"
+    },
+    {
+      "prompt": "Jak nazywa się tryb gry, w którym masz nieograniczone bloki i możesz latać?",
+      "answer": "Kreatywny",
+      "aliases": [
+        "Creative",
+        "Tryb kreatywny"
+      ],
+      "id": "minecraft-b7e30d7777dfd8f5be43"
+    },
+    {
+      "prompt": "Jak nazywa się tryb gry, w którym masz tylko jedno życie, a trudność jest zablokowana na najwyższej?",
+      "answer": "Hardcore",
+      "id": "minecraft-2338930e381b75a31a14"
+    },
+    {
+      "prompt": "Ile slotów ma pasek szybkiego wyboru (hotbar)?",
+      "answer": "9",
+      "aliases": [
+        "Dziewięć"
+      ],
+      "id": "minecraft-093f70e86d326d118c3b"
+    },
+    {
+      "prompt": "Ile sztuk większości przedmiotów mieści się w jednym slocie (stack)?",
+      "answer": "64",
+      "id": "minecraft-2ecc233dc1ee8c79f369"
+    },
+    {
+      "prompt": "Co dostaniesz, używając pustego wiadra na krowie?",
+      "answer": "Wiadro mleka",
+      "aliases": [
+        "Mleko"
+      ],
+      "id": "minecraft-da65e8f9db08097416b1"
+    },
+    {
+      "prompt": "Czym oswaja się wilka?",
+      "answer": "Kośćmi",
+      "aliases": [
+        "Kość"
+      ],
+      "id": "minecraft-accbee26598628b274e9"
+    },
+    {
+      "prompt": "Czym oswaja się kota?",
+      "answer": "Surową rybą",
+      "aliases": [
+        "Ryba",
+        "Surowy dorsz",
+        "Surowy łosoś"
+      ],
+      "id": "minecraft-a2d5ddf3a0fc5fd95fd4"
+    }
+  ],
+  "Rasy psów": [
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Jamnik",
+      "aliases": [
+        "Dachshund"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Standard-Dachshund.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Jamnik",
+      "id": "pies-e051f15ac13b8fac7ed0"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Bulterier",
+      "aliases": [
+        "Bull terrier"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Bull_Terrier_R_02.jpg/960px-Bull_Terrier_R_02.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Bulterier",
+      "id": "pies-82ca9075c5c70c381a0f"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Buldog angielski",
+      "aliases": [
+        "Buldog"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Racib%C3%B3rz_2007_082.jpg/960px-Racib%C3%B3rz_2007_082.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Buldog_angielski",
+      "id": "pies-6a0b7d82667a6804cc93"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Owczarek niemiecki",
+      "aliases": [
+        "German shepherd"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Owczarek_niemiecki_u%C5%BCytkowy_kr%C3%B3tkow%C5%82osy_suka.jpg/960px-Owczarek_niemiecki_u%C5%BCytkowy_kr%C3%B3tkow%C5%82osy_suka.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Owczarek_niemiecki",
+      "id": "pies-ad86960f1c02ee43b3c5"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Husky syberyjski",
+      "aliases": [
+        "Husky",
+        "Siberian husky"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Siberian-husky.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Husky_syberyjski",
+      "id": "pies-a16283e3345c6b90c835"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Chow chow",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/ChowChow2Szczecin.jpg/960px-ChowChow2Szczecin.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Chow_chow",
+      "id": "pies-c6acc8c12c7809b2cbad"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Golden retriever",
+      "aliases": [
+        "Golden"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Golden_Retriever_standing_Tucker.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Golden_retriever",
+      "id": "pies-bf0408b3a9c169794e4b"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Dalmatyńczyk",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Dalmatiner_2.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Dalmaty%C5%84czyk",
+      "id": "pies-ea5d9eb96e436adcbba4"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Buldog francuski",
+      "aliases": [
+        "Frenchie"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Confucius_De_la_Parure.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Buldog_francuski",
+      "id": "pies-40a3e6bffac320aab959"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Maltańczyk",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Maltanczyk_pl.jpg/960px-Maltanczyk_pl.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Malta%C5%84czyk",
+      "id": "pies-bb2bc9595f44b503449b"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Owczarek podhalański",
+      "aliases": [
+        "Owczarek tatrzański"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Polski_Owczarek_Podhala%C5%84ski_11.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Owczarek_podhala%C5%84ski",
+      "id": "pies-e601e907dec0eb080bae"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Polski owczarek nizinny",
+      "aliases": [
+        "PON",
+        "Owczarek nizinny"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Polski_owczarek_nizinny_rybnik-kamien_pl.jpg/960px-Polski_owczarek_nizinny_rybnik-kamien_pl.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Polski_owczarek_nizinny",
+      "id": "pies-5c20699f192fe2bf1972"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Dog niemiecki",
+      "aliases": [
+        "Great Dane",
+        "Dog"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Great_Dane_600.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Dog_niemiecki",
+      "id": "pies-cc4aad53c016b62dd017"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Greyhound",
+      "aliases": [
+        "Chart angielski"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Greyhound.crop..JPG/960px-Greyhound.crop..JPG",
+      "source": "https://pl.wikipedia.org/wiki/Greyhound",
+      "id": "pies-fdc78fa7479991fc34ca"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Chart afgański",
+      "aliases": [
+        "Afgan"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Afghan_Hound.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Chart_afga%C5%84ski",
+      "id": "pies-419d99e8648abdf26f2d"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Shih tzu",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Shih-tzu-Fibi.jpg/960px-Shih-tzu-Fibi.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Shih_tzu",
+      "id": "pies-6e4e8095cb8ea7220749"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Alaskan malamute",
+      "aliases": [
+        "Malamut"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Alaskan_Malamute.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Alaskan_malamute",
+      "id": "pies-ff3f207f76f30d6404a2"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Cavalier king charles spaniel",
+      "aliases": [
+        "Cavalier"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Rex_Cavalier_King_Charles_Spaniel.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Cavalier_king_charles_spaniel",
+      "id": "pies-fc036813d46c888b87d4"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Amerykański staffordshire terier",
+      "aliases": [
+        "Amstaff"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/AmStaff3.jpg/960px-AmStaff3.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Ameryka%C5%84ski_Staffordshire_terrier",
+      "id": "pies-bd7b8f03322a7464635f"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Yorkshire terrier",
+      "aliases": [
+        "York"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Yorkshire_teriery_522.jpg/960px-Yorkshire_teriery_522.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Yorkshire_terrier",
+      "id": "pies-d6bef7dd9a045fc160c1"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Beagle",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/MiloSmet.JPG/960px-MiloSmet.JPG",
+      "source": "https://pl.wikipedia.org/wiki/Beagle",
+      "id": "pies-abdf84f5b0e256cde3df"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Cocker spaniel angielski",
+      "aliases": [
+        "Cocker spaniel"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/EnglishCockerSpaniel_wb.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Cocker_spaniel_angielski",
+      "id": "pies-defaac0fd923a9bcd601"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Basset hound",
+      "aliases": [
+        "Basset"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Bvdb-bassethound2.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Basset",
+      "id": "pies-f5aad76d9d7eafb9db72"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Bokser",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Boxer_female_brown.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Bokser_(rasa_psa)",
+      "id": "pies-c38c67cf0f654c988549"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Rottweiler",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Rottweiler.jpg/960px-Rottweiler.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Rottweiler",
+      "id": "pies-554e830c002b1b3c3c56"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Border collie",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Border_Collie_600.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Border_collie",
+      "id": "pies-8de2d48c6758d88949be"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Berneński pies pasterski",
+      "aliases": [
+        "Berneńczyk"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/Berner_sennhund.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Berne%C5%84ski_pies_pasterski",
+      "id": "pies-de7e9d9c7d67c82511bf"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Shar pei",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Henry_wikipedia.jpg/960px-Henry_wikipedia.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Shar_pei",
+      "id": "pies-029189e2cb69d1e0b4f0"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Bernardyn",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Hummel_Vedor_vd_Robandahoeve.jpg/960px-Hummel_Vedor_vd_Robandahoeve.jpg",
+      "source": "https://en.wikipedia.org/wiki/St._Bernard_(dog_breed)",
+      "id": "pies-ed5dbb685b4ed56d9466"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Shiba inu",
+      "aliases": [
+        "Shiba"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Shiba_Inu.jpg/960px-Shiba_Inu.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Shiba",
+      "id": "pies-c89d9d6a04decb1d1914"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Szpic miniaturowy",
+      "aliases": [
+        "Pomeranian",
+        "Szpic"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/%D0%9F%D0%BE%D0%BC%D0%B5%D1%80%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%88%D0%BF%D0%B8%D1%86_%28Pomeranian%29_01.jpg/960px-%D0%9F%D0%BE%D0%BC%D0%B5%D1%80%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%88%D0%BF%D0%B8%D1%86_%28Pomeranian%29_01.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Szpic_miniaturowy",
+      "id": "pies-afed1ac53e9c68804b90"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Pudel",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Full_attention_%288067543690%29.jpg/960px-Full_attention_%288067543690%29.jpg",
+      "source": "https://en.wikipedia.org/wiki/Poodle",
+      "id": "pies-5adc591cbfe2c4fc8a2b"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Labrador retriever",
+      "aliases": [
+        "Labrador"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/YellowLabradorLooking_new.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Labrador_retriever",
+      "id": "pies-cf32392208bcc0c828b3"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Owczarek australijski",
+      "aliases": [
+        "Australian shepherd",
+        "Aussie"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Australian_Shepherd_red_bi.JPG/960px-Australian_Shepherd_red_bi.JPG",
+      "source": "https://en.wikipedia.org/wiki/Australian_Shepherd",
+      "id": "pies-d616e2ce024df5434b74"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Mops",
+      "aliases": [
+        "Pug"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Mops_oct09_cropped2.jpg/960px-Mops_oct09_cropped2.jpg",
+      "source": "https://en.wikipedia.org/wiki/Pug",
+      "id": "pies-edb0c3afd27f3e985b5f"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Chihuahua",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Chihuahua1_bvdb.jpg",
+      "source": "https://en.wikipedia.org/wiki/Chihuahua_(dog_breed)",
+      "id": "pies-336756d1a537fccdb2b2"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Doberman",
+      "aliases": [
+        "Dobermann"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Dobermann_handling.jpg/960px-Dobermann_handling.jpg",
+      "source": "https://en.wikipedia.org/wiki/Dobermann",
+      "id": "pies-58bb1a9740c4b27d906e"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Nowofundland",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Newfoundland_dog_Smoky.jpg/960px-Newfoundland_dog_Smoky.jpg",
+      "source": "https://en.wikipedia.org/wiki/Newfoundland_dog",
+      "id": "pies-a05df9aaf193be34fac5"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Samojed",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Samojed00.jpg/960px-Samojed00.jpg",
+      "source": "https://en.wikipedia.org/wiki/Samoyed_dog",
+      "id": "pies-b11d119771954dbf56e5"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Cane corso",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Cane_corso_temi_1_1024x768x24.png",
+      "source": "https://pl.wikipedia.org/wiki/Cane_corso",
+      "id": "pies-a073393946bd56d29136"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Airedale terrier",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Airedale_terrier_744.jpg/960px-Airedale_terrier_744.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Airedale_terrier",
+      "id": "pies-bb72780c77a812be125c"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Bearded collie",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Bearded_collie_and_a_rope.jpg/960px-Bearded_collie_and_a_rope.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Bearded_collie",
+      "id": "pies-78c5ed2193b3133c8ddb"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "West highland white terrier",
+      "aliases": [
+        "Westie"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/West_Highland_White_Terrier-2.jpg",
+      "source": "https://pl.wikipedia.org/wiki/West_Highland_white_terrier",
+      "id": "pies-f182fea8215c16f94871"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Owczarek kaukaski",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Owczarek_kaukaski_65556.jpg/960px-Owczarek_kaukaski_65556.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Owczarek_kaukaski",
+      "id": "pies-aea8da823bb02b9b9bc8"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Owczarek belgijski",
+      "aliases": [
+        "Tervueren",
+        "Groenendael"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/MEN_Belgian_Groenendael.jpg/960px-MEN_Belgian_Groenendael.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Owczarek_belgijski",
+      "id": "pies-0e0bff8eb41c045a96a0"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Owczarek szetlandzki",
+      "aliases": [
+        "Sheltie"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/ShetlandShpdogBlue2_wb.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Owczarek_szetlandzki",
+      "id": "pies-05278319d3b96df02366"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Seter irlandzki",
+      "aliases": [
+        "Seter"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Can_Setter_dog_GFDL.jpg/960px-Can_Setter_dog_GFDL.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Seter_irlandzki",
+      "id": "pies-1b79eeac99e3b59033f8"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Gończy polski",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/%D0%A4%D0%B0%D0%B3%D0%BE%D1%82_3%D0%B0_-%D0%BB%D1%83%D1%87%D1%88%D0%B0%D1%8F.jpg/960px-%D0%A4%D0%B0%D0%B3%D0%BE%D1%82_3%D0%B0_-%D0%BB%D1%83%D1%87%D1%88%D0%B0%D1%8F.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Go%C5%84czy_polski",
+      "id": "pies-f43c18c7d68640892ce2"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Chart polski",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Chart_polski_200_LM.jpg/960px-Chart_polski_200_LM.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Chart_polski",
+      "id": "pies-78ccba56bf4c381bacb3"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Welsh corgi pembroke",
+      "aliases": [
+        "Corgi"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Pembroke_Welsh_Corgi_600.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Welsh_Corgi_Pembroke",
+      "id": "pies-879f84dd0a76e4e49631"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Basenji",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/59/Basenji_600.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Basenji",
+      "id": "pies-05102cc431b4cd8822a7"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Owczarek szkocki długowłosy",
+      "aliases": [
+        "Collie",
+        "Lassie"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Rough-Collie-japan08_%28cropped%29.jpg/960px-Rough-Collie-japan08_%28cropped%29.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Owczarek_szkocki_d%C5%82ugow%C5%82osy",
+      "id": "pies-5e4e4c566c7efe5de0f8"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Beauceron",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Owczarek_francuski_beauceron_009pl.jpg/960px-Owczarek_francuski_beauceron_009pl.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Owczarek_francuski_beauceron",
+      "id": "pies-e89d295e650736ae5ccf"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Whippet",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/WhippetWhiteSaddled_wb.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Whippet",
+      "id": "pies-3063139199fb2fd3e7b5"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Pies faraona",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Pies_faraona_e34_corected_parka.jpg/960px-Pies_faraona_e34_corected_parka.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Pies_faraona",
+      "id": "pies-556970b9b4c625b941f0"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Sznaucer miniaturowy",
+      "aliases": [
+        "Sznaucer"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Miniature_Schnauzer_02.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Sznaucer_miniaturowy",
+      "id": "pies-ad568f4c0080549bc6a6"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Leonberger",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Leonberg-Male-Adulte-Ursus.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Leonberger",
+      "id": "pies-5fec7994a5ce49c8fd43"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Rhodesian ridgeback",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Akani_Stehbild.JPG/960px-Akani_Stehbild.JPG",
+      "source": "https://pl.wikipedia.org/wiki/Rhodesian_ridgeback",
+      "id": "pies-27ed69fb0d20f8f24960"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Mastif tybetański",
+      "aliases": [
+        "Mastif"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Mastif_tybeta%C5%84ski_2009_pl3.jpg/960px-Mastif_tybeta%C5%84ski_2009_pl3.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Mastif_tybeta%C5%84ski",
+      "id": "pies-f3d706150c6650d1416a"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Lhasa apso",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/IMG_0258_-_Lhasa_Apso_f%C3%AAmea_de_6_meses.jpg/960px-IMG_0258_-_Lhasa_Apso_f%C3%AAmea_de_6_meses.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Lhasa_apso",
+      "id": "pies-aa70860cf1b61402b4ec"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Wyżeł niemiecki krótkowłosy",
+      "aliases": [
+        "Wyżeł"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/GermanShorthPtr_wb.jpg",
+      "source": "https://pl.wikipedia.org/wiki/Wy%C5%BCe%C5%82_niemiecki_kr%C3%B3tkow%C5%82osy",
+      "id": "pies-785a4bcc7e8b87b447b4"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Wyżeł weimarski",
+      "aliases": [
+        "Weimaraner"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Weimaraner_Freika-2.jpg/960px-Weimaraner_Freika-2.jpg",
+      "source": "https://en.wikipedia.org/wiki/Weimaraner",
+      "id": "pies-cd5262ca94fbb39ce8bf"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Papillon",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Outdoor_Continental_Toy_Spaniel_Papillon.jpeg/960px-Outdoor_Continental_Toy_Spaniel_Papillon.jpeg",
+      "source": "https://en.wikipedia.org/wiki/Continental_Toy_Spaniel",
+      "id": "pies-557e0f0423a3d7898af3"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Jack Russell terier",
+      "aliases": [
+        "Jack Russell"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Jack_Russell_Terrier_1.jpg/960px-Jack_Russell_Terrier_1.jpg",
+      "source": "https://en.wikipedia.org/wiki/Jack_Russell_Terrier",
+      "id": "pies-533c963418659c203875"
+    },
+    {
+      "prompt": "Jaka to rasa psa?",
+      "answer": "Bichon frisé",
+      "aliases": [
+        "Bichon"
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Bichon_Fris%C3%A9_-_studdogbichon.jpg/960px-Bichon_Fris%C3%A9_-_studdogbichon.jpg",
+      "source": "https://en.wikipedia.org/wiki/Bichon_Fris%C3%A9",
+      "id": "pies-f163ee3ff639c554f022"
+    }
+  ],
+  "Soundtrack": [
+    {
+      "prompt": "Z jakiego serialu pochodzi ta muzyka?",
+      "answer": "Gra o tron",
+      "aliases": [
+        "Game of Thrones"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/61/28/ad/6128ade4-d49a-3811-df92-b231bb3b3803/mzaf_1140403213038657471.plus.aac.p.m4a",
+      "explanation": "Utwór: Main Title – Ramin Djawadi.",
+      "source": "https://music.apple.com/us/album/main-title/1440798940",
+      "id": "ost-d9df3df90c0dd2ebe6dc"
+    },
+    {
+      "prompt": "Z jakiego serialu pochodzi ta muzyka?",
+      "answer": "Stranger Things",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/92/6f/ed/926fed10-ec76-2790-4b24-7fa4af34cea0/mzaf_10795859141048042074.plus.aac.p.m4a",
+      "explanation": "Utwór: Stranger Things – Kyle Dixon & Michael Stein.",
+      "source": "https://music.apple.com/us/album/stranger-things/1143131526",
+      "id": "ost-392719e7a1a82c8fb46d"
+    },
+    {
+      "prompt": "Z jakiego serialu pochodzi ta muzyka?",
+      "answer": "Przyjaciele",
+      "aliases": [
+        "Friends"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d1/e4/9e/d1e49e0b-ff45-ed0e-fa77-5b6e9a5a7ecd/mzaf_10467587259594931193.plus.aac.p.m4a",
+      "explanation": "Utwór: I'll Be There for You (Theme from Friends) – The Rembrandts.",
+      "source": "https://music.apple.com/us/album/ill-be-there-for-you-theme-from-friends/373220996",
+      "id": "ost-69aa0a5917474cd9ce18"
+    },
+    {
+      "prompt": "Z jakiego serialu pochodzi ta muzyka?",
+      "answer": "Simpsonowie",
+      "aliases": [
+        "The Simpsons"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/34/03/62/340362ed-2d3d-0e68-7aeb-3a9244ba71d6/mzaf_9875255433442971854.plus.aac.p.m4a",
+      "explanation": "Utwór: The Simpsons Theme (Orchestral Version) – Danny Elfman.",
+      "source": "https://music.apple.com/us/album/the-simpsons-theme-orchestral-version/260227733",
+      "id": "ost-fa3920dd772eca38e0af"
+    },
+    {
+      "prompt": "Z jakiego serialu pochodzi ta muzyka?",
+      "answer": "Breaking Bad",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9c/61/71/9c61717f-7a4f-bf2b-bb35-1d3242c6171a/mzaf_18044662754790952154.plus.aac.p.m4a",
+      "explanation": "Utwór: Breaking Bad - Main Title Theme (Extended) – Dave Porter.",
+      "source": "https://music.apple.com/us/album/breaking-bad-main-title-theme-extended/553068780",
+      "id": "ost-db8b104dff8059820d88"
+    },
+    {
+      "prompt": "Z jakiego serialu pochodzi ta muzyka?",
+      "answer": "Wiedźmin (serial Netflix)",
+      "aliases": [
+        "Wiedźmin",
+        "The Witcher"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bd/c0/a0/bdc0a0c1-bc62-0a40-6e20-07d8bb7c70af/mzaf_6834707481262613789.plus.aac.p.m4a",
+      "explanation": "Utwór: Toss a Coin to Your Witcher – Sonya Belousova, Giona Ostinelli & Joey Batey.",
+      "source": "https://music.apple.com/us/album/toss-a-coin-to-your-witcher/1495203855",
+      "id": "ost-8c395d5e87c89ee9ad3b"
+    },
+    {
+      "prompt": "Z jakiego serialu pochodzi ta muzyka?",
+      "answer": "Peaky Blinders",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/08/f4/ee/08f4ee19-dc85-421f-e485-9c811d9b55cd/mzaf_17019392002440117105.plus.aac.p.m4a",
+      "explanation": "Utwór: Red Right Hand (2011 Remaster) – Nick Cave & The Bad Seeds.",
+      "source": "https://music.apple.com/us/album/red-right-hand-2011-remaster/1435811806",
+      "id": "ost-58a3925aa6e96e525f68"
+    },
+    {
+      "prompt": "Z jakiego serialu pochodzi ta muzyka?",
+      "answer": "Dom z papieru",
+      "aliases": [
+        "La Casa de Papel",
+        "Money Heist"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ca/47/9b/ca479b14-5c55-22e1-4afe-c5497735df66/mzaf_18311470039273782382.plus.aac.p.m4a",
+      "explanation": "Utwór: Bella Ciao (Música Original de la Serie La Casa de Papel / Money Heist) – Manu Pilas.",
+      "source": "https://music.apple.com/us/album/bella-ciao-m%C3%BAsica-original-de-la-serie-la-casa-de/1375773395",
+      "id": "ost-7b78b6a42b99feb942d6"
+    },
+    {
+      "prompt": "Z jakiego serialu pochodzi ta muzyka?",
+      "answer": "The Office",
+      "aliases": [
+        "Biuro"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/4b/22/6d/4b226d0d-58b6-0c36-55e0-89bdf4e7752c/mzaf_1713206691355772050.plus.aac.p.m4a",
+      "explanation": "Utwór: The Theme From The Office (Piano Version) – Piano Geek.",
+      "source": "https://music.apple.com/us/album/the-theme-from-the-office-piano-version/1690892933",
+      "id": "ost-3313cebc4030f5044c17"
+    },
+    {
+      "prompt": "Z jakiego serialu pochodzi ta muzyka?",
+      "answer": "Westworld",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ce/de/8b/cede8b3f-4137-c6f1-e17a-3b0f619f7ed4/mzaf_9634988424484271208.plus.aac.p.m4a",
+      "explanation": "Utwór: Main Title Theme - Westworld – Ramin Djawadi.",
+      "source": "https://music.apple.com/us/album/main-title-theme-westworld/1454372369",
+      "id": "ost-8675119972f765fc2365"
+    },
+    {
+      "prompt": "Z jakiego serialu pochodzi ta muzyka?",
+      "answer": "Sherlock",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/84/f3/22/84f32250-60b3-663a-7f0f-22076de1b202/mzaf_1752963107812549298.plus.aac.p.m4a",
+      "explanation": "Utwór: Opening Titles – David Arnold & Michael Price.",
+      "source": "https://music.apple.com/us/album/opening-titles/1833087247",
+      "id": "ost-8656afa00c1cfc079e58"
+    },
+    {
+      "prompt": "Z jakiego serialu pochodzi ta muzyka?",
+      "answer": "Doktor Who",
+      "aliases": [
+        "Doctor Who"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/46/20/a4462088-29b2-9e84-a89e-0af2fd26ac59/mzaf_9446909286615454483.plus.aac.p.m4a",
+      "explanation": "Utwór: Doctor Who Theme – Murray Gold.",
+      "source": "https://music.apple.com/us/album/doctor-who-theme/1833054256",
+      "id": "ost-0015d9db5b21bd7e7885"
+    },
+    {
+      "prompt": "Z jakiego serialu pochodzi ta muzyka?",
+      "answer": "Z archiwum X",
+      "aliases": [
+        "Archiwum X",
+        "The X-Files"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b0/0f/ec/b00fec22-2749-9398-20fa-a870aa98d2c9/mzaf_1245217720179294212.plus.aac.p.m4a",
+      "explanation": "Utwór: Materia Primoris: The X-Files Theme (Main Title) – Mark Snow & Chris Carter.",
+      "source": "https://music.apple.com/us/album/materia-primoris-the-x-files-theme-main-title/95845583",
+      "id": "ost-73917066bffae2a6d7b2"
+    },
+    {
+      "prompt": "Z jakiego serialu pochodzi ta muzyka?",
+      "answer": "Twin Peaks",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/85/e3/3d/85e33d82-6a63-0117-5907-931677ba10e3/mzaf_17387001389429707570.plus.aac.p.m4a",
+      "explanation": "Utwór: Twin Peaks Theme – Angelo Badalamenti.",
+      "source": "https://music.apple.com/us/album/twin-peaks-theme/374382340",
+      "id": "ost-f70feb029416aed202f7"
+    },
+    {
+      "prompt": "Z jakiego serialu pochodzi ta muzyka?",
+      "answer": "Wednesday",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a3/6c/f9/a36cf9d4-cef8-ce63-1f3f-6827b018c7ac/mzaf_15528022977642301390.plus.aac.p.m4a",
+      "explanation": "Utwór: Wednesday Main Titles – Danny Elfman.",
+      "source": "https://music.apple.com/us/album/wednesday-main-titles/1653488148",
+      "id": "ost-c39509d57765705d9d7f"
+    },
+    {
+      "prompt": "Z jakiego serialu pochodzi ta muzyka?",
+      "answer": "The Mandalorian",
+      "aliases": [
+        "Mandalorian"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7f/7f/06/7f7f0624-697c-a5a6-28ba-0315c7565139/mzaf_6538370982614567471.plus.aac.p.m4a",
+      "explanation": "Utwór: The Mandalorian – Ludwig Göransson.",
+      "source": "https://music.apple.com/us/album/the-mandalorian/1486687329",
+      "id": "ost-35550143719703d1a86b"
+    },
+    {
+      "prompt": "Z jakiego serialu pochodzi ta muzyka?",
+      "answer": "Squid Game",
+      "aliases": [
+        "Gra w kalmara"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d7/20/ad/d720ad12-4218-a259-63f9-da61e54ad95d/mzaf_849333195698017388.plus.aac.p.m4a",
+      "explanation": "Utwór: Way Back then – Jung Jae Il.",
+      "source": "https://music.apple.com/us/album/way-back-then/1585115797",
+      "id": "ost-61a169d32fe26c9ac9fe"
+    },
+    {
+      "prompt": "Z jakiego serialu pochodzi ta muzyka?",
+      "answer": "Pokémon",
+      "aliases": [
+        "Pokemon"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/66/fd/21/66fd2195-6cc6-b466-8b78-6c3d27abdb21/mzaf_2433850336671177662.plus.aac.p.m4a",
+      "explanation": "Utwór: Pokémon Theme (feat. Jason Paige) – Jonathan Young.",
+      "source": "https://music.apple.com/us/album/pok%C3%A9mon-theme-feat-jason-paige/1700737804",
+      "id": "ost-5400ce1da60fc44269b8"
+    },
+    {
+      "prompt": "Z jakiego serialu pochodzi ta muzyka?",
+      "answer": "Teoria wielkiego podrywu",
+      "aliases": [
+        "The Big Bang Theory"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c4/ae/a0/c4aea056-8fc5-fff9-6c61-74fe6f7734ca/mzaf_170073029966653320.plus.aac.p.m4a",
+      "explanation": "Utwór: Big Bang Theory Theme – Barenaked Ladies.",
+      "source": "https://music.apple.com/us/album/big-bang-theory-theme/464675942",
+      "id": "ost-1f224175ad36804eeeaa"
+    },
+    {
+      "prompt": "Z jakiego serialu pochodzi ta muzyka?",
+      "answer": "Sukcesja",
+      "aliases": [
+        "Succession"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1a/56/0d/1a560db6-2ec9-e160-3bc5-bbb3bb9940ea/mzaf_10340756199296060404.plus.aac.p.m4a",
+      "explanation": "Utwór: Succession (Main Title Theme) – Nicholas Britell.",
+      "source": "https://music.apple.com/us/album/succession-main-title-theme/1500926125",
+      "id": "ost-9bcba42a0605fce6698a"
+    },
+    {
+      "prompt": "Z jakiego serialu pochodzi ta muzyka?",
+      "answer": "Arcane",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/06/c7/6b/06c76b8a-fce8-a774-ff56-25ecb03d14cd/mzaf_16963237086113061729.plus.aac.p.m4a",
+      "explanation": "Utwór: Enemy (from the series Arcane League of Legends) [feat. JID] – Imagine Dragons.",
+      "source": "https://music.apple.com/us/album/enemy-from-the-series-arcane-league-of-legends-feat-jid/1748186906",
+      "id": "ost-ed7c9eaf3f7618e828f6"
+    },
+    {
+      "prompt": "Z jakiego serialu pochodzi ta muzyka?",
+      "answer": "Narcos",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7a/8c/a5/7a8ca5c1-7a64-e96e-bed9-c4fa079a9141/mzaf_13979939506381741705.plus.aac.p.m4a",
+      "explanation": "Utwór: Tuyo (Narcos Theme) [Extended Version] – Rodrigo Amarante.",
+      "source": "https://music.apple.com/us/album/tuyo-narcos-theme-extended-version/1441988705",
+      "id": "ost-0693c9790b59dfe32372"
+    },
+    {
+      "prompt": "Z jakiego serialu pochodzi ta muzyka?",
+      "answer": "Dexter",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/42/98/77/429877b2-dbea-096b-da35-849cd8c0d13c/mzaf_16055865117540989277.plus.aac.p.m4a",
+      "explanation": "Utwór: Blood Theme – Daniel Licht.",
+      "source": "https://music.apple.com/us/album/blood-theme/1534802064",
+      "id": "ost-34d7d38561d2edb3e5ad"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Gwiezdne wojny",
+      "aliases": [
+        "Star Wars"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e3/e1/fd/e3e1fdec-3483-fb83-3041-d01577fd1415/mzaf_13690916780854407664.plus.aac.p.m4a",
+      "explanation": "Utwór: Main Title – John Williams & London Symphony Orchestra.",
+      "source": "https://music.apple.com/us/album/main-title/1375814280",
+      "id": "ost-48cabc7c9acf02bd3883"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Harry Potter",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/81/ee/ae/81eeae0a-da63-1fc7-42c1-21b498b85de8/mzaf_13621452881875123588.plus.aac.p.m4a",
+      "explanation": "Utwór: Hedwig's Theme – John Williams.",
+      "source": "https://music.apple.com/us/album/hedwigs-theme/89286124",
+      "id": "ost-6c04b00a944d2928eb25"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Piraci z Karaibów",
+      "aliases": [
+        "Pirates of the Caribbean"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0d/21/07/0d2107c4-573b-6649-229e-e715501010cc/mzaf_8361386078907471110.plus.aac.p.m4a",
+      "explanation": "Utwór: He's a Pirate – Klaus Badelt.",
+      "source": "https://music.apple.com/us/album/hes-a-pirate/1440649561",
+      "id": "ost-b7387af6b27fa0ab7e19"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Władca Pierścieni",
+      "aliases": [
+        "Lord of the Rings",
+        "Hobbit"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cd/1e/2c/cd1e2c74-a074-aa60-ec24-8abee7dcec43/mzaf_12399500222028997548.plus.aac.p.m4a",
+      "explanation": "Utwór: Concerning Hobbits – Howard Shore.",
+      "source": "https://music.apple.com/us/album/concerning-hobbits/323714092",
+      "id": "ost-1d27bd8b7a2440668007"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Park Jurajski",
+      "aliases": [
+        "Jurassic Park"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/45/0c/30/450c30bc-c7c9-6ceb-352a-a78c4304eebf/mzaf_6333901715385654004.plus.aac.p.m4a",
+      "explanation": "Utwór: Theme from Jurassic Park – John Williams.",
+      "source": "https://music.apple.com/us/album/theme-from-jurassic-park/1440860715",
+      "id": "ost-3df9b3031589a7ca226a"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Titanic",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ad/10/9c/ad109c62-aa02-8345-bfcc-b50f98345475/mzaf_3279697888712975539.plus.aac.p.m4a",
+      "explanation": "Utwór: My Heart Will Go On (Love Theme from \"Titanic\") – Céline Dion.",
+      "source": "https://music.apple.com/us/album/my-heart-will-go-on-love-theme-from-titanic/479204871",
+      "id": "ost-77b4e05879b16b2e27f8"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Incepcja",
+      "aliases": [
+        "Inception"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e0/1d/a4/e01da4a2-a75f-7ebf-9971-3d49e17efc57/mzaf_10500078769097048384.plus.aac.p.m4a",
+      "explanation": "Utwór: Time – Hans Zimmer.",
+      "source": "https://music.apple.com/us/album/time/380349905",
+      "id": "ost-3629689be4753e9e6473"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Interstellar",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3a/ee/23/3aee2300-f6f7-a006-e20f-28092e814cbe/mzaf_1624587954644600228.plus.aac.p.m4a",
+      "explanation": "Utwór: Cornfield Chase – Hans Zimmer.",
+      "source": "https://music.apple.com/us/album/cornfield-chase/1533983552",
+      "id": "ost-7f33b300ea64bc2b5f94"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Gladiator",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4d/97/ef/4d97ef0a-95dc-71e4-1e2b-341b689811e1/mzaf_9350860243143028772.plus.aac.p.m4a",
+      "explanation": "Utwór: Now We Are Free (From \"Gladiator\" - Piano Version) – Tony Ann.",
+      "source": "https://music.apple.com/us/album/now-we-are-free-from-gladiator-piano-version/1775640281",
+      "id": "ost-ff5eae0eb589e4b2222a"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Ojciec chrzestny",
+      "aliases": [
+        "The Godfather"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/06/11/62/06116258-fc4e-f597-1839-36276e22a912/mzaf_3240631145393457695.plus.aac.p.m4a",
+      "explanation": "Utwór: The Godfather (Love Theme, Godfather Waltz) – John Williams, Christopher Gunning, Laurence Cottle, Ralph Salmins, Harold Fisher, Ian Thomas & Chris Laurence Quartet.",
+      "source": "https://music.apple.com/us/album/the-godfather-love-theme-godfather-waltz/251031212",
+      "id": "ost-32a917a9f2e7a805db81"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Rocky",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ea/02/6d/ea026df4-5a5d-f6a0-c526-2a9958c4c22a/mzaf_6885755452086543650.plus.aac.p.m4a",
+      "explanation": "Utwór: Gonna Fly Now (Theme From \"Rocky\") – Bill Conti.",
+      "source": "https://music.apple.com/us/album/gonna-fly-now-theme-from-rocky/1440832384",
+      "id": "ost-8028073590a9b442f1c3"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Mission: Impossible",
+      "aliases": [
+        "Mission Impossible"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a1/30/42/a130425e-7e99-b009-8ddf-92ea7f6b5a07/mzaf_6415795277487142180.plus.aac.p.m4a",
+      "explanation": "Utwór: Mission Impossible – Benjamin Koppel.",
+      "source": "https://music.apple.com/us/album/mission-impossible/140798454",
+      "id": "ost-fe7ac8fd8a76a66b3d21"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "James Bond",
+      "aliases": [
+        "007",
+        "Bond"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/06/72/23/067223d3-48bb-a2d9-2c5d-0a07a6c2266e/mzaf_4447374998433111803.plus.aac.p.m4a",
+      "explanation": "Utwór: James Bond Theme – Monty Norman.",
+      "source": "https://music.apple.com/us/album/james-bond-theme/1720641174",
+      "id": "ost-f672c2c01a61890de417"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Szczęki",
+      "aliases": [
+        "Jaws"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/82/25/37/822537d1-c0b2-a7e2-ba19-1e7f0fdbe353/mzaf_6120124686821600101.plus.aac.p.m4a",
+      "explanation": "Utwór: Main Title (Theme From Jaws) [From \"Jaws\" - 2025 Mix] – John Williams.",
+      "source": "https://music.apple.com/us/album/main-title-theme-from-jaws-from-jaws-2025-mix/1842228946",
+      "id": "ost-a94dc594dc8ca5bcbef5"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Powrót do przyszłości",
+      "aliases": [
+        "Back to the Future"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4e/c4/1c/4ec41ceb-e46a-a896-67c8-a2c08fa6c926/mzaf_906025227683505700.plus.aac.p.m4a",
+      "explanation": "Utwór: Back to the Future – Cincinnati Pops Orchestra & Erich Kunzel.",
+      "source": "https://music.apple.com/us/album/back-to-the-future/1689489652",
+      "id": "ost-542de4a1f954cd47f1b3"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Indiana Jones",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3c/d5/1d/3cd51d95-0ee5-f5fe-ced2-12d8a854361b/mzaf_2431570209513524121.plus.aac.p.m4a",
+      "explanation": "Utwór: Raiders March – John Williams.",
+      "source": "https://music.apple.com/us/album/raiders-march/1400941439",
+      "id": "ost-0ba8c29bb30f95f0c097"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Avengers",
+      "aliases": [
+        "Marvel"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bf/a7/9f/bfa79f79-b635-0f8c-d72f-e59db79108af/mzaf_9009025771638181825.plus.aac.p.m4a",
+      "explanation": "Utwór: The Avengers – Alan Silvestri.",
+      "source": "https://music.apple.com/us/album/the-avengers/1440663549",
+      "id": "ost-0cf99649fd27629c8521"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Król Lew",
+      "aliases": [
+        "The Lion King"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/de/68/ff/de68ff74-8d57-4ffa-3213-3bfacfd7fccd/mzaf_17159708243614599622.plus.aac.p.m4a",
+      "explanation": "Utwór: Circle of Life – Elton John.",
+      "source": "https://music.apple.com/us/album/circle-of-life/1440922045",
+      "id": "ost-4c0f2e64ec7382471769"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Kraina lodu",
+      "aliases": [
+        "Frozen"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/93/31/95/9331954b-fc48-02e9-012a-3a7d0dc58176/mzaf_1727617716071184026.plus.aac.p.m4a",
+      "explanation": "Utwór: Let It Go (Live) – Idina Menzel.",
+      "source": "https://music.apple.com/us/album/let-it-go-live/1435232158",
+      "id": "ost-b0efb6e9a3453f9ad48a"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Shrek",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b0/03/ef/b003ef4c-1a22-6b15-e851-fb106ad96a3b/mzaf_3320656447657988367.plus.aac.p.m4a",
+      "explanation": "Utwór: All Star – Smash Mouth.",
+      "source": "https://music.apple.com/us/album/all-star/1440915299",
+      "id": "ost-66581a5b03b94af8e5cb"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Pogromcy duchów",
+      "aliases": [
+        "Ghostbusters"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/63/8b/e3/638be3a1-2f5e-5cff-9b58-085e3b793cbd/mzaf_10733010531783613784.plus.aac.p.m4a",
+      "explanation": "Utwór: Ghostbusters – Ray Parker Jr..",
+      "source": "https://music.apple.com/us/album/ghostbusters/1484413132",
+      "id": "ost-53714f43f7317f5cac00"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Dobry, zły i brzydki",
+      "aliases": [
+        "The Good, the Bad and the Ugly"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b0/99/86/b09986f5-ef2c-801f-ec3a-f6f2e7189826/mzaf_9640375822381239964.plus.aac.p.m4a",
+      "explanation": "Utwór: The Good, The Bad & The Ugly (Main Title) – Ennio Morricone.",
+      "source": "https://music.apple.com/us/album/the-good-the-bad-the-ugly-main-title/715628596",
+      "id": "ost-f63f09ef947260c36752"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Różowa Pantera",
+      "aliases": [
+        "Pink Panther"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9c/32/21/9c3221dd-c7dc-d19d-670f-df0b80e0a91e/mzaf_9456345790871928238.plus.aac.p.m4a",
+      "explanation": "Utwór: The Pink Panther Theme – Henry Mancini.",
+      "source": "https://music.apple.com/us/album/the-pink-panther-theme/298379568",
+      "id": "ost-1e84914ea409a584e11a"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Terminator",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/3f/5a/6e/3f5a6e14-21c9-d829-3a31-49bd3a231ddf/mzaf_13833130904286083056.plus.aac.p.m4a",
+      "explanation": "Utwór: The Terminator Theme (Extended Version) – The Blue Book Project & Brad Fiedel.",
+      "source": "https://music.apple.com/us/album/the-terminator-theme-extended-version/1707200309",
+      "id": "ost-d1f8485039353789928a"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Gliniarz z Beverly Hills",
+      "aliases": [
+        "Beverly Hills Cop",
+        "Axel F"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e1/31/07/e13107cd-a42a-6ee0-5892-ec309ec6c29a/mzaf_8746621503574613845.plus.aac.p.m4a",
+      "explanation": "Utwór: Axel F – Harold Faltermeyer.",
+      "source": "https://music.apple.com/us/album/axel-f/1458388091",
+      "id": "ost-347c2941fa475e87f153"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Kevin sam w domu",
+      "aliases": [
+        "Home Alone"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3e/05/43/3e05439d-f3f4-3198-a1ee-bc2c42630a93/mzaf_9781291485407434494.plus.aac.p.m4a",
+      "explanation": "Utwór: Somewhere in My Memory (Chorus & Orchestra Version) – John Williams.",
+      "source": "https://music.apple.com/us/album/somewhere-in-my-memory-chorus-orchestra-version/1049526462",
+      "id": "ost-661dfc4a21d7d991cf8c"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Amelia",
+      "aliases": [
+        "Amélie"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ea/78/de/ea78dea2-7918-06da-0ac9-2dbc1bfc19e9/mzaf_13999537520320823994.plus.aac.p.m4a",
+      "explanation": "Utwór: Comptine d’un autre été – James Malikey.",
+      "source": "https://music.apple.com/us/album/comptine-dun-autre-%C3%A9t%C3%A9/1776190175",
+      "id": "ost-d2cafba869cbb44a7328"
+    },
+    {
+      "prompt": "Z jakiego filmu pochodzi ta muzyka?",
+      "answer": "Toy Story",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a7/4a/62/a74a6216-4089-827b-a236-44d122afb0f8/mzaf_11063805966845526577.plus.aac.p.m4a",
+      "explanation": "Utwór: You've Got a Friend In Me (From \"Toy Story\") – Randy Newman.",
+      "source": "https://music.apple.com/us/album/youve-got-a-friend-in-me-from-toy-story/1440669681",
+      "id": "ost-c6e50c07ed4148744c2a"
+    },
+    {
+      "prompt": "Z jakiej gry pochodzi ta muzyka?",
+      "answer": "Wiedźmin 3: Dziki Gon",
+      "aliases": [
+        "Wiedźmin 3",
+        "The Witcher 3"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/52/2f/35/522f358c-8ef5-b0bf-aa0f-dd5c20e2dc1b/mzaf_1209768465440201593.plus.aac.p.m4a",
+      "explanation": "Utwór: Geralt Of Rivia – Marcin Przybylowicz.",
+      "source": "https://music.apple.com/us/album/geralt-of-rivia/1333501415",
+      "id": "ost-145b0aaae55316cba2e6"
+    },
+    {
+      "prompt": "Z jakiej gry pochodzi ta muzyka?",
+      "answer": "Minecraft",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/af/31/01/af310107-0572-ec8a-0e8b-d99035407230/mzaf_13152283240780583171.plus.aac.p.m4a",
+      "explanation": "Utwór: Sweden – C418.",
+      "source": "https://music.apple.com/us/album/sweden/1867885113",
+      "id": "ost-280c7c1e500e45e70fae"
+    },
+    {
+      "prompt": "Z jakiej gry pochodzi ta muzyka?",
+      "answer": "Skyrim",
+      "aliases": [
+        "The Elder Scrolls V"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e1/f6/74/e1f6743e-3def-9555-70c6-669174974dc8/mzaf_15684803984770121721.plus.aac.p.m4a",
+      "explanation": "Utwór: Dragonborn – Jeremy Soule.",
+      "source": "https://music.apple.com/us/album/dragonborn/1849547039",
+      "id": "ost-f2984f508717b10d76d3"
+    },
+    {
+      "prompt": "Z jakiej gry pochodzi ta muzyka?",
+      "answer": "Halo",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/10/de/96/10de9690-6342-0d8d-c451-9e9e98e90884/mzaf_270105940492179183.plus.aac.p.m4a",
+      "explanation": "Utwór: Halo Theme Mjolnir Mix – Martin O'Donnell & Michael Salvatori.",
+      "source": "https://music.apple.com/us/album/halo-theme-mjolnir-mix/1682511658",
+      "id": "ost-04ddb55bcc07d33db3e5"
+    },
+    {
+      "prompt": "Z jakiej gry pochodzi ta muzyka?",
+      "answer": "Assassin's Creed II",
+      "aliases": [
+        "Assassin's Creed"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/94/37/f3/9437f37f-fa9f-696c-974b-d988cc5ce17c/mzaf_7338972455251353603.plus.aac.p.m4a",
+      "explanation": "Utwór: Ezio's Family – Jesper Kyd.",
+      "source": "https://music.apple.com/us/album/ezios-family/1640108379",
+      "id": "ost-48b249aafad361cfd0e2"
+    },
+    {
+      "prompt": "Z jakiej gry pochodzi ta muzyka?",
+      "answer": "Undertale",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ff/9d/27/ff9d270c-81b2-df99-80f5-5b87048ae88f/mzaf_16037815512034579723.plus.aac.p.m4a",
+      "explanation": "Utwór: Megalovania – Toby Fox.",
+      "source": "https://music.apple.com/us/album/megalovania/6813342945",
+      "id": "ost-f9e6e3d749f17cd5ba3a"
+    },
+    {
+      "prompt": "Z jakiej gry pochodzi ta muzyka?",
+      "answer": "Doom",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b7/58/5f/b7585fe7-1e9a-7529-fcaa-f5d751405c45/mzaf_1655981182894286296.plus.aac.p.m4a",
+      "explanation": "Utwór: Rip & Tear – Mick Gordon.",
+      "source": "https://music.apple.com/us/album/rip-tear/1885803215",
+      "id": "ost-80b923e41caf0df22fe2"
+    },
+    {
+      "prompt": "Z jakiej gry pochodzi ta muzyka?",
+      "answer": "Red Dead Redemption 2",
+      "aliases": [
+        "Red Dead Redemption"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2c/4f/52/2c4f5212-309a-318a-ad21-1bce5e5e7876/mzaf_10505805150380984454.plus.aac.p.m4a",
+      "explanation": "Utwór: That's the Way It Is – Daniel Lanois.",
+      "source": "https://music.apple.com/us/album/thats-the-way-it-is/1466175399",
+      "id": "ost-e0aa682b1467d2918541"
+    },
+    {
+      "prompt": "Z jakiej gry pochodzi ta muzyka?",
+      "answer": "Portal",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f1/1f/62/f11f6274-a8a4-cbae-24a6-6ac656973033/mzaf_16715459062748520529.plus.aac.p.m4a",
+      "explanation": "Utwór: Still Alive – GLaDOS & Jonathan Coulton.",
+      "source": "https://music.apple.com/us/album/still-alive/270749981",
+      "id": "ost-d769925c37478fea67f8"
+    },
+    {
+      "prompt": "Z jakiej gry pochodzi ta muzyka?",
+      "answer": "God of War",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/68/e9/5d/68e95d05-9864-dbcf-d0ad-65f098d8627b/mzaf_4765404026437475808.plus.aac.p.m4a",
+      "explanation": "Utwór: God of War – Bear McCreary.",
+      "source": "https://music.apple.com/us/album/god-of-war/1370190783",
+      "id": "ost-9355daed0aaf8ec2ce37"
+    },
+    {
+      "prompt": "Z jakiej gry pochodzi ta muzyka?",
+      "answer": "Final Fantasy VII",
+      "aliases": [
+        "Final Fantasy"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a5/ca/81/a5ca8169-028e-cd70-aec4-3855a4e838ca/mzaf_7313271866935078245.plus.aac.p.m4a",
+      "explanation": "Utwór: One-Winged Angel – Nobuo Uematsu & Seiji Honda.",
+      "source": "https://music.apple.com/us/album/one-winged-angel/160212409",
+      "id": "ost-fb02cf79f084cca76f58"
+    },
+    {
+      "prompt": "Z jakiej gry pochodzi ta muzyka?",
+      "answer": "Mass Effect",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/87/09/a0/8709a035-8933-3bad-623d-07e7cbff6b77/mzaf_557909508111113022.plus.aac.p.m4a",
+      "explanation": "Utwór: Vigil – Jack Wall & EA Games Soundtrack.",
+      "source": "https://music.apple.com/us/album/vigil/1477893157",
+      "id": "ost-6cef73d9c93272d85c1d"
+    },
+    {
+      "prompt": "Z jakiej gry pochodzi ta muzyka?",
+      "answer": "Tetris",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/10/9f/36/109f361a-29bc-d83d-5b41-7eedeef239a7/mzaf_14040477490237779150.plus.aac.p.m4a",
+      "explanation": "Utwór: Tetris Theme Korobeiniki (Epic Orchestral Hybrid Cinematic Version) – NoToneTyrone.",
+      "source": "https://music.apple.com/us/album/tetris-theme-korobeiniki-epic-orchestral-hybrid-cinematic/1643714023",
+      "id": "ost-456b63bf98beac348c45"
+    },
+    {
+      "prompt": "Z jakiej gry pochodzi ta muzyka?",
+      "answer": "Cyberpunk 2077",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/05/71/68/05716812-c7b2-4b50-8c5b-6d9be0c74584/mzaf_741602154759635392.plus.aac.p.m4a",
+      "explanation": "Utwór: The Rebel Path – P.T. Adamczyk.",
+      "source": "https://music.apple.com/us/album/the-rebel-path/1544457960",
+      "id": "ost-5477b3b5c88e66c0f9e4"
+    },
+    {
+      "prompt": "Z jakiej gry pochodzi ta muzyka?",
+      "answer": "The Last of Us",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/18/bb/7a/18bb7a0a-10bd-13d7-8d71-78a1c407a5f5/mzaf_7015665378801919271.plus.aac.p.m4a",
+      "explanation": "Utwór: The Last of Us – Gustavo Santaolalla.",
+      "source": "https://music.apple.com/us/album/the-last-of-us/655118434",
+      "id": "ost-d6a4d7dd411469948753"
+    },
+    {
+      "prompt": "Z jakiej gry pochodzi ta muzyka?",
+      "answer": "Angry Birds",
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/4d/6f/434d6f2f-98ef-89f9-a1a0-fd94fd5d7e20/mzaf_4360314660914015329.plus.aac.p.m4a",
+      "explanation": "Utwór: Angry Birds Theme – Ari Pulkkinen.",
+      "source": "https://music.apple.com/us/album/angry-birds-theme/1530256320",
+      "id": "ost-d5cef667826c1dcdc310"
+    },
+    {
+      "prompt": "Z jakiej gry pochodzi ta muzyka?",
+      "answer": "Sonic the Hedgehog",
+      "aliases": [
+        "Sonic"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bc/29/ec/bc29ec63-b15f-fda2-09a8-06aef81f0a79/mzaf_13711292446394599059.plus.aac.p.m4a",
+      "explanation": "Utwór: Sth1 Green Hill Zone (Mega Drive Version) – Masato Nakamura.",
+      "source": "https://music.apple.com/us/album/sth1-green-hill-zone-mega-drive-version/1571062431",
+      "id": "ost-404f7510c40f5932fc87"
+    },
+    {
+      "prompt": "Z jakiej gry pochodzi ta muzyka?",
+      "answer": "GTA: San Andreas",
+      "aliases": [
+        "GTA",
+        "Grand Theft Auto"
+      ],
+      "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e1/d2/9f/e1d29fa9-a174-6cd7-9dae-91218a84689d/mzaf_1707805269116727507.plus.aac.p.m4a",
+      "explanation": "Utwór: Grand Theft Auto: San Andreas (Official Theme Song) – Michael Hunter.",
+      "source": "https://music.apple.com/us/album/grand-theft-auto-san-andreas-official-theme-song/1708262967",
+      "id": "ost-a420b6f2b007c6e726a2"
+    }
   ]
 };

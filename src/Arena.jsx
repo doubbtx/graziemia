@@ -1,5 +1,5 @@
 import React, {useEffect, useRef, useState} from 'react';
-import {CategorySheet, FootballerCard, getCategoryEmoji, InfoButton, PixelTimer, PlayerAvatar, TerritoryTile} from './components.jsx';
+import {CategorySheet, FootballerCard, getCategoryEmoji, InfoButton, PixelTimer, PlayerAvatar, SoundtrackPlayer, TerritoryTile} from './components.jsx';
 import {AudiencePanel, CardPanel, EconomyDialog, QuestionReports, ShopPanel, TeamScreen, plural} from './panels.jsx';
 import {CHOICE_RULE, categoryDescription, isChoiceQuestion} from './categoryInfo.js';
 import './arena.css';
@@ -282,12 +282,12 @@ export default function Arena() {
         {(judge || participant) && <button className="btn btn--primary btn--lg" disabled={disabled || d.ready.includes(me.id)} onClick={() => send('DUEL_READY')}>{d.ready.includes(me.id) ? '✓ Gotowe' : 'Jestem gotowy'}</button>}
       </> : d.status === 'countdown' ? <><span className="eyebrow">Zaczynamy za</span><div className="countdown">{d.countdown}</div></> : <>
         <span className="eyebrow">{d.status === 'paused' ? '⏸ Pauza' : d.status === 'media' ? 'Wczytywanie obrazka · limit 6 s' : 'Odpowiedz na głos'}</span>
-        <div className={'question__body' + (d.fogged && d.turn === me.id && d.status === 'running' ? ' is-fogged' : '')} key={d.questionKey}>
+        <div className={'question__body' + (d.fogged && d.turn === me.id ? ' is-fogged' + (d.status === 'running' ? '' : ' is-held') : '')} key={d.questionKey}>
         {d.footballer ? <FootballerCard footballer={d.footballer}/> : <h2 className="question__prompt">{d.prompt}</h2>}
         {q?.format === 'clues' && <p className="muted small">Sędzia odsłania kolejne wskazówki. Szybka odpowiedź (do 1,5 s) daje dodatkowy punkt.</p>}
         {d.visual && (d.visual.startsWith('📅 ') ? (() => { const [day, ...month] = d.visual.slice(3).split(' '); return <div className="calendar-card" role="img" aria-label={d.visual.slice(3)}><span>{month.join(' ')}</span><b>{day}</b></div>; })() : <div className="visual-riddle" role="img" aria-label="Rebus do rozpoznania">{d.visual}</div>)}
         {d.privateHint && <div className="notice notice--hint">{d.privateHint}</div>}
-        {d.audio && judge && <div><p className="muted small">Odtwórz przez wspólny kanał głosowy. Na czas odsłuchu włącz pauzę.</p><audio controls preload="none" src={d.audio}/></div>}
+        {d.audio && <SoundtrackPlayer src={d.audio} playKey={d.questionKey} running={d.status === 'running'}/>}
         {d.image && imageError !== d.questionKey && <img className="quiz-image" decoding="sync" key={d.questionKey} src={mediaUrl(d.image)} alt="Obrazek do rozpoznania" referrerPolicy="no-referrer" onLoad={() => setLoaded(d.questionKey)} onError={() => { setImageError(d.questionKey); setLoaded(d.questionKey); }}/>}
         {imageError === d.questionKey && (d.emoji ? <div className="emoji-fallback" role="img" aria-label="Ilustracja do rozpoznania">{d.emoji}</div> : <p>Grafika niedostępna. Sędzia może unieważnić pytanie bez kary.</p>)}
         </div>
